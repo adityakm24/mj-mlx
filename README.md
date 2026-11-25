@@ -110,6 +110,33 @@ Batching, sampling, speculative decoding and memory settings: [docs/usage.md](do
 of the model's experts) and prepared weights under `~/Library/Caches/mj-mlx`. `python -m mj_mlx cache list` shows them
 and `python -m mj_mlx cache rm` removes them.
 
+## Experts in memory vs streamed from the SSD (Macs with more memory)
+
+On a Mac with enough memory for the whole model, you can measure what streaming costs by running the same tests with
+the experts in memory and then streamed from the SSD. With Qwen3.6-35B-A3B (a 20.4 GB download):
+
+```bash
+.venv/bin/hf download mlx-community/Qwen3.6-35B-A3B-4bit --local-dir models/qwen36
+```
+
+```bash
+.venv/bin/python tools/mlx_bench_worker.py --engine mj --model models/qwen36 --placement resident --out resident.jsonl
+```
+
+```bash
+.venv/bin/python tools/mlx_bench_worker.py --engine mj --model models/qwen36 --placement stream --slots 96 --out stream.jsonl
+```
+
+- Each run does the published tests (prefill of 512 and 2048 tokens, decode after 0 and 2048 tokens of context, one
+  warm-up and 5 reps each) and prints tok/s per rep; the `.jsonl` file has every rep.
+- `--slots 96` is the number of experts per layer kept in memory, as in the 16 GB results. Without it, a Mac with a
+  lot of memory sizes this cache from its free memory and keeps almost every expert loaded, so the run would not
+  really stream.
+- The first streamed run repacks the experts once (about 17 GB under `~/.cache/mj-mlx`).
+- For fairer numbers, close other heavy apps and alternate the runs: resident, stream, resident, stream.
+- Please share what you get with the "Results from my Mac" issue template. This comparison has not yet been run on a
+  Mac with more than 16 GB, so problems are expected and welcome as issues.
+
 ## Known limitations
 
 - Tested on one machine (M4, 16 GB). Other chips and memory sizes should work but are unmeasured.
