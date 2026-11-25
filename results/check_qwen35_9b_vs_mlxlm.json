@@ -1,0 +1,36 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "reference": "mlx-lm float32 activations, same weights",
+ "prompt_date": "2026-11-16",
+ "sequences": [
+  59,
+  40,
+  75
+ ],
+ "results": {
+  "mj_fp32": {
+   "rel_rms": 2.7554089488994403e-06,
+   "max_abs": 0.00012063980102539062,
+   "top1_vs_mlxlm_fp32": 1.0,
+   "mean_kl": 3.961990455561337e-11,
+   "max_kl": 1.1742574225577236e-09,
+   "positions": 174
+  },
+  "mj_bf16": {
+   "rel_rms": 0.007097719152575199,
+   "max_abs": 0.40601491928100586,
+   "top1_vs_mlxlm_fp32": 0.9942528735632183,
+   "mean_kl": 0.0002672725243284099,
+   "max_kl": 0.005691823488598901,
+   "positions": 174
+  },
+  "mlxlm_bf16": {
+   "rel_rms": 0.011522043238120505,
+   "max_abs": 1.007483720779419,
+   "top1_vs_mlxlm_fp32": 0.9885057471264368,
+   "mean_kl": 0.0006176192291792043,
+   "max_kl": 0.03177254562168008,
+   "positions": 174
+  }
+ }
+}

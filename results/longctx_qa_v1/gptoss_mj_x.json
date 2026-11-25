@@ -1,0 +1,211 @@
+{
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "engine": "mj",
+ "mj_kw": "{\"map_experts\": \"~/.cache/millijoule/gptoss20b-experts-mapped\", \"attn_pack\": true, \"lean\": true}",
+ "placement": "none",
+ "new": 384,
+ "seed": 0,
+ "docs": 12,
+ "summary": {
+  "4096": {
+   "correct": 12,
+   "distractor": 0,
+   "wrong": 0,
+   "none": 0,
+   "error": 0,
+   "n": 12
+  },
+  "8192": {
+   "correct": 3,
+   "distractor": 0,
+   "wrong": 0,
+   "none": 0,
+   "error": 0,
+   "n": 3
+  }
+ },
+ "rows": [
+  {
+   "ctx": 4096,
+   "doc": 0,
+   "depth": 0.0625,
+   "name": "Thrennic",
+   "code": 94536,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 14.96400045900009,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Thrennic archive. In the text, it says: \"The access code for the Thrennic archive is 94536.\" So answer: 94536.<|end|><|start|>assistant<|channel|>final<|message|>94536",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 1,
+   "depth": 0.1875,
+   "name": "Hollibrand",
+   "code": 49003,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 12.01254629200048,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Hollibrand archive. In the text, there are multiple mentions of access codes. Let's locate the one for Hollibrand. The text says: \"The access code for the Hollibrand archive is 49003.\" So answer: 49003.<|end|><|start|>assistant<|channel|>final<|message|>49003",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 2,
+   "depth": 0.3125,
+   "name": "Opheran",
+   "code": 16428,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 16.211846083999262,
+   "reply": "e for the Velmora archive is 47105.\"\n- \"The access code for the Mirovast archive is 88284.\"\n- \"The access code for the Corviless archive is 97778.\"\n- \"The access code for the Istravel archive is 78602.\"\n- \"The access code for the Brenwick archive is 81612.\"\n- \"The access code for the Galvoreth archive is 28986.\"\n\nAlso earlier: \"The access code for the Opheran archive is 16428.\" Wait, let's check: In the paragraph about the Six-Day War, it says: \"The access code for the Opheran archive is 16428.\" Yes, that appears. So the answer is 16428.<|end|><|start|>assistant<|channel|>final<|message|>16428",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 3,
+   "depth": 0.4375,
+   "name": "Fenwarrow",
+   "code": 97010,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 11.807372124996618,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Fenwarrow archive. The text includes multiple access codes. Let's locate the Fenwarrow archive. The text says: \"The access code for the Fenwarrow archive is 97010.\" So answer: 97010.<|end|><|start|>assistant<|channel|>final<|message|>97010",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 4,
+   "depth": 0.5625,
+   "name": "Galvoreth",
+   "code": 25101,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 11.65296587499688,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Galvoreth archive. In the text, there are multiple access codes. Let's locate the Galvoreth archive. The text says: \"The access code for the Galvoreth archive is 25101.\" So answer: 25101.<|end|><|start|>assistant<|channel|>final<|message|>25101",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 5,
+   "depth": 0.6875,
+   "name": "Raskeleth",
+   "code": 51255,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 11.76812854200034,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Raskeleth archive. The passage includes many access codes. Let's locate the Raskeleth archive section. Search: \"Raskeleth archive\". The text: \"The access code for the Raskeleth archive is 51255.\" So answer: 51255.<|end|><|start|>assistant<|channel|>final<|message|>51255",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 6,
+   "depth": 0.8125,
+   "name": "Norrocan",
+   "code": 87354,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 12.026608750002197,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Norrocan archive. In the text, there are multiple mentions of access codes. Let's locate the section that mentions Norrocan. Search: \"Norrocan archive\". The text says: \"The access code for the Norrocan archive is 87354.\" So answer: 87354.<|end|><|start|>assistant<|channel|>final<|message|>87354",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 7,
+   "depth": 0.9375,
+   "name": "Istravel",
+   "code": 16381,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 12.490150582998467,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Istravel archive. The text says: \"The access code for the Istravel archive is 16381.\" So answer: 16381.<|end|><|start|>assistant<|channel|>final<|message|>16381",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 8,
+   "depth": 0.0625,
+   "name": "Mirovast",
+   "code": 75423,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 12.910328541001945,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Mirovast archive. In the text: \"The access code for the Mirovast archive is 75423.\" So answer: 75423.<|end|><|start|>assistant<|channel|>final<|message|>75423",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 9,
+   "depth": 0.1875,
+   "name": "Sorvane",
+   "code": 15791,
+   "n_in": 4066,
+   "result": "correct",
+   "seconds": 11.894196875000489,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Sorvane archive. The text says: \"The access code for the Sorvane archive is 15791.\" So answer: 15791.<|end|><|start|>assistant<|channel|>final<|message|>15791",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 10,
+   "depth": 0.3125,
+   "name": "Dunshelm",
+   "code": 98261,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 15.530188417000318,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Dunshelm archive. The user asks: \"What is the access code for the Dunshelm archive? Answer with the five-digit code only.\"\n\nWe need to locate in the text: \"The access code for the Dunshelm archive is 98261.\" Let's confirm. In the long text, after the paragraph about Eliot, there's a line: \"The access code for the Dunshelm archive is 98261.\" Yes. So answer: 98261.<|end|><|start|>assistant<|channel|>final<|message|>98261",
+   "error": null
+  },
+  {
+   "ctx": 4096,
+   "doc": 11,
+   "depth": 0.4375,
+   "name": "Corviless",
+   "code": 16393,
+   "n_in": 4067,
+   "result": "correct",
+   "seconds": 13.048266999998305,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Corviless archive. In the text, there are multiple access codes. Let's locate the section about Corviless archive. The text says: \"The access code for the Corviless archive is 16393.\" So answer: 16393.<|end|><|start|>assistant<|channel|>final<|message|>16393",
+   "error": null
+  },
+  {
+   "ctx": 8192,
+   "doc": 0,
+   "depth": 0.0625,
+   "name": "Thrennic",
+   "code": 94536,
+   "n_in": 8163,
+   "result": "correct",
+   "seconds": 23.981979667001724,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Thrennic archive. The text contains many access codes. Let's locate \"Thrennic\". Search: \"Thrennic archive\". The text: \"The access code for the Thrennic archive is 94536.\" So answer: 94536.<|end|><|start|>assistant<|channel|>final<|message|>94536",
+   "error": null
+  },
+  {
+   "ctx": 8192,
+   "doc": 1,
+   "depth": 0.1875,
+   "name": "Hollibrand",
+   "code": 49003,
+   "n_in": 8163,
+   "result": "correct",
+   "seconds": 26.945636874999764,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Hollibrand archive. In the text, there are multiple mentions of access codes. Let's locate.\n\nFirst mention: \"The access code for the Hollibrand archive is 49003.\" That appears in the paragraph about Mendes and Spacey improvisation. So answer: 49003.<|end|><|start|>assistant<|channel|>final<|message|>49003",
+   "error": null
+  },
+  {
+   "ctx": 8192,
+   "doc": 2,
+   "depth": 0.3125,
+   "name": "Opheran",
+   "code": 16428,
+   "n_in": 8163,
+   "result": "correct",
+   "seconds": 27.797706542001833,
+   "reply": "<|channel|>analysis<|message|>We need to find the access code for the Opheran archive. In the text, there are multiple access codes: 93753 for Velmora, 47105 for Velmora? Wait earlier: \"The access code for the Velmora archive is 47105.\" Actually earlier: \"The access code for the Velmora archive is 47105.\" Then later: \"The access code for the Opheran archive is 16428.\" Let's confirm: In the paragraph about cemetery design, after describing headstones, it says: \"The access code for the Opheran archive is 16428.\" Yes. So answer: 16428.<|end|><|start|>assistant<|channel|>final<|message|>16428",
+   "error": null
+  }
+ ],
+ "aborted": "swap-outs 20.4 GB passed the limit",
+ "notes": "Long-context retrieval through the chat template (checklist 0.15 and 0.2): does each engine find a fact hidden at a\nknown depth of a long document?\n\nRaw-text perplexity past a model's training length (RESULTS 1zq) says little about chat use. This is the usual\nneedle-in-a-haystack form instead (Kamradt 2023; the retrieval tasks of RULER, Hsieh et al. 2024), kept small enough to\nrun on 16 GB:\n- A document of WikiText-2 test paragraphs (results/accuracy/wiki.test.raw, committed) is filled to the target length\n  in the model's own tokens.\n- Eight invented facts (\"The access code for the Velmora archive is 48213.\") are placed at evenly spread depths; the\n  question asks for one of them, a different depth per document, so every engine sees the same documents and questions.\n- Greedy, through each engine's chat template; up to --new tokens (reasoning models think first).\n- Scored: correct when the last five-digit number in the reply is the asked code; \"distractor\" when it is another code\n  from the document; \"none\" when the reply has no five-digit number.\nSeeded: the same seed gives the same documents on every engine and every run.\n\n    .venv/bin/python tools/mlx_longctx_qa.py --model <mlx dir> --engine mj --ctx 4096,8192,16384 --docs 12         --out results/longctx_qa_v1/gptoss_mj.json\n    .venv/bin/python tools/mlx_longctx_qa.py --model <mlx dir> --engine llama-server --api-url http://127.0.0.1:8092 ...\n"
+}

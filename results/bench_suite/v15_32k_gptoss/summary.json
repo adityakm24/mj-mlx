@@ -1,0 +1,36 @@
+{
+ "gptoss": {
+  "model": "gpt-oss-20b",
+  "weights": "mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp / Ollama / LM Studio (its llama.cpp engine): ggml-org MXFP4 GGUF (Q8_0 attention)",
+  "results": {
+   "mj-a8w|pp32768": {
+    "engine": "mj-a8w",
+    "test": "pp32768",
+    "tok_s": null,
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "j_per_token_sys": null,
+    "j_per_token_sys_net": null,
+    "j_per_token_gpu_net": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 2,
+    "flagged_tok_s": {
+     "n": 2,
+     "mean": 271.81779546269183,
+     "sd": 6.626653372369317,
+     "median": 271.81779546269183,
+     "ci95": [
+      212.26189343790696,
+      331.3736974874767
+     ],
+     "cv": 0.024379026991552706,
+     "min": 267.13204392651676,
+     "max": 276.50354699886685
+    }
+   }
+  },
+  "mj_vs_mlxlm_greedy": {}
+ }
+}

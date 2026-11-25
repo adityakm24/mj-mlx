@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-20b (released MXFP4 experts, bf16 rest)",
+ "snapshot": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "layers": 24,
+ "reference": "MilliJoule float32 activations on the released weights",
+ "tokens": 8192,
+ "prompt_date": null,
+ "sequences": 4,
+ "results": {
+  "mj_precise": {
+   "top1": 0.9261974584555229,
+   "positions": 4092,
+   "mean_kl": 0.018121055577408764,
+   "p99_kl": 0.33871185996345204,
+   "max_kl": 1.7333859821289308,
+   "ppl": 1406.661041740274,
+   "ppl_se": 72.7404221513277
+  },
+  "mlxlm_fp32": {
+   "top1": 0.8949169110459433,
+   "positions": 4092,
+   "mean_kl": 0.032799321396303545,
+   "p99_kl": 0.5998807069549346,
+   "max_kl": 4.340167072015088,
+   "ppl": 1282.0707240395138,
+   "ppl_se": 65.70976680127991
+  },
+  "mj_precise_greedy_path": {
+   "top1": 0.9303519061583577,
+   "positions": 4092
+  },
+  "ref": {
+   "ppl": 1402.9188007905202,
+   "ppl_se": 72.48635926852522,
+   "positions": 4092
+  }
+ },
+ "note": "WikiText-2 raw test, first 4 chunks of 2048 tokens (tokens = tokens fed), the second half of each scored (llama.cpp perplexity convention, as tools/mlx_accuracy_ppl.py); mj_precise_greedy_path = the engine's greedy output (low-bit candidates + fp32 rescore)"
+}

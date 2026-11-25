@@ -1,0 +1,138 @@
+[
+ {
+  "engine": "llama.cpp",
+  "test": "pp512",
+  "samples_ts": [
+   590.667,
+   589.153,
+   591.093,
+   589.38,
+   590.707
+  ],
+  "avg_ts": 590.199693,
+  "stddev_ts": 0.872097,
+  "n_prompt": 512,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--mradermacher--DeepSeek-V2-Lite-Chat-GGUF/snapshots/9ee9f1f8f39f673e1022e176d586aef4228f630d/DeepSeek-V2-Lite-Chat.Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 512 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 11.285905666998588,
+   "gpu_j": 99.850427904,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 3072,
+  "peak_footprint_gb": 0.278520088,
+  "peak_resident_gb": 10.47969792,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "pp2048",
+  "samples_ts": [
+   561.42,
+   559.037,
+   542.764,
+   528.282,
+   525.072
+  ],
+  "avg_ts": 543.314987,
+  "stddev_ts": 16.838206,
+  "n_prompt": 2048,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--mradermacher--DeepSeek-V2-Lite-Chat-GGUF/snapshots/9ee9f1f8f39f673e1022e176d586aef4228f630d/DeepSeek-V2-Lite-Chat.Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 2048 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 23.155823082997813,
+   "gpu_j": 412.231850068,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 12288,
+  "peak_footprint_gb": 0.710451816,
+  "peak_resident_gb": 11.072258048,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d0",
+  "samples_ts": [
+   55.0397,
+   55.0739,
+   55.0508,
+   55.04,
+   54.0144
+  ],
+  "avg_ts": 54.843775,
+  "stddev_ts": 0.463847,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--mradermacher--DeepSeek-V2-Lite-Chat-GGUF/snapshots/9ee9f1f8f39f673e1022e176d586aef4228f630d/DeepSeek-V2-Lite-Chat.Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 12.292248500001733,
+   "gpu_j": 160.53822278500002,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 641,
+  "peak_footprint_gb": 0.199172352,
+  "peak_resident_gb": 10.56120832,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d2048",
+  "samples_ts": [
+   41.8313,
+   41.7283,
+   41.7188,
+   41.7597,
+   41.7975
+  ],
+  "avg_ts": 41.767118,
+  "stddev_ts": 0.047254,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 2048,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--mradermacher--DeepSeek-V2-Lite-Chat-GGUF/snapshots/9ee9f1f8f39f673e1022e176d586aef4228f630d/DeepSeek-V2-Lite-Chat.Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 2048",
+  "energy_window_incl_load": {
+   "seconds": 20.010375375000876,
+   "gpu_j": 252.19883740400002,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": null,
+  "peak_footprint_gb": 1.347363984,
+  "peak_resident_gb": 11.638095872,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ }
+]

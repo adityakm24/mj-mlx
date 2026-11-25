@@ -1,0 +1,66 @@
+start 23:10:14
+state: total = 4096.00M  used = 2594.00M  free = 1502.00M  (encrypted) | System-wide memory free percentage: 83% | top: WindowServer 19.2; Claude Helper (R 9.3; Claude Helper 7.5
+mlx-lm         rep 2:  47.21 ms/token  (median gap  47.15, max   52.6)   448.8 mJ/token   9.5 W  tokens 128  ttft 0.24s
+plain          rep 2:  46.37 ms/token  (median gap  46.48, max   50.4)   450.9 mJ/token   9.7 W  tokens 128  ttft 0.19s
+k2             rep 2:  22.47 ms/token  (median gap  59.25, max   64.8)   370.1 mJ/token  16.5 W  tokens 128  ttft 0.18s
+auto-energy    rep 2:  22.09 ms/token  (median gap  58.27, max   64.6)   394.1 mJ/token  17.8 W  tokens 128  ttft 0.18s
+auto-edp       rep 2:  21.99 ms/token  (median gap  58.05, max   65.2)   391.1 mJ/token  17.8 W  tokens 128  ttft 0.18s
+mlx-lm         rep 2:  45.59 ms/token  (median gap  45.54, max   46.6)   479.2 mJ/token  10.5 W  tokens 128  ttft 1.15s
+plain          rep 2:  46.79 ms/token  (median gap  46.76, max   49.3)   495.0 mJ/token  10.6 W  tokens 128  ttft 1.16s
+k2             rep 2:  36.26 ms/token  (median gap  58.97, max   64.0)   573.1 mJ/token  15.8 W  tokens 128  ttft 1.25s
+auto-energy    rep 2:  39.52 ms/token  (median gap  46.99, max   80.5)   592.3 mJ/token  15.0 W  tokens 128  ttft 1.25s
+auto-edp       rep 2:  39.48 ms/token  (median gap  57.37, max   80.4)   477.0 mJ/token  12.1 W  tokens 128  ttft 1.25s
+auto-edp       rep 2:  22.92 ms/token  (median gap  60.54, max   67.3)   345.5 mJ/token  15.1 W  tokens 128  ttft 0.19s
+auto-energy    rep 2:  23.01 ms/token  (median gap  60.64, max   66.8)   335.6 mJ/token  14.6 W  tokens 128  ttft 0.19s
+k2             rep 2:  23.11 ms/token  (median gap  61.07, max   69.2)   336.3 mJ/token  14.6 W  tokens 128  ttft 0.19s
+plain          rep 2:  46.09 ms/token  (median gap  46.31, max   46.9)   500.5 mJ/token  10.9 W  tokens 128  ttft 0.19s
+mlx-lm         rep 2:  45.60 ms/token  (median gap  45.40, max   52.2)   498.6 mJ/token  10.9 W  tokens 128  ttft 0.24s
+auto-edp       rep 2:  47.47 ms/token  (median gap  65.21, max   93.5)   508.0 mJ/token  10.7 W  tokens 128  ttft 1.26s
+auto-energy    rep 2:  46.85 ms/token  (median gap  60.87, max   95.4)   467.5 mJ/token  10.0 W  tokens 128  ttft 1.27s
+k2             rep 2:  41.64 ms/token  (median gap  68.24, max   73.5)   642.8 mJ/token  15.4 W  tokens 128  ttft 1.26s
+plain          rep 2:  47.27 ms/token  (median gap  47.35, max   49.5)   427.6 mJ/token   9.0 W  tokens 128  ttft 1.23s
+mlx-lm         rep 2:  49.36 ms/token  (median gap  48.61, max   55.7)   434.5 mJ/token   8.8 W  tokens 128  ttft 1.23s
+A done 23:18:50
+state: total = 4096.00M  used = 2554.00M  free = 1542.00M  (encrypted) | System-wide memory free percentage: 68% | top: mediaanalysisd 52.1; TGOnDeviceInfere 28.3; kernel_task 25.5
+B=1 plain        21.2 tok/s    509 mJ/token first diff vs plain [None]
+B=1 mtp-k1       29.6 tok/s    466 mJ/token accept 0.69 rows/step 2.0 first diff vs plain [None]
+B=1 mtp-k2       37.3 tok/s    389 mJ/token accept 0.65 rows/step 3.0 first diff vs plain [None]
+B=1 mtp-auto     37.7 tok/s    430 mJ/token accept 0.68 rows/step 2.9 first diff vs plain [None]
+B=2 plain        41.4 tok/s    360 mJ/token first diff vs plain [None, None]
+B=2 mtp-k1       45.2 tok/s    325 mJ/token accept 0.80 rows/step 3.8 first diff vs plain [None, None]
+B=2 mtp-k2       57.8 tok/s    245 mJ/token accept 0.75 rows/step 5.6 first diff vs plain [None, None]
+B=2 mtp-auto     59.0 tok/s    243 mJ/token accept 0.69 rows/step 6.1 first diff vs plain [None, None]
+B=4 plain        59.3 tok/s    291 mJ/token first diff vs plain [None, None, None, None]
+B=4 mtp-k1       77.2 tok/s    161 mJ/token accept 0.80 rows/step 7.5 first diff vs plain [None, None, 19, 108]
+B=4 mtp-k2       67.5 tok/s    219 mJ/token accept 0.68 rows/step 10.7 first diff vs plain [None, None, 19, 108]
+B=4 mtp-auto     70.2 tok/s    185 mJ/token accept 0.74 rows/step 7.7 first diff vs plain [None, None, 19, 108]
+B=8 plain       109.6 tok/s    147 mJ/token first diff vs plain [None, None, None, None, None, None, None, None]
+B=8 mtp-k1       93.3 tok/s    138 mJ/token accept 0.77 rows/step 14.9 first diff vs plain [None, None, 19, 108, None, 105, None, None]
+B=8 mtp-k2       79.6 tok/s    199 mJ/token accept 0.68 rows/step 20.3 first diff vs plain [None, None, 19, 108, 108, 100, None, 45]
+B=8 mtp-auto     77.6 tok/s    175 mJ/token accept 0.74 rows/step 10.2 first diff vs plain [None, None, 19, 108, None, 105, None, None]
+B=1 mtp-auto     39.1 tok/s    440 mJ/token accept 0.68 rows/step 2.9 first diff vs plain None
+B=1 mtp-k2       38.4 tok/s    424 mJ/token accept 0.65 rows/step 3.0 first diff vs plain None
+B=1 mtp-k1       29.9 tok/s    445 mJ/token accept 0.69 rows/step 2.0 first diff vs plain None
+B=1 plain        21.6 tok/s    493 mJ/token first diff vs plain [None]
+B=2 mtp-auto     59.7 tok/s    245 mJ/token accept 0.69 rows/step 6.1 first diff vs plain None
+B=2 mtp-k2       58.2 tok/s    237 mJ/token accept 0.75 rows/step 5.6 first diff vs plain None
+B=2 mtp-k1       46.0 tok/s    329 mJ/token accept 0.80 rows/step 3.8 first diff vs plain None
+B=2 plain        41.9 tok/s    349 mJ/token first diff vs plain [None, None]
+B=4 mtp-auto     70.1 tok/s    178 mJ/token accept 0.74 rows/step 7.7 first diff vs plain None
+B=4 mtp-k2       66.5 tok/s    207 mJ/token accept 0.68 rows/step 10.7 first diff vs plain None
+B=4 mtp-k1       78.5 tok/s    168 mJ/token accept 0.80 rows/step 7.5 first diff vs plain None
+B=4 plain        60.3 tok/s    302 mJ/token first diff vs plain [None, None, None, None]
+B=8 mtp-auto     75.8 tok/s    159 mJ/token accept 0.74 rows/step 10.2 first diff vs plain None
+B=8 mtp-k2       78.3 tok/s    188 mJ/token accept 0.68 rows/step 20.3 first diff vs plain None
+B=8 mtp-k1       93.4 tok/s    139 mJ/token accept 0.77 rows/step 14.9 first diff vs plain None
+B=8 plain       110.1 tok/s    147 mJ/token first diff vs plain [None, None, None, None, None, None, None, None]
+B done 23:31:25
+state: total = 4096.00M  used = 2530.00M  free = 1566.00M  (encrypted) | System-wide memory free percentage: 73% | top: top 5.0; python3.14 4.9; kernel_task 2.6
+r1 bf16 decode 28.14 tok/s  ttft 1.98 s (pp 259 tok/s)  470 mJ/token  resident 11.78 GB
+r1 pack decode 31.67 tok/s  ttft 1.43 s (pp 359 tok/s)  422 mJ/token  resident 11.48 GB
+r1 llama-bench [('pp', 435.5, 2.0), ('tg', 37.3, 0.1)]
+r2 llama-bench [('pp', 458.4, 1.7), ('tg', 37.1, 0.1)]
+r2 pack decode 33.63 tok/s  ttft 1.47 s (pp 349 tok/s)  482 mJ/token  resident 11.48 GB
+r2 bf16 decode 28.49 tok/s  ttft 1.61 s (pp 318 tok/s)  495 mJ/token  resident 11.78 GB
+C done 23:33:29
+state: total = 5120.00M  used = 4403.38M  free = 716.62M  (encrypted) | System-wide memory free percentage: 84% | top: corespotlightd 93.8; top 5.4; claude 4.3

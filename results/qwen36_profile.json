@@ -1,0 +1,50 @@
+{
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/qwen36-bench-8L",
+ "note": "ablation profile: each component replaced by zeros (state kernel by a no-op), difference to the full step; one decode step, ctx ~250, 8-layer real-dim Qwen3.6 bench model",
+ "rows": [
+  {
+   "B": 1,
+   "step_ms": 11.703129101078957,
+   "moe_ms": 2.4529374029953033,
+   "deltanet_ms": 5.116258299676701,
+   "state_kernel_ms": 0.8599708031397313,
+   "deltanet_other_ms": 4.25628749653697,
+   "full_attn_ms": 1.5153874061070383,
+   "head_ms": 3.046908398391679,
+   "rest_ms": -0.42836240609176457
+  },
+  {
+   "B": 8,
+   "step_ms": 28.961841703858227,
+   "moe_ms": 11.102504201699048,
+   "deltanet_ms": 8.497279201401398,
+   "state_kernel_ms": 3.7296875030733645,
+   "deltanet_other_ms": 4.767591698328033,
+   "full_attn_ms": 3.013620903948322,
+   "head_ms": 7.779837498674169,
+   "rest_ms": -1.4314001018647105
+  },
+  {
+   "B": 32,
+   "step_ms": 60.396087501430884,
+   "moe_ms": 27.796350000426173,
+   "deltanet_ms": 19.27030420047231,
+   "state_kernel_ms": 10.747712501324713,
+   "deltanet_other_ms": 8.522591699147597,
+   "full_attn_ms": 3.226954204728827,
+   "head_ms": 10.305395803879946,
+   "rest_ms": -0.20291670807637274
+  },
+  {
+   "B": 64,
+   "step_ms": 101.81577079929411,
+   "moe_ms": 44.61523329955526,
+   "deltanet_ms": 31.91436660126783,
+   "state_kernel_ms": 21.468595799524337,
+   "deltanet_other_ms": 10.445770801743492,
+   "full_attn_ms": 4.7070665983483195,
+   "head_ms": 18.656025000382215,
+   "rest_ms": 1.9230792997404933
+  }
+ ]
+}

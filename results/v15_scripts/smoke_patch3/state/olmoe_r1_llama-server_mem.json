@@ -1,0 +1,11 @@
+{
+ "engine": "llama-server",
+ "peak_footprint_gb": 2.041632072,
+ "peak_resident_gb": 6.196330496,
+ "samples": 76,
+ "per_pid_gb": {
+  "88108": 2.041632072
+ },
+ "swapins_gb": 0.003080192,
+ "swapouts_gb": 0.0
+}

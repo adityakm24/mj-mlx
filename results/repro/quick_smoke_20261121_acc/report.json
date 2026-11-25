@@ -1,0 +1,78 @@
+{
+ "quick": true,
+ "claims": [
+  {
+   "id": "accuracy-olmoe",
+   "source": "RESULTS 1ze",
+   "rows": [
+    {
+     "run": "olmoe_mj_bf16",
+     "published": {
+      "ppl": 11.539899664385393,
+      "ppl_se": 0.25124152521865856,
+      "chunks": 80
+     },
+     "new": {
+      "ppl": 8.858802742680053,
+      "ppl_se": 1.006264340738913,
+      "chunks": 3
+     },
+     "verdict": "ran (quick: not compared)"
+    },
+    {
+     "run": "olmoe_mj_q4_kld",
+     "published": {
+      "ppl": 12.004307512554421,
+      "ppl_se": 0.2578434894433234,
+      "kld_mean": 0.15915652245616485,
+      "kld_p99": 1.2035378082518444,
+      "same_top": 0.8196078431372549,
+      "chunks": 80
+     },
+     "new": {
+      "ppl": 9.395016588588161,
+      "ppl_se": 1.067685845666802,
+      "kld_mean": 0.1692035779908542,
+      "kld_p99": 1.616079340073561,
+      "same_top": 0.8339869281045752,
+      "chunks": 3
+     },
+     "verdict": "ran (quick: not compared)"
+    },
+    {
+     "run": "olmoe_mlx-lm_q4_kld",
+     "published": {
+      "ppl": 11.98739136396353,
+      "ppl_se": 0.2573697133976946,
+      "kld_mean": 0.15892321102200965,
+      "kld_p99": 1.197220960695944,
+      "same_top": 0.8199019607843138,
+      "chunks": 80
+     },
+     "new": {
+      "ppl": 9.409623285258352,
+      "ppl_se": 1.0699944636276835,
+      "kld_mean": 0.16832297783471864,
+      "kld_p99": 1.587680243091052,
+      "same_top": 0.8326797385620915,
+      "chunks": 3
+     },
+     "verdict": "ran (quick: not compared)"
+    },
+    {
+     "run": "olmoe_llamacpp_q4km",
+     "published": {
+      "ppl": 12.0004,
+      "ppl_se": 0.26255
+     },
+     "new": {
+      "ppl": 9.4867,
+      "ppl_se": 1.10323
+     },
+     "verdict": "ran (quick: not compared)"
+    }
+   ],
+   "relations": []
+  }
+ ]
+}

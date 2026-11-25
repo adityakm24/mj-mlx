@@ -1,0 +1,39 @@
+time=2026-11-17T15:56:07.431+05:30 level=INFO source=sched.go:651 msg="system memory" total="16.0 GiB" free="9.5 GiB" free_swap="0 B"
+time=2026-11-17T15:56:07.431+05:30 level=INFO source=sched.go:658 msg="gpu memory" id=0 library=Metal available="11.3 GiB" free="11.8 GiB" minimum="512.0 MiB" overhead="0 B"
+time=2026-11-17T15:56:07.432+05:30 level=INFO source=client.go:508 msg="starting mlx runner subprocess" model=q9-int4-mtp:latest port=57369
+time=2026-11-17T15:56:07.434+05:30 level=INFO source=images.go:431 msg="template selection" model=registry.ollama.ai/library/q9-int4-mtp:latest selected=renderer_parser renderer=qwen3.5 parser=qwen3.5 go_template=null chat_template=null harmony=null renderer_parser="[completion vision tools thinking]"
+time=2026-11-17T15:56:07.434+05:30 level=INFO source=sched.go:775 msg="loaded runners" count=1
+time=2026-11-17T15:56:07.470+05:30 level=INFO source=server.go:51 msg="MLX engine initialized" "MLX version"=0.32.4 device=gpu
+time=2026-11-17T15:56:07.556+05:30 level=INFO source=model.go:159 msg="Model architecture" arch=Qwen3_5ForConditionalGeneration
+time=2026-11-17T15:56:07.690+05:30 level=INFO source=runner.go:308 msg="Loaded tensors from manifest" count=1193
+time=2026-11-17T15:56:10.860+05:30 level=WARN source=grammar.go:74 msg="Structured output is unavailable" error="xgrammar library not found at /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/mlx_metal_v3/libollama_xgrammar.dylib: stat /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/mlx_metal_v3/libollama_xgrammar.dylib: no such file or directory"
+time=2026-11-17T15:56:15.107+05:30 level=INFO source=runner.go:357 msg="Starting HTTP server" host=127.0.0.1 port=57369
+time=2026-11-17T15:56:15.141+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=GET path=/v1/status took=2.064292ms status="200 OK"
+time=2026-11-17T15:56:15.142+05:30 level=INFO source=client.go:112 msg="mlx runner is ready" port=57369
+time=2026-11-17T15:56:15.158+05:30 level=INFO source=prefix_cache.go:151 msg="cache miss" total=262 matched=0 cached=0 left=262
+time=2026-11-17T15:56:27.886+05:30 level=INFO source=pipeline.go:228 msg="Prompt processing progress" processed=261 total=262
+[GIN] 2026/11/17 - 15:56:32 | 200 |   24.72s |       127.0.0.1 | POST     "/api/generate"
+time=2026-11-17T15:56:32.150+05:30 level=INFO source=speculate_stats.go:62 msg="speculative decode stats" iterations=42 drafted=92 accepted=86 acceptance=0.93 avg_draft=2.19 max_draft=4 avg_accepted=2.05 depth_over_time="0.2/1 1.0/1 1.2/2 2.0/2 2.4/3 3.0/3 3.4/4 4.0/4"
+time=2026-11-17T15:56:32.197+05:30 level=INFO source=pipeline.go:110 msg=memory peak="8.90 GiB" held="8.44 GiB"
+time=2026-11-17T15:56:32.199+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=POST path=/v1/completions took=17.052514125s status="200 OK"
+time=2026-11-17T15:56:32.388+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=GET path=/v1/status took=1.692625ms status="200 OK"
+time=2026-11-17T15:56:32.425+05:30 level=INFO source=prefix_cache.go:151 msg="cache hit" total=262 matched=261 cached=257 left=5
+time=2026-11-17T15:56:32.499+05:30 level=INFO source=pipeline.go:228 msg="Prompt processing progress" processed=4 total=5
+[GIN] 2026/11/17 - 15:56:36 | 200 |     4.3s |       127.0.0.1 | POST     "/api/generate"
+time=2026-11-17T15:56:36.676+05:30 level=INFO source=speculate_stats.go:62 msg="speculative decode stats" iterations=37 drafted=112 accepted=91 acceptance=0.81 avg_draft=3.03 max_draft=4 avg_accepted=2.46 depth_over_time="3.0/4 3.0/4 2.8/3 3.2/4 3.2/4 3.0/3 3.0/3 3.0/3"
+time=2026-11-17T15:56:36.696+05:30 level=INFO source=pipeline.go:110 msg=memory peak="8.81 GiB" held="8.50 GiB"
+time=2026-11-17T15:56:36.696+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=POST path=/v1/completions took=4.305971167s status="200 OK"
+time=2026-11-17T15:56:36.697+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=GET path=/v1/status took=15.045166ms status="200 OK"
+time=2026-11-17T15:56:36.701+05:30 level=INFO source=prefix_cache.go:151 msg="cache hit" total=262 matched=261 cached=257 left=5
+time=2026-11-17T15:56:36.759+05:30 level=INFO source=pipeline.go:228 msg="Prompt processing progress" processed=4 total=5
+[GIN] 2026/11/17 - 15:56:41 | 200 |    4.42s |       127.0.0.1 | POST     "/api/generate"
+time=2026-11-17T15:56:41.102+05:30 level=INFO source=speculate_stats.go:62 msg="speculative decode stats" iterations=37 drafted=115 accepted=91 acceptance=0.79 avg_draft=3.11 max_draft=5 avg_accepted=2.46 depth_over_time="3.2/4 2.8/3 2.2/3 2.6/3 4.4/5 3.2/4 3.0/3 3.2/4"
+time=2026-11-17T15:56:41.134+05:30 level=INFO source=pipeline.go:110 msg=memory peak="8.88 GiB" held="8.50 GiB"
+time=2026-11-17T15:56:41.134+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=POST path=/v1/completions took=4.436802708s status="200 OK"
+time=2026-11-17T15:56:41.134+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=GET path=/v1/status took=23.821458ms status="200 OK"
+time=2026-11-17T15:56:41.139+05:30 level=INFO source=prefix_cache.go:151 msg="cache hit" total=262 matched=261 cached=257 left=5
+time=2026-11-17T15:56:41.198+05:30 level=INFO source=pipeline.go:228 msg="Prompt processing progress" processed=4 total=5
+[GIN] 2026/11/17 - 15:56:45 | 200 |     4.3s |       127.0.0.1 | POST     "/api/generate"
+time=2026-11-17T15:56:45.411+05:30 level=INFO source=speculate_stats.go:62 msg="speculative decode stats" iterations=37 drafted=111 accepted=91 acceptance=0.82 avg_draft=3.00 max_draft=4 avg_accepted=2.46 depth_over_time="3.0/3 3.0/3 2.5/3 3.2/4 3.2/4 3.0/3 3.2/4 2.8/4"
+time=2026-11-17T15:56:45.427+05:30 level=INFO source=pipeline.go:110 msg=memory peak="8.76 GiB" held="8.49 GiB"
+time=2026-11-17T15:56:45.427+05:30 level=INFO source=server.go:270 msg=ServeHTTP method=POST path=/v1/completions took=4.291754417s status="200 OK"

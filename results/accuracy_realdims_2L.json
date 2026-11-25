@@ -1,0 +1,37 @@
+{
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-2L",
+ "reference": "millijoule float32",
+ "prompts": 4,
+ "prompt_len": 256,
+ "rows": {
+  "millijoule bf16 precise + fp32 top-8 rescore (default)": {
+   "top1": 0.8154296875,
+   "mean_kl": 0.011454891030396111,
+   "max_kl": 0.4252872160710735,
+   "max_abs_dlogit": 4.127625942230225,
+   "positions": 1024
+  },
+  "millijoule bf16 precise, no rescore": {
+   "top1": 0.8154296875,
+   "mean_kl": 0.01145497717991904,
+   "max_kl": 0.4252917772118001,
+   "max_abs_dlogit": 4.127625942230225,
+   "positions": 1024
+  },
+  "millijoule bf16 plain, no rescore": {
+   "top1": 0.7861328125,
+   "mean_kl": 0.01438406141565061,
+   "max_kl": 0.41052614819335786,
+   "max_abs_dlogit": 4.141843318939209,
+   "positions": 1024
+  },
+  "mlx-lm 0.32.2 bf16 (default load)": {
+   "top1": 0.76171875,
+   "mean_kl": 0.019284202209918673,
+   "max_kl": 0.4285997703750849,
+   "max_abs_dlogit": 4.173093318939209,
+   "positions": 1024
+  }
+ },
+ "note": "random token prompts, teacher-forced logits at every position"
+}

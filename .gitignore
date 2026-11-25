@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+/target/
+/.venv/
+*.egg-info/
+/build/
+/dist/
+src/mj_mlx/ext/build/
+src/mj_mlx/_sched*.so
+.pytest_cache/
+.DS_Store

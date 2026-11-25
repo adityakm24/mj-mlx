@@ -1,0 +1,15 @@
+{
+ "time": "2026-11-20T16:38:13",
+ "swap": "total = 3072.00M  used = 1772.25M  free = 1299.75M  (encrypted)",
+ "memory": "System-wide memory free percentage: 87%",
+ "top": [
+  " %CPU    RSS COMM",
+  "100.0 423840 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd",
+  "  8.3   5888 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd",
+  "  3.6  15344 .venv/bin/python",
+  "  3.1   9392 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores",
+  "  2.2   9568 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds",
+  "  1.1 110672 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude",
+  "  0.6   8432 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService"
+ ]
+}

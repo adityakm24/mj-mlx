@@ -1,0 +1,34 @@
+{
+ "time": "2026-11-17T16:53:26",
+ "engine_name": "mj-mtp",
+ "purpose": "ollama-mtp beat us on the random prompt (31.6-32.3 vs 36.8-39.5 ms/token); check whether that is the context",
+ "finding": "the servers get text; re-tokenizing tokenizer.decode(random ids) gives 262 different ids, whose greedy continuation (ours and Ollama's alike) is a repeated ' \\t' + replacement char loop, trivially draftable",
+ "ollama_mtp_output_head": " \\t\\ufffd \\t\\ufffd \\t\\ufffd ... (repeats)",
+ "rows": [
+  {
+   "prompt": "original 256 random ids",
+   "k": 2,
+   "ms_per_token": 35.44,
+   "accept": 0.32
+  },
+  {
+   "prompt": "original 256 random ids",
+   "k": 3,
+   "ms_per_token": 40.56,
+   "accept": 0.26
+  },
+  {
+   "prompt": "ollama's ids (262, re-tokenized text)",
+   "k": 2,
+   "ms_per_token": 19.85,
+   "accept": 0.97
+  },
+  {
+   "prompt": "ollama's ids (262, re-tokenized text)",
+   "k": 3,
+   "ms_per_token": 19.84,
+   "accept": 0.93
+  }
+ ],
+ "note": "single runs after quiet window 3, machine still quiet (other sessions paused); numbers copied from the run's printout"
+}

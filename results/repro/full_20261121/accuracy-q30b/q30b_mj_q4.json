@@ -1,0 +1,15 @@
+{
+ "engine": "mj",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-4bit/snapshots/d388dead1515f5e085ef7a0431dd8fadf0886c57",
+ "mj_kw": {},
+ "ctx": 512,
+ "chunks": 40,
+ "tokens_scored": 10200,
+ "text_tokens": 298938,
+ "add_bos": false,
+ "ppl": 8.12265989403568,
+ "ppl_se": 0.23782715823796247,
+ "load_s": 0.8832314160026726,
+ "eval_s": 104.01001595800335,
+ "ref": null
+}

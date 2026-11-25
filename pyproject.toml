@@ -1,0 +1,38 @@
+[build-system]
+requires = ["maturin>=1.7,<2"]
+build-backend = "maturin"
+
+[project]
+name = "mj-mlx"
+version = "0.1.0.dev0"
+description = "Mixture-of-experts LLM inference on Apple silicon, built on MLX, measured for speed and energy"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "the MilliJoule authors" }]
+# Tested on Python 3.11 only; widen after CI covers other versions.
+requires-python = ">=3.11"
+# The Metal kernels in qmm_small.py build against the installed MLX headers, so MLX is pinned to the tested minor.
+dependencies = ["mlx>=0.32.4,<0.33", "numpy>=1.26"]
+keywords = ["mlx", "apple-silicon", "llm", "inference", "mixture-of-experts", "moe", "energy"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Rust",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    # Remove at launch; until then this blocks an accidental upload to PyPI.
+    "Private :: Do Not Upload",
+]
+
+[project.optional-dependencies]
+# tests/ compare against transformers on tiny random checkpoints
+test = ["pytest>=7", "torch", "transformers>=5.23", "safetensors"]
+
+[tool.maturin]
+manifest-path = "crates/mjx-py/Cargo.toml"
+python-source = "src"
+module-name = "mj_mlx._sched"
+features = ["pyo3/extension-module"]
+exclude = ["src/mj_mlx/ext/build/**"]

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-18T23:08:21",
+ "top_cpu": [
+  "604 WindowServer 30.6",
+  "87839 Claude Helper (R 10.2",
+  "0 kernel_task 8.6",
+  "70410 Claude Helper 5.6",
+  "1286 Claude 4.5",
+  "88795 top 3.9",
+  "2476 claude 2.3",
+  "1454 python3.14 2.3"
+ ],
+ "swap": "total = 5120.00M  used = 4358.44M  free = 761.56M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 78%",
+ "loadavg": "{ 4.56 3.96 3.02 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4358.44
+}

@@ -1,0 +1,15 @@
+{
+ "engine": "mlx-lm",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--OLMoE-1B-7B-0125-Instruct-4bit/snapshots/e23844197887b031e7ddddbb0b8959c5a6853a7b",
+ "mj_kw": {},
+ "ctx": 512,
+ "chunks": 80,
+ "tokens_scored": 20400,
+ "text_tokens": 285831,
+ "add_bos": false,
+ "ppl": 11.98739136396353,
+ "ppl_se": 0.2573697133976946,
+ "load_s": 1.511403833006625,
+ "eval_s": 39.70917420800106,
+ "ref": null
+}

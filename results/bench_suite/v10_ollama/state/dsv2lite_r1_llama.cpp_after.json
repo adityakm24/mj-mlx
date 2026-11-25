@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T15:24:06",
+ "top_cpu": [
+  "28585 spotlightknowled 82.6",
+  "29273 top 4.8",
+  "819 node 3.7",
+  "0 kernel_task 3.4",
+  "60284 MacInCallService 0.8",
+  "1143 openshell-driver 0.7",
+  "28166 signpost_reporte 0.6",
+  "520 com.apple.Driver 0.6"
+ ],
+ "swap": "total = 6144.00M  used = 4736.75M  free = 1407.25M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 1.82 2.20 1.96 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4736.75
+}

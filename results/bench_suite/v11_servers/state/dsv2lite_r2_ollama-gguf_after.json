@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T17:43:01",
+ "top_cpu": [
+  "413 WindowServer 19.3",
+  "50360 mediaanalysisd 13.7",
+  "0 kernel_task 11.8",
+  "920 python3.14 8.2",
+  "50664 generativeexperi 6.8",
+  "1174 Claude Helper (R 5.2",
+  "819 node 3.6",
+  "43254 claude 3.3"
+ ],
+ "swap": "total = 14336.00M  used = 12860.88M  free = 1475.12M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 79%",
+ "loadavg": "{ 5.11 4.72 4.38 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 12844.88
+}

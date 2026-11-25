@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-20T09:36:19",
+ "top_cpu": [
+  "929 TGOnDeviceInfere 33.4",
+  "0 kernel_task 21.4",
+  "36043 aned 12.2",
+  "6428 GenerativeExperi 8.8",
+  "53450 modelcatalogd 8.4",
+  "55727 mediaanalysisd 6.0",
+  "65806 top 5.2",
+  "579 modelmanagerd 4.5"
+ ],
+ "swap": "total = 4096.00M  used = 3070.31M  free = 1025.69M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 64%",
+ "loadavg": "{ 6.30 4.93 4.43 }"
+}

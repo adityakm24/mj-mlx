@@ -1,0 +1,94 @@
+{
+ "summary": "per-round means of results/mlx/engines_9b_b1_v3/r*_<arm>.json (3 runs each); see RESULTS.md 1h",
+ "machine_state": {
+  "start": "machine_state_start.json",
+  "end": "machine_state_end.json",
+  "note": "quiet window: other sessions paused, LM Studio quit between arms, MacInCallService (stuck at ~70% CPU) restarted. Round 2's last two arms (mj_plain, mlx-lm) ran slower than round 1; the end snapshot shows Apple's TGOnDeviceInference at 22% CPU, so round 1 is the cleaner round"
+ },
+ "arms": {
+  "llama-server": {
+   "r1": {
+    "ms_per_token": 54.413555556324035,
+    "gpu_mj_per_token": 662.4695855328084,
+    "method": "streamed/in-process",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M"
+   },
+   "r2": {
+    "ms_per_token": 54.421094488205874,
+    "gpu_mj_per_token": 662.7757602729658,
+    "method": "streamed/in-process",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M"
+   }
+  },
+  "lms-gguf": {
+   "r1": {
+    "ms_per_token": 59.84423741311831,
+    "gpu_mj_per_token": 686.2933876770834,
+    "method": "length-difference",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M (LM Studio llama.cpp engine)"
+   },
+   "r2": {
+    "ms_per_token": 61.43017896465608,
+    "gpu_mj_per_token": 635.8473355833333,
+    "method": "length-difference",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M (LM Studio llama.cpp engine)"
+   }
+  },
+  "lms-mlx": {
+   "r1": {
+    "ms_per_token": 46.61103848330741,
+    "gpu_mj_per_token": 505.09175549305553,
+    "method": "length-difference",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit (LM Studio MLX engine)"
+   },
+   "r2": {
+    "ms_per_token": 46.73471036140755,
+    "gpu_mj_per_token": 507.3786820381944,
+    "method": "length-difference",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit (LM Studio MLX engine)"
+   }
+  },
+  "mj_overlap": {
+   "r1": {
+    "ms_per_token": 48.61517432280217,
+    "gpu_mj_per_token": 464.05456403149606,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   },
+   "r2": {
+    "ms_per_token": 47.691109141682,
+    "gpu_mj_per_token": 419.70948282939634,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   }
+  },
+  "mj_plain": {
+   "r1": {
+    "ms_per_token": 53.09324770349413,
+    "gpu_mj_per_token": 436.85812965354336,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   },
+   "r2": {
+    "ms_per_token": 60.982407591051455,
+    "gpu_mj_per_token": 466.4406185196851,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   }
+  },
+  "mlx-lm": {
+   "r1": {
+    "ms_per_token": 46.31046828321301,
+    "gpu_mj_per_token": 489.48324850393703,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   },
+   "r2": {
+    "ms_per_token": 53.484944007335,
+    "gpu_mj_per_token": 537.8441645826772,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "mj_kw": {},
+ "new": 256,
+ "prompts": [
+  "What is 17 times 23? Show the steps.",
+  "Write a Python function that returns the n-th Fibonacci number iteratively.",
+  "Explain in two sentences why the sky is blue.",
+  "Translate into French: 'The train leaves at seven in the morning.'",
+  "List three differences between a list and a tuple in Python.",
+  "A farmer has 12 sheep and buys 5 more, then sells 7. How many sheep are left?",
+  "Summarize the plot of a heist story in exactly three sentences. Make the story up.",
+  "What is the capital of Australia, and why is it not Sydney?",
+  "Give a JSON object with keys name, age and city for a fictional person.",
+  "Write a haiku about a mountain lake in winter.",
+  "If a rectangle is 8 cm by 5 cm, what are its area and perimeter?",
+  "Explain what a hash table is to someone who has never programmed."
+ ],
+ "engines": {
+  "llama-server": {
+   "seconds": 74.29816904100153,
+   "ids": null,
+   "text": [
+    "**17\u202f\u00d7\u202f23**\n\nWe can solve this in a couple of simple ways.  \nBelow are two common methods: a \u201cdistributive\u201d (or \u201cbreak\u2011down\u201d) approach and the standard long\u2011multiplication layout.\n\n---\n\n## 1. Distributive Property (Breaking 23 into 20\u202f+\u202f3)\n\n1. **Split the second factor**  \n   \\(23 = 20 +",
+    "Here\u2019s a compact, well\u2011documented Python function that returns the *n*\u2011th Fibonacci number using an iterative approach (no recursion, no extra memory beyond a few variables).\n\n```python\ndef fibonacci_iterative(n: int) -> int:\n    \"\"\"\n    Return the n-th Fibonacci number (0\u2011based indexing).\n\n    Parameters\n    ----------\n    n : int\n        The index of the Fibonacci number to compute.\n        Must be a non\u2011negative integer.\n\n    Returns\n    -------\n    int\n        The n\u2011th Fibonacci number.\n\n    Examples\n    --------\n    >>> fibonacci_iterative(0)\n    0\n    >>> fibonacci_iterative(1)\n    1\n    >>> fibonacci_iterative(10)\n    55\n    >>> fibonacci_iterative(20)\n    6765\n    \"\"\"\n    if n",
+    "The sky appears blue because sunlight is scattered by the Earth's atmosphere, and shorter blue wavelengths are scattered more efficiently than longer red wavelengths. This preferential scattering redirects blue light into our line of sight, making the sky look blue during daylight.",
+    "Le train part \u00e0 sept heures du matin.",
+    "Here are three key differences between a **list** and a **tuple** in Python:\n\n| Feature | List | Tuple |\n|---------|------|-------|\n| **Mutability** | Mutable \u2013 you can add, remove, or change elements after creation (`append()`, `pop()`, assignment, etc.). | Immutable \u2013 once created, its contents cannot be altered. Any \u201cchange\u201d creates a new tuple. |\n| **Syntax** | Defined with square brackets: `my_list = [1, 2, 3]`. | Defined with parentheses (or no delimiters for single element): `my_tuple = (1, 2, 3)` or `my_tuple = 1, 2, 3`. |\n| **Typical use\u2011case / performance** | Used when you need a collection that can change over time; lists have more built\u2011in methods and are slightly slower due to dynamic resizing. | Used for fixed collections,",
+    "He ends up with **10 sheep**.  \n\n- Start: 12 sheep  \n- Buy 5 more \u2192 12\u202f+\u202f5\u202f=\u202f17  \n- Sell 7 \u2192 17\u202f\u2013\u202f7\u202f=\u202f10  \n\nSo 10 sheep remain.",
+    "",
+    "",
+    "```json\n{\n  \"name\": \"Alexandra Rivers\",\n  \"age\": 29,\n  \"city\": \"Eldoria\"\n}\n```",
+    "",
+    "For a rectangle with sides \\(8\\ \\text{cm}\\) and \\(5\\ \\text{cm}\\):\n\n- **Area**  \n  \\[\n  A = \\text{length} \\times \\text{width} = 8 \\text{ cm} \\times 5 \\text{ cm} = 40 \\text{ cm}^2\n  \\]\n\n- **Perimeter**  \n  \\[\n  P = 2(\\text{length} + \\text{width}) = 2(8 \\text{ cm} + 5 \\text{ cm}) = 2 \\times 13 \\text{ cm} = 26 \\text{ cm}\n  \\]\n\nSo the rectangle\u2019s area is **40\u202fcm\u00b2** and its perimeter is **26\u202fcm**.",
+    "### Imagine a Super\u2011Fast Filing Cabinet\n\nThink of a hash table as a very clever filing cabinet that lets you find a piece of information almost instantly, no matter how many items you have in it.\n\n---\n\n#### 1. The \u201cKey\u201d \u2013 What You\u2019re Looking For  \n- **Example:** Your friend\u2019s name, \u201cAlice.\u201d  \n- In a hash table, the key is the thing you use to ask for something. It\u2019s like the label"
+   ]
+  }
+ }
+}

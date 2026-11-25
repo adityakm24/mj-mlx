@@ -1,0 +1,13 @@
+0.00.432.389 W load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+0.00.438.179 W llama_model_loader: tensor overrides to CPU are used with mmap enabled - consider using --load-mode none for better performance
+0.14.845.577 I cmn          init: llama threadpool init, n_threads = 4
+0.15.471.018 I 
+0.15.471.052 I system_info: n_threads = 4 (n_threads_batch = 4) / 10 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+0.15.471.678 I perplexity: saving all logits to /private/tmp/claude-501/-Users-user-Documents-Projects-MilliJoule/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/olmoe_f16_base.dat
+0.15.471.684 I perplexity: tokenizing the input ..
+0.15.771.097 I perplexity: tokenization took 299.401 ms
+0.15.771.458 I perplexity: calculating perplexity over 80 chunks, n_ctx=512, batch_size=2048, n_seq=4
+0.39.864.560 I perplexity: 24.09 seconds per pass - ETA 8.02 minutes
+[1]8.8344,[2]10.6743,[3]8.8964,[4]9.5524,[5]9.2594,[6]9.0638,[7]9.2635,[8]10.0762,[9]10.6805,[10]10.9454,[11]11.2125,[12]11.4568,[13]12.0530,[14]11.6296,[15]11.6572,[16]11.5682,[17]11.7042,[18]11.8686,[19]11.5541,[20]11.4965,[21]11.5845,[22]11.2228,[23]10.9263,[24]10.9218,[25]10.6292,[26]10.5975,[27]10.6398,[28]10.5704,[29]10.5483,[30]10.6516,[31]10.7414,[32]10.8555,[33]10.8887,[34]11.0612,[35]11.1276,[36]11.0683,[37]11.2312,[38]11.2325,[39]11.2480,[40]11.3319,[41]11.2250,[42]11.2576,[43]11.1679,[44]11.2705,[45]11.3361,[46]11.2344,[47]11.2348,[48]11.2780,[49]11.3305,[50]11.4788,[51]11.4698,[52]11.5682,[53]11.5903,[54]11.6455,[55]11.6916,[56]11.7717,[57]11.8062,[58]11.9052,[59]11.9361,[60]12.0058,[61]12.0506,[62]12.0898,[63]12.1215,[64]12.0996,[65]12.0623,[66]12.0868,[67]12.1682,[68]12.1635,[69]12.1617,[70]12.0379,[71]12.0081,[72]12.0073,[73]12.0530,[74]11.8596,[75]11.7389,[76]11.6744,[77]11.6147,[78]11.5605,[79]11.4599,[80]11.5323,
+8.12.423.670 I Final estimate: PPL = 11.5323 +/- 0.25099
+

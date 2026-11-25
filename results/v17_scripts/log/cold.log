@@ -1,0 +1,25 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_start.py --models gptoss --engines mj-a8w,mj-a8wb,llama.cpp --reps 3 --rounds 2 --out results/cold_start_v2
+{"python_s": 0.054415225982666016, "import_s": 0.23427820205688477, "ready_s": 7.303957939147949, "first_token_s": 8.99136996269226, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 1, "rep": 0, "time": "2026-11-23T05:17:51", "swap_mb": 6075.94}
+{"python_s": 0.16576886177062988, "import_s": 0.5720109939575195, "ready_s": 7.202146768569946, "first_token_s": 9.179685831069946, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 1, "rep": 1, "time": "2026-11-23T05:18:11", "swap_mb": 4963.5}
+{"python_s": 0.07716989517211914, "import_s": 0.28092288970947266, "ready_s": 7.049483060836792, "first_token_s": 8.548411846160889, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 1, "rep": 2, "time": "2026-11-23T05:18:31", "swap_mb": 5690.0}
+{"python_s": 0.08179974555969238, "import_s": 0.29940295219421387, "ready_s": 3.200079917907715, "first_token_s": 6.2572386264801025, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8wb", "round": 1, "rep": 0, "time": "2026-11-23T05:18:48", "swap_mb": 5182.81}
+{"python_s": 0.07332086563110352, "import_s": 0.21929693222045898, "ready_s": 3.4799208641052246, "first_token_s": 6.778341770172119, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8wb", "round": 1, "rep": 1, "time": "2026-11-23T05:19:06", "swap_mb": 5605.06}
+{"python_s": 0.09043502807617188, "import_s": 0.24495887756347656, "ready_s": 3.3842599391937256, "first_token_s": 6.561959981918335, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8wb", "round": 1, "rep": 2, "time": "2026-11-23T05:19:23", "swap_mb": 5913.62}
+{"ready_s": 21.846490144729614, "first_token_s": 22.34039807319641, "model": "gptoss", "engine": "llama.cpp", "round": 1, "rep": 0, "time": "2026-11-23T05:20:01", "swap_mb": 5652.06}
+{"ready_s": 2.074540853500366, "first_token_s": 2.5154049396514893, "model": "gptoss", "engine": "llama.cpp", "round": 1, "rep": 1, "time": "2026-11-23T05:20:15", "swap_mb": 5542.56}
+{"ready_s": 2.0856151580810547, "first_token_s": 2.5236103534698486, "model": "gptoss", "engine": "llama.cpp", "round": 1, "rep": 2, "time": "2026-11-23T05:20:28", "swap_mb": 5486.56}
+{"ready_s": 2.0854110717773438, "first_token_s": 2.532338857650757, "model": "gptoss", "engine": "llama.cpp", "round": 2, "rep": 0, "time": "2026-11-23T05:20:42", "swap_mb": 5430.56}
+{"ready_s": 2.3487319946289062, "first_token_s": 2.780918836593628, "model": "gptoss", "engine": "llama.cpp", "round": 2, "rep": 1, "time": "2026-11-23T05:20:56", "swap_mb": 4849.38}
+{"ready_s": 2.3392021656036377, "first_token_s": 2.759644031524658, "model": "gptoss", "engine": "llama.cpp", "round": 2, "rep": 2, "time": "2026-11-23T05:21:10", "swap_mb": 4817.38}
+{"python_s": 0.07918190956115723, "import_s": 0.2743539810180664, "ready_s": 1.4467699527740479, "first_token_s": 5.46808385848999, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8wb", "round": 2, "rep": 0, "time": "2026-11-23T05:21:28", "swap_mb": 5202.19}
+{"python_s": 0.06833004951477051, "import_s": 0.15024399757385254, "ready_s": 2.857767105102539, "first_token_s": 5.074339151382446, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8wb", "round": 2, "rep": 1, "time": "2026-11-23T05:21:44", "swap_mb": 5736.31}
+{"python_s": 0.07736396789550781, "import_s": 0.20253896713256836, "ready_s": 2.6582632064819336, "first_token_s": 3.907351016998291, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8wb", "round": 2, "rep": 2, "time": "2026-11-23T05:21:59", "swap_mb": 5780.19}
+{"python_s": 0.1073598861694336, "import_s": 0.250140905380249, "ready_s": 5.17951512336731, "first_token_s": 6.388840913772583, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 2, "rep": 0, "time": "2026-11-23T05:22:17", "swap_mb": 6629.12}
+{"python_s": 0.06453609466552734, "import_s": 0.2230088710784912, "ready_s": 5.4959399700164795, "first_token_s": 6.665925025939941, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 2, "rep": 1, "time": "2026-11-23T05:22:34", "swap_mb": 5754.94}
+{"python_s": 0.09606814384460449, "import_s": 0.2470259666442871, "ready_s": 5.095495939254761, "first_token_s": 6.29144811630249, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 2, "rep": 2, "time": "2026-11-23T05:22:52", "swap_mb": 6493.62}
+| model | engine | ready s (median, min-max) | first token s (median, min-max) | n |
+| --- | --- | --- | --- | --- |
+| gptoss | mj-a8w | 6.27 (5.10-7.30) | 7.61 (6.29-9.18) | 6 |
+| gptoss | mj-a8wb | 3.03 (1.45-3.48) | 5.86 (3.91-6.78) | 6 |
+| gptoss | llama.cpp | 2.21 (2.07-21.85) | 2.65 (2.52-22.34) | 6 |

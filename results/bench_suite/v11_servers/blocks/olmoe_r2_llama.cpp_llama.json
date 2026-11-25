@@ -1,0 +1,130 @@
+[
+ {
+  "engine": "llama.cpp",
+  "test": "pp512",
+  "samples_ts": [
+   1268.28,
+   1265.21,
+   1270.89,
+   1266.17,
+   1264.51
+  ],
+  "avg_ts": 1267.011438,
+  "stddev_ts": 2.588873,
+  "n_prompt": 512,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 512 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 4.863062917000207,
+   "gpu_j": 45.095620501000006,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 3072,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "pp2048",
+  "samples_ts": [
+   1205.83,
+   1209.47,
+   1205.59,
+   1207.92,
+   1209.24
+  ],
+  "avg_ts": 1207.610787,
+  "stddev_ts": 1.836258,
+  "n_prompt": 2048,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 2048 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 10.50403570799972,
+   "gpu_j": 193.722996568,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 12288,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d0",
+  "samples_ts": [
+   115.703,
+   116.145,
+   116.745,
+   116.428,
+   116.197
+  ],
+  "avg_ts": 116.243774,
+  "stddev_ts": 0.383788,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 5.845079874998191,
+   "gpu_j": 68.305395434,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 641,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d2048",
+  "samples_ts": [
+   89.4253,
+   88.8389,
+   88.8975,
+   88.9138,
+   88.6868
+  ],
+  "avg_ts": 88.952455,
+  "stddev_ts": 0.279066,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 2048,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 2048",
+  "energy_window_incl_load": {
+   "seconds": 9.294783208002627,
+   "gpu_j": 111.743871177,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": null,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ }
+]

@@ -1,0 +1,4 @@
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+mj: 55 s
+mlx-lm: 18 s
+ours vs mlx-lm: 9/12 replies token-identical; first difference at token 0-57 in the others

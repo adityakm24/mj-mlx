@@ -1,0 +1,27 @@
+mj-mlx: writing the prepared-weights cache to ~/Library/Caches/mj-mlx/prep/26f3421a62bee7d7 (once per model and options, about 2.5 GB for gpt-oss-20b; MJ_PREP_CACHE=0 turns it off, deleting the folder clears it)
+mj-mlx: prepared-weights cache written: 1.23 GB in ~/Library/Caches/mj-mlx/prep/26f3421a62bee7d7
+prompt 1/24: 79 tokens in
+prompt 2/24: 81 tokens in
+prompt 3/24: 77 tokens in
+prompt 4/24: 81 tokens in
+prompt 5/24: 79 tokens in
+prompt 6/24: 90 tokens in
+prompt 7/24: 87 tokens in
+prompt 8/24: 81 tokens in
+prompt 9/24: 83 tokens in
+prompt 10/24: 78 tokens in
+prompt 11/24: 86 tokens in
+prompt 12/24: 80 tokens in
+prompt 13/24: 93 tokens in
+prompt 14/24: 174 tokens in
+prompt 15/24: 119 tokens in
+prompt 16/24: 133 tokens in
+prompt 17/24: 168 tokens in
+prompt 18/24: 132 tokens in
+prompt 19/24: 94 tokens in
+prompt 20/24: 102 tokens in
+prompt 21/24: 130 tokens in
+prompt 22/24: 127 tokens in
+prompt 23/24: 107 tokens in
+prompt 24/24: 107 tokens in
+overall decode share held by the top-k experts (ranked on other prompts): {"top8_share": 0.46247140678612275, "top16_share": 0.7635778053119837, "top24_share": 0.9303119837336383} uniform: {"top8_share": 0.25, "top16_share": 0.5, "top24_share": 0.75}

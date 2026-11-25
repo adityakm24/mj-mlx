@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T01:29:01",
+ "top_cpu": [
+  "608 loginwindow 11.5",
+  "674 airportd 7.6",
+  "0 kernel_task 5.7",
+  "22632 top 5.1",
+  "1029 WiFiAgent 4.3",
+  "2476 claude 2.9",
+  "604 WindowServer 2.8",
+  "841 mds_stores 1.8"
+ ],
+ "swap": "total = 6144.00M  used = 5579.56M  free = 564.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 86%",
+ "loadavg": "{ 2.43 2.07 1.91 }"
+}

@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T07:33:47",
+ "top_cpu": [
+  "1 launchd 14.6",
+  "91176 top 7.3",
+  "88314 signpost_reporte 5.4",
+  "0 kernel_task 3.3",
+  "41173 claude 3.2",
+  "63873 nsurlsessiond 2.0",
+  "707 com.apple.Driver 2.0",
+  "45091 Claude Helper (R 2.0"
+ ],
+ "swap": "total = 9216.00M  used = 7650.81M  free = 1565.19M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 78%",
+ "loadavg": "{ 1.03 1.54 2.15 }"
+}

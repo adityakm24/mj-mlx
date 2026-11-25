@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T10:36:38",
+ "top_cpu": [
+  "54038 top 6.1",
+  "43366 cloudd 4.5",
+  "54015 cloudphotod 3.6",
+  "736 nsurlsessiond 3.0",
+  "0 kernel_task 2.8",
+  "828 node 2.7",
+  "48331 photolibraryd 2.2",
+  "528 com.apple.Driver 1.2"
+ ],
+ "swap": "total = 6144.00M  used = 4732.75M  free = 1411.25M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 0.94 1.11 1.35 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4732.75
+}

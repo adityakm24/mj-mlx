@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T15:33:48",
+ "top_cpu": [
+  "0 kernel_task 28.9",
+  "28585 spotlightknowled 20.1",
+  "480 airportd 10.5",
+  "31700 top 4.2",
+  "353 configd 3.1",
+  "1342 claude 2.5",
+  "28166 signpost_reporte 2.4",
+  "31026 wifip2pd 2.4"
+ ],
+ "swap": "total = 9216.00M  used = 5081.19M  free = 4134.81M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 3.30 3.09 2.55 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 5065.12
+}

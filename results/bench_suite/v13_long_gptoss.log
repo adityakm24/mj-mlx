@@ -1,0 +1,108 @@
+== gptoss_r1_mj-x 11:36:49 swap 1455 MB
+  prewarm 24 files 3.1 s
+  gptoss_r1_mj-x pp16384 rep 0: 346.89 tok/s, 51 mJ/token GPU
+  gptoss_r1_mj-x pp16384 rep 1: 342.52 tok/s, 50 mJ/token GPU
+  gptoss_r1_mj-x pp16384 rep 2: 335.46 tok/s, 49 mJ/token GPU
+  gptoss_r1_mj-x tg128@d16384 rep 0: 29.59 tok/s, ttft 48.06 s, 412 mJ/token GPU
+  gptoss_r1_mj-x tg128@d16384 rep 1: 29.30 tok/s, ttft 48.97 s, 420 mJ/token GPU
+  gptoss_r1_mj-x tg128@d16384 rep 2: 29.62 tok/s, ttft 48.63 s, 408 mJ/token GPU
+  FLAGGED: swap grew 662 MB
+== gptoss_r1_mj-a8 11:44:46 swap 1933 MB
+  prewarm 24 files 0.7 s
+  gptoss_r1_mj-a8 pp16384 rep 0: 360.36 tok/s, 54 mJ/token GPU
+  gptoss_r1_mj-a8 pp16384 rep 1: 358.61 tok/s, 53 mJ/token GPU
+  gptoss_r1_mj-a8 pp16384 rep 2: 356.99 tok/s, 52 mJ/token GPU
+  gptoss_r1_mj-a8 tg128@d16384 rep 0: 31.62 tok/s, ttft 46.22 s, 379 mJ/token GPU
+  gptoss_r1_mj-a8 tg128@d16384 rep 1: 31.78 tok/s, ttft 47.24 s, 397 mJ/token GPU
+  gptoss_r1_mj-a8 tg128@d16384 rep 2: 31.56 tok/s, ttft 46.38 s, 384 mJ/token GPU
+== gptoss_r1_llama.cpp 11:52:21 swap 2072 MB
+  prewarm 1 files 4.8 s
+llama-bench failed: chronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run prompt warmup
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+llama-bench failed: etal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run depth
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+== gptoss_r2_llama.cpp 11:53:28 swap 1220 MB
+  prewarm 1 files 2.0 s
+llama-bench failed: chronize: error: command buffer 1 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run prompt warmup
+ggml_metal_synchronize: error: command buffer 1 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 1 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+llama-bench failed: etal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run depth
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+  FLAGGED: swap grew 575 MB
+== gptoss_r2_mj-a8 11:54:15 swap 1658 MB
+  prewarm 24 files 3.1 s
+  gptoss_r2_mj-a8 pp16384 rep 0: 353.07 tok/s, 51 mJ/token GPU
+  gptoss_r2_mj-a8 pp16384 rep 1: 352.49 tok/s, 51 mJ/token GPU
+  gptoss_r2_mj-a8 pp16384 rep 2: 352.39 tok/s, 51 mJ/token GPU
+  gptoss_r2_mj-a8 tg128@d16384 rep 0: 31.51 tok/s, ttft 45.96 s, 382 mJ/token GPU
+  gptoss_r2_mj-a8 tg128@d16384 rep 1: 30.44 tok/s, ttft 45.64 s, 392 mJ/token GPU
+  gptoss_r2_mj-a8 tg128@d16384 rep 2: 31.28 tok/s, ttft 45.70 s, 380 mJ/token GPU
+== gptoss_r2_mj-x 12:01:57 swap 1816 MB
+  prewarm 24 files 0.7 s
+  gptoss_r2_mj-x pp16384 rep 0: 282.11 tok/s, 55 mJ/token GPU
+  gptoss_r2_mj-x pp16384 rep 1: 342.00 tok/s, 52 mJ/token GPU
+  gptoss_r2_mj-x pp16384 rep 2: 344.98 tok/s, 50 mJ/token GPU
+  gptoss_r2_mj-x tg128@d16384 rep 0: 27.23 tok/s, ttft 73.15 s, 449 mJ/token GPU
+  gptoss_r2_mj-x tg128@d16384 rep 1: 21.52 tok/s, ttft 49.41 s, 502 mJ/token GPU
+  gptoss_r2_mj-x tg128@d16384 rep 2: 27.96 tok/s, ttft 48.21 s, 384 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp / Ollama / LM Studio (its llama.cpp engine): ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| mj-a8 | pp16384 | 355.65 +- 3.46 | 352.02-359.29 | 1.0% | 6 | 52 |
+| mj-a8 | tg128@d16384 | 31.37 +- 0.48 | 30.86-31.87 | 1.5% | 6 | 386 |
+| mj-x | pp16384 | 323.03 +- 35.47 | 234.97-411.09 | 11.0% | 3 | 53 |
+| mj-x | tg128@d16384 | 25.57 +- 3.53 | 16.82-34.33 | 13.8% | 3 | 445 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| mj-x | pp16384 | 341.62 +- 5.76 (335.46-346.89) | 3 |
+| mj-x | tg128@d16384 | 29.51 +- 0.17 (29.30-29.62) | 3 |
+

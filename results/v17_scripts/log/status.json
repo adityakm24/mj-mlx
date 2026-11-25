@@ -1,0 +1,9 @@
+{
+ "uneven": "rc 0, 2189 s",
+ "energy": "rc 0, 1849 s",
+ "cold": "rc 0, 325 s",
+ "loadprof": "rc 0, 42 s",
+ "qa": "rc 3, 1588 s",
+ "chat_eval": "rc -15, 231 s",
+ "chat_check": "rc 1, 119 s"
+}

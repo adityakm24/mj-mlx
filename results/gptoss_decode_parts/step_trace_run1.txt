@@ -1,0 +1,6 @@
+# tools/mlx_gptoss_step_trace.py, first run (2026-11-18, attn-pack, lean, wired 3000; swap 4749 -> 7263 MB during
+# the run). Its JSON was overwritten by the second run (step_trace_pack.json, which adds page-ins per rep).
+rep 0 (warm-up): 1124.29 ms/token (0.89 tok/s)  engine_step 1124.27  resolve 0.29  embed 0.28  head_wait 1119.62  head_rows 2.77  submit 0.12  build 0.94  out_wait 0.25
+rep 1: 40.16 ms/token (24.90 tok/s)  engine_step 40.16  resolve 0.40  embed 0.19  head_wait 34.83  head_rows 3.80  submit 0.06  build 0.75  out_wait 0.13
+rep 2: 38.49 ms/token (25.98 tok/s)  engine_step 38.49  resolve 0.33  embed 0.16  head_wait 34.87  head_rows 2.14  submit 0.06  build 0.80  out_wait 0.12
+rep 3: 38.74 ms/token (25.81 tok/s)  engine_step 38.74  resolve 0.38  embed 0.14  head_wait 35.13  head_rows 2.10  submit 0.06  build 0.81  out_wait 0.12

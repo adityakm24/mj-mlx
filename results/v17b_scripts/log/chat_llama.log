@@ -1,0 +1,13 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_lm_eval.py --engine llama-server --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --tasks mmlu,gsm8k --chat --every 4 --effort low --out results/lm_eval_chat_v1/gptoss_llama_r2.json
+mmlu 50/285: acc 0.8600 (295 s)
+mmlu 100/285: acc 0.8500 (488 s)
+mmlu 150/285: acc 0.8933 (704 s)
+mmlu 200/285: acc 0.8800 (870 s)
+mmlu 250/285: acc 0.8680 (1060 s)
+mmlu: 0.8526 +- 0.0210 (n 285)
+gsm8k 50/63: acc 0.9200 (314 s)
+gsm8k: 0.9206 +- 0.0341 (n 63)
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_chat_check.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --engines llama-server --new 256 --out results/chat_check_v1/gptoss_llama_r2.json
+llama-server: 74 s

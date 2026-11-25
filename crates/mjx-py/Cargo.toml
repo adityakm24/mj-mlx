@@ -1,0 +1,15 @@
+[package]
+name = "mjx-py"
+description = "Python bindings for the mj-mlx scheduler core (mj_mlx._sched)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lib]
+name = "_sched"
+crate-type = ["cdylib"]
+
+[dependencies]
+mjx-core = { path = "../mjx-core" }
+pyo3 = { version = "0.23", features = ["extension-module", "abi3-py39"] }

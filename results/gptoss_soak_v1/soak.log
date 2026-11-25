@@ -1,0 +1,468 @@
+mj pp2048 rep 0: 425.26 tok/s, 47 mJ/token GPU
+mj pp2048 rep 1: 425.50 tok/s, 47 mJ/token GPU
+mj pp2048 rep 2: 424.48 tok/s, 48 mJ/token GPU
+mj pp2048 rep 3: 425.23 tok/s, 48 mJ/token GPU
+mj pp2048 rep 4: 420.47 tok/s, 48 mJ/token GPU
+mj pp2048 rep 5: 413.67 tok/s, 46 mJ/token GPU
+mj pp2048 rep 6: 410.15 tok/s, 45 mJ/token GPU
+mj pp2048 rep 7: 409.70 tok/s, 45 mJ/token GPU
+mj pp2048 rep 8: 409.85 tok/s, 44 mJ/token GPU
+mj pp2048 rep 9: 407.52 tok/s, 44 mJ/token GPU
+mj pp2048 rep 10: 404.15 tok/s, 43 mJ/token GPU
+mj pp2048 rep 11: 405.42 tok/s, 43 mJ/token GPU
+mj pp2048 rep 12: 404.39 tok/s, 43 mJ/token GPU
+mj pp2048 rep 13: 394.06 tok/s, 43 mJ/token GPU
+mj pp2048 rep 14: 398.65 tok/s, 43 mJ/token GPU
+mj pp2048 rep 15: 398.42 tok/s, 43 mJ/token GPU
+mj pp2048 rep 16: 400.65 tok/s, 42 mJ/token GPU
+mj pp2048 rep 17: 400.85 tok/s, 43 mJ/token GPU
+mj pp2048 rep 18: 401.89 tok/s, 43 mJ/token GPU
+mj pp2048 rep 19: 403.75 tok/s, 43 mJ/token GPU
+mj pp2048 rep 20: 406.54 tok/s, 43 mJ/token GPU
+mj pp2048 rep 21: 401.68 tok/s, 43 mJ/token GPU
+mj pp2048 rep 22: 407.41 tok/s, 44 mJ/token GPU
+mj pp2048 rep 23: 410.35 tok/s, 44 mJ/token GPU
+mj pp2048 rep 24: 410.74 tok/s, 44 mJ/token GPU
+mj pp2048 rep 25: 398.04 tok/s, 43 mJ/token GPU
+mj pp2048 rep 26: 397.54 tok/s, 43 mJ/token GPU
+mj pp2048 rep 27: 404.74 tok/s, 43 mJ/token GPU
+mj pp2048 rep 28: 409.87 tok/s, 44 mJ/token GPU
+mj pp2048 rep 29: 414.63 tok/s, 46 mJ/token GPU
+mj pp2048 rep 30: 416.99 tok/s, 46 mJ/token GPU
+mj pp2048 rep 31: 418.64 tok/s, 46 mJ/token GPU
+mj pp2048 rep 32: 420.02 tok/s, 47 mJ/token GPU
+mj pp2048 rep 33: 419.42 tok/s, 47 mJ/token GPU
+mj pp2048 rep 34: 421.30 tok/s, 47 mJ/token GPU
+mj pp2048 rep 35: 425.32 tok/s, 47 mJ/token GPU
+mj pp2048 rep 36: 424.98 tok/s, 47 mJ/token GPU
+mj pp2048 rep 37: 424.62 tok/s, 48 mJ/token GPU
+mj pp2048 rep 38: 424.16 tok/s, 48 mJ/token GPU
+mj pp2048 rep 39: 426.46 tok/s, 48 mJ/token GPU
+mj pp2048 rep 40: 428.03 tok/s, 48 mJ/token GPU
+mj pp2048 rep 41: 428.19 tok/s, 48 mJ/token GPU
+mj pp2048 rep 42: 428.86 tok/s, 48 mJ/token GPU
+mj pp2048 rep 43: 426.14 tok/s, 48 mJ/token GPU
+mj pp2048 rep 44: 426.74 tok/s, 48 mJ/token GPU
+mj pp2048 rep 45: 427.39 tok/s, 48 mJ/token GPU
+mj pp2048 rep 46: 429.30 tok/s, 48 mJ/token GPU
+mj pp2048 rep 47: 430.49 tok/s, 48 mJ/token GPU
+mj pp2048 rep 48: 429.05 tok/s, 48 mJ/token GPU
+mj pp2048 rep 49: 430.58 tok/s, 48 mJ/token GPU
+mj pp2048 rep 50: 429.23 tok/s, 48 mJ/token GPU
+mj pp2048 rep 51: 429.56 tok/s, 48 mJ/token GPU
+mj pp2048 rep 52: 427.05 tok/s, 49 mJ/token GPU
+mj pp2048 rep 53: 427.11 tok/s, 48 mJ/token GPU
+mj pp2048 rep 54: 418.60 tok/s, 48 mJ/token GPU
+mj pp2048 rep 55: 130.08 tok/s, 55 mJ/token GPU
+mj pp2048 rep 56: 424.51 tok/s, 48 mJ/token GPU
+mj pp2048 rep 57: 428.02 tok/s, 48 mJ/token GPU
+mj pp2048 rep 58: 425.86 tok/s, 48 mJ/token GPU
+mj pp2048 rep 59: 426.28 tok/s, 48 mJ/token GPU
+mj pp2048 rep 60: 424.23 tok/s, 48 mJ/token GPU
+mj pp2048 rep 61: 426.09 tok/s, 48 mJ/token GPU
+mj pp2048 rep 62: 423.88 tok/s, 48 mJ/token GPU
+mj pp2048 rep 63: 426.22 tok/s, 48 mJ/token GPU
+mj pp2048 rep 64: 428.56 tok/s, 48 mJ/token GPU
+mj pp2048 rep 65: 429.73 tok/s, 48 mJ/token GPU
+mj pp2048 rep 66: 430.18 tok/s, 48 mJ/token GPU
+mj pp2048 rep 67: 430.27 tok/s, 48 mJ/token GPU
+mj pp2048 rep 68: 429.34 tok/s, 48 mJ/token GPU
+mj pp2048 rep 69: 430.00 tok/s, 48 mJ/token GPU
+mj pp2048 rep 70: 430.47 tok/s, 48 mJ/token GPU
+mj pp2048 rep 71: 429.12 tok/s, 48 mJ/token GPU
+mj pp2048 rep 72: 429.02 tok/s, 48 mJ/token GPU
+mj pp2048 rep 73: 429.60 tok/s, 48 mJ/token GPU
+mj pp2048 rep 74: 430.11 tok/s, 48 mJ/token GPU
+mj pp2048 rep 75: 429.75 tok/s, 48 mJ/token GPU
+mj pp2048 rep 76: 429.34 tok/s, 48 mJ/token GPU
+mj pp2048 rep 77: 429.64 tok/s, 48 mJ/token GPU
+mj pp2048 rep 78: 429.36 tok/s, 48 mJ/token GPU
+mj pp2048 rep 79: 430.13 tok/s, 48 mJ/token GPU
+mj pp2048 rep 80: 429.28 tok/s, 48 mJ/token GPU
+mj pp2048 rep 81: 426.92 tok/s, 48 mJ/token GPU
+mj pp2048 rep 82: 428.97 tok/s, 48 mJ/token GPU
+mj pp2048 rep 83: 428.83 tok/s, 48 mJ/token GPU
+mj pp2048 rep 84: 429.27 tok/s, 48 mJ/token GPU
+mj pp2048 rep 85: 430.13 tok/s, 48 mJ/token GPU
+mj pp2048 rep 86: 432.02 tok/s, 48 mJ/token GPU
+mj pp2048 rep 87: 430.77 tok/s, 48 mJ/token GPU
+mj pp2048 rep 88: 430.06 tok/s, 48 mJ/token GPU
+mj pp2048 rep 89: 427.47 tok/s, 48 mJ/token GPU
+mj pp2048 rep 90: 427.05 tok/s, 48 mJ/token GPU
+mj pp2048 rep 91: 425.69 tok/s, 48 mJ/token GPU
+mj pp2048 rep 92: 426.63 tok/s, 48 mJ/token GPU
+mj pp2048 rep 93: 429.72 tok/s, 48 mJ/token GPU
+mj pp2048 rep 94: 430.10 tok/s, 48 mJ/token GPU
+mj pp2048 rep 95: 431.13 tok/s, 48 mJ/token GPU
+mj pp2048 rep 96: 430.70 tok/s, 48 mJ/token GPU
+mj pp2048 rep 97: 431.84 tok/s, 48 mJ/token GPU
+mj pp2048 rep 98: 429.87 tok/s, 48 mJ/token GPU
+mj pp2048 rep 99: 430.33 tok/s, 48 mJ/token GPU
+mj pp2048 rep 100: 431.08 tok/s, 48 mJ/token GPU
+mj pp2048 rep 101: 430.97 tok/s, 48 mJ/token GPU
+mj pp2048 rep 102: 432.92 tok/s, 48 mJ/token GPU
+mj pp2048 rep 103: 432.83 tok/s, 48 mJ/token GPU
+mj pp2048 rep 104: 431.12 tok/s, 48 mJ/token GPU
+mj pp2048 rep 105: 427.89 tok/s, 48 mJ/token GPU
+mj pp2048 rep 106: 429.20 tok/s, 48 mJ/token GPU
+mj pp2048 rep 107: 430.22 tok/s, 48 mJ/token GPU
+mj pp2048 rep 108: 430.43 tok/s, 48 mJ/token GPU
+mj pp2048 rep 109: 431.62 tok/s, 48 mJ/token GPU
+mj pp2048 rep 110: 431.93 tok/s, 48 mJ/token GPU
+mj pp2048 rep 111: 432.33 tok/s, 48 mJ/token GPU
+mj pp2048 rep 112: 433.07 tok/s, 48 mJ/token GPU
+mj pp2048 rep 113: 432.15 tok/s, 48 mJ/token GPU
+mj pp2048 rep 114: 432.41 tok/s, 48 mJ/token GPU
+mj pp2048 rep 115: 434.25 tok/s, 48 mJ/token GPU
+mj pp2048 rep 116: 434.61 tok/s, 48 mJ/token GPU
+mj pp2048 rep 117: 432.22 tok/s, 48 mJ/token GPU
+mj pp2048 rep 118: 428.65 tok/s, 48 mJ/token GPU
+mj pp2048 rep 119: 429.21 tok/s, 48 mJ/token GPU
+mj pp2048 rep 120: 428.66 tok/s, 48 mJ/token GPU
+mj pp2048 rep 121: 426.58 tok/s, 48 mJ/token GPU
+mj pp2048 rep 122: 421.41 tok/s, 48 mJ/token GPU
+mj pp2048 rep 123: 426.59 tok/s, 48 mJ/token GPU
+mj pp2048 rep 124: 427.10 tok/s, 48 mJ/token GPU
+mj pp2048 rep 125: 429.38 tok/s, 48 mJ/token GPU
+mj pp2048 rep 126: 430.19 tok/s, 48 mJ/token GPU
+mj pp2048 rep 127: 427.60 tok/s, 48 mJ/token GPU
+mj pp2048 rep 128: 427.31 tok/s, 48 mJ/token GPU
+mj pp2048 rep 129: 429.82 tok/s, 48 mJ/token GPU
+mj pp2048 rep 130: 429.83 tok/s, 48 mJ/token GPU
+mj pp2048 rep 131: 431.58 tok/s, 48 mJ/token GPU
+mj pp2048 rep 132: 431.00 tok/s, 48 mJ/token GPU
+mj pp2048 rep 133: 428.69 tok/s, 48 mJ/token GPU
+mj pp2048 rep 134: 424.78 tok/s, 48 mJ/token GPU
+mj pp2048 rep 135: 426.45 tok/s, 48 mJ/token GPU
+mj pp2048 rep 136: 429.44 tok/s, 48 mJ/token GPU
+mj pp2048 rep 137: 430.41 tok/s, 48 mJ/token GPU
+mj pp2048 rep 138: 430.54 tok/s, 48 mJ/token GPU
+mj pp2048 rep 139: 430.72 tok/s, 48 mJ/token GPU
+mj pp2048 rep 140: 430.78 tok/s, 48 mJ/token GPU
+mj pp2048 rep 141: 431.06 tok/s, 48 mJ/token GPU
+mj pp2048 rep 142: 430.20 tok/s, 48 mJ/token GPU
+mj pp2048 rep 143: 431.00 tok/s, 48 mJ/token GPU
+mj pp2048 rep 144: 431.01 tok/s, 48 mJ/token GPU
+mj pp2048 rep 145: 431.85 tok/s, 48 mJ/token GPU
+mj pp2048 rep 146: 429.61 tok/s, 48 mJ/token GPU
+mj pp2048 rep 147: 428.97 tok/s, 48 mJ/token GPU
+mj pp2048 rep 148: 425.53 tok/s, 48 mJ/token GPU
+mj pp2048 rep 149: 423.93 tok/s, 48 mJ/token GPU
+mj tg128@d0 rep 0: 37.09 tok/s, ttft 0.16 s, 299 mJ/token GPU
+mj tg128@d0 rep 1: 37.32 tok/s, ttft 0.16 s, 297 mJ/token GPU
+mj tg128@d0 rep 2: 37.31 tok/s, ttft 0.16 s, 294 mJ/token GPU
+mj tg128@d0 rep 3: 37.33 tok/s, ttft 0.17 s, 292 mJ/token GPU
+mj tg128@d0 rep 4: 37.33 tok/s, ttft 0.16 s, 291 mJ/token GPU
+mj tg128@d0 rep 5: 37.28 tok/s, ttft 0.16 s, 291 mJ/token GPU
+mj tg128@d0 rep 6: 37.37 tok/s, ttft 0.16 s, 290 mJ/token GPU
+mj tg128@d0 rep 7: 37.27 tok/s, ttft 0.16 s, 290 mJ/token GPU
+mj tg128@d0 rep 8: 37.37 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 9: 37.44 tok/s, ttft 0.17 s, 288 mJ/token GPU
+mj tg128@d0 rep 10: 37.31 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 11: 37.37 tok/s, ttft 0.17 s, 288 mJ/token GPU
+mj tg128@d0 rep 12: 37.35 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 13: 37.39 tok/s, ttft 0.16 s, 289 mJ/token GPU
+mj tg128@d0 rep 14: 36.59 tok/s, ttft 0.18 s, 289 mJ/token GPU
+mj tg128@d0 rep 15: 37.26 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 16: 36.23 tok/s, ttft 0.16 s, 278 mJ/token GPU
+mj tg128@d0 rep 17: 36.35 tok/s, ttft 0.18 s, 276 mJ/token GPU
+mj tg128@d0 rep 18: 36.06 tok/s, ttft 0.16 s, 293 mJ/token GPU
+mj tg128@d0 rep 19: 37.24 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 20: 36.48 tok/s, ttft 0.17 s, 276 mJ/token GPU
+mj tg128@d0 rep 21: 37.32 tok/s, ttft 0.17 s, 286 mJ/token GPU
+mj tg128@d0 rep 22: 37.29 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 23: 37.31 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 24: 37.21 tok/s, ttft 0.17 s, 285 mJ/token GPU
+mj tg128@d0 rep 25: 36.21 tok/s, ttft 0.16 s, 278 mJ/token GPU
+mj tg128@d0 rep 26: 37.37 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 27: 37.36 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 28: 37.34 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 29: 37.24 tok/s, ttft 0.18 s, 284 mJ/token GPU
+mj tg128@d0 rep 30: 37.28 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 31: 37.39 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 32: 37.30 tok/s, ttft 0.17 s, 286 mJ/token GPU
+mj tg128@d0 rep 33: 37.37 tok/s, ttft 0.15 s, 287 mJ/token GPU
+mj tg128@d0 rep 34: 37.22 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 35: 37.19 tok/s, ttft 0.16 s, 288 mJ/token GPU
+mj tg128@d0 rep 36: 37.21 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 37: 37.49 tok/s, ttft 0.16 s, 288 mJ/token GPU
+mj tg128@d0 rep 38: 37.34 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 39: 37.42 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 40: 37.36 tok/s, ttft 0.17 s, 288 mJ/token GPU
+mj tg128@d0 rep 41: 37.35 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 42: 37.34 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 43: 36.04 tok/s, ttft 0.16 s, 273 mJ/token GPU
+mj tg128@d0 rep 44: 37.50 tok/s, ttft 0.16 s, 289 mJ/token GPU
+mj tg128@d0 rep 45: 37.22 tok/s, ttft 0.17 s, 285 mJ/token GPU
+mj tg128@d0 rep 46: 37.24 tok/s, ttft 0.17 s, 288 mJ/token GPU
+mj tg128@d0 rep 47: 37.40 tok/s, ttft 0.16 s, 288 mJ/token GPU
+mj tg128@d0 rep 48: 37.35 tok/s, ttft 0.17 s, 289 mJ/token GPU
+mj tg128@d0 rep 49: 37.39 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 50: 37.37 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 51: 37.23 tok/s, ttft 0.16 s, 287 mJ/token GPU
+mj tg128@d0 rep 52: 37.27 tok/s, ttft 0.17 s, 287 mJ/token GPU
+mj tg128@d0 rep 53: 37.27 tok/s, ttft 0.16 s, 286 mJ/token GPU
+mj tg128@d0 rep 54: 36.02 tok/s, ttft 0.18 s, 280 mJ/token GPU
+mj tg128@d0 rep 55: 37.32 tok/s, ttft 0.17 s, 288 mJ/token GPU
+mj tg128@d0 rep 56: 37.16 tok/s, ttft 0.16 s, 285 mJ/token GPU
+mj tg128@d0 rep 57: 37.32 tok/s, ttft 0.17 s, 288 mJ/token GPU
+mj tg128@d0 rep 58: 37.36 tok/s, ttft 0.16 s, 288 mJ/token GPU
+mj tg128@d0 rep 59: 36.84 tok/s, ttft 0.17 s, 291 mJ/token GPU
+mj tg128@d0 rep 60: 37.38 tok/s, ttft 0.17 s, 289 mJ/token GPU
+mj tg128@d0 rep 61: 36.74 tok/s, ttft 0.17 s, 292 mJ/token GPU
+mj tg128@d0 rep 62: 37.31 tok/s, ttft 0.25 s, 293 mJ/token GPU
+mj tg128@d0 rep 63: 36.65 tok/s, ttft 0.18 s, 295 mJ/token GPU
+mj tg128@d0 rep 64: 36.02 tok/s, ttft 0.24 s, 297 mJ/token GPU
+mj tg128@d0 rep 65: 36.75 tok/s, ttft 0.17 s, 291 mJ/token GPU
+mj tg128@d0 rep 66: 36.65 tok/s, ttft 0.17 s, 296 mJ/token GPU
+mj tg128@d0 rep 67: 34.71 tok/s, ttft 0.25 s, 305 mJ/token GPU
+mj tg128@d0 rep 68: 33.88 tok/s, ttft 0.29 s, 308 mJ/token GPU
+mj tg128@d0 rep 69: 34.66 tok/s, ttft 0.20 s, 306 mJ/token GPU
+mj tg128@d0 rep 70: 34.76 tok/s, ttft 0.20 s, 305 mJ/token GPU
+mj tg128@d0 rep 71: 34.75 tok/s, ttft 0.20 s, 304 mJ/token GPU
+mj tg128@d0 rep 72: 34.70 tok/s, ttft 0.30 s, 306 mJ/token GPU
+mj tg128@d0 rep 73: 36.09 tok/s, ttft 0.17 s, 299 mJ/token GPU
+mj tg128@d0 rep 74: 36.11 tok/s, ttft 0.17 s, 300 mJ/token GPU
+mj tg128@d0 rep 75: 36.07 tok/s, ttft 0.16 s, 298 mJ/token GPU
+mj tg128@d0 rep 76: 35.97 tok/s, ttft 0.16 s, 297 mJ/token GPU
+mj tg128@d0 rep 77: 36.09 tok/s, ttft 0.17 s, 298 mJ/token GPU
+mj tg128@d0 rep 78: 35.77 tok/s, ttft 0.17 s, 300 mJ/token GPU
+mj tg128@d0 rep 79: 34.69 tok/s, ttft 0.19 s, 296 mJ/token GPU
+mj tg128@d0 rep 80: 36.06 tok/s, ttft 0.17 s, 299 mJ/token GPU
+mj tg128@d0 rep 81: 35.98 tok/s, ttft 0.19 s, 300 mJ/token GPU
+mj tg128@d0 rep 82: 35.97 tok/s, ttft 0.16 s, 298 mJ/token GPU
+mj tg128@d0 rep 83: 34.97 tok/s, ttft 0.17 s, 303 mJ/token GPU
+mj tg128@d0 rep 84: 34.42 tok/s, ttft 0.16 s, 308 mJ/token GPU
+mj tg128@d0 rep 85: 36.05 tok/s, ttft 0.17 s, 298 mJ/token GPU
+mj tg128@d0 rep 86: 36.03 tok/s, ttft 0.17 s, 301 mJ/token GPU
+mj tg128@d0 rep 87: 36.25 tok/s, ttft 0.17 s, 297 mJ/token GPU
+mj tg128@d0 rep 88: 37.26 tok/s, ttft 0.17 s, 294 mJ/token GPU
+mj tg128@d0 rep 89: 37.32 tok/s, ttft 0.16 s, 294 mJ/token GPU
+mj tg128@d0 rep 90: 37.41 tok/s, ttft 0.27 s, 295 mJ/token GPU
+mj tg128@d0 rep 91: 37.52 tok/s, ttft 0.16 s, 296 mJ/token GPU
+mj tg128@d0 rep 92: 37.23 tok/s, ttft 0.18 s, 294 mJ/token GPU
+mj tg128@d0 rep 93: 37.35 tok/s, ttft 0.16 s, 294 mJ/token GPU
+mj tg128@d0 rep 94: 37.13 tok/s, ttft 0.16 s, 295 mJ/token GPU
+mj tg128@d0 rep 95: 37.27 tok/s, ttft 0.16 s, 292 mJ/token GPU
+mj tg128@d0 rep 96: 37.35 tok/s, ttft 0.17 s, 295 mJ/token GPU
+mj tg128@d0 rep 97: 37.38 tok/s, ttft 0.17 s, 296 mJ/token GPU
+mj tg128@d0 rep 98: 37.19 tok/s, ttft 0.16 s, 296 mJ/token GPU
+mj tg128@d0 rep 99: 30.84 tok/s, ttft 0.34 s, 353 mJ/token GPU
+mj tg128@d0 rep 100: 33.26 tok/s, ttft 0.28 s, 343 mJ/token GPU
+mj tg128@d0 rep 101: 36.20 tok/s, ttft 0.18 s, 303 mJ/token GPU
+mj tg128@d0 rep 102: 37.02 tok/s, ttft 0.17 s, 300 mJ/token GPU
+mj tg128@d0 rep 103: 36.37 tok/s, ttft 0.17 s, 302 mJ/token GPU
+mj tg128@d0 rep 104: 35.55 tok/s, ttft 0.19 s, 312 mJ/token GPU
+mj tg128@d0 rep 105: 30.77 tok/s, ttft 0.27 s, 368 mJ/token GPU
+mj tg128@d0 rep 106: 35.89 tok/s, ttft 0.18 s, 310 mJ/token GPU
+mj tg128@d0 rep 107: 35.85 tok/s, ttft 0.18 s, 311 mJ/token GPU
+mj tg128@d0 rep 108: 33.14 tok/s, ttft 0.28 s, 323 mJ/token GPU
+mj tg128@d0 rep 109: 35.33 tok/s, ttft 0.29 s, 309 mJ/token GPU
+mj tg128@d0 rep 110: 36.15 tok/s, ttft 0.29 s, 306 mJ/token GPU
+mj tg128@d0 rep 111: 36.16 tok/s, ttft 0.16 s, 304 mJ/token GPU
+mj tg128@d0 rep 112: 36.17 tok/s, ttft 0.17 s, 304 mJ/token GPU
+mj tg128@d0 rep 113: 37.16 tok/s, ttft 0.19 s, 300 mJ/token GPU
+mj tg128@d0 rep 114: 35.07 tok/s, ttft 0.18 s, 303 mJ/token GPU
+mj tg128@d0 rep 115: 37.22 tok/s, ttft 0.16 s, 301 mJ/token GPU
+mj tg128@d0 rep 116: 36.90 tok/s, ttft 0.17 s, 301 mJ/token GPU
+mj tg128@d0 rep 117: 36.59 tok/s, ttft 0.18 s, 301 mJ/token GPU
+mj tg128@d0 rep 118: 37.15 tok/s, ttft 0.17 s, 300 mJ/token GPU
+mj tg128@d0 rep 119: 37.29 tok/s, ttft 0.17 s, 300 mJ/token GPU
+mj tg128@d0 rep 120: 37.20 tok/s, ttft 0.16 s, 299 mJ/token GPU
+mj tg128@d0 rep 121: 36.41 tok/s, ttft 0.17 s, 297 mJ/token GPU
+mj tg128@d0 rep 122: 36.75 tok/s, ttft 0.17 s, 291 mJ/token GPU
+mj tg128@d0 rep 123: 36.87 tok/s, ttft 0.20 s, 298 mJ/token GPU
+mj tg128@d0 rep 124: 36.56 tok/s, ttft 0.24 s, 297 mJ/token GPU
+mj tg128@d0 rep 125: 37.13 tok/s, ttft 0.16 s, 298 mJ/token GPU
+mj tg128@d0 rep 126: 36.30 tok/s, ttft 0.17 s, 286 mJ/token GPU
+mj tg128@d0 rep 127: 36.51 tok/s, ttft 0.19 s, 297 mJ/token GPU
+mj tg128@d0 rep 128: 37.10 tok/s, ttft 0.17 s, 301 mJ/token GPU
+mj tg128@d0 rep 129: 36.86 tok/s, ttft 0.17 s, 298 mJ/token GPU
+mj tg128@d0 rep 130: 37.21 tok/s, ttft 0.18 s, 300 mJ/token GPU
+mj tg128@d0 rep 131: 37.16 tok/s, ttft 0.17 s, 298 mJ/token GPU
+mj tg128@d0 rep 132: 36.89 tok/s, ttft 0.16 s, 299 mJ/token GPU
+mj tg128@d0 rep 133: 37.10 tok/s, ttft 0.18 s, 298 mJ/token GPU
+mj tg128@d0 rep 134: 37.09 tok/s, ttft 0.18 s, 300 mJ/token GPU
+mj tg128@d0 rep 135: 36.45 tok/s, ttft 0.17 s, 295 mJ/token GPU
+mj tg128@d0 rep 136: 37.16 tok/s, ttft 0.16 s, 298 mJ/token GPU
+mj tg128@d0 rep 137: 36.89 tok/s, ttft 0.18 s, 299 mJ/token GPU
+mj tg128@d0 rep 138: 37.18 tok/s, ttft 0.16 s, 300 mJ/token GPU
+mj tg128@d0 rep 139: 36.40 tok/s, ttft 0.16 s, 296 mJ/token GPU
+mj tg128@d0 rep 140: 37.16 tok/s, ttft 0.18 s, 299 mJ/token GPU
+mj tg128@d0 rep 141: 37.36 tok/s, ttft 0.19 s, 299 mJ/token GPU
+mj tg128@d0 rep 142: 35.99 tok/s, ttft 0.18 s, 312 mJ/token GPU
+mj tg128@d0 rep 143: 36.07 tok/s, ttft 0.21 s, 307 mJ/token GPU
+mj tg128@d0 rep 144: 37.16 tok/s, ttft 0.18 s, 301 mJ/token GPU
+mj tg128@d0 rep 145: 37.27 tok/s, ttft 0.16 s, 299 mJ/token GPU
+mj tg128@d0 rep 146: 37.24 tok/s, ttft 0.17 s, 299 mJ/token GPU
+mj tg128@d0 rep 147: 37.24 tok/s, ttft 0.17 s, 300 mJ/token GPU
+mj tg128@d0 rep 148: 37.29 tok/s, ttft 0.17 s, 299 mJ/token GPU
+mj tg128@d0 rep 149: 37.17 tok/s, ttft 0.25 s, 301 mJ/token GPU
+mj tg128@d2048 rep 0: 35.61 tok/s, ttft 4.86 s, 329 mJ/token GPU
+mj tg128@d2048 rep 1: 35.52 tok/s, ttft 4.94 s, 301 mJ/token GPU
+mj tg128@d2048 rep 2: 35.32 tok/s, ttft 4.99 s, 285 mJ/token GPU
+mj tg128@d2048 rep 3: 33.69 tok/s, ttft 5.06 s, 297 mJ/token GPU
+mj tg128@d2048 rep 4: 35.28 tok/s, ttft 5.07 s, 279 mJ/token GPU
+mj tg128@d2048 rep 5: 35.52 tok/s, ttft 5.07 s, 279 mJ/token GPU
+mj tg128@d2048 rep 6: 35.45 tok/s, ttft 5.05 s, 278 mJ/token GPU
+mj tg128@d2048 rep 7: 34.85 tok/s, ttft 5.05 s, 282 mJ/token GPU
+mj tg128@d2048 rep 8: 34.83 tok/s, ttft 5.07 s, 280 mJ/token GPU
+mj tg128@d2048 rep 9: 35.51 tok/s, ttft 5.01 s, 278 mJ/token GPU
+mj tg128@d2048 rep 10: 35.52 tok/s, ttft 5.05 s, 278 mJ/token GPU
+mj tg128@d2048 rep 11: 35.63 tok/s, ttft 5.01 s, 285 mJ/token GPU
+mj tg128@d2048 rep 12: 35.67 tok/s, ttft 4.97 s, 294 mJ/token GPU
+mj tg128@d2048 rep 13: 35.48 tok/s, ttft 4.95 s, 303 mJ/token GPU
+mj tg128@d2048 rep 14: 35.63 tok/s, ttft 4.94 s, 307 mJ/token GPU
+mj tg128@d2048 rep 15: 35.70 tok/s, ttft 4.91 s, 312 mJ/token GPU
+mj tg128@d2048 rep 16: 35.65 tok/s, ttft 4.99 s, 314 mJ/token GPU
+mj tg128@d2048 rep 17: 35.44 tok/s, ttft 4.88 s, 325 mJ/token GPU
+mj tg128@d2048 rep 18: 35.72 tok/s, ttft 4.85 s, 329 mJ/token GPU
+mj tg128@d2048 rep 19: 35.78 tok/s, ttft 4.83 s, 329 mJ/token GPU
+mj tg128@d2048 rep 20: 35.81 tok/s, ttft 4.83 s, 329 mJ/token GPU
+mj tg128@d2048 rep 21: 35.68 tok/s, ttft 4.83 s, 330 mJ/token GPU
+mj tg128@d2048 rep 22: 35.84 tok/s, ttft 4.81 s, 330 mJ/token GPU
+mj tg128@d2048 rep 23: 35.66 tok/s, ttft 4.80 s, 329 mJ/token GPU
+mj tg128@d2048 rep 24: 35.64 tok/s, ttft 4.79 s, 327 mJ/token GPU
+mj tg128@d2048 rep 25: 35.81 tok/s, ttft 4.77 s, 328 mJ/token GPU
+mj tg128@d2048 rep 26: 35.06 tok/s, ttft 4.76 s, 325 mJ/token GPU
+mj tg128@d2048 rep 27: 35.81 tok/s, ttft 4.76 s, 327 mJ/token GPU
+mj tg128@d2048 rep 28: 34.18 tok/s, ttft 4.81 s, 336 mJ/token GPU
+mj tg128@d2048 rep 29: 35.61 tok/s, ttft 4.78 s, 327 mJ/token GPU
+mj tg128@d2048 rep 30: 35.97 tok/s, ttft 4.82 s, 327 mJ/token GPU
+mj tg128@d2048 rep 31: 35.90 tok/s, ttft 4.81 s, 327 mJ/token GPU
+mj tg128@d2048 rep 32: 35.86 tok/s, ttft 4.79 s, 324 mJ/token GPU
+mj tg128@d2048 rep 33: 35.83 tok/s, ttft 4.78 s, 323 mJ/token GPU
+mj tg128@d2048 rep 34: 35.96 tok/s, ttft 4.78 s, 323 mJ/token GPU
+mj tg128@d2048 rep 35: 35.90 tok/s, ttft 4.76 s, 321 mJ/token GPU
+mj tg128@d2048 rep 36: 35.98 tok/s, ttft 4.75 s, 322 mJ/token GPU
+mj tg128@d2048 rep 37: 35.97 tok/s, ttft 4.77 s, 322 mJ/token GPU
+mj tg128@d2048 rep 38: 35.93 tok/s, ttft 4.77 s, 319 mJ/token GPU
+mj tg128@d2048 rep 39: 35.95 tok/s, ttft 4.77 s, 322 mJ/token GPU
+mj tg128@d2048 rep 40: 35.94 tok/s, ttft 4.79 s, 319 mJ/token GPU
+mj tg128@d2048 rep 41: 35.96 tok/s, ttft 4.76 s, 320 mJ/token GPU
+mj tg128@d2048 rep 42: 35.96 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 43: 35.53 tok/s, ttft 4.75 s, 316 mJ/token GPU
+mj tg128@d2048 rep 44: 35.88 tok/s, ttft 4.73 s, 317 mJ/token GPU
+mj tg128@d2048 rep 45: 35.96 tok/s, ttft 4.74 s, 319 mJ/token GPU
+mj tg128@d2048 rep 46: 35.42 tok/s, ttft 4.74 s, 321 mJ/token GPU
+mj tg128@d2048 rep 47: 35.94 tok/s, ttft 4.75 s, 320 mJ/token GPU
+mj tg128@d2048 rep 48: 35.94 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 49: 35.91 tok/s, ttft 4.77 s, 318 mJ/token GPU
+mj tg128@d2048 rep 50: 35.97 tok/s, ttft 4.79 s, 320 mJ/token GPU
+mj tg128@d2048 rep 51: 35.85 tok/s, ttft 4.76 s, 316 mJ/token GPU
+mj tg128@d2048 rep 52: 35.94 tok/s, ttft 4.78 s, 319 mJ/token GPU
+mj tg128@d2048 rep 53: 35.83 tok/s, ttft 4.76 s, 318 mJ/token GPU
+mj tg128@d2048 rep 54: 35.97 tok/s, ttft 4.75 s, 318 mJ/token GPU
+mj tg128@d2048 rep 55: 34.54 tok/s, ttft 4.77 s, 327 mJ/token GPU
+mj tg128@d2048 rep 56: 35.95 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 57: 35.88 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 58: 35.83 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 59: 35.90 tok/s, ttft 4.77 s, 318 mJ/token GPU
+mj tg128@d2048 rep 60: 35.61 tok/s, ttft 4.76 s, 321 mJ/token GPU
+mj tg128@d2048 rep 61: 35.22 tok/s, ttft 4.76 s, 321 mJ/token GPU
+mj tg128@d2048 rep 62: 35.80 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 63: 35.83 tok/s, ttft 4.78 s, 319 mJ/token GPU
+mj tg128@d2048 rep 64: 35.66 tok/s, ttft 4.76 s, 315 mJ/token GPU
+mj tg128@d2048 rep 65: 35.90 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 66: 35.47 tok/s, ttft 4.74 s, 320 mJ/token GPU
+mj tg128@d2048 rep 67: 33.65 tok/s, ttft 4.77 s, 325 mJ/token GPU
+mj tg128@d2048 rep 68: 33.60 tok/s, ttft 4.84 s, 306 mJ/token GPU
+mj tg128@d2048 rep 69: 35.93 tok/s, ttft 4.79 s, 319 mJ/token GPU
+mj tg128@d2048 rep 70: 35.84 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 71: 35.89 tok/s, ttft 4.78 s, 320 mJ/token GPU
+mj tg128@d2048 rep 72: 35.92 tok/s, ttft 4.79 s, 318 mJ/token GPU
+mj tg128@d2048 rep 73: 35.85 tok/s, ttft 4.78 s, 320 mJ/token GPU
+mj tg128@d2048 rep 74: 35.69 tok/s, ttft 4.86 s, 324 mJ/token GPU
+mj tg128@d2048 rep 75: 33.23 tok/s, ttft 4.81 s, 334 mJ/token GPU
+mj tg128@d2048 rep 76: 35.79 tok/s, ttft 4.80 s, 321 mJ/token GPU
+mj tg128@d2048 rep 77: 35.90 tok/s, ttft 4.78 s, 321 mJ/token GPU
+mj tg128@d2048 rep 78: 35.91 tok/s, ttft 4.78 s, 320 mJ/token GPU
+mj tg128@d2048 rep 79: 35.12 tok/s, ttft 4.77 s, 312 mJ/token GPU
+mj tg128@d2048 rep 80: 35.90 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 81: 35.98 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 82: 35.21 tok/s, ttft 4.77 s, 318 mJ/token GPU
+mj tg128@d2048 rep 83: 35.92 tok/s, ttft 4.76 s, 320 mJ/token GPU
+mj tg128@d2048 rep 84: 35.83 tok/s, ttft 4.77 s, 317 mJ/token GPU
+mj tg128@d2048 rep 85: 35.86 tok/s, ttft 4.78 s, 320 mJ/token GPU
+mj tg128@d2048 rep 86: 35.93 tok/s, ttft 4.76 s, 318 mJ/token GPU
+mj tg128@d2048 rep 87: 34.92 tok/s, ttft 4.76 s, 325 mJ/token GPU
+mj tg128@d2048 rep 88: 35.94 tok/s, ttft 4.78 s, 319 mJ/token GPU
+mj tg128@d2048 rep 89: 35.98 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 90: 36.00 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 91: 35.95 tok/s, ttft 4.75 s, 320 mJ/token GPU
+mj tg128@d2048 rep 92: 36.02 tok/s, ttft 4.73 s, 319 mJ/token GPU
+mj tg128@d2048 rep 93: 36.00 tok/s, ttft 4.75 s, 319 mJ/token GPU
+mj tg128@d2048 rep 94: 35.86 tok/s, ttft 4.73 s, 320 mJ/token GPU
+mj tg128@d2048 rep 95: 35.85 tok/s, ttft 4.75 s, 318 mJ/token GPU
+mj tg128@d2048 rep 96: 35.81 tok/s, ttft 4.79 s, 319 mJ/token GPU
+mj tg128@d2048 rep 97: 35.85 tok/s, ttft 4.78 s, 318 mJ/token GPU
+mj tg128@d2048 rep 98: 35.88 tok/s, ttft 4.77 s, 319 mJ/token GPU
+mj tg128@d2048 rep 99: 35.75 tok/s, ttft 4.77 s, 319 mJ/token GPU
+mj tg128@d2048 rep 100: 35.86 tok/s, ttft 4.79 s, 320 mJ/token GPU
+mj tg128@d2048 rep 101: 35.79 tok/s, ttft 4.78 s, 319 mJ/token GPU
+mj tg128@d2048 rep 102: 36.04 tok/s, ttft 4.76 s, 319 mJ/token GPU
+mj tg128@d2048 rep 103: 35.93 tok/s, ttft 4.76 s, 318 mJ/token GPU
+mj tg128@d2048 rep 104: 35.93 tok/s, ttft 4.74 s, 318 mJ/token GPU
+mj tg128@d2048 rep 105: 33.81 tok/s, ttft 4.75 s, 317 mJ/token GPU
+mj tg128@d2048 rep 106: 34.49 tok/s, ttft 4.80 s, 327 mJ/token GPU
+mj tg128@d2048 rep 107: 36.19 tok/s, ttft 4.84 s, 322 mJ/token GPU
+mj tg128@d2048 rep 108: 35.82 tok/s, ttft 4.79 s, 321 mJ/token GPU
+mj tg128@d2048 rep 109: 35.83 tok/s, ttft 4.79 s, 321 mJ/token GPU
+mj tg128@d2048 rep 110: 34.94 tok/s, ttft 4.80 s, 326 mJ/token GPU
+mj tg128@d2048 rep 111: 35.93 tok/s, ttft 4.84 s, 322 mJ/token GPU
+mj tg128@d2048 rep 112: 35.92 tok/s, ttft 4.78 s, 321 mJ/token GPU
+mj tg128@d2048 rep 113: 35.91 tok/s, ttft 4.77 s, 318 mJ/token GPU
+mj tg128@d2048 rep 114: 35.71 tok/s, ttft 4.77 s, 323 mJ/token GPU
+mj tg128@d2048 rep 115: 35.93 tok/s, ttft 4.76 s, 321 mJ/token GPU
+mj tg128@d2048 rep 116: 33.73 tok/s, ttft 4.76 s, 313 mJ/token GPU
+mj tg128@d2048 rep 117: 35.94 tok/s, ttft 4.76 s, 320 mJ/token GPU
+mj tg128@d2048 rep 118: 35.98 tok/s, ttft 4.75 s, 319 mJ/token GPU
+mj tg128@d2048 rep 119: 35.72 tok/s, ttft 4.76 s, 320 mJ/token GPU
+mj tg128@d2048 rep 120: 35.92 tok/s, ttft 4.74 s, 319 mJ/token GPU
+mj tg128@d2048 rep 121: 35.51 tok/s, ttft 4.75 s, 321 mJ/token GPU
+mj tg128@d2048 rep 122: 35.83 tok/s, ttft 4.78 s, 322 mJ/token GPU
+mj tg128@d2048 rep 123: 35.95 tok/s, ttft 4.80 s, 321 mJ/token GPU
+mj tg128@d2048 rep 124: 36.00 tok/s, ttft 4.77 s, 319 mJ/token GPU
+mj tg128@d2048 rep 125: 36.01 tok/s, ttft 4.76 s, 321 mJ/token GPU
+mj tg128@d2048 rep 126: 36.00 tok/s, ttft 4.76 s, 320 mJ/token GPU
+mj tg128@d2048 rep 127: 35.71 tok/s, ttft 4.79 s, 322 mJ/token GPU
+mj tg128@d2048 rep 128: 35.84 tok/s, ttft 4.79 s, 321 mJ/token GPU
+mj tg128@d2048 rep 129: 35.85 tok/s, ttft 4.79 s, 321 mJ/token GPU
+mj tg128@d2048 rep 130: 35.92 tok/s, ttft 4.77 s, 321 mJ/token GPU
+mj tg128@d2048 rep 131: 35.95 tok/s, ttft 4.77 s, 320 mJ/token GPU
+mj tg128@d2048 rep 132: 35.92 tok/s, ttft 4.77 s, 321 mJ/token GPU
+mj tg128@d2048 rep 133: 35.79 tok/s, ttft 4.77 s, 321 mJ/token GPU
+mj tg128@d2048 rep 134: 35.91 tok/s, ttft 4.77 s, 321 mJ/token GPU
+mj tg128@d2048 rep 135: 35.89 tok/s, ttft 4.79 s, 321 mJ/token GPU
+mj tg128@d2048 rep 136: 35.92 tok/s, ttft 4.79 s, 319 mJ/token GPU
+mj tg128@d2048 rep 137: 35.97 tok/s, ttft 4.78 s, 321 mJ/token GPU
+mj tg128@d2048 rep 138: 35.93 tok/s, ttft 4.77 s, 322 mJ/token GPU
+mj tg128@d2048 rep 139: 35.98 tok/s, ttft 4.75 s, 321 mJ/token GPU
+mj tg128@d2048 rep 140: 35.18 tok/s, ttft 4.75 s, 325 mJ/token GPU
+mj tg128@d2048 rep 141: 35.85 tok/s, ttft 4.80 s, 323 mJ/token GPU
+mj tg128@d2048 rep 142: 35.94 tok/s, ttft 4.77 s, 322 mJ/token GPU
+mj tg128@d2048 rep 143: 35.91 tok/s, ttft 4.77 s, 322 mJ/token GPU
+mj tg128@d2048 rep 144: 35.83 tok/s, ttft 4.75 s, 321 mJ/token GPU
+mj tg128@d2048 rep 145: 35.90 tok/s, ttft 4.75 s, 320 mJ/token GPU
+mj tg128@d2048 rep 146: 34.52 tok/s, ttft 4.77 s, 326 mJ/token GPU
+mj tg128@d2048 rep 147: 35.91 tok/s, ttft 4.78 s, 322 mJ/token GPU
+mj tg128@d2048 rep 148: 35.95 tok/s, ttft 4.78 s, 320 mJ/token GPU
+mj tg128@d2048 rep 149: 35.90 tok/s, ttft 4.78 s, 321 mJ/token GPU
+     3934.67 real       150.67 user       389.51 sys
+         10582851584  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1843287  page reclaims
+              960753  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+              232681  voluntary context switches
+             3864623  involuntary context switches
+       5281483728836  instructions retired
+       1604609257767  cycles elapsed
+          4011632984  peak memory footprint

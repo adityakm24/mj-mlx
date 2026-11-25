@@ -1,0 +1,20 @@
+2026-11-21 09:30:09.477 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) ndoagent [1216] due to idle-exit (9)
+2026-11-21 09:30:09.479 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 1216 [ndoagent] (idle-exit 0 27773s rf:- type:daemon) 3872KB - memorystatus_available_pages: 199920 compressor_size:200321
+2026-11-21 09:30:10.480 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) visualintelligenced [970] due to idle-exit (9)
+2026-11-21 09:30:10.482 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 970 [visualintelligenced] (idle-exit 0 27774s rf:- type:daemon) 4048KB - memorystatus_available_pages: 140984 compressor_size:204643
+2026-11-21 09:30:11.483 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) com.apple.Safari.History [1241] due to idle-exit (9)
+2026-11-21 09:30:11.485 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 1241 [com.apple.Safari.History] (idle-exit 0 27766s rf:- type:daemon) 3408KB - memorystatus_available_pages: 122121 compressor_size:185859
+2026-11-21 09:30:12.486 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [889] due to idle-exit (9)
+2026-11-21 09:30:12.487 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 889 [SetStoreUpdateService] (idle-exit 0 27758s rf:- type:daemon) 2960KB - memorystatus_available_pages: 103806 compressor_size:156234
+2026-11-21 09:30:13.488 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [717] due to idle-exit (9)
+2026-11-21 09:30:13.489 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 717 [SetStoreUpdateService] (idle-exit 0 27759s rf:- type:daemon) 2960KB - memorystatus_available_pages: 87643 compressor_size:150508
+2026-11-21 09:30:14.489 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [762] due to idle-exit (9)
+2026-11-21 09:30:14.507 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 762 [SetStoreUpdateService] (idle-exit 0 27760s rf:- type:daemon) 2960KB - memorystatus_available_pages: 70036 compressor_size:88648
+2026-11-21 09:30:17.374 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) secinitd [1523] due to idle-exit (9)
+2026-11-21 09:30:17.375 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 1523 [secinitd] (idle-exit 0 27752s rf:- type:daemon) 3296KB - memorystatus_available_pages: 64271 compressor_size:64557
+2026-11-21 09:30:18.377 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) localspeechrecognition [1775] due to idle-exit (9)
+2026-11-21 09:30:18.386 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 1775 [localspeechrecognition] (idle-exit 0 27724s rf:- type:daemon) 5184KB - memorystatus_available_pages: 58009 compressor_size:45878
+2026-11-21 09:30:19.387 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [1776] due to idle-exit (9)
+2026-11-21 09:30:19.390 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 1776 [SetStoreUpdateService] (idle-exit 0 27725s rf:- type:daemon) 3264KB - memorystatus_available_pages: 44351 compressor_size:52343
+2026-11-21 09:30:20.391 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) contentlinkingd [1778] due to idle-exit (9)
+2026-11-21 09:30:20.397 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 1778 [contentlinkingd] (idle-exit 0 27726s rf:- type:daemon) 2992KB - memorystatus_available_pages: 50955 compressor_size:45504

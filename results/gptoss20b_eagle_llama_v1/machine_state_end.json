@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T00:30:46",
+ "top_cpu": [
+  "18172 siriactionsd 93.0",
+  "18448 top 5.3",
+  "1418 python3.14 4.5",
+  "0 kernel_task 2.9",
+  "1400 node 2.3",
+  "2476 claude 0.9",
+  "1693 openshell-driver 0.9",
+  "1302 Finder 0.8"
+ ],
+ "swap": "total = 5120.00M  used = 4361.12M  free = 758.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 5.63 2.98 2.36 }"
+}

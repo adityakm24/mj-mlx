@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T16:42:31",
+ "top_cpu": [
+  "44408 SiriSuggestionsB 72.7",
+  "44410 textcomposerd 34.3",
+  "44403 siriinferenced 21.2",
+  "2143 TGOnDeviceInfere 11.9",
+  "0 kernel_task 6.5",
+  "44425 top 5.4",
+  "579 modelmanagerd 3.7",
+  "418 runningboardd 2.7"
+ ],
+ "swap": "total = 5120.00M  used = 3394.19M  free = 1725.81M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 69%",
+ "loadavg": "{ 5.62 2.40 2.01 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3394.19
+}

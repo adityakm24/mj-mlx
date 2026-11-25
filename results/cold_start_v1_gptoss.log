@@ -1,0 +1,36 @@
+{"python_s": 0.07820296287536621, "import_s": 0.20940303802490234, "ready_s": 7.166361093521118, "first_token_s": 8.449941873550415, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 1, "rep": 0, "time": "2026-11-22T03:18:06", "swap_mb": 2741.0}
+{"python_s": 0.09289717674255371, "import_s": 0.3218541145324707, "ready_s": 5.853627920150757, "first_token_s": 7.042028188705444, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 1, "rep": 1, "time": "2026-11-22T03:18:24", "swap_mb": 3626.06}
+{"python_s": 0.12207508087158203, "import_s": 0.3524329662322998, "ready_s": 4.724451065063477, "first_token_s": 5.9496910572052, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 1, "rep": 2, "time": "2026-11-22T03:18:41", "swap_mb": 3154.06}
+{"ready_s": 21.050559997558594, "first_token_s": 21.57754611968994, "model": "gptoss", "engine": "llama.cpp", "round": 1, "rep": 0, "time": "2026-11-22T03:19:18", "swap_mb": 2942.44}
+{"ready_s": 2.3307347297668457, "first_token_s": 2.7798514366149902, "model": "gptoss", "engine": "llama.cpp", "round": 1, "rep": 1, "time": "2026-11-22T03:19:32", "swap_mb": 2920.0}
+{"ready_s": 1.3198692798614502, "first_token_s": 1.7668004035949707, "model": "gptoss", "engine": "llama.cpp", "round": 1, "rep": 2, "time": "2026-11-22T03:19:44", "swap_mb": 2897.56}
+{"ready_s": 8.892513208, "first_token_s": 9.351206064224243, "server_load_s": 8.892513208, "model": "gptoss", "engine": "ollama-gguf", "round": 1, "rep": 0, "time": "2026-11-22T03:20:08", "swap_mb": 2835.12}
+{"ready_s": 8.383979208, "first_token_s": 8.83246898651123, "server_load_s": 8.383979208, "model": "gptoss", "engine": "ollama-gguf", "round": 1, "rep": 1, "time": "2026-11-22T03:20:32", "swap_mb": 2803.12}
+{"ready_s": 8.386420416, "first_token_s": 8.842595100402832, "server_load_s": 8.386420416, "model": "gptoss", "engine": "ollama-gguf", "round": 1, "rep": 2, "time": "2026-11-22T03:20:57", "swap_mb": 2779.69}
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+{"ready_s": 2.1999762058258057, "first_token_s": 2.644043207168579, "model": "gptoss", "engine": "lmstudio-gguf", "round": 1, "rep": 0, "time": "2026-11-22T03:21:33", "swap_mb": 2723.12}
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+{"ready_s": 1.98353910446167, "first_token_s": 2.415769100189209, "model": "gptoss", "engine": "lmstudio-gguf", "round": 1, "rep": 1, "time": "2026-11-22T03:21:51", "swap_mb": 2758.56}
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+{"ready_s": 2.2055699825286865, "first_token_s": 2.63936710357666, "model": "gptoss", "engine": "lmstudio-gguf", "round": 1, "rep": 2, "time": "2026-11-22T03:22:18", "swap_mb": 2759.81}
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+{"ready_s": 1.6895630359649658, "first_token_s": 2.1201839447021484, "model": "gptoss", "engine": "lmstudio-gguf", "round": 2, "rep": 0, "time": "2026-11-22T03:22:34", "swap_mb": 2783.88}
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+{"ready_s": 1.4474561214447021, "first_token_s": 1.8754572868347168, "model": "gptoss", "engine": "lmstudio-gguf", "round": 2, "rep": 1, "time": "2026-11-22T03:22:50", "swap_mb": 2759.88}
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+{"ready_s": 1.700476884841919, "first_token_s": 2.1237239837646484, "model": "gptoss", "engine": "lmstudio-gguf", "round": 2, "rep": 2, "time": "2026-11-22T03:23:07", "swap_mb": 2751.88}
+{"ready_s": 8.899228292, "first_token_s": 9.350872993469238, "server_load_s": 8.899228292, "model": "gptoss", "engine": "ollama-gguf", "round": 2, "rep": 0, "time": "2026-11-22T03:23:30", "swap_mb": 2719.25}
+{"ready_s": 8.887108416, "first_token_s": 9.351680994033813, "server_load_s": 8.887108416, "model": "gptoss", "engine": "ollama-gguf", "round": 2, "rep": 1, "time": "2026-11-22T03:23:55", "swap_mb": 2691.06}
+{"ready_s": 9.140919209, "first_token_s": 9.618875980377197, "server_load_s": 9.140919209, "model": "gptoss", "engine": "ollama-gguf", "round": 2, "rep": 2, "time": "2026-11-22T03:24:20", "swap_mb": 2769.38}
+{"ready_s": 8.039572954177856, "first_token_s": 8.502602100372314, "model": "gptoss", "engine": "llama.cpp", "round": 2, "rep": 0, "time": "2026-11-22T03:24:43", "swap_mb": 2745.38}
+{"ready_s": 2.589323043823242, "first_token_s": 3.0097622871398926, "model": "gptoss", "engine": "llama.cpp", "round": 2, "rep": 1, "time": "2026-11-22T03:24:57", "swap_mb": 2790.0}
+{"ready_s": 2.314314126968384, "first_token_s": 2.7453999519348145, "model": "gptoss", "engine": "llama.cpp", "round": 2, "rep": 2, "time": "2026-11-22T03:25:11", "swap_mb": 2851.12}
+{"python_s": 0.09217309951782227, "import_s": 0.34063100814819336, "ready_s": 4.427631139755249, "first_token_s": 5.620734930038452, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 2, "rep": 0, "time": "2026-11-22T03:25:29", "swap_mb": 3920.19}
+{"python_s": 0.07153916358947754, "import_s": 0.20871210098266602, "ready_s": 5.832918882369995, "first_token_s": 6.889799118041992, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 2, "rep": 1, "time": "2026-11-22T03:25:47", "swap_mb": 4510.81}
+{"python_s": 0.08916473388671875, "import_s": 0.29285097122192383, "ready_s": 3.9374518394470215, "first_token_s": 4.641921758651733, "mlx_peak_gb": 13.593295104, "model": "gptoss", "engine": "mj-a8w", "round": 2, "rep": 2, "time": "2026-11-22T03:26:03", "swap_mb": 3660.19}
+| model | engine | ready s (median, min-max) | first token s (median, min-max) | n |
+| --- | --- | --- | --- | --- |
+| gptoss | mj-a8w | 5.28 (3.94-7.17) | 6.42 (4.64-8.45) | 6 |
+| gptoss | llama.cpp | 2.46 (1.32-21.05) | 2.89 (1.77-21.58) | 6 |
+| gptoss | ollama-gguf | 8.89 (8.38-9.14) | 9.35 (8.83-9.62) | 6 |
+| gptoss | lmstudio-gguf | 1.84 (1.45-2.21) | 2.27 (1.88-2.64) | 6 |

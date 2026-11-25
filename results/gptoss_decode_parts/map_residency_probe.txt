@@ -1,0 +1,5 @@
+before          {'wired': 2.164, 'pageins': 9672.992, 'file_backed': 10.613}
+gather 0:   814.2 ms  {'wired': 1.212, 'pageins': 0.536, 'file_backed': -0.959} (GB, delta)
+gather 1:     0.8 ms  {'wired': 1.212, 'pageins': 0.536, 'file_backed': -0.959} (GB, delta)
+gather 2:     0.5 ms  {'wired': 1.212, 'pageins': 0.536, 'file_backed': -0.959} (GB, delta)
+20 random gathers: 1.29 ms each; {'wired': 1.212, 'pageins': 0.539, 'file_backed': -0.965}

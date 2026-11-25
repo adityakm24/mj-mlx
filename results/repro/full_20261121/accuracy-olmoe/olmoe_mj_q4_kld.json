@@ -1,0 +1,20 @@
+{
+ "engine": "mj",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--OLMoE-1B-7B-0125-Instruct-4bit/snapshots/e23844197887b031e7ddddbb0b8959c5a6853a7b",
+ "mj_kw": {},
+ "ctx": 512,
+ "chunks": 80,
+ "tokens_scored": 20400,
+ "text_tokens": 285831,
+ "add_bos": false,
+ "ppl": 12.004307512554421,
+ "ppl_se": 0.2578434894433234,
+ "load_s": 4.417511625004408,
+ "eval_s": 44.73983800000133,
+ "ref": "~/.cache/millijoule/accuracy_refs/ref_olmoe_bf16",
+ "kld_mean": 0.15915652245616485,
+ "kld_se": 0.0018596988661734165,
+ "kld_p99": 1.2035378082518444,
+ "kld_median": 0.08069967731926382,
+ "same_top": 0.8196078431372549
+}

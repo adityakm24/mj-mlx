@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-18T11:27:09",
+ "top_cpu": [
+  "56101 photolibraryd 41.6",
+  "56100 CoreLocationAgen 36.6",
+  "56098 itunescloudd 30.4",
+  "0 kernel_task 25.9",
+  "684 eligibilityd 20.8",
+  "54432 mediaanalysisd 15.9",
+  "535 fseventsd 13.2",
+  "1 launchd 10.9"
+ ],
+ "swap": "total = 7168.00M  used = 6042.88M  free = 1125.12M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 1.33 1.47 1.39 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 6042.88
+}

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T16:05:21",
+ "top_cpu": [
+  "28585 spotlightknowled 78.6",
+  "38669 FPCKService 75.3",
+  "369 mds 48.8",
+  "0 kernel_task 13.8",
+  "1342 claude 6.9",
+  "38706 top 5.4",
+  "1 launchd 3.3",
+  "670 fileproviderd 2.9"
+ ],
+ "swap": "total = 7168.00M  used = 5799.06M  free = 1368.94M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 85%",
+ "loadavg": "{ 1.81 2.27 2.44 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 5799.06
+}

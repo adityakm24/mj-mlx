@@ -1,0 +1,30 @@
+{
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "experts": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss20b-experts",
+ "prompt": "Explain, in a short paragraph, why the sky looks blue during the day and red at sunset, and then list three everyday examples of light scattering.",
+ "rows": [
+  {
+   "slots": 24,
+   "page_cache": false,
+   "prefetch": true,
+   "prefetch_issued": 222,
+   "prefetch_used": 199,
+   "resident_gb": 9.236832512,
+   "expert_budget_gb": 7.615807488,
+   "load_s": 5.924747208016925,
+   "prompt_tokens": 97,
+   "new_tokens": 64,
+   "ttft_s": 4.4063495000009425,
+   "decode_tok_s": 8.460993563032194,
+   "decode_hit_rate": 0.9877645502645502,
+   "decode_gb_read": 3.0139776,
+   "gpu_w": 5.370843876555327,
+   "gpu_j_per_token": 0.981228972453125,
+   "gpu_active_pct": 88.230147407854,
+   "mlx_peak_gb": 11.117971712,
+   "text": "<|channel|>analysis<|message|>We need to explain why sky looks blue during day and red at sunset. Then list three everyday examples of light scattering. Provide short paragraph. Then list three examples. Should be concise. Use simple language. Provide examples: fog, dust in air, rainbow, etc. But everyday examples: the blue of"
+  }
+ ],
+ "process_peak_rss_gb": 8.16594944,
+ "note": "greedy, batch 1, lean trunk (embed + bf16 lm_head on disk, 4-bit candidate head + fp32 rescore), experts streamed from the repacked files with F_NOCACHE; energy = Mac GPU rail"
+}

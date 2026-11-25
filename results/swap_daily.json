@@ -1,0 +1,78 @@
+{
+ "2026-11-23": [
+  {
+   "run": "v16 (suite v16_q35b + v16_gptoss)",
+   "gb": 1908.9,
+   "end": "04:06",
+   "note": "suite blocks' swap-outs (load included); 1,872 GB from llama-server on Qwen3.6-35B (RESULTS 1zu); llama-bench blocks had no swap counters then: lower bound"
+  },
+  {
+   "run": "v17_scripts",
+   "gb": 53.8,
+   "end": "05:50",
+   "note": "estimate, lower bound: suites 12.4 GB (energy olmoe / gpt-oss, q35b uneven) + two tool swap stops (gpt-oss exact pinned QA 20.4 GB, mlx-lm DeepSeek-V2-Lite 8k QA 21 GB); the stopped gpt-oss chat eval and other tools recorded none"
+  },
+  {
+   "run": "v17b_scripts",
+   "gb": 8.3,
+   "end": "08:01",
+   "note": "estimate, lower bound: suites only (energy2 5.6, client 1.5 + llama-bench 0.4, q35b uneven 0.8); QA, chat evals, profiles recorded none"
+  },
+  {
+   "run": "v17c_scripts",
+   "gb": 0.0,
+   "end": "08:13",
+   "note": "no counter: llama-server gpt-oss QA at ubatch 256 (no stop); unknown"
+  },
+  {
+   "run": "v17d_scripts",
+   "gb": 40.0,
+   "end": "08:38",
+   "note": "estimate: dsv2srv2's two tool swap stops (20.4 + 20.0 GB); the other steps recorded none"
+  },
+  {
+   "run": "v17e_scripts",
+   "gb": 5.3,
+   "end": "09:46",
+   "note": "estimate, lower bound: suite uneven3 only; QA at ubatch 128 and load stages recorded none"
+  },
+  {
+   "run": "v17f_scripts/log",
+   "gb": 8.78,
+   "end": "09:54",
+   "note": "run-wide machine counter"
+  },
+  {
+   "run": "v17g_scripts/log",
+   "gb": 30.35,
+   "end": "11:12",
+   "note": "run-wide machine counter"
+  },
+  {
+   "run": "manual, 09:56-10:17",
+   "gb": 0.0,
+   "end": "10:17",
+   "note": "not counted: prep cache checks (about 10 gpt-oss loads) and the expert-usage run, outside run_steps"
+  },
+  {
+   "run": "v18_scripts/log_prep",
+   "gb": 0.0,
+   "end": "13:07"
+  }
+ ],
+ "_note": "machine swap-out deltas per run (16 KB pages x count); entries marked estimate add the counters that exist (suite blocks, tool swap stops) and are lower bounds",
+ "ssd_writes_not_swap": {
+  "2026-11-23": [
+   {
+    "what": "GLM-4.5-Air-4bit download (user OK)",
+    "gb": 65.4,
+    "end": "13:07"
+   },
+   {
+    "what": "GLM-4.5-Air expert repack (45 layers x 128 x 9.73 MB)",
+    "gb": 56.0,
+    "end": "13:08"
+   }
+  ]
+ }
+}

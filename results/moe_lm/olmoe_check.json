@@ -1,0 +1,40 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--OLMoE-1B-7B-0125-Instruct-4bit/snapshots/e23844197887b031e7ddddbb0b8959c5a6853a7b",
+ "placement": "resident",
+ "load_s": 1.6849777919996995,
+ "prompts": [
+  {
+   "prompt": "Explain how a refrigerator works, step by step, for a curious ten-year-old.",
+   "first_divergence": null,
+   "ours_text": "Alright, let's dive into the magic of how your fridge keeps things cold!\n\n1. **Cooling the Air Inside**: The first step is to understand that your fridge is all about cooling the air inside it. It does this using a special cooling system that involves a gas called Freon (or a similar",
+   "mlxlm_text": "Alright, let's dive into the magic of how your fridge keeps things cold!\n\n1. **Cooling the Air Inside**: The first step is to understand that your fridge is all about cooling the air inside it. It does this using a special cooling system that involves a gas called Freon (or a similar",
+   "top1_agree": 1.0,
+   "mean_kl": 0.0006368495068133472,
+   "max_kl": 0.011210806318423052,
+   "ours_s": 0.5613021249955636,
+   "mlxlm_s": 0.5478134169970872
+  },
+  {
+   "prompt": "Write a short Python function that returns the n-th Fibonacci number, then explain its running time.",
+   "first_divergence": null,
+   "ours_text": "Here's a Python function that calculates the n-th Fibonacci number:\n\n```python\ndef fibonacci(n):\n    if n <= 0:\n        return \"Invalid input. Please enter a positive integer.\"\n    elif n == 1:\n        return 0\n    elif n ==",
+   "mlxlm_text": "Here's a Python function that calculates the n-th Fibonacci number:\n\n```python\ndef fibonacci(n):\n    if n <= 0:\n        return \"Invalid input. Please enter a positive integer.\"\n    elif n == 1:\n        return 0\n    elif n ==",
+   "top1_agree": 1.0,
+   "mean_kl": 0.00015479483997839886,
+   "max_kl": 0.007440004878084054,
+   "ours_s": 0.5311973329953616,
+   "mlxlm_s": 0.5409107919986127
+  },
+  {
+   "prompt": "What are three differences between a comet and an asteroid?",
+   "first_divergence": null,
+   "ours_text": "1. Comets are composed of ice and dust, while asteroids are primarily composed of rock and metal.\n2. Comets have a tail of gas and dust particles that are released as they approach the Sun, while asteroids do not have tails.\n3. Comets have a highly elliptical orbit, while",
+   "mlxlm_text": "1. Comets are composed of ice and dust, while asteroids are primarily composed of rock and metal.\n2. Comets have a tail of gas and dust particles that are released as they approach the Sun, while asteroids do not have tails.\n3. Comets have a highly elliptical orbit, while",
+   "top1_agree": 1.0,
+   "mean_kl": 0.00018762455898897049,
+   "max_kl": 0.0043247968469442115,
+   "ours_s": 0.5278124169999501,
+   "mlxlm_s": 0.529805917001795
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "dsv2lite": {
+  "model": "DeepSeek-V2-Lite-Chat (MLA, general MoE model)",
+  "weights": "ours / mlx-lm: mlx-community 4-bit g64; ours caches MLA latents, mlx-lm expanded K/V; llama.cpp / Ollama: mradermacher Q4_K_M; LM Studio (its MLX engine) and vllm-mlx: the mlx-community 4-bit",
+  "results": {
+   "mj|pp16384": {
+    "engine": "mj",
+    "test": "pp16384",
+    "tok_s": null,
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 1,
+    "flagged_tok_s": {
+     "n": 1,
+     "mean": 352.36266904518385,
+     "sd": 0.0,
+     "median": 352.36266904518385,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 352.36266904518385,
+     "max": 352.36266904518385
+    }
+   },
+   "mj|tg128@d16384": {
+    "engine": "mj",
+    "test": "tg128@d16384",
+    "tok_s": null,
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 1,
+    "flagged_tok_s": {
+     "n": 1,
+     "mean": 21.93208927282403,
+     "sd": 0.0,
+     "median": 21.93208927282403,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 21.93208927282403,
+     "max": 21.93208927282403
+    }
+   }
+  },
+  "mj_vs_mlxlm_greedy": {}
+ }
+}

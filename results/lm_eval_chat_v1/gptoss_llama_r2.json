@@ -1,0 +1,2464 @@
+{
+ "engine": "llama-server",
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "mj_kw": {},
+ "load_s": 0.001716457998554688,
+ "tasks": {
+  "mmlu": {
+   "n": 285,
+   "acc": 0.8526315789473684,
+   "se": 0.020997156827506382,
+   "seconds": 1180.562291541999,
+   "rows": [
+    {
+     "subject": "abstract_algebra",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "\\(f(x)\\) for each element of \\(\\mathbb{Z}_5=\\{0,1,2,3,4\\}\\).\n\n| \\(x\\) | \\(x^5\\) | \\(3x^3\\) | \\(x^2\\) | \\(2x\\) | \\(f(x)=x^5+3x^3+x^2+2x\\) (mod\u202f5) |\n|-------|--------|----------|--------|--------|----------------------------------|\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 1 | 1 | 3 | 1 | 2 | 7 \u2261 2 |\n| 2 | 32 \u2261 2 | 3\u00b78 \u2261 4 | 4 | 4 | 2+4+4+4 = 14 \u2261 4 |\n| 3 | 243 \u2261 3 | 3\u00b727 \u2261 1 | 9 \u2261 4 | 6 \u2261 1 | 3+1+4+1 = 9 \u2261 4 |\n| 4 | 1024 \u2261 4 | 3\u00b764 \u2261 2 | 16 \u2261 1 | 8 \u2261 3 | 4+2+1+3 = 10 \u2261 0 |\n\nThe polynomial evaluates to \\(0\\) only for \\(x=0\\) and \\(x=4\\).\n\nHence the zeros in \\(\\mathbb{Z}_5\\) are \\(0\\) and \\(4\\).\n\n**Answer: D**"
+    },
+    {
+     "subject": "abstract_algebra",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need inverse of -i in group of units of complex numbers: (-i)*? =1. Multiply -i by i gives (-i)*i = -i^2 = -(-1)=1. So inverse is i. Option C.\nThe inverse of \\(-i\\) is the element that multiplies with \\(-i\\) to give \\(1\\).  \n\\[\n(-i)\\cdot i = -i^{2}= -(-1)=1\n\\]\nHence the inverse is \\(i\\).\n\nAnswer: C"
+    },
+    {
+     "subject": "abstract_algebra",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need evaluate statements. Statement1: For any subgroup H, left coset aH equals right coset Ha? Not generally unless H normal. So false. Statement2: If H normal, then ah=ha for all h? Normal means aHa^{-1}=H, equivalently a h a^{-1} in H for all h. That does not imply commutation. So false. So both false => option B.\nStatement\u202f1 is not true in general; left and right cosets coincide only when \\(H\\) is normal.  \nStatement\u202f2 is also not true; normality means \\(aHa^{-1}=H\\), not that every element of \\(H\\) commutes with \\(a\\).\n\nThus both statements are false.\n\nAnswer: B"
+    },
+    {
+     "subject": "abstract_algebra",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "belian group. True: structure theorem: finitely generated abelian group is Z^r \u2295 finite torsion. If torsion-free, then it's Z^r. So true. So both true => option A.\nStatement\u202f1 is true: a free abelian group is a direct sum of copies of \\(\\mathbb{Z}\\), which has no non\u2011zero torsion elements.  \nStatement\u202f2 is also true: by the structure theorem for finitely generated abelian groups, any such group is \\(\\mathbb{Z}^r \\oplus T\\) where \\(T\\) is finite torsion. If the group is torsion\u2011free, \\(T\\) must be trivial, leaving a free abelian group \\(\\mathbb{Z}^r\\).\n\nThus both statements are true.\n\nAnswer: A"
+    },
+    {
+     "subject": "abstract_algebra",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "tion: either cyclic C_{2p} or dihedral D_{2p}? Wait dihedral group of order 2p is D_{p} sometimes notation D_p of order 2p. So yes group of order 2p is either cyclic or dihedral. True. So both true. Option A.\nStatement\u202f1 is a standard counting argument: the map \\(H\\times K\\to HK,\\;(h,k)\\mapsto hk\\) is surjective and each fiber has size \\(|H\\cap K|\\), so \\(|HK|=|H||K|/|H\\cap K|\\).  \nStatement\u202f2 follows from the classification of groups of order \\(2p\\) (with \\(p\\) odd): such a group is either cyclic \\(C_{2p}\\) or the dihedral group \\(D_{p}\\) of order \\(2p\\).\n\nBoth statements are true.\n\nAnswer: A"
+    },
+    {
+     "subject": "anatomy",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Need correct answer: palatine processes fuse at 10 weeks? I think palatine processes of maxilla fuse at 10 weeks. So C.\nThe palatine processes of the maxilla begin to fuse at about ten weeks after fertilization.  \n\nAnswer: C"
+    },
+    {
+     "subject": "anatomy",
+     "pred": 0,
+     "gold": 2,
+     "ok": false,
+     "text": "We need correct answer: bilateral cleft palate due to failure of fusion of palatine processes. So A.\nComplete bilateral cleft palate is due to failure of fusion of the palatine processes.  \n\nAnswer: A"
+    },
+    {
+     "subject": "anatomy",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Need anesthesia for labial alveolar mucosa of lower right lateral incisor. That area supplied by mental nerve (branch of inferior alveolar). So answer B.\nThe labial alveolar mucosa of the lower right lateral incisor is innervated by the **mental nerve**, a terminal branch of the inferior alveolar nerve. Therefore, local anesthesia of the mental nerve is required for a pain\u2011free biopsy in that region.  \n\nAnswer: B"
+    },
+    {
+     "subject": "anatomy",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Lesion in internal capsule motor fibers leads to spastic paralysis (upper motor neuron). So A.\nThe internal capsule contains corticospinal tract fibers that are upper\u2011motor\u2011neuron pathways. A lesion there produces an upper\u2011motor\u2011neuron deficit, characterized by spasticity, hyperreflexia, and a positive Babinski sign. Therefore the leg will exhibit spastic paralysis.\n\nAnswer: A"
+    },
+    {
+     "subject": "anatomy",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We know extradural (epidural) hemorrhage is between skull and dura. So answer A.\nThe extradural (epidural) space lies between the inner table of the skull and the dura mater. Therefore, extravasated blood in an extradural haemorrhage is detected in that interval.\n\nAnswer: A"
+    },
+    {
+     "subject": "astronomy",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Correct is C.\nThe so-called dark energy is a model to explain ...\n\nAnswer: C"
+    },
+    {
+     "subject": "astronomy",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "inator zero => infinite? Actually same period, prograde, so solar day infinite? Means no solar day, always same side? Wait if rotation period equals orbital period, then relative motion zero, so sun stays fixed in sky: no solar day. So D.\nBecause the planet\u2019s sidereal rotation period (100\u202fEarth days) is exactly equal to its orbital period (100\u202fEarth days) and it rotates in the same direction as it orbits, the angular motion of the planet relative to the Sun is zero. The Sun would remain fixed in the planet\u2019s sky, so there is no cycle of sunrise to sunrise\u2014a solar day does not exist.\n\nAnswer: D"
+    },
+    {
+     "subject": "astronomy",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "m\u00b2 to m\u00b2:  \n   \\[\n   1\\,\\text{km}^2 = (10^3\\,\\text{m})^2 = 10^6\\,\\text{m}^2\n   \\]\n   \\[\n   A = 145 \\times 10^{6} \\times 10^{6}\\,\\text{m}^2 = 1.45 \\times 10^{14}\\,\\text{m}^2\n   \\]\n\n2. **Weight of the atmosphere**  \n   \\[\n   W = P \\times A = 600\\,\\text{Pa} \\times 1.45 \\times 10^{14}\\,\\text{m}^2\n   \\]\n   \\[\n   W = 8.7 \\times 10^{16}\\,\\text{N}\n   \\]\n\n3. **Mass**  \n   \\[\n   m = \\frac{W}{g} = \\frac{8.7 \\times 10^{16}\\,\\text{N}}{4\\,\\text{m/s}^2}\n   \\]\n   \\[\n   m \\approx 2.175 \\times 10^{16}\\,\\text{kg}\n   \\]\n\nRounded to two significant figures, this is \\(2.2 \\times 10^{16}\\,\\text{kg}\\).\n\n**Answer: D**"
+    },
+    {
+     "subject": "astronomy",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We know hot Jupiters discovered mainly via radial velocity (Doppler). So answer A.\nThe majority of massive planets found close to their host stars have been detected through the Doppler (radial\u2011velocity) method, which measures the star\u2019s spectral shifts caused by the planet\u2019s gravitational tug.\n\nAnswer: A"
+    },
+    {
+     "subject": "astronomy",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: thin atmosphere. So D.\nThe greenhouse effect depends on having a substantial amount of gas in the atmosphere to absorb and re\u2011emit infrared radiation. Mars\u2019 atmosphere is very thin\u2014only about 1\u202f% of Earth\u2019s surface pressure\u2014so even though it is mostly CO\u2082, there isn\u2019t enough mass to trap much heat.  \n\nAnswer: D"
+    },
+    {
+     "subject": "business_ethics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The question: \"______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws.\" That refers to employee duties. So answer D.\nThe obligations of workers towards their employer, based on individual contracts and wider employment laws, are referred to as **employee duties**.\n\nAnswer: D"
+    },
+    {
+     "subject": "business_ethics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: enlightened self-interest model of CSR: organization acts ethically because it benefits itself. So C.\nThe enlightened self\u2011interest model of CSR holds that an organization\u2019s own best interests are served by acting in an ethical manner, because such conduct ultimately benefits the organization itself.  \n\nAnswer: C"
+    },
+    {
+     "subject": "business_ethics",
+     "pred": null,
+     "gold": 3,
+     "ok": false,
+     "text": "We lack context. Probably refers to options 1-4. Can't answer.\nI\u2019m sorry, but I don\u2019t have enough information to determine which option is correct."
+    },
+    {
+     "subject": "business_ethics",
+     "pred": 2,
+     "gold": 1,
+     "ok": false,
+     "text": "We need context: question about cultural homogenization. Likely options refer to statements 1-4. Without them, can't answer. Probably trick: answer C? I'll guess C.\nAnswer: C"
+    },
+    {
+     "subject": "business_ethics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct term: \"rehumanizing the workplace\" is a concept. So D.\nThe concept that involves empowering employees through practices such as job enrichment and job enlargement is often referred to as **rehumanizing** the workplace. This approach emphasizes giving employees greater autonomy, responsibility, and a broader scope of tasks, thereby treating them as whole human beings rather than mere cogs in a machine.\n\nAnswer: D"
+    },
+    {
+     "subject": "clinical_knowledge",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The key attribute is stamina.\nThe key attribute in successful marathon running is stamina.  \nAnswer: D"
+    },
+    {
+     "subject": "clinical_knowledge",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct statement. A: always elevates on swallowing? Not always. B: lymph node enlargement good prognostic sign? No. C: ultrasound best test to determine hormone secretion? No. D: functioning nodule on isotope scanning unlikely to be cancer. Yes. So answer D.\nThe correct statement is that a functioning (hot) nodule on isotope scanning is unlikely to be malignant.  \n\nAnswer: D"
+    },
+    {
+     "subject": "clinical_knowledge",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct statement. A: neck stiffness always meningitis false. B: severe pain indicates life threatening cause false. C: temporal arteritis associated with RA false. D: tension headaches common cause true. So answer D.\nD. Tension headaches is a common cause of headache\n\nAnswer: D"
+    },
+    {
+     "subject": "clinical_knowledge",
+     "pred": 2,
+     "gold": 0,
+     "ok": false,
+     "text": "We need correct answer: stoma site: within an abdominal crease, not near incision. So C.\nThe optimal site for a stoma is within an abdominal crease, which provides a natural, stable location that is easy to manage and less likely to cause complications.  \n\nAnswer: C"
+    },
+    {
+     "subject": "clinical_knowledge",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Correct is A.\nA hypertonic solution is a solution that has a higher concentration of solutes than the normal human cell.  \n\nAnswer: A"
+    },
+    {
+     "subject": "college_biology",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The question: natality and mortality equal => net growth zero. That's zero population growth. So answer C.\nThe point at which natality and mortality rates are equal, resulting in no net change in population size, is known as **zero population growth**.\n\nAnswer: C"
+    },
+    {
+     "subject": "college_biology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need low-speed centrifugation separates large organelles like nuclei, mitochondria, etc. Which pair can be separated? Nuclei are heavy, secretory vesicles lighter. So low-speed can separate nuclei from vesicles. So B.\nLow\u2011speed centrifugation is capable of separating large, dense structures such as nuclei from smaller, lighter organelles like secretory vesicles. The other pairs involve organelles of similar size and density, making them difficult to separate at low speeds.\n\nAnswer: B"
+    },
+    {
+     "subject": "college_biology",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer: Both annelids and arthropods have segmented bodies. So A.\nAnnelids and arthropods are similar to each other in that members of both phyla\n\nA. have segmented bodies\n\nAnswer: A"
+    },
+    {
+     "subject": "college_biology",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The correct is microfilaments.\nPhalloidin binds to actin subunits, which are the building blocks of microfilaments (actin filaments). Therefore, the structure most directly affected is the microfilaments.\n\nAnswer: C"
+    },
+    {
+     "subject": "college_biology",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: root pressure causes water to enter roots by osmosis. So C.\nRoot pressure is generated when water moves into the root cells from the surrounding soil. This movement is driven by the osmotic gradient between the root cells and the soil solution, causing water to enter the roots by osmosis.  \n\nAnswer: C"
+    },
+    {
+     "subject": "college_chemistry",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Need estimate \u03b2-hyperfine value. For cyclobutyl radical, \u03b2-hyperfine ~ 4.6 mT? I think typical \u03b2 ~ 4.6 mT. So answer A.\nThe \u03b2\u2011hyperfine coupling constant for the cyclobutyl radical (C\u2084H\u2087\u2022) is expected to be on the order of a few millitesla.  \nGiven the flat geometry and an H\u2013C\u2013H angle of 115\u00b0, the calculated value is approximately **4.6\u202fmT**.\n\nAnswer: A"
+    },
+    {
+     "subject": "college_chemistry",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "eaction is the one in which the metal with the more negative standard reduction potential (the stronger reducing agent) oxidizes, while the metal ion with the more positive standard reduction potential is reduced.  \n\n- **Zn\u00b2\u207a/Zn** has a standard potential of \u20130.76\u202fV, whereas **Ag\u207a/Ag** has +0.80\u202fV.  \n- Thus zinc can readily reduce silver ions to metallic silver, while zinc itself is oxidized to Zn\u00b2\u207a.\n\nThe other options involve reactions where the metal ion to be reduced has a much more negative potential (e.g., Na\u207a, Ca\u00b2\u207a, Li\u207a), making the reactions thermodynamically unfavorable.\n\n**Answer: B**"
+    },
+    {
+     "subject": "college_chemistry",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "ation, charge) | \\(I\\) |\n|----------|----------------------------------------|-------|\n| **A. 0.050\u202fM AlCl\u2083** | Al\u00b3\u207a (0.050\u202fM,\u202f+3), 3\u202fCl\u207b (0.150\u202fM,\u202f\u20131) | \\( \\tfrac12[(0.050)(9)+(0.150)(1)] = 0.30 \\) |\n| **B. 0.100\u202fM NaCl** | Na\u207a (0.100\u202fM,\u202f+1), Cl\u207b (0.100\u202fM,\u202f\u20131) | \\( \\tfrac12[(0.100)(1)+(0.100)(1)] = 0.10 \\) |\n| **C. 0.050\u202fM CaCl\u2082** | Ca\u00b2\u207a (0.050\u202fM,\u202f+2), 2\u202fCl\u207b (0.100\u202fM,\u202f\u20131) | \\( \\tfrac12[(0.050)(4)+(0.100)(1)] = 0.15 \\) |\n| **D. 0.100\u202fM HCl** | H\u207a (0.100\u202fM,\u202f+1), Cl\u207b (0.100\u202fM,\u202f\u20131) | \\( \\tfrac12[(0.100)(1)+(0.100)(1)] = 0.10 \\) |\n\nThe highest ionic strength is for **A. 0.050\u202fM AlCl\u2083**.\n\nAnswer: A"
+    },
+    {
+     "subject": "college_chemistry",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The question: light-scattering technique: Raman spectroscopy. So answer C.\nThe technique that relies on light scattering is Raman spectroscopy.\n\nAnswer: C"
+    },
+    {
+     "subject": "college_chemistry",
+     "pred": 0,
+     "gold": 3,
+     "ok": false,
+     "text": "We have I(t)=I0 exp(-t/T2). At t=1.0 s, I=0.25 I0. So exp(-1/T2)=0.25 => -1/T2 = ln 0.25 = -1.38629. So 1/T2 = 1.38629 => T2 = 0.721 s. Option A.\nThe decay follows \\(I(t)=I_0 e^{-t/T_2}\\).  \nGiven \\(I(1\\,\\text{s})=0.25\\,I_0\\):\n\n\\[\ne^{-1/T_2}=0.25 \\;\\Rightarrow\\; -\\frac{1}{T_2}=\\ln(0.25)=-1.38629\n\\]\n\nThus\n\n\\[\nT_2=\\frac{1}{1.38629}\\approx0.721\\ \\text{s}\n\\]\n\nAnswer: A"
+    },
+    {
+     "subject": "college_computer_science",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": " has those times. So per 1000 bytes: time1 =25+8+1+1+10=45 msec. For 4000 bytes: components: seek 25, latency 8, transfer 4*1=4, overhead 4*1+10=14. Total=25+8+4+14=51 msec. Ratio 51/45=1.133. So about 1.1:1. Option D.\nFor a large file the read is dominated by the per\u2011block overheads.  \nFor a 1,000\u2011byte block the time is  \n\n\\[\nT_{1}=25+8+1+1+10=45\\text{ ms}\n\\]\n\nFor a 4,000\u2011byte block the time is  \n\n\\[\nT_{2}=25+8+4+14=51\\text{ ms}\n\\]\n\nThus the ratio of the time for version\u202f2 to that for version\u202f1 is  \n\n\\[\n\\frac{T_{2}}{T_{1}}=\\frac{51}{45}\\approx1.13\\;,\n\\]\n\nwhich is about **1.1\u202f:\u202f1**.\n\nAnswer: D"
+    },
+    {
+     "subject": "college_computer_science",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct statement about RPC. RPC can call remote procedures, can return values, can pass by reference? Usually parameters are serialized, so by value. But can pass by reference via pointers? Not typical. But statement C says cannot pass by reference. That's true? RPC typically passes by value. So C is true. A is false. B false. D false. So answer C.\nThe correct statement is that a remote procedure call cannot pass parameters by reference.  \n\nAnswer: C"
+    },
+    {
+     "subject": "college_computer_science",
+     "pred": 2,
+     "gold": 0,
+     "ok": false,
+     "text": " a write is only written to memory when the cache line containing that element is evicted.\n\n- Cache size: 2\u202fKB, block size: 8\u202fB \u2192 256 lines.  \n- A occupies 128 blocks (addresses 4096\u20135119).  \n- B occupies 256 blocks (addresses 8192\u201310239).  \n- The block addresses of A map to cache lines 0\u2013127, while B\u2019s blocks map to lines 0\u2013255.  \n- Thus, the first 128 accesses to B (i\u202f=\u202f0\u2026127) evict the 128 cache lines that hold A\u2019s data.  \n- Each evicted line is dirty (it was written to), so 8\u202fbytes are written back to memory.\n\nTotal bytes written to memory = 128\u202flines\u202f\u00d7\u202f8\u202fbytes\u202f=\u202f1024\u202fbytes.\n\n**Answer: C**"
+    },
+    {
+     "subject": "college_computer_science",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need which is NOT part of root set. Root set includes stack locals, global vars, registers, etc. Dynamically allocated objects on heap are not roots. So answer B.\nThe root set consists of all references that are directly accessible by the program at a given point: registers, stack\u2011frame locals, global/static variables, and any other explicitly reachable objects.  \nObjects that are only on the heap and not referenced by any of these are not part of the root set.\n\n**Answer: B**"
+    },
+    {
+     "subject": "college_computer_science",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need which cannot be efficiently solved by hash tables. Range search requires order, hash can't. So answer C.\nHash tables are great for operations that do not require ordering, such as counting distinct values, maintaining a dynamic dictionary, or looking up a symbol table entry. However, they do not support efficient range queries because they do not preserve any order among keys. Therefore, the problem that cannot be efficiently solved with hash tables is:\n\n**C. Range search**\n\nAnswer: C"
+    },
+    {
+     "subject": "college_mathematics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "er \\(1\\), \\(2\\), or \\(4\\).  \nThus the possible decompositions are:\n\n1. \\(\\mathbb{Z}_2 \\oplus \\mathbb{Z}_2 \\oplus \\mathbb{Z}_2 \\oplus \\mathbb{Z}_2\\)\u2003(order \\(2^4=16\\), exponent \\(2\\)).\n2. \\(\\mathbb{Z}_4 \\oplus \\mathbb{Z}_2 \\oplus \\mathbb{Z}_2\\)\u2003(order \\(4\\cdot2\\cdot2=16\\), exponent \\(4\\)).\n3. \\(\\mathbb{Z}_4 \\oplus \\mathbb{Z}_4\\)\u2003(order \\(4\\cdot4=16\\), exponent \\(4\\)).\n\nNo other combinations of cyclic factors give order \\(16\\) while keeping the exponent \\(\\le 4\\).  \nHence, up to isomorphism, there are **three** additive abelian groups of order \\(16\\) satisfying \\(4x=0\\) for all \\(x\\).\n\nAnswer: D"
+    },
+    {
+     "subject": "college_mathematics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "e of other: (1,1),(1,4),(1,9),(4,1),(9,1). Total ordered pairs 10*10=100. Count bad =5. Good=95. Probability=0.95. Option D.\nThe only way one chosen number can be the square of the other in the set \\(\\{1,2,\\dots ,10\\}\\) is when the number 1 is involved, because \\(1^2=1\\), \\(2^2=4\\), and \\(3^2=9\\) but 2 and 3 are not squares of any other numbers in the set.  \nThus the bad ordered pairs are:\n\\[\n(1,1),\\;(1,4),\\;(1,9),\\;(4,1),\\;(9,1)\n\\]\nwhich are 5 pairs out of the total \\(10\\times10=100\\) possible ordered pairs.\n\n\\[\nP(\\text{neither is the square of the other}) = 1-\\frac{5}{100}=0.95\n\\]\n\nAnswer: D"
+    },
+    {
+     "subject": "college_mathematics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "igenvalues \\(\\pm i\\);  \n\\(A^2=-I\\) so \\(\\operatorname{tr}(A^2)=-2<0\\).\n\nII. If \\(A^2=A\\) then \\(A\\) is idempotent.  \nIts eigenvalues are \\(0\\) or \\(1\\), so \\(\\operatorname{tr}(A)\\) equals the number of\n\\(1\\)\u2019s, i.e. the rank of \\(A\\). Hence \\(\\operatorname{tr}(A)\\ge0\\).\n\nIII. In general \\(\\operatorname{tr}(AB)\\neq\\operatorname{tr}(A)\\operatorname{tr}(B)\\).  \nTake \\(A=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}\\).  \nThen \\(\\operatorname{tr}(AB)=0\\) while \\(\\operatorname{tr}(A)\\operatorname{tr}(B)=1\\).\n\nThus only statement II is always true.\n\n**Answer: A**"
+    },
+    {
+     "subject": "college_mathematics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "linear order relation \u2264 on C such that (C,+,\u00d7,\u2264) is not an ordered field. That means we can define a linear order but it fails to satisfy field order axioms. That's trivial: any linear order on C will not satisfy ordered field axioms because complex numbers can't be ordered. So A true. Thus answer A.\nA. It is possible to place a linear order relation \u2264 on the complex numbers C such that (C, +, \u00d7, \u2264) is not an ordered field.  \nB. It is impossible to place a linear order relation on the complex numbers C which make (C, +, \u00d7, \u2264) an ordered field.  \n\nHence the correct choice is **A**.  \n\nAnswer: A"
+    },
+    {
+     "subject": "college_mathematics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need evaluate statements. Statement1: If A is connected, closure of A must be connected. In general, closure of a connected set is connected. Yes true. Statement2: Every continuous function f:(0,1)->(0,1) has a fixed point. Not necessarily; consider f(x)=x/2 maps (0,1) to (0,0.5) subset, no fixed point. So false. So answer B.\nStatement\u202f1 is true: the closure of a connected set remains connected.  \nStatement\u202f2 is false: a continuous map from \\((0,1)\\) to itself need not have a fixed point (e.g., \\(f(x)=x/2\\)).  \n\nAnswer: B"
+    },
+    {
+     "subject": "college_medicine",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need statement the author likely agree. Article says sauna as alternative to exercise for those unable to exercise. So A. End with Answer: A.\nThe author emphasizes that sauna use can mimic many of the cardiovascular and systemic benefits of moderate\u2011to\u2011vigorous exercise and even serve as an alternative for individuals who cannot engage in physical activity due to chronic disease or physical limitations. Therefore, the statement that aligns with the author\u2019s perspective is:\n\n**Answer: A**"
+    },
+    {
+     "subject": "college_medicine",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to pick statement that supports second scientist: random advantageous traits appear, then rapid population. So evidence of bursts of evolution after long stasis. Option B fits. So answer B.\nThe second scientist\u2019s view is that advantageous traits appear randomly and, when beneficial, lead to a rapid increase in the population\u2014a pattern of long periods of stasis followed by sudden bursts of evolutionary change. The best evidence for this pattern is a taxonomy study that documents such long periods of stagnant growth followed by short bursts of massive evolution.  \n\nAnswer: B"
+    },
+    {
+     "subject": "college_medicine",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need to know Strange Situation test. Concern if child avoids mother upon return: indicates insecure attachment. So answer C.\nIn the Strange Situation, a child who avoids the mother when she returns is showing a concerning pattern of attachment insecurity.  \n\nAnswer: C"
+    },
+    {
+     "subject": "college_medicine",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need which describes ZPD: learning with help. Option D: high diver takes instruction to improve form. That's ZPD. So answer D.\nThe zone of proximal development refers to tasks that a learner can perform with guidance but not yet independently. The scenario that best illustrates this is a high diver receiving instruction from her coach to refine a specific move\u2014she is working on a skill just beyond her current independent capability with expert help.  \n\nAnswer: D"
+    },
+    {
+     "subject": "college_medicine",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need to pick correct answer: correlation between social network and alumni network indicates social capital. So C.\nThe correlation between a student\u2019s social network and the alumni network of selective colleges reflects the influence of connections and relationships\u2014i.e., **social capital**\u2014on admission outcomes.  \n\nAnswer: C"
+    },
+    {
+     "subject": "college_physics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Binomial n=100 p=0.1 mean=10 variance=np(1-p)=9, rms=3. So answer B.\nThe number of detected photons follows a binomial distribution with parameters \\(n=100\\) and \\(p=0.1\\).\n\n- Mean \\(\\langle N\\rangle = np = 100 \\times 0.1 = 10\\).\n- Variance \\(\\sigma^2 = np(1-p) = 100 \\times 0.1 \\times 0.9 = 9\\).\n- RMS deviation (standard deviation) \\(\\sigma = \\sqrt{9} = 3\\).\n\nThus the detector will, on average, detect 10 photons with an rms deviation of about 3.\n\nAnswer: B"
+    },
+    {
+     "subject": "college_physics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "/c. I=1000 W/m2. So p=2*1000/3e8=2000/3e8=6.667e-6 N/m2. Area 3 m2 gives force= p*A=6.667e-6*3=2e-5 N. Option C.\nThe radiation pressure on a perfectly reflecting surface is  \n\n\\[\np = \\frac{2I}{c}\n\\]\n\nwhere \\(I\\) is the irradiance and \\(c\\) is the speed of light.  \nWith \\(I = 1000\\ \\text{W/m}^2\\) and \\(c \\approx 3\\times10^8\\ \\text{m/s}\\):\n\n\\[\np = \\frac{2(1000)}{3\\times10^8} \\approx 6.67\\times10^{-6}\\ \\text{N/m}^2\n\\]\n\nFor an area of \\(A = 3\\ \\text{m}^2\\), the total force is\n\n\\[\nF = pA \\approx (6.67\\times10^{-6})(3) \\approx 2.0\\times10^{-5}\\ \\text{N}\n\\]\n\nSo the correct choice is **C**.\n\nAnswer: C"
+    },
+    {
+     "subject": "college_physics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need to answer: negative muon has properties most similar to electron. So A.\nThe negative muon (\u03bc\u207b) is a lepton, just like the electron, with the same charge and spin\u2011\u00bd, but it is heavier. It does not carry color charge and behaves as a fermion. Therefore its properties are most similar to those of an electron.\n\nAnswer: A"
+    },
+    {
+     "subject": "college_physics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We have F = m a. For A: F_A = m_A a_A. For B: F_B = m_B a_B. Given m_B = 2 m_A. a_B = 2 a_A. So F_B = (2 m_A)(2 a_A)=4 m_A a_A =4 F_A. So D.\nSince \\(F = ma\\),\n\n\\[\nF_A = m_A a_A,\\qquad F_B = m_B a_B.\n\\]\n\nGiven \\(m_B = 2m_A\\) and \\(a_B = 2a_A\\),\n\n\\[\nF_B = (2m_A)(2a_A) = 4\\,m_A a_A = 4F_A.\n\\]\n\nThus the correct relationship is \\(F_B = 4F_A\\).\n\nAnswer: D"
+    },
+    {
+     "subject": "college_physics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need Rydberg formula: \u03bb = (hc)/(R\u221e Z^2 (1/n1^2 - 1/n2^2)). For Li++ Z=3. So wavelengths are shorter by factor Z^2 =9 compared to hydrogen. So decreased by factor 9. Option A.\nThe wavelengths of a hydrogen\u2011like ion are given by  \n\n\\[\n\\lambda = \\frac{hc}{R_\\infty Z^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)} .\n\\]\n\nFor Li\\(^{++}\\) the nuclear charge is \\(Z=3\\).  \nCompared with neutral hydrogen (\\(Z=1\\)), the factor \\(Z^2\\) in the denominator becomes \\(3^2 = 9\\).  \nThus every wavelength is shorter by a factor of 9.\n\n**Answer: A**"
+    },
+    {
+     "subject": "computer_security",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The question: \"______________ is a widespread app\u2019s coding mistake made by developers which could be exploited by an attacker for gaining access or malfunctioning your system.\" Options: A Memory leakage, B Buffer-overrun, C Less processing power, D Inefficient programming. The correct is Buffer-overrun.\nThe mistake described is a **buffer\u2011overrun** (also known as a buffer overflow). This common coding error allows attackers to overwrite memory, potentially gaining unauthorized access or causing system malfunction.  \n\nAnswer: B"
+    },
+    {
+     "subject": "computer_security",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The correct is D.\nStealthiness in a penetration test refers to minimizing the chance that the target\u2019s security controls, personnel, or monitoring systems notice the testing activities. This involves careful planning and execution to avoid triggering alerts, alarms, or defensive responses.\n\nAnswer: D"
+    },
+    {
+     "subject": "computer_security",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The correct answer is 4-way handshake.\nThe process is known as the **4\u2011way handshake**.  \nAnswer: B"
+    },
+    {
+     "subject": "computer_security",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "ESP is part of IPsec, which is Secure IP Protocol. So answer B.\nEncapsulating Security Payload (ESP) is a component of the IPsec suite, which provides security at the IP layer. Therefore, it belongs to the Secure IP Protocol.\n\nAnswer: B"
+    },
+    {
+     "subject": "computer_security",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The question: \"___________________ is alike as that of Access Point (AP) from 802.11, & the mobile operators uses it for offering signal coverage.\" Options: A Base Signal Station, B Base Transmitter Station, C Base Transceiver Station, D Transceiver Station. The correct is Base Transceiver Station (BTS). So answer C.\nThe term that is analogous to an Access Point (AP) in 802.11 and is used by mobile operators to provide signal coverage is the **Base Transceiver Station (BTS)**.\n\nAnswer: C"
+    },
+    {
+     "subject": "conceptual_physics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need compare densities: water less dense than mercury, so column height higher. So taller. Answer B.\nA barometer that uses water instead of mercury will be\nB. taller\n\nAnswer: B"
+    },
+    {
+     "subject": "conceptual_physics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The correct answer: capacitor stores charge and energy. So C.\nA capacitor can store both charge and energy.  \nAnswer: C"
+    },
+    {
+     "subject": "conceptual_physics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We mix 20\u00b0C and 28\u00b0C, final between them, closer to average. Average is 24\u00b0C. So likely 22\u00b0C? Actually 24\u00b0C. Options: 22\u00b0C is closest. So B.\nThe final temperature must lie between the two initial temperatures, closer to the average of 20\u202f\u00b0C and 28\u202f\u00b0C, which is 24\u202f\u00b0C. The only option that falls in that range is 22\u202f\u00b0C.  \n\nAnswer: B"
+    },
+    {
+     "subject": "conceptual_physics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need correct answer: color perception due to reflection. So B.\nThe color we see from an object is determined by the wavelengths of light it reflects. A rose petal appears red because it reflects red light while absorbing other wavelengths.  \n\nAnswer: B"
+    },
+    {
+     "subject": "conceptual_physics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We know scaling factor k=3. Surface area scales as k^2=9. Volume scales as k^3=27. So answer C.\nWhen an object is scaled by a factor of 3 in each linear dimension, its surface area scales with the square of that factor (3\u00b2 = 9), and its volume scales with the cube of that factor (3\u00b3 = 27).  \n\nAnswer: C"
+    },
+    {
+     "subject": "econometrics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need false statement. A true. B true. D true. C: sample cannot be larger than population. So false.\nC. In theory, the sample could be larger than the population\n\nAnswer: C"
+    },
+    {
+     "subject": "econometrics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "eteroscedasticity. Log transforms can help. Modified standard errors (robust) yes. GLS can handle heteroscedasticity if variance known. Adding lagged values not directly address heteroscedasticity. So options i, ii, iii. So answer C.\nThe plausible remedies for heteroscedasticity are:\n\n- Taking logarithms of variables (often stabilises variance).  \n- Using heteroscedasticity\u2011robust (modified) standard errors.  \n- Applying a generalized least squares (GLS) procedure when the form of heteroscedasticity is known.\n\nAdding lagged variables does not directly correct heteroscedasticity.\n\n**Answer: C**"
+    },
+    {
+     "subject": "econometrics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "usually independent is causal variable. So (i) and (iii). So answer B.\nIn linear regression, the independent variable is commonly referred to as the **regressor** (or explanatory variable). It is not called the regressand (that term refers to the dependent variable), nor is it typically called the effect variable. While the independent variable can be thought of as a causal variable in causal inference contexts, the standard terminology in econometrics is \u201cregressor.\u201d Therefore, the correct alternative names among the options are:\n\n- (i) The regressor  \n- (iii) The causal variable  \n\nAnswer: B"
+    },
+    {
+     "subject": "econometrics",
+     "pred": 1,
+     "gold": 2,
+     "ok": false,
+     "text": "We need true statements. (i) true. (ii) true? acf pacf easy to compute. But can be difficult for large lags? Usually easy. Might be false. (iii) true. (iv) false. So answer B.\nThe acf and pacf are often hard to interpret in practice, and information criteria provide an alternative approach to model order determination. The other statements are not generally true.\n\nAnswer: B"
+    },
+    {
+     "subject": "econometrics",
+     "pred": null,
+     "gold": 3,
+     "ok": false,
+     "text": "We don't have question 21 data. Can't answer. Probably cannot.\nI\u2019m sorry, but I don\u2019t have enough information to determine the correct confidence interval."
+    },
+    {
+     "subject": "electrical_engineering",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": ", Decision box, State box. In control systems, a box that shows effect of inputs on control subsystem is \"Decision box\" maybe? In block diagrams, Data box shows data flow, Logical box shows logic, Decision box shows decision making, State box shows state. The effect of inputs on control subsystem likely \"Decision box\". I'll answer D? Wait state box shows state of system. Decision box shows decision logic. The effect of inputs on control subsystem: maybe \"Decision box\". I'll choose C.\nThe box that represents how the inputs influence the control subsystem is called a **Decision box**.\n\nAnswer: C"
+    },
+    {
+     "subject": "electrical_engineering",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "Transparent means output follows input regardless of clock. So D.\nA D-flip\u2011flop is said to be transparent when its output follows the input regardless of the clock.  \n\nAnswer: D"
+    },
+    {
+     "subject": "electrical_engineering",
+     "pred": 2,
+     "gold": 0,
+     "ok": false,
+     "text": "We need to pick which error mainly caused by human mistakes. Observational error is due to human observation. So answer C.\nThe errors mainly caused by human mistakes are\n\nC. observational error.\n\nAnswer: C"
+    },
+    {
+     "subject": "electrical_engineering",
+     "pred": 2,
+     "gold": 3,
+     "ok": false,
+     "text": "We need speed of data transmission in 4G network. Typical 4G LTE up to 100 Mbps down, 50 Mbps up. So range 2 Mbps\u20131 Gbps? Actually 4G can reach up to 1 Gbps in ideal. So answer C.\nThe typical data transmission speeds for a 4\u2011G (LTE) network range from a few megabits per second up to about one gigabit per second under ideal conditions.  \n**Answer: C**"
+    },
+    {
+     "subject": "electrical_engineering",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need to answer: methods used for reactive or voltage compensation. Shunt capacitor, series capacitor, generation excitation control. All of the above. Likely all. So answer D.\nThe techniques commonly employed for reactive power or voltage compensation include shunt capacitors, series capacitors, and controlling generator excitation. Therefore, all of the listed options are valid methods.\n\nAnswer: D"
+    },
+    {
+     "subject": "elementary_mathematics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Supplementary means sum to 180. 180-40=140. Option C.\nThe supplement of a 40\u00b0 angle is found by subtracting it from 180\u00b0:\n\n\\(180\u00b0 - 40\u00b0 = 140\u00b0\\).\n\nSo the correct answer is:\n\nAnswer: C"
+    },
+    {
+     "subject": "elementary_mathematics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need convert pints to cups. 1 pint = 2 cups. So 12 pints = 24 cups. She drinks 3 cups/day. 24/3 = 8 days. Option C.\nErin made 12\u202fpints of juice.  \nSince 1\u202fpint = 2\u202fcups, the total amount of juice is  \n\\(12 \\text{ pints} \\times 2 \\frac{\\text{cups}}{\\text{pint}} = 24 \\text{ cups}\\).\n\nShe drinks 3\u202fcups each day, so the number of days needed is  \n\\(\\frac{24 \\text{ cups}}{3 \\text{ cups/day}} = 8 \\text{ days}\\).\n\nAnswer: C"
+    },
+    {
+     "subject": "elementary_mathematics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Compute B = A -5 = -20-5 = -25. On number line, -25 is left of -20. So option C.\nThe point B is located at \\(-25\\), which is to the left of point A on the number line.  \n\nAnswer: C"
+    },
+    {
+     "subject": "elementary_mathematics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": ": 2:96 = 1:48 not 1:8. 2:16 = 1:8 yes. So only second matches.\n\nB: 12:96 = 1:8 yes. 2:16 = 1:8 yes. Both match.\n\nC: 12:96 = 1:8 yes. 12:16 = 3:4 no.\n\nD: 2:96 = 1:48 no. 12:16 = 3:4 no.\n\nThus B is correct.\nThe ratio 4\u202f:\u202f32 simplifies to 1\u202f:\u202f8.  \nWe look for pairs that reduce to 1\u202f:\u202f8:\n\n- **A**: 2\u202f:\u202f96 \u2192 1\u202f:\u202f48 (no); 2\u202f:\u202f16 \u2192 1\u202f:\u202f8 (yes) \u2013 only one matches.  \n- **B**: 12\u202f:\u202f96 \u2192 1\u202f:\u202f8 (yes); 2\u202f:\u202f16 \u2192 1\u202f:\u202f8 (yes) \u2013 both match.  \n- **C**: 12\u202f:\u202f96 \u2192 1\u202f:\u202f8 (yes); 12\u202f:\u202f16 \u2192 3\u202f:\u202f4 (no).  \n- **D**: 2\u202f:\u202f96 \u2192 1\u202f:\u202f48 (no); 12\u202f:\u202f16 \u2192 3\u202f:\u202f4 (no).\n\nOnly option **B** has both ratios equal to 4\u202f:\u202f32.\n\nAnswer: B"
+    },
+    {
+     "subject": "elementary_mathematics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We solve: 72 \u00f7 h = 6 => 72 = 6h => h = 12. Option A.\nThe equation \\(72 \\div h = 6\\) can be rewritten as \\(72 = 6h\\).  \nSolving for \\(h\\):\n\n\\[\nh = \\frac{72}{6} = 12\n\\]\n\nSo Gary has **12 horses**.\n\nAnswer: A"
+    },
+    {
+     "subject": "formal_logic",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need predicate logic: Txy means x teaches y. David teaches Chris: x=David, y=Chris. So Tdc. Option A.\nThe statement \u201cDavid teaches Chris\u201d means that the subject David (d) teaches the object Chris (c).  \nIn the predicate \\(Txy\\), the first argument is the teacher and the second is the student.  \nThus we need \\(Tdc\\).\n\nAnswer: A"
+    },
+    {
+     "subject": "formal_logic",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need Mxyz: x moves to y from z. So x=Marco, y=Spain, z=Italy. So M m s i. That's option D.\nThe predicate Mxyz means \u201cx moves to y from z.\u201d  \nHere x = Marco (m), y = Spain (s), z = Italy (i).  \nThus the correct formalization is M m s i, which corresponds to option **D**.\n\nAnswer: D"
+    },
+    {
+     "subject": "formal_logic",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": "al or mental.\" That's correct. Option B says \"Either everything is physical or everything is mental.\" also correct. Option C says \"If everything is physical then everything is mental.\" wrong. So choose between B and D. The conclusion ~Mb matches. So difference: B says \"If my headache is dualist state, then your tickle is not a physical state.\" D says same. The difference is the middle clause: B says \"Either everything is physical or everything is mental.\" D says \"Everything is either physical or mental.\" Both equivalent. Which is best English? I'd pick D as more natural. So answer D.\nAnswer: D"
+    },
+    {
+     "subject": "formal_logic",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need predicate logic: Some students work hard. Let Sx = x is a student, Wx = x works hard. So \u2203x (Sx \u2227 Wx). That's option C. End with \"Answer: C\".\nThe statement \u201cSome students work hard\u201d requires an existential quantifier over individuals who are both students and work hard.  \nIn predicate logic this is expressed as:\n\n\\[\n(\\exists x)(Sx \\land Wx)\n\\]\n\nwhich corresponds to option **C**.\n\nAnswer: C"
+    },
+    {
+     "subject": "formal_logic",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need conclusion: last sentence. So D.\nThe conclusion of the argument is the last statement: \u201cOur thoughts do not determine the meanings of our terms; meanings are not in the head.\u201d  \n\nAnswer: D"
+    },
+    {
+     "subject": "global_facts",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The World Bank 2019 extreme poverty was about 9.2% ~10%. So answer B.\nThe World Bank reported that in 2019 roughly 9\u201310\u202f% of the global population lived on less than $1.90 a day, i.e., in extreme poverty.\n\nAnswer: B"
+    },
+    {
+     "subject": "global_facts",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Need recall: India agriculture share of GDP around 16% in 2015. So answer B.\nThe share of agriculture in India\u2019s GDP in 2015 was roughly 16%.\n\nAnswer: B"
+    },
+    {
+     "subject": "global_facts",
+     "pred": 2,
+     "gold": 1,
+     "ok": false,
+     "text": "Need data. Likely from Transparency International Corruption Perceptions Index? Actually survey of bribery. I think Mexico 2017: 71%? Might be high. I'll guess 71%.\nThe survey indicates that **71%** of respondents in Mexico reported paying a bribe in the last year to access public services.  \n\nAnswer: C"
+    },
+    {
+     "subject": "global_facts",
+     "pred": 2,
+     "gold": 3,
+     "ok": false,
+     "text": "Need recall: Pew Research 2019? I think about 70% say very important. So C.\nThe survey found that roughly **70%** of Americans consider it very important to have free media without government or state censorship.\n\nAnswer: C"
+    },
+    {
+     "subject": "global_facts",
+     "pred": 2,
+     "gold": 0,
+     "ok": false,
+     "text": "Need data from 2018 global poll. Likely from Pew Research? For Tunisia, attitude towards diversity. I think 54%? I'll guess C.\nAnswer: C"
+    },
+    {
+     "subject": "high_school_biology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need answer D.\nThe observation that the temperate plants of South America were more similar to tropical South American flora than to temperate European flora is a classic example of how plant distributions are studied in relation to geographic and climatic factors. This falls squarely within the study of the distribution of species across the Earth, which is the domain of **biogeography**.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_biology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to choose best term: horses increased in size over time due to natural selection, directional selection. So answer B.\nThe gradual increase in size of horses over geological time reflects a consistent shift in the population toward larger individuals, which is characteristic of **directional selection**.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_biology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need which casts most doubt on relationships depicted by evolutionary tree. D: DNA sequences not matching skeletal patterns. That undermines tree. So answer D.\nThe most direct challenge to the evolutionary relationships shown in a tree comes from evidence that the genetic relationships do not align with the morphological (skeletal) relationships. If DNA sequence data suggest a different pattern of relatedness than the skeletal data, it casts serious doubt on the tree\u2019s accuracy.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_biology",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We know MacArthur and Wilson. So answer A.\nThe ecological discipline known as island biogeography was pioneered by Robert MacArthur and E. O. Wilson.\n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_biology",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer: Hemoglobin affinity for O2 decreases as blood pH decreases (Bohr effect). So A is correct. End with \"Answer: A\".\nHemoglobin\u2019s affinity for O\u2082 is reduced when the blood becomes more acidic (lower pH) \u2013 the classic Bohr effect.  \nAnswer: A"
+    },
+    {
+     "subject": "high_school_chemistry",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: During boiling, hydrogen bonds break, temperature constant. So D.\nDuring boiling, the liquid\u2019s temperature stays essentially constant while the liquid turns into vapor. The energy supplied goes into breaking the intermolecular hydrogen bonds that hold the ammonia molecules together, not into breaking the covalent N\u2011H bonds or raising the temperature. Thus the correct statement is:\n\n**Answer: D**"
+    },
+    {
+     "subject": "high_school_chemistry",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "typical reasons for a temperature\u2011dependent increase in reaction rate are that more molecules have enough energy to overcome the activation barrier (A), collisions become more frequent (B), and the velocity distribution shifts toward higher speeds (C). While higher temperatures can sometimes open up new reaction pathways, this is not a general or primary reason for the rate increase in most elementary reactions. Therefore, the statement that \u201calternate reaction pathways become available at higher temperatures\u201d is not a standard explanation for the temperature dependence of the rate.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_chemistry",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to answer: substances whose Lewis structures must be drawn with an unpaired electron are called free radicals. So B.\nSubstances that require an unpaired electron in their Lewis structure are known as free radicals.  \n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_chemistry",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": " electrons in one orbital (paired), one electron in each of other two orbitals: so two unpaired. So strongest is nitrogen with 3 unpaired. So answer B.\nThe magnetic moment of an atom is determined by the number of unpaired electrons in its ground\u2011state electron configuration.  \n- **Carbon (C)**: 2p\u00b2 \u2192 2 unpaired electrons  \n- **Nitrogen (N)**: 2p\u00b3 \u2192 3 unpaired electrons  \n- **Neon (Ne)**: 2p\u2076 \u2192 0 unpaired electrons  \n- **Sulfur (S)**: 3p\u2074 \u2192 2 unpaired electrons  \n\nNitrogen has the greatest number of unpaired electrons, giving it the strongest magnetic moment among the four elements.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_chemistry",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "11= -1.386? compute: 86*0.016111=1.386. So remaining fraction = e^-1.386 = 0.250. So remaining mass =0.25*0.0500=0.0125 g. Option C.\nFor a first\u2011order reaction\n\n\\[\n\\ln\\frac{[A]_t}{[A]_0} = -kt\n\\]\n\nGiven  \n\\(k = 86\\ \\text{h}^{-1}\\)  \n\\(t = 58\\ \\text{s} = \\frac{58}{3600}\\ \\text{h} \\approx 0.01611\\ \\text{h}\\)\n\n\\[\n\\ln\\frac{[A]_t}{[A]_0} = -(86)(0.01611) \\approx -1.386\n\\]\n\n\\[\n\\frac{[A]_t}{[A]_0} = e^{-1.386} \\approx 0.25\n\\]\n\nThus only 25\u202f% of the initial amount remains.\n\nInitial mass \\(= 0.0500\\ \\text{g}\\)\n\n\\[\n\\text{Remaining mass} = 0.25 \\times 0.0500\\ \\text{g} = 0.0125\\ \\text{g}\n\\]\n\n**Answer: C**"
+    },
+    {
+     "subject": "high_school_computer_science",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to answer. tuple[0] gives first element 'abcd'. So output is abcd. So answer B.\nThe expression `tuple[0]` accesses the first element of the tuple, which is the string `'abcd'`. Therefore, the printed output will be:\n\n```\nabcd\n```\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_computer_science",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to answer: \"a\" + \"ab\" => string concatenation => \"aab\". So answer B.\nThe expression `\"a\" + \"ab\"` concatenates the two strings, producing `\"aab\"`.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_computer_science",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need largest asymptotically: O(n^2) grows fastest. So answer C.\nThe function that grows the fastest as \\(n\\) increases is \\(O(n^2)\\).\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_computer_science",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Bitwise right shift by 1: 8 >> 1 = 4. So answer B.\nIn Python, the `>>` operator performs a bitwise right shift.  \nFor `x = 8` (binary `1000`), shifting right by 1 bit yields `0100`, which is `4` in decimal.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_computer_science",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "earlier we had strA < strB. So option C: strB.compareTo(strC) < 0 && strB.compareTo(strA) > 0. Yes.\nThe comparisons are based on ASCII values, where all uppercase letters come before all lowercase letters.  \n- `strA` (\"CARROT\") is lexicographically less than `strB` (\"Carrot\") because the second character 'A' (65) is less than 'a' (97).  \n- `strB` (\"Carrot\") is lexicographically less than `strC` (\"car\") because 'C' (67) is less than 'c' (99).  \n- Consequently, `strB` is greater than `strA`.\n\nThus the correct statement is:\n\n**C.** `strB.compareTo(strC) < 0 && strB.compareTo(strA) > 0`\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_european_history",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We infer he says life is physical basis, matter. So life is property of matter. Option C.\nThe passage shows Huxley treating life as something that can be explained in terms of matter and its chemical breakdown, implying that life is a property of a particular kind of matter rather than an abstract force, philosophy, or supernatural entity.  \n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_european_history",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need infer: Huxley says life has physical basis, matter, materialism. So answer B.\nThe passage emphasizes that life is grounded in physical matter and can be explained through natural processes, reflecting the 19th\u2011century belief that all phenomena, including life, are ultimately material. This viewpoint is characteristic of **materialism**.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_european_history",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need best demonstrated by passage about intellectual thought. Passage shows using telescope observations to conceptualize universe. So C.\nThe passage shows that Galileo was using data gathered through observation and experimentation to develop new ideas about how the universe works, rather than simply repeating ancient theories. This reflects the emerging scientific method of the time, which relied on empirical evidence to build conceptual models.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_european_history",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Motivations: greed, gold, exploitation. Similar to Pizarro who sought gold in Peru. Columbus also greed but earlier. Pizarro fits.\nThe passage describes a focus on extracting gold, exploiting indigenous people, and personal enrichment\u2014motives that are most closely associated with the conquest of the Inca Empire by Francisco\u202fPizarro.  \n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_european_history",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need to answer: Voltaire, 1733, Enlightenment. So C.\nThe passage reflects Voltaire\u2019s advocacy for reason, critique of religious intolerance, and emphasis on individual liberty\u2014hallmarks of the Enlightenment.  \nAnswer: C"
+    },
+    {
+     "subject": "high_school_geography",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need earliest religion among options. Hinduism earliest. So D.\nThe religion that developed first among the options is Hinduism.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_geography",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need distinct characteristic of East European city. Likely large central square with government buildings. So C.\nEast European cities are often organized around a prominent central square that serves as the focal point for government, administrative, and civic life. This layout reflects historical planning traditions and the importance of public spaces in the region.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_geography",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The correct answer: Green Revolution did not greatly improve yields in sub-Saharan Africa. So D.\nThe Green Revolution did not significantly improve crop yields in sub-Saharan Africa, as its technologies and practices were largely developed and implemented in Asia and Latin America, with limited impact in that region.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_geography",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The caste system includes Brahmins (scholar-priests), Kshatriyas (warrior-landowners), Vaishyas (businessmen and farmers), and Shudras (laborers). Untouchables (Dalits) are excluded. So answer D.\nThe caste system traditionally includes Brahmins (scholar\u2011priests), Kshatriyas (warrior\u2011landowners), Vaishyas (businessmen and farmers), and Shudras (laborers). Those who are considered \u201cuntouchables\u201d (Dalits) are excluded from this hierarchy.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_geography",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Correct answer A.\nAn isobar map shows lines connecting all points of equal\nA. atmospheric pressure\nB. surface temperature\nC. elevation\nD. precipitation\n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_government_and_politics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The correct answer is D.\nThe legal principle that instructs judges to follow established precedent when deciding cases is commonly referred to as\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_government_and_politics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need choose correct. Original intent doctrine: Constitution interpreted in light of intent of those who wrote it. That's D.\nThe doctrine of original intent holds that the Constitution should be interpreted in light of the intent of those who wrote it.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_government_and_politics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Correct answer C.\nThe Supreme Court has used the practice of selective incorporation to\nC. apply most Bill of Rights protections to state law\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_government_and_politics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The Gramm-Rudman acts were deficit reduction. So answer C.\nThe Gramm\u2011Rudman acts were designed to curb the federal deficit by setting spending limits and requiring deficit reduction.  \n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_government_and_politics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Correct answer A.\nA. They are tried in civil court.  \nAnswer: A"
+    },
+    {
+     "subject": "high_school_macroeconomics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": " by the economy\u2019s productive capacity\u2014its labor supply, capital stock, and technology.  \n- A rise in the unemployment rate merely reflects slack in the current economy; it does not reduce the productive capacity.  \n- Lowering the retirement age reduces the available labor supply, shrinking the economy\u2019s potential output.  \n- Eliminating tariffs may change trade patterns but does not directly shrink the productive capacity.  \n- Allowing more immigration increases the labor supply, which would raise potential GDP.  \n\nThus, the only option that would cause potential GDP to fall is:\n\n**Answer: B**"
+    },
+    {
+     "subject": "high_school_macroeconomics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "M2 includes currency, travelers checks, demand deposits, savings deposits, money market funds, small CDs. Credit cards are not money. So answer D.\nCredit cards are not part of M2; they are a form of borrowing, not money.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_macroeconomics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need CPI = (cost current / cost base)*100. Base cost 200, current 400 => ratio 2 => CPI 200. So answer D.\nThe consumer price index (CPI) is calculated as:\n\n\\[\n\\text{CPI} = \\frac{\\text{Cost of basket in current period}}{\\text{Cost of basket in base period}} \\times 100\n\\]\n\nGiven:\n- Cost in base period = \\$200\n- Cost in current period = \\$400\n\n\\[\n\\text{CPI} = \\frac{400}{200} \\times 100 = 2 \\times 100 = 200\n\\]\n\nThus, the CPI equals 200 in the current period.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_macroeconomics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need real GDP per capita. So answer C.\nThe standard of living is best measured by the amount of goods and services available per person, adjusted for price changes. This is captured by **real GDP per capita**.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_macroeconomics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need more crowding out when investment demand curve is elastic? Crowding out occurs when higher interest rates reduce investment. If investment demand is elastic, small change in interest rate leads to large drop in investment, so more crowding out. So D.\nCrowding out is strongest when a small rise in interest rates leads to a large fall in investment spending.  \nThat happens when the investment demand curve is **elastic** \u2013 a small change in the cost of borrowing (interest rate) causes a large change in the quantity of investment demanded.  \n\n**Answer: D**"
+    },
+    {
+     "subject": "high_school_mathematics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "= 2w. Diagonal d = sqrt((2w)^2 + w^2) = sqrt(4w^2 + w^2)= sqrt(5w^2)= w sqrt5. Given d=5 sqrt5 => w sqrt5 =5 sqrt5 => w=5. Then length=10. Area = w*L=5*10=50. Option C.\nThe rectangle\u2019s length is twice its width, so let the width be \\(w\\).  \nThen the length is \\(2w\\).\n\nThe diagonal \\(d\\) satisfies\n\\[\nd^2 = (2w)^2 + w^2 = 4w^2 + w^2 = 5w^2.\n\\]\n\nGiven \\(d = 5\\sqrt{5}\\),\n\\[\n(5\\sqrt{5})^2 = 5w^2 \\;\\Longrightarrow\\; 125 = 5w^2 \\;\\Longrightarrow\\; w^2 = 25 \\;\\Longrightarrow\\; w = 5.\n\\]\n\nThus the length is \\(2w = 10\\).  \nThe area \\(A\\) is\n\\[\nA = w \\times \\text{length} = 5 \\times 10 = 50.\n\\]\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_mathematics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": " at that \\(y\\).\n\nThe region is bounded by  \n\\[\nx^2 = 4y \\quad\\text{and}\\quad y = 2 .\n\\]\n\nFor a given \\(y\\) (with \\(0\\le y\\le 2\\)), the \\(x\\)-values satisfy \\(x = \\pm 2\\sqrt{y}\\).  \nThus the width of the region is\n\n\\[\n\\text{width} = 2\\sqrt{y} - (-2\\sqrt{y}) = 4\\sqrt{y}.\n\\]\n\nThe side of the square is \\(4\\sqrt{y}\\), so the area of the square is\n\n\\[\nA(y) = (4\\sqrt{y})^2 = 16y.\n\\]\n\nThe volume is the integral of these areas from \\(y=0\\) to \\(y=2\\):\n\n\\[\nV = \\int_{0}^{2} 16y\\,dy = 16\\left[\\frac{y^{2}}{2}\\right]_{0}^{2}\n   = 16\\left(\\frac{4}{2}\\right) = 16 \\times 2 = 32.\n\\]\n\n\\[\n\\boxed{32}\n\\]\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_mathematics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Compute log base 3 of 81. 3^4=81. So answer 4. Option A.\nThe expression \\(\\log_3 81\\) asks for the exponent to which 3 must be raised to obtain 81. Since \\(3^4 = 81\\), the value is 4.\n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_mathematics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Number of diagonals in n-gon: n(n-3)/2. For hexagon n=6: 6*3/2=9. So answer C.\nA convex hexagon has \\(6\\) vertices.  \nEach vertex can be connected to \\(6-3=3\\) other vertices to form a diagonal (it cannot connect to itself or to its two adjacent vertices).  \nThus the total number of diagonals is  \n\n\\[\n\\frac{6 \\times 3}{2}=9\n\\]\n\n(The division by 2 corrects for each diagonal being counted twice.)\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_mathematics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need probability exactly two even out of four dice. Each die even probability 10/20=1/2. So binomial: C(4,2)*(1/2)^2*(1/2)^2 =6*(1/16)=6/16=3/8. Option C.\nThe probability that a single die shows an even number is \\(\\frac{10}{20}=\\frac12\\).  \nFor four independent dice, the number of even results follows a binomial distribution with \\(n=4\\) and \\(p=\\frac12\\).\n\n\\[\nP(\\text{exactly 2 evens})=\\binom{4}{2}\\left(\\frac12\\right)^2\\left(\\frac12\\right)^{2}\n=6\\cdot\\frac{1}{16}=\\frac{6}{16}=\\frac{3}{8}.\n\\]\n\nThus the correct choice is **C**.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_microeconomics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: externality leads to market failure, not maximizing total benefit. So D.\nAn externality is a situation where the actions of one party impose costs or benefits on others that are not reflected in market prices, leading to a market outcome that does not maximize total social welfare.  \n**Answer: D**"
+    },
+    {
+     "subject": "high_school_microeconomics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct definition: economics is study of how scarce resources are allocated to satisfy unlimited wants. That's D.\nEconomics is the study of how scarce resources are allocated to satisfy unlimited wants.  \nAnswer: D"
+    },
+    {
+     "subject": "high_school_microeconomics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need increase demand. Normal good: income rise increases demand. But options: A income falls -> decrease. B price of tea rises: tea is substitute, so demand for coffee increases. C wage of workers falls: supply side, not demand. D tech improves: supply increases, not demand. So answer B.\nA competitive market for coffee, a normal good, is currently in equilibrium. Which of the following would most likely result in an increase in the demand for coffee?\n\n**Answer: B**"
+    },
+    {
+     "subject": "high_school_microeconomics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need law of increasing costs: as output increases, marginal cost rises, so production possibility frontier is concave. So D.\nThe law of increasing costs states that as production of a good rises, the marginal cost of producing additional units also rises. This implies that the production possibility frontier (PPF) bows outward, or is concave, reflecting diminishing returns to inputs. Therefore, the correct description is:\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_microeconomics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Regressive.\nBecause a regressive tax takes a larger share of income from lower\u2011income households, a sales tax on food would be regressive.  \n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_physics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "e need which decreases as 1/r^2 far from objects. For point charge: 1/r^2. For finite-length rod at far distance approximates point charge: 1/r^2. So A. Others: infinite cylinder gives 1/r, plane gives constant, wire gives 1/r. So answer A.\nThe field of a finite\u2011length charged rod behaves like that of a point charge when observed far away, so it falls off as the inverse square of the distance.  \nThe other options have different distance dependences: an infinite cylinder gives \\(E\\propto 1/r\\), an infinite plane gives a constant field, and a long straight wire gives \\(B\\propto 1/r\\).\n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_physics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "initial speed of object 1? It says \"In addition to m1, what is the minimum necessary information that would allow you to determine the mass of the second object?\" So we need two of the above values. So answer D.\nTo find the unknown mass \\(m_2\\) from a one\u2011dimensional elastic collision, you need two independent equations: conservation of momentum and conservation of kinetic energy. Each of the listed quantities (final speed of object\u202f1, initial speed of object\u202f1, final speed of object\u202f2) provides one piece of information. Therefore, you must know any two of them to solve for \\(m_2\\).\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_physics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need correct answer: two non-zero vectors sum to zero means they are equal magnitude opposite direction. So B.\nIf two non\u2011zero vectors add to zero, they must cancel each other out.  \nThat can only happen when the vectors have the same magnitude and point in exactly opposite directions.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_physics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "before impact is  \n\\(v = \\sqrt{2gh} = \\sqrt{2(9.8)(3.2)} \\approx 7.9\\ \\text{m/s}\\) (downward).  \nAfter the bounce it rises to almost the same height, so its speed just after impact is \\(+7.9\\ \\text{m/s}\\) (upward).\n\nThe change in momentum is  \n\\[\n\\Delta p = m(v_{\\text{after}}-v_{\\text{before}})\n          = 0.08\\,(7.9-(-7.9))\n          \\approx 1.27\\ \\text{kg\u00b7m/s}.\n\\]\n\nThe average force exerted by the floor is  \n\\[\nF_{\\text{avg}} = \\frac{\\Delta p}{\\Delta t}\n                = \\frac{1.27}{0.04}\n                \\approx 32\\ \\text{N}.\n\\]\n\nNone of the listed options matches this value.  \n**Answer: C**"
+    },
+    {
+     "subject": "high_school_physics",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Use PV=nRT. If T doubles, V increases 8x, so P = nR T / V => P scales as (2)/(8)=1/4. So decreases by factor 4. Option B.\nThe ideal gas law is \\(PV = nRT\\).  \nIf the temperature \\(T\\) is doubled (\\(T \\rightarrow 2T\\)) and the volume \\(V\\) is increased eightfold (\\(V \\rightarrow 8V\\)), the new pressure \\(P'\\) is\n\n\\[\nP' = \\frac{nR(2T)}{8V} = \\frac{1}{4}\\,\\frac{nRT}{V} = \\frac{1}{4}P .\n\\]\n\nThus the pressure decreases by a factor of 4.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_psychology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need fundamental attribution error. Answer D.\nSal\u2019s tendency to attribute Petunia\u2019s temporary gleefulness to her personality (funny) rather than to the situational factor of winning the lottery illustrates the fundamental attribution error.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_psychology",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need to pick correct answer: ecological assessment. So answer C.\nThe assessment that focuses on identifying the most pressing behavioral problem and exploring how environmental factors influence behavior is known as an **ecological assessment**.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_psychology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Token economy.\nThe described approach is a **token economy**\u2014using stickers as tokens that Max can exchange for a reward after earning a set number.\n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_psychology",
+     "pred": 0,
+     "gold": 3,
+     "ok": false,
+     "text": "We know vestibular system: otolith organs (utricle and saccule) in inner ear. So answer A.\nThe receptors that detect gravity and inform the body about its position in space are the otolith organs located in the inner ear, specifically the cochlea region.  \n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_psychology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The correct answer is D.\nThe correct answer is D.  \nAnswer: D"
+    },
+    {
+     "subject": "high_school_statistics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "oportion of riders we want to capture is  \n\n\\[\n\\frac{100\\,000}{150\\,000}= \\frac{2}{3}\\approx 0.6667 .\n\\]\n\nFor a normal distribution, a central interval that contains \\(0.6667\\) of the probability has equal tail areas of  \n\n\\[\n\\frac{1-0.6667}{2}=0.16665 .\n\\]\n\nLet \\(z\\) be the z\u2011score such that \\(P(Z\\le z)=0.83335\\) (since \\(0.83335 = 1-0.16665\\)).  \nFrom standard normal tables, \\(z \\approx 0.97\\).\n\nThe interval in the original units is\n\n\\[\n\\mu \\pm z\\sigma = 35 \\pm 0.97(10) \\approx 35 \\pm 9.7\n\\]\n\n\\[\n\\text{Interval} \\approx [25.3,\\; 44.7] \\text{ minutes}.\n\\]\n\nThis matches option **C**.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_statistics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "nd female students. We want data from all students? Could do census of all students. But if many, sample survey. But question: \"most appropriate technique for gathering the needed data?\" Likely census because all students. But if large, sample survey. But high school likely small. So census. Answer A.\nThe goal is to obtain the exam scores for every male and female student in the class. Since the population of interest is the entire group of students taking the AP Statistics exam at the school, the most direct and appropriate method is to collect data from all of them\u2014i.e., a census.\n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_statistics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": " But simple random sample requires each subset of size 30 equally likely. Here not all subsets equally likely because must have 6 from each plant. So answer D.\nThe procedure forces exactly six employees from each plant to be in the sample.  \nWhile every individual employee has the same probability of being chosen (6\u202f/\u202f200), the method does **not** give every possible group of 30 employees the same chance of being selected. Only those groups that contain exactly six employees from each of the five plants are possible. Therefore this is a stratified sample, not a simple random sample.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_statistics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "orted. Tallest is 28th. So adding 2 inches to tallest doesn't affect 21st or 22nd. So IQR unchanged. So answer D.\nAdding a constant to a single observation does not affect the spread of the data that depends only on the relative positions of the observations.  \nThe interquartile range (IQR) is based on the 25th and 75th percentiles. Since the tallest student is the 28th observation, adding 2 inches to that value does not change the 21st or 22nd observations that determine the 75th percentile, nor the 7th or 8th that determine the 25th percentile. Therefore the IQR remains unchanged.\n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_statistics",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct statement: For any discrete probability distribution, probabilities sum to 1. So C.\nThe correct statement is that the probabilities of all possible values of the random variable must add up to one.\n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_us_history",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "Correct answer D.\nThe United States obtained the Oregon Territory through a negotiated treaty with Great Britain, in which Britain ceded its claims to the region.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_us_history",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Rebellion involved frontier settlers vs Native Americans and colonial government. So B.\nThe passage describes the Paxton Boys\u2019 violent actions against Native Americans and the subsequent protection of those Indians by Quaker authorities, reflecting ongoing frontier tensions between settlers, Native peoples, and colonial governance. A similar pattern of frontier conflict, settler aggression, and contested authority is evident in **Bacon\u2019s Rebellion** in colonial Virginia, where frontier settlers rebelled against the colonial government over Native American policy and land disputes.  \n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_us_history",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need immigration numbers 1820-1854. Highest from Ireland due to famine. So answer D.\nThe period from 1820 to 1854 saw the largest influx of immigrants to the United States coming from Ireland, largely due to the Great Famine and economic hardship.  \n\nAnswer: D"
+    },
+    {
+     "subject": "high_school_us_history",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need which is NOT inspired by Civil Rights movement. States' rights is not a social movement; it's political ideology. So answer C.\nThe Civil Rights movement inspired a wide range of social movements, including those for women's rights, gay and lesbian rights, and Native American rights. However, \u201cstates\u2019 rights\u201d is a political ideology rather than a social movement that emerged from the Civil Rights era.  \n\nAnswer: C"
+    },
+    {
+     "subject": "high_school_us_history",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "America, reaction to rationalism, deism? It was response to Enlightenment? Actually it was reaction to rationalism and the decline of religious fervor. The Enlightenment was earlier. The Great Awakening was a reaction to the Enlightenment's emphasis on reason over faith. So answer B.\nThe First Great Awakening was largely a reaction against the rationalist, Enlightenment\u2011influenced attitudes that had begun to erode traditional religious fervor in colonial America. It sought to restore personal piety and emotional devotion in the face of increasing emphasis on reason and secularism.  \n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_world_history",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need best explanation. 1450-1750: European contact brought firearms, trade, slave trade. They didn't import foodstuffs for population growth. They were not sole purchasers of slaves? They were major purchasers but not sole. They allied to evict Muslim? Not main. So B.\nThe most accurate statement is that the introduction of firearms through European trade helped many sub\u2011Saharan African societies to consolidate power and expand their territories, thereby strengthening new states and kingdoms.  \n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_world_history",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The passage describes trade of copper and gold, duty, tribute, etc. It supports that international trade connections were still being developed. So B.\nThe passage describes a sultan collecting duties on copper and trading it for gold, indicating active commercial exchanges across regions. This reflects the continued development of international trade networks during the period.  \n\nAnswer: B"
+    },
+    {
+     "subject": "high_school_world_history",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Need which activity drove immigration leading to Chinese Exclusion Act. In US 19th century, Chinese laborers came for railroad construction, especially transcontinental railroad. So answer A.\nThe Chinese Exclusion Act was largely a response to the large influx of Chinese laborers who were recruited to work on the rapidly expanding railroad network, especially the transcontinental railroad. This massive construction project required a vast workforce, and many Chinese immigrants filled that need, prompting the restrictive legislation.\n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_world_history",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Europe for manufactured goods. But the letter is complaining about kidnapping and selling to white men. That indicates they are involved in slave trade, but also want goods. The tone reflects dependence on trade with Europe for manufactured goods. So answer A.\nThe letter\u2019s tone\u2014complaining that many of the kingdom\u2019s people are being kidnapped and sold to Europeans while the king\u2019s own people desire European goods\u2014highlights how the Kongo kingdom had become increasingly dependent on trade with Europe for manufactured goods, even as it participated in the trans\u2011Atlantic slave trade.  \n\nAnswer: A"
+    },
+    {
+     "subject": "high_school_world_history",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need to pick correct description: UN is for arbitration of disputes, peacekeeping, etc. So C.\nThe United Nations is primarily established to provide a forum for peaceful resolution of international disputes and to promote cooperation among nations.  \nAnswer: C"
+    },
+    {
+     "subject": "human_aging",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: smart house. So D.\nThe houses of the future may allow you to operate virtually everything in the house from a central terminal; such a house is already in production and is referred to as\n\nAnswer: D"
+    },
+    {
+     "subject": "human_aging",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need answer. Likely from Senior View: physical changes take a long time. So C.\nClifford and Lucia Pauling, in Senior View, told us that physical changes\n\nC. Take a long time\n\nAnswer: C"
+    },
+    {
+     "subject": "human_aging",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We know Tai chi improves balance. Aerobic exercise less specific. So answer A.\nTai chi has been shown to improve balance in older adults by enhancing proprioception, flexibility, and core stability.  \n\nAnswer: A"
+    },
+    {
+     "subject": "human_aging",
+     "pred": 1,
+     "gold": 0,
+     "ok": false,
+     "text": "We need to choose best answer. If links between diseases found, future older adults will probably be able to avoid certain diseases. So B.\nIf links between various diseases are found, then future older adults will probably\nB. Be able to avoid certain diseases\n\nAnswer: B"
+    },
+    {
+     "subject": "human_aging",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We know omega-3 reduces cardiovascular disease risk. So answer B.\nOmega\u20113 fatty acids have been shown to lower the risk of cardiovascular disease by improving lipid profiles, reducing inflammation, and stabilizing plaque. While they may have some benefits for other conditions, the strongest evidence is for cardiovascular protection.  \n\nAnswer: B"
+    },
+    {
+     "subject": "human_sexuality",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The correct answer is B.\nThe method that involves exposure to radiation is **B. Mammography**.  \n\nAnswer: B"
+    },
+    {
+     "subject": "human_sexuality",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need current research: opposite attitudes attract? Actually research shows similarity predicts attraction. So \"opposites attract\" not true. So answer A.\nThe prevailing evidence from contemporary research indicates that similarity\u2014not opposition\u2014between attitudes and beliefs is a stronger predictor of attraction and relationship satisfaction. Thus, the folk saying \u201copposites attract\u201d does not hold up under empirical scrutiny.  \n\nAnswer: A"
+    },
+    {
+     "subject": "human_sexuality",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: Catholic teaching: sin to engage in homosexual acts, to engage in heterosexual acts outside marriage, and to use birth control (contraception). So all of the above. So D.\nRoman Catholic doctrine holds that all of the listed actions are considered sinful: homosexual acts, heterosexual acts outside of marriage, and the use of birth control.  \n\nAnswer: D"
+    },
+    {
+     "subject": "human_sexuality",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": "The external genitalia differentiate around 8 weeks. So answer D.\nThe external genitalia become distinct enough to determine sex around the 8\u2011week mark of gestation.\n\nAnswer: D"
+    },
+    {
+     "subject": "human_sexuality",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer. Sexual addiction: after act, often feel guilt, shame, emptiness, hopelessness. So A.\nThe typical pattern for a sexual addict after completing a sexual act is to experience feelings of hopelessness and despair.  \n\nAnswer: A"
+    },
+    {
+     "subject": "international_law",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer. R2P differs: requires UNSC input, aims to prevent crisis, less arbitrary. So C.\nThe key distinction is that R2P is a framework that seeks to prevent humanitarian crises and requires a more structured, multilateral approach\u2014often involving the UN Security Council\u2014rather than being an ad\u2011hoc, unilateral intervention. This makes it less arbitrary and more focused on prevention.  \n\nAnswer: C"
+    },
+    {
+     "subject": "international_law",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: treaties bind only parties; third states only if consent. So C.\nTreaties bind only the parties that have consented to them. A third state that is not a party to a treaty has no obligations or rights under that treaty unless it expressly consents to be bound.  \n\nAnswer: C"
+    },
+    {
+     "subject": "international_law",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need first case defining margin of appreciation. That was Handyside v UK (1976) established concept. So answer D.\nThe doctrine of the \u201cmargin of appreciation\u201d was first articulated by the European Court of Human Rights in the case of **Handyside v United Kingdom (1976)**.\n\nAnswer: D"
+    },
+    {
+     "subject": "international_law",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer: Under Vienna Convention, any competent representative may conclude treaty; heads of state, government, foreign ministers, heads of missions presumed. So A.\nThe authority to conclude a treaty rests with the competent representatives of a State. Under the Vienna Convention on the Law of Treaties, heads of state, heads of government, ministers of foreign affairs, and heads of diplomatic missions are presumed to have such authority unless otherwise specified. Therefore, the correct choice is:\n\nAnswer: A"
+    },
+    {
+     "subject": "international_law",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Correct answer A.\nThe key distinction is that legal methods (such as arbitration or adjudication by the ICJ) produce a final, binding decision that the parties must accept, whereas political methods (diplomatic negotiations, mediation, etc.) do not carry such a binding legal force.  \n\nAnswer: A"
+    },
+    {
+     "subject": "jurisprudence",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need most compelling criticism. Likely C: misleading to pigeon-hole judges. So answer C.\nThe most compelling criticism is that the distinction is overly simplistic and tends to pigeon\u2011hole judges, ignoring the complexity and overlap in their reasoning.  \n\nAnswer: C"
+    },
+    {
+     "subject": "jurisprudence",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need inaccurate statement. CLS and American realism both anti-formalist, skeptical, law in action, demystify. Both adopt liberal ideology? CLS is critical, often leftist, but realism is more pragmatic, not necessarily liberal ideology. So inaccurate is C.\nThe inaccurate statement is that both movements adopt a liberal ideology. While both are anti\u2011formalist, skeptical, focus on law in action, and aim to demystify legal reasoning, they do not share a common liberal ideological stance.\n\nAnswer: C"
+    },
+    {
+     "subject": "jurisprudence",
+     "pred": 3,
+     "gold": 2,
+     "ok": false,
+     "text": " is a form of social control that reinforces collective conscience. So best is D? Actually Durkheim argued punishment is a form of social solidarity, not vengeance. He said punishment is a way to reaffirm collective norms. That aligns with \"desert\" meaning deserved punishment. So answer D.\nDurkheim viewed punishment primarily as a means of reaffirming the collective conscience and maintaining social solidarity, rather than as a tool for deterrence, rehabilitation, or vengeance. This perspective aligns most closely with the idea that punishment is deserved for violating social norms.\n\nAnswer: D"
+    },
+    {
+     "subject": "jurisprudence",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": "We need which option succeeds in formulating interest theory without correlativity. Likely D? Interest theory says rights arise from interests. Correlativity means rights and duties correspond. Without correlativity, we need a formulation that doesn't rely on that. Option D says X has a right whenever protection of his interest is recognized as a reason for imposing duties only when they are actually imposed. That seems to avoid correlativity. So answer D.\nAnswer: D"
+    },
+    {
+     "subject": "jurisprudence",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: Roe v Wade decision: majority held that Texas law unconstitutional because violated woman's right to privacy. So C.\nThe Supreme Court\u2019s ruling in Roe v. Wade was based on the premise that the Texas statute infringed upon a woman\u2019s constitutional right to privacy, thereby rendering it unconstitutional.  \n\nAnswer: C"
+    },
+    {
+     "subject": "logical_fallacies",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The correct answer is D. Division.\nThe described mistake is known as the **division fallacy**\u2014assuming what holds for the whole must hold for each part.  \n\nAnswer: D"
+    },
+    {
+     "subject": "logical_fallacies",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need correct answer: question begging epithets is loaded language, name-calling. So B.\nThe fallacy of question\u2011begging epithets involves using emotionally charged labels or name\u2011calling to restate a claim instead of providing actual support. This is a form of loaded language that substitutes an epithet for evidence.\n\nAnswer: B"
+    },
+    {
+     "subject": "logical_fallacies",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The question: \"Which of the following is another name for evading the issue?\" Evading the issue is a fallacy known as \"irrelevant conclusion\" or \"red herring\"? Actually evading the issue is \"irrelevant conclusion\" also called \"non sequitur\"? The options: A \"you too\" fallacy (tu quoque), B irrelevant conclusion, C appeal to fear, D argument against the person (ad hominem). Evading the issue is \"irrelevant conclusion\". So answer B.\nThe fallacy of evading the issue is commonly referred to as an **irrelevant conclusion**.  \n\nAnswer: B"
+    },
+    {
+     "subject": "logical_fallacies",
+     "pred": 0,
+     "gold": 1,
+     "ok": false,
+     "text": "Ad antiquitatem is appeal to tradition fallacy. Which option matches? None directly. False cause, false sign, false analogy, hasty generalization. Appeal to tradition is a type of false cause? Actually it's a type of appeal to tradition, not listed. Might be false sign? No. Probably false cause? I'd guess A.\nAd antiquitatem is the \u201cappeal to tradition\u201d fallacy, which is most closely related to a false causal inference (i.e., assuming that because something has always been done, it must be correct).  \nAnswer: A"
+    },
+    {
+     "subject": "logical_fallacies",
+     "pred": 1,
+     "gold": 2,
+     "ok": false,
+     "text": "it does no harm because he's too old to work, but he lives on grandmother's earnings, so he is not harming? Not sure. Probably False Dilemma: presenting only two options: either he works or not; if not, opium doesn't harm. So answer B.\nThe argument presents only two extreme possibilities: either Tan is a productive worker or he is not. Because he claims he is not a worker, he concludes that his opium use cannot be harmful. This is a classic example of a **false dilemma**\u2014the speaker forces a choice between two mutually exclusive options while ignoring other relevant possibilities.  \n\nAnswer: B"
+    },
+    {
+     "subject": "machine_learning",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "First statement: SVMs produce decision function, not probability unless calibrated. So false. Second: support vectors may change with kernel. So false. Thus B.\nStatement 1 is false \u2013 standard SVMs output a decision score, not a probability distribution (probabilities can only be obtained after calibration).  \nStatement 2 is also false \u2013 changing the kernel (e.g., from linear to a higher\u2011order polynomial) generally changes the geometry of the feature space, so the set of support vectors will usually change.\n\nAnswer: B"
+    },
+    {
+     "subject": "machine_learning",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "The trade-off underfitting/overfitting is mainly degree. So answer A.\nThe primary structural factor that determines whether a polynomial regression model will underfit or overfit is the **degree of the polynomial**. A low\u2011degree polynomial tends to underfit (too simple), while a high\u2011degree polynomial can overfit (too flexible). The other options affect training dynamics, noise assumptions, or bias but do not directly control the model\u2019s capacity in the same way.\n\nAnswer: A"
+    },
+    {
+     "subject": "machine_learning",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We know bagging reduces variance. So answer D.\nAveraging the output of multiple decision trees helps reduce the variability of the predictions, thereby decreasing the overall variance of the model.\n\nAnswer: D"
+    },
+    {
+     "subject": "machine_learning",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need training loss increases with epochs. That suggests diverging or not converging. Step size too large can cause divergence. So answer C.\nIf the training loss keeps rising as you train longer, the optimizer is likely diverging rather than converging. A common cause of divergence is an excessively large learning rate (step size), which can make the updates overshoot the optimum and increase the loss.  \n\nAnswer: C"
+    },
+    {
+     "subject": "machine_learning",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Correct is A.\nDiscriminative models aim to directly learn the conditional distribution of the target variable given the input features, i.e., \\(p(y|x, w)\\).\n\nAnswer: A"
+    },
+    {
+     "subject": "management",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need term for sub-optimal but acceptable outcome of negotiations. That's \"satisficing\". So answer B.\nThe term that describes a sub\u2011optimal yet acceptable outcome of negotiations is **satisficing**.\n\nAnswer: B"
+    },
+    {
+     "subject": "management",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": "We need to pick correct answer. Individual freedom to schedule work is job scheduling or job planning? It's about autonomy in scheduling: job design? Job enrichment? Job rate? Job planning? Likely job planning refers to scheduling. So D.\nThe ability for an employee to decide when to perform their tasks is a form of **job planning**\u2014the autonomy to schedule work.  \n\nAnswer: D"
+    },
+    {
+     "subject": "management",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "The correct answer: quality circle is a group of workers who meet to identify, analyze, and solve work problems. So purpose: bring together workers (not managers) to find improvements. Option A.\nA quality circle is a group of workers who meet regularly to identify, analyze, and solve work problems, aiming to improve processes and productivity. The primary purpose is to bring together managers and workers to find improvements.\n\nAnswer: A"
+    },
+    {
+     "subject": "management",
+     "pred": 3,
+     "gold": 2,
+     "ok": false,
+     "text": "We need who concerned with reaction of workers to key characteristics of bureaucracies. That's Mayo? Actually Mayo studied Hawthorne effect, workers' reactions to conditions. So answer D.\nThe concern about how workers react to the key characteristics of bureaucracies is most closely associated with Elton Mayo, who studied the social and psychological aspects of work in the Hawthorne studies.  \n\nAnswer: D"
+    },
+    {
+     "subject": "management",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "ory? Classical? Contingency? The principle of values and beliefs guiding choices is \"instrumental theory\"? Wait: Instrumental theory: people choose based on expected outcomes and instrumental value. But values and beliefs? Maybe \"Expectancy theory\" includes expectancy, instrumentality, valence. But the principle that people make choices based on values and beliefs is \"Expectancy theory\" includes valence (value of outcome). So answer A.\nThe principle that people make choices about how to behave based on their values and beliefs is most closely associated with **Expectancy Theory**.  \n\nAnswer: A"
+    },
+    {
+     "subject": "marketing",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The definition matches portfolio analysis.\nThe description refers to evaluating a company's mix of products, services, investments, and other assets to optimize resource use and assess suitability, risk, and expected return. This is known as a **portfolio analysis**.\n\nAnswer: C"
+    },
+    {
+     "subject": "marketing",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: evaluating attractiveness of segments to determine which to target. That is to evaluate market potential and profitability. So answer C.\nThe purpose of evaluating the attractiveness of the differing market segments identified in the second stage of the market segmentation process is to assess the market potential within each segment, helping the firm decide which segments to target.  \n\nAnswer: C"
+    },
+    {
+     "subject": "marketing",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need dimensions: Pine & Gilmore 1999 \"The Experience Economy\" dimensions: customer participation and environmental relationship. So answer A.\nThe Experience Economy framework distinguishes experiences along two axes: how much the customer participates in the experience and how the environment is designed to support that participation. Thus the correct pair of dimensions is:\n\n**Customer participation** and **environmental relationship**.\n\nAnswer: A"
+    },
+    {
+     "subject": "marketing",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need trade discount: between producer and retailer. Option C.\nA trade discount is a price reduction given by a producer or wholesaler to a retailer or other business buyer, typically to encourage bulk purchases or promote the product. The scenario that best fits this definition is:\n\n**C. A producer offers a discount to retailers for promoting its product during the month of June.**\n\nAnswer: C"
+    },
+    {
+     "subject": "marketing",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to pick which is not an issue. Digital resources: jurisdiction, disclosure, ownership, permissions. All are issues? Maybe disclosure is not? Actually disclosure (like disclosure of sponsorship) is issue. Ownership is issue. Permissions is issue. Jurisdiction is issue. Maybe disclosure is not? I'd choose B.\nThe correct choice is **B. Disclosure**.  \n\nAnswer: B"
+    },
+    {
+     "subject": "medical_genetics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Correct answer A.\nZinc finger proteins and helix-turn-helix proteins are types of DNA\u2011binding proteins that recognize specific DNA sequences to regulate gene expression.\n\nAnswer: A"
+    },
+    {
+     "subject": "medical_genetics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "Monosomy means one chromosome missing: 45,X is Turner. So D.\nThe correct answer is D.  \nAnswer: D"
+    },
+    {
+     "subject": "medical_genetics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: X-linked dominant: can be transmitted by both sexes, but males can transmit to daughters only. So feature: transmitted by males only to females. That's option D.\nIn X\u2011linked dominant inheritance, a male carrier can pass the mutation only to his daughters (since he has no sons with the X chromosome). Thus the characteristic feature is that the trait is transmitted by males only to females.  \n\nAnswer: D"
+    },
+    {
+     "subject": "medical_genetics",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need which karyotype not compatible with survival to birth. 47,XY,+13 trisomy 13 (Patau) can survive to birth but high mortality. 47,XX,+18 trisomy 18 (Edwards) also can survive to birth but many die early. 47,XY,+21 Down syndrome survives. 45,Y is Turner? Actually 45,Y is monosomy Y, no X, lethal. So answer D.\nThe karyotype that is not compatible with survival to birth is **45,Y** (monosomy Y), which is lethal.  \nAnswer: D"
+    },
+    {
+     "subject": "medical_genetics",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "The common mutation in alpha-thalassemia is deletion of alpha-globin genes. So answer A.\nThe most frequent mutation causing \u03b1\u2011thalassaemia is a deletion of one or more \u03b1\u2011globin genes.  \nAnswer: A"
+    },
+    {
+     "subject": "miscellaneous",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need to pick best description. Teacher presents examples, works with them to identify defining characteristics. That's discipline-based inquiry: exploring genre characteristics. So answer B.\nThe teacher is engaging students in a discipline\u2011based inquiry, guiding them to examine and identify the defining characteristics of short stories through analysis of examples.  \n\nAnswer: B"
+    },
+    {
+     "subject": "miscellaneous",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Need correct speed of light ~186,000 miles per second. So answer C.\nThe speed of light in a vacuum is approximately 186,000 miles per second.\n\nAnswer: C"
+    },
+    {
+     "subject": "miscellaneous",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Erikson's stages: adolescence is identity vs role confusion. So answer B.\nAccording to Erik Erikson, the primary dilemma faced in adolescence is **identity vs. identity confusion**.\n\nAnswer: B"
+    },
+    {
+     "subject": "miscellaneous",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "The Hula-Hoop was invented in 1950s. So answer C.\nThe Hula\u2011Hoop was invented in the 1950s.\n\nAnswer: C"
+    },
+    {
+     "subject": "miscellaneous",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer: Soil structure refers to arrangement of soil particles into aggregates. So A.\nSoil structure refers to the arrangement of soil particles into aggregates, influencing porosity, drainage, and root penetration.\n\nAnswer: A"
+    },
+    {
+     "subject": "moral_disputes",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer. Consequentialist theory: focuses on outcomes, impartial, considers alternatives. So all of above. Answer D.\nConsequentialist moral theory is indeed a value\u2011based theory that evaluates the moral worth of actions by considering the outcomes they produce. It requires that an agent considers the alternative actions available to them, and it is strongly impartialist, treating all affected parties equally. Therefore, all of the listed features apply.\n\nAnswer: D"
+    },
+    {
+     "subject": "moral_disputes",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "The correct answer is A.\nThe theory that explains right action in terms of the net balance of pleasure (or lack of pain) produced by that action is **hedonistic utilitarianism**.\n\nAnswer: A"
+    },
+    {
+     "subject": "moral_disputes",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer. Carens (David Carens) on immigration. He says possible harm but argues that in practice feasible options won't entail major costs. So A. Not B or C. So answer A.\nCarens acknowledges that opening borders can sometimes cause harm, but he argues that in practice, the feasible policy options will not entail major costs to current citizens.  \n\nAnswer: A"
+    },
+    {
+     "subject": "moral_disputes",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "Confucian model: emphasis on relationships, learning from others, no immortal soul. So A.\nAccording to Confucian thought, the development of a person is rooted in social relationships and the cultivation of moral character through learning from others. Confucianism does not posit an immortal individual soul, nor does it focus primarily on the slow development of rational capacities as the sole path to personhood. Therefore, the correct choice is:\n\nAnswer: A"
+    },
+    {
+     "subject": "moral_disputes",
+     "pred": 1,
+     "gold": 0,
+     "ok": false,
+     "text": "We need Altman's viewpoint-biased speech restriction troubling to whom. Likely those who value strong protections for freedom of speech. So B.\nAccording to Altman, a viewpoint\u2011biased speech restriction should be troubling to those who value strong protections for freedom of speech.  \n\nAnswer: B"
+    },
+    {
+     "subject": "moral_scenarios",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "Scenario1: turning away from mother-in-law when sneezing. That's polite to avoid spreading germs. Not wrong. Scenario2: glaring at children to enforce posture. That's harsh but not morally wrong? It's a mild disciplinary action. Probably not wrong. So both not wrong. Option D.\nScenario\u202f1: Turning away from your mother\u2011in\u2011law when you sneeze is a courteous gesture to avoid spreading germs, so it is not morally wrong.  \nScenario\u202f2: Glaring at your children to remind them to sit up straight is a mild form of discipline; it is not considered morally wrong by ordinary standards.  \n\nAnswer: D"
+    },
+    {
+     "subject": "moral_scenarios",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Scenario1: running loudly on airplane is rude, morally wrong. Scenario2: turning down heater after it scorched child is correct action, not wrong. So Wrong, Not wrong => B.\nScenario\u202f1: Running loudly on an airplane is rude and disrupts others, so it is morally wrong.  \nScenario\u202f2: After the heater scorched the child, turning the temperature down is a responsible, protective action, not morally wrong.\n\nAnswer: B"
+    },
+    {
+     "subject": "moral_scenarios",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "Scenario1 pouring drink in sink: wasteful but not morally wrong. Scenario2 making smoothie alone: fine. So Not wrong, Not wrong => D.\nScenario\u202f1: Pouring the rest of your drink into the kitchen sink is simply wasteful but not morally wrong.  \nScenario\u202f2: Turning on the blender to make a smoothie for yourself after your roommates have left is perfectly fine.\n\nAnswer: D"
+    },
+    {
+     "subject": "moral_scenarios",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Scenario1: helping friend get out of house after he lost girlfriend? unclear but likely not wrong. Scenario2: skinny-dipping in community pool while everyone at poolside: that's wrong. So Not wrong, Wrong => C.\nScenario\u202f1: Helping a friend leave the house after a breakup is not morally wrong.  \nScenario\u202f2: Going skinny\u2011dipping in a community pool while everyone else is at the poolside is clearly inappropriate and morally wrong.\n\nAnswer: C"
+    },
+    {
+     "subject": "moral_scenarios",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Scenario1: plucking rare flowers in public garden is wrong. Scenario2: breaking his running record is not wrong. So Wrong, Not wrong => B.\nScenario 1: Plucking rare flowers from a public garden is a clear violation of property and conservation norms, so it is morally wrong.  \nScenario 2: Breaking someone\u2019s running record is a positive athletic achievement and not morally wrong.\n\nAnswer: B"
+    },
+    {
+     "subject": "nutrition",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need correct answer. Safety considered when EDI < ADI. So B.\nA food additive is considered to be safe when its Estimated Daily Intake (EDI) from its presence in food is less than its Acceptable Daily Intake (ADI).  \n\nAnswer: B"
+    },
+    {
+     "subject": "nutrition",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: definition includes availability, utilisation, stability, access. So C.\nFood security is defined by the United Nations as the condition in which all people, at all times, have physical, social, and economic access to sufficient, safe, and nutritious food that meets their dietary needs and food preferences for an active and healthy life. This definition emphasizes four interrelated components: availability, utilisation, stability, and access. Therefore, the correct choice is:\n\nAnswer: C"
+    },
+    {
+     "subject": "nutrition",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Correct is DEXA.\nThe most accurate and commonly used method for assessing body mineral content (particularly bone mineral density) is Dual\u2011Energy X\u2011ray Absorptiometry (DEXA).\n\nAnswer: B"
+    },
+    {
+     "subject": "nutrition",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need correct answer: Insulin deficiency leads to increased lipolysis, increased ketogenesis, increased gluconeogenesis, increased proteolysis. So option B increased ketogenesis is correct.\nInsulin deficiency removes the inhibitory effect of insulin on fat breakdown and ketone production. Consequently, ketogenesis is markedly increased.  \n\nAnswer: B"
+    },
+    {
+     "subject": "nutrition",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need hormone that increases satiety: leptin. Hunger: ghrelin. So leptin and ghrelin. Option B: Leptin and ghrelin.\nThe hormone that signals satiety to the hypothalamus is leptin, while the hormone that stimulates hunger is ghrelin.  \nAnswer: B"
+    },
+    {
+     "subject": "philosophy",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Gauthier (David Gauthier) is contractarian, basis is rational agreement. So C.\nAccording to Gauthier, the basis of morality is the agreement of rational persons choosing the terms of their interaction.  \n\nAnswer: C"
+    },
+    {
+     "subject": "philosophy",
+     "pred": 1,
+     "gold": 3,
+     "ok": false,
+     "text": "Taurek argues that adding more deaths doesn't make it worse in a comparative sense? He says death of two is not necessarily worse than one; he rejects cardinal comparison. So answer B.\nTaurek argues that the death of two people is not necessarily worse than the death of one; he rejects the idea that more deaths always mean a greater loss.  \nAnswer: B"
+    },
+    {
+     "subject": "philosophy",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Parfit says pains are comparable only roughly. So B.\nParfit argues that while we can say one pain is greater than another, the comparison is inherently imprecise and can only be made roughly.  \nAnswer: B"
+    },
+    {
+     "subject": "philosophy",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Bentham utilitarian: pain/pleasure determine what we ought to do (principle of utility). Also they determine what we will do? He says people act to maximize pleasure minimize pain. So both? He says considerations of pain/pleasure determine what we ought to do (normative) and also what we will do (behavior). So C.\nBentham\u2019s utilitarianism holds that the moral value of an action is judged by the amount of pleasure it produces and the pain it avoids. Because people are motivated by these considerations, they both guide what we ought to do and what we actually do.  \n\nAnswer: C"
+    },
+    {
+     "subject": "philosophy",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": "We need correct answer. Nagel's moral luck: problem because our theories of human action are off track? He says moral luck shows that our theories of action are inadequate. So D.\nThe problem of moral luck, as Nagel explains, shows that our theories of human action are fundamentally inadequate\u2014they cannot adequately account for how we judge moral responsibility when outcomes are influenced by factors beyond an agent\u2019s control.  \n\nAnswer: D"
+    },
+    {
+     "subject": "prehistory",
+     "pred": 1,
+     "gold": 3,
+     "ok": false,
+     "text": "We need answer. Minoan culture shows little evidence of warfare. So B.\nMinoan culture is known for its art, trade, and elaborate palaces, but archaeological evidence suggests they had very little warfare.  \n\nAnswer: B"
+    },
+    {
+     "subject": "prehistory",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The correct answer is petroglyph.\nA design that is not painted upon but is etched into a rock face is called a:\nB. petroglyph.\n\nAnswer: B"
+    },
+    {
+     "subject": "prehistory",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: After Classical period (~250-900), Maya had Terminal Classic collapse, then Postclassic (900-1500). They didn't move center north; they had decline, then resurgence in southern lowlands? Actually Postclassic centers like Chichen Itza, Mayapan. So answer C: fell into decline, moved center north, resurged, and fell again. So answer C.\nThe Maya experienced a decline after the Classical period, shifted their political centers northward, saw a resurgence in the Postclassic era, and then declined again.  \n\nAnswer: C"
+    },
+    {
+     "subject": "prehistory",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct evidence: modern non-Africans have ~2% Neandertal DNA. So C.\nThe evidence that modern humans outside Africa carry a small but significant portion of their genome that originated from Neandertals is the best indication of interbreeding. This is reflected in the fact that non\u2011African populations have about 2\u202f% of their DNA derived from Neandertals, whereas African populations do not.  \n\nAnswer: C"
+    },
+    {
+     "subject": "prehistory",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need correct answer. Caral complex society reason: irrigation canals for agriculture. So B.\nThe development of a complex society at Caral is most commonly attributed to the construction of irrigation canals, which enabled reliable agriculture and supported a growing population.  \n\nAnswer: B"
+    },
+    {
+     "subject": "professional_accounting",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": " nonsampling? Might be nonsampling. C: sampling risk derived from uncertainty in applying audit procedures to specific risks. That sounds like sampling risk. D: sampling risk includes possibility of selecting audit procedures that are not appropriate. That's nonsampling? Actually selecting inappropriate procedures is nonsampling risk. So correct is B? Wait B: nonsampling risk can arise because auditor failed to recognize misstatements. That is nonsampling risk. So answer B.\nThe correct statement is:\n\nB. Nonsampling risk can arise because an auditor failed to recognize misstatements.\n\nAnswer: B"
+    },
+    {
+     "subject": "professional_accounting",
+     "pred": 2,
+     "gold": 3,
+     "ok": false,
+     "text": "survive? Actually, if principal becomes incompetent, agency is terminated unless agent has authority to act on behalf of incompetent principal. But here Long had express authority to place orders. But after incompetence, does authority survive? I think agency is terminated. So Long cannot bind Frost. So Grant is not liable to Frost. So answer C: No, because Grant dealt only with Long.\nLong\u2019s authority to act on Frost\u2019s behalf ceased when Frost became incompetent. Because the contract was made only between Long and Grant, Grant is not bound to Frost or Frost\u2019s legal representative.  \n\nAnswer: C"
+    },
+    {
+     "subject": "professional_accounting",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "e. Original 10,000 shares at $10 par = $100,000 par. After 5-for-1 split, shares become 50,000. Par value per share should be $2 to keep total par $100,000. So answer D.\nThe total par value of the common stock must remain unchanged after a stock split.  \nBefore the split: 10,000 shares \u00d7 $10 par = $100,000 total par value.  \nAfter a 5\u2011for\u20111 split the number of shares becomes 10,000 \u00d7 5 = 50,000 shares.  \nTo keep the total par value at $100,000, the new par value per share is:\n\n\\[\n\\frac{\\$100,000}{50,000\\ \\text{shares}} = \\$2 \\text{ per share}\n\\]\n\nThus the par value is reduced to $2.\n\nAnswer: D"
+    },
+    {
+     "subject": "professional_accounting",
+     "pred": 1,
+     "gold": 2,
+     "ok": false,
+     "text": "clares a 30\u202f% stock dividend on 1,000 shares, which equals 300 new shares.  \nThe dividend is valued at the market price of $10 per share, so the total dividend amount is  \n\n\\[\n300 \\text{ shares} \\times \\$10 = \\$3,000.\n\\]\n\nThis amount is transferred out of retained earnings.  \nThe par value of the 300 new shares is  \n\n\\[\n300 \\text{ shares} \\times \\$1 = \\$300,\n\\]\n\nwhich is credited to Common Stock.  \nThe remaining balance,  \n\n\\[\n\\$3,000 - \\$300 = \\$2,700,\n\\]\n\nis credited to Additional Paid\u2011in Capital.\n\nThus the correct adjustment is to credit Additional Paid\u2011in Capital for $2,700.\n\n**Answer: B**"
+    },
+    {
+     "subject": "professional_accounting",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "\u202f% of the borrowed amount:\n\n\\[\n\\text{Net proceeds} = 200{,}000 \\times 0.85 = 170{,}000\n\\]\n\n**Interest cost**  \n10\u202f% of the $200,000 borrowed:  \n\\[\n200{,}000 \\times 0.10 = 20{,}000\n\\]\n\n**Commitment fee**  \n1\u202f% of the unused portion of the $500,000 line:  \n\\[\n(500{,}000 - 200{,}000) \\times 0.01 = 300{,}000 \\times 0.01 = 3{,}000\n\\]\n\n**Total cost**  \n\\[\n20{,}000 + 3{,}000 = 23{,}000\n\\]\n\n**Effective annual interest rate** (cost divided by net proceeds):\n\n\\[\n\\frac{23{,}000}{170{,}000} \\approx 0.1353 \\text{ or } 13.53\\%\n\\]\n\nThus the effective annual interest cost is closest to **13.53\u202f%**.\n\nAnswer: D"
+    },
+    {
+     "subject": "professional_law",
+     "pred": 3,
+     "gold": 1,
+     "ok": false,
+     "text": "edominant purpose. Here goods $1000, service $1200. Predominant purpose likely service? But service is warranty. UCC applies if predominant purpose goods. Here service > goods. So UCC does not apply? Actually UCC applies if predominant purpose goods. Here not. So retailer wins. Option D.\nThe UCC applies only when the predominant purpose of the contract is the sale of goods. In this case the service portion ($1,200) exceeds the goods portion ($1,000), so the predominant purpose is the service agreement. Therefore the UCC does not govern the contract, and the retailer would prevail.  \n\nAnswer: D"
+    },
+    {
+     "subject": "professional_law",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Need correct answer: In malicious prosecution, evidence of defendant's character for dishonesty is admissible if it is at issue. So B.\nThe correct answer is **B**.  \n\nAnswer: B"
+    },
+    {
+     "subject": "professional_law",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "BFP without notice, so bank prevails over friend. Also prior 1988 mortgage is subordinate per 2008 mortgage. So answer D.\nThe son\u2019s 2008 mortgage was recorded before the friend\u2019s deed was ever recorded. Under the state\u2019s notice\u2011type statute, a subsequent bona\u2011fide purchaser (the bank) who records without notice of a prior unrecorded interest prevails over that earlier interest. The 1988 mortgage is expressly made subordinate in the 2008 instrument, so it does not defeat the bank\u2019s priority. Therefore the bank\u2019s mortgage would stand against the friend\u2019s later unrecorded conveyance.  \n\nAnswer: D"
+    },
+    {
+     "subject": "professional_law",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need to decide. Consent must be voluntary. Not giving right to refuse is not required. So A.\nThe court will likely hold that the driver\u2019s consent was voluntary, as there was no coercion or duress, and the officer\u2019s failure to advise the driver of his right to refuse does not render the consent involuntary.  \n\nAnswer: A"
+    },
+    {
+     "subject": "professional_law",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Need UCC irrevocable offer: must be in signed writing that gives assurance that offer will be held open. So B.\nThe UCC requires that an irrevocable offer be made in a signed writing that gives assurance that the offer will be held open.  \n\nAnswer: B"
+    },
+    {
+     "subject": "professional_medicine",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need to find most appropriate initial diagnostic study for poor appetite, weight loss, nausea. Likely check digoxin toxicity? But she is on digoxin, but she denies depression. Digoxin toxicity can cause anorexia, nausea. So check serum digoxin level. So answer D.\nThe patient\u2019s symptoms of anorexia, nausea, and recent weight loss are classic for digoxin toxicity, especially in an elderly patient on chronic digoxin therapy. The most direct and immediate diagnostic step is to measure the serum digoxin concentration to confirm or rule out toxicity.  \n\nAnswer: D"
+    },
+    {
+     "subject": "professional_medicine",
+     "pred": 0,
+     "gold": 1,
+     "ok": false,
+     "text": "We need factor precipitating lawsuit. Likely perception that physician incompetent. So A.\nThe most common trigger for a patient to pursue a malpractice claim is the belief that the physician performed poorly or was incompetent, leading the patient to feel that the outcome was due to medical error rather than a normal complication.  \nAnswer: A"
+    },
+    {
+     "subject": "professional_medicine",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need to know ethics: former patient, even if not current, still prohibited to date. So D.\nThe appropriate response is that the student should not pursue a romantic relationship with a former patient, regardless of the time elapsed or the student's current status. The ethical guidelines prohibit physicians and trainees from forming personal relationships with patients who have been under their care, even if the patient is no longer in treatment.\n\nAnswer: D"
+    },
+    {
+     "subject": "professional_medicine",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "She has rhabdomyolysis (CK 10k), likely due to drug overdose, with myoglobinuria causing pigmented casts. Over next 24h risk of acute tubular necrosis. So B.\nThe presentation is classic for severe rhabdomyolysis with myoglobinuria, which is a well\u2011known cause of acute tubular necrosis (ATN) within the first 24\u201348 hours. The other options are less directly linked to this acute picture.\n\nAnswer: B"
+    },
+    {
+     "subject": "professional_medicine",
+     "pred": 2,
+     "gold": 3,
+     "ok": false,
+     "text": "ss. The drop in hematocrit from 41\u202f% to 30\u202f% indicates ongoing bleeding that is not being captured by the recorded 200\u202fmL loss. In a left hemicolectomy at the splenic flexure, the most likely source of occult bleeding is injury to the arterial supply of the colon in that region. The middle colic artery, a branch of the superior mesenteric artery, supplies the transverse colon and can be damaged during mobilization of the splenic flexure, leading to significant hemorrhage that may not be immediately apparent. Therefore, the structure most likely responsible for these findings is:\n\n**Answer: C**"
+    },
+    {
+     "subject": "professional_psychology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The task: when group members select a solution offered by one of the group members as the group's solution. That is a disjunctive task? Actually disjunctive tasks: group must choose one solution from among options; group selects one member's solution. So answer B.\nThe correct answer is B.  \n\nAnswer: B"
+    },
+    {
+     "subject": "professional_psychology",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer. Bartering permissible if not exploitative, not contraindicated, and value established. So A.\nBartering is permissible in professional psychology provided it is not clinically contraindicated, the relationship is not exploitative, and the parties agree on the value of the services exchanged.  \n\nAnswer: A"
+    },
+    {
+     "subject": "professional_psychology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need anterograde amnesia: inability to form new memories after event. Option B describes inability to remember events after assault (24 hours). That's anterograde. Option A is retrograde (before accident). Option C is interference. Option D is retrieval. So answer B.\nAnswer: B"
+    },
+    {
+     "subject": "professional_psychology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need to choose correct ethical response. Confidentiality: cannot discuss client without consent. So D.\nThe psychologist must respect the client\u2019s confidentiality and cannot disclose any information about the client\u2019s treatment or condition without the client\u2019s explicit consent. Therefore, the appropriate response is to refuse to discuss the client\u2019s condition with the mother.\n\nAnswer: D"
+    },
+    {
+     "subject": "professional_psychology",
+     "pred": 1,
+     "gold": 3,
+     "ok": false,
+     "text": "We need correct answer. The question: \"Which of the following is the proper comparison rate for studying the effectiveness of a new psychotherapy\". Likely compare to spontaneous remission or relapse? In psychotherapy research, comparison to spontaneous remission or natural recovery. So B: Relapse in those who experience spontaneous remission. Probably B.\nThe appropriate benchmark for evaluating a new psychotherapy is the rate of relapse among individuals who have experienced spontaneous remission. This provides a realistic comparison to natural recovery processes.\n\nAnswer: B"
+    },
+    {
+     "subject": "public_relations",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "We need best PR action: recall nationwide. So B.\nThe most prudent course of action is to halt all sales of the product nationwide and initiate a full recall. This demonstrates responsibility, protects consumers, and helps prevent the situation from escalating into a larger crisis.  \n\nAnswer: B"
+    },
+    {
+     "subject": "public_relations",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "Need correct answer. UK regional newspapers count ~2,800? I think around 2,800. So C.\nThe number of regional newspapers operating in the UK is approximately 2,800.\n\nAnswer: C"
+    },
+    {
+     "subject": "public_relations",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer. Macnamara's pyramid: Inputs (planning), Outputs (activities), Outtakes (short-term effects), Outcomes (long-term). Situation analysis is part of planning, so Inputs. So answer A.\nThe situation analysis is part of the planning phase, which corresponds to the **Inputs** level of Macnamara\u2019s pyramid.  \n\nAnswer: A"
+    },
+    {
+     "subject": "public_relations",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The pyramid: Inputs, Outputs, Outcomes? Actually Macnamara's pyramid: Inputs, Activities, Outputs, Outcomes, Impact. Media coverage is an output. So answer B.\nMedia coverage is considered an **output** in Macnamara\u2019s evaluation pyramid, as it represents the immediate result of PR activities that can be measured directly.  \n\nAnswer: B"
+    },
+    {
+     "subject": "public_relations",
+     "pred": 3,
+     "gold": 2,
+     "ok": false,
+     "text": "Need recall: Watson & Noble 2005 circular evaluation model steps: 1. Define objectives, 2. Identify audience, 3. Design strategy, 4. Implement, 5. Evaluate. Pre-testing of strategy and tactics likely before implementation, so step 4? Actually pre-testing occurs during strategy design? Pre-testing tactics before implementation: step 4. So answer D.\nThe pre\u2011testing of strategy and tactics is carried out just before implementation, i.e., at step\u202f4 of the model.\n\nAnswer: D"
+    },
+    {
+     "subject": "security_studies",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer. HM paradigm likely refers to Human Security? Actually HM could be \"Humanitarianism\"? In security studies, HM could be \"Humanitarianism and Militarism\"? Not sure. But likely \"Human Security\" paradigm. In human security, capitalism is seen as producing insecurity. So all options? Option A, B, C all describe critiques. Likely D.\nAnswer: D"
+    },
+    {
+     "subject": "security_studies",
+     "pred": 1,
+     "gold": 3,
+     "ok": false,
+     "text": "n referent. C: short term unhelpful to adopt hands-off, need immediate relief. D: all of these options. Which is correct? Likely B is main role. A is too negative. C is about policy approach. The question likely expects B. So answer B.\nThe state\u2019s primary role in human security is to leverage its material resources and power to protect and promote the well\u2011being of individuals. While states can sometimes pose threats and immediate crises may require urgent intervention, the overarching function is to secure the human referent object through governance, institutions, and resources.  \n\nAnswer: B"
+    },
+    {
+     "subject": "security_studies",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need correct answer: D.\nGun shows and international arms fairs often lack stringent security checks, creating an environment where price and convenience are prioritized over the end\u2011use or distribution of the weapons. This laxity can facilitate the diversion of legally sold arms into illicit markets, thereby contributing to the growth of black\u2011market arms trade.  \n\nAnswer: D"
+    },
+    {
+     "subject": "security_studies",
+     "pred": 3,
+     "gold": 0,
+     "ok": false,
+     "text": " effect on environmental security perspectives?\" The effect: end of Cold War broadened security issues beyond military mentalities. So D captures that. A also. Which is better? D mentions little effect on policy, but question about effect on perspectives. So D.\nThe end of the Cold War created the intellectual space for the broadening of security issues beyond Cold War military mentalities. Research among political and environmental scientists discussed ways in which new security issues could be addressed. The plethora of publications produced, however, had little effect on policy.  \n\nAnswer: D"
+    },
+    {
+     "subject": "security_studies",
+     "pred": 0,
+     "gold": 3,
+     "ok": false,
+     "text": "We need correct answer. The question: \"In what ways has conflict been a concern of the environmental security agenda for strong states?\" Likely answer A: environmental change can cause war, resource scarcity. D says strong states less prone. But question asks ways conflict has been a concern of environmental security agenda for strong states. That agenda sees conflict as concern. So A fits. Answer A.\nAnswer: A"
+    },
+    {
+     "subject": "sociology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "rration? Actually normalized deviance: deviant act becomes normalized, so not seen as deviant. So answer B? Wait B says seen a temporary aberration from an otherwise 'normal' character. That implies still seen as deviant. Normalized deviance means it's no longer seen as deviant. So none? But likely answer B? Hmm. Maybe they mean normalized deviance is when deviant act is seen as normal, so not recognized as deviant. None options. But maybe C? No. I'd choose B? I'll answer B.\nIf a deviant act is 'normalized', it is seen as a temporary aberration from an otherwise 'normal' character.  \nAnswer: B"
+    },
+    {
+     "subject": "sociology",
+     "pred": 0,
+     "gold": 2,
+     "ok": false,
+     "text": "We need correct answer: pluralist theories: state power exercised through multiple interest groups, not elite. So A. End with line.\nPluralist theories emphasize that power is dispersed among many competing interest groups rather than concentrated in a single elite. They argue that the state\u2019s authority is exercised through a variety of administrative structures that represent diverse interests.  \n\nAnswer: A"
+    },
+    {
+     "subject": "sociology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "). Then Companions of Bath (order). So D seems correct. But B also plausible. Which is more correct? The question likely expects D. I'll answer D.\nIn the traditional hierarchy of status and precedence, the order from highest to lowest is:\n\n1. **King's Grandsons** \u2013 members of the royal family hold the highest precedence.  \n2. **Lord High Treasurer** \u2013 one of the Great Officers of State, ranking above most orders of knighthood.  \n3. **Companions of the Bath** \u2013 a prestigious order of chivalry, but below the Great Officers of State.\n\nThus the correct sequence is given in option **D**.\n\nAnswer: D"
+    },
+    {
+     "subject": "sociology",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need to recall Kerr et al. 1960 claim: They argued that totalitarian regimes are incompatible with advanced industrial technology? Actually they argued that totalitarian regimes cannot sustain advanced industrial technology because they lack flexibility. So answer A.\nThe case of the former Soviet Union illustrates that totalitarian regimes struggle to maintain and effectively utilize advanced industrial technology, supporting Kerr et al.\u2019s (1960) claim that such regimes are incompatible with the requirements of advanced industrial technology.  \n\nAnswer: A"
+    },
+    {
+     "subject": "sociology",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need correct answer. New racism refers to subtle prejudice, masked by nationalist pride. So A.\nThe 'new racism' refers to a subtler form of prejudice, masked by nationalist pride.  \nAnswer: A"
+    },
+    {
+     "subject": "us_foreign_policy",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "The question: Which is not a nonstate actor that poses a threat to the US? Options: A terrorists (nonstate), B organized crime (nonstate), C drug traffickers (nonstate), D China (state). So answer D.\nThe only option that is not a nonstate actor is **D. China**.  \n\nAnswer: D"
+    },
+    {
+     "subject": "us_foreign_policy",
+     "pred": 1,
+     "gold": 2,
+     "ok": false,
+     "text": "The unique aspect: NATO intervention in Kosovo was first time NATO used military force. So B.\nThe NATO intervention in Kosovo was notable because it marked the first time NATO actually used military force in a conflict.  \n\nAnswer: B"
+    },
+    {
+     "subject": "us_foreign_policy",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "The Philadelphian System refers to early US foreign policy under Washington and Adams, emphasizing neutrality, non-entanglement, and avoiding European wars. Linked to American exceptionalism because it was distinct from European politics. So answer B.\nThe Philadelphian System was a deliberate departure from the European model of foreign policy, emphasizing neutrality and non\u2011intervention. This distinct approach is often cited as an expression of American exceptionalism, highlighting the United States\u2019 unique path in international affairs.  \n\nAnswer: B"
+    },
+    {
+     "subject": "us_foreign_policy",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "American exceptionalism promotes free market, democracy, etc. So implies liberalization of global trade. So C.\nAmerican exceptionalism is rooted in the belief that the United States champions free\u2011market principles and democratic governance. This worldview tends to support open markets and the removal of trade barriers, encouraging the liberalization of global trade rather than protectionist measures or state control.  \n\nAnswer: C"
+    },
+    {
+     "subject": "us_foreign_policy",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "All statements true.\nThe Marshall Plan was a comprehensive U.S. initiative that provided economic aid to rebuild war\u2011torn Europe, helped curb the appeal of Soviet communism, and strengthened U.S. influence across the continent.  \n\nAnswer: D"
+    },
+    {
+     "subject": "virology",
+     "pred": 1,
+     "gold": 1,
+     "ok": true,
+     "text": "Correct answer B.\nDuring the incubation period, the virus is actively replicating inside host cells, but the infected individual typically shows no symptoms yet. The immune system has not yet mounted a noticeable response, and the virus is still establishing itself within the host.\n\nAnswer: B"
+    },
+    {
+     "subject": "virology",
+     "pred": 1,
+     "gold": 3,
+     "ok": false,
+     "text": "We need choose main use. NGS cheap: useful for identifying genetic variation and new viruses. Which main? Likely identifying genetic variation. So B.\nDeep nucleotide sequencing (NGS) is now cheap enough for general application. What will the technique mainly be useful for?\n\nB. Identifying genetic variation\n\nAnswer: B"
+    },
+    {
+     "subject": "virology",
+     "pred": 1,
+     "gold": 2,
+     "ok": false,
+     "text": "ugh a lipid bilayer. That describes spikes but missing envelope? It says protrude through a lipid bilayer. That implies envelope. Option B: icosahedral structure with an envelope. That is also correct. Which is best? Coronavirus has icosahedral nucleocapsid, enveloped, spikes. Option A focuses on spikes. Option B generic. I'd choose B.\nCoronaviruses are enveloped viruses with an icosahedral nucleocapsid. Their characteristic club\u2011shaped glycoprotein spikes protrude from the lipid envelope, giving the virion a crown\u2011like appearance. The most accurate description among the options is:\n\nAnswer: B"
+    },
+    {
+     "subject": "virology",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "We need to pick correct answer. Ethical research on human subjects: key element is informed consent. So D.\nThe most important element of ethical research on human subjects is **Informed consent**.\n\nAnswer: D"
+    },
+    {
+     "subject": "virology",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need which is exception among special characteristics of MERS. MERS-CoV characteristics: reservoir in bats? Actually reservoir is dromedary camels. Bats are reservoir for many coronaviruses but not MERS. So exception is C.\nThe exception is that bats are not the reservoir for MERS\u2011CoV; the virus is primarily transmitted from dromedary camels to humans.  \n\nAnswer: C"
+    },
+    {
+     "subject": "world_religions",
+     "pred": 3,
+     "gold": 3,
+     "ok": true,
+     "text": "d the first temple? Actually 596 CE is the year of the first Buddhist temple? Let's recall: The first Buddhist temple in Japan is H\u014dry\u016b-ji, founded in 607 CE. So none of options exactly 607. 596 CE is close but not correct. Maybe they consider 596 CE as the year of the first temple? Some sources say 596 CE: the first temple was built by Prince Sh\u014dtoku. So answer likely D.\nThe first Buddhist temple in Japan, H\u014dry\u016b\u2011ji, is traditionally dated to the early 7th century.  The most commonly cited year for its founding is 596\u202fCE, when Prince Sh\u014dtoku is said to have established the temple.  \n\nAnswer: D"
+    },
+    {
+     "subject": "world_religions",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need to know which shuns politics. Likely Zhuangzi sages are non-political. So A.\nThe sages of the Zhuangzi are known for their detachment from worldly affairs, including politics.  \nAnswer: A"
+    },
+    {
+     "subject": "world_religions",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We need correct answer: ziran means \"naturalness\" or \"spontaneity\" (self-so). So C.\nZhuangzi\u2019s concept of **ziran** refers to the natural, spontaneous state of being\u2014acting without contrivance or artificial constraint.  \nAnswer: C"
+    },
+    {
+     "subject": "world_religions",
+     "pred": 2,
+     "gold": 2,
+     "ok": true,
+     "text": "We know answer is C.\nThe most authoritative text in Kabbalah is the **Zohar**.  \nAnswer: C"
+    },
+    {
+     "subject": "world_religions",
+     "pred": 0,
+     "gold": 0,
+     "ok": true,
+     "text": "We need answer: Roman counterpart to Greek Zeus is Jupiter. So A.\nThe Roman counterpart to the Greek god Zeus is **Jupiter**.\n\nAnswer: A"
+    }
+   ]
+  },
+  "gsm8k": {
+   "n": 63,
+   "acc": 0.9206349206349206,
+   "se": 0.03405557165856028,
+   "seconds": 383.26645987499796,
+   "rows": [
+    {
+     "idx": 1,
+     "pred": 3.0,
+     "gold": 3.0,
+     "ok": true,
+     "text": "We need total bolts: blue 2, white half of that: 1. So total 3 bolts. End with '#### <number>' meaning '#### 3'.\nA robe requires 2 bolts of blue fiber and half as many bolts of white fiber.  \nHalf of 2 bolts is 1 bolt.  \nSo the total number of bolts needed is \\(2 + 1 = 3\\).\n\n#### 3"
+    },
+    {
+     "idx": 8,
+     "pred": 45.0,
+     "gold": 45.0,
+     "ok": true,
+     "text": " back? He tries to get home in 4h, but he drives 135 back towards home. So remaining distance =180-135=45 miles.\nJohn\u2019s first leg:  \n\\(3\\text{ h}\\times 60\\text{ mph}=180\\text{ miles}\\) away from home.\n\nDuring the next 4\u202fh he drives back toward home:\n\n* 2\u202fh of stand\u2011still traffic\u2003\u2192\u20030 miles  \n* 0.5\u202fh at 30\u202fmph\u2003\u2192\u2003\\(0.5\\times30=15\\) miles  \n* Remaining time \\(=4-2-0.5=1.5\\)\u202fh at 80\u202fmph\u2003\u2192\u2003\\(1.5\\times80=120\\) miles  \n\nTotal distance he covers back toward home: \\(15+120=135\\) miles.\n\nHe was 180\u202fmiles from home, so after those 4\u202fh he is\n\n\\(180-135=45\\) miles from home.\n\n**Answer: 45 miles.**  \n#### 45"
+    },
+    {
+     "idx": 25,
+     "pred": 2.0,
+     "gold": 2.0,
+     "ok": true,
+     "text": "Compute cost: chicken 12, milk 5*3=15, apples 4*1.5=6. Total before pizza: 12+15+6=33. Total paid 50, so pizza cost 17. Each box 8.5, number = 17/8.5=2. So answer 2.\nMarie\u2019s total cost before pizza is  \n\n- Chicken: \\(12\\)  \n- Milk: \\(5 \\times 3 = 15\\)  \n- Apples: \\(4 \\times 1.50 = 6\\)\n\nAdding these gives \\(12 + 15 + 6 = 33\\).\n\nShe paid \\(50\\) in total, so the pizza cost \\(50 - 33 = 17\\).\n\nEach box of pizza costs \\(8.50\\), so the number of boxes is  \n\n\\[\n\\frac{17}{8.50} = 2.\n\\]\n\nThus Marie ordered **2 boxes of pizza**.  \n\n#### 2"
+    },
+    {
+     "idx": 47,
+     "pred": 800.0,
+     "gold": 800.0,
+     "ok": true,
+     "text": "0, so number of blue ties = 200/40 = 5. John buys twice as many red ties: red ties = 10. Red ties cost 50% more than blue ties: blue cost 40, 50% more => 40 * 1.5 = 60. So red ties cost $60 each. Total cost for red ties = 10 * 60 = 600. Total spent = 200 + 600 = 800. End with '#### <number>' where number is answer. So '#### 800'.\nJohn bought 5 blue ties at \\$40 each, spending \\$200.  \nHe bought twice as many red ties, so 10 red ties.  \nRed ties cost 50\u202f% more than blue ties: \\$40\u202f\u00d7\u202f1.5 = \\$60 each.  \nCost for red ties = 10\u202f\u00d7\u202f\\$60 = \\$600.  \n\nTotal spent = \\$200 + \\$600 = **\\$800**.  \n\n#### 800"
+    },
+    {
+     "idx": 84,
+     "pred": 15.0,
+     "gold": 15.0,
+     "ok": true,
+     "text": "draws? But only wins and losses? 22 games total. They won 8 more than they lost: W = L + 8. Also W + L = 22. Solve: (L+8)+L=22 => 2L+8=22 => 2L=14 => L=7. W=15. End with '#### 15'.\nLet \\(W\\) be the number of wins and \\(L\\) the number of losses.  \nThe team played 22 games, so\n\n\\[\nW + L = 22.\n\\]\n\nThey won 8 more games than they lost:\n\n\\[\nW = L + 8.\n\\]\n\nSubstitute \\(W\\) from the second equation into the first:\n\n\\[\n(L + 8) + L = 22 \\;\\Longrightarrow\\; 2L + 8 = 22 \\;\\Longrightarrow\\; 2L = 14 \\;\\Longrightarrow\\; L = 7.\n\\]\n\nThen\n\n\\[\nW = L + 8 = 7 + 8 = 15.\n\\]\n\nSo the team won **15** games.  \n\n#### 15"
+    },
+    {
+     "idx": 109,
+     "pred": 28.0,
+     "gold": 28.0,
+     "ok": true,
+     "text": "We need to compute cost: 10 gallons at $3.00 = $30. Cashback: 0.20 per gallon => $2. So net cost = 30 - 2 = $28. Output: 28. End with '#### <number>' so '#### 28'.\nThe cost of 10 gallons at $3.00 each is $30.  \nCashback: 10\u202f\u00d7\u202f$0.20\u202f=\u202f$2.  \nNet amount paid: $30\u202f\u2212\u202f$2\u202f=\u202f$28.  \n\n#### 28"
+    },
+    {
+     "idx": 129,
+     "pred": 10000.0,
+     "gold": 10000.0,
+     "ok": true,
+     "text": "t{ min/patient}=12\\,000 \\text{ minutes}\n\\]\n\nConvert minutes to hours:\n\n\\[\n12\\,000 \\text{ min} \\div 60 = 200 \\text{ hours}\n\\]\n\n**Cost to the hospital (doctor\u2019s fee)**  \n\nThe doctors charge the hospital \\$150 per hour.\n\n\\[\n200 \\text{ hours} \\times \\$150/\\text{hour}= \\$30\\,000\n\\]\n\n**Revenue from patients**  \n\nThe hospital charges patients \\$200 per hour.\n\n\\[\n200 \\text{ hours} \\times \\$200/\\text{hour}= \\$40\\,000\n\\]\n\n**Profit**\n\n\\[\n\\text{Profit} = \\text{Revenue} - \\text{Cost} = \\$40\\,000 - \\$30\\,000 = \\$10\\,000\n\\]\n\nSo the hospital makes **\\$10,000** profit from these visits each day.  \n\n#### 10,000"
+    },
+    {
+     "idx": 147,
+     "pred": 75.0,
+     "gold": 75.0,
+     "ok": true,
+     "text": " =75. Answer 75. End with '#### 75'.\nDebra first sees 30 bees leave.  \nIn the next 6 hours she sees half of those return: \\( \\frac12 \\times 30 = 15\\) bees.  \nIn the following 6 hours she sees twice as many leave as she saw leave first: \\(2 \\times 30 = 60\\) bees.  \n\nNow, in the last 6 hours every bee that had left before that and had not yet returned comes back.  \n- From the first 6 hours, 30 left and 15 returned, so 15 still haven\u2019t returned.  \n- From the third 6 hours, 60 left and none have returned yet.\n\nThus the number of bees that return in the final 6 hours is  \n\\(15 + 60 = 75\\).\n\n#### 75"
+    },
+    {
+     "idx": 154,
+     "pred": 272.0,
+     "gold": 272.0,
+     "ok": true,
+     "text": "Compute weekly hours: Mon/Wed/Fri: 3 classes *1h =3h each day, 3 days =>9h. Tue/Thu: 2 classes *2h=4h each day, 2 days =>8h. Total weekly =17h. 16 weeks => 272h.\nKimo\u2019s weekly schedule:\n\n- **Mon, Wed, Fri**: 3 classes \u00d7 1\u202fh = 3\u202fh per day \u2192 3\u202fdays \u00d7 3\u202fh = **9\u202fh**  \n- **Tue, Thu**: 2 classes \u00d7 2\u202fh = 4\u202fh per day \u2192 2\u202fdays \u00d7 4\u202fh = **8\u202fh**\n\nTotal per week = 9\u202fh + 8\u202fh = **17\u202fh**.\n\nWith 16 weeks in the semester:\n\n\\(17 \\text{ h/week} \\times 16 \\text{ weeks} = 272 \\text{ h}\\).\n\n\\[\n\\boxed{272}\n\\]\n\n#### 272"
+    },
+    {
+     "idx": 181,
+     "pred": 160.0,
+     "gold": 160.0,
+     "ok": true,
+     "text": "en r = 4w. Also 200 = 5w => w = 40. Then r = 4*40 = 160. So Fred must deliver 160 red roses.\nLet  \n\n- \\(w\\) = number of white carnations  \n- \\(r\\) = number of red roses  \n\nFrom the problem:\n\n1. Sandra ordered four times as many red roses as white carnations  \n   \\[\n   r = 4w\n   \\]\n\n2. She ordered 200 pink calla lilies, which were five times the number of white carnations  \n   \\[\n   200 = 5w \\quad\\Longrightarrow\\quad w = \\frac{200}{5} = 40\n   \\]\n\nNow find the red roses:\n\n\\[\nr = 4w = 4 \\times 40 = 160\n\\]\n\nTherefore, Fred must deliver **160 red roses** by 5\u202fpm to keep Sandra\u2019s business.\n\n#### 160"
+    },
+    {
+     "idx": 206,
+     "pred": 860.0,
+     "gold": 860.0,
+     "ok": true,
+     "text": "a week, but says \"at least 5 times a week and makes 25 km each time.\" Likely exactly 5 times? \"at least 5 times\" ambiguous. Probably 5 times. 5*25=125 km per week. For 4 weeks: 125*4=500 km. Second period: 2 times a week, 60 km each: 120 km per week. For 3 weeks: 120*3=360 km. Total 860 km.\nFirst period:  \n\\(5\\) rides per week \u00d7 \\(25\\) km per ride = \\(125\\) km per week.  \nFor \\(4\\) weeks: \\(125 \\times 4 = 500\\) km.\n\nSecond period:  \n\\(2\\) rides per week \u00d7 \\(60\\) km per ride = \\(120\\) km per week.  \nFor \\(3\\) weeks: \\(120 \\times 3 = 360\\) km.\n\nTotal distance: \\(500 + 360 = 860\\) km.  \n\n#### 860"
+    },
+    {
+     "idx": 243,
+     "pred": 250.0,
+     "gold": 250.0,
+     "ok": true,
+     "text": "We compute total minutes used: 15 per day *30 =450. plus 300 extra =750. Plan 1000, left 250. Output \"250\" and end with \"#### <number>\"? They want end reply with '#### <number>'. So output: 250 then newline then \"#### 250\".\nJason uses 15 minutes per day for 30 days, which is \\(15 \\times 30 = 450\\) minutes.  \nAdding the 300 extra minutes gives \\(450 + 300 = 750\\) minutes used.  \nWith a 1000\u2011minute plan, he has \\(1000 - 750 = 250\\) minutes remaining.\n\n**Answer:** 250 minutes\n\n#### 250"
+    },
+    {
+     "idx": 262,
+     "pred": 270.0,
+     "gold": 270.0,
+     "ok": true,
+     "text": "Simple: 5 boxes *50=250. +20=270.\nMaddison starts with \\(5 \\times 50 = 250\\) marbles.  \nAfter receiving 20 more marbles, she has \\(250 + 20 = 270\\) marbles in total.  \n\n#### 270"
+    },
+    {
+     "idx": 269,
+     "pred": 4.0,
+     "gold": 4.0,
+     "ok": true,
+     "text": "We need to parse: juggler can juggle 16 balls. Half of the balls are golf balls. So 8 golf balls. Half of the golf balls are blue. So 4 blue golf balls. Answer 4. End with '#### <number>' where number is answer. So '#### 4'.\nThe juggler has 16 balls in total.  \n- Half of them are golf balls: \\( \\frac{1}{2}\\times16 = 8 \\) golf balls.  \n- Half of those golf balls are blue: \\( \\frac{1}{2}\\times8 = 4 \\) blue golf balls.  \n\nSo there are **4** blue golf balls.  \n\n#### 4"
+    },
+    {
+     "idx": 301,
+     "pred": 8.0,
+     "gold": 8.0,
+     "ok": true,
+     "text": "ld a sheet vertically and unfold, you get 4 pages? Let's think: A sheet folded once gives 4 pages: front and back each have two pages? Actually a single sheet folded once gives 4 pages: front side has two pages (left and right), back side has two pages. So 32 pages => 8 sheets. So answer 8. End with '#### 8'.\nIn a simple folded newspaper, each sheet of paper yields four printed pages: two on the front and two on the back.  \nFor a 32\u2011page tabloid:\n\n\\[\n\\text{Number of sheets} = \\frac{32 \\text{ pages}}{4 \\text{ pages per sheet}} = 8 \\text{ sheets}\n\\]\n\nThus, 8 pieces of paper are required.\n\n#### 8"
+    },
+    {
+     "idx": 310,
+     "pred": 2050.0,
+     "gold": 2050.0,
+     "ok": true,
+     "text": " ticket**: The ticket costs \\$700 more than five times the cost of a suit.  \n  \\[\n  \\text{Ticket} = 5 \\times \\$100 + \\$700 = \\$500 + \\$700 = \\$1200\n  \\]\n\nAdd these together to find the total spending on these items:\n\\[\n\\$600 + \\$150 + \\$1200 = \\$1950\n\\]\n\nTheo wants to save \\$2000 for the trip. Therefore, the total amount of money he needs for the trip (spending + savings) is:\n\\[\n\\$1950 + \\$2000 = \\$3950\n\\]\n\nHe starts with \\$6000. The amount left for gifts is the difference between his initial money and the total needed for the trip:\n\\[\n\\$6000 - \\$3950 = \\$2050\n\\]\n\n\\[\n\\boxed{\\$2050}\n\\]#### 2050"
+    },
+    {
+     "idx": 337,
+     "pred": 1.0,
+     "gold": 1.0,
+     "ok": true,
+     "text": "Compute: Luke=2. Thomas=3*2=6. John=half of Thomas=3. Difference John-Luke=3-2=1.\nLuke ate 2 hot dogs.  \nThomas ate three times as many, so \\(3 \\times 2 = 6\\) hot dogs.  \nJohn ate half of Thomas\u2019s amount, so \\( \\frac{6}{2} = 3\\) hot dogs.  \n\nJohn ate \\(3 - 2 = 1\\) more hot dog than Luke.  \n\n#### 1"
+    },
+    {
+     "idx": 372,
+     "pred": 5.0,
+     "gold": 5.0,
+     "ok": true,
+     "text": "We compute: Tuesday 1 hour, Thursday 2 hours, Saturday twice Tuesday: 2*1=2 hours. Sum =1+2+2=5. End with '#### 5'.\nHallie\u2019s practice schedule is:\n\n- Tuesday: 1 hour  \n- Thursday: 2 hours  \n- Saturday: twice Tuesday\u2019s class \u2192 \\(2 \\times 1 = 2\\) hours  \n\nTotal practice time per week:\n\\(1 + 2 + 2 = 5\\) hours.\n\n#### 5"
+    },
+    {
+     "idx": 385,
+     "pred": 16.0,
+     "gold": 16.0,
+     "ok": true,
+     "text": "We have 52 members, 26 girls. Half of people performing can't make it: so half of 26 =13 girls absent. Remaining performers: 13 girls. Then 3 teachers join. Total = 13+3=16. End with '#### <number>' where number is 16.\nThe choir has 52 members, with 26 girls.  \nHalf of the girls (13) cannot attend, leaving 13 girls to perform.  \nAdding the 3 teachers gives \\(13 + 3 = 16\\) people singing.\n\n#### 16"
+    },
+    {
+     "idx": 413,
+     "pred": 25.0,
+     "gold": 25.0,
+     "ok": true,
+     "text": "fect smell. So among exploding candles, 5% smell. So expected number = 50000 * 0.01 * 0.05 = 50000 * 0.0005 = 25. So answer 25. End with '#### <number>' where number is 25.\nThe probability that a candle explodes is 1\u202f% (since 99\u202f% are guaranteed not to).  \nAmong the exploding candles, 5\u202f% also have the wet\u2011dog smell.  \nThus the probability that a candle both explodes and smells is  \n\n\\[\n0.01 \\times 0.05 = 0.0005.\n\\]\n\nFor 50\u202f000 candles, the expected number with both properties is  \n\n\\[\n50\\,000 \\times 0.0005 = 25.\n\\]\n\nSo, about **25 candles** will both smell like wet dog and explode.  \n\n#### 25"
+    },
+    {
+     "idx": 428,
+     "pred": 26.0,
+     "gold": 26.0,
+     "ok": true,
+     "text": "s at least one, but they all want second. So each guest needs 2 hotdogs. Total needed = 40*2=80. We have 54, short 26. So 26 guests cannot get second. So answer 26. End with '#### 26'.\nThe caterer originally planned for 36 guests, with half of them allowed to have two hotdogs.  \n- 18 guests \u00d7 2 hotdogs = 36 hotdogs  \n- 18 guests \u00d7 1 hotdog = 18 hotdogs  \n\nTotal hotdogs prepared = 36 + 18 = **54**.\n\nWhen 40 guests arrive and each wants a second hotdog, they would need 40 \u00d7 2 = **80** hotdogs.  \nThe shortfall is 80 \u2013 54 = **26** hotdogs.\n\nThus, **26 guests did not get a second hotdog**.\n\n#### 26"
+    },
+    {
+     "idx": 452,
+     "pred": 1.0,
+     "gold": 50.0,
+     "ok": false,
+     "text": "Compute distances: 60*2=120 miles, 30*1=30 miles total 150 miles. Time total 3 hours. Average speed = 150/3=50 mph.\nThe car travels  \n- \\(60 \\text{ mph} \\times 2 \\text{ h} = 120\\) miles  \n- \\(30 \\text{ mph} \\times 1 \\text{ h} = 30\\) miles  \n\nTotal distance \\(= 120 + 30 = 150\\) miles.  \nTotal time \\(= 2 + 1 = 3\\) hours.  \n\nAverage speed \\(= \\dfrac{\\text{total distance}}{\\text{total time}} = \\dfrac{150}{3} = 50\\) mph.  \n\n**Answer: 50 mph**  \n#### 1"
+    },
+    {
+     "idx": 474,
+     "pred": 80.0,
+     "gold": 80.0,
+     "ok": true,
+     "text": "We have 3/4 of students have desktop. Let total N. Then (3/4)N = N - 20? Wait 20 students do not have desktops, so number with desktops = N - 20. So (3/4)N = N - 20. Solve: 3N/4 = N - 20 => multiply 4: 3N = 4N - 80 => bring: -N = -80 => N = 80. So answer 80. End with '#### 80'.\nThe number of students with desktops is three\u2011quarters of the total.  \nLet the total number of students be \\(N\\).\n\n\\[\n\\frac{3}{4}N = N - 20\n\\]\n\nMultiply by 4:\n\n\\[\n3N = 4N - 80\n\\]\n\nSubtract \\(3N\\) from both sides:\n\n\\[\n0 = N - 80 \\quad\\Rightarrow\\quad N = 80\n\\]\n\nSo there are **80 students** at that grade level.  \n\n#### 80"
+    },
+    {
+     "idx": 499,
+     "pred": 10.0,
+     "gold": 10.0,
+     "ok": true,
+     "text": "We need solve: cost1 = 200 + 5g. cost2 = 25g. Set equal: 200+5g=25g =>200=20g => g=10. So 10 guests. End with '#### 10'.\nLet \\(g\\) be the number of guests.\n\n- **First venue**: flat fee \\(200\\) plus food \\(5g\\).  \n  \\[\n  C_1 = 200 + 5g\n  \\]\n\n- **Second venue**: \\(25\\) dollars per guest, food included.  \n  \\[\n  C_2 = 25g\n  \\]\n\nSet the costs equal:\n\\[\n200 + 5g = 25g \\quad\\Longrightarrow\\quad 200 = 20g \\quad\\Longrightarrow\\quad g = 10.\n\\]\n\nThus, when there are **10 guests**, the two venues cost the same.\n\n#### 10"
+    },
+    {
+     "idx": 507,
+     "pred": 2.0,
+     "gold": 2.0,
+     "ok": true,
+     "text": "We compute weekly cost: 2 trips/day *5 days=10 trips. 10*2.20=22. So savings = 22-20=2. So answer 2. End with '#### 2'.\nJanet rides the bus 2 times a day for 5 days, so she takes \\(2 \\times 5 = 10\\) trips a week.  \nAt \\$2.20 per trip, her weekly fare is  \n\\(10 \\times 2.20 = \\$22.00\\).\n\nA weekly pass costs \\$20.00, so the savings are  \n\\(22.00 - 20.00 = \\$2.00\\).\n\nThus, she would save **$2.00**.\n\n#### 2"
+    },
+    {
+     "idx": 545,
+     "pred": 30.0,
+     "gold": 30.0,
+     "ok": true,
+     "text": "We need distance per day: 3 miles one way, so 6 miles round trip. 5 times a week => 6*5=30 miles. End with '#### <number>' so '#### 30'.\nJeff walks 3 miles to work and 3 miles back, for a total of 6 miles each day he works.  \nIf he works 5 times a week, the total distance walked in a week is  \n\n\\[\n6 \\text{ miles/day} \\times 5 \\text{ days} = 30 \\text{ miles}.\n\\]\n\n#### 30"
+    },
+    {
+     "idx": 558,
+     "pred": 3.0,
+     "gold": 3.0,
+     "ok": true,
+     "text": "Compute: Timothy 24. Zack half: 12. Peter 1/4 of Zack: 3. End with '#### 3'.\nPeter\u2019s locker is 3 cubic inches.  \n#### 3"
+    },
+    {
+     "idx": 585,
+     "pred": 40.0,
+     "gold": 40.0,
+     "ok": true,
+     "text": "Compute Jill hours: 2+1=3. John Saturday: twice Jill Saturday: Jill Saturday 2h, so John 4h. Sunday: three times Jill Sunday: Jill Sunday 1h, so John 3h. Total John 7h. Pay rate 10 per hour. Jill earnings 3*10=30. John earnings 7*10=70. Difference 40. End with '#### 40'.\nJill worked a total of \\(2+1=3\\) hours.  \nJohn worked \\(2\\times2=4\\) hours on Saturday and \\(3\\times1=3\\) hours on Sunday, for a total of \\(4+3=7\\) hours.  \n\nAt \\$10 per hour, Jill earned \\(3\\times10=\\$30\\) and John earned \\(7\\times10=\\$70\\).  \nThe difference is \\(70-30=\\$40\\).\n\n#### 40"
+    },
+    {
+     "idx": 595,
+     "pred": 13.0,
+     "gold": 13.0,
+     "ok": true,
+     "text": "We need to solve: Jerry is twice as old as he was 5 years ago. Let current age x. Then x = 2*(x-5). Solve: x = 2x -10 => 10 = x. So current age 10. In 3 years: 13. Output \"13\" and end with \"#### <number>\"? They say end reply with '#### <number>'. Probably the number is the answer. So \"#### 13\".\nThe equation for Jerry\u2019s age is  \n\\(x = 2(x-5)\\).  \nSolving gives \\(x = 10\\).  \nIn 3 years he will be \\(10 + 3 = 13\\).\n\n#### 13"
+    },
+    {
+     "idx": 623,
+     "pred": 8.0,
+     "gold": 8.0,
+     "ok": true,
+     "text": "We need to solve: Charmaine will be 16 in 12 years. So current age = 16 - 12 = 4. Then 4 years from now: 4 + 4 = 8. End with '#### <number>' i.e., '#### 8'.\nCharmaine\u2019s current age is \\(16 - 12 = 4\\) years.  \nFour years from now she will be \\(4 + 4 = 8\\) years old.  \n\n#### 8"
+    },
+    {
+     "idx": 636,
+     "pred": 1050.0,
+     "gold": 1050.0,
+     "ok": true,
+     "text": "We need weekly production. Jewel processes 50 customers daily. Julie twice as fast => processes 100 customers daily. Together per day 150. Weekly all days (7 days) => 150*7=1050. End with '#### 1050'.\nJulie processes twice as many customers as Jewel each day.  \n- Jewel: 50 customers/day  \n- Julie: \\(2 \\times 50 = 100\\) customers/day  \n\nTogether they handle \\(50 + 100 = 150\\) customers per day.  \nOver a 7\u2011day week: \\(150 \\times 7 = 1050\\) customers.\n\n**Answer:** 1050 customers per week.  \n#### 1050"
+    },
+    {
+     "idx": 649,
+     "pred": 160000.0,
+     "gold": 162000.0,
+     "ok": false,
+     "text": "mber of likes.\" Initial number of likes refers to the likes after 1 week? Probably initial likes = 2000. So after 3 weeks later (i.e., 4 weeks total), likes = 70 * 2000 = 140,000. Then she received 20000 more new likes recently. So total = 140,000 + 20,000 = 160,000. Answer 160000. End with '#### <number>' => '#### 160000'.\nThe initial number of likes after the first week was 2000.  \nThree weeks later the likes were 70 times that amount:\n\n\\[\n70 \\times 2000 = 140\\,000\n\\]\n\nAfter that she received 20,000 more likes, so the total number of likes is\n\n\\[\n140\\,000 + 20\\,000 = 160\\,000\n\\]\n\n#### 160000"
+    },
+    {
+     "idx": 676,
+     "pred": 240.0,
+     "gold": 240.0,
+     "ok": true,
+     "text": "We have total 1200. Dylan invests 2/5 of total: 1200*2/5=480. Remaining 720. Frances invests 2/3 of remaining: 720*2/3=480. Remaining 240. Skyler invests rest: 240. End with '#### 240'.\nDylan\u2019s share: \\( \\frac{2}{5}\\times1200 = 480\\).\n\nRemaining amount: \\(1200-480 = 720\\).\n\nFrances\u2019s share: \\( \\frac{2}{3}\\times720 = 480\\).\n\nRemaining amount for Skyler: \\(720-480 = 240\\).\n\n\\[\n\\boxed{240}\n\\]\n\n#### 240"
+    },
+    {
+     "idx": 694,
+     "pred": 9.0,
+     "gold": 9.0,
+     "ok": true,
+     "text": "We have 5 times as many regular chairs as high chairs. High chairs =8. So regular chairs =5*8=40. Total chairs needed = adults+babies=42+15=57. She has 8 high +40 regular =48 chairs. Needs 57, so missing 9 chairs. Output \"9\" with ending \"#### <number>\"? They want \"#### <number>\" at end. So \"#### 9\".\nThe restaurant needs a total of \\(42 + 15 = 57\\) chairs.  \nWith 8 high chairs, the number of regular chairs required is \\(5 \\times 8 = 40\\).  \nThus, Mia currently has \\(8 + 40 = 48\\) chairs.  \nShe still needs \\(57 - 48 = 9\\) more chairs.\n\n#### 9"
+    },
+    {
+     "idx": 721,
+     "pred": 2450.0,
+     "gold": 2450.0,
+     "ok": true,
+     "text": " her right foot at 300 taps/min and her left foot at 250 taps/min when her arms are down.  \nCombined rate when arms are down: \\(300 + 250 = 550\\) taps per minute.  \nShe keeps her arms down for \\(5 - 2 = 3\\) minutes, so she taps \\(3 \\times 550 = 1650\\) times.\n\nWhen her arms are raised, each foot taps at 200 taps/min, giving a combined rate of \\(200 + 200 = 400\\) taps per minute.  \nShe raises her arms for 2 minutes, so she taps \\(2 \\times 400 = 800\\) times.\n\nTotal taps over the 5 minutes:\n\\[\n1650 + 800 = 2450\n\\]\n\nThus, the combined total number of times she taps both feet is **2450**.\n\n#### 2450"
+    },
+    {
+     "idx": 752,
+     "pred": 300.0,
+     "gold": 240.0,
+     "ok": false,
+     "text": "We need to compute yearly cost: 100 per month *12 =1200. Divide by 4 =300. Output 300. End with '#### <number>' so '#### 300'.\nThe yearly electricity bill is \\(100 \\times 12 = 1200\\) dollars.  \nDividing this equally among 4 roommates gives\n\n\\[\n\\frac{1200}{4} = 300\n\\]\n\nSo each roommate pays **$300** per year.\n\n#### 300"
+    },
+    {
+     "idx": 770,
+     "pred": 4.0,
+     "gold": 4.0,
+     "ok": true,
+     "text": "We compute total vanilla sold: 4 scents *5 =20. Fruity: 8*2=16. Difference: 20-16=4. End with '#### 4'.\nThe company sells  \n- Vanilla: \\(4 \\text{ scents} \\times 5 = 20\\) units  \n- Fruity: \\(8 \\text{ scents} \\times 2 = 16\\) units  \n\nThe difference is \\(20 - 16 = 4\\).\n\n#### 4"
+    },
+    {
+     "idx": 780,
+     "pred": 25.0,
+     "gold": 25.0,
+     "ok": true,
+     "text": "difference between their two scores?\" Usually difference = Ava - Emma = -25. Could answer 25? I'll give 25.\nAva earns 10 points per enemy, 5 points per berry, and 30 points per second remaining.  \n- Ava jumps on 8 more enemies than Emma: \\(8 \\times 10 = 80\\) extra points.  \n- Ava collects 3 more berries: \\(3 \\times 5 = 15\\) extra points.  \n- Ava finishes 4 seconds slower: \\(4 \\times 30 = 120\\) fewer points.  \n\nNet difference (Ava\u2019s score minus Emma\u2019s score):\n\n\\[\n80 + 15 - 120 = -25\n\\]\n\nThus Emma\u2019s score is 25 points higher than Ava\u2019s.  \nThe difference between their scores is **25**.  \n\n#### 25"
+    },
+    {
+     "idx": 794,
+     "pred": 32.0,
+     "gold": 32.0,
+     "ok": true,
+     "text": "We need total: 12 females + half as many males => males = 12/2 =6. Cub 14. Total 12+6+14=32. End with '#### 32'.\nThe enclosure contains 12 female lions, 6 male lions (half of 12), and 14 cubs.  \nTotal lions = 12\u202f+\u202f6\u202f+\u202f14 = **32**.\n\n#### 32"
+    },
+    {
+     "idx": 809,
+     "pred": 50.0,
+     "gold": 50.0,
+     "ok": true,
+     "text": "hen he ordered 100 more. How many does Dale still need to sell to sell all of his candy? Initially had 100, sold 150? That means he sold 50 more than he had? Maybe he had borrowed? But then ordered 100 more. So total available now = initial 100 + new 100 =200. He sold 150 already. So remaining to sell = 200-150=50. Answer 50. End with '#### <number>' => '#### 50'.\nHe had 100 candies, sold 150 (so he had sold 50 more than he originally had), then added another 100.  \nTotal candies now = 100\u202f+\u202f100\u202f=\u202f200.  \nCandies already sold = 150.  \nRemaining to sell = 200\u202f\u2212\u202f150\u202f=\u202f50.\n\n**Answer:** 50\n\n#### 50"
+    },
+    {
+     "idx": 838,
+     "pred": 15.0,
+     "gold": 15.0,
+     "ok": true,
+     "text": "We compute slices: 3 large *5=15, 5 small*3=15 total 30 slices. Eats 15, left 15. Output \"15\" and end with \"#### <number>\"? They want end with '#### <number>'. So \"#### 15\".\nThe total number of slices from the apples is  \n\\(3 \\times 5 + 5 \\times 3 = 15 + 15 = 30\\).\n\nAdam eats 15 slices, so the remaining slices are  \n\\(30 - 15 = 15\\).\n\n#### 15"
+    },
+    {
+     "idx": 859,
+     "pred": 1520.0,
+     "gold": 1520.0,
+     "ok": true,
+     "text": "We have 40 customers each gave Rafaela a $20 tip. So Rafaela tips = 40*20 = 800. Julieta received 10% less money in tips than Rafaela. So Julieta = 0.9 * 800 = 720. Total = 800+720=1520. End with '#### <number>' where number is answer. So '#### 1520'.\nRafaela received \\(40 \\times 20 = \\$800\\).  \nJulieta received \\(10\\%\\) less, so \\(0.9 \\times 800 = \\$720\\).  \nTogether they received \\(800 + 720 = \\$1520\\).\n\n#### 1520"
+    },
+    {
+     "idx": 885,
+     "pred": 500.0,
+     "gold": 500.0,
+     "ok": true,
+     "text": "We need sum: 125+125+ twice as many on Friday. Twice as many as what? Twice as many on Friday compared to what? Likely twice as many on Friday as on Tuesday or Wednesday? Probably twice as many on Friday as on Tuesday (125). So Friday = 250. Sum = 125+125+250=500.\nThe shop makes 125 chimichangas on Tuesday and 125 on Wednesday.  \nOn Friday they make twice as many as on one of those days, i.e. \\(2 \\times 125 = 250\\).\n\nAdding the three days together:\n\\[\n125 + 125 + 250 = 500\n\\]\n\nSo they make **500 chimichangas** on those three days.  \n#### 500"
+    },
+    {
+     "idx": 914,
+     "pred": 3.0,
+     "gold": 3.0,
+     "ok": true,
+     "text": "We need number of tune-ups in 30 days driving 100 miles/day = 3000 miles. Tune-up every 1000 miles => 3 tune-ups. Probably answer 3. End with '#### <number>' => '#### 3'.\nJon drives 100\u202fmiles per day for 30 days, so he covers  \n\\(100 \\times 30 = 3000\\) miles.  \nSince a tune\u2011up is required every 1000 miles, the number of tune\u2011ups needed is  \n\n\\[\n\\frac{3000}{1000} = 3.\n\\]\n\nThus he needs **3** tune\u2011ups.\n\n#### 3"
+    },
+    {
+     "idx": 931,
+     "pred": 50.0,
+     "gold": 50.0,
+     "ok": true,
+     "text": "et  \n\n- \\(P\\) = Peter\u2019s age  \n- \\(Pa\\) = Paul\u2019s age  \n- \\(J\\) = Jean\u2019s age  \n\nGiven  \n\n1. \\(P + Pa + J = 100\\)  \n2. \\(Pa = J + 10\\)  (Paul is 10 years older than Jean)  \n3. \\(P = Pa + J\\)  (Peter\u2019s age equals the sum of Paul\u2019s and Jean\u2019s ages)\n\nSubstitute (2) into (3):\n\n\\[\nP = (J+10) + J = 2J + 10\n\\]\n\nNow substitute \\(P\\) and \\(Pa\\) into the total\u2011age equation:\n\n\\[\n(2J + 10) + (J + 10) + J = 100\n\\]\n\n\\[\n4J + 20 = 100 \\quad\\Longrightarrow\\quad 4J = 80 \\quad\\Longrightarrow\\quad J = 20\n\\]\n\nThen  \n\n\\[\nPa = J + 10 = 30\n\\]\n\n\\[\nP = 2J + 10 = 2(20) + 10 = 50\n\\]\n\nSo Peter is **50 years old**.  \n\n#### 50"
+    },
+    {
+     "idx": 943,
+     "pred": 90.0,
+     "gold": 50.0,
+     "ok": false,
+     "text": "e out?\" Could mean net outflow: he spent 90, got 200, so he is out -110? Usually out means money spent, so 90. But context: \"How much money was he out?\" maybe net loss? He is out 90? He spent 90. But he made profit. I'd answer 90 spent, net profit 110. But need single number. Probably 90. End with '#### <number>'.\nHe paid 60\u202f% of the original price:  \n\\(10 \\times \\$15 = \\$150\\)  \n\\(40\\%\\) off \u2192 \\(0.6 \\times 150 = \\$90\\).\n\nHe sold 5 CDs for \\$40 each:  \n\\(5 \\times 40 = \\$200\\).\n\nNet cash flow: \\(90 - 200 = -\\$110\\).  \nSo he actually made a profit of \\$110, but he spent \\$90 on the CDs.\n\n#### 90"
+    },
+    {
+     "idx": 963,
+     "pred": 147.0,
+     "gold": 147.0,
+     "ok": true,
+     "text": "-\n\n### Solve\n\nFrom (2): \\(A = S + 5\\).\n\nSubstitute \\(A\\) into (1):\n\n\\[\n(S + 5) + S + D = 339 \\quad\\Longrightarrow\\quad 2S + D = 334 \\tag{4}\n\\]\n\nFrom (3): \\(S = 4D - 13\\) \u2192 \\(4D = S + 13\\) \u2192 \\(D = \\dfrac{S + 13}{4}\\).\n\nInsert this expression for \\(D\\) into (4):\n\n\\[\n2S + \\frac{S + 13}{4} = 334\n\\]\n\nMultiply by 4 to clear the fraction:\n\n\\[\n8S + S + 13 = 1336\n\\]\n\n\\[\n9S + 13 = 1336\n\\]\n\n\\[\n9S = 1323\n\\]\n\n\\[\nS = \\frac{1323}{9} = 147\n\\]\n\nSo Stan caught **147 Pok\u00e9mon**.\n\n(For verification:  \n\\(D = \\frac{147 + 13}{4} = 40\\)  \n\\(A = 147 + 5 = 152\\)  \n\\(152 + 147 + 40 = 339\\) \u2013 the total matches.)\n\n#### 147"
+    },
+    {
+     "idx": 992,
+     "pred": 52.0,
+     "gold": 52.0,
+     "ok": true,
+     "text": "We need counts: monthly electric: 12. monthly gas:12. twice per month church: 2*12=24. quarterly pest/lawn: quarterly means 4 times a year. Sum:12+12+24+4=52. End with '#### <number>' so '#### 52'.\nBuford writes 52 checks per year.  \n#### 52"
+    },
+    {
+     "idx": 1008,
+     "pred": 230.0,
+     "gold": 230.0,
+     "ok": true,
+     "text": "Compute distances: Matteo: 55*4=220. Shandy:45*10=450. Difference:450-220=230.\nMatteo\u2019s distance: \\(55 \\text{ mph} \\times 4 \\text{ h} = 220\\) miles  \nShandy\u2019s distance: \\(45 \\text{ mph} \\times 10 \\text{ h} = 450\\) miles  \n\nDifference: \\(450 - 220 = 230\\) miles.\n\nSo Shandy drove **230 miles farther** than Matteo.  \n\n#### 230"
+    },
+    {
+     "idx": 1045,
+     "pred": 420.0,
+     "gold": 420.0,
+     "ok": true,
+     "text": "We have x first, y second, z third. y = x+80. z = 2y = 2(x+80). Sum: x + (x+80) + 2(x+80) = 1920. Compute: x + x+80 + 2x+160 = 1920 => (x+x+2x)=4x + 240 =1920 => 4x = 1680 => x=420. So first share 420. End with '#### 420'.\nLet the first person\u2019s share be \\(x\\).\n\n- The second person takes \\(x+80\\).\n- The third person takes twice the second\u2019s share: \\(2(x+80)\\).\n\nThe total amount is\n\n\\[\nx + (x+80) + 2(x+80) = 1920.\n\\]\n\nSimplify:\n\n\\[\nx + x + 80 + 2x + 160 = 1920 \\\\\n4x + 240 = 1920 \\\\\n4x = 1680 \\\\\nx = 420.\n\\]\n\nSo the first person\u2019s share is **\\$420**.\n\n#### 420"
+    },
+    {
+     "idx": 1067,
+     "pred": 245.0,
+     "gold": 245.0,
+     "ok": true,
+     "text": "Compute: small 700, big 1400. Cost small 5c each => 700*5=3500c = $35. Big 1400*15=21000c = $210. Total 24500c = $245.\nAnthony sends 700 small coupons and twice as many big coupons, so he sends  \n\\(700 \\times 2 = 1400\\) big coupons.\n\nPostage cost  \n- Small coupons: \\(700 \\times 5\\text{\u00a2} = 3500\\text{\u00a2}\\)  \n- Big coupons: \\(1400 \\times 15\\text{\u00a2} = 21000\\text{\u00a2}\\)\n\nTotal postage = \\(3500\\text{\u00a2} + 21000\\text{\u00a2} = 24500\\text{\u00a2}\\).\n\nConverting cents to dollars: \\(24500\\text{\u00a2} = \\$245\\).\n\n**Answer: \\$245.**  \n#### 245"
+    },
+    {
+     "idx": 1078,
+     "pred": 8.0,
+     "gold": 8.0,
+     "ok": true,
+     "text": "We have 10 per week for 12 weeks => 120 saved. Need 200, remaining 80. At 10 per week => 8 weeks. Output \"8\" and end with \"#### 8\".\nMelanie has already saved \\(10 \\times 12 = 120\\) toothpicks.  \nShe needs \\(200 - 120 = 80\\) more toothpicks.  \nAt a rate of 10 toothpicks per week, she will need  \n\n\\[\n\\frac{80}{10} = 8 \\text{ weeks}.\n\\]\n\nThus, it will take her **8 more weeks** to reach 200 toothpicks.  \n\n#### 8"
+    },
+    {
+     "idx": 1106,
+     "pred": 5.0,
+     "gold": 5.0,
+     "ok": true,
+     "text": "We have 100 cm ribbon cut into 4 equal parts => each 25 cm. Then each of those 25 cm parts divided into 5 equal parts => each final piece length = 25/5 = 5 cm. So answer 5 cm. End with '#### <number>'? They want end with '#### <number>'. Probably number is answer? So '#### 5'?\nThe ribbon is first divided into 4 equal parts, each measuring \\( \\frac{100}{4}=25 \\)\u202fcm.  \nEach of those 25\u202fcm pieces is then cut into 5 equal parts, giving a final length of  \n\n\\[\n\\frac{25}{5}=5 \\text{ cm}.\n\\]\n\nThus each final cut is **5\u202fcm** long.  \n\n#### 5"
+    },
+    {
+     "idx": 1140,
+     "pred": 27.0,
+     "gold": 27.0,
+     "ok": true,
+     "text": "per scoops? 3 less than 6 potatoes = 6-3=3 potatoes. 1 less than 3 scoops =3-1=2 scoops. So 3 potatoes produce 2 scoops. So ratio: 3 potatoes /2 scoops => 1.5 potatoes per scoop. Gomer ate 18 scoops => potatoes =18*1.5=27 potatoes. End with '#### 27'.\nGomer ate \\(5\\) less than \\(23\\) scoops, so he ate  \n\\(23-5 = 18\\) scoops.\n\nThe statement \u201cit takes 3 less than 6 potatoes to make 1 less than 3 scoops\u201d means  \n\\(6-3 = 3\\) potatoes produce \\(3-1 = 2\\) scoops.  \nThus each scoop requires \\(\\frac{3}{2}=1.5\\) potatoes.\n\nTherefore the number of potatoes Gomer ate is  \n\\(18 \\times 1.5 = 27\\).\n\n#### 27"
+    },
+    {
+     "idx": 1167,
+     "pred": 120.0,
+     "gold": 120.0,
+     "ok": true,
+     "text": "We compute: Jack starts 100. Sophia gives 1/5 of her 100 = 20. So Jack has 120. End with '#### 120'.\nJack starts with \\$100.  \nSophia gives him \\( \\frac{1}{5} \\times 100 = 20 \\) dollars.  \nSo Jack\u2019s total is \\(100 + 20 = 120\\) dollars.\n\n#### 120"
+    },
+    {
+     "idx": 1182,
+     "pred": 1.0,
+     "gold": 1800.0,
+     "ok": false,
+     "text": "l money 27000. Price per 100 books is 500, so price per book = 5. So 27000/5=5400 books. Distributed between 3 schools equally? Probably equal distribution: 5400/3=1800 books per school.\nBob has a total of \\$27\u202f000 to spend.  \nThe price of 100 books is \\$500, so the price of one book is  \n\n\\[\n\\frac{500}{100}=5 \\text{ dollars per book}.\n\\]\n\nWith \\$27\u202f000 he can buy  \n\n\\[\n\\frac{27\\,000}{5}=5\\,400 \\text{ books}.\n\\]\n\nIf the books are distributed evenly among the three schools, each school receives  \n\n\\[\n\\frac{5\\,400}{3}=1\\,800 \\text{ books}.\n\\]\n\nSo Bob can buy **1\u202f800 books per school**.  \n\n#### 1"
+    },
+    {
+     "idx": 1196,
+     "pred": 75.0,
+     "gold": 75.0,
+     "ok": true,
+     "text": "We need total pens: 5 packs red, each 5 pens => 25 red. Black pens twice amount of red: 2*25=50 black. Total 75. End with '#### <number>' where number is answer. So '#### 75'.\nAlain has 75 pens.  \n#### 75"
+    },
+    {
+     "idx": 1209,
+     "pred": 29.0,
+     "gold": 29.0,
+     "ok": true,
+     "text": "Compute: low 1 L/day. 3 days =>3 L. Medium twice low =>2 L/day. 3 days =>6 L. High twice medium =>4 L/day. 5 days =>20 L. Total 3+6+20=29.\nBrian\u2019s dehumidifier removes:\n\n- **Low setting:** \\(1\\)\u202fL/day  \n  \\(3\\) days \u2192 \\(3 \\times 1 = 3\\)\u202fL\n\n- **Medium setting:** twice the low, \\(2\\)\u202fL/day  \n  \\(3\\) days \u2192 \\(3 \\times 2 = 6\\)\u202fL\n\n- **High setting:** twice the medium, \\(4\\)\u202fL/day  \n  \\(5\\) days \u2192 \\(5 \\times 4 = 20\\)\u202fL\n\nAdding them together:\n\\(3 + 6 + 20 = 29\\)\u202fL.\n\nThe dehumidifier removed **29 liters** of water in total.  \n#### 29"
+    },
+    {
+     "idx": 1225,
+     "pred": 3.0,
+     "gold": 3.0,
+     "ok": true,
+     "text": "We have variables: cupcakes = C, brownies = B. B = 3C - 2. Total treats = C + B = C + (3C-2)=4C-2. Each of 5 people gets 2 treats => total treats =10. So 4C-2=10 =>4C=12 =>C=3. So answer 3. End with '#### <number>' => '#### 3'.\nCarly made 3 cupcakes.  \n#### 3"
+    },
+    {
+     "idx": 1245,
+     "pred": 96.0,
+     "gold": 96.0,
+     "ok": true,
+     "text": "We have strawberry cubes = S. Blueberry cubes = 5S - 4. Total 116: S + (5S -4)=116 =>6S -4=116 =>6S=120 =>S=20. Blueberry =5*20-4=100-4=96. End with '#### 96'.\nLet the number of strawberry cubes be \\(S\\).  \nThe number of blueberry cubes is \\(5S-4\\).\n\nThe total number of cubes is\n\n\\[\nS + (5S-4) = 116.\n\\]\n\nSolve for \\(S\\):\n\n\\[\n6S - 4 = 116 \\\\\n6S = 120 \\\\\nS = 20.\n\\]\n\nNow find the blueberry cubes:\n\n\\[\n5S - 4 = 5(20) - 4 = 100 - 4 = 96.\n\\]\n\nSo Mary makes **96 blueberry cubes**.\n\n#### 96"
+    },
+    {
+     "idx": 1263,
+     "pred": 500.0,
+     "gold": 500.0,
+     "ok": true,
+     "text": "We need total people over 7 days. Day1=50. Day2=50+20=70. Day3=2*70=140. Days4-7 average 60 each day. So total for days4-7 = 4*60=240. Sum: 50+70+140+240=500. End with '#### 500'.\nThe total number of people Conor saw over the week is:\n\n\\[\n50 + 70 + 140 + 4 \\times 60 = 500\n\\]\n\n#### 500"
+    },
+    {
+     "idx": 1278,
+     "pred": 665.0,
+     "gold": 665.0,
+     "ok": true,
+     "text": "We sum: 214+432+86=732. 67 cracked, so good = 732-67=665. End with '#### 665'.\nTom, Nancy, and Benny together found \\(214 + 432 + 86 = 732\\) seashells.  \nAfter cleaning, \\(67\\) were cracked, so the number of good seashells is\n\n\\[\n732 - 67 = 665.\n\\]\n\nThus, they found **665 good seashells** together.  \n\n#### 665"
+    },
+    {
+     "idx": 1317,
+     "pred": 5.0,
+     "gold": 5.0,
+     "ok": true,
+     "text": "Classic: chickens 2 legs, cows 4 legs. Let c chickens, w cows. c+w=20, 2c+4w=70 => divide 2: c+2w=35. Subtract: (c+2w)-(c+w)=35-20 => w=15. Then c=5.\nLet \\(c\\) be the number of chickens and \\(w\\) the number of cows.\n\n\\[\n\\begin{cases}\nc + w = 20 & \\text{(total animals)}\\\\\n2c + 4w = 70 & \\text{(total legs)}\n\\end{cases}\n\\]\n\nDivide the second equation by 2:\n\n\\[\nc + 2w = 35\n\\]\n\nSubtract the first equation from this:\n\n\\[\n(c + 2w) - (c + w) = 35 - 20 \\;\\Longrightarrow\\; w = 15\n\\]\n\nSo there are 15 cows. Then\n\n\\[\nc = 20 - w = 20 - 15 = 5\n\\]\n\n\\[\n\\boxed{5}\n\\]#### 5"
+    }
+   ]
+  }
+ },
+ "chat": true,
+ "chat_new": 1024,
+ "effort": "low",
+ "every": 4
+}

@@ -1,0 +1,15 @@
+{
+ "time": "2026-11-20T16:37:18",
+ "swap": "total = 3072.00M  used = 1754.56M  free = 1317.44M  (encrypted)",
+ "memory": "System-wide memory free percentage: 89%",
+ "top": [
+  " %CPU    RSS COMM",
+  " 64.6  84560 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd",
+  " 19.0 353248 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude",
+  "  7.4  35584 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow",
+  "  3.1 513520 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)",
+  "  1.8  11728 /usr/libexec/dasd",
+  "  1.2 184336 /Applications/Claude.app/Contents/MacOS/Claude",
+  "  0.6  16160 /sbin/launchd"
+ ]
+}

@@ -1,0 +1,97 @@
+stopped local.service-a
+stopped local.service-b
+stopped sh.brew.openshell
+stopped local.dev-backend
+== c2048_s256 chunk 2048 scores 256  19:30:23 swap 1422.50M
+   exit 0 19:32:52
+   required>max lines: 274
+   mj pp16384 rep 0: 359.52 tok/s, 45 mJ/token GPU
+   mj pp16384 rep 1: 358.98 tok/s, 45 mJ/token GPU
+   mlx_peak_gb 12.51
+== c2048_s64 chunk 2048 scores 64  19:33:23 swap 1594.12M
+   exit 0 19:35:50
+   required>max lines: 2
+   mj pp16384 rep 0: 366.14 tok/s, 45 mJ/token GPU
+   mj pp16384 rep 1: 366.89 tok/s, 45 mJ/token GPU
+   mlx_peak_gb 12.28
+== c1024_s256 chunk 1024 scores 256  19:36:21 swap 1546.12M
+   exit 0 19:38:58
+   required>max lines: 1
+   mj pp16384 rep 0: 344.95 tok/s, 49 mJ/token GPU
+   mj pp16384 rep 1: 342.97 tok/s, 48 mJ/token GPU
+   mlx_peak_gb 12.02
+== c512_s256 chunk 512 scores 256  19:39:29 swap 1604.75M
+   exit 0 19:42:19
+   required>max lines: 1
+   mj pp16384 rep 0: 312.83 tok/s, 55 mJ/token GPU
+   mj pp16384 rep 1: 311.16 tok/s, 54 mJ/token GPU
+   mlx_peak_gb 11.99
+== c2048_s256_w10000 chunk 2048 scores 256 --wired-mb 10000 19:42:50 swap 1412.69M
+   exit 0 19:45:19
+   required>max lines: 1
+   mj pp16384 rep 0: 364.06 tok/s, 46 mJ/token GPU
+   mj pp16384 rep 1: 363.52 tok/s, 45 mJ/token GPU
+   mlx_peak_gb 12.56
+== c2048_s256_again chunk 2048 scores 256  19:45:50 swap 1604.31M
+   exit 0 19:48:17
+   required>max lines: 283
+   mj pp16384 rep 0: 366.65 tok/s, 46 mJ/token GPU
+   mj pp16384 rep 1: 364.99 tok/s, 46 mJ/token GPU
+   mlx_peak_gb 12.51
+== c2048_s256_8k chunk 2048 scores 256  19:48:49 swap 1624.62M
+   exit 0 19:49:54
+   required>max lines: 4
+   mj pp8192 rep 0: 475.61 tok/s, 41 mJ/token GPU
+   mj pp8192 rep 1: 469.90 tok/s, 40 mJ/token GPU
+   mlx_peak_gb 12.29
+== c1024_s256_8k chunk 1024 scores 256  19:50:25 swap 1616.62M
+   exit 0 19:51:32
+   required>max lines: 1
+   mj pp8192 rep 0: 462.95 tok/s, 43 mJ/token GPU
+   mj pp8192 rep 1: 457.23 tok/s, 42 mJ/token GPU
+   mlx_peak_gb 11.73
+== mla_sdpa_1 chunk 512 scores 256  19:52:03 swap 1584.62M
+   exit 0 19:57:02
+   required>max lines: 1
+   mj tg128@d2048 rep 0: 52.48 tok/s, ttft 3.68 s, 197 mJ/token GPU
+   mj tg128@d2048 rep 1: 52.74 tok/s, ttft 3.68 s, 198 mJ/token GPU
+   mj tg128@d8192 rep 0: 34.03 tok/s, ttft 19.45 s, 347 mJ/token GPU
+   mj tg128@d8192 rep 1: 33.83 tok/s, ttft 19.61 s, 347 mJ/token GPU
+   mj tg128@d16384 rep 0: 21.07 tok/s, ttft 52.95 s, 546 mJ/token GPU
+   mj tg128@d16384 rep 1: 20.06 tok/s, ttft 53.00 s, 558 mJ/token GPU
+   mlx_peak_gb 12.0
+== mla_paged_2 chunk 512 scores 256  19:57:34 swap 1756.12M
+   exit 137 20:05:55
+   required>max lines: 1
+   mj tg128@d2048 rep 0: 21.56 tok/s, ttft 3.71 s, 345 mJ/token GPU
+   mj tg128@d2048 rep 1: 20.60 tok/s, ttft 3.70 s, 357 mJ/token GPU
+   mj tg128@d8192 rep 0: 3.84 tok/s, ttft 19.27 s, 1453 mJ/token GPU
+   mj tg128@d8192 rep 1: 3.85 tok/s, ttft 19.27 s, 1445 mJ/token GPU
+   mj tg128@d16384 rep 0: 1.71 tok/s, ttft 51.74 s, 3350 mJ/token GPU
+   mlx_peak_gb 12.0
+== mla_paged_3 chunk 512 scores 256  20:06:27 swap 1979.31M
+   exit 0 20:16:30
+   required>max lines: 1
+   mj tg128@d2048 rep 0: 21.54 tok/s, ttft 3.71 s, 344 mJ/token GPU
+   mj tg128@d2048 rep 1: 21.54 tok/s, ttft 3.70 s, 345 mJ/token GPU
+   mj tg128@d8192 rep 0: 3.85 tok/s, ttft 19.40 s, 1472 mJ/token GPU
+   mj tg128@d8192 rep 1: 3.84 tok/s, ttft 19.41 s, 1475 mJ/token GPU
+   mj tg128@d16384 rep 0: 1.71 tok/s, ttft 52.45 s, 3395 mJ/token GPU
+   mj tg128@d16384 rep 1: 1.71 tok/s, ttft 52.26 s, 3399 mJ/token GPU
+   mlx_peak_gb 12.0
+== mla_sdpa_4 chunk 512 scores 256  20:17:01 swap 1643.81M
+   exit 0 20:22:00
+   required>max lines: 1
+   mj tg128@d2048 rep 0: 52.60 tok/s, ttft 3.68 s, 196 mJ/token GPU
+   mj tg128@d2048 rep 1: 52.70 tok/s, ttft 3.69 s, 198 mJ/token GPU
+   mj tg128@d8192 rep 0: 33.92 tok/s, ttft 19.76 s, 337 mJ/token GPU
+   mj tg128@d8192 rep 1: 33.77 tok/s, ttft 19.92 s, 327 mJ/token GPU
+   mj tg128@d16384 rep 0: 22.49 tok/s, ttft 53.13 s, 494 mJ/token GPU
+   mj tg128@d16384 rep 1: 22.56 tok/s, ttft 52.84 s, 518 mJ/token GPU
+   mlx_peak_gb 12.0
+probe done 20:22:31
+started local.service-a
+started local.service-b
+started sh.brew.openshell
+started local.dev-backend
+cleanup done 20:22:31

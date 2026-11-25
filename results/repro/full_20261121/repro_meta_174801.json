@@ -1,0 +1,9 @@
+{
+ "start": "2026-11-21T17:48:01",
+ "git": "54b639c5c9a06b6353e1d70e63305de38f2fe97b",
+ "dirty_src": false,
+ "quick": false,
+ "claims": [
+  "accuracy-dsv2lite"
+ ]
+}

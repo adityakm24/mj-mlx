@@ -1,0 +1,24 @@
+{
+ "model": "~/.cache/huggingface/hub/models--trl-internal-testing--tiny-Qwen3_5MoeForConditionalGeneration-3.6/snapshots/57faabc3b49ec3ae69b8d6158130ce19496bc2d3",
+ "note": "float32 model; only the stored recurrent state differs; teacher-forced random tokens; tiny random checkpoint (real state shapes Hv 32, Dk = Dv = 128; hidden 16, flat logits)",
+ "state_bytes_per_slot": {
+  "float32": 2195456,
+  "bfloat16": 1146880
+ },
+ "results": {
+  "chunk1": {
+   "top1": 1.0,
+   "mean_kl": 4.3351145826829325e-14,
+   "max_kl": 3.2079030969524104e-13,
+   "rel_logit_rms_err": 3.6831161196460016e-06,
+   "positions": 1600
+  },
+  "chunk64": {
+   "top1": 1.0,
+   "mean_kl": 6.247594754492725e-16,
+   "max_kl": 6.79314742742994e-14,
+   "rel_logit_rms_err": 4.3298473428876605e-07,
+   "positions": 1600
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "engine": "millijoule mlx runner, SSD expert streaming, 24 slots/layer",
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "experts": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss20b-experts",
+ "slots": 24,
+ "model_note": "",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 1.7761772919911891,
+   "ttft_min_s": 1.731624791980721,
+   "ttft_max_s": 1.7776677910005674,
+   "prefill_tok_s": 288.25951232943686
+  },
+  {
+   "prompt_tokens": 2048,
+   "ttft_s": 7.191180667025037,
+   "ttft_min_s": 6.787935958011076,
+   "ttft_max_s": 10.595222708012443,
+   "prefill_tok_s": 284.79328984057486
+  }
+ ]
+}

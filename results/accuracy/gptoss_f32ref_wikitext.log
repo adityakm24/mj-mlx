@@ -1,0 +1,31 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+sequences: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512] tokens: 40960
+layer 1/24 done (12s)
+layer 2/24 done (24s)
+layer 3/24 done (36s)
+layer 4/24 done (49s)
+layer 5/24 done (62s)
+layer 6/24 done (75s)
+layer 7/24 done (88s)
+layer 8/24 done (101s)
+layer 9/24 done (114s)
+layer 10/24 done (126s)
+layer 11/24 done (139s)
+layer 12/24 done (152s)
+layer 13/24 done (164s)
+layer 14/24 done (177s)
+layer 15/24 done (190s)
+layer 16/24 done (203s)
+layer 17/24 done (216s)
+layer 18/24 done (228s)
+layer 19/24 done (241s)
+layer 20/24 done (254s)
+layer 21/24 done (267s)
+layer 22/24 done (280s)
+layer 23/24 done (293s)
+layer 24/24 done (305s)
+mj_precise {'top1': 0.9304411764705882, 'positions': 20400, 'mean_kl': 0.016201321261958692, 'p99_kl': 0.3045312552271377, 'max_kl': 7.779522750045146, 'ppl': 181.15815675472354, 'ppl_se': 3.975411383796892}
+mj_precise_attn8 {'top1': 0.8954411764705882, 'positions': 20400, 'mean_kl': 0.03058597590169385, 'p99_kl': 0.5604152521027083, 'max_kl': 6.670199181415521, 'ppl': 176.9564391391507, 'ppl_se': 3.8738399871053404}
+mj_precise_greedy_path {'top1': 0.9363725490196079, 'positions': 20400}
+ref {'ppl': 180.2910787044038, 'ppl_se': 3.951779268992201, 'positions': 20400}
+wrote results/mlx/accuracy/gptoss_f32ref_wikitext.json

@@ -1,0 +1,17 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_longctx_qa.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --engine mj --ctx 16384 --docs 12 --out results/longctx_qa_v1/gptoss_mj_x_pin16_16k.json --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_pack": true, "lean": true} --placement none
+~/Documents/Projects/mj-mlx/tools/mlx_longctx_qa.py:119: UserWarning: mlx.core was imported before mj_mlx without MLX_MAX_MB_PER_BUFFER set: memory-mapped expert models decode ~1.6x slower. Set MLX_MAX_MB_PER_BUFFER=150 before importing mlx.
+  from mj_mlx import load_model
+ctx 16384 doc 0 depth 0.06: correct (16355 tokens, 50.0 s)
+ctx 16384 doc 1 depth 0.19: correct (16354 tokens, 48.1 s)
+ctx 16384 doc 2 depth 0.31: correct (16355 tokens, 50.3 s)
+ctx 16384 doc 3 depth 0.44: correct (16355 tokens, 50.4 s)
+ctx 16384 doc 4 depth 0.56: correct (16355 tokens, 50.2 s)
+ctx 16384 doc 5 depth 0.69: correct (16355 tokens, 50.0 s)
+ctx 16384 doc 6 depth 0.81: correct (16355 tokens, 48.9 s)
+ctx 16384 doc 7 depth 0.94: correct (16355 tokens, 47.9 s)
+ctx 16384 doc 8 depth 0.06: correct (16355 tokens, 48.7 s)
+ctx 16384 doc 9 depth 0.19: correct (16355 tokens, 51.2 s)
+ctx 16384 doc 10 depth 0.31: correct (16355 tokens, 48.8 s)
+ctx 16384 doc 11 depth 0.44: correct (16355 tokens, 48.4 s)
+{"16384": {"correct": 12, "distractor": 0, "wrong": 0, "none": 0, "error": 0, "n": 12}}

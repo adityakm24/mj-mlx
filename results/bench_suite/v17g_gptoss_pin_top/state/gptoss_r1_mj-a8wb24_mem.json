@@ -1,0 +1,11 @@
+{
+ "engine": "mj-a8wb24",
+ "peak_footprint_gb": 2.383701856,
+ "peak_resident_gb": 7.777042432,
+ "samples": 248,
+ "per_pid_gb": {
+  "53107": 2.383701856
+ },
+ "swapins_gb": 0.754991104,
+ "swapouts_gb": 0.839712768
+}

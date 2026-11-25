@@ -1,0 +1,2 @@
+chunk 1/2: ppl 38251.8001
+{"engine": "mj", "mj_kw": {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "lean": true, "attn_pack": true}, "ctx": 8192, "chunks": 2, "tokens_scored": 8190, "prefill_chunk": 0, "text_tokens": 287070, "add_bos": false, "ppl": 11069.316760500618, "ppl_se": 425.45724124791116, "load_s": 6.190898957996978, "eval_s": 52.6257745000039, "ref": null}

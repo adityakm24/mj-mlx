@@ -1,0 +1,30 @@
+{
+ "engine": "millijoule mlx runner",
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/qwen36-bench-8L",
+ "model_note": "random weights, Qwen3.6-35B-A3B dims, 8 of 40 layers (3:1 linear:full), 4-bit affine gs64 routed experts, bf16 rest",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 128,
+   "ttft_s": 0.1420156250242144,
+   "ttft_min_s": 0.1410647919983603,
+   "ttft_max_s": 0.14610449998872355,
+   "prefill_tok_s": 901.3092747940613
+  },
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 0.34939762501744553,
+   "ttft_min_s": 0.34529766597552225,
+   "ttft_max_s": 0.3570974579779431,
+   "prefill_tok_s": 1465.3791649970021
+  },
+  {
+   "prompt_tokens": 2048,
+   "ttft_s": 1.2760899579734541,
+   "ttft_min_s": 1.2759130409685895,
+   "ttft_max_s": 1.3089120840304531,
+   "prefill_tok_s": 1604.9025283863284
+  }
+ ]
+}

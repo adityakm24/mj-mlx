@@ -1,0 +1,9 @@
+chunk 1/80: ppl 8.6011
+chunk 11/80: ppl 11.7913
+chunk 21/80: ppl 11.9823
+chunk 31/80: ppl 11.1632
+chunk 41/80: ppl 11.6214
+chunk 51/80: ppl 11.8539
+chunk 61/80: ppl 12.4467
+chunk 71/80: ppl 12.4308
+{"engine": "mlx-lm", "mj_kw": {}, "ctx": 512, "chunks": 80, "tokens_scored": 20400, "text_tokens": 285831, "add_bos": false, "ppl": 11.98739136396353, "ppl_se": 0.2573697133976946, "load_s": 2.617120499999146, "eval_s": 47.075276415998815, "ref": "~/.cache/millijoule/accuracy_refs/ref_olmoe_bf16", "kld_mean": 0.15892321102200965, "kld_se": 0.0018592583407613947, "kld_p99": 1.197220960695944, "kld_median": 0.08053463479126713, "same_top": 0.8199019607843138}

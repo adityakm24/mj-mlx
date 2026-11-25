@@ -1,0 +1,130 @@
+[
+ {
+  "engine": "llama.cpp",
+  "test": "pp512",
+  "samples_ts": [
+   218.813,
+   218.859,
+   218.853,
+   218.648,
+   215.395
+  ],
+  "avg_ts": 218.113617,
+  "stddev_ts": 1.522364,
+  "n_prompt": 512,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--lmstudio-community--Qwen3.5-9B-GGUF/snapshots/1379f25c6b505a3fc737bd7818cb09389cf807c1/Qwen3.5-9B-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 512 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 14.535453874996165,
+   "gpu_j": 281.36683671400004,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 3072,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "pp2048",
+  "samples_ts": [
+   203.675,
+   203.518,
+   199.169,
+   198.946,
+   200.325
+  ],
+  "avg_ts": 201.126584,
+  "stddev_ts": 2.315221,
+  "n_prompt": 2048,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--lmstudio-community--Qwen3.5-9B-GGUF/snapshots/1379f25c6b505a3fc737bd7818cb09389cf807c1/Qwen3.5-9B-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 2048 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 61.114855792002345,
+   "gpu_j": 1021.8664383390001,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 12288,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d0",
+  "samples_ts": [
+   18.8463,
+   18.8512,
+   18.8549,
+   18.8604,
+   18.8529
+  ],
+  "avg_ts": 18.85312,
+  "stddev_ts": 0.005148,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--lmstudio-community--Qwen3.5-9B-GGUF/snapshots/1379f25c6b505a3fc737bd7818cb09389cf807c1/Qwen3.5-9B-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 34.46992229200259,
+   "gpu_j": 500.46428243900004,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 641,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d2048",
+  "samples_ts": [
+   18.3871,
+   18.3695,
+   18.3842,
+   18.3765,
+   18.3774
+  ],
+  "avg_ts": 18.378949,
+  "stddev_ts": 0.006892,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 2048,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--lmstudio-community--Qwen3.5-9B-GGUF/snapshots/1379f25c6b505a3fc737bd7818cb09389cf807c1/Qwen3.5-9B-Q4_K_M.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 2048",
+  "energy_window_incl_load": {
+   "seconds": 45.307790665996436,
+   "gpu_j": 590.8821553390001,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": null,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ }
+]

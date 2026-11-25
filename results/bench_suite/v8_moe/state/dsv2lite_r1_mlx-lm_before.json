@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T10:04:32",
+ "top_cpu": [
+  "520 com.apple.Driver 26.8",
+  "0 kernel_task 20.5",
+  "64287 python3.11 5.1",
+  "64300 top 4.7",
+  "48258 sysmond 3.5",
+  "1143 openshell-driver 2.0",
+  "1342 claude 1.6",
+  "819 node 1.1"
+ ],
+ "swap": "total = 6144.00M  used = 4938.31M  free = 1205.69M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 85%",
+ "loadavg": "{ 1.63 2.09 2.06 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4938.31
+}

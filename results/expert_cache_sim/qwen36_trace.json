@@ -1,0 +1,119 @@
+{
+ "trace": "~/.cache/millijoule/qwen36-route-trace",
+ "layers": 40,
+ "results": {
+  "96/lru": {
+   "slots": 96,
+   "policy": "lru",
+   "misses": 290552,
+   "accesses": 2621440,
+   "miss_rate": 0.1108367919921875,
+   "misses_per_token": 0.8866943359375
+  },
+  "96/lfu:1.0": {
+   "slots": 96,
+   "policy": "lfu:1.0",
+   "misses": 460624,
+   "accesses": 2621440,
+   "miss_rate": 0.175714111328125,
+   "misses_per_token": 1.405712890625
+  },
+  "96/lfu:0.999": {
+   "slots": 96,
+   "policy": "lfu:0.999",
+   "misses": 390759,
+   "accesses": 2621440,
+   "miss_rate": 0.14906272888183594,
+   "misses_per_token": 1.1925018310546875
+  },
+  "96/lfu:0.995": {
+   "slots": 96,
+   "policy": "lfu:0.995",
+   "misses": 304988,
+   "accesses": 2621440,
+   "miss_rate": 0.11634368896484375,
+   "misses_per_token": 0.93074951171875
+  },
+  "96/lfu:0.99": {
+   "slots": 96,
+   "policy": "lfu:0.99",
+   "misses": 279921,
+   "accesses": 2621440,
+   "miss_rate": 0.10678138732910156,
+   "misses_per_token": 0.8542510986328125
+  },
+  "96/lfu:0.98": {
+   "slots": 96,
+   "policy": "lfu:0.98",
+   "misses": 270748,
+   "accesses": 2621440,
+   "miss_rate": 0.10328216552734375,
+   "misses_per_token": 0.82625732421875
+  },
+  "96/opt": {
+   "slots": 96,
+   "policy": "opt",
+   "misses": 136940,
+   "accesses": 2621440,
+   "miss_rate": 0.05223846435546875,
+   "misses_per_token": 0.41790771484375
+  },
+  "128/lru": {
+   "slots": 128,
+   "policy": "lru",
+   "misses": 177295,
+   "accesses": 2621440,
+   "miss_rate": 0.06763267517089844,
+   "misses_per_token": 0.5410614013671875
+  },
+  "128/lfu:1.0": {
+   "slots": 128,
+   "policy": "lfu:1.0",
+   "misses": 292381,
+   "accesses": 2621440,
+   "miss_rate": 0.11153450012207031,
+   "misses_per_token": 0.8922760009765625
+  },
+  "128/lfu:0.999": {
+   "slots": 128,
+   "policy": "lfu:0.999",
+   "misses": 241538,
+   "accesses": 2621440,
+   "miss_rate": 0.09213943481445312,
+   "misses_per_token": 0.737115478515625
+  },
+  "128/lfu:0.995": {
+   "slots": 128,
+   "policy": "lfu:0.995",
+   "misses": 182177,
+   "accesses": 2621440,
+   "miss_rate": 0.06949501037597657,
+   "misses_per_token": 0.5559600830078125
+  },
+  "128/lfu:0.99": {
+   "slots": 128,
+   "policy": "lfu:0.99",
+   "misses": 169047,
+   "accesses": 2621440,
+   "miss_rate": 0.06448631286621094,
+   "misses_per_token": 0.5158905029296875
+  },
+  "128/lfu:0.98": {
+   "slots": 128,
+   "policy": "lfu:0.98",
+   "misses": 168050,
+   "accesses": 2621440,
+   "miss_rate": 0.06410598754882812,
+   "misses_per_token": 0.512847900390625
+  },
+  "128/opt": {
+   "slots": 128,
+   "policy": "opt",
+   "misses": 78978,
+   "accesses": 2621440,
+   "miss_rate": 0.030127716064453126,
+   "misses_per_token": 0.241021728515625
+  }
+ },
+ "notes": "Offline expert-cache policy simulation on a recorded routing trace (tools/mlx_router_lookahead.py collect).\n\nPer layer, a cache of S expert slots; each token routes to k experts, all needed at once (the token's own experts\nare never evicted to make room for each other). Counts demand misses only (no prefetch), so it measures the\npolicy's headroom, not end-to-end speed. Policies:\n  lru            the streamer's policy today\n  lfu:<decay>    evict the lowest exponentially decayed use count (score *= decay per token; 1.0 = pure LFU)\n  opt            Belady's optimum (evict the expert used furthest in the future): the bound for any policy\n\n    .venv/bin/python tools/mlx_expert_cache_sim.py --trace ~/.cache/millijoule/qwen36-route-trace --slots 96,128\n"
+}

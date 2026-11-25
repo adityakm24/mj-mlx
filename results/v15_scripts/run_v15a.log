@@ -1,0 +1,11 @@
+stopped local.service-a
+stopped local.service-b
+stopped sh.brew.openshell
+stopped local.dev-backend
+== K mla kernel vs sdpa 21:18:13
+K exit 0 21:40:42
+started local.service-a
+started local.service-b
+started sh.brew.openshell
+started local.dev-backend
+cleanup done 21:40:42

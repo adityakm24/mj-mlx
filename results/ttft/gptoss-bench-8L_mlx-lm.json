@@ -1,0 +1,30 @@
+{
+ "engine": "mlx-lm 0.32.2",
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-8L",
+ "model_note": "",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 128,
+   "ttft_s": 0.19436949997907504,
+   "ttft_min_s": 0.19427812501089647,
+   "ttft_max_s": 0.196963082998991,
+   "prefill_tok_s": 658.5395343085202
+  },
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 0.480203083017841,
+   "ttft_min_s": 0.48000545805552974,
+   "ttft_max_s": 0.4841630829614587,
+   "prefill_tok_s": 1066.2155619291966
+  },
+  {
+   "prompt_tokens": 2048,
+   "ttft_s": 1.7372630839818157,
+   "ttft_min_s": 1.7336334580322728,
+   "ttft_max_s": 1.7682938340003602,
+   "prefill_tok_s": 1178.8657796756802
+  }
+ ]
+}

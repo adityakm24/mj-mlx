@@ -1,0 +1,46 @@
+== gptoss_r3_mj 00:20:26 swap 3151 MB
+  prewarm 24 files 1.1 s
+  gptoss_r3_mj pp512 rep 0: 368.99 tok/s, 45 mJ/token GPU
+  gptoss_r3_mj pp512 rep 1: 368.35 tok/s, 45 mJ/token GPU
+  gptoss_r3_mj pp512 rep 2: 367.50 tok/s, 45 mJ/token GPU
+  gptoss_r3_mj pp512 rep 3: 356.52 tok/s, 45 mJ/token GPU
+  gptoss_r3_mj pp512 rep 4: 372.24 tok/s, 45 mJ/token GPU
+  gptoss_r3_mj pp2048 rep 0: 399.67 tok/s, 47 mJ/token GPU
+  gptoss_r3_mj pp2048 rep 1: 405.89 tok/s, 47 mJ/token GPU
+  gptoss_r3_mj pp2048 rep 2: 401.60 tok/s, 47 mJ/token GPU
+  gptoss_r3_mj pp2048 rep 3: 402.24 tok/s, 48 mJ/token GPU
+  gptoss_r3_mj pp2048 rep 4: 401.51 tok/s, 48 mJ/token GPU
+  gptoss_r3_mj tg128@d0 rep 0: 33.38 tok/s, ttft 0.22 s, 223 mJ/token GPU
+  gptoss_r3_mj tg128@d0 rep 1: 33.54 tok/s, ttft 0.23 s, 222 mJ/token GPU
+  gptoss_r3_mj tg128@d0 rep 2: 33.61 tok/s, ttft 0.23 s, 221 mJ/token GPU
+  gptoss_r3_mj tg128@d0 rep 3: 33.77 tok/s, ttft 0.21 s, 218 mJ/token GPU
+  gptoss_r3_mj tg128@d0 rep 4: 33.49 tok/s, ttft 0.41 s, 216 mJ/token GPU
+  gptoss_r3_mj tg128@d2048 rep 0: 32.09 tok/s, ttft 5.10 s, 244 mJ/token GPU
+  gptoss_r3_mj tg128@d2048 rep 1: 33.00 tok/s, ttft 5.06 s, 260 mJ/token GPU
+  gptoss_r3_mj tg128@d2048 rep 2: 32.85 tok/s, ttft 5.09 s, 256 mJ/token GPU
+  gptoss_r3_mj tg128@d2048 rep 3: 33.64 tok/s, ttft 5.08 s, 302 mJ/token GPU
+  gptoss_r3_mj tg128@d2048 rep 4: 30.62 tok/s, ttft 5.19 s, 321 mJ/token GPU
+  FLAGGED: swap grew 810 MB
+# Benchmark suite summary
+
+Protocol: results/mlx/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp: ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | 432.32 +- 6.21 | 427.88-436.76 | 1.4% | 10 | - |
+| mj | pp512 | 372.10 +- 5.07 | 365.80-378.40 | 1.4% | 5 | 46 |
+| mj-a8 | pp512 | 383.23 +- 3.65 | 378.70-387.77 | 1.0% | 5 | 46 |
+| llama.cpp | pp2048 | 445.73 +- 7.04 | 440.70-450.75 | 1.6% | 10 | - |
+| mj | pp2048 | 403.16 +- 2.45 | 400.12-406.20 | 0.6% | 5 | 48 |
+| mj-a8 | pp2048 | 416.94 +- 1.01 | 415.68-418.20 | 0.2% | 5 | 48 |
+| llama.cpp | tg128@d0 | 36.81 +- 0.50 | 36.46-37.17 | 1.4% | 10 | - |
+| mj | tg128@d0 | 29.60 +- 0.42 | 29.08-30.11 | 1.4% | 5 | 293 |
+| mj-a8 | tg128@d0 | 36.27 +- 0.15 | 36.08-36.46 | 0.4% | 5 | 192 |
+| llama.cpp | tg128@d2048 | 35.87 +- 0.96 | 35.18-36.56 | 2.7% | 10 | - |
+| mj | tg128@d2048 | 28.91 +- 0.74 | 27.99-29.83 | 2.6% | 5 | 332 |
+| mj-a8 | tg128@d2048 | 34.40 +- 0.53 | 33.74-35.07 | 1.6% | 5 | 217 |
+

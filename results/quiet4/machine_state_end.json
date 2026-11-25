@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T23:33:30",
+ "top_cpu": [
+  "1089 corespotlightd 93.8",
+  "14079 top 5.4",
+  "2476 claude 4.3",
+  "0 kernel_task 3.4",
+  "585 dasd 3.0",
+  "1400 node 2.3",
+  "597 bluetoothd 1.0",
+  "8212 spotlightknowled 1.0"
+ ],
+ "swap": "total = 5120.00M  used = 4403.38M  free = 716.62M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 2.02 2.00 2.19 }"
+}

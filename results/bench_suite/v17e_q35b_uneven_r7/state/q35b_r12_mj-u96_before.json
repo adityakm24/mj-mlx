@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T09:37:40",
+ "top_cpu": [
+  "49580 top 5.1",
+  "2267 claude 3.1",
+  "0 kernel_task 2.1",
+  "828 node 1.3",
+  "1079 openshell-driver 0.9",
+  "847 openshell-gatewa 0.6",
+  "402 PerfPowerService 0.4",
+  "851 python3.14 0.3"
+ ],
+ "swap": "total = 5120.00M  used = 4161.38M  free = 958.62M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 80%",
+ "loadavg": "{ 1.43 1.67 1.72 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4161.38
+}

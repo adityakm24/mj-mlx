@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T12:34:30",
+ "top_cpu": [
+  "32441 spotlightknowled 93.3",
+  "33008 top 4.4",
+  "1316 Claude Helper (R 2.1",
+  "0 kernel_task 2.0",
+  "28674 Claude Helper 1.1",
+  "532 com.apple.Driver 0.9",
+  "31752 signpost_reporte 0.8",
+  "1620 claude 0.5"
+ ],
+ "swap": "total = 2048.00M  used = 1169.81M  free = 878.19M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 1.54 2.17 2.42 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1169.81
+}

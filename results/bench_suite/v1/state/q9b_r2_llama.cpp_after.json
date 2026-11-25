@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-18T11:03:29",
+ "top_cpu": [
+  "54887 top 5.3",
+  "674 airportd 5.1",
+  "0 kernel_task 2.2",
+  "1029 WiFiAgent 2.0",
+  "1400 node 1.8",
+  "32656 MacInCallService 0.8",
+  "1085 ControlCenter 0.6",
+  "1693 openshell-driver 0.6"
+ ],
+ "swap": "total = 5120.00M  used = 3868.81M  free = 1251.19M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 0.67 0.97 1.24 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3868.81
+}

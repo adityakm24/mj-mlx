@@ -1,0 +1,13 @@
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_chat_check.py", line 146, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx/tools/mlx_chat_check.py", line 126, in main
+    outs = {"mj": run_mj, "mlx-lm": run_mlxlm, "llama-server": run_llama_server}[eng](a, path, tok, PROMPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_chat_check.py", line 54, in run_mj
+    eng.add_request(ids, a.new)
+  File "~/Documents/Projects/mj-mlx/src/mj_mlx/runner.py", line 434, in add_request
+    return self.sched.add_request(list(prompt_ids), max_new_tokens=max_new_tokens, stop_token_ids=stops,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument 'prompt': 'str' object cannot be interpreted as an integer

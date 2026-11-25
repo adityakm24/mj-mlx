@@ -1,0 +1,9 @@
+09:46:52 prep_write start (run swap-outs so far 0.0 GB)
+09:47:10 prep_write: rc 0, 18 s
+09:47:10 prep_tokens start (run swap-outs so far 0.3 GB)
+09:48:04 prep_tokens: rc 1, 55 s
+09:48:04 loadprof start (run swap-outs so far 1.2 GB)
+09:48:56 loadprof: rc 0, 52 s
+09:48:56 coldstart start (run swap-outs so far 2.4 GB)
+09:54:06 coldstart: rc 0, 310 s
+V17F_DONE {"prep_write": "rc 0, 18 s", "prep_tokens": "rc 1, 55 s", "loadprof": "rc 0, 52 s", "coldstart": "rc 0, 310 s", "_run_swapouts_gb": 8.78}

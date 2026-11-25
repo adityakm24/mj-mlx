@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_accuracy_ppl.py", line 165, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx/tools/mlx_accuracy_ppl.py", line 61, in main
+    text = wikitext_raw()
+           ^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_accuracy_ppl.py", line 31, in wikitext_raw
+    import pyarrow.parquet as pq
+ModuleNotFoundError: No module named 'pyarrow'

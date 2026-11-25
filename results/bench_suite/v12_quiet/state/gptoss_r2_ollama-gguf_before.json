@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-20T16:02:27",
+ "top_cpu": [
+  "8347 spotlightknowled 93.2",
+  "855 TGOnDeviceInfere 16.9",
+  "8147 signpost_reporte 11.0",
+  "0 kernel_task 5.7",
+  "14680 top 4.8",
+  "457 analyticsd 4.2",
+  "13860 stickersd 2.8",
+  "394 dasd 1.7"
+ ],
+ "swap": "total = 2048.00M  used = 1230.75M  free = 817.25M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 1.96 2.15 2.17 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1230.75
+}

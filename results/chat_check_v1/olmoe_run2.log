@@ -1,0 +1,3 @@
+mj: 42 s
+mlx-lm: 47 s
+ours vs mlx-lm: 11/12 replies token-identical; first difference at token 81-81 in the others

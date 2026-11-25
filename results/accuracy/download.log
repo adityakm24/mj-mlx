@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+done wikitext ~/.cache/huggingface/hub/datasets--Salesforce--wikitext/snapshots/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/test-00000-of-00001.parquet
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  11%|█         | 1/9 [00:00<00:02,  3.85it/s]Fetching 9 files:  67%|██████▋   | 6/9 [00:00<00:00, 13.37it/s]Fetching 9 files:  67%|██████▋   | 6/9 [00:17<00:00, 13.37it/s]Fetching 9 files:  78%|███████▊  | 7/9 [08:11<03:16, 98.36s/it]Fetching 9 files:  89%|████████▉ | 8/9 [14:27<02:40, 160.16s/it]Fetching 9 files: 100%|██████████| 9/9 [16:32<00:00, 151.77s/it]Fetching 9 files: 100%|██████████| 9/9 [16:32<00:00, 110.27s/it]
+done olmoe-bf16 ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct/snapshots/b89a7c4bc24fb9e55ce2543c9458ce0ca5c4650e
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+done ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-F16.gguf

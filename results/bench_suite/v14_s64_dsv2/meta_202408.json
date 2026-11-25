@@ -1,0 +1,21 @@
+{
+ "start": "2026-11-21T20:24:07",
+ "args": {
+  "models": "dsv2lite",
+  "engines": "mj,mj-s64",
+  "tests": "pp512,pp2048,tg128@d2048,pp8192,pp16384",
+  "reps": 3,
+  "llama_reps": 0,
+  "rounds": 2,
+  "round0": 1,
+  "cooldown": 30,
+  "summary_only": false,
+  "out": "results/bench_suite/v14_s64_dsv2"
+ },
+ "git": "bd74cc80ece3c4d9640eb8d51d1567accec23a7d",
+ "llama_bench": "d_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/1.0.0/libexec/libggml-cpu-apple_m4.so\nversion: 1.0.0 (build 12359, commit b1b770d90)\nbuilt with AppleClang 21.0.0.21000401 for Darwin arm64",
+ "mlx": "0.32.4 0.32.2",
+ "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t27.3\nBuildVersion:\t\t26C5047e",
+ "chip": "Apple M4",
+ "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23461987)\t79%; AC attached; not charging present: true"
+}

@@ -1,0 +1,32 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_chat_check.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_pack": true, "lean": true} --placement none --engines mj --new 256 --out results/chat_check_v1/gptoss_mj_x.json
+mj: 91 s
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_chat_check.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --engines llama-server --new 256 --out results/chat_check_v1/gptoss_llama.json
+Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_chat_check.py", line 154, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx/tools/mlx_chat_check.py", line 134, in main
+    outs = {"mj": run_mj, "mlx-lm": run_mlxlm, "llama-server": run_llama_server}[eng](a, path, tok, PROMPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_chat_check.py", line 97, in run_llama_server
+    with urllib.request.urlopen(req, timeout=3600) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error

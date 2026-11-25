@@ -1,0 +1,200 @@
+{
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "prompt_tokens": 84,
+ "overlap": true,
+ "options": {
+  "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+  "out": "results/mlx/step_trace_gptoss20b/r4_quiet_paired.json",
+  "trace_dir": "/private/tmp/claude-501/-Users-user-Documents-Projects-MilliJoule/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/traces/gptoss_r4_quiet_paired",
+  "split_mode": "async",
+  "overlap": true,
+  "normal_only": true,
+  "map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped",
+  "stream_experts": null,
+  "slots": 96,
+  "attn_pack": true,
+  "attn_bits": null,
+  "lean": true,
+  "wired_mb": 3000,
+  "prompt_len": 0,
+  "phase": "normal",
+  "warm": 8,
+  "normal": 8,
+  "split": 3,
+  "inner": false,
+  "host_log": null
+ },
+ "method": "xctrace Metal System Trace, metal-gpu-intervals; normal steps only",
+ "untraced_normal_step_us": [
+  9687.625,
+  33640.916,
+  27108.833,
+  27259.5,
+  27403.792,
+  27257.375,
+  27345.333,
+  27228.166
+ ],
+ "traced_normal_step_us": [
+  15560.625,
+  34673.625,
+  28728.0,
+  28592.541,
+  31776.209,
+  28277.166,
+  27731.583,
+  27553.792
+ ],
+ "normal_segment": {
+  "steps": 8,
+  "gpu_span_us": 235066.208,
+  "gpu_busy_us": 222618.497,
+  "gpu_busy_pct": 94.7045936096438,
+  "idle_us": 12447.711,
+  "idle_gaps_over_50us": 7,
+  "command_buffers": 8,
+  "host_wall_us": 222898.542,
+  "intervals": [
+   [
+    0.0,
+    32311.208
+   ],
+   [
+    33952.792,
+    60972.458
+   ],
+   [
+    62656.25,
+    89611.25
+   ],
+   [
+    91267.292,
+    119110.958
+   ],
+   [
+    122917.5,
+    149861.958
+   ],
+   [
+    151046.0,
+    177618.417
+   ],
+   [
+    178774.167,
+    205051.583
+   ],
+   [
+    206371.542,
+    235066.208
+   ]
+  ]
+ },
+ "normal_steps": [
+  {
+   "wall_us": 15560.625,
+   "gpu_span_us": 32311.208,
+   "gpu_busy_us": 32311.208,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     32311.208
+    ]
+   ]
+  },
+  {
+   "wall_us": 34673.625,
+   "gpu_span_us": 27019.666,
+   "gpu_busy_us": 27019.666,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     27019.666
+    ]
+   ]
+  },
+  {
+   "wall_us": 28728.0,
+   "gpu_span_us": 26955.0,
+   "gpu_busy_us": 26955.0,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     26955.0
+    ]
+   ]
+  },
+  {
+   "wall_us": 28592.541,
+   "gpu_span_us": 27843.666,
+   "gpu_busy_us": 27843.666,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     27843.666
+    ]
+   ]
+  },
+  {
+   "wall_us": 31776.209,
+   "gpu_span_us": 26944.458,
+   "gpu_busy_us": 26944.458,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     26944.458
+    ]
+   ]
+  },
+  {
+   "wall_us": 28277.166,
+   "gpu_span_us": 26572.417,
+   "gpu_busy_us": 26572.417,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     26572.417
+    ]
+   ]
+  },
+  {
+   "wall_us": 27731.583,
+   "gpu_span_us": 26277.416,
+   "gpu_busy_us": 26277.416,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     26277.416
+    ]
+   ]
+  },
+  {
+   "wall_us": 27553.792,
+   "gpu_span_us": 28694.666,
+   "gpu_busy_us": 28694.666,
+   "gpu_busy_pct": 100.0,
+   "command_buffers": 1,
+   "intervals": [
+    [
+     0.0,
+     28694.666
+    ]
+   ]
+  }
+ ],
+ "traces": "/private/tmp/claude-501/-Users-user-Documents-Projects-MilliJoule/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/traces/gptoss_r4_quiet_paired",
+ "time": "2026-11-20T16:38:13"
+}

@@ -1,0 +1,61 @@
+{
+ "args": {
+  "prompts": 16,
+  "new": 128,
+  "bits": [
+   2,
+   3,
+   4
+  ],
+  "k": [
+   1,
+   4,
+   16,
+   32,
+   64
+  ],
+  "out": "results/mlx/gptoss_head_miss_real.json"
+ },
+ "results": {
+  "2": {
+   "miss": {
+    "1": 329,
+    "4": 62,
+    "16": 15,
+    "32": 7,
+    "64": 2
+   },
+   "n": 2048,
+   "head_bytes": 180979200,
+   "matmul_ms_median": 2.214562500739703,
+   "matmul_ms_min": 2.1349580001697177
+  },
+  "3": {
+   "miss": {
+    "1": 148,
+    "4": 19,
+    "16": 0,
+    "32": 0,
+    "64": 0
+   },
+   "n": 2048,
+   "head_bytes": 253370880,
+   "matmul_ms_median": 2.724812500673579,
+   "matmul_ms_min": 2.6556669999990845
+  },
+  "4": {
+   "miss": {
+    "1": 73,
+    "4": 1,
+    "16": 0,
+    "32": 0,
+    "64": 0
+   },
+   "n": 2048,
+   "head_bytes": 325762560,
+   "matmul_ms_median": 3.3604789996388718,
+   "matmul_ms_min": 3.2981669992295792
+  }
+ },
+ "notes": "Candidate-head miss rate on the REAL gpt-oss-20b weights, on the model's own greedy decode.\n\nLean decode picks the greedy token among the top-k of a low-bit copy of lm_head, rescored exactly from the bf16 rows\n(GptOss.rescore_host). A miss (the exact argmax over the full bf16 head is not among the candidates) is the only way\nthat changes a greedy token. This runs real decodes (Engine, lean, overlap), records every final hidden state, and\nfor each one computes:\n  - the exact argmax: float32 logits of all 201088 bf16 lm_head rows (host, chunked, from the safetensors memmap);\n  - the top-k of 2-, 3- and 4-bit (group 64) copies of lm_head (GPU), for several k.\nAlso times one candidate matmul per width (1 row, GPU), so the trade can be read off.\n\n    .venv/bin/python tools/mlx_gptoss_head_miss_real.py --out results/mlx/gptoss_head_miss_real.json\n"
+}

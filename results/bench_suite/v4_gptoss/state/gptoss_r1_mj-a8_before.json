@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T00:29:58",
+ "top_cpu": [
+  "5713 ApplicationsStor 120.6",
+  "5670 TrashStorageExte 113.3",
+  "819 node 33.1",
+  "5710 MailStorageManag 26.1",
+  "5668 deleted_helper 25.7",
+  "5679 AMPLibraryAgent 22.0",
+  "5669 DeveloperStorage 21.7",
+  "0 kernel_task 21.0"
+ ],
+ "swap": "total = 4096.00M  used = 2985.12M  free = 1110.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 17.93 5.52 3.21 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2985.12
+}

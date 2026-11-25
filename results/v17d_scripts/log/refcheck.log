@@ -1,0 +1,58 @@
+24 sequences
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_real_eval.py --seqs-json results/lm_eval_chat_v1/gptoss_items_seqs.json --configs mj_precise,mj_precise_pack,mlxlm_bf16,mlxlm_fp32 --out results/lm_eval_chat_v1/gptoss_items_refcheck.json
+sequences: [176, 569, 345, 340, 525, 277, 176, 301, 331, 453, 221, 323, 203, 518, 360, 358, 361, 297, 238, 303, 314, 526, 201, 317] tokens: 8033
+layer 1/24 done (6s)
+layer 2/24 done (12s)
+layer 3/24 done (17s)
+layer 4/24 done (23s)
+layer 5/24 done (28s)
+layer 6/24 done (34s)
+layer 7/24 done (39s)
+layer 8/24 done (45s)
+layer 9/24 done (50s)
+layer 10/24 done (56s)
+layer 11/24 done (61s)
+layer 12/24 done (67s)
+layer 13/24 done (72s)
+layer 14/24 done (78s)
+layer 15/24 done (83s)
+layer 16/24 done (89s)
+layer 17/24 done (94s)
+layer 18/24 done (100s)
+layer 19/24 done (106s)
+layer 20/24 done (111s)
+layer 21/24 done (117s)
+layer 22/24 done (122s)
+layer 23/24 done (128s)
+layer 24/24 done (133s)
+mj_precise {'top1': 0.9741068094111789, 'positions': 8033, 'mean_kl': 0.007531272550156824, 'p99_kl': 0.13953402022378736, 'max_kl': 1.0917308138543138}
+mj_precise_pack {'top1': 0.9756006473297647, 'positions': 8033, 'mean_kl': 0.007715889476173147, 'p99_kl': 0.08922308932803624, 'max_kl': 1.4329932570218973}
+mlxlm_bf16 {'top1': 0.9681314577368355, 'positions': 8033, 'mean_kl': 0.013133530616694901, 'p99_kl': 0.23274499734239748, 'max_kl': 2.413665390212275}
+mlxlm_fp32 {'top1': 0.9899165940495456, 'positions': 8033, 'mean_kl': 0.0021206345019203266, 'p99_kl': 0.05912735617970367, 'max_kl': 0.6839105563726785}
+mj_precise_greedy_path {'top1': 0.9773434582347815, 'positions': 8033}
+mj:1:ok:3.0 {'ref': (123, ['3', '1', '4']), 'mj_precise': (123, ['3', '1', '4']), 'mj_precise_pack': (123, ['3', '1', '4']), 'mlxlm_bf16': (123, ['3', '1', '4']), 'mlxlm_fp32': (123, ['3', '1', '4']), 'mj_precise_greedy_path': (123, [])}
+mj:8:ok:45.0 {'ref': (203, ['45', '1', '0']), 'mj_precise': (203, ['45', '1', '0']), 'mj_precise_pack': (203, ['45', '1', '0']), 'mlxlm_bf16': (203, ['45', '1', '0']), 'mlxlm_fp32': (268, ['45', '1', '0']), 'mj_precise_greedy_path': (203, [])}
+mj:25:ok:2.0 {'ref': (173, ['2', '1', ' ']), 'mj_precise': (273, ['2', '1', ' ']), 'mj_precise_pack': (273, ['2', '1', ' ']), 'mlxlm_bf16': (147, ['2', '1', ' ']), 'mlxlm_fp32': (273, ['2', '1', ' ']), 'mj_precise_greedy_path': (273, [])}
+mj:47:ok:800.0 {'ref': (None, ['800', '8', '200']), 'mj_precise': (None, ['800', '8', '200']), 'mj_precise_pack': (None, ['800', '8', '200']), 'mlxlm_bf16': (131, ['800', '8', '200']), 'mlxlm_fp32': (166, ['800', '8', '200']), 'mj_precise_greedy_path': (None, [])}
+mj:84:ok:15.0 {'ref': (116, ['15', '1', '0']), 'mj_precise': (107, ['15', '1', '0']), 'mj_precise_pack': (107, ['15', '1', '0']), 'mlxlm_bf16': (226, ['15', '1', '0']), 'mlxlm_fp32': (107, ['15', '1', '0']), 'mj_precise_greedy_path': (107, [])}
+mj:243:wrong:1.0 {'ref': (166, ['1', '0', '2']), 'mj_precise': (152, ['1', '0', '2']), 'mj_precise_pack': (152, ['1', '0', '2']), 'mlxlm_bf16': (None, ['1', '0', '2']), 'mlxlm_fp32': (152, ['1', '0', '2']), 'mj_precise_greedy_path': (None, [])}
+mj:337:ok:1.0 {'ref': (153, ['1', '2', '0']), 'mj_precise': (None, ['1', '2', '3']), 'mj_precise_pack': (None, ['1', '2', '3']), 'mlxlm_bf16': (None, ['1', '2', '0']), 'mlxlm_fp32': (None, ['1', '2', '0']), 'mj_precise_greedy_path': (None, [])}
+mj:452:wrong:1.0 {'ref': (None, ['1', '50', '0']), 'mj_precise': (None, ['1', '50', '0']), 'mj_precise_pack': (195, ['1', '50', '0']), 'mlxlm_bf16': (None, ['1', '50', '0']), 'mlxlm_fp32': (None, ['1', '50', '0']), 'mj_precise_greedy_path': (None, [])}
+mj:694:wrong:40.0 {'ref': (226, ['40', '20', '30']), 'mj_precise': (226, ['40', '20', '30']), 'mj_precise_pack': (226, ['40', '20', '30']), 'mlxlm_bf16': (191, ['40', '20', '30']), 'mlxlm_fp32': (None, ['40', '20', '30']), 'mj_precise_greedy_path': (226, [])}
+mj:931:wrong:1.0 {'ref': (140, ['1', '50', '0']), 'mj_precise': (140, ['1', '50', '0']), 'mj_precise_pack': (140, ['1', '50', '0']), 'mlxlm_bf16': (237, ['50', '1', '0']), 'mlxlm_fp32': (237, ['1', '50', '0']), 'mj_precise_greedy_path': (140, [])}
+mj:1167:wrong:1.0 {'ref': (191, ['120', '1', '2']), 'mj_precise': (191, ['1', '120', '0']), 'mj_precise_pack': (109, ['120', '1', '0']), 'mlxlm_bf16': (112, ['120', '1', '0']), 'mlxlm_fp32': (161, ['120', '1', '0']), 'mj_precise_greedy_path': (161, [])}
+mj:1182:wrong:1.0 {'ref': (None, ['1', '180', '3']), 'mj_precise': (None, ['1', '180', '3']), 'mj_precise_pack': (128, ['1', '180', '3']), 'mlxlm_bf16': (120, ['1', '180', '3']), 'mlxlm_fp32': (265, ['1', '180', '3']), 'mj_precise_greedy_path': (None, [])}
+llama:1:ok:3.0 {'ref': (161, ['3', ' ', '4']), 'mj_precise': (161, ['3', ' ', '1']), 'mj_precise_pack': (161, ['3', ' ', '4']), 'mlxlm_bf16': (161, ['3', ' ', '1']), 'mlxlm_fp32': (161, ['3', ' ', '1']), 'mj_precise_greedy_path': (161, [])}
+llama:8:ok:45.0 {'ref': (203, ['45', '1', '0']), 'mj_precise': (203, ['45', '1', '0']), 'mj_precise_pack': (203, ['45', '1', '0']), 'mlxlm_bf16': (203, ['45', '1', '0']), 'mlxlm_fp32': (265, ['45', '1', '0']), 'mj_precise_greedy_path': (203, [])}
+llama:25:ok:2.0 {'ref': (147, ['2', '1', '0']), 'mj_precise': (147, ['2', '1', '0']), 'mj_precise_pack': (147, ['2', '1', '0']), 'mlxlm_bf16': (171, ['2', '1', '0']), 'mlxlm_fp32': (147, ['2', '1', '0']), 'mj_precise_greedy_path': (147, [])}
+llama:47:ok:800.0 {'ref': (137, ['800', '8', '808']), 'mj_precise': (137, ['800', '8', '808']), 'mj_precise_pack': (137, ['800', '8', '808']), 'mlxlm_bf16': (131, ['800', '8', '808']), 'mlxlm_fp32': (137, ['800', '8', '808']), 'mj_precise_greedy_path': (137, [])}
+llama:84:ok:15.0 {'ref': (134, ['15', ' ', '015']), 'mj_precise': (107, ['15', ' ', '015']), 'mj_precise_pack': (107, ['15', '015', ' ']), 'mlxlm_bf16': (107, ['15', '015', ' ']), 'mlxlm_fp32': (107, ['15', '015', ' ']), 'mj_precise_greedy_path': (107, [])}
+llama:243:ok:250.0 {'ref': (166, ['250', '251', '25']), 'mj_precise': (152, ['250', '251', '25']), 'mj_precise_pack': (152, ['250', '251', '25']), 'mlxlm_bf16': (180, ['250', '251', '25']), 'mlxlm_fp32': (152, ['250', '251', '25']), 'mj_precise_greedy_path': (180, [])}
+llama:337:ok:1.0 {'ref': (200, ['1', '3', '2']), 'mj_precise': (153, ['1', '3', '4']), 'mj_precise_pack': (153, ['1', '3', '2']), 'mlxlm_bf16': (153, ['1', '3', '2']), 'mlxlm_fp32': (153, ['1', '3', '2']), 'mj_precise_greedy_path': (153, [])}
+llama:452:wrong:1.0 {'ref': (125, ['1', '50', '0']), 'mj_precise': (125, ['1', '50', '0']), 'mj_precise_pack': (125, ['1', '50', '0']), 'mlxlm_bf16': (125, ['1', '50', '0']), 'mlxlm_fp32': (125, ['1', '50', '0']), 'mj_precise_greedy_path': (125, [])}
+llama:694:ok:9.0 {'ref': (167, ['9', '09', ' ']), 'mj_precise': (167, ['9', '09', ' ']), 'mj_precise_pack': (167, ['9', '09', ' ']), 'mlxlm_bf16': (167, ['9', '09', ' ']), 'mlxlm_fp32': (167, ['9', '09', ' ']), 'mj_precise_greedy_path': (167, [])}
+llama:931:ok:50.0 {'ref': (132, ['50', '1', '3']), 'mj_precise': (132, ['50', '1', '3']), 'mj_precise_pack': (132, ['50', '1', '3']), 'mlxlm_bf16': (132, ['50', '1', '0']), 'mlxlm_fp32': (132, ['50', '1', '0']), 'mj_precise_greedy_path': (132, [])}
+llama:1167:ok:120.0 {'ref': (109, ['120', '20', '1']), 'mj_precise': (109, ['120', '20', '1']), 'mj_precise_pack': (119, ['120', '20', '1']), 'mlxlm_bf16': (109, ['120', '20', '12']), 'mlxlm_fp32': (109, ['120', '20', '1']), 'mj_precise_greedy_path': (109, [])}
+llama:1182:wrong:1.0 {'ref': (162, ['1', '180', '3']), 'mj_precise': (162, ['1', '180', '3']), 'mj_precise_pack': (162, ['1', '180', '3']), 'mlxlm_bf16': (162, ['1', '180', '3']), 'mlxlm_fp32': (162, ['1', '180', '3']), 'mj_precise_greedy_path': (162, [])}
+wrote results/lm_eval_chat_v1/gptoss_items_refcheck.json

@@ -1,0 +1,1 @@
+2026-11-21 17:09:22.492 Df log[61760:accdf] [com.apple.log:] log run noninteractively, parent: 40981 (zsh), args: '/usr/bin/log' 'show' '--start' '2026-11-21 16:42:07' '--predicate' 'eventMessage CONTAINS "required > max" OR (eventMessage CONTAINS "memorystatus" AND eventMessage CONTAINS "python")' '--style' 'compa

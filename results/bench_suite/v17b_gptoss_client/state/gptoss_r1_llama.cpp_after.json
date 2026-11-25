@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T07:22:34",
+ "top_cpu": [
+  "35099 amsengagementd 9.9",
+  "36933 top 7.1",
+  "0 kernel_task 2.4",
+  "828 node 1.8",
+  "2155 Claude 1.5",
+  "1717 esbuild 0.9",
+  "479 airportd 0.9",
+  "1079 openshell-driver 0.8"
+ ],
+ "swap": "total = 6144.00M  used = 4682.00M  free = 1462.00M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 1.48 1.36 1.60 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4682.0
+}

@@ -1,0 +1,66 @@
+start 01:20:11
+state: total = 5120.00M  used = 4000.12M  free = 1119.88M  (encrypted) | System-wide memory free percentage: 84% | top: top 5.0; opendirectoryd 3.0; kernel_task 3.0
+gptoss r1 chat plain          rep 0:  36.57 ms/token  (median gap  33.97, max   68.0)   254.3 mJ/token   6.9 W  tokens 128  ttft 0.48s  page-ins 1602 MB
+gptoss r1 chat plain          rep 1:  32.04 ms/token  (median gap  31.67, max   42.4)   247.8 mJ/token   7.7 W  tokens 128  ttft 0.53s  page-ins 483 MB
+gptoss r1 chat plain          rep 2:  30.83 ms/token  (median gap  29.92, max   43.3)   291.1 mJ/token   9.4 W  tokens 128  ttft 0.44s  page-ins 392 MB
+gptoss r1 chat eagle-auto     rep 0:  27.76 ms/token  (median gap  45.95, max   87.4)   250.8 mJ/token   9.0 W  tokens 128  ttft 0.38s  page-ins 146 MB
+gptoss r1 chat eagle-auto     rep 1:  26.50 ms/token  (median gap  44.24, max   83.7)   260.8 mJ/token   9.8 W  tokens 128  ttft 0.36s  page-ins 43 MB
+gptoss r1 chat eagle-auto     rep 2:  26.02 ms/token  (median gap  44.03, max   80.7)   261.4 mJ/token  10.0 W  tokens 128  ttft 0.35s  page-ins 13 MB
+gptoss r1 chat eagle-k2       rep 0:  26.37 ms/token  (median gap  58.74, max  104.8)   282.1 mJ/token  10.7 W  tokens 128  ttft 0.36s  page-ins 16 MB
+gptoss r1 chat eagle-k2       rep 1:  26.09 ms/token  (median gap  57.80, max  108.2)   287.1 mJ/token  11.0 W  tokens 128  ttft 0.35s  page-ins 101 MB
+gptoss r1 chat eagle-k2       rep 2:  28.29 ms/token  (median gap  57.71, max  372.6)   278.8 mJ/token   9.9 W  tokens 128  ttft 0.36s  page-ins 128 MB
+gptoss r1 chat llama-server   rep 0:  28.34 ms/token  (median gap  28.38, max   30.3)   361.2 mJ/token  12.7 W  tokens 128  ttft 0.36s  page-ins 15 MB
+gptoss r1 chat llama-server   rep 1:  28.29 ms/token  (median gap  28.31, max   29.2)   364.4 mJ/token  12.9 W  tokens 128  ttft 0.36s  page-ins 2 MB
+gptoss r1 chat llama-server   rep 2:  27.34 ms/token  (median gap  27.22, max   28.3)   363.6 mJ/token  13.3 W  tokens 128  ttft 0.36s  page-ins 10 MB
+gptoss r1 random plain          rep 0:  30.75 ms/token  (median gap  30.46, max   42.3)   271.2 mJ/token   8.8 W  tokens 128  ttft 1.36s  page-ins 666 MB
+gptoss r1 random plain          rep 1:  30.84 ms/token  (median gap  30.54, max   41.3)   280.7 mJ/token   9.1 W  tokens 128  ttft 1.65s  page-ins 745 MB
+gptoss r1 random plain          rep 2:  30.59 ms/token  (median gap  30.14, max   39.9)   285.7 mJ/token   9.3 W  tokens 128  ttft 1.42s  page-ins 644 MB
+gptoss r1 random eagle-auto     rep 0:  38.03 ms/token  (median gap  31.33, max  792.8)   316.8 mJ/token   8.3 W  tokens 128  ttft 3.65s  page-ins 1809 MB
+gptoss r1 random eagle-auto     rep 1:  35.56 ms/token  (median gap  33.78, max  176.7)   295.7 mJ/token   8.3 W  tokens 128  ttft 1.77s  page-ins 674 MB
+gptoss r1 random eagle-auto     rep 2:  33.61 ms/token  (median gap  31.80, max  163.2)   338.9 mJ/token  10.1 W  tokens 128  ttft 1.34s  page-ins 365 MB
+gptoss r1 random llama-server   rep 0:  28.65 ms/token  (median gap  28.78, max   29.2)   374.9 mJ/token  13.1 W  tokens 128  ttft 1.17s  page-ins 14 MB
+gptoss r1 random llama-server   rep 1:  28.46 ms/token  (median gap  28.36, max   31.1)   377.7 mJ/token  13.3 W  tokens 128  ttft 1.17s  page-ins 96 MB
+gptoss r1 random llama-server   rep 2:  28.42 ms/token  (median gap  27.65, max   30.7)   383.1 mJ/token  13.5 W  tokens 128  ttft 1.17s  page-ins 23 MB
+gptoss r2 random llama-server   rep 0:  27.48 ms/token  (median gap  27.45, max   28.3)   378.7 mJ/token  13.8 W  tokens 128  ttft 1.17s  page-ins 1 MB
+gptoss r2 random llama-server   rep 1:  27.52 ms/token  (median gap  27.45, max   28.9)   383.2 mJ/token  13.9 W  tokens 128  ttft 1.17s  page-ins 4 MB
+gptoss r2 random llama-server   rep 2:  27.53 ms/token  (median gap  27.48, max   30.4)   386.7 mJ/token  14.0 W  tokens 128  ttft 1.17s  page-ins 14 MB
+gptoss r2 random eagle-auto     rep 0:  34.22 ms/token  (median gap  31.47, max  311.4)   324.2 mJ/token   9.5 W  tokens 128  ttft 2.51s  page-ins 998 MB
+gptoss r2 random eagle-auto     rep 1:  33.14 ms/token  (median gap  31.63, max  175.1)   332.9 mJ/token  10.0 W  tokens 128  ttft 1.68s  page-ins 814 MB
+gptoss r2 random eagle-auto     rep 2:  34.10 ms/token  (median gap  31.39, max  271.0)   327.2 mJ/token   9.6 W  tokens 128  ttft 1.91s  page-ins 1022 MB
+gptoss r2 random plain          rep 0:  32.45 ms/token  (median gap  31.22, max   67.4)   277.3 mJ/token   8.5 W  tokens 128  ttft 6.29s  page-ins 2155 MB
+gptoss r2 random plain          rep 1:  33.79 ms/token  (median gap  32.99, max   47.7)   259.4 mJ/token   7.7 W  tokens 128  ttft 6.22s  page-ins 1671 MB
+gptoss r2 random plain          rep 2:  32.78 ms/token  (median gap  31.67, max   47.9)   276.7 mJ/token   8.4 W  tokens 128  ttft 2.33s  page-ins 979 MB
+gptoss r2 chat llama-server   rep 0:  28.62 ms/token  (median gap  28.63, max   30.7)   369.3 mJ/token  12.9 W  tokens 128  ttft 0.36s  page-ins 280 MB
+gptoss r2 chat llama-server   rep 1:  28.62 ms/token  (median gap  28.47, max   30.8)   373.3 mJ/token  13.0 W  tokens 128  ttft 0.36s  page-ins 71 MB
+gptoss r2 chat llama-server   rep 2:  27.29 ms/token  (median gap  27.18, max   28.4)   370.1 mJ/token  13.6 W  tokens 128  ttft 0.36s  page-ins 47 MB
+gptoss r2 chat eagle-k2       rep 0:  27.32 ms/token  (median gap  60.74, max  110.9)   286.7 mJ/token  10.5 W  tokens 128  ttft 0.36s  page-ins 15 MB
+gptoss r2 chat eagle-k2       rep 1:  26.58 ms/token  (median gap  59.55, max   95.8)   286.7 mJ/token  10.8 W  tokens 128  ttft 0.35s  page-ins 17 MB
+gptoss r2 chat eagle-k2       rep 2:  27.06 ms/token  (median gap  59.78, max  112.3)   291.2 mJ/token  10.8 W  tokens 128  ttft 0.36s  page-ins 245 MB
+gptoss r2 chat eagle-auto     rep 0:  26.62 ms/token  (median gap  44.49, max   68.4)   264.9 mJ/token  10.0 W  tokens 128  ttft 0.35s  page-ins 102 MB
+gptoss r2 chat eagle-auto     rep 1:  26.77 ms/token  (median gap  44.15, max   98.7)   271.1 mJ/token  10.1 W  tokens 128  ttft 0.35s  page-ins 10 MB
+gptoss r2 chat eagle-auto     rep 2:  26.29 ms/token  (median gap  44.29, max   71.7)   262.8 mJ/token  10.0 W  tokens 128  ttft 0.36s  page-ins 14 MB
+gptoss r2 chat plain          rep 0:  30.34 ms/token  (median gap  28.99, max   43.8)   293.2 mJ/token   9.7 W  tokens 128  ttft 0.39s  page-ins 43 MB
+gptoss r2 chat plain          rep 1:  30.14 ms/token  (median gap  29.39, max   46.8)   295.0 mJ/token   9.8 W  tokens 128  ttft 0.39s  page-ins 48 MB
+gptoss r2 chat plain          rep 2:  30.48 ms/token  (median gap  29.36, max   41.9)   295.7 mJ/token   9.7 W  tokens 128  ttft 0.38s  page-ins 59 MB
+gpt-oss done 01:28:59
+state: total = 6144.00M  used = 5579.56M  free = 564.44M  (encrypted) | System-wide memory free percentage: 86% | top: loginwindow 11.5; airportd 7.6; kernel_task 5.7
+qwen9b r1 mlx-lm         rep 0:  46.17 ms/token  (median gap  46.04, max   49.0)   478.4 mJ/token  10.4 W  tokens 128  ttft 0.22s  page-ins 0 MB
+qwen9b r1 mlx-lm         rep 1:  46.18 ms/token  (median gap  46.07, max   47.8)   481.5 mJ/token  10.4 W  tokens 128  ttft 0.25s  page-ins 0 MB
+qwen9b r1 mlx-lm         rep 2:  46.12 ms/token  (median gap  46.06, max   47.4)   483.5 mJ/token  10.5 W  tokens 128  ttft 0.24s  page-ins 0 MB
+qwen9b r1 plain          rep 0:  47.74 ms/token  (median gap  48.21, max   51.2)   492.5 mJ/token  10.3 W  tokens 128  ttft 0.18s  page-ins 11 MB
+qwen9b r1 plain          rep 1:  46.75 ms/token  (median gap  46.76, max   52.0)   490.3 mJ/token  10.5 W  tokens 128  ttft 0.19s  page-ins 21 MB
+qwen9b r1 plain          rep 2:  48.14 ms/token  (median gap  47.78, max   53.6)   499.9 mJ/token  10.4 W  tokens 128  ttft 0.19s  page-ins 184 MB
+qwen9b r1 mtp            rep 0:  22.24 ms/token  (median gap  58.86, max   62.3)   388.2 mJ/token  17.4 W  tokens 128  ttft 0.17s  page-ins 0 MB
+qwen9b r1 mtp            rep 1:  22.40 ms/token  (median gap  59.06, max   65.9)   371.9 mJ/token  16.6 W  tokens 128  ttft 0.18s  page-ins 0 MB
+qwen9b r1 mtp            rep 2:  22.60 ms/token  (median gap  59.64, max   65.5)   370.3 mJ/token  16.4 W  tokens 128  ttft 0.19s  page-ins 0 MB
+qwen9b r2 mtp            rep 0:  22.53 ms/token  (median gap  59.44, max   61.9)   369.9 mJ/token  16.4 W  tokens 128  ttft 0.18s  page-ins 0 MB
+qwen9b r2 mtp            rep 1:  22.76 ms/token  (median gap  60.21, max   65.8)   358.5 mJ/token  15.8 W  tokens 128  ttft 0.19s  page-ins 0 MB
+qwen9b r2 mtp            rep 2:  23.01 ms/token  (median gap  60.85, max   67.2)   337.1 mJ/token  14.7 W  tokens 128  ttft 0.19s  page-ins 0 MB
+qwen9b r2 plain          rep 0:  46.61 ms/token  (median gap  46.74, max   49.1)   505.5 mJ/token  10.8 W  tokens 128  ttft 0.18s  page-ins 3 MB
+qwen9b r2 plain          rep 1:  46.45 ms/token  (median gap  46.58, max   49.1)   506.5 mJ/token  10.9 W  tokens 128  ttft 0.19s  page-ins 1 MB
+qwen9b r2 plain          rep 2:  46.50 ms/token  (median gap  46.70, max   47.5)   505.9 mJ/token  10.9 W  tokens 128  ttft 0.19s  page-ins 10 MB
+qwen9b r2 mlx-lm         rep 0:  45.54 ms/token  (median gap  45.50, max   46.3)   497.4 mJ/token  10.9 W  tokens 128  ttft 0.22s  page-ins 0 MB
+qwen9b r2 mlx-lm         rep 1:  45.51 ms/token  (median gap  45.45, max   46.7)   497.1 mJ/token  10.9 W  tokens 128  ttft 0.24s  page-ins 0 MB
+qwen9b r2 mlx-lm         rep 2:  45.57 ms/token  (median gap  45.52, max   46.2)   498.0 mJ/token  10.9 W  tokens 128  ttft 0.24s  page-ins 0 MB
+done 01:31:36
+state: total = 6144.00M  used = 5102.75M  free = 1041.25M  (encrypted) | System-wide memory free percentage: 84% | top: top 4.5; kernel_task 1.7; node 1.3

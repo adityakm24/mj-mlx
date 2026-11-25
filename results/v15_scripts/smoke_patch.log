@@ -1,0 +1,29 @@
+== olmoe_r1_mj 21:40:50 swap 1906 MB
+  olmoe_r1_mj pp512 rep 0: 1243.37 tok/s, 15 mJ/token GPU
+  olmoe_r1_mj tg128@d0 rep 0: 128.33 tok/s, ttft 0.04 s, 70 mJ/token GPU
+== olmoe_r1_llama-server 21:41:58 swap 1794 MB
+  llama-server: up
+  olmoe_r1_llama-server pp512 rep 0: 1147.11 tok/s, 15 mJ/token GPU
+  olmoe_r1_llama-server tg128@d0 rep 0: 100.69 tok/s, ttft 0.09 s, 98 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## OLMoE-1B-7B-0125-Instruct (general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64 (float16 scales; run in float16); llama.cpp / Ollama (its GGUF runner; its MLX runner rejects OlmoeForCausalLM): allenai Q4_K_M; LM Studio (its MLX engine) and vllm-mlx: the mlx-community 4-bit
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | SoC mJ/token above idle |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| llama-server | pp512 | 1147.11 +- 0.00 | nan-nan | 0.0% | 1 | 15 | 14 |
+| mj | pp512 | 1243.37 +- 0.00 | nan-nan | 0.0% | 1 | 15 | 15 |
+| llama-server | tg128@d0 | 100.69 +- 0.00 | nan-nan | 0.0% | 1 | 98 | 98 |
+| mj | tg128@d0 | 128.33 +- 0.00 | nan-nan | 0.0% | 1 | 70 | 70 |
+
+Peak memory per block (phys_footprint of the process holding the model; swap-ins / -outs over the block, GB):
+
+| block | engine | peak GB | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- |
+| r1_llama-server | llama-server | 1.35 | 0.02 | 0.00 |
+| r1_mj | mj | 4.07 | 0.06 | 0.00 |
+

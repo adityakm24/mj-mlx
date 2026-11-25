@@ -1,0 +1,110 @@
+[
+ {
+  "engine": "llama.cpp",
+  "test": "pp512",
+  "samples_ts": [
+   455.115,
+   450.29,
+   451.648,
+   450.741,
+   445.502
+  ],
+  "avg_ts": 450.659161,
+  "stddev_ts": 3.448504,
+  "n_prompt": 512,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--ggml-org--gpt-oss-20b-GGUF/snapshots/41e8a94d15d62070b36cf4553a0250717ecf46b8/gpt-oss-20b-MXFP4.gguf -fa 1 -ngl 99 -r 5 -o json -p 512 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 9.131943749998754,
+   "gpu_j": 123.899482332,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 3072,
+  "peak_footprint_gb": 0.235398624,
+  "peak_resident_gb": 11.647483904,
+  "swapins_gb": 0.011517952,
+  "swapouts_gb": 0.0,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d0",
+  "samples_ts": [
+   37.0069,
+   37.1089,
+   37.0825,
+   37.115,
+   37.0509
+  ],
+  "avg_ts": 37.072845,
+  "stddev_ts": 0.044717,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--ggml-org--gpt-oss-20b-GGUF/snapshots/41e8a94d15d62070b36cf4553a0250717ecf46b8/gpt-oss-20b-MXFP4.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 19.088619500002096,
+   "gpu_j": 221.018043659,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 641,
+  "peak_footprint_gb": 0.209331584,
+  "peak_resident_gb": 11.871125504,
+  "swapins_gb": 0.026656768,
+  "swapouts_gb": 0.0,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d2048",
+  "samples_ts": [
+   36.0849,
+   33.9521,
+   35.7777,
+   36.0255,
+   36.1204
+  ],
+  "avg_ts": 35.59213,
+  "stddev_ts": 0.926544,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 2048,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--ggml-org--gpt-oss-20b-GGUF/snapshots/41e8a94d15d62070b36cf4553a0250717ecf46b8/gpt-oss-20b-MXFP4.gguf -fa 1 -ngl 99 -r 5 -o json -p 0 -n 128 -d 2048",
+  "energy_window_incl_load": {
+   "seconds": 24.028756750001776,
+   "gpu_j": 322.410415542,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": null,
+  "peak_footprint_gb": 0.345761296,
+  "peak_resident_gb": 12.006899712,
+  "swapins_gb": 0.082116608,
+  "swapouts_gb": 0.104923136,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ }
+]

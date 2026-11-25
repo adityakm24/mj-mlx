@@ -1,0 +1,20 @@
+2026-11-21 09:35:39.886 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) mobilerepaird [4965] due to idle-exit (9)
+2026-11-21 09:35:39.887 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4965 [mobilerepaird] (idle-exit 0 25142s rf:low type:daemon) 3568KB - memorystatus_available_pages: 49542 compressor_size:53400
+2026-11-21 09:35:40.889 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) AppleDeviceQueryService [4967] due to idle-exit (9)
+2026-11-21 09:35:40.894 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4967 [AppleDeviceQueryService] (idle-exit 0 25143s rf:- type:daemon) 2576KB - memorystatus_available_pages: 64755 compressor_size:50769
+2026-11-21 09:35:42.202 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) corerepaird [4966] due to idle-exit (9)
+2026-11-21 09:35:42.209 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4966 [corerepaird] (idle-exit 0 25145s rf:low type:daemon) 4160KB - memorystatus_available_pages: 65910 compressor_size:51265
+2026-11-21 09:35:49.671 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) secinitd [4982] due to idle-exit (9)
+2026-11-21 09:35:49.684 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4982 [secinitd] (idle-exit 0 24535s rf:low type:daemon) 3184KB - memorystatus_available_pages: 73180 compressor_size:51046
+2026-11-21 09:35:51.856 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) MTLAssetUpgraderD [4859] due to idle-exit (9)
+2026-11-21 09:35:51.861 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4859 [MTLAssetUpgraderD] (idle-exit 0 24506s rf:- type:daemon) 4160KB - memorystatus_available_pages: 49499 compressor_size:55387
+2026-11-21 09:36:22.255 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) containermanagerd [4984] due to idle-exit (9)
+2026-11-21 09:36:22.257 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4984 [containermanagerd] (idle-exit 0 24307s rf:- type:daemon) 2944KB - memorystatus_available_pages: 66052 compressor_size:67836
+2026-11-21 09:36:23.259 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) VTDecoderXPCService [2987] due to idle-exit (9)
+2026-11-21 09:36:23.261 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 2987 [VTDecoderXPCService] (idle-exit 0 24026s rf:- type:daemon) 4208KB - memorystatus_available_pages: 28713 compressor_size:43242
+2026-11-21 09:36:24.261 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) localspeechrecognition [5178] due to idle-exit (9)
+2026-11-21 09:36:24.262 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 5178 [localspeechrecognition] (idle-exit 0 17063s rf:low type:daemon) 5264KB - memorystatus_available_pages: 19495 compressor_size:27412
+2026-11-21 09:36:25.264 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) ModelCatalogAgent [965] due to idle-exit (9)
+2026-11-21 09:36:25.267 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 965 [ModelCatalogAgent] (idle-exit 0 16766s rf:- type:daemon) 5392KB - memorystatus_available_pages: 4017 compressor_size:4830
+2026-11-21 09:36:51.754 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) MTLCompilerService [5198] due to idle-exit (9)
+2026-11-21 09:36:51.778 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 5198 [MTLCompilerService] (idle-exit 0 16609s rf:- type:daemon) 13888KB - memorystatus_available_pages: 75265 compressor_size:51318

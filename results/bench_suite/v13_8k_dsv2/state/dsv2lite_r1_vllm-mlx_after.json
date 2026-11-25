@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T12:38:22",
+ "top_cpu": [
+  "33521 calaccessd 10.0",
+  "29102 photolibraryd 6.9",
+  "651 tccd 5.2",
+  "33534 top 4.5",
+  "0 kernel_task 3.5",
+  "33523 remindd 3.3",
+  "1316 Claude Helper (R 3.0",
+  "26278 contactsd 3.0"
+ ],
+ "swap": "total = 3072.00M  used = 1729.44M  free = 1342.56M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 85%",
+ "loadavg": "{ 1.90 2.08 2.32 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1729.44
+}

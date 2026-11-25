@@ -1,0 +1,7 @@
+slots 96 overlap True GPU_STREAM 1: decode 56.7 ms/token (17.63 tok/s), median 49.9; IO thread per token: route wait 41.5 ms, read wait 14.5 ms, misses/token 12.3, keepalive 0 launched 0.0/token
+slots 96 overlap True GPU_STREAM 1: decode 48.1 ms/token (20.78 tok/s), median 42.3; IO thread per token: route wait 28.9 ms, read wait 18.5 ms, misses/token 12.3, keepalive 1 launched 23.5/token
+slots 96 overlap True GPU_STREAM 1: decode 48.2 ms/token (20.75 tok/s), median 41.5; IO thread per token: route wait 29.0 ms, read wait 18.5 ms, misses/token 12.3, keepalive 1 launched 23.5/token
+slots 96 overlap True GPU_STREAM 1: decode 55.4 ms/token (18.04 tok/s), median 46.9; IO thread per token: route wait 39.9 ms, read wait 14.8 ms, misses/token 12.3, keepalive 0 launched 0.0/token
+slots 96 overlap True GPU_STREAM 1: decode 54.7 ms/token (18.30 tok/s), median 46.7; IO thread per token: route wait 31.8 ms, read wait 22.2 ms, misses/token 12.3, keepalive 1 launched 23.5/token
+slots 96 overlap True GPU_STREAM 1: decode 50.3 ms/token (19.88 tok/s), median 43.5; IO thread per token: route wait 29.1 ms, read wait 20.4 ms, misses/token 12.3, keepalive 1 launched 23.5/token
+slots 96 overlap True GPU_STREAM 1: decode 48.7 ms/token (20.53 tok/s), median 42.2; IO thread per token: route wait 29.0 ms, read wait 19.0 ms, misses/token 12.3, keepalive 1 launched 23.5/token

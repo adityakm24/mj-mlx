@@ -1,0 +1,10 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_lm_eval.py --engine mj --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_pack": true, "lean": true} --placement none --tasks mmlu,gsm8k --chat --every 4 --effort low --out results/lm_eval_chat_v1/gptoss_mj_x_nomlock.json
+mmlu 50/285: acc 0.8800 (286 s)
+mmlu 100/285: acc 0.8800 (462 s)
+mmlu 150/285: acc 0.9133 (653 s)
+mmlu 200/285: acc 0.8950 (813 s)
+mmlu 250/285: acc 0.8800 (992 s)
+mmlu: 0.8561 +- 0.0208 (n 285)
+gsm8k 50/63: acc 0.8600 (306 s)
+gsm8k: 0.8571 +- 0.0441 (n 63)

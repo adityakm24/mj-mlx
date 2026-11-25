@@ -1,0 +1,115 @@
+INFO:vllm_mlx.utils.download:Model found at local path: ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.cli:Model route: MLLM (source=config)
+INFO:vllm_mlx.server:Force MLLM mode enabled via --mllm flag
+INFO:vllm_mlx.server:Loading model with BatchedEngine: ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.server:Model loaded (batched mode): ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.server:Default max tokens: 32768
+INFO:vllm_mlx.server:Max request tokens: 32768
+INFO:     Started server process [37514]
+INFO:     Waiting for application startup.
+W1117 15:53:30.798000 37514 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+INFO:vllm_mlx.models.mllm:Loading MLLM: ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.models.mllm:MLLM loaded successfully: ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.models.mllm:Native video pipeline enabled (temporal 3D conv + M-RoPE)
+INFO:vllm_mlx.engine.batched:Metal memory limits set: allocation_limit=11.4GB (90% of 12.7GB), buffer_cache_limit=11.4GB (device-scaled)
+INFO:vllm_mlx.patches.qwen3_5_mtp:[MTP inject] Building TextModelArgs from config dict
+INFO:vllm_mlx.patches.qwen3_5_mtp:[MTP inject] Creating MTP module (1 layers, Dense, hidden_state=post_norm)
+INFO:vllm_mlx.patches.qwen3_5_mtp:[MTP inject] Loading weights from model-mtp.safetensors (BF16, no quantization)
+INFO:vllm_mlx.patches.qwen3_5_mtp:[MTP inject] Applied +1.0 RMSNorm offset to 2 norm weights (legacy raw HF offset detected)
+INFO:vllm_mlx.patches.qwen3_5_mtp:[MTP inject] Loaded 15 MTP weight tensors (native BF16)
+INFO:vllm_mlx.patches.qwen3_5_mtp:[MTP inject] Model class patched with MTP support
+INFO:vllm_mlx.engine.batched:[MTP-MLLM] Qwen3.5 MTP injected successfully
+INFO:vllm_mlx.mllm_scheduler:MLLM Scheduler started with max_num_seqs=256
+INFO:vllm_mlx.engine.batched:MLLM Scheduler started with continuous batching: max_num_seqs=256, prefill_batch=8, completion_batch=32, prefill_step_size=2048
+INFO:vllm_mlx.engine.batched:BatchedEngine loaded: ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp (mllm=True)
+INFO:vllm_mlx.server:[_get_cache_dir] _model_path='~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp' type=<class 'str'>
+INFO:vllm_mlx.server:[_get_cache_dir] cache_dir='~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp'
+INFO:vllm_mlx.server:[lifespan] Loading prefix cache from ~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.mllm_batch_generator:MLLMBatchGenerator: Using VLM's language_model for batched generation
+INFO:vllm_mlx.patches.qwen3_5_mllm:[Qwen3.5 patch] Attention patched for BatchKVCache support
+INFO:vllm_mlx.patches.gemma4_mllm:[Gemma4 patch] Attention patched (mask trim for BatchedEngine)
+INFO:vllm_mlx.patches.glm4v_moe_mllm:[GLM4V patch] GLM4VModel patched for BatchKVCache support
+INFO:vllm_mlx.mllm_batch_generator:MLLMBatchGenerator: Vision cache enabled (size=100)
+INFO:vllm_mlx.memory_cache:MemoryAwarePrefixCache initialized: max_memory=506.5MB, max_entries=1000
+INFO:vllm_mlx.mllm_batch_generator:MLLMBatchGenerator: KV prefix cache enabled
+INFO:vllm_mlx.mllm_batch_generator:[prefix_cache] Normalized chat template: removed last_query_index conditional for prefix-stable assistant turns
+INFO:vllm_mlx.mllm_batch_generator:[think_suffix] Detected think tag '<think>' = 2 token(s)
+INFO:vllm_mlx.mllm_batch_generator:[MTP-MLLM] installed with num_draft_tokens=1, effective_draft_tokens=1, request-local sampler-aware verified mode
+INFO:vllm_mlx.memory_cache:[cache_persist] loaded entry 0: 262 tokens, 57.3MB KV
+INFO:vllm_mlx.memory_cache:[cache_persist] LOADED 1 entries from ~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp in 0.0s (57MB total)
+INFO:vllm_mlx.server:[lifespan] Loaded 1 prefix cache entries
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+WARNING:vllm_mlx.server:SECURITY WARNING: Server running without API key authentication. Anyone can access the API. Use --api-key to enable authentication.
+============================================================
+SECURITY CONFIGURATION
+============================================================
+  Authentication: DISABLED - Use --api-key to enable
+  Rate limiting: DISABLED - Use --rate-limit to enable
+  Request timeout: 300.0s
+  Metrics: DISABLED - Use --enable-metrics to expose /metrics
+  Remote code loading: DISABLED (default)
+  Idle auto-unload: DISABLED
+  Tool calling: Use --enable-auto-tool-choice to enable
+  Reasoning: Use --reasoning-parser to enable
+  Audio upload limit: 25 MiB, TTS input limit: 4096 chars
+============================================================
+Loading model: ~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp
+Default max tokens: 32768
+Max request tokens: 32768
+Mode: Continuous batching (for multiple concurrent users)
+MTP: enabled, requested_draft_tokens=1
+Stream interval: 1 tokens
+Memory-aware cache: 20% of RAM
+Starting server at http://127.0.0.1:8001
+INFO:     127.0.0.1:57178 - "GET /v1/models HTTP/1.1" 200 OK
+INFO:vllm_mlx.server:[REQUEST] POST /v1/completions stream=True max_tokens=128 temp=0.0 top_p=None top_k=None min_p=None presence_penalty=None repetition_penalty=None prompt_chars=166 prompt_preview=<|im_start|>user\nWrite a Python function that returns the n-th Fibonacci number using memoization, and explain it.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n
+INFO:vllm_mlx.server:[disconnect_guard] START poll=0.5s heartbeat=5.0s chunk_timeout=300s
+INFO:     127.0.0.1:57181 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:vllm_mlx.mllm_batch_generator:[sampling] request=22417b5c-c1a temp=0.0 top_p=0.9 top_k=0 min_p=0.0
+INFO:vllm_mlx.server:[disconnect_guard] first chunk arrived, elapsed=1.1s
+INFO:vllm_mlx.mllm_batch_generator:[MTP-MLLM] stats: accepted=41 rejected=9 errors=0 acceptance=82%
+INFO:vllm_mlx.server:[disconnect_guard] poll #10 disconnected=False elapsed=6.0s
+INFO:vllm_mlx.server:[disconnect_guard] generator exhausted normally, 129 chunks, elapsed=6.4s
+INFO:vllm_mlx.server:[disconnect_guard] CLEANUP done, 129 chunks, 0 heartbeats, elapsed=6.4s
+INFO:vllm_mlx.server:[REQUEST] POST /v1/completions stream=True max_tokens=128 temp=0.0 top_p=None top_k=None min_p=None presence_penalty=None repetition_penalty=None prompt_chars=166 prompt_preview=<|im_start|>user\nWrite a Python function that returns the n-th Fibonacci number using memoization, and explain it.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n
+INFO:vllm_mlx.server:[disconnect_guard] START poll=0.5s heartbeat=5.0s chunk_timeout=300s
+INFO:     127.0.0.1:57192 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:vllm_mlx.mllm_batch_generator:[sampling] request=d70e746e-b62 temp=0.0 top_p=0.9 top_k=0 min_p=0.0
+INFO:vllm_mlx.server:[disconnect_guard] first chunk arrived, elapsed=0.3s
+INFO:vllm_mlx.mllm_batch_generator:[MTP-MLLM] stats: accepted=82 rejected=18 errors=0 acceptance=82%
+INFO:vllm_mlx.server:[disconnect_guard] poll #10 disconnected=False elapsed=5.4s
+INFO:vllm_mlx.server:[disconnect_guard] generator exhausted normally, 129 chunks, elapsed=5.6s
+INFO:vllm_mlx.server:[disconnect_guard] CLEANUP done, 129 chunks, 0 heartbeats, elapsed=5.6s
+INFO:vllm_mlx.server:[REQUEST] POST /v1/completions stream=True max_tokens=128 temp=0.0 top_p=None top_k=None min_p=None presence_penalty=None repetition_penalty=None prompt_chars=166 prompt_preview=<|im_start|>user\nWrite a Python function that returns the n-th Fibonacci number using memoization, and explain it.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n
+INFO:vllm_mlx.server:[disconnect_guard] START poll=0.5s heartbeat=5.0s chunk_timeout=300s
+INFO:     127.0.0.1:57197 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:vllm_mlx.mllm_batch_generator:[sampling] request=b6674a93-8b0 temp=0.0 top_p=0.9 top_k=0 min_p=0.0
+INFO:vllm_mlx.server:[disconnect_guard] first chunk arrived, elapsed=0.3s
+INFO:vllm_mlx.mllm_batch_generator:[MTP-MLLM] stats: accepted=122 rejected=28 errors=0 acceptance=81%
+INFO:vllm_mlx.mllm_batch_generator:[MTP-MLLM] stats: accepted=163 rejected=37 errors=0 acceptance=82%
+INFO:vllm_mlx.server:[disconnect_guard] poll #10 disconnected=False elapsed=5.3s
+INFO:vllm_mlx.server:[disconnect_guard] generator exhausted normally, 129 chunks, elapsed=5.7s
+INFO:vllm_mlx.server:[disconnect_guard] CLEANUP done, 129 chunks, 0 heartbeats, elapsed=5.7s
+INFO:vllm_mlx.server:[REQUEST] POST /v1/completions stream=True max_tokens=128 temp=0.0 top_p=None top_k=None min_p=None presence_penalty=None repetition_penalty=None prompt_chars=166 prompt_preview=<|im_start|>user\nWrite a Python function that returns the n-th Fibonacci number using memoization, and explain it.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n
+INFO:vllm_mlx.server:[disconnect_guard] START poll=0.5s heartbeat=5.0s chunk_timeout=300s
+INFO:     127.0.0.1:57205 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:vllm_mlx.mllm_batch_generator:[sampling] request=07c73e32-289 temp=0.0 top_p=0.9 top_k=0 min_p=0.0
+INFO:vllm_mlx.server:[disconnect_guard] first chunk arrived, elapsed=0.3s
+INFO:vllm_mlx.mllm_batch_generator:[MTP-MLLM] stats: accepted=205 rejected=45 errors=0 acceptance=82%
+INFO:vllm_mlx.server:[disconnect_guard] poll #10 disconnected=False elapsed=5.5s
+INFO:vllm_mlx.server:[disconnect_guard] generator exhausted normally, 129 chunks, elapsed=5.7s
+INFO:vllm_mlx.server:[disconnect_guard] CLEANUP done, 129 chunks, 0 heartbeats, elapsed=5.7s
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:vllm_mlx.server:[_get_cache_dir] _model_path='~/.cache/millijoule/Qwen3.5-9B-MLX-4bit-mtp' type=<class 'str'>
+INFO:vllm_mlx.server:[_get_cache_dir] cache_dir='~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp'
+INFO:vllm_mlx.server:[lifespan] Saving prefix cache to ~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.memory_cache:[cache_persist] saved entry 0: 262 tokens, 57.3MB KV, file=~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp/c0b913f870517623/entry_0.safetensors
+INFO:vllm_mlx.memory_cache:[cache_persist] SAVED 1/1 entries to ~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp in 0.0s (57MB total)
+INFO:vllm_mlx.server:[lifespan] Saved prefix cache to ~/.cache/vllm-mlx/prefix_cache/--Users--user--.cache--millijoule--Qwen3.5-9B-MLX-4bit-mtp
+INFO:vllm_mlx.mllm_scheduler:MLLM Scheduler stopped
+INFO:vllm_mlx.engine.batched:BatchedEngine stopped
+INFO:vllm_mlx.server:Engine stopped
+INFO:     Application shutdown complete.
+INFO:     Finished server process [37514]

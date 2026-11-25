@@ -1,0 +1,318 @@
+== gptoss_r1_mj-x 01:11:46 swap 1798 MB
+  prewarm 24 files 1.9 s
+  gptoss_r1_mj-x pp512 rep 0: 393.85 tok/s, 44 mJ/token GPU
+  gptoss_r1_mj-x pp512 rep 1: 396.17 tok/s, 45 mJ/token GPU
+  gptoss_r1_mj-x pp512 rep 2: 400.98 tok/s, 44 mJ/token GPU
+  gptoss_r1_mj-x pp512 rep 3: 401.16 tok/s, 45 mJ/token GPU
+  gptoss_r1_mj-x pp512 rep 4: 400.59 tok/s, 44 mJ/token GPU
+  gptoss_r1_mj-x pp2048 rep 0: 428.97 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj-x pp2048 rep 1: 420.33 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-x pp2048 rep 2: 423.86 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-x pp2048 rep 3: 425.46 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-x pp2048 rep 4: 420.78 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-x tg128@d0 rep 0: 36.10 tok/s, ttft 0.16 s, 291 mJ/token GPU
+  gptoss_r1_mj-x tg128@d0 rep 1: 34.77 tok/s, ttft 0.17 s, 286 mJ/token GPU
+  gptoss_r1_mj-x tg128@d0 rep 2: 34.91 tok/s, ttft 0.17 s, 287 mJ/token GPU
+  gptoss_r1_mj-x tg128@d0 rep 3: 32.22 tok/s, ttft 0.31 s, 301 mJ/token GPU
+  gptoss_r1_mj-x tg128@d0 rep 4: 35.96 tok/s, ttft 0.18 s, 290 mJ/token GPU
+  gptoss_r1_mj-x tg128@d2048 rep 0: 33.63 tok/s, ttft 4.85 s, 317 mJ/token GPU
+  gptoss_r1_mj-x tg128@d2048 rep 1: 35.88 tok/s, ttft 4.82 s, 313 mJ/token GPU
+  gptoss_r1_mj-x tg128@d2048 rep 2: 35.85 tok/s, ttft 4.80 s, 315 mJ/token GPU
+  gptoss_r1_mj-x tg128@d2048 rep 3: 35.92 tok/s, ttft 4.80 s, 317 mJ/token GPU
+  gptoss_r1_mj-x tg128@d2048 rep 4: 35.93 tok/s, ttft 4.78 s, 320 mJ/token GPU
+== gptoss_r1_mj-a8w 01:18:08 swap 1979 MB
+  prewarm 24 files 0.9 s
+  gptoss_r1_mj-a8w pp512 rep 0: 406.50 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj-a8w pp512 rep 1: 404.51 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj-a8w pp512 rep 2: 409.86 tok/s, 45 mJ/token GPU
+  gptoss_r1_mj-a8w pp512 rep 3: 406.41 tok/s, 45 mJ/token GPU
+  gptoss_r1_mj-a8w pp512 rep 4: 408.02 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj-a8w pp2048 rep 0: 437.43 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-a8w pp2048 rep 1: 435.94 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-a8w pp2048 rep 2: 439.21 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-a8w pp2048 rep 3: 437.43 tok/s, 47 mJ/token GPU
+  gptoss_r1_mj-a8w pp2048 rep 4: 425.27 tok/s, 48 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d0 rep 0: 39.97 tok/s, ttft 0.17 s, 254 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d0 rep 1: 39.98 tok/s, ttft 0.16 s, 254 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d0 rep 2: 40.65 tok/s, ttft 0.17 s, 253 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d0 rep 3: 40.62 tok/s, ttft 0.25 s, 253 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d0 rep 4: 39.75 tok/s, ttft 0.18 s, 253 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d2048 rep 0: 38.38 tok/s, ttft 4.71 s, 273 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d2048 rep 1: 38.92 tok/s, ttft 4.71 s, 278 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d2048 rep 2: 39.02 tok/s, ttft 4.68 s, 280 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d2048 rep 3: 39.07 tok/s, ttft 4.69 s, 281 mJ/token GPU
+  gptoss_r1_mj-a8w tg128@d2048 rep 4: 38.50 tok/s, ttft 4.68 s, 284 mJ/token GPU
+== gptoss_r1_llama.cpp 01:24:17 swap 1573 MB
+  prewarm 1 files 5.1 s
+llama.cpp pp512: 433.60 +- 2.07 tok/s
+llama.cpp pp2048: 443.03 +- 3.56 tok/s
+llama.cpp tg128@d0: 36.78 +- 0.41 tok/s
+llama.cpp tg128@d2048: 35.41 +- 0.66 tok/s
+  FLAGGED: swap grew 446 MB
+== gptoss_r1_ollama-gguf 01:26:58 swap 1987 MB
+  gptoss_r1_ollama-gguf pp512 rep 0: 386.49 tok/s, 42 mJ/token GPU
+  gptoss_r1_ollama-gguf pp512 rep 1: 396.14 tok/s, 42 mJ/token GPU
+  gptoss_r1_ollama-gguf pp512 rep 2: 397.74 tok/s, 42 mJ/token GPU
+  gptoss_r1_ollama-gguf pp512 rep 3: 400.60 tok/s, 42 mJ/token GPU
+  gptoss_r1_ollama-gguf pp512 rep 4: 378.67 tok/s, 42 mJ/token GPU
+  gptoss_r1_ollama-gguf pp2048 rep 0: 409.53 tok/s, 42 mJ/token GPU
+  gptoss_r1_ollama-gguf pp2048 rep 1: 406.64 tok/s, 43 mJ/token GPU
+  gptoss_r1_ollama-gguf pp2048 rep 2: 411.42 tok/s, 43 mJ/token GPU
+  gptoss_r1_ollama-gguf pp2048 rep 3: 391.67 tok/s, 43 mJ/token GPU
+  gptoss_r1_ollama-gguf pp2048 rep 4: 404.63 tok/s, 43 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d0 rep 0: 35.40 tok/s, ttft 0.26 s, 345 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d0 rep 1: 35.45 tok/s, ttft 0.22 s, 346 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d0 rep 2: 35.37 tok/s, ttft 0.23 s, 345 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d0 rep 3: 35.82 tok/s, ttft 0.22 s, 345 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d0 rep 4: 35.57 tok/s, ttft 0.22 s, 347 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d2048 rep 0: 34.91 tok/s, ttft 5.10 s, 365 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d2048 rep 1: 34.60 tok/s, ttft 5.08 s, 369 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d2048 rep 2: 34.16 tok/s, ttft 5.10 s, 377 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d2048 rep 3: 34.96 tok/s, ttft 5.33 s, 373 mJ/token GPU
+  gptoss_r1_ollama-gguf tg128@d2048 rep 4: 34.71 tok/s, ttft 5.23 s, 376 mJ/token GPU
+  FLAGGED: swap grew 784 MB
+== gptoss_r1_lmstudio-gguf 01:33:27 swap 2739 MB
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+  gptoss_r1_lmstudio-gguf pp512 rep 0: 391.62 tok/s, 42 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp512 rep 1: 414.08 tok/s, 42 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp512 rep 2: 394.51 tok/s, 42 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp512 rep 3: 417.99 tok/s, 42 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp512 rep 4: 401.44 tok/s, 42 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp2048 rep 0: 423.58 tok/s, 42 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp2048 rep 1: 438.94 tok/s, 43 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp2048 rep 2: 433.71 tok/s, 43 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp2048 rep 3: 431.76 tok/s, 43 mJ/token GPU
+  gptoss_r1_lmstudio-gguf pp2048 rep 4: 431.03 tok/s, 43 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d0 rep 0: 35.98 tok/s, ttft 0.28 s, 345 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d0 rep 1: 35.95 tok/s, ttft 0.27 s, 348 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d0 rep 2: 35.92 tok/s, ttft 0.23 s, 345 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d0 rep 3: 34.54 tok/s, ttft 0.35 s, 355 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d0 rep 4: 36.08 tok/s, ttft 0.33 s, 347 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d2048 rep 0: 33.85 tok/s, ttft 4.91 s, 379 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d2048 rep 1: 33.61 tok/s, ttft 4.83 s, 385 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d2048 rep 2: 33.84 tok/s, ttft 4.82 s, 387 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d2048 rep 3: 33.17 tok/s, ttft 4.83 s, 385 mJ/token GPU
+  gptoss_r1_lmstudio-gguf tg128@d2048 rep 4: 33.64 tok/s, ttft 4.83 s, 387 mJ/token GPU
+== gptoss_r1_llama-server 01:40:00 swap 2031 MB
+  llama-server: up
+  gptoss_r1_llama-server pp512 rep 0: 386.43 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 1: 397.65 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 2: 400.80 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 3: 380.99 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 4: 390.09 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp2048 rep 0: 423.24 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp2048 rep 1: 426.83 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp2048 rep 2: 425.17 tok/s, 43 mJ/token GPU
+  gptoss_r1_llama-server pp2048 rep 3: 427.56 tok/s, 43 mJ/token GPU
+  gptoss_r1_llama-server pp2048 rep 4: 421.80 tok/s, 43 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 0: 36.51 tok/s, ttft 0.28 s, 346 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 1: 35.33 tok/s, ttft 0.23 s, 351 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 2: 36.43 tok/s, ttft 0.21 s, 351 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 3: 36.59 tok/s, ttft 0.21 s, 348 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 4: 34.87 tok/s, ttft 0.22 s, 322 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 0: 36.05 tok/s, ttft 4.97 s, 369 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 1: 35.82 tok/s, ttft 4.89 s, 373 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 2: 35.95 tok/s, ttft 4.91 s, 374 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 3: 36.05 tok/s, ttft 4.94 s, 378 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 4: 35.88 tok/s, ttft 4.91 s, 379 mJ/token GPU
+  FLAGGED: swap grew 506 MB
+== gptoss_r2_llama-server 01:46:15 swap 2481 MB
+  llama-server: up
+  gptoss_r2_llama-server pp512 rep 0: 382.78 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 1: 391.38 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 2: 390.01 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 3: 396.24 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 4: 377.10 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp2048 rep 0: 418.23 tok/s, 43 mJ/token GPU
+  gptoss_r2_llama-server pp2048 rep 1: 422.93 tok/s, 44 mJ/token GPU
+  gptoss_r2_llama-server pp2048 rep 2: 428.45 tok/s, 44 mJ/token GPU
+  gptoss_r2_llama-server pp2048 rep 3: 429.88 tok/s, 44 mJ/token GPU
+  gptoss_r2_llama-server pp2048 rep 4: 423.56 tok/s, 44 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 0: 36.12 tok/s, ttft 0.23 s, 365 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 1: 36.63 tok/s, ttft 0.22 s, 361 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 2: 36.51 tok/s, ttft 0.20 s, 363 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 3: 34.96 tok/s, ttft 0.20 s, 330 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 4: 35.35 tok/s, ttft 0.21 s, 328 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 0: 36.18 tok/s, ttft 4.95 s, 372 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 1: 35.96 tok/s, ttft 4.90 s, 375 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 2: 35.59 tok/s, ttft 4.94 s, 386 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 3: 36.04 tok/s, ttft 4.90 s, 383 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 4: 36.15 tok/s, ttft 4.88 s, 384 mJ/token GPU
+== gptoss_r2_lmstudio-gguf 01:52:30 swap 2070 MB
+  lms load mj-gptoss-lmstudio as mj-gptoss-lmstudio-gguf: ['To use the model in the API/SDK, use the identifier "mj-gptoss-lmstudio-gguf".']
+  gptoss_r2_lmstudio-gguf pp512 rep 0: 387.59 tok/s, 43 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp512 rep 1: 405.97 tok/s, 43 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp512 rep 2: 389.09 tok/s, 42 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp512 rep 3: 383.94 tok/s, 42 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp512 rep 4: 381.85 tok/s, 42 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp2048 rep 0: 432.35 tok/s, 43 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp2048 rep 1: 437.15 tok/s, 43 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp2048 rep 2: 438.36 tok/s, 43 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp2048 rep 3: 435.32 tok/s, 44 mJ/token GPU
+  gptoss_r2_lmstudio-gguf pp2048 rep 4: 440.48 tok/s, 44 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d0 rep 0: 35.98 tok/s, ttft 0.33 s, 347 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d0 rep 1: 35.83 tok/s, ttft 0.31 s, 350 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d0 rep 2: 35.96 tok/s, ttft 0.24 s, 349 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d0 rep 3: 33.64 tok/s, ttft 0.23 s, 353 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d0 rep 4: 36.02 tok/s, ttft 0.23 s, 352 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d2048 rep 0: 33.94 tok/s, ttft 4.83 s, 381 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d2048 rep 1: 33.47 tok/s, ttft 4.84 s, 381 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d2048 rep 2: 33.59 tok/s, ttft 4.83 s, 397 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d2048 rep 3: 33.12 tok/s, ttft 4.91 s, 393 mJ/token GPU
+  gptoss_r2_lmstudio-gguf tg128@d2048 rep 4: 34.31 tok/s, ttft 4.88 s, 395 mJ/token GPU
+  FLAGGED: swap grew 441 MB
+== gptoss_r2_ollama-gguf 01:58:47 swap 2480 MB
+  gptoss_r2_ollama-gguf pp512 rep 0: 329.65 tok/s, 42 mJ/token GPU
+  gptoss_r2_ollama-gguf pp512 rep 1: 360.89 tok/s, 42 mJ/token GPU
+  gptoss_r2_ollama-gguf pp512 rep 2: 355.30 tok/s, 42 mJ/token GPU
+  gptoss_r2_ollama-gguf pp512 rep 3: 353.08 tok/s, 42 mJ/token GPU
+  gptoss_r2_ollama-gguf pp512 rep 4: 355.51 tok/s, 43 mJ/token GPU
+  gptoss_r2_ollama-gguf pp2048 rep 0: 378.57 tok/s, 43 mJ/token GPU
+  gptoss_r2_ollama-gguf pp2048 rep 1: 380.04 tok/s, 43 mJ/token GPU
+  gptoss_r2_ollama-gguf pp2048 rep 2: 344.25 tok/s, 43 mJ/token GPU
+  gptoss_r2_ollama-gguf pp2048 rep 3: 396.60 tok/s, 43 mJ/token GPU
+  gptoss_r2_ollama-gguf pp2048 rep 4: 389.15 tok/s, 43 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d0 rep 0: 34.83 tok/s, ttft 0.31 s, 347 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d0 rep 1: 34.87 tok/s, ttft 0.22 s, 348 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d0 rep 2: 35.65 tok/s, ttft 0.22 s, 346 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d0 rep 3: 35.62 tok/s, ttft 0.22 s, 348 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d0 rep 4: 30.36 tok/s, ttft 0.34 s, 372 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d2048 rep 0: 34.52 tok/s, ttft 5.35 s, 371 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d2048 rep 1: 34.59 tok/s, ttft 5.26 s, 372 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d2048 rep 2: 34.19 tok/s, ttft 5.22 s, 378 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d2048 rep 3: 34.34 tok/s, ttft 5.25 s, 378 mJ/token GPU
+  gptoss_r2_ollama-gguf tg128@d2048 rep 4: 34.77 tok/s, ttft 5.30 s, 379 mJ/token GPU
+== gptoss_r2_llama.cpp 02:05:14 swap 1398 MB
+  prewarm 1 files 3.7 s
+llama.cpp pp512: 381.05 +- 29.66 tok/s
+llama.cpp pp2048: 282.26 +- 64.98 tok/s
+llama.cpp tg128@d0: 35.26 +- 1.42 tok/s
+llama.cpp tg128@d2048: 21.17 +- 14.85 tok/s
+  FLAGGED: swap grew 1236 MB
+== gptoss_r2_mj-a8w 02:09:05 swap 1901 MB
+  prewarm 24 files 3.1 s
+  gptoss_r2_mj-a8w pp512 rep 0: 398.40 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-a8w pp512 rep 1: 401.88 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-a8w pp512 rep 2: 406.09 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-a8w pp512 rep 3: 403.89 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-a8w pp512 rep 4: 406.60 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-a8w pp2048 rep 0: 429.40 tok/s, 49 mJ/token GPU
+  gptoss_r2_mj-a8w pp2048 rep 1: 431.70 tok/s, 48 mJ/token GPU
+  gptoss_r2_mj-a8w pp2048 rep 2: 425.88 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-a8w pp2048 rep 3: 420.36 tok/s, 45 mJ/token GPU
+  gptoss_r2_mj-a8w pp2048 rep 4: 412.54 tok/s, 43 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d0 rep 0: 41.43 tok/s, ttft 0.14 s, 279 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d0 rep 1: 41.60 tok/s, ttft 0.14 s, 280 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d0 rep 2: 41.41 tok/s, ttft 0.14 s, 281 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d0 rep 3: 41.38 tok/s, ttft 0.14 s, 282 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d0 rep 4: 38.75 tok/s, ttft 0.16 s, 289 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d2048 rep 0: 39.17 tok/s, ttft 4.86 s, 293 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d2048 rep 1: 39.19 tok/s, ttft 4.83 s, 279 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d2048 rep 2: 39.31 tok/s, ttft 4.88 s, 267 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d2048 rep 3: 38.56 tok/s, ttft 5.03 s, 252 mJ/token GPU
+  gptoss_r2_mj-a8w tg128@d2048 rep 4: 38.89 tok/s, ttft 5.00 s, 250 mJ/token GPU
+  FLAGGED: swap grew 907 MB
+== gptoss_r2_mj-x 02:15:19 swap 2559 MB
+  prewarm 24 files 0.9 s
+  gptoss_r2_mj-x pp512 rep 0: 392.20 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-x pp512 rep 1: 375.54 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-x pp512 rep 2: 393.35 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-x pp512 rep 3: 398.75 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-x pp512 rep 4: 386.60 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj-x pp2048 rep 0: 425.88 tok/s, 47 mJ/token GPU
+  gptoss_r2_mj-x pp2048 rep 1: 367.13 tok/s, 48 mJ/token GPU
+  gptoss_r2_mj-x pp2048 rep 2: 427.29 tok/s, 48 mJ/token GPU
+  gptoss_r2_mj-x pp2048 rep 3: 419.42 tok/s, 48 mJ/token GPU
+  gptoss_r2_mj-x pp2048 rep 4: 208.19 tok/s, 47 mJ/token GPU
+  gptoss_r2_mj-x tg128@d0 rep 0: 31.09 tok/s, ttft 0.43 s, 333 mJ/token GPU
+  gptoss_r2_mj-x tg128@d0 rep 1: 31.31 tok/s, ttft 0.43 s, 333 mJ/token GPU
+  gptoss_r2_mj-x tg128@d0 rep 2: 31.41 tok/s, ttft 0.31 s, 333 mJ/token GPU
+  gptoss_r2_mj-x tg128@d0 rep 3: 31.47 tok/s, ttft 0.38 s, 331 mJ/token GPU
+  gptoss_r2_mj-x tg128@d0 rep 4: 31.52 tok/s, ttft 0.37 s, 331 mJ/token GPU
+  gptoss_r2_mj-x tg128@d2048 rep 0: 29.45 tok/s, ttft 9.42 s, 358 mJ/token GPU
+  gptoss_r2_mj-x tg128@d2048 rep 1: 29.96 tok/s, ttft 6.73 s, 326 mJ/token GPU
+  gptoss_r2_mj-x tg128@d2048 rep 2: 31.06 tok/s, ttft 9.91 s, 332 mJ/token GPU
+  gptoss_r2_mj-x tg128@d2048 rep 3: 31.59 tok/s, ttft 5.46 s, 329 mJ/token GPU
+  gptoss_r2_mj-x tg128@d2048 rep 4: 32.88 tok/s, ttft 6.23 s, 318 mJ/token GPU
+  FLAGGED: swap grew 413 MB
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp / Ollama / LM Studio (its llama.cpp engine): ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| llama-server | pp512 | 387.50 +- 7.55 | 378.11-396.89 | 1.9% | 5 | 42 | 54 |
+| llama.cpp | pp512 | every block flagged (see below) | | | 0 | - | - |
+| lmstudio-gguf | pp512 | 403.93 +- 11.69 | 389.39-418.47 | 2.9% | 5 | 42 | 50 |
+| mj-a8w | pp512 | 407.06 +- 2.00 | 404.57-409.55 | 0.5% | 5 | 46 | 56 |
+| mj-x | pp512 | 398.55 +- 3.34 | 394.40-402.70 | 0.8% | 5 | 45 | 55 |
+| ollama-gguf | pp512 | 350.89 +- 12.21 | 335.70-366.07 | 3.5% | 5 | 42 | 63 |
+| llama-server | pp2048 | 424.61 +- 4.67 | 418.81-430.41 | 1.1% | 5 | 44 | 83 |
+| llama.cpp | pp2048 | every block flagged (see below) | | | 0 | - | - |
+| lmstudio-gguf | pp2048 | 431.80 +- 5.54 | 424.91-438.69 | 1.3% | 5 | 43 | 69 |
+| mj-a8w | pp2048 | 435.06 +- 5.59 | 428.11-442.01 | 1.3% | 5 | 47 | 80 |
+| mj-x | pp2048 | 423.88 +- 3.56 | 419.45-428.30 | 0.8% | 5 | 47 | 89 |
+| ollama-gguf | pp2048 | 377.72 +- 20.08 | 352.75-402.69 | 5.3% | 5 | 43 | 52 |
+| llama-server | tg128@d0 | 35.91 +- 0.73 | 35.01-36.82 | 2.0% | 5 | 350 | 533 |
+| llama.cpp | tg128@d0 | every block flagged (see below) | | | 0 | - | - |
+| lmstudio-gguf | tg128@d0 | 35.69 +- 0.65 | 34.89-36.50 | 1.8% | 5 | 348 | 782 |
+| mj-a8w | tg128@d0 | 40.20 +- 0.41 | 39.68-40.71 | 1.0% | 5 | 253 | 512 |
+| mj-x | tg128@d0 | 34.79 +- 1.56 | 32.85-36.73 | 4.5% | 5 | 291 | 564 |
+| ollama-gguf | tg128@d0 | 34.26 +- 2.22 | 31.50-37.02 | 6.5% | 5 | 352 | 845 |
+| llama-server | tg128@d2048 | 35.98 +- 0.24 | 35.69-36.28 | 0.7% | 5 | 380 | 865 |
+| llama.cpp | tg128@d2048 | every block flagged (see below) | | | 0 | - | - |
+| lmstudio-gguf | tg128@d2048 | 33.62 +- 0.28 | 33.28-33.96 | 0.8% | 5 | 385 | 877 (1 replies under the requested length; tok/s over the tokens produced) |
+| mj-a8w | tg128@d2048 | 38.77 +- 0.32 | 38.38-39.17 | 0.8% | 5 | 279 | 646 |
+| mj-x | tg128@d2048 | 35.44 +- 1.01 | 34.18-36.70 | 2.9% | 5 | 316 | 742 |
+| ollama-gguf | tg128@d2048 | 34.48 +- 0.22 | 34.20-34.76 | 0.6% | 5 | 376 | 861 (1 replies under the requested length; tok/s over the tokens produced) |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama-server | pp512 | 391.20 +- 8.09 (380.99-400.80) | 5 |
+| llama.cpp | pp512 | 407.32 +- 34.06 (339.02-435.83) | 10 |
+| lmstudio-gguf | pp512 | 389.69 +- 9.54 (381.85-405.97) | 5 |
+| mj-a8w | pp512 | 403.37 +- 3.35 (398.40-406.60) | 5 |
+| mj-x | pp512 | 389.29 +- 8.82 (375.54-398.75) | 5 |
+| ollama-gguf | pp512 | 391.93 +- 9.11 (378.67-400.60) | 5 |
+| llama-server | pp2048 | 424.92 +- 2.41 (421.80-427.56) | 5 |
+| llama.cpp | pp2048 | 362.65 +- 95.20 (202.42-446.01) | 10 |
+| lmstudio-gguf | pp2048 | 436.73 +- 3.08 (432.35-440.48) | 5 |
+| mj-a8w | pp2048 | 423.98 +- 7.69 (412.54-431.70) | 5 |
+| mj-x | pp2048 | 369.58 +- 93.59 (208.19-427.29) | 5 |
+| ollama-gguf | pp2048 | 404.78 +- 7.78 (391.67-411.42) | 5 |
+| llama-server | tg128@d0 | 35.95 +- 0.79 (34.87-36.59) | 5 |
+| llama.cpp | tg128@d0 | 36.02 +- 1.27 (32.74-37.10) | 10 |
+| lmstudio-gguf | tg128@d0 | 35.49 +- 1.03 (33.64-36.02) | 5 |
+| mj-a8w | tg128@d0 | 40.91 +- 1.21 (38.75-41.60) | 5 |
+| mj-x | tg128@d0 | 31.36 +- 0.17 (31.09-31.52) | 5 |
+| ollama-gguf | tg128@d0 | 35.52 +- 0.18 (35.37-35.82) | 5 |
+| llama-server | tg128@d2048 | 35.95 +- 0.11 (35.82-36.05) | 5 |
+| llama.cpp | tg128@d2048 | 28.29 +- 12.43 (4.20-36.10) | 10 |
+| lmstudio-gguf | tg128@d2048 | 33.69 +- 0.45 (33.12-34.31) | 5 |
+| mj-a8w | tg128@d2048 | 39.02 +- 0.30 (38.56-39.31) | 5 |
+| mj-x | tg128@d2048 | 30.99 +- 1.35 (29.45-32.88) | 5 |
+| ollama-gguf | tg128@d2048 | 34.67 +- 0.32 (34.16-34.96) | 5 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_llama-server | llama-server | 1.27 | 11.90 | 0.99 | 1.55 |
+| r1_lmstudio-gguf | lmstudio-gguf | 1.69 | 2.23 | 1.95 | 2.53 |
+| r1_mj-a8w | mj-a8w | 3.18 | 10.37 | 2.02 | 2.21 |
+| r1_mj-x | mj-x | 3.80 | 10.40 | 4.82 | 5.91 |
+| r1_ollama-gguf | ollama-gguf | 1.59 | 10.78 | 1.27 | 2.11 |
+| r2_llama-server | llama-server | 1.27 | 12.06 | 1.33 | 2.03 |
+| r2_lmstudio-gguf | lmstudio-gguf | 1.70 | 10.57 | 0.91 | 1.47 |
+| r2_mj-a8w | mj-a8w | 3.53 | 10.36 | 2.81 | 4.57 |
+| r2_mj-x | mj-x | 3.79 | 10.58 | 25.87 | 27.30 |
+| r2_ollama-gguf | ollama-gguf | 13.40 | 11.73 | 5.31 | 7.24 |
+| r1_llama.cpp | llama.cpp | 0.33 | 11.72 | - | - |
+| r2_llama.cpp | llama.cpp | 0.33 | 11.04 | - | - |
+

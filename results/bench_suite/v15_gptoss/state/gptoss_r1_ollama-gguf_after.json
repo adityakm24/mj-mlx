@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-22T00:22:30",
+ "top_cpu": [
+  "416 WindowServer 23.0",
+  "0 kernel_task 22.3",
+  "1316 Claude Helper (R 18.9",
+  "692 WallpaperAerials 16.7",
+  "7163 VTDecoderXPCServ 7.2",
+  "1243 Claude 6.7",
+  "532 com.apple.Driver 5.9",
+  "3556 mobileassetd 5.7"
+ ],
+ "swap": "total = 4096.00M  used = 2021.56M  free = 2074.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 3.15 2.30 1.77 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2021.44
+}

@@ -1,0 +1,28 @@
+stopped local.service-a
+stopped local.service-b
+stopped sh.brew.openshell
+stopped local.dev-backend
+== E0 llama.cpp 16k check 12:10:52
+== llama.cpp 16k gptoss ub=256 12:10:52
+  -p 16384 -n 0 -d 0 exit 1
+  -p 0 -n 128 -d 16384 exit 1
+== llama.cpp 16k gptoss ub=128 12:11:34
+  -p 16384 -n 0 -d 0 exit 0
+  -p 0 -n 128 -d 16384 exit 0
+  fits at ub=128
+== llama.cpp 16k dsv2lite ub=256 12:16:47
+  -p 16384 -n 0 -d 0 exit 1
+  -p 0 -n 128 -d 16384 exit 1
+== llama.cpp 16k dsv2lite ub=128 12:17:19
+  -p 16384 -n 0 -d 0 exit 1
+  -p 0 -n 128 -d 16384 exit 1
+== E1 dsv2 16k chunk 512 12:18:11
+E1 exit 0 12:26:46
+== E2 dsv2 8k 12:27:16
+E2 exit 0 12:50:27
+all done 12:50:27
+started local.service-a
+started local.service-b
+started sh.brew.openshell
+started local.dev-backend
+cleanup done 12:50:28

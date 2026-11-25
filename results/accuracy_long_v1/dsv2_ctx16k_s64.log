@@ -1,0 +1,13 @@
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (302411 > 16384). Running this sequence through the model will result in indexing errors
+chunk 1/2: ppl 102400.0000
+Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_accuracy_ppl.py", line 173, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx/tools/mlx_accuracy_ppl.py", line 133, in main
+    out = logits(chunk)
+          ^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_accuracy_ppl.py", line 114, in logits
+    return np.array(model.full_logits(x32))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).

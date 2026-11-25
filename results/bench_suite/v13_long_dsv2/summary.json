@@ -1,0 +1,45 @@
+{
+ "dsv2lite": {
+  "model": "DeepSeek-V2-Lite-Chat (MLA, general MoE model)",
+  "weights": "ours / mlx-lm: mlx-community 4-bit g64; ours caches MLA latents, mlx-lm expanded K/V; llama.cpp / Ollama: mradermacher Q4_K_M; LM Studio (its MLX engine) and vllm-mlx: the mlx-community 4-bit",
+  "results": {
+   "vllm-mlx|pp16384": {
+    "engine": "vllm-mlx",
+    "test": "pp16384",
+    "tok_s": null,
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 6,
+    "flagged_tok_s": {
+     "n": 6,
+     "mean": 1209.988514774356,
+     "sd": 52.56078950953689,
+     "median": 1236.7879011772025,
+     "ci95": [
+      1154.8418339452185,
+      1265.1351956034935
+     ],
+     "cv": 0.04343908133651885,
+     "min": 1126.509937076135,
+     "max": 1256.650750079365
+    }
+   },
+   "vllm-mlx|tg128@d16384": {
+    "engine": "vllm-mlx",
+    "test": "tg128@d16384",
+    "tok_s": null,
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 6,
+    "flagged_tok_s": null
+   }
+  },
+  "mj_vs_mlxlm_greedy": {}
+ }
+}

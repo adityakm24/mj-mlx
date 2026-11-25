@@ -1,0 +1,126 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_bench_suite.py --models gptoss --engines llama.cpp,llama-server --tests pp512,tg128@d0,tg128@d2048 --reps 5 --rounds 2 --out results/bench_suite/v17b_gptoss_client
+== gptoss_r1_llama.cpp 07:21:01 swap 5429 MB
+  prewarm 1 files 4.8 s
+llama.cpp pp512: swapped in 0.4 GB, out 0.3 GB
+llama.cpp pp512: 430.65 +- 1.45 tok/s
+llama.cpp tg128@d0: swapped in 0.1 GB, out 0.0 GB
+llama.cpp tg128@d0: 36.48 +- 0.80 tok/s
+llama.cpp tg128@d2048: swapped in 0.3 GB, out 0.0 GB
+llama.cpp tg128@d2048: 35.92 +- 0.35 tok/s
+== gptoss_r1_llama-server 07:23:06 swap 4578 MB
+  llama-server: up
+  gptoss_r1_llama-server pp512 rep 0: 381.22 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 1: 395.38 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 2: 399.60 tok/s, 41 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 3: 392.32 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server pp512 rep 4: 395.36 tok/s, 42 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 0: 36.34 tok/s, ttft 0.25 s, 341 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 1: 35.85 tok/s, ttft 0.21 s, 333 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 2: 34.83 tok/s, ttft 0.23 s, 321 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 3: 34.49 tok/s, ttft 0.22 s, 331 mJ/token GPU
+  gptoss_r1_llama-server tg128@d0 rep 4: 36.57 tok/s, ttft 0.23 s, 343 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 0: 35.92 tok/s, ttft 4.94 s, 361 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 1: 36.03 tok/s, ttft 4.94 s, 363 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 2: 35.99 tok/s, ttft 4.90 s, 363 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 3: 35.69 tok/s, ttft 4.91 s, 365 mJ/token GPU
+  gptoss_r1_llama-server tg128@d2048 rep 4: 36.08 tok/s, ttft 4.91 s, 365 mJ/token GPU
+== gptoss_r2_llama-server 07:27:55 swap 4622 MB
+  llama-server: up
+  gptoss_r2_llama-server pp512 rep 0: 407.46 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 1: 397.21 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 2: 386.72 tok/s, 41 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 3: 402.71 tok/s, 41 mJ/token GPU
+  gptoss_r2_llama-server pp512 rep 4: 383.58 tok/s, 42 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 0: 36.43 tok/s, ttft 0.27 s, 340 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 1: 34.58 tok/s, ttft 0.21 s, 313 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 2: 36.32 tok/s, ttft 0.25 s, 343 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 3: 36.17 tok/s, ttft 0.24 s, 343 mJ/token GPU
+  gptoss_r2_llama-server tg128@d0 rep 4: 36.51 tok/s, ttft 0.23 s, 339 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 0: 35.75 tok/s, ttft 4.94 s, 359 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 1: 36.00 tok/s, ttft 4.94 s, 360 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 2: 36.06 tok/s, ttft 4.91 s, 362 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 3: 36.03 tok/s, ttft 4.92 s, 361 mJ/token GPU
+  gptoss_r2_llama-server tg128@d2048 rep 4: 36.01 tok/s, ttft 4.95 s, 363 mJ/token GPU
+== gptoss_r2_llama.cpp 07:32:45 swap 4695 MB
+  prewarm 1 files 1.0 s
+llama.cpp pp512: swapped in 0.0 GB, out 0.0 GB
+llama.cpp pp512: 450.66 +- 3.45 tok/s
+llama.cpp tg128@d0: swapped in 0.0 GB, out 0.0 GB
+llama.cpp tg128@d0: 37.07 +- 0.04 tok/s
+llama.cpp tg128@d2048: swapped in 0.1 GB, out 0.1 GB
+llama.cpp tg128@d2048: 35.59 +- 0.93 tok/s
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp / Ollama / LM Studio (its llama.cpp engine): ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle | machine, steady state | swap-out MB in window (mean / max) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| llama-server | pp512 | 394.02 +- 8.86 | 387.20-400.84 | 2.2% | 9 | 41 | 51 | - | 4 / 36 |
+| llama.cpp | pp512 | 440.66 +- 10.84 | 432.91-448.40 | 2.5% | 10 | - | - | - | block swap rule only (no window counters) |
+| llama-server | tg128@d0 | 35.96 +- 0.74 | 35.39-36.53 | 2.1% | 9 | 335 | 693 | - | 0 / 0 |
+| llama.cpp | tg128@d0 | 36.78 +- 0.62 | 36.33-37.22 | 1.7% | 10 | - | - | - | block swap rule only (no window counters) |
+| llama-server | tg128@d2048 | 35.98 +- 0.12 | 35.89-36.07 | 0.3% | 9 | 362 | 804 | - | 8 / 63 |
+| llama.cpp | tg128@d2048 | 35.75 +- 0.68 | 35.27-36.24 | 1.9% | 10 | - | - | - | block swap rule only (no window counters) |
+
+Window swap flags (swap-out > 64 MB in the timed window): gptoss_r1_llama-server.jsonl: 2 of 15 reps; gptoss_r2_llama-server.jsonl: 1 of 15 reps
+
+Flagged reps and blocks (excluded above; block reasons in blocks/*.flagged; a rep is also flagged when its timed window swapped out more than 64 MB, and a block when more than half its reps are):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama-server | pp512 | 395.38 +- 0.00 (395.38-395.38) | 1 |
+| llama-server | tg128@d0 | 34.49 +- 0.00 (34.49-34.49) | 1 |
+| llama-server | tg128@d2048 | 35.75 +- 0.00 (35.75-35.75) | 1 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages of the process in RAM that its page tables map, which counts a mapped weight file only where the CPU touched it: a file the GPU reads through a no-copy buffer, as llama.cpp's Metal backend does, can read near 0 or near its full size depending on how it was paged in, so resident is not comparable across engines); swap-ins / -outs over the whole block (load included):
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_llama-server | llama-server | 0.91 | 10.78 | 0.60 | 0.71 |
+| r2_llama-server | llama-server | 0.91 | 11.96 | 0.65 | 0.76 |
+| r1_llama.cpp | llama.cpp | 0.35 | 11.97 | - | - |
+| r2_llama.cpp | llama.cpp | 0.35 | 12.01 | - | - |
+
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_bench_suite.py --summary-only --models gptoss --out results/bench_suite/v17b_gptoss_client
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp / Ollama / LM Studio (its llama.cpp engine): ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle | machine, steady state | swap-out MB in window (mean / max) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| llama-server | pp512 | 394.02 +- 8.86 | 387.20-400.84 | 2.2% | 9 | 41 | 51 | - | 4 / 36 |
+| llama.cpp | pp512 | 440.66 +- 10.84 | 432.91-448.40 | 2.5% | 10 | - | - | - | block swap rule only (no window counters) |
+| llama-server | tg128@d0 | 35.96 +- 0.74 | 35.39-36.53 | 2.1% | 9 | 335 | 693 | - | 0 / 0 |
+| llama.cpp | tg128@d0 | 36.78 +- 0.62 | 36.33-37.22 | 1.7% | 10 | - | - | - | block swap rule only (no window counters) |
+| llama-server | tg128@d2048 | 35.98 +- 0.12 | 35.89-36.07 | 0.3% | 9 | 362 | 804 | - | 8 / 63 |
+| llama.cpp | tg128@d2048 | 35.75 +- 0.68 | 35.27-36.24 | 1.9% | 10 | - | - | - | block swap rule only (no window counters) |
+
+Window swap flags (swap-out > 64 MB in the timed window): gptoss_r1_llama-server.jsonl: 2 of 15 reps; gptoss_r2_llama-server.jsonl: 1 of 15 reps
+
+Flagged reps and blocks (excluded above; block reasons in blocks/*.flagged; a rep is also flagged when its timed window swapped out more than 64 MB, and a block when more than half its reps are):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama-server | pp512 | 395.38 +- 0.00 (395.38-395.38) | 1 |
+| llama-server | tg128@d0 | 34.49 +- 0.00 (34.49-34.49) | 1 |
+| llama-server | tg128@d2048 | 35.75 +- 0.00 (35.75-35.75) | 1 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages of the process in RAM that its page tables map, which counts a mapped weight file only where the CPU touched it: a file the GPU reads through a no-copy buffer, as llama.cpp's Metal backend does, can read near 0 or near its full size depending on how it was paged in, so resident is not comparable across engines); swap-ins / -outs over the whole block (load included):
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_llama-server | llama-server | 0.91 | 10.78 | 0.60 | 0.71 |
+| r2_llama-server | llama-server | 0.91 | 11.96 | 0.65 | 0.76 |
+| r1_llama.cpp | llama.cpp | 0.35 | 11.97 | - | - |
+| r2_llama.cpp | llama.cpp | 0.35 | 12.01 | - | - |
+

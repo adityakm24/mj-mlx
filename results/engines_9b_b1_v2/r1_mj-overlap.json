@@ -1,0 +1,59 @@
+{
+ "arm": "mj_overlap",
+ "engine": "mj-overlap",
+ "round": 1,
+ "weights": "mlx-community/Qwen3.5-9B-MLX-4bit",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "url": null,
+ "model_id": null,
+ "prompt": "256 ids from RandomState(0).randint(0, 200000)",
+ "prompt_len": 256,
+ "new_tokens": 128,
+ "metric_notes": "Single-request decode, any engine on this Mac, measured the same way: one 256-token prompt, 128 new tokens.\n\nPer run, after one unmeasured warm-up run:\n- decode_ms_per_token: (time of last token - time of first token) / (tokens - 1). The prompt's prefill is excluded.\n- gpu_mj_per_token: IOReport GPU-rail energy over the same first-to-last-token window / (tokens - 1). This is\n  whole-GPU energy including idle, so other apps count too; Mac-only.\n- decode_gap_median_ms / _max_ms: median and max time between token arrivals (a chunk of several tokens counts once).\n- --diff (openai only): decode ms and mJ per token = (128-token request - 32-token request) / token difference,\n  unstreamed. Used for LM Studio, whose MLX stream holds back early tokens: streaming timing understated its\n  ms/token (42-44 streamed vs 54.4 by difference, 2026-11-17).\n- ttft_s: request start to first token (includes the prefill of the 256 prompt tokens).\n\nEngines:\n- mj, mj-overlap, mlx-lm: in-process, on the MLX checkpoint, with the exact token ids.\n- llama-server: llama.cpp's HTTP server, /completion with the exact token ids, ignore_eos, streamed.\n- openai: any OpenAI-compatible server (LM Studio) on /v1/completions. It takes text, so the prompt is the\n  checkpoint tokenizer's decode of the same ids. EOS cannot be ignored, so a run that stops early is recorded\n  with its real token count and flagged short. Tokens are the server's usage count (a streamed chunk may carry\n  several tokens); the window still runs first chunk to last chunk, so a multi-token first chunk slightly\n  understates ms/token. LM Studio reuses a cached prompt across requests, so its ttft_s is not a prefill time.\n",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "runs": [
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 50.37295078770734,
+   "gpu_mj_per_token": 524.1681050708662,
+   "decode_gap_median_ms": 50.565166980959475,
+   "decode_gap_max_ms": 58.630208019167185,
+   "gpu_w": 10.404215581891702,
+   "gpu_active_pct": 99.98403761504923,
+   "ttft_s": 1.2641567080281675,
+   "window_s": 6.397364750038832,
+   "gpu_j": 66.569349344,
+   "chunks": 128,
+   "rep": 0
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 51.38258070879301,
+   "gpu_mj_per_token": 501.57696239370085,
+   "decode_gap_median_ms": 51.56824993900955,
+   "decode_gap_max_ms": 56.33720906917006,
+   "gpu_w": 9.75960800780652,
+   "gpu_active_pct": 99.99023530177674,
+   "ttft_s": 1.2798859579488635,
+   "window_s": 6.525587750016712,
+   "gpu_j": 63.700274224000005,
+   "chunks": 128,
+   "rep": 1
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 52.75106266155604,
+   "gpu_mj_per_token": 470.4607489133859,
+   "decode_gap_median_ms": 52.464290987700224,
+   "decode_gap_max_ms": 60.84816704969853,
+   "gpu_w": 8.917078657548064,
+   "gpu_active_pct": 99.98475659722104,
+   "ttft_s": 1.2976541249081492,
+   "window_s": 6.6993849580176175,
+   "gpu_j": 59.74851511200001,
+   "chunks": 128,
+   "rep": 2
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+10:17:08 warm start (run swap-outs so far 0.0 GB)
+10:17:25 warm: rc 0, 17 s
+10:17:25 pin_ab start (run swap-outs so far 0.6 GB)
+11:02:30 pin_ab: rc 0, 2705 s
+11:02:30 qa16 start (run swap-outs so far 23.2 GB)
+11:12:33 qa16: rc 0, 603 s
+V17G_DONE {"warm": "rc 0, 17 s", "pin_ab": "rc 0, 2705 s", "qa16": "rc 0, 603 s", "_run_swapouts_gb": 30.35}

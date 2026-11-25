@@ -1,0 +1,36 @@
+
+[ub256] short request failed
+
+[ub128] short request failed
+
+[ngl-default-partial-offload] short request ok
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_bench_worker.py --engine openai --label llama-server --model ~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216 --tests pp512,tg128@d0 --reps 2 --tag ngl-default-partial-offload --api-url http://127.0.0.1:8092 --api-model bench --out results/dsv2_llama_server_debug_v1/worker_ngl-default-partial-offload.jsonl
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+ngl-default-partial-offload pp512 rep 0: 179.33 tok/s, 29 mJ/token GPU
+ngl-default-partial-offload pp512 rep 1: 151.67 tok/s, 29 mJ/token GPU
+ngl-default-partial-offload tg128@d0 rep 0: 43.32 tok/s, ttft 0.42 s, 206 mJ/token GPU
+ngl-default-partial-offload tg128@d0 rep 1: 48.03 tok/s, ttft 0.25 s, 208 mJ/token GPU
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_longctx_qa.py --model ~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216 --engine llama-server --ctx 4096,8192 --docs 12 --out results/longctx_qa_v1/dsv2lite_llama_ngl-default-partial-offload.json --placement auto
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+ctx 4096 doc 0 depth 0.06: correct (3999 tokens, 12.6 s)
+ctx 4096 doc 1 depth 0.19: correct (3988 tokens, 13.4 s)
+ctx 4096 doc 2 depth 0.31: correct (3979 tokens, 13.2 s)
+ctx 4096 doc 3 depth 0.44: correct (3999 tokens, 12.2 s)
+ctx 4096 doc 4 depth 0.56: correct (3999 tokens, 12.5 s)
+ctx 4096 doc 5 depth 0.69: correct (3999 tokens, 13.3 s)
+ctx 4096 doc 6 depth 0.81: correct (3999 tokens, 12.4 s)
+ABORTED: swap-outs 20.4 GB passed 20 GB (MJ_SWAP_ABORT_GB)
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_lm_eval.py --engine llama-server --model ~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216 --tasks mmlu,gsm8k --out results/lm_eval_v1/dsv2lite_llama_ngl-default-partial-offload.json
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+mmlu 50/1140: acc 0.4200 (63 s)
+mmlu 100/1140: acc 0.5200 (134 s)
+mmlu 150/1140: acc 0.5133 (211 s)
+mmlu 200/1140: acc 0.5200 (297 s)
+mmlu 250/1140: acc 0.4920 (355 s)
+mmlu 300/1140: acc 0.5100 (424 s)
+mmlu 350/1140: acc 0.4943 (508 s)
+mmlu 400/1140: acc 0.5000 (578 s)
+ABORTED: swap-outs 20.0 GB passed 20 GB (MJ_SWAP_ABORT_GB)

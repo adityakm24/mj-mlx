@@ -1,0 +1,85 @@
+{
+ "args": {
+  "attn_bits": null,
+  "kv": 128,
+  "tokens": 16,
+  "reps": 5,
+  "out": "results/mlx/gptoss_decode_parts/parts_pack_kv128.json"
+ },
+ "parts": {
+  "attn_qkv": {
+   "ms_per_token": 5.566268249822315,
+   "ms_all": [
+    5.4821640624140855,
+    5.548984375309374,
+    5.585270812844101,
+    5.5992057496041525,
+    5.566268249822315
+   ],
+   "bytes_per_token": 543134640,
+   "gb_s": 97.5760807103283
+  },
+  "attn_o": {
+   "ms_per_token": 4.406158812344074,
+   "ms_all": [
+    4.379867187708442,
+    4.395974000544811,
+    4.4667499996648985,
+    4.406158812344074,
+    4.413104186824057
+   ],
+   "bytes_per_token": 434222778,
+   "gb_s": 98.54905292644088
+  },
+  "router": {
+   "ms_per_token": 0.2154843741664081,
+   "ms_all": [
+    0.2052109375654254,
+    0.2037187505266047,
+    0.2154843741664081,
+    0.22604687546845526,
+    0.21867706254852237
+   ],
+   "bytes_per_token": 8847360,
+   "gb_s": 41.058011905622514
+  },
+  "experts": {
+   "ms_per_token": 13.913177124777576,
+   "ms_all": [
+    14.2541171881021,
+    13.913177124777576,
+    13.879575561986712,
+    13.794382812193362,
+    13.918593750531727
+   ],
+   "bytes_per_token": 1269043200.0,
+   "gb_s": 91.21160383561836
+  },
+  "sdpa": {
+   "ms_per_token": 0.17449218830734026,
+   "ms_all": [
+    0.17699999989417847,
+    0.1780182501534,
+    0.17337756253255066,
+    0.17381768793711672,
+    0.17449218830734026
+   ],
+   "bytes_per_token": 6291456,
+   "gb_s": 36.05580319113541
+  },
+  "head": {
+   "ms_per_token": 3.792742187215481,
+   "ms_all": [
+    3.79658337442379,
+    3.8055521254136693,
+    3.788572937992285,
+    3.775778624913073,
+    3.792742187215481
+   ],
+   "bytes_per_token": 325762560,
+   "gb_s": 85.89103712297545
+  }
+ },
+ "sum_ms": 28.068322936633194,
+ "notes": "gpt-oss-20b decode step by part: each part run for all 24 layers as one token would (batch 1, decode shapes),\nrepeated, timed as GPU-bound throughput (lazy graph of N tokens' worth, one eval). With the bytes each part reads,\nthat gives achieved GB/s per part, to compare with the measured whole step (tools/mlx_bench_suite.py tg128).\n\nParts: attn_qkv / attn_o (the layer's projection path: bf16_pack.matvec, or 8-bit affine with --attn-bits 8),\nrouter (addmm + top-4 + softmax), experts (4 routed MXFP4 experts: gate_up, swiglu, down, weighted sum), sdpa (paged\ndecode attention at --kv tokens, sliding and full layers as the model has them), head (4-bit candidates, top-16,\nfloat32 rescore from the on-disk bf16 rows: greedy_from).\n\n    .venv/bin/python tools/mlx_gptoss_decode_parts.py --out results/mlx/gptoss_decode_parts/r1.json\n"
+}

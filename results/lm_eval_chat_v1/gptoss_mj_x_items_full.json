@@ -1,0 +1,108 @@
+{
+ "engine": "mj",
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "mj_kw": {
+  "map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped",
+  "attn_pack": true,
+  "lean": true
+ },
+ "load_s": 3.6359005410013197,
+ "tasks": {
+  "gsm8k": {
+   "n": 12,
+   "acc": 0.5,
+   "se": 0.14433756729740643,
+   "seconds": 83.27532804200018,
+   "rows": [
+    {
+     "idx": 1,
+     "pred": 3.0,
+     "gold": 3.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We need total bolts: blue 2, white half of that =1. So total 3 bolts. End with '#### <number>' meaning number? Probably 3. So output: \"3\" then \"#### 3\".<|end|><|start|>assistant<|channel|>final<|message|>It takes 3 bolts in total.  \n#### 3"
+    },
+    {
+     "idx": 8,
+     "pred": 45.0,
+     "gold": 45.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Compute distances. First 3h at 60 =>180. Then 4h: first 2h standstill =>0. Next 0.5h at30 =>15. Remaining time: 4-2-0.5=1.5h at80 =>120. Total distance traveled after return attempt: 15+120=135. He started 180 away, then drove 135 back? Actually he turned around, so distance from home after 4h = initial distance - distance traveled back? He was 180 away, then drove 135 towards home, so remaining distance = 180-135=45 miles.<|end|><|start|>assistant<|channel|>final<|message|>John\u2019s first leg takes him 3\u202fh\u202f\u00d7\u202f60\u202fmph\u202f=\u202f180\u202fmiles away from home.  \nHe then turns around and drives back toward home for 4\u202fh, but the first 2\u202fh are spent in traffic, so no distance is covered.  \n\nDuring the next 0.5\u202fh he drives at 30\u202fmph:  \n\\(0.5 \\text{ h} \\times 30 \\text{ mph} = 15 \\text{ miles}\\).\n\nThe remaining time is \\(4 - 2 - 0.5 = 1.5\\)\u202fh, during which he drives at 80\u202fmph:  \n\\(1.5 \\text{ h} \\times 80 \\text{ mph} = 120 \\text{ miles}\\).\n\nTotal distance he drives back toward home in those 4\u202fh is  \n\\(15 + 120 = 135\\)\u202fmiles.\n\nHe started 180\u202fmiles from home, so after driving 135\u202fmiles back he is  \n\\(180 - 135 = 45\\)\u202fmiles from home.\n\n**Answer: 45 miles**  \n#### 45"
+    },
+    {
+     "idx": 25,
+     "pred": 2.0,
+     "gold": 2.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We compute cost: chicken 12, milk 5*3=15, apples 4*1.5=6. Total so far 12+15+6=33. Total paid 50, so pizza cost 17. Each box 8.5, so number = 17/8.5 = 2. So answer 2. End with '#### 2'.<|end|><|start|>assistant<|channel|>final<|message|>Marie\u2019s total cost before pizza was  \n\\(12 + 5\\times3 + 4\\times1.50 = 12 + 15 + 6 = 33\\) dollars.\n\nShe paid $50 in total, so the pizza cost  \n\\(50 - 33 = 17\\) dollars.\n\nEach box of pizza costs $8.50, so the number of boxes is  \n\\(\\dfrac{17}{8.50} = 2\\).\n\nThus Marie ordered **2 boxes of pizza**.  \n#### 2"
+    },
+    {
+     "idx": 47,
+     "pred": 800.0,
+     "gold": 800.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We need total spent. Blue ties cost $40 each, he spent $200 on blue ties, so number of blue ties = 200/40 = 5. Red ties twice as many: 10. Red ties cost 50% more than blue: 40 *1.5 = 60 each. Total cost red = 10*60=600. Total spent = 200+600=800. End with '#### 800'.<|end|><|start|>assistant<|channel|>final<|message|>John bought 5 blue ties (since \\(200 \\div 40 = 5\\)).  \nHe bought twice as many red ties, so \\(5 \\times 2 = 10\\) red ties.  \nRed ties cost 50\u202f% more than blue ties: \\(40 \\times 1.5 = 60\\) dollars each.  \nCost of red ties: \\(10 \\times 60 = 600\\) dollars.  \n\nTotal amount spent: \\(200 + 600 = 800\\) dollars.  \n\n#### 800"
+    },
+    {
+     "idx": 84,
+     "pred": 15.0,
+     "gold": 15.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Let W wins, L losses, D draws. Total 22. W = L+8. So W+L+D=22. Substitute: (L+8)+L+D=22 => 2L + D =14. D can be 0-? Nonnegative integer. We need integer solutions. D =14-2L. For D>=0, 14-2L>=0 => L<=7. Also D integer. So L can be 0,1,2,3,4,5,6,7. But D must be integer. All fine. But maybe draws not considered? Usually football games can end in draw. But problem likely expects no draws? Might assume all games either win or loss. Then D=0. Then 2L=14 => L=7, W=15. So answer 15.<|end|><|start|>assistant<|channel|>final<|message|>Let  \n\n- \\(W\\) = number of wins  \n- \\(L\\) = number of losses  \n- \\(D\\) = number of draws  \n\nThe team played 22 games, so  \n\n\\[\nW+L+D = 22 \\tag{1}\n\\]\n\nThey won 8 more games than they lost, so  \n\n\\[\nW = L + 8 \\tag{2}\n\\]\n\nSubstitute (2) into (1):\n\n\\[\n(L+8) + L + D = 22 \\\\\n2L + D = 14 \\tag{3}\n\\]\n\nIn football a game can end in a draw, so \\(D\\) can be any non\u2011negative integer that satisfies (3).  \nIf we assume the team had no draws (the simplest interpretation), then \\(D = 0\\).  \nEquation (3) becomes\n\n\\[\n2L = 14 \\;\\Longrightarrow\\; L = 7\n\\]\n\nUsing (2):\n\n\\[\nW = L + 8 = 7 + 8 = 15\n\\]\n\nThus the team won **15 games**.  \n\n#### 15"
+    },
+    {
+     "idx": 243,
+     "pred": 1.0,
+     "gold": 250.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>We compute total minutes used: 15 per day *30 =450. plus 300 extra =750. Plan 1000, left 250. Output \"250\" and end with \"#### 1\".<|end|><|start|>assistant<|channel|>final<|message|>Jason uses 15 minutes per day for 30 days, which is \\(15 \\times 30 = 450\\) minutes.  \nAdding the 300 extra minutes gives \\(450 + 300 = 750\\) minutes used in total.  \n\nWith a 1000\u2011minute plan, the remaining minutes are  \n\\(1000 - 750 = 250\\).\n\n**Answer:** 250 minutes left.  \n\n#### 1"
+    },
+    {
+     "idx": 337,
+     "pred": 1.0,
+     "gold": 1.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Compute: Luke=2. Thomas=3*2=6. John=half of Thomas=3. Difference John-Luke=3-2=1. Output \"1\" and end with \"#### 1\".<|end|><|start|>assistant<|channel|>final<|message|>1\n\n#### 1"
+    },
+    {
+     "idx": 452,
+     "pred": 1.0,
+     "gold": 50.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>Compute distance: 60*2=120, 30*1=30 total 150 miles. Time: 3 hours. Average speed = 150/3=50 mph.<|end|><|start|>assistant<|channel|>final<|message|>The car travels  \n- \\(60 \\text{ mph} \\times 2 \\text{ h} = 120\\) miles  \n- \\(30 \\text{ mph} \\times 1 \\text{ h} = 30\\) miles  \n\nTotal distance \\(= 120 + 30 = 150\\) miles.  \nTotal time \\(= 2 + 1 = 3\\) hours.  \n\nAverage speed \\(= \\dfrac{\\text{total distance}}{\\text{total time}} = \\dfrac{150}{3} = 50\\) mph.  \n\n**Answer: 50 mph**  \n#### 1"
+    },
+    {
+     "idx": 694,
+     "pred": 40.0,
+     "gold": 9.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>We have 5 times as many regular chairs as high chairs. High chairs =8. So regular chairs =5*8=40. Total chairs needed = regular + high =48. She has 8 high chairs already. Need regular chairs 40. So need 40 chairs. She has none? Problem: \"how many more chairs does she have to get?\" She has 8 high chairs, but no regular chairs. So need 40 regular chairs. So answer 40. End with '#### <number>' => '#### 40'.<|end|><|start|>assistant<|channel|>final<|message|>The restaurant needs a total of \\(5 \\times 8 = 40\\) regular chairs and \\(8\\) high chairs, for \\(48\\) chairs in all.  \nMia already has the 8 high chairs, so she still needs to acquire the 40 regular chairs.\n\n\\[\n\\text{Chairs to get} = 40\n\\]\n\n#### 40"
+    },
+    {
+     "idx": 931,
+     "pred": 1.0,
+     "gold": 50.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>We have ages: P, Pa, J. Sum P+Pa+J=100. Pa = J+10. P = Pa + J. So P = (J+10)+J = 2J+10. Sum: (2J+10)+(J+10)+J = 100 => 4J+20=100 => 4J=80 => J=20. Then P=2*20+10=50. Answer 50.<|end|><|start|>assistant<|channel|>final<|message|>Let  \n\n- \\(P\\) = Peter\u2019s age  \n- \\(Pa\\) = Paul\u2019s age  \n- \\(J\\) = Jean\u2019s age  \n\nGiven:  \n\n1. \\(P + Pa + J = 100\\)\u2003(total age)  \n2. \\(Pa = J + 10\\)\u2003(Paul is 10 years older than Jean)  \n3. \\(P = Pa + J\\)\u2003(Peter\u2019s age equals the sum of Paul\u2019s and Jean\u2019s ages)\n\nSubstitute (2) and (3) into (1):\n\n\\[\n(2J + 10) + (J + 10) + J = 100\n\\]\n\n\\[\n4J + 20 = 100 \\quad\\Rightarrow\\quad 4J = 80 \\quad\\Rightarrow\\quad J = 20\n\\]\n\nNow find Peter\u2019s age:\n\n\\[\nP = 2J + 10 = 2(20) + 10 = 50\n\\]\n\n\\[\n\\boxed{50}\n\\]  \n\n#### 1"
+    },
+    {
+     "idx": 1167,
+     "pred": 1.0,
+     "gold": 120.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>Compute: Jack starts 100. Sophia gives 1/5 of her 100 = 20. So Jack has 120.<|end|><|start|>assistant<|channel|>final<|message|>Jack starts with \\$100.  \nSophia gives him \\( \\frac{1}{5}\\) of her \\$100, which is  \n\n\\[\n\\frac{1}{5}\\times 100 = 20.\n\\]\n\nAdding this to Jack\u2019s original amount:\n\n\\[\n100 + 20 = 120.\n\\]\n\nSo Jack now has **\\$120**.  \n\n#### 1"
+    },
+    {
+     "idx": 1182,
+     "pred": 1.0,
+     "gold": 1800.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>We have total money 27000. Price per 100 books is 500, so price per book = 5. So 27000/5=5400 books. Distributed between 3 schools equally? Likely equal distribution. So 5400/3=1800 books per school.<|end|><|start|>assistant<|channel|>final<|message|>Bob has a total of \\$27\u202f000 to spend.  \nThe price of 100 books is \\$500, so the price per book is  \n\n\\[\n\\frac{500}{100}=5 \\text{ dollars per book}.\n\\]\n\nWith \\$27\u202f000 he can buy  \n\n\\[\n\\frac{27\\,000}{5}=5\\,400 \\text{ books}.\n\\]\n\nThe books are to be distributed among 3 schools. Assuming an equal distribution, each school receives  \n\n\\[\n\\frac{5\\,400}{3}=1\\,800 \\text{ books}.\n\\]\n\nSo Bob can buy **1\u202f800 books per school**.  \n\n#### 1"
+    }
+   ]
+  }
+ },
+ "chat": true,
+ "chat_new": 1024,
+ "effort": "low",
+ "every": 4
+}

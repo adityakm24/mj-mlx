@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T06:07:24",
+ "top_cpu": [
+  "604 WindowServer 20.6",
+  "0 kernel_task 5.9",
+  "34417 top 5.2",
+  "34295 Activity Monitor 4.7",
+  "1286 Claude 4.0",
+  "1111 MenuBarAgent 3.7",
+  "1400 node 2.4",
+  "608 loginwindow 1.8"
+ ],
+ "swap": "total = 5120.00M  used = 4261.00M  free = 859.00M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 78%",
+ "loadavg": "{ 5.80 6.81 4.00 }"
+}

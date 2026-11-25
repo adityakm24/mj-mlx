@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T12:49:57",
+ "top_cpu": [
+  "35053 top 3.2",
+  "479 airportd 3.1",
+  "0 kernel_task 3.1",
+  "416 WindowServer 2.9",
+  "657 ControlCenter 2.7",
+  "550 coreaudiod 2.5",
+  "417 tccd 2.2",
+  "1316 Claude Helper (R 2.1"
+ ],
+ "swap": "total = 3072.00M  used = 1387.19M  free = 1684.81M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 1.25 1.45 1.86 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1387.19
+}

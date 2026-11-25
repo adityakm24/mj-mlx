@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T22:09:29",
+ "top_cpu": [
+  "10161 top 5.0",
+  "1400 node 2.2",
+  "0 kernel_task 2.1",
+  "1414 openshell-gatewa 0.9",
+  "1720 openshell-driver 0.7",
+  "1693 openshell-driver 0.7",
+  "1741 openshell-driver 0.7",
+  "1302 Finder 0.5"
+ ],
+ "swap": "total = 5120.00M  used = 3607.94M  free = 1512.06M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 2.09 2.25 2.12 }"
+}

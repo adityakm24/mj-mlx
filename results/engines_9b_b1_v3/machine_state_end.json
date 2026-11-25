@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T08:37:15",
+ "top_cpu": [
+  "1791 TGOnDeviceInfere 22.0",
+  "41173 claude 20.9",
+  "45091 Claude Helper (R 9.9",
+  "98470 stickersd 7.6",
+  "98607 top 7.2",
+  "0 kernel_task 5.7",
+  "1795 TGOnDeviceInfere 4.1",
+  "795 modelmanagerd 3.5"
+ ],
+ "swap": "total = 9216.00M  used = 8398.12M  free = 817.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 66%",
+ "loadavg": "{ 2.96 2.53 2.10 }"
+}

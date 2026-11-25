@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T20:38:51",
+ "top_cpu": [
+  "4052 spotlightknowled 89.8",
+  "5346 top 6.4",
+  "0 kernel_task 1.8",
+  "1400 node 1.5",
+  "3167 signpost_reporte 0.8",
+  "1475 Claude Helper (R 0.6",
+  "1693 openshell-driver 0.5",
+  "1741 openshell-driver 0.5"
+ ],
+ "swap": "total = 4096.00M  used = 2404.25M  free = 1691.75M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 72%",
+ "loadavg": "{ 2.01 2.55 6.42 }"
+}

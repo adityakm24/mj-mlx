@@ -1,0 +1,18 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label mlock --out results/load_profile_v1/gptoss_a8w.jsonl
+{"import": 0.13916266700107371, "load_model": 2.991931709002529, "engine": 2.987487874997896, "first_token": 1.6948281250006403, "next_32_tokens": null, "total_to_first_token": 7.859215917000256} 10.1523456
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label mlock-bg --out results/load_profile_v1/gptoss_a8w.jsonl
+{"import": 0.1844135829996958, "load_model": 2.2911902499981807, "engine": 2.2931500830018194, "first_token": 1.3112270419987908, "next_32_tokens": null, "total_to_first_token": 6.100917457999458} 9.7293312
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label no-mlock --out results/load_profile_v1/gptoss_a8w.jsonl
+{"import": 0.17607512500035227, "load_model": 2.073258291999082, "engine": 2.9554556669972953, "first_token": 1.2999782499973662, "next_32_tokens": null, "total_to_first_token": 6.51939929099899} 0.0
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label mlock --out results/load_profile_v1/gptoss_a8w.jsonl
+{"import": 0.19971570800043992, "load_model": 2.6876712500015856, "engine": 3.2524784170018393, "first_token": 1.8619784580005216, "next_32_tokens": null, "total_to_first_token": 8.057302750003146} 10.1523456
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label mlock-bg --out results/load_profile_v1/gptoss_a8w.jsonl
+{"import": 0.21838766699875123, "load_model": 2.2438542080017214, "engine": 1.896037875001639, "first_token": 1.19959899999958, "next_32_tokens": null, "total_to_first_token": 5.5874189589994785} 8.8833024
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label no-mlock --out results/load_profile_v1/gptoss_a8w.jsonl
+{"import": 0.1948725000002014, "load_model": 2.127119083997968, "engine": 2.85011916700023, "first_token": 1.3498832080003922, "next_32_tokens": null, "total_to_first_token": 6.536664082999778} 0.0

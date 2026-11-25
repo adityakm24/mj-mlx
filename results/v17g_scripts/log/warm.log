@@ -1,0 +1,8 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --label warm --out results/load_profile_v1/gptoss_warm_v17g.jsonl
+mj-mlx: writing the prepared-weights cache to ~/Library/Caches/mj-mlx/prep/528680071371b7d2 (once per model and options, about 2.5 GB for gpt-oss-20b; MJ_PREP_CACHE=0 turns it off, deleting the folder clears it)
+mj-mlx: prepared-weights cache written: 0.97 GB in ~/Library/Caches/mj-mlx/prep/528680071371b7d2
+{"import": 0.08590237500175135, "load_model": 4.1110265830066055, "engine": 0.059186040998611134, "first_token": 5.286791250000533, "next_32_tokens": null, "total_to_first_token": 9.5578081249987} 10.1523456
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_load_profile.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_pack": true, "lean": true} --label warm --out results/load_profile_v1/gptoss_warm_v17g.jsonl
+{"import": 0.17569758299941896, "load_model": 1.4585139170012553, "engine": 0.4006924160057679, "first_token": 4.30142629200418, "next_32_tokens": null, "total_to_first_token": 6.388171292004699} 0.0

@@ -1,0 +1,122 @@
+== dsv2lite_r1_mj 12:27:18 swap 854 MB
+  dsv2lite_r1_mj pp8192 rep 0: 460.37 tok/s, 42 mJ/token GPU
+  dsv2lite_r1_mj pp8192 rep 1: 459.85 tok/s, 40 mJ/token GPU
+  dsv2lite_r1_mj pp8192 rep 2: 459.20 tok/s, 40 mJ/token GPU
+  dsv2lite_r1_mj tg128@d8192 rep 0: 33.60 tok/s, ttft 18.01 s, 343 mJ/token GPU
+  dsv2lite_r1_mj tg128@d8192 rep 1: 33.26 tok/s, ttft 17.92 s, 349 mJ/token GPU
+  dsv2lite_r1_mj tg128@d8192 rep 2: 33.89 tok/s, ttft 17.83 s, 346 mJ/token GPU
+  FLAGGED: swap grew 476 MB
+== dsv2lite_r1_mj-c512 12:31:03 swap 1258 MB
+  dsv2lite_r1_mj-c512 pp8192 rep 0: 424.42 tok/s, 46 mJ/token GPU
+  dsv2lite_r1_mj-c512 pp8192 rep 1: 418.70 tok/s, 45 mJ/token GPU
+  dsv2lite_r1_mj-c512 pp8192 rep 2: 416.01 tok/s, 44 mJ/token GPU
+  dsv2lite_r1_mj-c512 tg128@d8192 rep 0: 34.09 tok/s, ttft 19.72 s, 345 mJ/token GPU
+  dsv2lite_r1_mj-c512 tg128@d8192 rep 1: 34.02 tok/s, ttft 19.65 s, 346 mJ/token GPU
+  dsv2lite_r1_mj-c512 tg128@d8192 rep 2: 34.00 tok/s, ttft 19.73 s, 345 mJ/token GPU
+== dsv2lite_r1_llama.cpp 12:35:01 swap 1170 MB
+llama-bench failed: chronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run prompt warmup
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+llama-bench failed: etal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run depth
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+== dsv2lite_r1_vllm-mlx 12:35:41 swap 1275 MB
+  vllm-mlx serve: up
+  dsv2lite_r1_vllm-mlx pp8192 rep 0: 646.46 tok/s, 30 mJ/token GPU
+  dsv2lite_r1_vllm-mlx pp8192 rep 1: 582.04 tok/s, 31 mJ/token GPU
+  dsv2lite_r1_vllm-mlx pp8192 rep 2: 539.68 tok/s, 31 mJ/token GPU
+  dsv2lite_r1_vllm-mlx tg128@d8192 rep 0: reply of 1 token(s), no rate
+  dsv2lite_r1_vllm-mlx tg128@d8192 rep 1: reply of 1 token(s), no rate
+  dsv2lite_r1_vllm-mlx tg128@d8192 rep 2: reply of 1 token(s), no rate
+  FLAGGED: swap grew 455 MB
+== dsv2lite_r2_vllm-mlx 12:38:53 swap 1417 MB
+  vllm-mlx serve: up
+  dsv2lite_r2_vllm-mlx pp8192 rep 0: 629.83 tok/s, 30 mJ/token GPU
+  dsv2lite_r2_vllm-mlx pp8192 rep 1: 384.88 tok/s, 31 mJ/token GPU
+  dsv2lite_r2_vllm-mlx pp8192 rep 2: 605.52 tok/s, 29 mJ/token GPU
+  dsv2lite_r2_vllm-mlx tg128@d8192 rep 0: reply of 1 token(s), no rate
+  dsv2lite_r2_vllm-mlx tg128@d8192 rep 1: reply of 1 token(s), no rate
+  dsv2lite_r2_vllm-mlx tg128@d8192 rep 2: reply of 1 token(s), no rate
+  FLAGGED: swap grew 298 MB
+== dsv2lite_r2_llama.cpp 12:42:03 swap 1635 MB
+llama-bench failed: chronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run prompt warmup
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+llama-bench failed: etal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run depth
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+== dsv2lite_r2_mj-c512 12:42:43 swap 1587 MB
+  dsv2lite_r2_mj-c512 pp8192 rep 0: 423.79 tok/s, 46 mJ/token GPU
+  dsv2lite_r2_mj-c512 pp8192 rep 1: 411.35 tok/s, 43 mJ/token GPU
+  dsv2lite_r2_mj-c512 pp8192 rep 2: 408.67 tok/s, 42 mJ/token GPU
+  dsv2lite_r2_mj-c512 tg128@d8192 rep 0: 33.50 tok/s, ttft 20.25 s, 301 mJ/token GPU
+  dsv2lite_r2_mj-c512 tg128@d8192 rep 1: 33.62 tok/s, ttft 20.14 s, 308 mJ/token GPU
+  dsv2lite_r2_mj-c512 tg128@d8192 rep 2: 33.64 tok/s, ttft 20.12 s, 313 mJ/token GPU
+== dsv2lite_r2_mj 12:46:44 swap 1467 MB
+  dsv2lite_r2_mj pp8192 rep 0: 462.92 tok/s, 40 mJ/token GPU
+  dsv2lite_r2_mj pp8192 rep 1: 455.52 tok/s, 39 mJ/token GPU
+  dsv2lite_r2_mj pp8192 rep 2: 453.06 tok/s, 38 mJ/token GPU
+  dsv2lite_r2_mj tg128@d8192 rep 0: 33.65 tok/s, ttft 18.16 s, 322 mJ/token GPU
+  dsv2lite_r2_mj tg128@d8192 rep 1: 33.91 tok/s, ttft 18.04 s, 333 mJ/token GPU
+  dsv2lite_r2_mj tg128@d8192 rep 2: 33.90 tok/s, ttft 18.00 s, 334 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## DeepSeek-V2-Lite-Chat (MLA, general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64; ours caches MLA latents, mlx-lm expanded K/V; llama.cpp / Ollama: mradermacher Q4_K_M; LM Studio (its MLX engine) and vllm-mlx: the mlx-community 4-bit
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| mj | pp8192 | 457.17 +- 5.13 | 444.42-469.91 | 1.1% | 3 | 39 |
+| mj | tg128@d8192 | 33.82 +- 0.15 | 33.45-34.19 | 0.4% | 3 | 330 |
+| mj-c512 | pp8192 | 417.16 +- 6.42 | 410.42-423.89 | 1.5% | 6 | 45 |
+| mj-c512 | tg128@d8192 | 33.81 +- 0.25 | 33.55-34.07 | 0.7% | 6 | 326 |
+| vllm-mlx | pp8192 | every block flagged (see below) | | | 0 | - |
+| vllm-mlx | tg128@d8192 | every block flagged (see below) | | | 0 | - |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| mj | pp8192 | 459.81 +- 0.58 (459.20-460.37) | 3 |
+| mj | tg128@d8192 | 33.59 +- 0.32 (33.26-33.89) | 3 |
+| vllm-mlx | pp8192 | 564.74 +- 95.77 (384.88-646.46) | 6 |
+

@@ -1,0 +1,12 @@
+0.00.463.953 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.483.015 W llama_model_loader: tensor overrides to CPU are used with mmap enabled - consider using --load-mode none for better performance
+0.59.531.042 I cmn          init: llama threadpool init, n_threads = 4
+1.02.422.092 I 
+1.02.422.126 I system_info: n_threads = 4 (n_threads_batch = 4) / 10 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+1.02.422.308 I perplexity: tokenizing the input ..
+1.02.715.233 I perplexity: tokenization took 292.919 ms
+1.02.716.203 I perplexity: calculating perplexity over 40 chunks, n_ctx=512, batch_size=2048, n_seq=4
+3.02.994.687 I perplexity: 120.28 seconds per pass - ETA 20.03 minutes
+[1]6.2827,[2]8.6758,[3]8.2201,[4]8.0090,[5]7.9216,[6]8.2841,[7]8.5042,[8]8.8441,[9]9.1651,[10]9.5421,[11]9.6230,[12]9.9084,[13]10.3900,[14]10.0298,[15]9.9326,[16]10.0904,[17]9.5181,[18]9.7091,[19]9.6034,[20]9.6057,[21]9.3140,[22]9.2894,[23]8.9055,[24]8.4466,[25]8.2238,[26]8.0582,[27]7.8495,[28]7.7174,[29]7.7738,[30]7.7218,[31]7.6574,[32]7.7173,[33]7.6146,[34]7.6834,[35]7.7529,[36]7.8727,[37]8.0292,[38]8.0468,[39]8.0825,[40]8.1589,
+26.23.349.973 I Final estimate: PPL = 8.1589 +/- 0.24411
+

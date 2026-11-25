@@ -1,0 +1,90 @@
+{
+ "summary": "per-round means of results/mlx/engines_9b_b1_v2/r*_<arm>.json (3 runs each); see RESULTS.md 1g",
+ "machine_state": "busy: MacInCallService ~66% CPU, swap 8.8-10 GB in use during both rounds",
+ "arms": {
+  "llama-server": {
+   "r1": {
+    "ms_per_token": 58.01949551447571,
+    "gpu_mj_per_token": 678.3560403464568,
+    "method": "streamed/in-process",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M"
+   },
+   "r2": {
+    "ms_per_token": 61.40318897606566,
+    "gpu_mj_per_token": 727.4829803805775,
+    "method": "streamed/in-process",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M"
+   }
+  },
+  "lms-gguf": {
+   "r1": {
+    "ms_per_token": 63.57312688568426,
+    "gpu_mj_per_token": 664.2395850902778,
+    "method": "length-difference",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M (LM Studio llama.cpp engine)"
+   },
+   "r2": {
+    "ms_per_token": 61.170673611438055,
+    "gpu_mj_per_token": 690.3363015000001,
+    "method": "length-difference",
+    "weights": "lmstudio-community/Qwen3.5-9B-GGUF Q4_K_M (LM Studio llama.cpp engine)"
+   }
+  },
+  "lms-mlx": {
+   "r1": {
+    "ms_per_token": 50.28512557651589,
+    "gpu_mj_per_token": 548.8443181805555,
+    "method": "length-difference",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit (LM Studio MLX engine)"
+   },
+   "r2": {
+    "ms_per_token": 50.87149942402094,
+    "gpu_mj_per_token": 478.5913993958334,
+    "method": "length-difference",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit (LM Studio MLX engine)"
+   }
+  },
+  "mj_overlap": {
+   "r1": {
+    "ms_per_token": 51.502198052685465,
+    "gpu_mj_per_token": 498.7352721259843,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   },
+   "r2": {
+    "ms_per_token": 53.884299648277896,
+    "gpu_mj_per_token": 478.4533900104987,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   }
+  },
+  "mj_plain": {
+   "r1": {
+    "ms_per_token": 56.0481690736292,
+    "gpu_mj_per_token": 468.52869098950134,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   },
+   "r2": {
+    "ms_per_token": 57.493161414676585,
+    "gpu_mj_per_token": 440.40196136745413,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   }
+  },
+  "mlx-lm": {
+   "r1": {
+    "ms_per_token": 50.976179244382955,
+    "gpu_mj_per_token": 527.8315843569554,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   },
+   "r2": {
+    "ms_per_token": 47.01506430460409,
+    "gpu_mj_per_token": 500.6333586981628,
+    "method": "streamed/in-process",
+    "weights": "mlx-community/Qwen3.5-9B-MLX-4bit"
+   }
+  }
+ }
+}

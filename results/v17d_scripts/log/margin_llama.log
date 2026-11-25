@@ -1,0 +1,30 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_answer_margin.py --engine llama-server --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --run results/lm_eval_chat_v1/gptoss_mj_x_items_full.json --out results/lm_eval_chat_v1/gptoss_items_margin_llama_on_mj_x.json
+12 replies with '####'
+idx 1: top '3' (-0.000), 2nd '1' (-12.996), margin 12.996; gold 3 rank 0
+idx 8: top '45' (-0.296), 2nd '1' (-1.639), margin 1.344; gold 45 rank 0
+idx 25: top '2' (-0.000), 2nd '1' (-14.045), margin 14.045; gold 2 rank 0
+idx 47: top '800' (-0.000), 2nd '8' (-11.057), margin 11.057; gold 800 rank 0
+idx 84: top '15' (-0.097), 2nd '1' (-2.558), margin 2.461; gold 15 rank 0
+idx 243: top '1' (-0.000), 2nd '2' (-10.888), margin 10.888; gold 250 rank None
+idx 337: top '1' (-0.000), 2nd '2' (-10.726), margin 10.726; gold 1 rank 0
+idx 452: top '1' (-0.711), 2nd '50' (-1.011), margin 0.300; gold 50 rank 1
+idx 694: top '40' (-0.000), 2nd '20' (-11.426), margin 11.426; gold 9 rank None
+idx 931: top '50' (-0.679), 2nd '1' (-0.811), margin 0.132; gold 50 rank 0
+idx 1167: top '120' (-0.646), 2nd '1' (-0.884), margin 0.237; gold 120 rank 0
+idx 1182: top '1' (-0.421), 2nd '180' (-1.429), margin 1.007; gold 1800 rank None
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_answer_margin.py --engine llama-server --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --run results/lm_eval_chat_v1/gptoss_llama_items_full.json --out results/lm_eval_chat_v1/gptoss_items_margin_llama_on_llama.json
+12 replies with '####'
+idx 1: top '3' (-0.000), 2nd '1' (-14.270), margin 14.270; gold 3 rank 0
+idx 8: top '45' (-0.420), 2nd '1' (-1.352), margin 0.932; gold 45 rank 0
+idx 25: top '2' (-0.014), 2nd '1' (-4.476), margin 4.462; gold 2 rank 0
+idx 47: top '800' (-0.000), 2nd '8' (-12.100), margin 12.100; gold 800 rank 0
+idx 84: top '15' (-0.000), 2nd ' ' (-15.560), margin 15.560; gold 15 rank 0
+idx 243: top '250' (-0.000), 2nd '251' (-12.061), margin 12.061; gold 250 rank 0
+idx 337: top '1' (-0.000), 2nd '3' (-8.856), margin 8.856; gold 1 rank 0
+idx 452: top '1' (-0.600), 2nd '50' (-1.216), margin 0.616; gold 50 rank 1
+idx 694: top '9' (-0.000), 2nd '09' (-15.381), margin 15.381; gold 9 rank 0
+idx 931: top '50' (-0.366), 2nd '1' (-1.243), margin 0.877; gold 50 rank 0
+idx 1167: top '120' (-0.000), 2nd '20' (-12.250), margin 12.250; gold 120 rank 0
+idx 1182: top '1' (-0.435), 2nd '180' (-1.367), margin 0.932; gold 1800 rank None

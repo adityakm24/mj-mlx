@@ -1,0 +1,18 @@
+{
+ "completion_short": {
+  "status": 500,
+  "body": "{\"error\":{\"code\":500,\"message\":\"Compute error.\",\"type\":\"server_error\"}}"
+ },
+ "completion_stream_short": {
+  "status": 200,
+  "body": "data: {\"error\":{\"code\":500,\"message\":\"Compute error.\",\"type\":\"server_error\"}}\n\n"
+ },
+ "chat_short": {
+  "status": 500,
+  "body": "{\"error\":{\"code\":500,\"message\":\"Compute error.\",\"type\":\"server_error\"}}"
+ },
+ "completion_ignore_eos": {
+  "status": 500,
+  "body": "{\"error\":{\"code\":500,\"message\":\"Compute error.\",\"type\":\"server_error\"}}"
+ }
+}

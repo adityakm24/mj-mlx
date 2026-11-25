@@ -1,0 +1,11 @@
+{
+ "engine": "vllm-mlx",
+ "peak_footprint_gb": 12.634316696,
+ "peak_resident_gb": 1.205911552,
+ "samples": 312,
+ "per_pid_gb": {
+  "33101": 12.634316696
+ },
+ "swapins_gb": 1.68624128,
+ "swapouts_gb": 2.355429376
+}

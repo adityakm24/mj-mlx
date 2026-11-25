@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T21:41:27",
+ "top_cpu": [
+  "87479 MTLCompilerServi 388.9",
+  "86968 node 44.6",
+  "86572 mediaanalysisd 29.0",
+  "0 kernel_task 9.8",
+  "81639 suggestd 8.3",
+  "10944 MacInCallService 7.9",
+  "86733 IMDPersistenceAg 5.6",
+  "87488 top 5.4"
+ ],
+ "swap": "total = 3072.00M  used = 1841.50M  free = 1230.50M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 4.81 2.13 1.57 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1841.5
+}

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T11:52:56",
+ "top_cpu": [
+  "26329 top 4.2",
+  "538 searchpartyd 3.9",
+  "0 kernel_task 3.1",
+  "24524 audioanalyticsd 2.6",
+  "26306 intelligenceflow 2.3",
+  "1620 claude 1.7",
+  "397 dasd 1.6",
+  "1316 Claude Helper (R 1.6"
+ ],
+ "swap": "total = 2048.00M  used = 1283.75M  free = 764.25M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 1.64 2.42 2.46 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1283.75
+}

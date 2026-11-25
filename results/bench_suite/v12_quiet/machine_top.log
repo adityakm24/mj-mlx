@@ -1,0 +1,816 @@
+== 14:22:57 load { 3.34 11.29 7.83 } swap 0.00M
+ 98.5 191936 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+ 22.1  38464 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 19.7  73408 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+ 13.9  80528 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+ 13.7 501984 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 14:23:57 load { 2.08 9.52 7.40 } swap 685.88M
+  1.9  21424 /System/Applications/Notes.app/Contents/MacOS/Notes
+  0.7  21264 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.7  24432 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.7  21808 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.6  63488 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+== 14:24:57 load { 2.39 8.25 7.07 } swap 645.88M
+  1.9  60672 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+  1.2  26272 ~/.dev-tool/tools/python-3.14.7+20260901-darwin-arm64/bin/python3.14
+  0.8  23248 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.7  41152 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.7  16432 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+== 14:25:57 load { 1.19 6.84 6.62 } swap 645.88M
+ 19.9  27296 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 11.7 283600 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  8.4  58992 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  6.1 506672 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  2.1 222832 node
+== 14:26:57 load { 1.27 5.83 6.26 } swap 645.88M
+ 48.1 334656 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  3.9 294016 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  1.8  27696 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.2  19392 /opt/homebrew/Cellar/node/26.5.0_1/bin/node
+  0.9 266336 node
+== 14:27:57 load { 2.13 5.23 6.00 } swap 621.88M
+193.2 273936 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  3.2  15568 /usr/libexec/spotlightknowledged.updater
+  2.2  13408 /usr/libexec/aned
+  0.9 140944 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+  0.9  15200 /usr/libexec/logd
+== 14:28:57 load { 2.12 4.74 5.77 } swap 613.88M
+112.3  28336 /usr/libexec/spotlightknowledged.updater
+ 24.9  98928 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+ 16.3   4208 /usr/sbin/cfprefsd
+ 10.6  14624 /usr/libexec/textunderstandingd
+  7.7   8112 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+== 14:29:57 load { 1.72 4.16 5.48 } swap 613.88M
+  1.3  20752 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.9  13024 /opt/homebrew/var/openshell/vm-driver/host-runtime/openshell-supervisor
+  0.8  24592 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.7 201936 /Applications/Claude.app/Contents/MacOS/Claude
+  0.5 359680 node
+== 14:30:58 load { 1.92 3.81 5.26 } swap 605.88M
+  1.3  59056 ~/.dev-tool/tools/python-3.14.7+20260901-darwin-arm64/bin/python3.14
+  1.3  20288 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  1.1  24448 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.9  13040 /opt/homebrew/var/openshell/vm-driver/host-runtime/openshell-supervisor
+  0.6 186528 /Applications/Claude.app/Contents/MacOS/Claude
+== 14:31:58 load { 1.43 3.33 4.98 } swap 597.88M
+  6.1 5207296 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  3.6  25808 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.3  12800 /usr/libexec/dasd
+  0.8  19920 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.5   1040 sleep
+== 14:32:58 load { 1.88 3.10 4.78 } swap 1655.56M
+ 30.7 203296 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+  8.3  35680 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  7.7 220928 /Applications/Claude.app/Contents/MacOS/Claude
+  6.2   4896 /usr/libexec/corebrightnessd
+  4.1  11600 /usr/libexec/PerfPowerServices
+== 14:33:58 load { 1.26 2.71 4.52 } swap 1631.56M
+  0.7  17664 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.6 179440 node
+  0.5 189808 /Applications/Claude.app/Contents/MacOS/Claude
+  0.4 240752 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.4  24032 /opt/homebrew/opt/openshell/bin/openshell-gateway
+== 14:34:58 load { 1.26 2.44 4.29 } swap 1623.56M
+  7.1 195600 ~/.lmstudio/.internal/utils/node
+  1.6  11616 /usr/libexec/searchpartyd
+  0.6  19456 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.5 229216 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  0.4  12736 /usr/sbin/bluetoothd
+== 14:35:58 load { 1.18 2.20 4.07 } swap 1615.56M
+  0.7 223088 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.6 116656 /Applications/Claude.app/Contents/MacOS/Claude
+  0.4  19808 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.4   1040 sleep
+  0.3  23168 /opt/homebrew/opt/openshell/bin/openshell-gateway
+== 14:36:58 load { 1.11 2.00 3.87 } swap 1607.56M
+  1.4  23536 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.6  19984 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.4 257584 node
+  0.4  75392 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.4  20240 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+== 14:37:58 load { 0.98 1.80 3.67 } swap 1591.56M
+ 31.0  25328 /System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd
+  4.8   9152 /usr/sbin/mDNSResponder
+  3.1 755120 ~/.venvs/vllm-mlx/bin/python3.11
+  2.9  13024 /usr/libexec/dasd
+  2.7  28576 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 14:38:58 load { 2.12 2.13 3.68 } swap 1591.56M
+  1.1  23776 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.6  15536 /usr/libexec/airportd
+  0.5  84768 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.5 184432 /Applications/Claude.app/Contents/MacOS/Claude
+  0.4  21248 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+== 14:39:58 load { 1.45 1.95 3.51 } swap 1591.56M
+  8.1 255696 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  5.6  27520 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  4.6  13296 /usr/libexec/airportd
+  1.6  41456 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  1.4  13792 /usr/libexec/searchpartyd
+== 14:40:58 load { 1.14 1.77 3.33 } swap 1575.56M
+  1.9  14832 /usr/libexec/airportd
+  1.2   1040 sleep
+  1.1  23808 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.7 112624 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.6 178976 /Applications/Claude.app/Contents/MacOS/Claude
+== 14:41:58 load { 1.57 1.79 3.23 } swap 1479.56M
+  9.3  15984 /usr/libexec/airportd
+  2.0  34800 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  1.9  43568 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  0.7   9024 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  0.7  27952 /opt/homebrew/opt/openshell/bin/openshell-gateway
+== 14:42:58 load { 0.90 1.55 3.04 } swap 1479.56M
+  1.6 200336 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.6 190096 node
+  0.4  19168 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.4   1952 zsh
+  0.4  35664 ~/.dev-tool/tools/python-3.14.7+20260901-darwin-arm64/bin/python3.14
+== 14:43:58 load { 1.42 1.61 2.96 } swap 1479.56M
+  0.9   1952 zsh
+  0.5  55584 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.5  53184 ~/.dev-tool/tools/python-3.14.7+20260901-darwin-arm64/bin/python3.14
+  0.4  18800 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.3  23280 /opt/homebrew/opt/openshell/bin/openshell-gateway
+== 14:44:58 load { 1.48 1.61 2.87 } swap 1907.81M
+  0.6   1952 zsh
+  0.4  53216 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.4  18288 /opt/homebrew/opt/openshell/libexec/openshell-driver-vm
+  0.3  23056 /opt/homebrew/opt/openshell/bin/openshell-gateway
+  0.3 108016 /Applications/Claude.app/Contents/MacOS/Claude
+== 14:45:58 load { 1.31 1.54 2.76 } swap 1827.81M
+ 10.5  21680 /usr/sbin/usernoted
+  4.4 296800 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+  4.1  21952 /System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd
+  2.3  10496 /System/Library/ExtensionKit/Extensions/GenerativeExperiencesSafetyInferenceProvider.appex/Contents/MacOS/GenerativeExperiencesSafetyInferenceProvider
+  1.7 334624 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+== 14:46:59 load { 1.47 1.55 2.68 } swap 596.19M
+ 16.0  40064 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  3.8 4923360 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  1.1  50080 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  0.7 521456 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  0.6   4752 /usr/libexec/corebrightnessd
+== 14:47:59 load { 1.66 1.59 2.61 } swap 556.19M
+  1.1  30224 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  1.1 313648 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.7  12064 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  0.3  58192 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3 230560 /Applications/Claude.app/Contents/MacOS/Claude
+== 14:48:59 load { 1.84 1.69 2.59 } swap 556.19M
+  0.3  40544 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.3  57072 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.1 324880 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.1   4752 /usr/libexec/corebrightnessd
+  0.1   1584 ugrep
+== 14:49:59 load { 1.40 1.58 2.48 } swap 556.19M
+  1.0  38432 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.4   4656 /usr/libexec/corebrightnessd
+  0.4 307312 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.3  53200 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2 228032 /Applications/Claude.app/Contents/MacOS/Claude
+== 14:50:59 load { 1.20 1.51 2.40 } swap 556.19M
+  3.1  38736 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.7  79232 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  0.7   4832 /usr/libexec/corebrightnessd
+  0.3  53184 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.1  15536 /usr/libexec/PerfPowerServices
+== 14:51:59 load { 1.37 1.52 2.34 } swap 556.19M
+  7.9  44640 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  4.0  38848 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.5  22176 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  1.9  16272 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  0.9   4896 /usr/libexec/corebrightnessd
+== 14:52:59 load { 1.07 1.41 2.24 } swap 540.19M
+ 23.8  38880 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 10.6   4912 /usr/libexec/corebrightnessd
+  5.5  35552 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  5.2  12512 /usr/libexec/PerfPowerServices
+  0.9  19152 /sbin/launchd
+== 14:53:59 load { 1.14 1.37 2.17 } swap 540.19M
+  1.7  39024 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.1  14784 /usr/libexec/airportd
+  0.8 329776 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.8 563664 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  0.7  51888 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+== 14:54:59 load { 1.02 1.29 2.08 } swap 540.19M
+  1.8  39072 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.6   5056 /usr/libexec/corebrightnessd
+  0.4  51888 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  0.4   1024 sleep
+  0.4 563760 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 14:55:59 load { 1.53 1.39 2.07 } swap 1058.50M
+  3.1 163872 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.6  18256 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.5  32112 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  0.5   1680 /bin/zsh
+  0.5 205760 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 14:56:59 load { 1.57 1.40 2.02 } swap 1149.12M
+ 97.0  41488 /usr/libexec/duetexpertd
+ 15.8  22864 /usr/sbin/coreaudiod
+  8.1   4544 /usr/libexec/audioanalyticsd
+  6.5   7824 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  3.6   7088 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent
+== 14:57:59 load { 1.61 1.44 1.99 } swap 1133.12M
+ 10.1 125904 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  8.6  13872 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  0.6   1024 sleep
+  0.3   6912 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2   1648 /bin/zsh
+== 14:58:59 load { 2.42 1.65 2.03 } swap 1117.12M
+  1.0 2068576 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  0.8 512000 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  0.4   1024 sleep
+  0.3   6640 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2 313104 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+== 14:59:59 load { 1.50 1.53 1.95 } swap 1303.69M
+  0.8   1024 sleep
+  0.3   6832 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2   1648 /bin/zsh
+  0.1 141056 /Applications/Claude.app/Contents/MacOS/Claude
+  0.1 1525728 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 15:00:59 load { 1.41 1.49 1.91 } swap 1623.19M
+  2.0 271152 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  0.7   1024 sleep
+  0.3   7648 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.1 208160 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.1   2272 /usr/libexec/clocksyncd
+== 15:01:59 load { 1.52 1.52 1.89 } swap 1591.19M
+  9.2  22720 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  4.9  18384 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  3.5 306848 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  1.2 345984 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  1.1 163200 /Applications/Claude.app/Contents/MacOS/Claude
+== 15:02:59 load { 1.19 1.42 1.83 } swap 1559.19M
+  0.4 10810720 llama-bench
+  0.2   7648 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.1   1024 sleep
+  0.1  24800 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  0.0  15072 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 15:03:59 load { 1.13 1.36 1.78 } swap 1551.19M
+  1.7 187232 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.7   1024 sleep
+  0.4  19856 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.3   7584 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2   1648 /bin/zsh
+== 15:05:00 load { 1.64 1.46 1.78 } swap 1978.19M
+  0.6   1024 sleep
+  0.4   4704 /usr/libexec/rapportd
+  0.3   4432 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3   6768 /usr/libexec/sharingd
+  0.3   1584 /System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent
+== 15:06:00 load { 1.62 1.47 1.76 } swap 4466.31M
+ 16.2 11800144 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+ 10.7  16336 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  9.4  15296 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.7   8752 /usr/libexec/searchpartyd
+  0.6   1712 zsh
+== 15:07:00 load { 1.84 1.55 1.77 } swap 5775.25M
+215.9 11518304 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+ 69.8   9200 /usr/libexec/mobileassetd
+ 24.5   7968 /usr/libexec/nsurlsessiond
+ 20.6  25328 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 10.8   3152 /System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/A/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/Contents/MacOS/com.apple.MobileAsset.DownloadService.Builtin
+== 15:08:00 load { 2.08 1.65 1.79 } swap 8066.75M
+150.3 11765216 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+ 21.9  24272 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 16.9   9920 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  7.7  16944 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  1.5   2416 /usr/libexec/feedbackd
+== 15:09:00 load { 2.05 1.70 1.79 } swap 1341.38M
+ 82.6 223808 ~/Documents/Projects/MilliJoule/.venv/bin/python
+ 11.0  27856 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  6.6   6320 /usr/sbin/coreaudiod
+  3.5   3808 /usr/libexec/audioanalyticsd
+  3.1  17984 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:10:00 load { 1.70 1.67 1.77 } swap 2699.12M
+ 10.3  26928 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  5.1 190912 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  2.1  10448 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.4  18000 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  0.8  38656 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:11:00 load { 1.88 1.71 1.77 } swap 2373.50M
+ 10.2   9008 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+  8.2 211088 ~/.lmstudio/.internal/utils/node
+  7.6  11648 /usr/libexec/knowledge-agent
+  4.3   3776 /usr/libexec/mobileassetd
+  3.6  26224 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 15:12:00 load { 2.04 1.79 1.80 } swap 3589.44M
+ 25.3  86048 ~/.lmstudio/.internal/utils/node
+ 17.4  14144 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd
+ 13.0   8736 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+  6.4  27568 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  4.1   7696 /usr/libexec/trustd
+== 15:13:00 load { 1.60 1.70 1.76 } swap 1781.81M
+ 10.5 476192 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  9.7  26400 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  8.5 325440 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  2.5  12768 /usr/libexec/airportd
+  2.4   7328 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Support/cloudtelemetryd
+== 15:14:00 load { 1.34 1.61 1.73 } swap 1685.81M
+  9.6  25968 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  5.5 135616 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+  2.5  11312 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.2   2896 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd
+  1.0  16992 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:15:00 load { 1.17 1.51 1.68 } swap 1621.81M
+  7.8  26464 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.1 161424 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  2.0  10080 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.6 131840 /Applications/Claude.app/Contents/MacOS/Claude
+  0.4  13088 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 15:16:00 load { 1.00 1.41 1.63 } swap 1605.81M
+ 49.2 1627360 ~/.venvs/vllm-mlx/bin/python3.11
+  9.7  26336 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.2   9984 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.5  10592 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3   1024 sleep
+== 15:17:00 load { 1.38 1.44 1.62 } swap 1581.81M
+ 53.0 3670096 ~/.venvs/vllm-mlx/bin/python3.11
+  7.1  25536 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  5.2 212400 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  4.7  11728 /usr/libexec/airportd
+  2.7  11792 /usr/libexec/locationd
+== 15:18:00 load { 7.31 3.46 2.38 } swap 1203.81M
+  9.9  25696 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.0  14272 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  2.8  10688 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.9   4688 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+  1.6   3472 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+== 15:19:00 load { 5.43 3.54 2.48 } swap 1460.12M
+150.8 633712 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+  7.8  25344 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.8  16352 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.6   1712 zsh
+  0.4  10096 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 15:20:01 load { 3.77 3.46 2.52 } swap 1313.19M
+ 10.0  26304 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.8  10976 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.2  12608 /usr/libexec/signpost_reporter
+  0.5  16576 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  0.4   1024 sleep
+== 15:21:01 load { 2.60 3.16 2.47 } swap 1445.25M
+100.0  36912 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  8.5  28464 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.6  17072 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.1   9040 /usr/libexec/signpost_reporter
+  0.4   1024 sleep
+== 15:22:01 load { 2.30 2.97 2.44 } swap 4258.44M
+ 73.6  30704 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 41.3  88000 ~/.lmstudio/.internal/utils/node
+ 10.4  22224 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  4.1  10608 /usr/libexec/signpost_reporter
+  2.5   9776 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:23:01 load { 2.19 2.81 2.42 } swap 2728.88M
+100.0  26464 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 78.1  63472 ~/.lmstudio/.internal/utils/node
+ 16.4  10432 /usr/libexec/signpost_reporter
+  9.9  25200 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.3   4768 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+== 15:24:01 load { 2.88 2.89 2.47 } swap 3430.50M
+ 95.7  13968 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 45.4  82640 ~/.lmstudio/.internal/utils/node
+  9.5  25504 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.7  10336 /usr/libexec/signpost_reporter
+  2.5  10048 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:25:01 load { 2.22 2.70 2.43 } swap 1805.56M
+ 99.8  25600 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  9.9 8556496 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  8.2  26368 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.2  12816 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.7  12064 /usr/libexec/signpost_reporter
+== 15:26:01 load { 2.77 2.78 2.47 } swap 3720.25M
+ 98.2  15968 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 14.5 11809968 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  9.5  23344 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.6  10736 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.3   4880 /usr/libexec/signpost_reporter
+== 15:27:01 load { 3.05 2.81 2.50 } swap 6160.00M
+120.9 12093232 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+ 97.3  15264 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  9.7  22464 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.5  12000 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.5   6912 /usr/libexec/signpost_reporter
+== 15:28:01 load { 2.73 2.73 2.49 } swap 7076.31M
+ 98.6  12720 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 18.6   1280 /usr/libexec/assessmentagent
+  9.0  22528 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  4.4   9040 /usr/libexec/signpost_reporter
+  2.5   9616 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:29:01 load { 2.52 2.67 2.48 } swap 1255.94M
+ 99.9  22256 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  7.4  27536 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.6  17568 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.9  12160 /usr/libexec/signpost_reporter
+  0.4  12720 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 15:30:01 load { 2.32 2.60 2.47 } swap 1127.94M
+ 98.8  24144 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 11.8  28352 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  4.2 10312128 llama-bench
+  3.2  17056 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.1  12064 /usr/libexec/signpost_reporter
+== 15:31:01 load { 3.36 2.89 2.59 } swap 1119.94M
+ 99.4  27824 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  8.5  26272 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.8  12912 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.2   9904 /usr/libexec/signpost_reporter
+  1.3  11024 /usr/libexec/airportd
+== 15:32:01 load { 2.59 2.75 2.55 } swap 1111.94M
+100.0  22640 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  9.1  26256 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  6.5 2453104 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  2.6  12192 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.9   9808 /usr/libexec/signpost_reporter
+== 15:33:01 load { 1.96 2.54 2.48 } swap 1103.94M
+ 98.9  31040 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 18.0 2489904 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  7.9  26944 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.5  13728 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.1   8256 /usr/libexec/signpost_reporter
+== 15:34:01 load { 2.55 2.55 2.49 } swap 1649.44M
+127.6  97824 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+100.0  20640 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 69.8  41104 /System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner
+ 10.4  28448 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.6  15456 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:35:01 load { 2.61 2.57 2.50 } swap 1422.31M
+100.0 313920 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+ 99.7  14880 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  9.6  26928 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.0  14528 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.0 256768 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+== 15:36:01 load { 2.67 2.60 2.51 } swap 1398.31M
+100.0  22800 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+100.0 188816 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+  9.5  25808 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.9  10832 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.6 168480 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+== 15:37:01 load { 2.65 2.61 2.52 } swap 1342.31M
+134.7 194224 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+ 98.1  19264 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 52.1  26336 /System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService
+ 28.0 212160 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+ 12.6  26080 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 15:38:02 load { 2.49 2.59 2.52 } swap 1230.81M
+ 99.0  24800 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 11.6  26352 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  8.6 313280 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  7.7  16976 /usr/sbin/usernoted
+  5.1 373520 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 15:39:02 load { 2.38 2.52 2.49 } swap 1927.75M
+100.0  19968 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 12.4  25424 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.7  10288 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  1.1   9792 /usr/libexec/searchpartyd
+  1.0  11136 /usr/libexec/signpost_reporter
+== 15:40:02 load { 2.00 2.38 2.44 } swap 1895.75M
+ 96.7  12480 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 23.1 10115968 ~/Documents/Projects/MilliJoule/.venv/bin/python
+ 15.6  22976 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.2  10144 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  0.9   9328 /usr/libexec/searchpartyd
+== 15:41:02 load { 1.78 2.26 2.39 } swap 1879.75M
+100.0  24928 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  7.1  25808 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  5.0  11648 /usr/libexec/signpost_reporter
+  3.9 10079328 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  2.1   3504 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+== 15:42:02 load { 1.47 2.10 2.32 } swap 1863.69M
+ 98.7  14464 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 32.3 10075920 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  7.1  22432 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.7   8880 /usr/libexec/signpost_reporter
+  1.1   9440 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:43:02 load { 1.93 2.11 2.31 } swap 1755.31M
+100.0  21104 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  5.9 266832 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  5.1  25520 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  4.6 9997552 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  2.1 373520 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 15:44:02 load { 1.75 2.02 2.26 } swap 1691.31M
+100.0  13824 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 16.6 10188640 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  3.7  25776 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.8   8400 /usr/libexec/signpost_reporter
+  0.7 114384 /Applications/Claude.app/Contents/MacOS/Claude
+== 15:45:02 load { 1.85 1.99 2.23 } swap 1667.31M
+ 99.7  14144 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 16.6  10592 /usr/libexec/airportd
+  8.5  11424 /usr/libexec/signpost_reporter
+  6.6   4768 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  5.5 10246032 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 15:46:02 load { 1.99 1.99 2.21 } swap 1667.31M
+100.0  26512 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  3.6   6432 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+  2.9  14352 /usr/libexec/signpost_reporter
+  2.5  26160 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.4 114672 /Applications/Claude.app/Contents/MacOS/Claude
+== 15:47:02 load { 1.91 1.97 2.19 } swap 1672.81M
+ 96.4  19632 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  5.8 5242416 llama-bench
+  4.0  15472 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  3.4  10192 /usr/libexec/locationd
+  3.1  24272 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 15:48:02 load { 1.69 1.90 2.14 } swap 1490.69M
+100.0  22320 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  3.3   8864 /usr/libexec/signpost_reporter
+  3.1  25760 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  3.0   7008 /usr/libexec/locationd
+  2.1 11706928 llama-bench
+== 15:49:02 load { 1.67 1.84 2.10 } swap 1466.69M
+100.0  27744 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  3.4   7728 /usr/libexec/signpost_reporter
+  2.8  25072 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  1.4  26560 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.1  11392 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:50:02 load { 1.94 1.91 2.11 } swap 1451.19M
+ 95.6  14016 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  8.5 11006400 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  3.1  81552 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  3.1 102512 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  3.0  23872 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 15:51:02 load { 1.65 1.82 2.06 } swap 1403.19M
+100.0  14832 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  1.5  25440 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.8   4816 /usr/libexec/signpost_reporter
+  0.5  10544 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2   4320 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+== 15:52:02 load { 2.31 2.01 2.11 } swap 1516.06M
+ 99.4  15616 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  4.3 10651520 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  1.4  25600 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.0   4352 /usr/libexec/signpost_reporter
+  0.7  53776 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+== 15:53:02 load { 1.74 1.91 2.07 } swap 1724.31M
+100.0  13808 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  6.5 10739808 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  1.1  23776 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.8   3792 /usr/libexec/signpost_reporter
+  0.5   8080 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 15:54:02 load { 2.69 2.10 2.13 } swap 1364.25M
+ 69.1  18816 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  7.7 3200400 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.79.0/llama-server
+  2.6   5104 /usr/libexec/signpost_reporter
+  2.5  10784 /usr/libexec/airportd
+  1.5  57792 ~/.lmstudio/bin/lms
+== 15:55:02 load { 3.16 2.33 2.21 } swap 1214.19M
+ 72.6  14912 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 10.2 2600976 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.79.0/llama-server
+  2.4   5696 /usr/libexec/ospredictiond
+  1.0  23264 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.0   3680 /usr/libexec/signpost_reporter
+== 15:56:02 load { 2.27 2.21 2.17 } swap 1281.12M
+119.8 2547072 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.79.0/llama-server
+ 96.3  23696 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  2.3  78272 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  1.8   3744 /usr/libexec/signpost_reporter
+  1.3  24256 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 15:57:02 load { 2.99 2.45 2.26 } swap 1383.94M
+ 99.9  25360 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  1.1   3920 /usr/libexec/signpost_reporter
+  0.7  26240 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.6  10432 /usr/libexec/searchpartyd
+  0.6   1680 zsh
+== 15:58:02 load { 2.03 2.28 2.21 } swap 1323.00M
+100.0  29584 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  2.3   4864 /usr/libexec/signpost_reporter
+  0.6  25440 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  0.5   3984 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+  0.4 147328 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+== 15:59:02 load { 2.13 2.27 2.21 } swap 1273.88M
+100.0  22704 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  1.5 189168 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  1.1  16352 /usr/libexec/searchpartyd
+  0.8   6800 /usr/libexec/signpost_reporter
+  0.6  19616 /usr/libexec/searchpartyuseragent
+== 16:00:03 load { 1.61 2.08 2.14 } swap 1422.62M
+ 98.7  23808 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 35.0  13920 /usr/libexec/signpost_reporter
+  2.6   5232 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+  1.7   3568 /usr/libexec/PerfPowerServices
+  1.5   4016 /usr/libexec/nsurlsessiond
+== 16:01:03 load { 2.56 2.30 2.22 } swap 1336.44M
+100.0  29824 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  5.5  10656 /usr/libexec/signpost_reporter
+  3.2  44272 /Applications/Claude.app/Contents/MacOS/Claude
+  2.0  39536 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  1.5   1680 zsh
+== 16:02:03 load { 1.95 2.17 2.17 } swap 1270.75M
+100.0  24736 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 14.8  62064 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+  4.3  26240 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+  2.9  11488 cloudphotod
+  2.7  18736 /System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd
+== 16:03:03 load { 2.02 2.15 2.16 } swap 1916.50M
+ 89.9  20416 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 30.9  10144 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+ 26.0  22048 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+ 25.8  10464 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+ 21.1   6512 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+== 16:04:03 load { 3.19 2.44 2.27 } swap 2319.62M
+ 64.8  21024 /System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/knowledgeconstructiond
+ 60.3   8240 /usr/libexec/mobileassetd
+ 50.1  12000 /usr/libexec/wifip2pd
+ 33.9   8896 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 29.2  31216 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+== 16:05:03 load { 3.02 2.54 2.32 } swap 2169.12M
+ 99.0  24144 /System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/knowledgeconstructiond
+ 98.3  27840 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 94.4 11526944 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  1.3  11584 /usr/sbin/bluetoothd
+  0.6   9664 /usr/libexec/logd
+== 16:06:03 load { 3.32 2.71 2.39 } swap 2181.06M
+ 98.7  11856 /usr/libexec/mobileassetd
+ 95.2  19392 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 93.1  30848 /System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/knowledgeconstructiond
+  4.7   8768 /usr/libexec/nsurlsessiond
+  4.2   9344 /usr/libexec/logd
+== 16:07:03 load { 5.53 3.66 2.78 } swap 1151.31M
+ 94.7  21456 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  6.3 102672 llama-bench
+  1.2  88048 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.7  34096 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  0.6   7664 /usr/sbin/bluetoothd
+== 16:08:03 load { 3.74 3.46 2.77 } swap 1127.31M
+100.0  27552 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 86.1  18368 /System/Library/PrivateFrameworks/FileProviderDaemon.framework/XPCServices/FPCKService.xpc/Contents/MacOS/FPCKService
+  2.4 10736800 llama-bench
+  1.3   9424 /usr/libexec/logd
+  1.0  13552 /usr/libexec/searchpartyd
+== 16:09:03 load { 3.53 3.49 2.82 } swap 1838.44M
+ 99.1  30112 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 96.1  24544 /System/Library/PrivateFrameworks/FileProviderDaemon.framework/XPCServices/FPCKService.xpc/Contents/MacOS/FPCKService
+  1.9  16864 /usr/libexec/logd
+  1.2  12544 /usr/libexec/airportd
+  0.9   1648 zsh
+== 16:10:03 load { 2.96 3.35 2.81 } swap 1447.19M
+ 99.5  30320 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 79.1  22528 /System/Library/PrivateFrameworks/FileProviderDaemon.framework/XPCServices/FPCKService.xpc/Contents/MacOS/FPCKService
+  9.7  10912 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  2.7  10560 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.2   9952 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+== 16:11:03 load { 2.12 3.04 2.73 } swap 1644.94M
+ 99.1  30336 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 74.0  26320 /usr/libexec/duetexpertd
+ 31.9 10149744 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  5.5   8400 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+  2.1   8592 /usr/libexec/sharingd
+== 16:12:03 load { 2.19 2.91 2.70 } swap 1596.94M
+ 99.1  27888 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  9.6  11136 /usr/libexec/dasd
+  5.5 10171568 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  2.5   2592 /usr/sbin/notifyd
+  1.5   6000 /usr/libexec/spotlightknowledged.updater
+== 16:13:03 load { 1.77 2.66 2.63 } swap 1556.94M
+100.0  29248 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 10.8  35104 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.2 157952 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  1.1   1648 zsh
+  0.4  11200 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 16:14:03 load { 1.79 2.51 2.57 } swap 2022.00M
+ 99.7  26864 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  3.8 164768 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  1.8   8864 /usr/libexec/searchpartyd
+  1.2   1648 zsh
+  0.7  78640 /Applications/Claude.app/Contents/MacOS/Claude
+== 16:15:03 load { 2.00 2.43 2.53 } swap 1809.75M
+ 95.3  25680 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  6.8 10011312 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  5.3   5728 /usr/libexec/opendirectoryd
+  5.2   6912 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  3.6   6384 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+== 16:16:04 load { 4.55 2.97 2.72 } swap 2537.00M
+ 34.3   9968 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+ 28.6   1456 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+ 20.6  11664 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 13.5    320 /usr/libexec/textcomposerd
+  7.2  11472 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 16:17:04 load { 2.82 2.75 2.65 } swap 1864.94M
+ 20.4 144128 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+ 19.2  32656 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+ 11.4  10624 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+  9.6   9184 /System/Library/PrivateFrameworks/People.framework/peopled
+  9.5 110528 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 16:18:04 load { 2.31 2.62 2.61 } swap 1693.00M
+100.0  31392 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 10.7  34816 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.3   9856 /usr/libexec/searchpartyd
+  0.7 276880 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.4   4016 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 16:19:04 load { 1.80 2.43 2.54 } swap 1669.00M
+ 99.1  33776 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 15.9  69952 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  6.0  35216 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  2.2  59104 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+  2.1  28272 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+== 16:20:04 load { 1.78 2.30 2.48 } swap 1217.62M
+ 98.1 129984 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+ 93.9  32832 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 33.5  29536 /usr/libexec/spotlightknowledged.updater
+  9.9  23584 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  6.4   3456 /usr/sbin/cfprefsd
+== 16:21:04 load { 2.33 2.39 2.50 } swap 1201.62M
+162.9 6671632 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  1.0  22656 ollama
+  0.9  35936 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.3   7056 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3 304800 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 16:22:04 load { 1.76 2.22 2.43 } swap 1185.62M
+ 14.4 5944592 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  1.1   3360 /usr/sbin/cfprefsd
+  0.7   1648 zsh
+  0.7  35840 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.3   7040 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 16:23:04 load { 1.64 2.10 2.37 } swap 1121.62M
+  1.5  35744 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.3 189216 /Applications/Claude.app/Contents/MacOS/Claude
+  0.3   6896 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.2 478672 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  0.1  14704 /usr/sbin/bluetoothd
+== 16:24:04 load { 1.20 1.89 2.27 } swap 1113.62M
+ 30.0 828704 ~/.lmstudio/.internal/utils/node
+  1.5 111584 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  1.5  23376 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+  1.2  35968 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.5 235968 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 16:25:04 load { 1.28 1.78 2.20 } swap 1089.62M
+  7.7 830768 ~/.lmstudio/.internal/utils/node
+  2.8 313392 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  1.3  36160 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.1   1648 zsh
+  0.6 251744 ~/Documents/Projects/MilliJoule/.venv/bin/python
+== 16:26:04 load { 1.52 1.76 2.16 } swap 1001.56M
+  4.4 497712 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  2.8   7552 /usr/libexec/PerfPowerServices
+  2.5  35520 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.6   2816 /usr/sbin/cfprefsd
+  1.1 251392 /Applications/Claude.app/Contents/MacOS/Claude
+== 16:27:04 load { 1.22 1.63 2.09 } swap 1001.56M
+  1.6  35312 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  1.0 163888 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.3   2224 /usr/sbin/cfprefsd
+  0.3 522336 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  0.3   4048 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 16:28:04 load { 1.06 1.53 2.01 } swap 1001.56M
+  1.0  34992 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.3   5104 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3 523472 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  0.1   1776 /usr/libexec/clocksyncd
+  0.1  20880 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:29:04 load { 1.09 1.45 1.96 } swap 993.56M
+  0.8  35040 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.5 139600 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.3   5872 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.1   1968 /usr/libexec/clocksyncd
+  0.1   1216 ugrep
+== 16:30:04 load { 1.25 1.43 1.91 } swap 1888.94M
+  1.6  30992 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.8 100064 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.6 9996192 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  0.5   2368 /usr/sbin/cfprefsd
+  0.4   1632 zsh
+== 16:31:04 load { 1.03 1.34 1.84 } swap 1832.94M
+ 30.3 10100560 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  0.9  31216 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.6  10880 /usr/libexec/searchpartyd
+  0.6   1632 zsh
+  0.5  17616 /usr/libexec/spotlightknowledged.updater
+== 16:32:04 load { 1.32 1.36 1.81 } swap 1824.94M
+ 21.0 10062176 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  1.3  11872 /usr/libexec/searchpartyd
+  0.7  10368 /usr/sbin/bluetoothd
+  0.4   7376 /usr/libexec/locationd
+  0.4   2672 /usr/libexec/ContinuityCaptureAgent
+== 16:33:04 load { 2.00 1.55 1.85 } swap 1774.25M
+ 36.7 9986752 ~/Documents/Projects/MilliJoule/.venv/bin/python
+  1.6  24784 /Applications/Claude.app/Contents/MacOS/Claude
+  0.7  11616 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  0.7   3344 /usr/libexec/opendirectoryd
+  0.5   5264 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 16:34:05 load { 1.61 1.51 1.81 } swap 1888.25M
+  4.2  60480 llama-bench
+  0.9   4224 /usr/libexec/airportd
+  0.5  34848 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  0.4   4768 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.4  45600 /Applications/Claude.app/Contents/MacOS/Claude
+== 16:35:05 load { 1.30 1.43 1.76 } swap 1857.75M
+  2.6 11858576 llama-bench
+  0.6  38688 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  0.5  11056 /usr/libexec/airportd
+  0.3   6368 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3   2992 /usr/sbin/cfprefsd
+== 16:36:05 load { 1.17 1.36 1.71 } swap 1802.56M
+  1.3  10368 /usr/libexec/airportd
+  0.8  38912 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  0.5 323024 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.4  35632 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  0.3   6288 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 16:37:05 load { 1.30 1.36 1.69 } swap 1762.56M
+  2.3 513136 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  1.4 351968 ~/Library/Application Support/Claude/claude-code/2.1.325/485fdac4332e/claude.app/Contents/MacOS/claude
+  0.4 183696 /Applications/Claude.app/Contents/MacOS/Claude
+  0.3   6288 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  0.3  38944 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 16:38:05 load { 2.36 1.60 1.75 } swap 1888.25M
+119.0 134928 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+117.3 429904 /Applications/Xcode.app/Contents/Developer/usr/bin/xctrace
+ 66.8  45392 /System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner
+  9.7   6912 /System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd
+  5.7  37728 /usr/libexec/remindd

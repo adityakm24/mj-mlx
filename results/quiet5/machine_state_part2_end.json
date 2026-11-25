@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T01:35:28",
+ "top_cpu": [
+  "23051 top 5.2",
+  "0 kernel_task 2.0",
+  "581 locationd 1.4",
+  "2476 claude 1.4",
+  "729 searchpartyd 1.2",
+  "1693 openshell-driver 1.1",
+  "1302 Finder 1.0",
+  "1400 node 1.0"
+ ],
+ "swap": "total = 6144.00M  used = 5429.38M  free = 714.62M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 87%",
+ "loadavg": "{ 2.11 2.13 2.00 }"
+}

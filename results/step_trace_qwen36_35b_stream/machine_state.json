@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T06:37:07",
+ "top_cpu": [
+  "0 kernel_task 24.8",
+  "604 WindowServer 21.0",
+  "713 com.apple.Driver 17.7",
+  "1741 openshell-driver 10.2",
+  "34905 python3.11 8.4",
+  "36949 Claude Helper 8.0",
+  "1475 Claude Helper (R 6.5",
+  "38145 top 6.3"
+ ],
+ "swap": "total = 5120.00M  used = 3988.19M  free = 1131.81M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 79%",
+ "loadavg": "{ 3.13 3.58 3.61 }"
+}

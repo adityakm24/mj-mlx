@@ -1,0 +1,20 @@
+2026-11-21 01:53:31.108 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) powerexperienced [446] due to idle-exit (9)
+2026-11-21 01:53:31.111 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 446 [powerexperienced] (idle-exit 0 397s rf:- type:daemon) 3120KB - memorystatus_available_pages: 166608 compressor_size:167832
+2026-11-21 01:53:32.113 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) LoginUserService [712] due to idle-exit (9)
+2026-11-21 01:53:32.114 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 712 [LoginUserService] (idle-exit 0 398s rf:- type:daemon) 2112KB - memorystatus_available_pages: 120529 compressor_size:174968
+2026-11-21 01:53:33.115 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) applekeystored [626] due to idle-exit (9)
+2026-11-21 01:53:33.116 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 626 [applekeystored] (idle-exit 0 399s rf:- type:daemon) 2608KB - memorystatus_available_pages: 102213 compressor_size:154395
+2026-11-21 01:53:34.118 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) MTLCompilerService [721] due to idle-exit (9)
+2026-11-21 01:53:34.121 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 721 [MTLCompilerService] (idle-exit 0 400s rf:- type:daemon) 5888KB - memorystatus_available_pages: 94183 compressor_size:139901
+2026-11-21 01:53:35.121 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) APFSUserAgent [688] due to idle-exit (9)
+2026-11-21 01:53:35.122 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 688 [APFSUserAgent] (idle-exit 0 401s rf:- type:daemon) 2528KB - memorystatus_available_pages: 74306 compressor_size:140128
+2026-11-21 01:53:36.125 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) wallpaperexportd [686] due to idle-exit (9)
+2026-11-21 01:53:36.135 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 686 [wallpaperexportd] (idle-exit 0 402s rf:- type:daemon) 2176KB - memorystatus_available_pages: 53018 compressor_size:76524
+2026-11-21 01:53:37.800 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [594] due to idle-exit (9)
+2026-11-21 01:53:37.801 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 594 [SetStoreUpdateService] (idle-exit 0 402s rf:- type:daemon) 2912KB - memorystatus_available_pages: 58863 compressor_size:59926
+2026-11-21 01:53:38.802 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) filederivatived [740] due to idle-exit (9)
+2026-11-21 01:53:38.805 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 740 [filederivatived] (idle-exit 0 403s rf:- type:daemon) 5552KB - memorystatus_available_pages: 47796 compressor_size:69475
+2026-11-21 01:53:39.807 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) colorsync.displayservices [512] due to idle-exit (9)
+2026-11-21 01:53:39.814 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 512 [colorsync.displayservices] (idle-exit 0 403s rf:- type:daemon) 2688KB - memorystatus_available_pages: 51491 compressor_size:70207
+2026-11-21 01:53:40.816 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [793] due to idle-exit (9)
+2026-11-21 01:53:40.823 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 793 [SetStoreUpdateService] (idle-exit 0 404s rf:- type:daemon) 2928KB - memorystatus_available_pages: 45181 compressor_size:64778

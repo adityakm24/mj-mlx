@@ -1,0 +1,101 @@
+== dsv2lite_r1_mj 03:26:37 swap 2566 MB
+  dsv2lite_r1_mj pp16384 rep 0: 366.13 tok/s, 46 mJ/token GPU
+  dsv2lite_r1_mj pp16384 rep 1: 363.64 tok/s, 45 mJ/token GPU
+  dsv2lite_r1_mj tg128@d16384 rep 0: 22.34 tok/s, ttft 44.03 s, 496 mJ/token GPU
+  dsv2lite_r1_mj tg128@d16384 rep 1: 22.32 tok/s, ttft 44.59 s, 496 mJ/token GPU
+  FAILED (1): Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 422, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 380, in main
+    one(run, mx, test, 10_000 + a.seed0)  # warm-up, untimed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 267, in one
+    run(ids, 1, lambda: t.__setitem__("first", time.perf_counter()), lambda: None)
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 113, in run
+    eng.add_request(ids, new, ignore_eos=True)
+  File "~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py", line 434, in add_request
+    return self.sched.add_request(list(prompt_ids), max_new_tokens=max_new_tokens, stop_token_ids=stops,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: prompt has 32768 tokens; the limit is 32767 (max_seq_len or KV capacity)
+
+== dsv2lite_r1_mj-w9 03:33:11 swap 2274 MB
+  dsv2lite_r1_mj-w9 pp16384 rep 0: 376.00 tok/s, 47 mJ/token GPU
+  dsv2lite_r1_mj-w9 pp16384 rep 1: 369.18 tok/s, 45 mJ/token GPU
+  dsv2lite_r1_mj-w9 tg128@d16384 rep 0: 22.20 tok/s, ttft 43.78 s, 529 mJ/token GPU
+  dsv2lite_r1_mj-w9 tg128@d16384 rep 1: 22.56 tok/s, ttft 44.51 s, 523 mJ/token GPU
+  FAILED (1): Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 422, in <module>
+    if __name__ == "__main__":
+        ^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 380, in main
+    for test in a.tests.split(","):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 267, in one
+    t0 = time.perf_counter()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 113, in run
+    max_seq_len=max(32768, len(ids) + new + 16))  # 32k prompts: the default limit is 32768 in all
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py", line 434, in add_request
+    return self.sched.add_request(list(prompt_ids), max_new_tokens=max_new_tokens, stop_token_ids=stops,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: prompt has 32768 tokens; the limit is 32767 (max_seq_len or KV capacity)
+
+== dsv2lite_r2_mj-w9 03:39:33 swap 2170 MB
+  dsv2lite_r2_mj-w9 pp16384 rep 0: 377.57 tok/s, 48 mJ/token GPU
+  dsv2lite_r2_mj-w9 pp16384 rep 1: 369.51 tok/s, 46 mJ/token GPU
+  dsv2lite_r2_mj-w9 tg128@d16384 rep 0: 22.65 tok/s, ttft 43.45 s, 530 mJ/token GPU
+  dsv2lite_r2_mj-w9 tg128@d16384 rep 1: 22.63 tok/s, ttft 44.04 s, 529 mJ/token GPU
+  dsv2lite_r2_mj-w9 pp32768 rep 0: 248.34 tok/s, 61 mJ/token GPU
+  dsv2lite_r2_mj-w9 pp32768 rep 1: 237.58 tok/s, 55 mJ/token GPU
+  dsv2lite_r2_mj-w9 tg128@d32768 rep 0: 13.17 tok/s, ttft 136.80 s, 874 mJ/token GPU
+  dsv2lite_r2_mj-w9 tg128@d32768 rep 1: 13.63 tok/s, ttft 136.30 s, 809 mJ/token GPU
+  FLAGGED: swap grew 700 MB
+== dsv2lite_r2_mj 04:01:06 swap 2862 MB
+  dsv2lite_r2_mj pp16384 rep 0: 378.00 tok/s, 48 mJ/token GPU
+  dsv2lite_r2_mj pp16384 rep 1: 372.63 tok/s, 47 mJ/token GPU
+  dsv2lite_r2_mj tg128@d16384 rep 0: 22.72 tok/s, ttft 43.51 s, 531 mJ/token GPU
+  dsv2lite_r2_mj tg128@d16384 rep 1: 22.66 tok/s, ttft 44.22 s, 527 mJ/token GPU
+  dsv2lite_r2_mj pp32768 rep 0: 242.87 tok/s, 57 mJ/token GPU
+  dsv2lite_r2_mj pp32768 rep 1: 238.53 tok/s, 55 mJ/token GPU
+  dsv2lite_r2_mj tg128@d32768 rep 0: 13.70 tok/s, ttft 135.29 s, 856 mJ/token GPU
+  dsv2lite_r2_mj tg128@d32768 rep 1: 13.63 tok/s, ttft 136.38 s, 811 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## DeepSeek-V2-Lite-Chat (MLA, general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64; ours caches MLA latents, mlx-lm expanded K/V; llama.cpp / Ollama: mradermacher Q4_K_M; LM Studio (its MLX engine) and vllm-mlx: the mlx-community 4-bit
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| mj | pp16384 | 375.31 +- 3.80 | 341.18-409.45 | 1.0% | 2 | 47 | 97 |
+| mj | pp32768 | 240.70 +- 3.07 | 213.15-268.26 | 1.3% | 2 | 56 | 121 |
+| mj | tg128@d16384 | 22.69 +- 0.04 | 22.33-23.05 | 0.2% | 2 | 529 | 1176 |
+| mj | tg128@d32768 | 13.66 +- 0.05 | 13.19-14.13 | 0.4% | 2 | 834 | 1808 |
+| mj-w9 | pp16384 | every block flagged (see below) | | | 0 | - | - |
+| mj-w9 | pp32768 | every block flagged (see below) | | | 0 | - | - |
+| mj-w9 | tg128@d16384 | every block flagged (see below) | | | 0 | - | - |
+| mj-w9 | tg128@d32768 | every block flagged (see below) | | | 0 | - | - |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| mj | pp16384 | 364.88 +- 1.76 (363.64-366.13) | 2 |
+| mj | tg128@d16384 | 22.33 +- 0.01 (22.32-22.34) | 2 |
+| mj-w9 | pp16384 | 373.06 +- 4.34 (369.18-377.57) | 4 |
+| mj-w9 | pp32768 | 242.96 +- 7.61 (237.58-248.34) | 2 |
+| mj-w9 | tg128@d16384 | 22.51 +- 0.21 (22.20-22.65) | 4 |
+| mj-w9 | tg128@d32768 | 13.40 +- 0.33 (13.17-13.63) | 2 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_mj-w9 | mj-w9 | 12.75 | 2.53 | 0.74 | 0.65 |
+| r1_mj | mj | 12.71 | 0.36 | 2.00 | 1.91 |
+| r2_mj-w9 | mj-w9 | 14.06 | 2.67 | 3.37 | 4.12 |
+| r2_mj | mj | 13.48 | 2.91 | 2.68 | 2.47 |
+

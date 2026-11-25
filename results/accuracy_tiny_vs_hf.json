@@ -1,0 +1,44 @@
+{
+ "model": "~/.cache/huggingface/hub/models--trl-internal-testing--tiny-GptOssForCausalLM/snapshots/cb95c03d6ab62791e09ef922fc28856d18b45909",
+ "reference": "transformers float32",
+ "prompts": 8,
+ "prompt_len": 256,
+ "rows": {
+  "millijoule bf16 precise (default)": {
+   "top1": 0.962890625,
+   "mean_kl": 3.2322527118771207e-09,
+   "max_kl": 2.1034582710142333e-08,
+   "max_abs_dlogit": 0.000881291925907135,
+   "positions": 2048
+  },
+  "millijoule bf16 plain": {
+   "top1": 0.9658203125,
+   "mean_kl": 4.159362129408619e-09,
+   "max_kl": 3.978230057408387e-08,
+   "max_abs_dlogit": 0.0014095334336161613,
+   "positions": 2048
+  },
+  "millijoule float32": {
+   "top1": 1.0,
+   "mean_kl": 1.0203809795460449e-17,
+   "max_kl": 1.893220662390832e-15,
+   "max_abs_dlogit": 7.450580596923828e-08,
+   "positions": 2048
+  },
+  "mlx-lm 0.32.2 bf16 (default load)": {
+   "top1": 0.96337890625,
+   "mean_kl": 5.550613412644181e-09,
+   "max_kl": 6.731480928998248e-08,
+   "max_abs_dlogit": 0.001585058867931366,
+   "positions": 2048
+  },
+  "mlx-lm 0.32.2 float32": {
+   "top1": 0.9951171875,
+   "mean_kl": 8.78151169770807e-10,
+   "max_kl": 3.549094690041847e-08,
+   "max_abs_dlogit": 0.0010760575532913208,
+   "positions": 2048
+  }
+ },
+ "note": "random token prompts, teacher-forced logits at every position"
+}

@@ -1,0 +1,11 @@
+{
+ "engine": "mj-u96",
+ "peak_footprint_gb": 11.513191312,
+ "peak_resident_gb": 7.872987136,
+ "samples": 231,
+ "per_pid_gb": {
+  "39092": 11.513191312
+ },
+ "swapins_gb": 0.133726208,
+ "swapouts_gb": 0.067108864
+}

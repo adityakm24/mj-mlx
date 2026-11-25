@@ -1,0 +1,60 @@
+{
+ "arm": "plain",
+ "engine": "mj-overlap",
+ "round": 2,
+ "weights": "",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "url": null,
+ "model_id": null,
+ "prompt": "chat template around: Write a Python function that returns the n-th Fibonacci number using memoization, and explain it.",
+ "prompt_len": 31,
+ "spec": null,
+ "new_tokens": 128,
+ "metric_notes": "Single-request decode, any engine on this Mac, measured the same way: one 256-token prompt, 128 new tokens.\n\nPer run, after one unmeasured warm-up run:\n- decode_ms_per_token: (time of last token - time of first token) / (tokens - 1). The prompt's prefill is excluded.\n- gpu_mj_per_token: IOReport GPU-rail energy over the same first-to-last-token window / (tokens - 1). This is\n  whole-GPU energy including idle, so other apps count too; Mac-only.\n- decode_gap_median_ms / _max_ms: median and max time between token arrivals (a chunk of several tokens counts once).\n- --diff (openai only): decode ms and mJ per token = (128-token request - 32-token request) / token difference,\n  unstreamed. Used for LM Studio, whose MLX stream holds back early tokens: streaming timing understated its\n  ms/token (42-44 streamed vs 54.4 by difference, 2026-11-17).\n- ttft_s: request start to first token (includes the prefill of the 256 prompt tokens).\n\nEngines:\n- mj, mj-overlap, mlx-lm: in-process, on the MLX checkpoint, with the exact token ids.\n- mj-mtp: in-process, speculative decoding with the checkpoint's MTP head (spec_decode.py; --mtp, --k,\n  --draft-vocab). Greedy output is bit-identical to mj's (checked by tools/mlx_spec_decode.py). --k auto-time /\n  auto-energy: drafts per iteration chosen by spec_decode.DraftPolicy (0 .. --k-max), a fresh policy per request;\n  auto-energy needs --cost-file (tools/mlx_spec_calibrate.py). Runs record k_hist (iterations per draft count) and\n  j_per_iter (window energy / iterations).\n\nPrompts (--prompt): random = 256 ids from RandomState(0) (the default; hard for any draft model: the context is\nnoise), chat = the checkpoint's chat template around CHAT_PROMPT (thinking off), the same ids for every engine.\n- llama-server: llama.cpp's HTTP server, /completion with the exact token ids, ignore_eos, streamed.\n- openai: any OpenAI-compatible server (LM Studio) on /v1/completions. It takes text, so the prompt is the\n  checkpoint tokenizer's decode of the same ids. EOS cannot be ignored, so a run that stops early is recorded\n  with its real token count and flagged short. Tokens are the server's usage count (a streamed chunk may carry\n  several tokens); the window still runs first chunk to last chunk, so a multi-token first chunk slightly\n  understates ms/token. LM Studio reuses a cached prompt across requests, so its ttft_s is not a prefill time.\n",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "runs": [
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 46.885090551181136,
+   "gpu_mj_per_token": 505.44625940157476,
+   "decode_gap_median_ms": 47.09258299999419,
+   "decode_gap_max_ms": 49.66124999987187,
+   "gpu_w": 10.776126967968121,
+   "gpu_active_pct": 99.93891237289657,
+   "ttft_s": 0.18909258400003637,
+   "window_s": 5.954406500000005,
+   "gpu_j": 64.191674944,
+   "chunks": 128,
+   "rep": 0
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 46.98937959055123,
+   "gpu_mj_per_token": 507.52004270866144,
+   "decode_gap_median_ms": 47.09674999980962,
+   "decode_gap_max_ms": 49.665499999946405,
+   "gpu_w": 10.798621030050418,
+   "gpu_active_pct": 99.95888707224283,
+   "ttft_s": 0.19414150000011432,
+   "window_s": 5.967651208000007,
+   "gpu_j": 64.455045424,
+   "chunks": 128,
+   "rep": 1
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 46.73674475590428,
+   "gpu_mj_per_token": 505.93046538582684,
+   "decode_gap_median_ms": 46.938333000071,
+   "decode_gap_max_ms": 47.7302920000966,
+   "gpu_w": 10.822133482331076,
+   "gpu_active_pct": 99.95215340956749,
+   "ttft_s": 0.19420637500002158,
+   "window_s": 5.935566583999844,
+   "gpu_j": 64.25316910400001,
+   "chunks": 128,
+   "rep": 2
+  }
+ ]
+}

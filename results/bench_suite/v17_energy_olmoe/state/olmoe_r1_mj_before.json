@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T04:46:41",
+ "top_cpu": [
+  "552 mds_stores 10.5",
+  "22500 top 5.2",
+  "0 kernel_task 3.1",
+  "828 node 1.4",
+  "847 openshell-gatewa 1.3",
+  "1079 openshell-driver 1.0",
+  "1 launchd 1.0",
+  "479 airportd 1.0"
+ ],
+ "swap": "total = 5120.00M  used = 4127.62M  free = 992.38M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 80%",
+ "loadavg": "{ 1.69 1.52 1.54 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4127.62
+}

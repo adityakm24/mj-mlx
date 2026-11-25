@@ -1,0 +1,51 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46",
+ "experts": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/qwen36-real-experts",
+ "prompt": "Explain, in a short paragraph, why the sky looks blue during the day and red at sunset, and then list three everyday examples of light scattering.",
+ "rows": [
+  {
+   "slots": 32,
+   "page_cache": false,
+   "prefetch": true,
+   "prefetch_issued": 8206,
+   "prefetch_used": 6493,
+   "resident_gb": 3.654664192,
+   "expert_budget_gb": 2.26492416,
+   "load_s": 0.841326666995883,
+   "prompt_tokens": 41,
+   "new_tokens": 64,
+   "ttft_s": 3.70961866597645,
+   "decode_tok_s": 4.531013383934155,
+   "decode_hit_rate": 0.8567956349206349,
+   "decode_gb_read": 19.621675008,
+   "gpu_w": 1.3299325488587674,
+   "gpu_j_per_token": 0.36442621737500003,
+   "gpu_active_pct": 91.21899690823241,
+   "mlx_peak_gb": 3.860397021,
+   "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Question 1:** Explain why the sky looks blue during the day and red at sunset (in a short paragraph).\n   - **Question 2:** List three everyday examples of light scattering.\n   - **Constraints"
+  },
+  {
+   "slots": 96,
+   "page_cache": false,
+   "prefetch": true,
+   "prefetch_issued": 4919,
+   "prefetch_used": 4065,
+   "resident_gb": 8.184512512,
+   "expert_budget_gb": 6.79477248,
+   "load_s": 1.0944095420418307,
+   "prompt_tokens": 41,
+   "new_tokens": 64,
+   "ttft_s": 2.966044166998472,
+   "decode_tok_s": 7.353682009263351,
+   "decode_hit_rate": 0.9373511904761904,
+   "decode_gb_read": 7.314997248,
+   "gpu_w": 1.474461122197426,
+   "gpu_j_per_token": 0.26563069104687503,
+   "gpu_active_pct": 90.05007157863112,
+   "mlx_peak_gb": 8.390442701,
+   "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Question 1:** Explain why the sky looks blue during the day and red at sunset (in a short paragraph).\n   - **Question 2:** List three everyday examples of light scattering.\n   - **Constraints"
+  }
+ ],
+ "process_peak_rss_gb": 8.40769536,
+ "note": "greedy, batch 1, lean trunk (embed + bf16 lm_head on disk, 4-bit candidate head + fp32 rescore), experts streamed from the repacked files with F_NOCACHE; energy = Mac GPU rail"
+}

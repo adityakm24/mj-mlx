@@ -1,0 +1,10 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_bench_worker.py --engine openai --label llama-server --model ~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216 --tests pp512,tg128@d0 --reps 2 --tag dbg --api-url http://127.0.0.1:8092 --api-model bench --out ~/Documents/Projects/mj-mlx/results/dsv2_llama_server_debug_v1/worker.jsonl
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 467, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 458, in main
+    print(f"{a.tag or a.engine} {test} rep {r}: reply of {row['n_out']} token(s), no rate", flush=True)
+                                                          ~~~^^^^^^^^^
+KeyError: 'n_out'

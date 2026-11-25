@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T07:44:05",
+ "top_cpu": [
+  "49492 top 4.7",
+  "819 node 2.7",
+  "0 kernel_task 2.3",
+  "1342 claude 2.2",
+  "48304 com.apple.geod 2.0",
+  "920 python3.14 1.5",
+  "43115 claude 1.0",
+  "1143 openshell-driver 0.8"
+ ],
+ "swap": "total = 7168.00M  used = 5450.44M  free = 1717.56M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 1.46 1.54 1.71 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 5450.44
+}

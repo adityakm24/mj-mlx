@@ -1,0 +1,6 @@
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (298938 > 131072). Running this sequence through the model will result in indexing errors
+chunk 1/40: ppl 6.1161
+chunk 11/40: ppl 9.7520
+chunk 21/40: ppl 9.3069
+chunk 31/40: ppl 7.6374
+{"engine": "mj", "mj_kw": {}, "ctx": 512, "chunks": 40, "tokens_scored": 10200, "text_tokens": 298938, "add_bos": false, "ppl": 8.12265989403568, "ppl_se": 0.23782715823796247, "load_s": 0.8832314160026726, "eval_s": 104.01001595800335, "ref": null}

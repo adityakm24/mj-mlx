@@ -1,0 +1,48 @@
+         24804 function calls (24458 primitive calls) in 3.500 seconds
+
+   Ordered by: cumulative time
+   List reduced from 434 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    3.500    3.500 ~/Documents/Projects/mj-mlx/tools/mlx_cold_profile.py:80(<lambda>)
+        1    0.011    0.011    3.499    3.499 ~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py:100(make_mj)
+        1    0.016    0.016    3.485    3.485 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:116(load_model)
+        1    1.129    1.129    3.468    3.468 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:399(__init__)
+        1    0.000    0.000    2.290    2.290 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:490(<listcomp>)
+       24    0.813    0.034    2.290    0.095 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:523(load_layer)
+       24    0.001    0.000    1.477    0.062 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:558(_experts)
+       24    0.003    0.000    1.475    0.061 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/expert_map.py:103(layer)
+       96    1.127    0.012    1.190    0.012 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/expert_map.py:40(_mlock)
+       98    0.283    0.003    0.288    0.003 ~/Documents/Projects/mj-mlx/.venv/lib/python3.11/site-packages/numpy/_core/memmap.py:216(__new__)
+       96    0.000    0.000    0.046    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/__init__.py:386(__getattr__)
+       96    0.046    0.000    0.046    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/__init__.py:393(__getitem__)
+        1    0.026    0.026    0.030    0.030 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:591(parameters)
+       96    0.002    0.000    0.011    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/__init__.py:342(__init__)
+      146    0.001    0.000    0.010    0.000 {built-in method builtins.__build_class__}
+       96    0.008    0.000    0.008    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/__init__.py:370(_FuncPtr)
+     15/3    0.000    0.000    0.008    0.003 <frozen importlib._bootstrap>:1165(_find_and_load)
+     15/3    0.000    0.000    0.008    0.003 <frozen importlib._bootstrap>:1120(_find_and_load_unlocked)
+     15/3    0.000    0.000    0.008    0.003 <frozen importlib._bootstrap>:666(_load_unlocked)
+     11/2    0.000    0.000    0.008    0.004 <frozen importlib._bootstrap_external>:934(exec_module)
+     33/8    0.000    0.000    0.008    0.001 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+        2    0.000    0.000    0.007    0.004 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/expert_stream.py:419(__init__)
+       96    0.000    0.000    0.006    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/util.py:72(find_library)
+       11    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:1007(get_code)
+       96    0.000    0.000    0.005    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/macholib/dyld.py:121(dyld_find)
+     11/2    0.000    0.000    0.005    0.002 {built-in method builtins.exec}
+        1    0.000    0.000    0.005    0.005 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/expert_stream.py:1(<module>)
+       24    0.005    0.000    0.005    0.000 {built-in method builtins.vars}
+      107    0.004    0.000    0.004    0.000 {built-in method io.open}
+        1    0.002    0.002    0.004    0.004 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:68(yarn_inv_freq)
+        1    0.000    0.000    0.003    0.003 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/__init__.py:1(<module>)
+       96    0.003    0.000    0.003    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:999(source_to_code)
+        2    0.003    0.001    0.003    0.001 {built-in method builtins.compile}
+        1    0.000    0.000    0.003    0.003 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/_base.py:1(<module>)
+       13    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1127(get_data)
+       23    0.002    0.000    0.002    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.002    0.002 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/logging/__init__.py:1(<module>)
+      480    0.002    0.000    0.002    0.000 {built-in method _ctypes._dyld_shared_cache_contains_path}
+      576    0.000    0.000    0.001    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ctypes/macholib/dyld.py:99(dyld_default_search)
+
+

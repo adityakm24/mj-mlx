@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T09:07:06",
+ "top_cpu": [
+  "552 mds_stores 25.0",
+  "0 kernel_task 16.4",
+  "47214 top 3.8",
+  "5944 claude 3.3",
+  "47121 appstoreagent 2.9",
+  "420 runningboardd 1.6",
+  "828 node 1.0",
+  "1918 esbuild 0.9"
+ ],
+ "swap": "total = 5120.00M  used = 4149.31M  free = 970.69M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 80%",
+ "loadavg": "{ 1.47 1.81 2.25 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4149.31
+}

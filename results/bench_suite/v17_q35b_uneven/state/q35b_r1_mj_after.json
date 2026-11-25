@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T04:15:51",
+ "top_cpu": [
+  "2267 claude 9.9",
+  "2175 Claude Helper (R 6.1",
+  "0 kernel_task 3.1",
+  "20562 top 2.5",
+  "828 node 1.8",
+  "2155 Claude 1.6",
+  "847 openshell-gatewa 1.1",
+  "6933 claude 1.1"
+ ],
+ "swap": "total = 5120.00M  used = 3904.25M  free = 1215.75M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 80%",
+ "loadavg": "{ 1.28 1.74 1.62 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3904.25
+}

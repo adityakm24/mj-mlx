@@ -1,0 +1,71 @@
+== q9b_r1_mj 20:49:42 swap 1944 MB
+  q9b_r1_mj pp512 rep 0: 226.83 tok/s, 87 mJ/token GPU
+  q9b_r1_mj pp512 rep 1: 226.70 tok/s, 87 mJ/token GPU
+  q9b_r1_mj pp512 rep 2: 226.78 tok/s, 87 mJ/token GPU
+  q9b_r1_mj pp2048 rep 0: 227.54 tok/s, 90 mJ/token GPU
+  q9b_r1_mj pp2048 rep 1: 227.65 tok/s, 90 mJ/token GPU
+  q9b_r1_mj pp2048 rep 2: 227.53 tok/s, 91 mJ/token GPU
+  q9b_r1_mj tg128@d2048 rep 0: 21.55 tok/s, ttft 9.02 s, 489 mJ/token GPU
+  q9b_r1_mj tg128@d2048 rep 1: 21.54 tok/s, ttft 9.03 s, 489 mJ/token GPU
+  q9b_r1_mj tg128@d2048 rep 2: 21.52 tok/s, ttft 9.02 s, 489 mJ/token GPU
+  q9b_r1_mj pp8192 rep 0: 210.54 tok/s, 87 mJ/token GPU
+  q9b_r1_mj pp8192 rep 1: 209.98 tok/s, 87 mJ/token GPU
+  q9b_r1_mj pp8192 rep 2: 211.85 tok/s, 88 mJ/token GPU
+== q9b_r1_mj-s64 20:55:37 swap 1672 MB
+  q9b_r1_mj-s64 pp512 rep 0: 225.91 tok/s, 87 mJ/token GPU
+  q9b_r1_mj-s64 pp512 rep 1: 226.78 tok/s, 87 mJ/token GPU
+  q9b_r1_mj-s64 pp512 rep 2: 226.57 tok/s, 87 mJ/token GPU
+  q9b_r1_mj-s64 pp2048 rep 0: 226.17 tok/s, 91 mJ/token GPU
+  q9b_r1_mj-s64 pp2048 rep 1: 226.30 tok/s, 91 mJ/token GPU
+  q9b_r1_mj-s64 pp2048 rep 2: 226.44 tok/s, 91 mJ/token GPU
+  q9b_r1_mj-s64 tg128@d2048 rep 0: 21.66 tok/s, ttft 9.07 s, 489 mJ/token GPU
+  q9b_r1_mj-s64 tg128@d2048 rep 1: 21.60 tok/s, ttft 9.07 s, 489 mJ/token GPU
+  q9b_r1_mj-s64 tg128@d2048 rep 2: 21.04 tok/s, ttft 9.08 s, 496 mJ/token GPU
+  q9b_r1_mj-s64 pp8192 rep 0: 212.23 tok/s, 88 mJ/token GPU
+  q9b_r1_mj-s64 pp8192 rep 1: 211.26 tok/s, 88 mJ/token GPU
+  q9b_r1_mj-s64 pp8192 rep 2: 210.83 tok/s, 87 mJ/token GPU
+== q9b_r2_mj-s64 21:01:32 swap 1786 MB
+  q9b_r2_mj-s64 pp512 rep 0: 226.00 tok/s, 87 mJ/token GPU
+  q9b_r2_mj-s64 pp512 rep 1: 226.59 tok/s, 87 mJ/token GPU
+  q9b_r2_mj-s64 pp512 rep 2: 226.72 tok/s, 87 mJ/token GPU
+  q9b_r2_mj-s64 pp2048 rep 0: 226.11 tok/s, 91 mJ/token GPU
+  q9b_r2_mj-s64 pp2048 rep 1: 226.06 tok/s, 91 mJ/token GPU
+  q9b_r2_mj-s64 pp2048 rep 2: 226.17 tok/s, 91 mJ/token GPU
+  q9b_r2_mj-s64 tg128@d2048 rep 0: 20.44 tok/s, ttft 9.71 s, 517 mJ/token GPU
+  q9b_r2_mj-s64 tg128@d2048 rep 1: 20.67 tok/s, ttft 9.24 s, 509 mJ/token GPU
+  q9b_r2_mj-s64 tg128@d2048 rep 2: 21.19 tok/s, ttft 9.12 s, 497 mJ/token GPU
+  q9b_r2_mj-s64 pp8192 rep 0: 212.56 tok/s, 89 mJ/token GPU
+  q9b_r2_mj-s64 pp8192 rep 1: 208.99 tok/s, 89 mJ/token GPU
+  q9b_r2_mj-s64 pp8192 rep 2: 211.62 tok/s, 88 mJ/token GPU
+== q9b_r2_mj 21:07:29 swap 808 MB
+  q9b_r2_mj pp512 rep 0: 226.46 tok/s, 88 mJ/token GPU
+  q9b_r2_mj pp512 rep 1: 226.19 tok/s, 88 mJ/token GPU
+  q9b_r2_mj pp512 rep 2: 226.24 tok/s, 88 mJ/token GPU
+  q9b_r2_mj pp2048 rep 0: 227.45 tok/s, 90 mJ/token GPU
+  q9b_r2_mj pp2048 rep 1: 227.52 tok/s, 91 mJ/token GPU
+  q9b_r2_mj pp2048 rep 2: 227.44 tok/s, 91 mJ/token GPU
+  q9b_r2_mj tg128@d2048 rep 0: 21.45 tok/s, ttft 9.03 s, 492 mJ/token GPU
+  q9b_r2_mj tg128@d2048 rep 1: 21.42 tok/s, ttft 9.03 s, 491 mJ/token GPU
+  q9b_r2_mj tg128@d2048 rep 2: 21.46 tok/s, ttft 9.03 s, 491 mJ/token GPU
+  q9b_r2_mj pp8192 rep 0: 212.08 tok/s, 89 mJ/token GPU
+  q9b_r2_mj pp8192 rep 1: 212.02 tok/s, 89 mJ/token GPU
+  q9b_r2_mj pp8192 rep 2: 208.55 tok/s, 89 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## Qwen3.5-9B
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64 (~4.5 bpw); llama.cpp: lmstudio-community Q4_K_M (~4.8 bpw)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| mj | pp512 | 226.53 +- 0.28 | 226.24-226.82 | 0.1% | 6 | 87 |
+| mj-s64 | pp512 | 226.43 +- 0.38 | 226.03-226.82 | 0.2% | 6 | 87 |
+| mj | pp2048 | 227.52 +- 0.07 | 227.44-227.60 | 0.0% | 6 | 90 |
+| mj-s64 | pp2048 | 226.21 +- 0.14 | 226.06-226.35 | 0.1% | 6 | 91 |
+| mj | tg128@d2048 | 21.49 +- 0.05 | 21.44-21.55 | 0.2% | 6 | 490 |
+| mj-s64 | tg128@d2048 | 21.10 +- 0.49 | 20.59-21.62 | 2.3% | 6 | 500 |
+| mj | pp8192 | 210.84 +- 1.41 | 209.35-212.32 | 0.7% | 6 | 88 |
+| mj-s64 | pp8192 | 211.25 +- 1.27 | 209.91-212.58 | 0.6% | 6 | 88 |
+

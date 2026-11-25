@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-20T16:16:05",
+ "top_cpu": [
+  "16715 intelligenceflow 112.1",
+  "8347 spotlightknowled 69.6",
+  "14578 photolibraryd 66.3",
+  "15384 managedcorespotl 18.0",
+  "0 kernel_task 17.7",
+  "596 modelmanagerd 6.4",
+  "636 rapportd 6.0",
+  "1 launchd 5.5"
+ ],
+ "swap": "total = 3072.00M  used = 2409.00M  free = 663.00M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 74%",
+ "loadavg": "{ 4.55 2.97 2.72 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2409.0
+}

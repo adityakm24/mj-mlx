@@ -1,0 +1,126 @@
+{
+ "arm": "mtp",
+ "engine": "mj-mtp",
+ "round": 1,
+ "weights": "",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "url": null,
+ "model_id": null,
+ "prompt": "chat template around: Write a Python function that returns the n-th Fibonacci number using memoization, and explain it.",
+ "prompt_len": 31,
+ "spec": {
+  "k": "auto-edp",
+  "k_max": 3,
+  "mtp": "~/.cache/millijoule/Qwen3.5-9B-mtp/mtp.safetensors",
+  "draft_vocab": "~/.cache/millijoule/Qwen3.5-9B-mtp/vocab65536.npy",
+  "cost_file": "~/.cache/millijoule/Qwen3.5-9B-mtp/spec_cost.json"
+ },
+ "new_tokens": 128,
+ "metric_notes": "Single-request decode, any engine on this Mac, measured the same way: one 256-token prompt, 128 new tokens.\n\nPer run, after one unmeasured warm-up run:\n- decode_ms_per_token: (time of last token - time of first token) / (tokens - 1). The prompt's prefill is excluded.\n- gpu_mj_per_token: IOReport GPU-rail energy over the same first-to-last-token window / (tokens - 1). This is\n  whole-GPU energy including idle, so other apps count too; Mac-only.\n- decode_gap_median_ms / _max_ms: median and max time between token arrivals (a chunk of several tokens counts once).\n- --diff (openai only): decode ms and mJ per token = (128-token request - 32-token request) / token difference,\n  unstreamed. Used for LM Studio, whose MLX stream holds back early tokens: streaming timing understated its\n  ms/token (42-44 streamed vs 54.4 by difference, 2026-11-17).\n- ttft_s: request start to first token (includes the prefill of the 256 prompt tokens).\n\nEngines:\n- mj, mj-overlap, mlx-lm: in-process, on the MLX checkpoint, with the exact token ids.\n- mj-eagle: in-process gpt-oss with an EAGLE-3 draft head (eagle3.py; --k drafts or --k auto = one draft or none\n  by measured acceptance and step time; head in EAGLE_HEAD); greedy output equals mj's.\n- mj-mtp: in-process, speculative decoding with the checkpoint's MTP head (spec_decode.py; --mtp, --k,\n  --draft-vocab). Greedy output is bit-identical to mj's (checked by tools/mlx_spec_decode.py). --k auto-time /\n  auto-energy: drafts per iteration chosen by spec_decode.DraftPolicy (0 .. --k-max), a fresh policy per request;\n  auto-energy needs --cost-file (tools/mlx_spec_calibrate.py). Runs record k_hist (iterations per draft count) and\n  j_per_iter (window energy / iterations).\n\nPrompts (--prompt): random = 256 ids from RandomState(0) (the default; hard for any draft model: the context is\nnoise), chat = the checkpoint's chat template around CHAT_PROMPT (thinking off), the same ids for every engine.\n- llama-server: llama.cpp's HTTP server, /completion with the exact token ids, ignore_eos, streamed.\n- openai: any OpenAI-compatible server (LM Studio) on /v1/completions. It takes text, so the prompt is the\n  checkpoint tokenizer's decode of the same ids. EOS cannot be ignored, so a run that stops early is recorded\n  with its real token count and flagged short. Tokens are the server's usage count (a streamed chunk may carry\n  several tokens); the window still runs first chunk to last chunk, so a multi-token first chunk slightly\n  understates ms/token. LM Studio reuses a cached prompt across requests, so its ttft_s is not a prefill time.\n",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "runs": [
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 22.23875755119902,
+   "gpu_mj_per_token": 388.17914874015753,
+   "decode_gap_median_ms": 58.860604500296176,
+   "decode_gap_max_ms": 62.31308399947011,
+   "gpu_w": 17.44613064945167,
+   "gpu_active_pct": 98.30927964931509,
+   "ttft_s": 0.16865599999800907,
+   "window_s": 2.8243222090022755,
+   "gpu_j": 49.298751890000005,
+   "chunks": 128,
+   "accept_rate": 0.8229166666666666,
+   "spec_iters": 48,
+   "k_hist": [
+    0,
+    0,
+    48,
+    0
+   ],
+   "depth_tried": [
+    48,
+    43,
+    0
+   ],
+   "depth_acc": [
+    43,
+    36,
+    0
+   ],
+   "j_per_iter": 1.0270573310416669,
+   "s_per_iter": 0.05884004602088074,
+   "rep": 0
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 22.404624015743906,
+   "gpu_mj_per_token": 371.87275834645675,
+   "decode_gap_median_ms": 59.06062450048921,
+   "decode_gap_max_ms": 65.86241599870846,
+   "gpu_w": 16.59170451745623,
+   "gpu_active_pct": 98.29324314469324,
+   "ttft_s": 0.18034170900136814,
+   "window_s": 2.845387249999476,
+   "gpu_j": 47.227840310000005,
+   "chunks": 128,
+   "accept_rate": 0.8229166666666666,
+   "spec_iters": 48,
+   "k_hist": [
+    0,
+    0,
+    48,
+    0
+   ],
+   "depth_tried": [
+    48,
+    43,
+    0
+   ],
+   "depth_acc": [
+    43,
+    36,
+    0
+   ],
+   "j_per_iter": 0.9839133397916667,
+   "s_per_iter": 0.05927890104165575,
+   "rep": 1
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 22.59911646457814,
+   "gpu_mj_per_token": 370.32402274803155,
+   "decode_gap_median_ms": 59.637979002218344,
+   "decode_gap_max_ms": 65.45195800208603,
+   "gpu_w": 16.38047879144,
+   "gpu_active_pct": 98.372957066343,
+   "ttft_s": 0.1850818339989928,
+   "window_s": 2.870087791001424,
+   "gpu_j": 47.031150889,
+   "chunks": 128,
+   "accept_rate": 0.8229166666666666,
+   "spec_iters": 48,
+   "k_hist": [
+    0,
+    0,
+    48,
+    0
+   ],
+   "depth_tried": [
+    48,
+    43,
+    0
+   ],
+   "depth_acc": [
+    43,
+    36,
+    0
+   ],
+   "j_per_iter": 0.9798156435208334,
+   "s_per_iter": 0.059793495645863004,
+   "rep": 2
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T11:52:21",
+ "top_cpu": [
+  "26179 com.apple.geod 46.5",
+  "26181 com.apple.geod 17.6",
+  "26183 com.apple.geod 15.3",
+  "26182 com.apple.geod 14.1",
+  "26178 weatherd 12.6",
+  "347 fseventsd 10.3",
+  "0 kernel_task 8.1",
+  "479 airportd 7.5"
+ ],
+ "swap": "total = 3072.00M  used = 2071.62M  free = 1000.38M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 87%",
+ "loadavg": "{ 1.56 2.51 2.50 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2071.62
+}

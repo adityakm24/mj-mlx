@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T17:00:58",
+ "top_cpu": [
+  "43079 siriactionsd 91.5",
+  "45303 top 5.3",
+  "0 kernel_task 2.6",
+  "819 node 1.2",
+  "60284 MacInCallService 0.9",
+  "43115 claude 0.9",
+  "390 locationd 0.8",
+  "1143 openshell-driver 0.7"
+ ],
+ "swap": "total = 4096.00M  used = 3256.06M  free = 839.94M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 73%",
+ "loadavg": "{ 3.57 2.01 1.73 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3256.06
+}

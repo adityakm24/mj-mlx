@@ -1,0 +1,15 @@
+{
+ "engine": "mj",
+ "model": "~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct/snapshots/b89a7c4bc24fb9e55ce2543c9458ce0ca5c4650e",
+ "mj_kw": {},
+ "ctx": 512,
+ "chunks": 80,
+ "tokens_scored": 20400,
+ "text_tokens": 285831,
+ "add_bos": false,
+ "ppl": 11.539899664385393,
+ "ppl_se": 0.25124152521865856,
+ "load_s": 28.29714112500369,
+ "eval_s": 1583.1800497079967,
+ "ref": null
+}

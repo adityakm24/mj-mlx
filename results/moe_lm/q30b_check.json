@@ -1,0 +1,22 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-4bit/snapshots/d388dead1515f5e085ef7a0431dd8fadf0886c57",
+ "placement": "stream",
+ "load_s": 13.412805917003425,
+ "prompts": [
+  {
+   "prompt": "Explain how a refrigerator works, step by step, for a curious ten-year-old.",
+   "ours_text": "<think>\nOkay, I need to explain how a refrigerator works to a ten-year-old. Let me start by recalling what I know about refrigerators. They keep things cold, right? But how exactly? I remember something about a refrigerant and a cycle. Let me break it down step by step.\n\nFirst, the",
+   "ours_s": 7.148918749997392
+  },
+  {
+   "prompt": "Write a short Python function that returns the n-th Fibonacci number, then explain its running time.",
+   "ours_text": "<think>\nOkay, I need to write a Python function that returns the n-th Fibonacci number. Let me think about how to approach this. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding ones. So, the 0th is 0, 1",
+   "ours_s": 5.937203833993408
+  },
+  {
+   "prompt": "What are three differences between a comet and an asteroid?",
+   "ours_text": "<think>\nOkay, so I need to figure out three differences between a comet and an asteroid. Let me start by recalling what I know about these two celestial objects. \n\nFirst, I remember that both comets and asteroids are found in our solar system, but they have different characteristics. I think comets are the ones",
+   "ours_s": 4.8731247920004535
+  }
+ ]
+}

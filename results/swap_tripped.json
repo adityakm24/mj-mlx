@@ -1,0 +1,4 @@
+{
+ "llama-server:mlx-community/DeepSeek-V2-Lite-Chat-4bit-mlx": "2026-11-23T08:38 v17d dsv2srv2.log (partial offload, 2 x 20 GB)",
+ "mlx-lm:mlx-community/DeepSeek-V2-Lite-Chat-4bit-mlx": "2026-11-23 v17 qa (8k documents, 21 GB)"
+}

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-18T17:13:13",
+ "top_cpu": [
+  "58479 cloudd 109.5",
+  "18144 duetexpertd 84.7",
+  "604 WindowServer 24.8",
+  "0 kernel_task 22.2",
+  "1842 TGOnDeviceInfere 19.0",
+  "36949 Claude Helper 10.6",
+  "60029 cloudphotod 10.0",
+  "1077 TGOnDeviceInfere 9.6"
+ ],
+ "swap": "total = 4096.00M  used = 2946.38M  free = 1149.62M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 54%",
+ "loadavg": "{ 12.71 4.31 2.19 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2946.38
+}

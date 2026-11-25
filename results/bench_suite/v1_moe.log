@@ -1,0 +1,175 @@
+== gptoss_r1_mj 11:16:59 swap 4696 MB
+  prewarm 24 files 3.1 s
+  gptoss_r1_mj pp512 rep 0: 67.38 tok/s, 38 mJ/token GPU
+  gptoss_r1_mj pp512 rep 1: 74.07 tok/s, 38 mJ/token GPU
+  gptoss_r1_mj pp512 rep 2: 70.52 tok/s, 38 mJ/token GPU
+  gptoss_r1_mj pp512 rep 3: 82.56 tok/s, 38 mJ/token GPU
+  gptoss_r1_mj pp512 rep 4: 89.82 tok/s, 39 mJ/token GPU
+  gptoss_r1_mj pp2048 rep 0: 287.55 tok/s, 45 mJ/token GPU
+  gptoss_r1_mj pp2048 rep 1: 299.22 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj pp2048 rep 2: 311.58 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj pp2048 rep 3: 315.88 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj pp2048 rep 4: 310.93 tok/s, 46 mJ/token GPU
+  gptoss_r1_mj tg128@d0 rep 0: 26.95 tok/s, ttft 0.26 s, 278 mJ/token GPU
+  gptoss_r1_mj tg128@d0 rep 1: 26.98 tok/s, ttft 1.63 s, 263 mJ/token GPU
+  gptoss_r1_mj tg128@d0 rep 2: 28.86 tok/s, ttft 0.27 s, 283 mJ/token GPU
+  gptoss_r1_mj tg128@d0 rep 3: 28.17 tok/s, ttft 0.35 s, 275 mJ/token GPU
+  gptoss_r1_mj tg128@d0 rep 4: 28.00 tok/s, ttft 0.27 s, 273 mJ/token GPU
+  gptoss_r1_mj tg128@d2048 rep 0: 25.21 tok/s, ttft 7.19 s, 277 mJ/token GPU
+  gptoss_r1_mj tg128@d2048 rep 1: 26.34 tok/s, ttft 6.63 s, 297 mJ/token GPU
+  gptoss_r1_mj tg128@d2048 rep 2: 27.21 tok/s, ttft 6.61 s, 303 mJ/token GPU
+  gptoss_r1_mj tg128@d2048 rep 3: 25.36 tok/s, ttft 6.75 s, 280 mJ/token GPU
+  gptoss_r1_mj tg128@d2048 rep 4: 27.03 tok/s, ttft 6.80 s, 306 mJ/token GPU
+  FLAGGED: swap grew 1660 MB
+== gptoss_r1_llama.cpp 11:22:39 swap 6236 MB
+  prewarm 1 files 4.9 s
+llama.cpp pp512: 424.89 +- 8.42 tok/s
+llama.cpp pp2048: 448.72 +- 1.97 tok/s
+llama.cpp tg128@d0: 36.96 +- 0.16 tok/s
+llama.cpp tg128@d2048: 35.01 +- 1.01 tok/s
+== gptoss_r2_llama.cpp 11:25:19 swap 6192 MB
+  prewarm 1 files 1.4 s
+llama.cpp pp512: 437.78 +- 2.09 tok/s
+llama.cpp pp2048: 440.08 +- 8.86 tok/s
+llama.cpp tg128@d0: 36.26 +- 0.53 tok/s
+llama.cpp tg128@d2048: 35.01 +- 1.63 tok/s
+== gptoss_r2_mj 11:27:40 swap 5979 MB
+  prewarm 24 files 3.1 s
+  gptoss_r2_mj pp512 rep 0: 58.43 tok/s, 38 mJ/token GPU
+  gptoss_r2_mj pp512 rep 1: 62.84 tok/s, 38 mJ/token GPU
+  gptoss_r2_mj pp512 rep 2: 68.34 tok/s, 37 mJ/token GPU
+  gptoss_r2_mj pp512 rep 3: 77.09 tok/s, 37 mJ/token GPU
+  gptoss_r2_mj pp512 rep 4: 81.83 tok/s, 37 mJ/token GPU
+  gptoss_r2_mj pp2048 rep 0: 262.44 tok/s, 45 mJ/token GPU
+  gptoss_r2_mj pp2048 rep 1: 280.96 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj pp2048 rep 2: 318.56 tok/s, 46 mJ/token GPU
+  gptoss_r2_mj pp2048 rep 3: 321.62 tok/s, 47 mJ/token GPU
+  gptoss_r2_mj pp2048 rep 4: 318.94 tok/s, 47 mJ/token GPU
+  gptoss_r2_mj tg128@d0 rep 0: 25.92 tok/s, ttft 5.65 s, 259 mJ/token GPU
+  gptoss_r2_mj tg128@d0 rep 1: 27.46 tok/s, ttft 0.42 s, 278 mJ/token GPU
+  gptoss_r2_mj tg128@d0 rep 2: 28.44 tok/s, ttft 0.32 s, 288 mJ/token GPU
+  gptoss_r2_mj tg128@d0 rep 3: 27.92 tok/s, ttft 0.31 s, 294 mJ/token GPU
+  gptoss_r2_mj tg128@d0 rep 4: 26.63 tok/s, ttft 0.34 s, 263 mJ/token GPU
+  gptoss_r2_mj tg128@d2048 rep 0: 26.13 tok/s, ttft 6.55 s, 295 mJ/token GPU
+  gptoss_r2_mj tg128@d2048 rep 1: 26.59 tok/s, ttft 6.62 s, 299 mJ/token GPU
+  gptoss_r2_mj tg128@d2048 rep 2: 27.47 tok/s, ttft 6.52 s, 303 mJ/token GPU
+  gptoss_r2_mj tg128@d2048 rep 3: 25.97 tok/s, ttft 6.62 s, 286 mJ/token GPU
+  gptoss_r2_mj tg128@d2048 rep 4: 25.75 tok/s, ttft 6.47 s, 296 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/mlx/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: ours: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention); llama.cpp: ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | 431.34 +- 8.92 | 424.96-437.72 | 2.1% | 10 | - |
+| mj | pp512 | 69.71 +- 9.72 | 57.63-81.79 | 13.9% | 5 | 37 |
+| llama.cpp | pp2048 | 444.40 +- 7.57 | 438.99-449.81 | 1.7% | 10 | - |
+| mj | pp2048 | 300.50 +- 27.12 | 266.78-334.22 | 9.0% | 5 | 46 |
+| llama.cpp | tg128@d0 | 36.61 +- 0.52 | 36.24-36.98 | 1.4% | 10 | - |
+| mj | tg128@d0 | 27.27 +- 1.01 | 26.02-28.52 | 3.7% | 5 | 276 |
+| llama.cpp | tg128@d2048 | 35.01 +- 1.28 | 34.10-35.92 | 3.6% | 10 | - |
+| mj | tg128@d2048 | 26.38 +- 0.68 | 25.53-27.23 | 2.6% | 5 | 296 |
+
+## Qwen3.6-35B-A3B (20.4 GB, bigger than RAM)
+
+Weights: ours: mlx-community 4-bit g64, experts streamed from the SSD (128 slots/layer, C++ streamer); llama.cpp: Q4_K_M, experts on the CPU (-ncmoe 40)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+
+== q35b_r1_mj 11:33:16 swap 5154 MB
+  q35b_r1_mj pp512 rep 0: 202.95 tok/s, 24 mJ/token GPU
+  q35b_r1_mj pp512 rep 1: 187.65 tok/s, 19 mJ/token GPU
+  q35b_r1_mj pp512 rep 2: 193.27 tok/s, 21 mJ/token GPU
+  q35b_r1_mj pp512 rep 3: 197.98 tok/s, 21 mJ/token GPU
+  q35b_r1_mj pp512 rep 4: 196.45 tok/s, 22 mJ/token GPU
+  q35b_r1_mj pp2048 rep 0: 297.58 tok/s, 33 mJ/token GPU
+  q35b_r1_mj pp2048 rep 1: 298.16 tok/s, 33 mJ/token GPU
+  q35b_r1_mj pp2048 rep 2: 295.14 tok/s, 34 mJ/token GPU
+  q35b_r1_mj pp2048 rep 3: 289.81 tok/s, 34 mJ/token GPU
+  q35b_r1_mj pp2048 rep 4: 296.93 tok/s, 34 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 0: 22.96 tok/s, ttft 0.37 s, 176 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 1: 24.52 tok/s, ttft 0.44 s, 0 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 2: 27.41 tok/s, ttft 0.45 s, 184 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 3: 27.42 tok/s, ttft 0.39 s, 201 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 4: 27.42 tok/s, ttft 0.45 s, 193 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 0: 22.44 tok/s, ttft 6.90 s, 223 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 1: 21.71 tok/s, ttft 7.28 s, 239 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 2: 22.65 tok/s, ttft 7.48 s, 232 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 3: 21.17 tok/s, ttft 7.12 s, 236 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 4: 21.88 tok/s, ttft 7.01 s, 235 mJ/token GPU
+== q35b_r1_llama.cpp 11:38:25 swap 5105 MB
+llama.cpp pp512: 16.13 +- 0.48 tok/s
+llama.cpp pp2048: 12.83 +- 0.87 tok/s
+llama.cpp tg128@d0: 3.83 +- 0.78 tok/s
+llama.cpp tg128@d2048: 3.45 +- 0.45 tok/s
+== q35b_r2_llama.cpp 12:02:31 swap 5038 MB
+llama.cpp pp512: 16.14 +- 0.33 tok/s
+llama.cpp pp2048: 13.25 +- 1.46 tok/s
+llama.cpp tg128@d0: 3.88 +- 0.61 tok/s
+llama.cpp tg128@d2048: 3.52 +- 0.59 tok/s
+== q35b_r2_mj 12:26:43 swap 4414 MB
+  q35b_r2_mj pp512 rep 0: 208.73 tok/s, 22 mJ/token GPU
+  q35b_r2_mj pp512 rep 1: 201.05 tok/s, 22 mJ/token GPU
+  q35b_r2_mj pp512 rep 2: 222.52 tok/s, 22 mJ/token GPU
+  q35b_r2_mj pp512 rep 3: 207.62 tok/s, 19 mJ/token GPU
+  q35b_r2_mj pp512 rep 4: 209.62 tok/s, 19 mJ/token GPU
+  q35b_r2_mj pp2048 rep 0: 298.98 tok/s, 34 mJ/token GPU
+  q35b_r2_mj pp2048 rep 1: 299.03 tok/s, 35 mJ/token GPU
+  FAILED (1): ^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 160, in launch
+    x32 = self.model.final_hidden(meta, self.pool)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/qwen3_5_moe.py", line 975, in final_hidden
+    x = self.hidden(meta, pools)[meta.attn.sample_rows]
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/qwen3_5_moe.py", line 951, in hidden
+    x = _residual(x, self._moe(L, h32.astype(dt), h32 if self.precise else None))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/qwen3_5_moe.py", line 910, in _moe
+    routed = run_moe(L["slab"], x, idx, wts, self._slab_pair_fn(L["slab_fmt"]), nxt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/expert_stream.py", line 277, in run_moe
+    mx.async_eval(out)  # GPU computes this layer while the host issues the next layer's prefetch
+    ^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+
+  FLAGGED: swap grew 677 MB
+# Benchmark suite summary
+
+Protocol: results/mlx/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: ours: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention); llama.cpp: ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | 431.34 +- 8.92 | 424.96-437.72 | 2.1% | 10 | - |
+| mj | pp512 | 69.71 +- 9.72 | 57.63-81.79 | 13.9% | 5 | 37 |
+| llama.cpp | pp2048 | 444.40 +- 7.57 | 438.99-449.81 | 1.7% | 10 | - |
+| mj | pp2048 | 300.50 +- 27.12 | 266.78-334.22 | 9.0% | 5 | 46 |
+| llama.cpp | tg128@d0 | 36.61 +- 0.52 | 36.24-36.98 | 1.4% | 10 | - |
+| mj | tg128@d0 | 27.27 +- 1.01 | 26.02-28.52 | 3.7% | 5 | 276 |
+| llama.cpp | tg128@d2048 | 35.01 +- 1.28 | 34.10-35.92 | 3.6% | 10 | - |
+| mj | tg128@d2048 | 26.38 +- 0.68 | 25.53-27.23 | 2.6% | 5 | 296 |
+
+## Qwen3.6-35B-A3B (20.4 GB, bigger than RAM)
+
+Weights: ours: mlx-community 4-bit g64, experts streamed from the SSD (128 slots/layer, C++ streamer); llama.cpp: Q4_K_M, experts on the CPU (-ncmoe 40)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | 16.14 +- 0.37 | 15.75-16.52 | 2.3% | 6 | - |
+| mj | pp512 | 195.66 +- 5.68 | 188.60-202.72 | 2.9% | 5 | 21 |
+| llama.cpp | pp2048 | 13.04 +- 1.10 | 11.89-14.19 | 8.4% | 6 | - |
+| mj | pp2048 | 295.52 +- 3.39 | 291.31-299.74 | 1.1% | 5 | 34 |
+| llama.cpp | tg128@d0 | 3.85 +- 0.62 | 3.20-4.51 | 16.2% | 6 | - |
+| mj | tg128@d0 | 25.95 +- 2.09 | 23.35-28.54 | 8.0% | 5 | 151 |
+| llama.cpp | tg128@d2048 | 3.49 +- 0.47 | 2.99-3.98 | 13.5% | 6 | - |
+| mj | tg128@d2048 | 21.97 +- 0.59 | 21.23-22.71 | 2.7% | 5 | 233 |
+

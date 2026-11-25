@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T11:34:14",
+ "top_cpu": [
+  "23366 top 4.6",
+  "15483 networkservicepr 2.3",
+  "0 kernel_task 1.6",
+  "491 mDNSResponder 0.9",
+  "23258 com.apple.Safari 0.9",
+  "393 locationd 0.8",
+  "372 mds 0.8",
+  "532 com.apple.Driver 0.4"
+ ],
+ "swap": "total = 3072.00M  used = 1951.06M  free = 1120.94M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 85%",
+ "loadavg": "{ 2.19 2.17 2.06 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1951.06
+}

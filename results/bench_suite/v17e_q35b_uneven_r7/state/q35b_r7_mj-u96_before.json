@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T08:58:20",
+ "top_cpu": [
+  "46584 top 3.7",
+  "0 kernel_task 2.6",
+  "551 coreaudiod 2.4",
+  "416 WindowServer 2.0",
+  "417 tccd 1.6",
+  "1 launchd 1.4",
+  "420 runningboardd 1.2",
+  "348 mediaremoted 1.2"
+ ],
+ "swap": "total = 5120.00M  used = 3934.12M  free = 1185.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 1.52 2.02 2.65 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3934.12
+}

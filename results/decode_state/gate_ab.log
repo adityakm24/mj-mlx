@@ -1,0 +1,129 @@
+round 0 a8 gate=0 06:36:16 total = 5120.00M  used = 4103.19M  free = 1016.81M  (encrypted)
+a8-gate0 tg128@d0 rep 0: 37.45 tok/s, ttft 0.19 s, 176 mJ/token GPU
+a8-gate0 tg128@d0 rep 1: 38.00 tok/s, ttft 0.18 s, 183 mJ/token GPU
+a8-gate0 tg128@d0 rep 2: 5.55 tok/s, ttft 16.49 s, 300 mJ/token GPU
+a8-gate0 tg128@d2048 rep 0: 25.24 tok/s, ttft 26.41 s, 277 mJ/token GPU
+a8-gate0 tg128@d2048 rep 1: 33.81 tok/s, ttft 8.10 s, 285 mJ/token GPU
+a8-gate0 tg128@d2048 rep 2: 33.09 tok/s, ttft 5.47 s, 309 mJ/token GPU
+round 0 a8 gate=1 06:39:32 total = 6144.00M  used = 4998.69M  free = 1145.31M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 195, in main
+    one(run, mx, test, 10_000 + a.seed0)  # warm-up, untimed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 152, in one
+    out = run(ids, NEW, first, tok)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 89, in run
+    for f in eng.step():
+             ^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 373, in step
+    return self._step_overlap()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 392, in _step_overlap
+    return self._step_overlap_deferred()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 421, in _step_overlap_deferred
+    self._in_flight.append((s, self.runner.launch_deferred(s)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 245, in launch_deferred
+    mx.async_eval(*([d.out] if d.cand is None else [d.cand, d.x32]), self._pool_arrays())
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).
+round 0 exact gate=0 06:39:45 total = 7168.00M  used = 5644.25M  free = 1523.75M  (encrypted)
+exact-gate0 tg128@d0 rep 0: 31.71 tok/s, ttft 0.39 s, 293 mJ/token GPU
+exact-gate0 tg128@d0 rep 1: 32.39 tok/s, ttft 0.40 s, 291 mJ/token GPU
+exact-gate0 tg128@d0 rep 2: 32.42 tok/s, ttft 0.41 s, 282 mJ/token GPU
+exact-gate0 tg128@d2048 rep 0: 32.05 tok/s, ttft 5.08 s, 310 mJ/token GPU
+exact-gate0 tg128@d2048 rep 1: 31.40 tok/s, ttft 9.18 s, 322 mJ/token GPU
+exact-gate0 tg128@d2048 rep 2: 31.64 tok/s, ttft 5.17 s, 321 mJ/token GPU
+round 0 exact gate=1 06:41:29 total = 6144.00M  used = 5230.12M  free = 913.88M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 195, in main
+    one(run, mx, test, 10_000 + a.seed0)  # warm-up, untimed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 152, in one
+    out = run(ids, NEW, first, tok)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 89, in run
+    for f in eng.step():
+             ^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 373, in step
+    return self._step_overlap()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 392, in _step_overlap
+    return self._step_overlap_deferred()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 421, in _step_overlap_deferred
+    self._in_flight.append((s, self.runner.launch_deferred(s)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 245, in launch_deferred
+    mx.async_eval(*([d.out] if d.cand is None else [d.cand, d.x32]), self._pool_arrays())
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).
+round 1 a8 gate=0 06:41:46 total = 7168.00M  used = 5742.69M  free = 1425.31M  (encrypted)
+a8-gate0 tg128@d0 rep 0: 35.12 tok/s, ttft 0.34 s, 242 mJ/token GPU
+a8-gate0 tg128@d0 rep 1: 36.75 tok/s, ttft 0.31 s, 262 mJ/token GPU
+a8-gate0 tg128@d0 rep 2: 37.22 tok/s, ttft 0.30 s, 254 mJ/token GPU
+a8-gate0 tg128@d2048 rep 0: 34.49 tok/s, ttft 4.99 s, 300 mJ/token GPU
+a8-gate0 tg128@d2048 rep 1: 35.39 tok/s, ttft 5.07 s, 307 mJ/token GPU
+a8-gate0 tg128@d2048 rep 2: 34.90 tok/s, ttft 5.07 s, 310 mJ/token GPU
+round 1 a8 gate=1 06:43:14 total = 6144.00M  used = 4832.81M  free = 1311.19M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 195, in main
+    one(run, mx, test, 10_000 + a.seed0)  # warm-up, untimed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 152, in one
+    out = run(ids, NEW, first, tok)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 89, in run
+    for f in eng.step():
+             ^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 373, in step
+    return self._step_overlap()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 392, in _step_overlap
+    return self._step_overlap_deferred()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 421, in _step_overlap_deferred
+    self._in_flight.append((s, self.runner.launch_deferred(s)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 245, in launch_deferred
+    mx.async_eval(*([d.out] if d.cand is None else [d.cand, d.x32]), self._pool_arrays())
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).
+round 1 exact gate=0 06:43:26 total = 6144.00M  used = 4781.25M  free = 1362.75M  (encrypted)
+exact-gate0 tg128@d0 rep 0: 31.96 tok/s, ttft 0.43 s, 275 mJ/token GPU
+exact-gate0 tg128@d0 rep 1: 33.30 tok/s, ttft 0.34 s, 310 mJ/token GPU
+exact-gate0 tg128@d0 rep 2: 32.64 tok/s, ttft 0.29 s, 300 mJ/token GPU
+exact-gate0 tg128@d2048 rep 0: 32.37 tok/s, ttft 5.08 s, 341 mJ/token GPU
+exact-gate0 tg128@d2048 rep 1: 31.66 tok/s, ttft 5.20 s, 344 mJ/token GPU
+exact-gate0 tg128@d2048 rep 2: 32.24 tok/s, ttft 5.23 s, 340 mJ/token GPU
+round 1 exact gate=1 06:45:01 total = 6144.00M  used = 4419.94M  free = 1724.06M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 195, in main
+    one(run, mx, test, 10_000 + a.seed0)  # warm-up, untimed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 152, in one
+    out = run(ids, NEW, first, tok)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 89, in run
+    for f in eng.step():
+             ^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 373, in step
+    return self._step_overlap()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 392, in _step_overlap
+    return self._step_overlap_deferred()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 421, in _step_overlap_deferred
+    self._in_flight.append((s, self.runner.launch_deferred(s)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 245, in launch_deferred
+    mx.async_eval(*([d.out] if d.cand is None else [d.cand, d.x32]), self._pool_arrays())
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).
+done 06:45:17

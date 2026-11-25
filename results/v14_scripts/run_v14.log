@@ -1,0 +1,40 @@
+stopped local.service-a
+stopped local.service-b
+stopped sh.brew.openshell
+stopped local.dev-backend
+== A blocked attention, dsv2 8k / 16k, default vs --chunk 512 14:37:12
+A exit 0 15:20:58
+== B gpt-oss 8-bit arm, wired 3000 vs 1000, with rivals 15:21:58
+B exit 0 16:09:40
+kernel lines     3074 -> results/bench_suite/v14_gptoss/kernel_log_excerpts.txt
+== D reproduce gptoss-decode 16:10:46
+D gptoss-decode exit 0 16:41:03
+kernel lines     3073 -> results/repro/full_20261121/kernel_log_gptoss-decode.txt
+== D reproduce dsv2lite-decode 16:42:07
+D dsv2lite-decode exit 0 17:09:22
+kernel lines        1 -> results/repro/full_20261121/kernel_log_dsv2lite-decode.txt
+== D reproduce olmoe-decode 17:10:25
+D olmoe-decode exit 0 17:30:25
+kernel lines        1 -> results/repro/full_20261121/kernel_log_olmoe-decode.txt
+== D reproduce accuracy-olmoe 17:31:27
+D accuracy-olmoe exit 0 17:46:58
+kernel lines        1 -> results/repro/full_20261121/kernel_log_accuracy-olmoe.txt
+== D reproduce accuracy-dsv2lite 17:48:01
+D accuracy-dsv2lite exit 0 17:52:28
+kernel lines        1 -> results/repro/full_20261121/kernel_log_accuracy-dsv2lite.txt
+== D reproduce accuracy-gptoss 17:53:30
+D accuracy-gptoss exit 0 18:01:07
+kernel lines        1 -> results/repro/full_20261121/kernel_log_accuracy-gptoss.txt
+== D reproduce q36-vs-llamacpp 18:02:09
+D q36-vs-llamacpp exit 0 18:58:06
+kernel lines        1 -> results/repro/full_20261121/kernel_log_q36-vs-llamacpp.txt
+== D reproduce accuracy-q30b 18:59:12
+D accuracy-q30b exit 0 19:27:25
+kernel lines        1 -> results/repro/full_20261121/kernel_log_accuracy-q30b.txt
+report: results/repro/full_20261121/report.md
+all done 19:28:30
+started local.service-a
+started local.service-b
+started sh.brew.openshell
+started local.dev-backend
+cleanup done 19:28:30

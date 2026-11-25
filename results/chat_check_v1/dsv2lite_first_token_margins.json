@@ -1,0 +1,754 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216",
+ "prompts": [
+  "What is 17 times 23? Show the steps.",
+  "Write a Python function that returns the n-th Fibonacci number iteratively.",
+  "Explain in two sentences why the sky is blue.",
+  "Translate into French: 'The train leaves at seven in the morning.'",
+  "List three differences between a list and a tuple in Python.",
+  "A farmer has 12 sheep and buys 5 more, then sells 7. How many sheep are left?",
+  "Summarize the plot of a heist story in exactly three sentences. Make the story up.",
+  "What is the capital of Australia, and why is it not Sydney?",
+  "Give a JSON object with keys name, age and city for a fictional person.",
+  "Write a haiku about a mountain lake in winter.",
+  "If a rectangle is 8 cm by 5 cm, what are its area and perimeter?",
+  "Explain what a hash table is to someone who has never programmed."
+ ],
+ "mj": {},
+ "mlx_lm": {},
+ "rows": [
+  {
+   "prompt": 0,
+   "mj_top": [
+    {
+     "id": 207,
+     "text": " ",
+     "logprob": -0.18669891357421875
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -2.0929489135742188
+    },
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -3.5929489135742188
+    },
+    {
+     "id": 20511,
+     "text": " Sure",
+     "logprob": -4.405448913574219
+    },
+    {
+     "id": 41257,
+     "text": " Certainly",
+     "logprob": -5.874198913574219
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 207,
+     "text": " ",
+     "logprob": -0.18716049194335938
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -2.0934104919433594
+    },
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -3.5934104919433594
+    },
+    {
+     "id": 20511,
+     "text": " Sure",
+     "logprob": -4.374660491943359
+    },
+    {
+     "id": 41257,
+     "text": " Certainly",
+     "logprob": -5.874660491943359
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 1.90625,
+   "mlxlm_margin": 1.90625,
+   "max_abs_logprob_diff_top20": 0.030788421630859375
+  },
+  {
+   "prompt": 1,
+   "mj_top": [
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -0.9209785461425781
+    },
+    {
+     "id": 977,
+     "text": " def",
+     "logprob": -1.7334785461425781
+    },
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -2.077228546142578
+    },
+    {
+     "id": 1666,
+     "text": " import",
+     "logprob": -2.358478546142578
+    },
+    {
+     "id": 1257,
+     "text": " You",
+     "logprob": -2.920978546142578
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -0.920654296875
+    },
+    {
+     "id": 977,
+     "text": " def",
+     "logprob": -1.733154296875
+    },
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -2.076904296875
+    },
+    {
+     "id": 1666,
+     "text": " import",
+     "logprob": -2.358154296875
+    },
+    {
+     "id": 1257,
+     "text": " You",
+     "logprob": -2.920654296875
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 0.8125,
+   "mlxlm_margin": 0.8125,
+   "max_abs_logprob_diff_top20": 0.030925750732421875
+  },
+  {
+   "prompt": 2,
+   "mj_top": [
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.01849365234375
+    },
+    {
+     "id": 2473,
+     "text": " When",
+     "logprob": -4.36224365234375
+    },
+    {
+     "id": 5071,
+     "text": " Sun",
+     "logprob": -6.14349365234375
+    },
+    {
+     "id": 10397,
+     "text": " Light",
+     "logprob": -6.61224365234375
+    },
+    {
+     "id": 685,
+     "text": " In",
+     "logprob": -8.11224365234375
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.018543243408203125
+    },
+    {
+     "id": 2473,
+     "text": " When",
+     "logprob": -4.362293243408203
+    },
+    {
+     "id": 5071,
+     "text": " Sun",
+     "logprob": -6.143543243408203
+    },
+    {
+     "id": 10397,
+     "text": " Light",
+     "logprob": -6.612293243408203
+    },
+    {
+     "id": 685,
+     "text": " In",
+     "logprob": -8.081043243408203
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 4.34375,
+   "mlxlm_margin": 4.34375,
+   "max_abs_logprob_diff_top20": 0.062450408935546875
+  },
+  {
+   "prompt": 3,
+   "mj_top": [
+    {
+     "id": 2673,
+     "text": " Le",
+     "logprob": -0.8937816619873047
+    },
+    {
+     "id": 10925,
+     "text": " Step",
+     "logprob": -1.6125316619873047
+    },
+    {
+     "id": 1689,
+     "text": " La",
+     "logprob": -1.9094066619873047
+    },
+    {
+     "id": 207,
+     "text": " ",
+     "logprob": -3.5656566619873047
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -3.5969066619873047
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 2673,
+     "text": " Le",
+     "logprob": -1.2588443756103516
+    },
+    {
+     "id": 10925,
+     "text": " Step",
+     "logprob": -1.5400943756103516
+    },
+    {
+     "id": 1689,
+     "text": " La",
+     "logprob": -1.5869693756103516
+    },
+    {
+     "id": 413,
+     "text": " L",
+     "logprob": -3.3369693756103516
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -3.3682193756103516
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 0.71875,
+   "mlxlm_margin": 0.28125,
+   "max_abs_logprob_diff_top20": 0.6349372863769531
+  },
+  {
+   "prompt": 4,
+   "mj_top": [
+    {
+     "id": 207,
+     "text": " ",
+     "logprob": -0.14624404907226562
+    },
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -3.3337440490722656
+    },
+    {
+     "id": 685,
+     "text": " In",
+     "logprob": -3.5837440490722656
+    },
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -3.8337440490722656
+    },
+    {
+     "id": 14863,
+     "text": " Three",
+     "logprob": -4.052494049072266
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 207,
+     "text": " ",
+     "logprob": -0.13586044311523438
+    },
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -3.3858604431152344
+    },
+    {
+     "id": 685,
+     "text": " In",
+     "logprob": -3.5421104431152344
+    },
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -3.9171104431152344
+    },
+    {
+     "id": 14863,
+     "text": " Three",
+     "logprob": -4.229610443115234
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 3.1875,
+   "mlxlm_margin": 3.25,
+   "max_abs_logprob_diff_top20": 0.36461639404296875
+  },
+  {
+   "prompt": 5,
+   "mj_top": [
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.3991508483886719
+    },
+    {
+     "id": 5904,
+     "text": " First",
+     "logprob": -1.9616508483886719
+    },
+    {
+     "id": 3960,
+     "text": " Let",
+     "logprob": -2.992900848388672
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -3.024150848388672
+    },
+    {
+     "id": 10925,
+     "text": " Step",
+     "logprob": -3.399150848388672
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.3947181701660156
+    },
+    {
+     "id": 5904,
+     "text": " First",
+     "logprob": -1.9572181701660156
+    },
+    {
+     "id": 3960,
+     "text": " Let",
+     "logprob": -3.0197181701660156
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -3.0509681701660156
+    },
+    {
+     "id": 10925,
+     "text": " Step",
+     "logprob": -3.3947181701660156
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 1.5625,
+   "mlxlm_margin": 1.5625,
+   "max_abs_logprob_diff_top20": 0.05806732177734375
+  },
+  {
+   "prompt": 6,
+   "mj_top": [
+    {
+     "id": 685,
+     "text": " In",
+     "logprob": -0.17281341552734375
+    },
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -2.1728134155273438
+    },
+    {
+     "id": 14863,
+     "text": " Three",
+     "logprob": -4.860313415527344
+    },
+    {
+     "id": 1640,
+     "text": " An",
+     "logprob": -5.016563415527344
+    },
+    {
+     "id": 10281,
+     "text": " Under",
+     "logprob": -5.485313415527344
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 685,
+     "text": " In",
+     "logprob": -0.16873550415039062
+    },
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -2.1999855041503906
+    },
+    {
+     "id": 14863,
+     "text": " Three",
+     "logprob": -4.856235504150391
+    },
+    {
+     "id": 1640,
+     "text": " An",
+     "logprob": -5.012485504150391
+    },
+    {
+     "id": 10281,
+     "text": " Under",
+     "logprob": -5.512485504150391
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 2.0,
+   "mlxlm_margin": 2.03125,
+   "max_abs_logprob_diff_top20": 0.042797088623046875
+  },
+  {
+   "prompt": 7,
+   "mj_top": [
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.033588409423828125
+    },
+    {
+     "id": 10925,
+     "text": " Step",
+     "logprob": -4.533588409423828
+    },
+    {
+     "id": 10011,
+     "text": " Australia",
+     "logprob": -5.221088409423828
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -5.252338409423828
+    },
+    {
+     "id": 80177,
+     "text": " Canberra",
+     "logprob": -5.517963409423828
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.034664154052734375
+    },
+    {
+     "id": 10925,
+     "text": " Step",
+     "logprob": -4.503414154052734
+    },
+    {
+     "id": 10011,
+     "text": " Australia",
+     "logprob": -5.206539154052734
+    },
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -5.222164154052734
+    },
+    {
+     "id": 80177,
+     "text": " Canberra",
+     "logprob": -5.472164154052734
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 4.5,
+   "mlxlm_margin": 4.46875,
+   "max_abs_logprob_diff_top20": 0.07704925537109375
+  },
+  {
+   "prompt": 8,
+   "mj_top": [
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -0.8244972229003906
+    },
+    {
+     "id": 509,
+     "text": " {",
+     "logprob": -0.8869972229003906
+    },
+    {
+     "id": 34083,
+     "text": " ```",
+     "logprob": -2.1682472229003906
+    },
+    {
+     "id": 41257,
+     "text": " Certainly",
+     "logprob": -3.6057472229003906
+    },
+    {
+     "id": 20511,
+     "text": " Sure",
+     "logprob": -6.324497222900391
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 4462,
+     "text": " Here",
+     "logprob": -0.83837890625
+    },
+    {
+     "id": 509,
+     "text": " {",
+     "logprob": -0.86962890625
+    },
+    {
+     "id": 34083,
+     "text": " ```",
+     "logprob": -2.18212890625
+    },
+    {
+     "id": 41257,
+     "text": " Certainly",
+     "logprob": -3.58837890625
+    },
+    {
+     "id": 20511,
+     "text": " Sure",
+     "logprob": -6.30712890625
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 0.0625,
+   "mlxlm_margin": 0.03125,
+   "max_abs_logprob_diff_top20": 0.045131683349609375
+  },
+  {
+   "prompt": 9,
+   "mj_top": [
+    {
+     "id": 21345,
+     "text": " Snow",
+     "logprob": -1.6680335998535156
+    },
+    {
+     "id": 76253,
+     "text": " Frozen",
+     "logprob": -1.6680335998535156
+    },
+    {
+     "id": 65844,
+     "text": " Ic",
+     "logprob": -2.1680335998535156
+    },
+    {
+     "id": 50909,
+     "text": " Blank",
+     "logprob": -2.5899085998535156
+    },
+    {
+     "id": 7883,
+     "text": " White",
+     "logprob": -2.7149085998535156
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 76253,
+     "text": " Frozen",
+     "logprob": -1.5852775573730469
+    },
+    {
+     "id": 21345,
+     "text": " Snow",
+     "logprob": -1.6790275573730469
+    },
+    {
+     "id": 65844,
+     "text": " Ic",
+     "logprob": -2.147777557373047
+    },
+    {
+     "id": 50909,
+     "text": " Blank",
+     "logprob": -2.679027557373047
+    },
+    {
+     "id": 50035,
+     "text": " Frost",
+     "logprob": -2.757152557373047
+    }
+   ],
+   "same_top1": false,
+   "mj_margin": 0.0,
+   "mlxlm_margin": 0.09375,
+   "max_abs_logprob_diff_top20": 0.16724395751953125
+  },
+  {
+   "prompt": 10,
+   "mj_top": [
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -0.542633056640625
+    },
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.980133056640625
+    },
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -4.198883056640625
+    },
+    {
+     "id": 1273,
+     "text": " If",
+     "logprob": -4.386383056640625
+    },
+    {
+     "id": 16772,
+     "text": " Area",
+     "logprob": -5.886383056640625
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 2158,
+     "text": " To",
+     "logprob": -0.5566749572753906
+    },
+    {
+     "id": 429,
+     "text": " The",
+     "logprob": -0.9629249572753906
+    },
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -4.150424957275391
+    },
+    {
+     "id": 1273,
+     "text": " If",
+     "logprob": -4.369174957275391
+    },
+    {
+     "id": 16772,
+     "text": " Area",
+     "logprob": -5.837924957275391
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 0.4375,
+   "mlxlm_margin": 0.40625,
+   "max_abs_logprob_diff_top20": 0.048458099365234375
+  },
+  {
+   "prompt": 11,
+   "mj_top": [
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -0.3126983642578125
+    },
+    {
+     "id": 20511,
+     "text": " Sure",
+     "logprob": -1.9064483642578125
+    },
+    {
+     "id": 37358,
+     "text": " Imagine",
+     "logprob": -3.0626983642578125
+    },
+    {
+     "id": 42829,
+     "text": " Okay",
+     "logprob": -3.7501983642578125
+    },
+    {
+     "id": 1396,
+     "text": " Al",
+     "logprob": -4.1876983642578125
+    }
+   ],
+   "mlxlm_top": [
+    {
+     "id": 338,
+     "text": " A",
+     "logprob": -0.30959320068359375
+    },
+    {
+     "id": 20511,
+     "text": " Sure",
+     "logprob": -1.9033432006835938
+    },
+    {
+     "id": 37358,
+     "text": " Imagine",
+     "logprob": -3.0908432006835938
+    },
+    {
+     "id": 42829,
+     "text": " Okay",
+     "logprob": -3.7783432006835938
+    },
+    {
+     "id": 1396,
+     "text": " Al",
+     "logprob": -4.215843200683594
+    }
+   ],
+   "same_top1": true,
+   "mj_margin": 1.59375,
+   "mlxlm_margin": 1.59375,
+   "max_abs_logprob_diff_top20": 0.02814483642578125
+  }
+ ],
+ "notes": "Is a difference between two engines' greedy replies a near-tie? For each chat prompt of tools/mlx_chat_check.py,\nthe top-5 next-token log-probabilities after the chat template, on our engine and on mlx-lm (same weights), and the\nmargin between the top two. A first-token difference is a rounding effect when the margin is about the size of the\ntwo engines' logit disagreement; it is a bug when the margin is large.\n\n    .venv/bin/python tools/mlx_first_token_margin.py --model <mlx dir> --out results/chat_check_v1/x_margins.json\n"
+}

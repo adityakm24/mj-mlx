@@ -1,0 +1,28 @@
+== S2 gptoss 01:11:44 swap 1798.12M
+  S2 gptoss exit 0
+  kernel lines        1 -> results/bench_suite/v15q_gptoss/kernel_log_excerpts.txt
+== S2 dsv2lite 02:23:17 swap 1898.50M
+  S2 dsv2lite exit 0
+  kernel lines        1 -> results/bench_suite/v15q_dsv2lite/kernel_log_excerpts.txt
+== R 03:04:40 swap 1930.31M
+  R olmoe exit 0
+  R gptoss exit 0
+== C 03:09:02 swap 2117.50M
+  C olmoe exit 0
+  C gptoss exit 0
+== X 03:26:35 swap 2582.12M
+  X dsv2 exit 0
+  X gptoss exit 0
+  kernel lines     3166 -> results/bench_suite/v15_32k_dsv2/kernel_log_excerpts.txt
+== L2 04:33:36 swap 1970.19M
+  dsv2 16k s64 rerun exit 0
+  dsv2 16k s16 rerun exit 0
+  gptoss 16k no-mlock exit 0
+== H olmoe 04:39:21 swap 2102.88M
+  H olmoe exit 1
+== H dsv2 04:39:26 swap 2118.19M
+  H dsv2 exit 1
+== H gptoss 04:39:33 swap 2150.62M
+  H gptoss exit 1
+== E olmoe:mj 04:39:45 swap 3110.12M
+  E olmoe:mj exit 143

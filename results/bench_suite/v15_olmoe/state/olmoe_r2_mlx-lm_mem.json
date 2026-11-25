@@ -1,0 +1,11 @@
+{
+ "engine": "mlx-lm",
+ "peak_footprint_gb": 6.568216928,
+ "peak_resident_gb": 0.693846016,
+ "samples": 263,
+ "per_pid_gb": {
+  "96690": 6.568216928
+ },
+ "swapins_gb": 0.003293184,
+ "swapouts_gb": 0.0
+}

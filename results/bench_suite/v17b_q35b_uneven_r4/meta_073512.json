@@ -1,0 +1,38 @@
+{
+ "start": "2026-11-23T07:35:11",
+ "args": {
+  "models": "q35b",
+  "engines": "mj,mj-u96",
+  "tests": "tg128@d0,tg128@d2048",
+  "reps": 5,
+  "llama_reps": 0,
+  "rounds": 3,
+  "round0": 4,
+  "cooldown": 30,
+  "summary_only": false,
+  "out": "results/bench_suite/v17b_q35b_uneven_r4"
+ },
+ "git": "8d5bc072f9af4b727e0fb5f16d12b51f4939242e",
+ "llama_bench": "d_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/1.0.0/libexec/libggml-cpu-apple_m4.so\nversion: 1.0.0 (build 12359, commit b1b770d90)\nbuilt with AppleClang 21.0.0.21000401 for Darwin arm64",
+ "mlx": "0.32.4 0.32.2",
+ "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t27.3\nBuildVersion:\t\t26C5047e",
+ "chip": "Apple M4",
+ "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23461987)\t80%; AC attached; not charging present: true",
+ "rivals": {
+  "ollama": "ollama version is 0.40.16",
+  "lmstudio_app": "0.4.25+1",
+  "vllm_mlx": "0.6.0 mlx 0.32.4 mlx-lm 0.31.3",
+  "lmstudio_engines": [
+   {
+    "model_format": "gguf",
+    "name": "llama.cpp-mac-arm64-apple-metal-advsimd",
+    "version": "2.80.1"
+   },
+   {
+    "model_format": "safetensors",
+    "name": "mlx-llm-mac-arm64-apple-metal-advsimd",
+    "version": "1.14.0"
+   }
+  ]
+ }
+}

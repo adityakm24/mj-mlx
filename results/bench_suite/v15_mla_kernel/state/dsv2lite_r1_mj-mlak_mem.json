@@ -1,0 +1,10 @@
+{
+ "engine": "mj-mlak",
+ "peak_footprint_gb": 12.701028768,
+ "samples": 383,
+ "per_pid_gb": {
+  "86533": 12.701028768
+ },
+ "swapins_gb": 0.066748416,
+ "swapouts_gb": 0.0
+}

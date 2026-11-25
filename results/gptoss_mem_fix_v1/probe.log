@@ -1,0 +1,21 @@
+== nomlock mlock=0 wired=3000 chunk=512 01:50:05
+exit 0 01:52:48
+kernel lines:       20; peak wired GB: 13.9863; swap: 5.50M -> 1230.88M
+          1744633856  maximum resident set size
+          4003499824  peak memory footprint
+== w1500 mlock=1 wired=1500 chunk=512 01:53:20
+exit 0 01:55:40
+kernel lines:       20; peak wired GB: 15.2914; swap: 1142.19M -> 1409.50M
+         10532716544  maximum resident set size
+          4009273664  peak memory footprint
+== c256 mlock=1 wired=3000 chunk=256 01:56:12
+exit 0 01:58:13
+kernel lines:       20; peak wired GB: 14.1823; swap: 1345.50M -> 1820.00M
+         10930962432  maximum resident set size
+          4008618256  peak memory footprint
+== base mlock=1 wired=3000 chunk=512 01:58:44
+exit 0 02:00:53
+kernel lines:       20; peak wired GB: 14.5932; swap: 1731.94M -> 1290.88M
+         11307597824  maximum resident set size
+          4006177040  peak memory footprint
+probes done 02:01:25

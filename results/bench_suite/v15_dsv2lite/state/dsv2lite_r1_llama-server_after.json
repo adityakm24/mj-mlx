@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T23:35:02",
+ "top_cpu": [
+  "1929 peopled 11.7",
+  "99394 coreduetd 11.6",
+  "673 usernoted 10.6",
+  "707 identityservices 9.1",
+  "0 kernel_task 8.4",
+  "99419 contactsd 8.1",
+  "420 loginwindow 7.5",
+  "99845 IMDPersistenceAg 7.3"
+ ],
+ "swap": "total = 3072.00M  used = 2167.62M  free = 904.38M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 1.27 1.29 1.33 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2167.62
+}

@@ -1,0 +1,305 @@
+== dsv2lite_r1_mj 10:00:58 swap 4174 MB
+  dsv2lite_r1_mj pp512 rep 0: 576.74 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mj pp512 rep 1: 572.20 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mj pp512 rep 2: 569.50 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mj pp512 rep 3: 567.79 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mj pp512 rep 4: 569.33 tok/s, 33 mJ/token GPU
+  dsv2lite_r1_mj pp2048 rep 0: 573.83 tok/s, 35 mJ/token GPU
+  dsv2lite_r1_mj pp2048 rep 1: 574.58 tok/s, 35 mJ/token GPU
+  dsv2lite_r1_mj pp2048 rep 2: 574.24 tok/s, 35 mJ/token GPU
+  dsv2lite_r1_mj pp2048 rep 3: 571.45 tok/s, 35 mJ/token GPU
+  dsv2lite_r1_mj pp2048 rep 4: 571.51 tok/s, 35 mJ/token GPU
+  dsv2lite_r1_mj tg128@d0 rep 0: 61.82 tok/s, ttft 0.05 s, 159 mJ/token GPU
+  dsv2lite_r1_mj tg128@d0 rep 1: 61.69 tok/s, ttft 0.05 s, 158 mJ/token GPU
+  dsv2lite_r1_mj tg128@d0 rep 2: 61.87 tok/s, ttft 0.06 s, 156 mJ/token GPU
+  dsv2lite_r1_mj tg128@d0 rep 3: 61.79 tok/s, ttft 0.06 s, 155 mJ/token GPU
+  dsv2lite_r1_mj tg128@d0 rep 4: 61.75 tok/s, ttft 0.06 s, 154 mJ/token GPU
+  dsv2lite_r1_mj tg128@d2048 rep 0: 51.34 tok/s, ttft 3.60 s, 203 mJ/token GPU
+  dsv2lite_r1_mj tg128@d2048 rep 1: 51.89 tok/s, ttft 3.59 s, 203 mJ/token GPU
+  dsv2lite_r1_mj tg128@d2048 rep 2: 52.24 tok/s, ttft 3.59 s, 205 mJ/token GPU
+  dsv2lite_r1_mj tg128@d2048 rep 3: 52.15 tok/s, ttft 3.59 s, 206 mJ/token GPU
+  dsv2lite_r1_mj tg128@d2048 rep 4: 51.86 tok/s, ttft 3.59 s, 207 mJ/token GPU
+  FLAGGED: swap grew 1412 MB
+== dsv2lite_r1_mlx-lm 10:04:32 swap 4938 MB
+  dsv2lite_r1_mlx-lm pp512 rep 0: 556.58 tok/s, 33 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp512 rep 1: 562.14 tok/s, 33 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp512 rep 2: 559.59 tok/s, 33 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp512 rep 3: 554.86 tok/s, 33 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp512 rep 4: 559.39 tok/s, 33 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp2048 rep 0: 512.82 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp2048 rep 1: 518.40 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp2048 rep 2: 520.44 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp2048 rep 3: 516.34 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mlx-lm pp2048 rep 4: 518.33 tok/s, 34 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d0 rep 0: 66.54 tok/s, ttft 0.15 s, 155 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d0 rep 1: 66.45 tok/s, ttft 0.18 s, 154 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d0 rep 2: 62.47 tok/s, ttft 0.18 s, 157 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d0 rep 3: 66.38 tok/s, ttft 0.16 s, 152 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d0 rep 4: 66.75 tok/s, ttft 0.15 s, 152 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d2048 rep 0: 49.14 tok/s, ttft 4.00 s, 194 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d2048 rep 1: 49.14 tok/s, ttft 4.53 s, 195 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d2048 rep 2: 49.06 tok/s, ttft 4.38 s, 198 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d2048 rep 3: 47.54 tok/s, ttft 4.07 s, 201 mJ/token GPU
+  dsv2lite_r1_mlx-lm tg128@d2048 rep 4: 47.94 tok/s, ttft 14.62 s, 193 mJ/token GPU
+== dsv2lite_r1_llama.cpp 10:08:25 swap 4378 MB
+llama.cpp pp512: 464.54 +- 44.18 tok/s
+llama.cpp pp2048: 520.45 +- 40.66 tok/s
+llama.cpp tg128@d0: 51.17 +- 0.85 tok/s
+llama.cpp tg128@d2048: 37.65 +- 1.85 tok/s
+  FLAGGED: swap grew 1143 MB
+== dsv2lite_r2_llama.cpp 10:10:56 swap 4482 MB
+llama.cpp pp512: 554.24 +- 11.56 tok/s
+llama.cpp pp2048: 528.84 +- 13.85 tok/s
+llama.cpp tg128@d0: 50.95 +- 1.13 tok/s
+llama.cpp tg128@d2048: 38.88 +- 0.26 tok/s
+  FLAGGED: swap grew 1535 MB
+== dsv2lite_r2_mlx-lm 10:13:17 swap 5489 MB
+  dsv2lite_r2_mlx-lm pp512 rep 0: 522.45 tok/s, 31 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp512 rep 1: 556.20 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp512 rep 2: 554.30 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp512 rep 3: 555.65 tok/s, 32 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp512 rep 4: 151.92 tok/s, 32 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp2048 rep 0: 71.25 tok/s, 29 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp2048 rep 1: 70.06 tok/s, 31 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp2048 rep 2: 190.50 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp2048 rep 3: 344.28 tok/s, 34 mJ/token GPU
+  dsv2lite_r2_mlx-lm pp2048 rep 4: 147.17 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d0 rep 0: 64.25 tok/s, ttft 0.17 s, 157 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d0 rep 1: 65.23 tok/s, ttft 0.20 s, 155 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d0 rep 2: 65.56 tok/s, ttft 0.19 s, 154 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d0 rep 3: 66.57 tok/s, ttft 0.21 s, 152 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d0 rep 4: 66.46 tok/s, ttft 0.21 s, 152 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d2048 rep 0: 48.48 tok/s, ttft 4.03 s, 196 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d2048 rep 1: 46.16 tok/s, ttft 4.39 s, 204 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d2048 rep 2: 47.56 tok/s, ttft 16.65 s, 195 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d2048 rep 3: 41.18 tok/s, ttft 47.01 s, 192 mJ/token GPU
+  dsv2lite_r2_mlx-lm tg128@d2048 rep 4: 45.30 tok/s, ttft 31.02 s, 187 mJ/token GPU
+== dsv2lite_r2_mj 10:20:15 swap 5006 MB
+  dsv2lite_r2_mj pp512 rep 0: 569.74 tok/s, 34 mJ/token GPU
+  dsv2lite_r2_mj pp512 rep 1: 573.46 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mj pp512 rep 2: 570.10 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mj pp512 rep 3: 582.16 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mj pp512 rep 4: 568.12 tok/s, 33 mJ/token GPU
+  dsv2lite_r2_mj pp2048 rep 0: 572.24 tok/s, 35 mJ/token GPU
+  dsv2lite_r2_mj pp2048 rep 1: 573.08 tok/s, 35 mJ/token GPU
+  dsv2lite_r2_mj pp2048 rep 2: 569.28 tok/s, 36 mJ/token GPU
+  dsv2lite_r2_mj pp2048 rep 3: 568.45 tok/s, 36 mJ/token GPU
+  dsv2lite_r2_mj pp2048 rep 4: 567.77 tok/s, 36 mJ/token GPU
+  dsv2lite_r2_mj tg128@d0 rep 0: 59.98 tok/s, ttft 0.05 s, 165 mJ/token GPU
+  dsv2lite_r2_mj tg128@d0 rep 1: 59.77 tok/s, ttft 0.07 s, 163 mJ/token GPU
+  dsv2lite_r2_mj tg128@d0 rep 2: 61.11 tok/s, ttft 0.06 s, 160 mJ/token GPU
+  dsv2lite_r2_mj tg128@d0 rep 3: 54.96 tok/s, ttft 0.06 s, 169 mJ/token GPU
+  dsv2lite_r2_mj tg128@d0 rep 4: 56.20 tok/s, ttft 0.05 s, 166 mJ/token GPU
+  dsv2lite_r2_mj tg128@d2048 rep 0: 50.50 tok/s, ttft 3.62 s, 210 mJ/token GPU
+  dsv2lite_r2_mj tg128@d2048 rep 1: 51.74 tok/s, ttft 3.62 s, 209 mJ/token GPU
+  dsv2lite_r2_mj tg128@d2048 rep 2: 51.80 tok/s, ttft 3.62 s, 209 mJ/token GPU
+  dsv2lite_r2_mj tg128@d2048 rep 3: 49.75 tok/s, ttft 3.65 s, 214 mJ/token GPU
+  dsv2lite_r2_mj tg128@d2048 rep 4: 51.59 tok/s, ttft 3.66 s, 211 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/mlx/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## DeepSeek-V2-Lite-Chat (MLA, general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64; ours caches MLA latents, mlx-lm expanded K/V; llama.cpp: mradermacher Q4_K_M
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | every block flagged (see below) | | | 0 | - |
+| mj | pp512 | 572.71 +- 5.62 | 565.72-579.71 | 1.0% | 5 | 33 |
+| mlx-lm | pp512 | 513.31 +- 127.47 | 422.21-604.41 | 24.8% | 10 | 33 |
+| llama.cpp | pp2048 | every block flagged (see below) | | | 0 | - |
+| mj | pp2048 | 570.16 +- 2.36 | 567.23-573.09 | 0.4% | 5 | 35 |
+| mlx-lm | pp2048 | 340.96 +- 200.49 | 197.67-484.25 | 58.8% | 10 | 33 |
+| llama.cpp | tg128@d0 | every block flagged (see below) | | | 0 | - |
+| mj | tg128@d0 | 58.40 +- 2.67 | 55.09-61.72 | 4.6% | 5 | 165 |
+| mlx-lm | tg128@d0 | 65.67 +- 1.37 | 64.69-66.65 | 2.1% | 10 | 154 |
+| llama.cpp | tg128@d2048 | every block flagged (see below) | | | 0 | - |
+| mj | tg128@d2048 | 51.08 +- 0.91 | 49.94-52.21 | 1.8% | 5 | 211 |
+| mlx-lm | tg128@d2048 | 47.15 +- 2.46 | 45.39-48.91 | 5.2% | 10 | 195 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama.cpp | pp512 | 509.39 +- 56.23 (397.05-565.01) | 10 |
+| mj | pp512 | 571.11 +- 3.52 (567.79-576.74) | 5 |
+| llama.cpp | pp2048 | 524.64 +- 28.98 (457.06-553.04) | 10 |
+| mj | pp2048 | 573.12 +- 1.52 (571.45-574.58) | 5 |
+| llama.cpp | tg128@d0 | 51.06 +- 0.95 (48.99-52.67) | 10 |
+| mj | tg128@d0 | 61.78 +- 0.07 (61.69-61.87) | 5 |
+| llama.cpp | tg128@d2048 | 38.27 +- 1.41 (35.37-40.01) | 10 |
+| mj | tg128@d2048 | 51.89 +- 0.35 (51.34-52.24) | 5 |
+
+Greedy decode ids, ours vs mlx-lm (same seeds): 16/20 identical; first divergence at token 1-88 otherwise
+
+## OLMoE-1B-7B-0125-Instruct (general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64 (float16 scales; run in float16); llama.cpp: allenai Q4_K_M
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+
+== olmoe_r1_mj 10:23:50 swap 4823 MB
+  olmoe_r1_mj pp512 rep 0: 1193.96 tok/s, 14 mJ/token GPU
+  olmoe_r1_mj pp512 rep 1: 1188.87 tok/s, 14 mJ/token GPU
+  olmoe_r1_mj pp512 rep 2: 1174.40 tok/s, 14 mJ/token GPU
+  olmoe_r1_mj pp512 rep 3: 1185.89 tok/s, 14 mJ/token GPU
+  olmoe_r1_mj pp512 rep 4: 1204.60 tok/s, 14 mJ/token GPU
+  olmoe_r1_mj pp2048 rep 0: 1256.01 tok/s, 15 mJ/token GPU
+  olmoe_r1_mj pp2048 rep 1: 1262.35 tok/s, 15 mJ/token GPU
+  olmoe_r1_mj pp2048 rep 2: 1271.72 tok/s, 15 mJ/token GPU
+  olmoe_r1_mj pp2048 rep 3: 1254.59 tok/s, 15 mJ/token GPU
+  olmoe_r1_mj pp2048 rep 4: 1272.09 tok/s, 15 mJ/token GPU
+  olmoe_r1_mj tg128@d0 rep 0: 138.16 tok/s, ttft 0.04 s, 67 mJ/token GPU
+  olmoe_r1_mj tg128@d0 rep 1: 138.63 tok/s, ttft 0.04 s, 67 mJ/token GPU
+  olmoe_r1_mj tg128@d0 rep 2: 138.41 tok/s, ttft 0.04 s, 67 mJ/token GPU
+  olmoe_r1_mj tg128@d0 rep 3: 137.10 tok/s, ttft 0.04 s, 68 mJ/token GPU
+  olmoe_r1_mj tg128@d0 rep 4: 137.74 tok/s, ttft 0.04 s, 68 mJ/token GPU
+  olmoe_r1_mj tg128@d2048 rep 0: 101.65 tok/s, ttft 1.63 s, 88 mJ/token GPU
+  olmoe_r1_mj tg128@d2048 rep 1: 101.32 tok/s, ttft 1.63 s, 88 mJ/token GPU
+  olmoe_r1_mj tg128@d2048 rep 2: 101.52 tok/s, ttft 1.63 s, 88 mJ/token GPU
+  olmoe_r1_mj tg128@d2048 rep 3: 101.53 tok/s, ttft 1.64 s, 88 mJ/token GPU
+  olmoe_r1_mj tg128@d2048 rep 4: 91.93 tok/s, ttft 1.64 s, 94 mJ/token GPU
+== olmoe_r1_mlx-lm 10:26:40 swap 4288 MB
+  olmoe_r1_mlx-lm pp512 rep 0: 1227.62 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp512 rep 1: 1245.20 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp512 rep 2: 1206.98 tok/s, 13 mJ/token GPU
+  olmoe_r1_mlx-lm pp512 rep 3: 1231.23 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp512 rep 4: 1207.24 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp2048 rep 0: 1315.84 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp2048 rep 1: 1302.10 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp2048 rep 2: 1309.72 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp2048 rep 3: 1330.36 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm pp2048 rep 4: 1322.94 tok/s, 14 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d0 rep 0: 137.25 tok/s, ttft 0.07 s, 66 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d0 rep 1: 133.31 tok/s, ttft 0.06 s, 62 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d0 rep 2: 136.72 tok/s, ttft 0.07 s, 66 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d0 rep 3: 137.92 tok/s, ttft 0.08 s, 67 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d0 rep 4: 136.72 tok/s, ttft 0.06 s, 65 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d2048 rep 0: 94.77 tok/s, ttft 1.54 s, 88 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d2048 rep 1: 95.81 tok/s, ttft 1.55 s, 88 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d2048 rep 2: 95.79 tok/s, ttft 1.52 s, 88 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d2048 rep 3: 95.87 tok/s, ttft 1.55 s, 88 mJ/token GPU
+  olmoe_r1_mlx-lm tg128@d2048 rep 4: 95.68 tok/s, ttft 1.54 s, 88 mJ/token GPU
+== olmoe_r1_llama.cpp 10:29:32 swap 4064 MB
+llama.cpp pp512: 1266.15 +- 7.97 tok/s
+llama.cpp pp2048: 1208.65 +- 3.34 tok/s
+llama.cpp tg128@d0: 103.46 +- 3.29 tok/s
+llama.cpp tg128@d2048: 84.45 +- 2.81 tok/s
+== olmoe_r2_llama.cpp 10:30:57 swap 3960 MB
+llama.cpp pp512: 1263.40 +- 8.73 tok/s
+llama.cpp pp2048: 1204.54 +- 2.34 tok/s
+llama.cpp tg128@d0: 101.36 +- 2.78 tok/s
+llama.cpp tg128@d2048: 83.68 +- 1.26 tok/s
+== olmoe_r2_mlx-lm 10:32:19 swap 3720 MB
+  olmoe_r2_mlx-lm pp512 rep 0: 1240.95 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp512 rep 1: 1215.47 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp512 rep 2: 1208.88 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp512 rep 3: 1209.54 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp512 rep 4: 1218.62 tok/s, 13 mJ/token GPU
+  olmoe_r2_mlx-lm pp2048 rep 0: 1310.32 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp2048 rep 1: 1344.12 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp2048 rep 2: 1314.07 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp2048 rep 3: 1319.35 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm pp2048 rep 4: 1319.07 tok/s, 14 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d0 rep 0: 134.14 tok/s, ttft 0.08 s, 66 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d0 rep 1: 136.47 tok/s, ttft 0.07 s, 67 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d0 rep 2: 136.55 tok/s, ttft 0.08 s, 66 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d0 rep 3: 134.15 tok/s, ttft 0.09 s, 67 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d0 rep 4: 136.96 tok/s, ttft 0.08 s, 66 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d2048 rep 0: 95.32 tok/s, ttft 1.53 s, 88 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d2048 rep 1: 95.53 tok/s, ttft 1.56 s, 87 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d2048 rep 2: 95.50 tok/s, ttft 1.56 s, 88 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d2048 rep 3: 95.62 tok/s, ttft 1.56 s, 89 mJ/token GPU
+  olmoe_r2_mlx-lm tg128@d2048 rep 4: 94.94 tok/s, ttft 1.54 s, 89 mJ/token GPU
+== olmoe_r2_mj 10:35:12 swap 3656 MB
+  olmoe_r2_mj pp512 rep 0: 1182.47 tok/s, 14 mJ/token GPU
+  olmoe_r2_mj pp512 rep 1: 1178.64 tok/s, 14 mJ/token GPU
+  olmoe_r2_mj pp512 rep 2: 1173.05 tok/s, 14 mJ/token GPU
+  olmoe_r2_mj pp512 rep 3: 1172.50 tok/s, 14 mJ/token GPU
+  olmoe_r2_mj pp512 rep 4: 1173.56 tok/s, 14 mJ/token GPU
+  olmoe_r2_mj pp2048 rep 0: 1250.20 tok/s, 15 mJ/token GPU
+  olmoe_r2_mj pp2048 rep 1: 1245.43 tok/s, 15 mJ/token GPU
+  olmoe_r2_mj pp2048 rep 2: 1246.40 tok/s, 15 mJ/token GPU
+  olmoe_r2_mj pp2048 rep 3: 1238.06 tok/s, 15 mJ/token GPU
+  olmoe_r2_mj pp2048 rep 4: 1251.44 tok/s, 15 mJ/token GPU
+  olmoe_r2_mj tg128@d0 rep 0: 109.49 tok/s, ttft 0.04 s, 74 mJ/token GPU
+  olmoe_r2_mj tg128@d0 rep 1: 107.85 tok/s, ttft 0.04 s, 75 mJ/token GPU
+  olmoe_r2_mj tg128@d0 rep 2: 108.17 tok/s, ttft 0.04 s, 74 mJ/token GPU
+  olmoe_r2_mj tg128@d0 rep 3: 101.31 tok/s, ttft 0.03 s, 77 mJ/token GPU
+  olmoe_r2_mj tg128@d0 rep 4: 106.96 tok/s, ttft 0.04 s, 75 mJ/token GPU
+  olmoe_r2_mj tg128@d2048 rep 0: 78.70 tok/s, ttft 1.67 s, 99 mJ/token GPU
+  olmoe_r2_mj tg128@d2048 rep 1: 85.33 tok/s, ttft 1.65 s, 95 mJ/token GPU
+  olmoe_r2_mj tg128@d2048 rep 2: 88.91 tok/s, ttft 1.67 s, 96 mJ/token GPU
+  olmoe_r2_mj tg128@d2048 rep 3: 100.50 tok/s, ttft 1.63 s, 87 mJ/token GPU
+  olmoe_r2_mj tg128@d2048 rep 4: 99.65 tok/s, ttft 1.64 s, 89 mJ/token GPU
+  FLAGGED: swap grew 331 MB
+# Benchmark suite summary
+
+Protocol: results/mlx/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## DeepSeek-V2-Lite-Chat (MLA, general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64; ours caches MLA latents, mlx-lm expanded K/V; llama.cpp: mradermacher Q4_K_M
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | every block flagged (see below) | | | 0 | - |
+| mj | pp512 | 572.71 +- 5.62 | 565.72-579.71 | 1.0% | 5 | 33 |
+| mlx-lm | pp512 | 513.31 +- 127.47 | 422.21-604.41 | 24.8% | 10 | 33 |
+| llama.cpp | pp2048 | every block flagged (see below) | | | 0 | - |
+| mj | pp2048 | 570.16 +- 2.36 | 567.23-573.09 | 0.4% | 5 | 35 |
+| mlx-lm | pp2048 | 340.96 +- 200.49 | 197.67-484.25 | 58.8% | 10 | 33 |
+| llama.cpp | tg128@d0 | every block flagged (see below) | | | 0 | - |
+| mj | tg128@d0 | 58.40 +- 2.67 | 55.09-61.72 | 4.6% | 5 | 165 |
+| mlx-lm | tg128@d0 | 65.67 +- 1.37 | 64.69-66.65 | 2.1% | 10 | 154 |
+| llama.cpp | tg128@d2048 | every block flagged (see below) | | | 0 | - |
+| mj | tg128@d2048 | 51.08 +- 0.91 | 49.94-52.21 | 1.8% | 5 | 211 |
+| mlx-lm | tg128@d2048 | 47.15 +- 2.46 | 45.39-48.91 | 5.2% | 10 | 195 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama.cpp | pp512 | 509.39 +- 56.23 (397.05-565.01) | 10 |
+| mj | pp512 | 571.11 +- 3.52 (567.79-576.74) | 5 |
+| llama.cpp | pp2048 | 524.64 +- 28.98 (457.06-553.04) | 10 |
+| mj | pp2048 | 573.12 +- 1.52 (571.45-574.58) | 5 |
+| llama.cpp | tg128@d0 | 51.06 +- 0.95 (48.99-52.67) | 10 |
+| mj | tg128@d0 | 61.78 +- 0.07 (61.69-61.87) | 5 |
+| llama.cpp | tg128@d2048 | 38.27 +- 1.41 (35.37-40.01) | 10 |
+| mj | tg128@d2048 | 51.89 +- 0.35 (51.34-52.24) | 5 |
+
+Greedy decode ids, ours vs mlx-lm (same seeds): 16/20 identical; first divergence at token 1-88 otherwise
+
+## OLMoE-1B-7B-0125-Instruct (general MoE model)
+
+Weights: ours / mlx-lm: mlx-community 4-bit g64 (float16 scales; run in float16); llama.cpp: allenai Q4_K_M
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | 1264.78 +- 8.01 | 1259.05-1270.50 | 0.6% | 10 | - |
+| mj | pp512 | 1189.54 +- 11.06 | 1175.79-1203.30 | 0.9% | 5 | 14 |
+| mlx-lm | pp512 | 1221.17 +- 14.27 | 1210.98-1231.37 | 1.2% | 10 | 14 |
+| llama.cpp | pp2048 | 1206.59 +- 3.47 | 1204.11-1209.07 | 0.3% | 10 | - |
+| mj | pp2048 | 1263.35 +- 8.34 | 1252.98-1273.72 | 0.7% | 5 | 15 |
+| mlx-lm | pp2048 | 1318.79 +- 11.82 | 1310.35-1327.24 | 0.9% | 10 | 14 |
+| llama.cpp | tg128@d0 | 102.41 +- 3.08 | 100.21-104.61 | 3.0% | 10 | - |
+| mj | tg128@d0 | 138.01 +- 0.60 | 137.25-138.76 | 0.4% | 5 | 67 |
+| mlx-lm | tg128@d0 | 136.02 +- 1.56 | 134.91-137.13 | 1.1% | 10 | 66 |
+| llama.cpp | tg128@d2048 | 84.06 +- 2.09 | 82.57-85.56 | 2.5% | 10 | - |
+| mj | tg128@d2048 | 99.59 +- 4.28 | 94.27-104.91 | 4.3% | 5 | 89 |
+| mlx-lm | tg128@d2048 | 95.49 +- 0.37 | 95.22-95.75 | 0.4% | 10 | 88 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| mj | pp512 | 1176.04 +- 4.35 (1172.50-1182.47) | 5 |
+| mj | pp2048 | 1246.31 +- 5.25 (1238.06-1251.44) | 5 |
+| mj | tg128@d0 | 106.76 +- 3.18 (101.31-109.49) | 5 |
+| mj | tg128@d2048 | 90.62 +- 9.38 (78.70-100.50) | 5 |
+
+Greedy decode ids, ours vs mlx-lm (same seeds): 16/20 identical; first divergence at token 9-119 otherwise
+

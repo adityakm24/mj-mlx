@@ -1,0 +1,441 @@
+{
+ "engine": "llama-server",
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "run": "results/lm_eval_chat_v1/gptoss_llama_items_full.json",
+ "mj_kw": "{}",
+ "rows": [
+  {
+   "idx": 1,
+   "gold": 3.0,
+   "pred": 3.0,
+   "ok": true,
+   "n_prefix": 202,
+   "top": [
+    {
+     "id": 18,
+     "text": "3",
+     "logprob": -2.0265599687263602e-06
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -14.269861221313477
+    },
+    {
+     "id": 220,
+     "text": " ",
+     "logprob": -14.906482696533203
+    },
+    {
+     "id": 19,
+     "text": "4",
+     "logprob": -15.100433349609375
+    },
+    {
+     "id": 20,
+     "text": "5",
+     "logprob": -15.274862289428711
+    }
+   ],
+   "margin": 14.269859194753508,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 8,
+   "gold": 45.0,
+   "pred": 45.0,
+   "ok": true,
+   "n_prefix": 517,
+   "top": [
+    {
+     "id": 2548,
+     "text": "45",
+     "logprob": -0.4199555814266205
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -1.3516038656234741
+    },
+    {
+     "id": 15,
+     "text": "0",
+     "logprob": -3.206286668777466
+    },
+    {
+     "id": 17,
+     "text": "2",
+     "logprob": -5.013730525970459
+    },
+    {
+     "id": 19,
+     "text": "4",
+     "logprob": -5.2237772941589355
+    }
+   ],
+   "margin": 0.9316482841968536,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 25,
+   "gold": 2.0,
+   "pred": 2.0,
+   "ok": true,
+   "n_prefix": 359,
+   "top": [
+    {
+     "id": 17,
+     "text": "2",
+     "logprob": -0.014353575184941292
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -4.476431846618652
+    },
+    {
+     "id": 15,
+     "text": "0",
+     "logprob": -6.969130516052246
+    },
+    {
+     "id": 19,
+     "text": "4",
+     "logprob": -8.53530216217041
+    },
+    {
+     "id": 18,
+     "text": "3",
+     "logprob": -8.556233406066895
+    }
+   ],
+   "margin": 4.462078271433711,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 47,
+   "gold": 800.0,
+   "pred": 800.0,
+   "ok": true,
+   "n_prefix": 357,
+   "top": [
+    {
+     "id": 6685,
+     "text": "800",
+     "logprob": -5.602852525044e-06
+    },
+    {
+     "id": 23,
+     "text": "8",
+     "logprob": -12.099710464477539
+    },
+    {
+     "id": 20811,
+     "text": "808",
+     "logprob": -16.687150955200195
+    },
+    {
+     "id": 220,
+     "text": " ",
+     "logprob": -17.19358253479004
+    },
+    {
+     "id": 1179,
+     "text": "200",
+     "logprob": -17.351613998413086
+    }
+   ],
+   "margin": 12.099704861625014,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 84,
+   "gold": 15.0,
+   "pred": 15.0,
+   "ok": true,
+   "n_prefix": 360,
+   "top": [
+    {
+     "id": 1055,
+     "text": "15",
+     "logprob": -5.960466182841628e-07
+    },
+    {
+     "id": 220,
+     "text": " ",
+     "logprob": -15.559683799743652
+    },
+    {
+     "id": 27369,
+     "text": "015",
+     "logprob": -15.85456371307373
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -16.06285858154297
+    },
+    {
+     "id": 20,
+     "text": "5",
+     "logprob": -16.24339485168457
+    }
+   ],
+   "margin": 15.559683203697034,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 243,
+   "gold": 250.0,
+   "pred": 250.0,
+   "ok": true,
+   "n_prefix": 296,
+   "top": [
+    {
+     "id": 6911,
+     "text": "250",
+     "logprob": -1.609338323760312e-05
+    },
+    {
+     "id": 24995,
+     "text": "251",
+     "logprob": -12.060616493225098
+    },
+    {
+     "id": 1161,
+     "text": "25",
+     "logprob": -12.798563957214355
+    },
+    {
+     "id": 18542,
+     "text": "260",
+     "logprob": -13.528996467590332
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -13.81729793548584
+    }
+   ],
+   "margin": 12.06060039984186,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 337,
+   "gold": 1.0,
+   "pred": 1.0,
+   "ok": true,
+   "n_prefix": 237,
+   "top": [
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -0.00048506102757528424
+    },
+    {
+     "id": 18,
+     "text": "3",
+     "logprob": -8.856123924255371
+    },
+    {
+     "id": 17,
+     "text": "2",
+     "logprob": -9.563162803649902
+    },
+    {
+     "id": 19,
+     "text": "4",
+     "logprob": -9.66098690032959
+    },
+    {
+     "id": 20,
+     "text": "5",
+     "logprob": -9.746432304382324
+    }
+   ],
+   "margin": 8.855638863227796,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 452,
+   "gold": 50.0,
+   "pred": 1.0,
+   "ok": false,
+   "n_prefix": 302,
+   "top": [
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -0.600400984287262
+    },
+    {
+     "id": 1434,
+     "text": "50",
+     "logprob": -1.2159042358398438
+    },
+    {
+     "id": 15,
+     "text": "0",
+     "logprob": -2.3379061222076416
+    },
+    {
+     "id": 17,
+     "text": "2",
+     "logprob": -4.562349319458008
+    },
+    {
+     "id": 18,
+     "text": "3",
+     "logprob": -5.458686828613281
+    }
+   ],
+   "margin": 0.6155032515525818,
+   "gold_rank_in_top5": 1
+  },
+  {
+   "idx": 694,
+   "gold": 9.0,
+   "pred": 9.0,
+   "ok": true,
+   "n_prefix": 313,
+   "top": [
+    {
+     "id": 24,
+     "text": "9",
+     "logprob": -3.576279254957626e-07
+    },
+    {
+     "id": 3114,
+     "text": "09",
+     "logprob": -15.380529403686523
+    },
+    {
+     "id": 220,
+     "text": " ",
+     "logprob": -15.618815422058105
+    },
+    {
+     "id": 23,
+     "text": "8",
+     "logprob": -16.80466651916504
+    },
+    {
+     "id": 24141,
+     "text": "009",
+     "logprob": -16.81674575805664
+    }
+   ],
+   "margin": 15.380529046058598,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 931,
+   "gold": 50.0,
+   "pred": 50.0,
+   "ok": true,
+   "n_prefix": 525,
+   "top": [
+    {
+     "id": 1434,
+     "text": "50",
+     "logprob": -0.3658238351345062
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -1.2426739931106567
+    },
+    {
+     "id": 15,
+     "text": "0",
+     "logprob": -5.55988883972168
+    },
+    {
+     "id": 18,
+     "text": "3",
+     "logprob": -5.691009521484375
+    },
+    {
+     "id": 20,
+     "text": "5",
+     "logprob": -5.912998199462891
+    }
+   ],
+   "margin": 0.8768501579761505,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 1167,
+   "gold": 120.0,
+   "pred": 120.0,
+   "ok": true,
+   "n_prefix": 200,
+   "top": [
+    {
+     "id": 6106,
+     "text": "120",
+     "logprob": -1.7762342395144515e-05
+    },
+    {
+     "id": 455,
+     "text": "20",
+     "logprob": -12.249863624572754
+    },
+    {
+     "id": 899,
+     "text": "12",
+     "logprob": -12.675307273864746
+    },
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -12.675734519958496
+    },
+    {
+     "id": 14503,
+     "text": "121",
+     "logprob": -13.460631370544434
+    }
+   ],
+   "margin": 12.249845862230359,
+   "gold_rank_in_top5": 0
+  },
+  {
+   "idx": 1182,
+   "gold": 1800.0,
+   "pred": 1.0,
+   "ok": false,
+   "n_prefix": 316,
+   "top": [
+    {
+     "id": 16,
+     "text": "1",
+     "logprob": -0.43527889251708984
+    },
+    {
+     "id": 7521,
+     "text": "180",
+     "logprob": -1.3668107986450195
+    },
+    {
+     "id": 18,
+     "text": "3",
+     "logprob": -2.640700340270996
+    },
+    {
+     "id": 15,
+     "text": "0",
+     "logprob": -5.005183219909668
+    },
+    {
+     "id": 17,
+     "text": "2",
+     "logprob": -5.237177848815918
+    }
+   ],
+   "margin": 0.9315319061279297,
+   "gold_rank_in_top5": null
+  }
+ ],
+ "notes": "Is a wrong GSM8K answer token a near-tie? For each item of a chat-format GSM8K run (tools/mlx_lm_eval.py --chat),\ntake an engine's own reply up to and including \"#### \", and give the top-5 next-token log-probabilities there, and\nthe margin between the top two. RESULTS 1zz: gpt-oss sometimes works the answer out and then writes \"#### 1\"; if the\nright number is a close second, the ending is a greedy near-tie and which way it falls is rounding.\n\n    .venv/bin/python tools/mlx_answer_margin.py --engine mj --model <mlx dir> --mj-kw JSON --run <eval json> --out x.json\n    .venv/bin/python tools/mlx_answer_margin.py --engine llama-server --model <mlx dir> --run <eval json> --out x.json\n\n--run names the eval whose replies are the prefixes (run with --full-text: by default replies are cut to their last\n600 characters); every engine can be given the same run, so the prefix tokens are identical. llama-server is asked through /completion with token ids and n_probs (its log-probabilities before\nsampling).\n"
+}

@@ -1,0 +1,77 @@
+== gptoss_r1_mj-a8w 04:22:38 swap 2619 MB
+  prewarm 24 files 3.0 s
+  gptoss_r1_mj-a8w pp32768 rep 0: 267.13 tok/s, 60 mJ/token GPU
+  gptoss_r1_mj-a8w pp32768 rep 1: 276.50 tok/s, 56 mJ/token GPU
+  FAILED (1): ityakrishnanmohan/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 381, in main
+    one(run, mx, test, 10_000 + a.seed0)  # warm-up, untimed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 286, in one
+    out = run(ids, NEW, first, tok)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py", line 118, in run
+    for f in eng.step():
+             ^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py", line 439, in step
+    return self._step_overlap()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py", line 458, in _step_overlap
+    return self._step_overlap_deferred()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py", line 487, in _step_overlap_deferred
+    self._in_flight.append((s, self.runner.launch_deferred(s)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py", line 272, in launch_deferred
+    mx.async_eval(*([d.out] if d.cand is None else [d.cand, d.x32]), self._pool_arrays())
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+
+  FLAGGED: swap grew 578 MB
+== gptoss_r1_llama.cpp 04:31:58 swap 2894 MB
+  prewarm 1 files 4.7 s
+llama-bench failed: chronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run prompt warmup
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+llama-bench failed: etal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+process_ubatch: failed to compute graph, compute status: -1
+test_prompt: failed to decode prompt batch, res = -3
+llama_bench: error: failed to run depth
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## gpt-oss-20b
+
+Weights: mj: openai/gpt-oss-20b exact (MXFP4 experts memory-mapped, packed bf16 attention, experts mlocked, 512-token prefill chunks as llama.cpp's ubatch); mj-a8: the same with 8-bit affine attention weights (lossy, matched to the GGUF); llama.cpp / Ollama / LM Studio (its llama.cpp engine): ggml-org MXFP4 GGUF (Q8_0 attention)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| mj-a8w | pp32768 | every block flagged (see below) | | | 0 | - | - |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| mj-a8w | pp32768 | 271.82 +- 6.63 (267.13-276.50) | 2 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_mj-a8w | mj-a8w | 4.70 | 10.66 | 46.29 | 47.97 |
+

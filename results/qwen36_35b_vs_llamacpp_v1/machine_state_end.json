@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T16:11:28",
+ "top_cpu": [
+  "39596 spotlightknowled 32.3",
+  "0 kernel_task 17.1",
+  "38169 mediaanalysisd 11.9",
+  "38119 corespotlightd 8.0",
+  "40483 top 4.3",
+  "39182 replicatord 3.1",
+  "42062 node 2.9",
+  "40438 node 2.7"
+ ],
+ "swap": "total = 22528.00M  used = 15811.69M  free = 6716.31M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 75%",
+ "loadavg": "{ 3.72 3.94 3.29 }"
+}

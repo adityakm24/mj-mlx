@@ -1,0 +1,122 @@
+# Reproduction report (full_20261121)
+
+## q36-vs-llamacpp (RESULTS 1zb; README.md, What it does well: Qwen3.6-35B-A3B row)
+
+| model | engine | test | published tok/s [95% CI] | new tok/s [95% CI] | n | verdict |
+| --- | --- | --- | --- | --- | --- | --- |
+| q35b | llama.cpp | pp2048 | 12.95 [12.21-13.69] | 13.92 [10.44-17.40] | 3 | same (+7.5%) |
+| q35b | llama.cpp | pp512 | 16.51 [15.44-17.57] | 16.36 [15.49-17.23] | 3 | same (-0.9%) |
+| q35b | llama.cpp | tg128@d0 | 3.78 [1.79-5.76] | 4.42 [4.04-4.80] | 3 | faster +17.1% |
+| q35b | llama.cpp | tg128@d2048 | 3.20 [1.70-4.69] | 4.77 [1.43-8.11] | 3 | same (+49.3%) |
+| q35b | mj | pp2048 | 277.36 [271.99-282.73] | 278.41 [276.81-280.00] | 10 | same (+0.4%) |
+| q35b | mj | pp512 | 161.69 [155.92-167.46] | 169.73 [166.98-172.47] | 10 | faster +5.0% |
+| q35b | mj | tg128@d0 | 24.06 [17.62-30.49] | 22.84 [20.93-24.75] | 10 | same (-5.1%) |
+| q35b | mj | tg128@d2048 | 21.65 [20.52-22.78] | 20.30 [19.34-21.26] | 10 | slower -6.2% |
+
+- q35b tg128@d0: mj faster than llama.cpp: llama.cpp: holds (5.16x)
+- q35b tg128@d2048: mj faster than llama.cpp: llama.cpp: holds (4.26x)
+- q35b pp512: mj faster than llama.cpp: llama.cpp: holds (10.37x)
+- q35b pp2048: mj faster than llama.cpp: llama.cpp: holds (20.00x)
+## gptoss-decode (RESULTS 1zh; README.md, What it does well: gpt-oss-20b row)
+
+| model | engine | test | published tok/s [95% CI] | new tok/s [95% CI] | n | verdict |
+| --- | --- | --- | --- | --- | --- | --- |
+| gptoss | llama.cpp | pp2048 | 438.76 [429.89-447.62] | 444.21 [436.51-451.91] | 10 | same (+1.2%) |
+| gptoss | llama.cpp | pp512 | 429.17 [424.98-433.36] | 446.74 [433.27-460.22] | 10 | faster +4.1% |
+| gptoss | llama.cpp | tg128@d0 | 36.82 [36.34-37.29] | 37.51 [37.36-37.67] | 10 | same (+1.9%) |
+| gptoss | llama.cpp | tg128@d2048 | 35.06 [32.49-37.64] | 35.95 [35.58-36.31] | 10 | same (+2.5%) |
+| gptoss | lmstudio-gguf | pp2048 | 436.62 [434.71-438.53] | 439.94 [439.46-440.42] | 5 | same (+0.8%) |
+| gptoss | lmstudio-gguf | pp512 | 400.82 [390.44-411.21] | 420.01 [416.72-423.30] | 5 | faster +4.8% |
+| gptoss | lmstudio-gguf | tg128@d0 | 35.67 [35.31-36.03] | 35.68 [34.80-36.57] | 5 | same (+0.0%) |
+| gptoss | lmstudio-gguf | tg128@d2048 | 33.33 [32.93-33.73] | 33.74 [32.96-34.52] | 5 | same (+1.2%) |
+| gptoss | mj-a8 | pp2048 | 434.69 [430.78-438.60] | 439.12 [437.91-440.33] | 5 | same (+1.0%) |
+| gptoss | mj-a8 | pp512 | 411.85 [409.38-414.32] | 407.00 [403.52-410.49] | 5 | same (-1.2%) |
+| gptoss | mj-a8 | tg128@d0 | 39.67 [39.30-40.04] | 39.99 [39.53-40.45] | 5 | same (+0.8%) |
+| gptoss | mj-a8 | tg128@d2048 | 38.33 [37.97-38.68] | 38.77 [38.33-39.20] | 5 | same (+1.2%) |
+| gptoss | ollama-gguf | pp2048 | 412.91 [402.78-423.04] | 435.57 [432.48-438.67] | 5 | faster +5.5% |
+| gptoss | ollama-gguf | pp512 | 394.39 [379.04-409.74] | 415.07 [382.07-448.06] | 5 | same (+5.2%) |
+| gptoss | ollama-gguf | tg128@d0 | 35.07 [34.80-35.33] | 33.21 [29.30-37.11] | 5 | same (-5.3%) |
+| gptoss | ollama-gguf | tg128@d2048 | 34.28 [33.88-34.68] | 34.33 [33.96-34.70] | 5 | same (+0.1%) |
+
+- gptoss tg128@d0: mj-a8 faster than llama.cpp, lmstudio-gguf, ollama-gguf: llama.cpp: holds (1.07x); lmstudio-gguf: holds (1.12x); ollama-gguf: holds (1.20x)
+- gptoss tg128@d2048: mj-a8 faster than llama.cpp, lmstudio-gguf, ollama-gguf: llama.cpp: holds (1.08x); lmstudio-gguf: holds (1.15x); ollama-gguf: holds (1.13x)
+## dsv2lite-decode (RESULTS 1zh; README.md, What it does well: DeepSeek-V2-Lite row; Where it is behind: short-context decode)
+
+| model | engine | test | published tok/s [95% CI] | new tok/s [95% CI] | n | verdict |
+| --- | --- | --- | --- | --- | --- | --- |
+| dsv2lite | llama.cpp | pp2048 | 538.21 [527.37-549.04] | 543.20 [532.07-554.33] | 10 | same (+0.9%) |
+| dsv2lite | llama.cpp | pp512 | 591.48 [590.68-592.28] | 590.96 [590.06-591.87] | 10 | same (-0.1%) |
+| dsv2lite | llama.cpp | tg128@d0 | 53.38 [51.98-54.79] | 54.98 [54.83-55.14] | 10 | same (+3.0%) |
+| dsv2lite | llama.cpp | tg128@d2048 | 41.02 [40.14-41.90] | 41.53 [41.14-41.93] | 10 | same (+1.3%) |
+| dsv2lite | mj | pp2048 | 574.90 [573.08-576.73] | 577.06 [576.10-578.01] | 10 | same (+0.4%) |
+| dsv2lite | mj | pp512 | 572.75 [569.22-576.28] | 585.75 [584.00-587.50] | 10 | same (+2.3%) |
+| dsv2lite | mj | tg128@d0 | 61.00 [60.04-61.95] | 62.29 [62.10-62.48] | 10 | same (+2.1%) |
+| dsv2lite | mj | tg128@d2048 | 52.24 [51.64-52.84] | 52.52 [52.38-52.65] | 10 | same (+0.5%) |
+| dsv2lite | ollama-gguf | pp2048 | 384.24 [377.84-390.64] | - | 0 | missing (every block flagged or failed) |
+| dsv2lite | ollama-gguf | pp512 | 381.16 [360.42-401.89] | - | 0 | missing (every block flagged or failed) |
+| dsv2lite | ollama-gguf | tg128@d0 | 45.46 [44.17-46.74] | - | 0 | missing (every block flagged or failed) |
+| dsv2lite | ollama-gguf | tg128@d2048 | 35.01 [33.81-36.22] | - | 0 | missing (every block flagged or failed) |
+| dsv2lite | vllm-mlx | pp2048 | 557.05 [552.50-561.59] | 563.00 [561.10-564.89] | 10 | same (+1.1%) |
+| dsv2lite | vllm-mlx | pp512 | 463.25 [441.59-484.91] | 485.38 [476.62-494.14] | 10 | faster +4.8% |
+| dsv2lite | vllm-mlx | tg128@d0 | 66.02 [64.96-67.08] | 67.20 [67.04-67.36] | 10 | same (+1.8%) |
+| dsv2lite | vllm-mlx | tg128@d2048 | 49.64 [49.20-50.08] | 49.73 [49.63-49.83] | 10 | same (+0.2%) |
+
+- dsv2lite tg128@d2048: mj faster than vllm-mlx, llama.cpp, ollama-gguf: vllm-mlx: holds (1.06x); llama.cpp: holds (1.26x); ollama-gguf: unknown (missing cell)
+- dsv2lite tg128@d0: vllm-mlx faster than mj: mj: holds (1.08x)
+## olmoe-decode (RESULTS 1zh; README.md, What it does well: OLMoE row; Where it is behind: short-context decode, prefill)
+
+| model | engine | test | published tok/s [95% CI] | new tok/s [95% CI] | n | verdict |
+| --- | --- | --- | --- | --- | --- | --- |
+| olmoe | llama.cpp | pp2048 | 1205.73 [1204.65-1206.82] | 1208.09 [1206.99-1209.19] | 10 | same (+0.2%) |
+| olmoe | llama.cpp | pp512 | 1266.19 [1264.47-1267.90] | 1267.22 [1265.35-1269.09] | 10 | same (+0.1%) |
+| olmoe | llama.cpp | tg128@d0 | 115.55 [115.46-115.64] | 116.50 [116.36-116.64] | 10 | same (+0.8%) |
+| olmoe | llama.cpp | tg128@d2048 | 88.15 [87.45-88.86] | 89.22 [88.99-89.45] | 10 | same (+1.2%) |
+| olmoe | mj | pp2048 | 1248.75 [1235.50-1262.00] | 1271.98 [1266.51-1277.45] | 10 | same (+1.9%) |
+| olmoe | mj | pp512 | 1203.85 [1189.54-1218.16] | 1241.78 [1222.74-1260.81] | 10 | faster +3.2% |
+| olmoe | mj | tg128@d0 | 137.45 [136.53-138.38] | 139.59 [139.42-139.77] | 10 | same (+1.6%) |
+| olmoe | mj | tg128@d2048 | 99.79 [97.38-102.20] | 102.42 [102.30-102.54] | 10 | same (+2.6%) |
+| olmoe | mlx-lm | pp2048 | 1318.75 [1301.54-1335.95] | 1361.00 [1354.28-1367.73] | 10 | faster +3.2% |
+| olmoe | mlx-lm | pp512 | 1244.24 [1226.90-1261.57] | 1307.84 [1303.14-1312.53] | 10 | faster +5.1% |
+| olmoe | mlx-lm | tg128@d0 | 135.55 [134.02-137.08] | 138.05 [136.66-139.44] | 10 | same (+1.8%) |
+| olmoe | mlx-lm | tg128@d2048 | 92.53 [90.49-94.57] | 95.75 [95.34-96.16] | 10 | faster +3.5% |
+| olmoe | vllm-mlx | pp2048 | 1247.32 [1232.61-1262.03] | 1269.39 [1265.14-1273.63] | 10 | same (+1.8%) |
+| olmoe | vllm-mlx | pp512 | 988.90 [949.08-1028.72] | 1058.89 [1042.97-1074.82] | 10 | faster +7.1% |
+| olmoe | vllm-mlx | tg128@d0 | 139.29 [139.06-139.52] | 140.05 [139.66-140.45] | 10 | same (+0.5%) |
+| olmoe | vllm-mlx | tg128@d2048 | 98.91 [97.68-100.15] | 99.53 [98.30-100.76] | 10 | same (+0.6%) |
+
+- olmoe tg128@d2048: mj tied with vllm-mlx: does not hold
+- olmoe tg128@d2048: mj faster than mlx-lm, llama.cpp: mlx-lm: holds (1.07x); llama.cpp: holds (1.15x)
+- olmoe pp2048: mlx-lm faster than mj: mj: holds (1.07x)
+- olmoe pp512: llama.cpp faster than mj: mj: holds (1.02x)
+## accuracy-olmoe (RESULTS 1ze; README.md, accuracy paragraph; docs/models.md)
+
+| run | published | new | verdict |
+| --- | --- | --- | --- |
+| olmoe_mj_bf16 | ppl 11.540 +- 0.251 | ppl 11.540 +- 0.251 | ppl same (+0.00%) |
+| olmoe_mj_q4_kld | ppl 12.004 +- 0.258, KL 0.1592 | ppl 12.004 +- 0.258, KL 0.1592 | ppl same (+0.00%); KL same (+0.0%) |
+| olmoe_mlx-lm_q4_kld | ppl 11.987 +- 0.257, KL 0.1589 | ppl 11.987 +- 0.257, KL 0.1589 | ppl same (+0.00%); KL same (+0.0%) |
+| olmoe_llamacpp_q4km | ppl 12.000 +- 0.263 | ppl 12.000 +- 0.263 | ppl same (+0.00%) |
+
+## accuracy-dsv2lite (RESULTS 1ze; README.md, accuracy paragraph)
+
+| run | published | new | verdict |
+| --- | --- | --- | --- |
+| dsv2lite_mj_q4 | ppl 9.078 +- 0.183 | ppl 9.078 +- 0.183 | ppl same (+0.00%) |
+| dsv2lite_mlx-lm_q4 | ppl 9.077 +- 0.183 | ppl 9.077 +- 0.183 | ppl same (+0.00%) |
+| dsv2lite_llamacpp_q4km | ppl 8.893 +- 0.181 | ppl 8.893 +- 0.181 | ppl same (+0.00%) |
+
+## accuracy-q30b (RESULTS 1ze; README.md, accuracy paragraph)
+
+| run | published | new | verdict |
+| --- | --- | --- | --- |
+| q30b_mj_q4 | ppl 8.123 +- 0.238 | ppl 8.123 +- 0.238 | ppl same (+0.00%) |
+| q30b_llamacpp_q4km | ppl 8.159 +- 0.244 | ppl 8.159 +- 0.244 | ppl same (+0.00%) |
+
+## accuracy-gptoss (RESULTS 1ze; README.md, accuracy paragraph; checklist 0.1b)
+
+| run | published | new | verdict |
+| --- | --- | --- | --- |
+| gptoss_mj_exact | ppl 181.158 +- 3.975 | ppl 181.158 +- 3.975 | ppl same (+0.00%) |
+| gptoss_mj_a8 | ppl 176.956 +- 3.874 | ppl 176.956 +- 3.874 | ppl same (+0.00%) |
+| gptoss_llamacpp_mxfp4 | ppl 172.832 +- 3.776 | ppl 172.832 +- 3.776 | ppl same (+0.00%) |
+

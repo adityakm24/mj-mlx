@@ -1,0 +1,144 @@
+{
+ "trace": "~/.cache/millijoule/qwen36-route-trace",
+ "layers": 40,
+ "tokens": 8192,
+ "results": {
+  "96/hor:0": {
+   "slots": 96,
+   "policy": "hor:0",
+   "misses": 290563,
+   "accesses": 2621440,
+   "miss_rate": 0.11084098815917968,
+   "misses_per_token": 0.8867279052734375
+  },
+  "96/hor:1": {
+   "slots": 96,
+   "policy": "hor:1",
+   "misses": 284275,
+   "accesses": 2621440,
+   "miss_rate": 0.10844230651855469,
+   "misses_per_token": 0.8675384521484375
+  },
+  "96/hor:2": {
+   "slots": 96,
+   "policy": "hor:2",
+   "misses": 278726,
+   "accesses": 2621440,
+   "miss_rate": 0.10632553100585937,
+   "misses_per_token": 0.850604248046875
+  },
+  "96/hor:3": {
+   "slots": 96,
+   "policy": "hor:3",
+   "misses": 273681,
+   "accesses": 2621440,
+   "miss_rate": 0.10440101623535156,
+   "misses_per_token": 0.8352081298828125
+  },
+  "96/hor:4": {
+   "slots": 96,
+   "policy": "hor:4",
+   "misses": 269036,
+   "accesses": 2621440,
+   "miss_rate": 0.10262908935546874,
+   "misses_per_token": 0.82103271484375
+  },
+  "96/hor:8": {
+   "slots": 96,
+   "policy": "hor:8",
+   "misses": 252639,
+   "accesses": 2621440,
+   "miss_rate": 0.09637413024902344,
+   "misses_per_token": 0.7709930419921875
+  },
+  "96/hor:16": {
+   "slots": 96,
+   "policy": "hor:16",
+   "misses": 227966,
+   "accesses": 2621440,
+   "miss_rate": 0.08696212768554687,
+   "misses_per_token": 0.695697021484375
+  },
+  "96/hor:64": {
+   "slots": 96,
+   "policy": "hor:64",
+   "misses": 163433,
+   "accesses": 2621440,
+   "miss_rate": 0.06234474182128906,
+   "misses_per_token": 0.4987579345703125
+  },
+  "96/hor:256": {
+   "slots": 96,
+   "policy": "hor:256",
+   "misses": 137757,
+   "accesses": 2621440,
+   "miss_rate": 0.052550125122070315,
+   "misses_per_token": 0.4204010009765625
+  },
+  "96/opt": {
+   "slots": 96,
+   "policy": "opt",
+   "misses": 136940,
+   "accesses": 2621440,
+   "miss_rate": 0.05223846435546875,
+   "misses_per_token": 0.41790771484375
+  },
+  "96/noisy:2:0.9:0": {
+   "slots": 96,
+   "policy": "noisy:2:0.9:0",
+   "misses": 280343,
+   "accesses": 2621440,
+   "miss_rate": 0.10694236755371093,
+   "misses_per_token": 0.8555389404296875
+  },
+  "96/noisy:2:0.8:0": {
+   "slots": 96,
+   "policy": "noisy:2:0.8:0",
+   "misses": 281877,
+   "accesses": 2621440,
+   "miss_rate": 0.10752754211425782,
+   "misses_per_token": 0.8602203369140625
+  },
+  "96/noisy:4:0.9:0": {
+   "slots": 96,
+   "policy": "noisy:4:0.9:0",
+   "misses": 273317,
+   "accesses": 2621440,
+   "miss_rate": 0.10426216125488282,
+   "misses_per_token": 0.8340972900390625
+  },
+  "96/noisy:4:0.8:0": {
+   "slots": 96,
+   "policy": "noisy:4:0.8:0",
+   "misses": 276726,
+   "accesses": 2621440,
+   "miss_rate": 0.10556259155273437,
+   "misses_per_token": 0.844500732421875
+  },
+  "96/noisy:4:0.9:0.25": {
+   "slots": 96,
+   "policy": "noisy:4:0.9:0.25",
+   "misses": 273280,
+   "accesses": 2621440,
+   "miss_rate": 0.104248046875,
+   "misses_per_token": 0.833984375
+  },
+  "96/noisy:8:0.9:0": {
+   "slots": 96,
+   "policy": "noisy:8:0.9:0",
+   "misses": 263667,
+   "accesses": 2621440,
+   "miss_rate": 0.10058097839355469,
+   "misses_per_token": 0.8046478271484375
+  },
+  "96/noisy:8:0.8:0.25": {
+   "slots": 96,
+   "policy": "noisy:8:0.8:0.25",
+   "misses": 271165,
+   "accesses": 2621440,
+   "miss_rate": 0.10344123840332031,
+   "misses_per_token": 0.8275299072265625
+  }
+ },
+ "notes": "Forecast paging, offline study part 1 (checklist 6.1): how far ahead must a routing forecast see to help eviction?\n\nOn the recorded routing trace (per layer: [T, k] expert ids per token), a cache of S expert slots per layer, demand\nmisses only (as tools/mlx_expert_cache_sim.py). Policies:\n  lru          the streamer today\n  opt          Belady's optimum (knows all future routing)\n  hor:<h>      horizon-limited oracle: the pager knows the true routing of the next h tokens in this layer. On a miss it\n               evicts the least recently used expert that is NOT needed within the horizon; if every resident expert is\n               needed within the horizon, the one needed furthest away. h = 0 is LRU; h = infinity is opt.\n  noisy:<h>:<recall>:<false>   the same with an imperfect forecast: each truly needed expert in the horizon is seen with\n               probability <recall>; per token, round(<false> * k) experts that are not needed are wrongly protected.\nA forecast of h tokens is what a draft of h tokens verified in the same step gives (their routing is computed with the\nstep), or a predictor run on draft tokens. Layer-ahead prediction does not change eviction (each layer has its own\ncache); it changes when a read can be issued, which part 2 measures on the live streamer.\n\n    python forecast_paging_sim.py --trace ~/.cache/millijoule/qwen36-route-trace --slots 96 --out out.json\n"
+}

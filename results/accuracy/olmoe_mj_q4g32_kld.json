@@ -1,0 +1,20 @@
+{
+ "engine": "mj",
+ "model": "~/.cache/millijoule/quant/olmoe-q4g32",
+ "mj_kw": {},
+ "ctx": 512,
+ "chunks": 80,
+ "tokens_scored": 20400,
+ "text_tokens": 285831,
+ "add_bos": false,
+ "ppl": 11.798489975008753,
+ "ppl_se": 0.25470102346943646,
+ "load_s": 1.3448267499989015,
+ "eval_s": 43.10460654200142,
+ "ref": "~/.cache/millijoule/accuracy_refs/ref_olmoe_bf16",
+ "kld_mean": 0.12577665809976848,
+ "kld_se": 0.0016111151855112747,
+ "kld_p99": 0.9737494591294201,
+ "kld_median": 0.061770788976034975,
+ "same_top": 0.8395588235294118
+}

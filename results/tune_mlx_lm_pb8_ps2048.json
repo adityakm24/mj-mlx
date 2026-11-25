@@ -1,0 +1,56 @@
+{
+ "engine": "mlx-lm 0.32.2",
+ "label": "tune pb8 ps2048",
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-8L",
+ "model_note": "random weights, gpt-oss-20b dims, 8 of 24 layers, MXFP4 experts, bf16 rest",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "mlx": "0.32.4",
+ "energy_boundary": "IOReport 'GPU Energy' rail (SoC energy model), whole GPU incl. idle; Mac-only",
+ "idle_gpu_w": 0.0,
+ "load_s": 4.205234790977556,
+ "args": {
+  "engine": "mlx-lm",
+  "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-8L",
+  "levels": "32,64",
+  "prompt_min": 64,
+  "prompt_max": 320,
+  "out_len": 128,
+  "per_level": 4,
+  "seed": 0,
+  "prefill_step": 2048,
+  "prefill_batch": 8,
+  "max_batch_tokens": 2048,
+  "no_paged": false,
+  "lm_head_bits": 8,
+  "plain": false,
+  "label": "tune pb8 ps2048",
+  "out": "results/mlx/tune_mlx_lm_pb8_ps2048.json"
+ },
+ "rows": [
+  {
+   "level": 32,
+   "requests": 128,
+   "total_tokens": 16384,
+   "wall_s": 82.06798254197929,
+   "window_s": 74.83783799997764,
+   "window_tokens": 16160,
+   "tok_s": 215.93354955022656,
+   "gpu_w": 17.8393220642531,
+   "gpu_j_per_token": 0.08261486971992575,
+   "gpu_j_per_token_above_idle": 0.08261486971992575
+  },
+  {
+   "level": 64,
+   "requests": 256,
+   "total_tokens": 32768,
+   "wall_s": 140.70243754202966,
+   "window_s": 121.5246582920081,
+   "window_tokens": 31808,
+   "tok_s": 261.7411186096033,
+   "gpu_w": 17.236284260078854,
+   "gpu_j_per_token": 0.0658524130699824,
+   "gpu_j_per_token_above_idle": 0.0658524130699824
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T23:40:31",
+ "top_cpu": [
+  "14568 top 5.6",
+  "2476 claude 4.7",
+  "14567 ReportMemoryExce 3.9",
+  "572 opendirectoryd 2.9",
+  "0 kernel_task 2.2",
+  "1400 node 1.5",
+  "1475 Claude Helper (R 1.0",
+  "11114 com.apple.geod 1.0"
+ ],
+ "swap": "total = 5120.00M  used = 4055.56M  free = 1064.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 86%",
+ "loadavg": "{ 2.03 2.12 2.13 }"
+}

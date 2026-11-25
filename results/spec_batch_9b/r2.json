@@ -1,0 +1,501 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "round": 2,
+ "new": 128,
+ "rows": [
+  {
+   "level": 1,
+   "arm": "plain",
+   "tok_s": 21.596386508202965,
+   "mj_per_token": 489.98287225196856,
+   "reps": [
+    {
+     "tok_s": 21.58442664677425,
+     "mj_per_token": 490.3267671181103,
+     "tokens": 127,
+     "seconds": 5.883871834000274,
+     "j_per_iter": 0.4903267671181103
+    },
+    {
+     "tok_s": 21.60834636963168,
+     "mj_per_token": 489.6389773858268,
+     "tokens": 127,
+     "seconds": 5.877358583000387,
+     "j_per_iter": 0.48963897738582685
+    }
+   ],
+   "j_per_iter": 0.48998287225196857,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null
+   ]
+  },
+  {
+   "level": 1,
+   "arm": "mtp-k1",
+   "tok_s": 29.83195274782443,
+   "mj_per_token": 462.1257093031496,
+   "reps": [
+    {
+     "tok_s": 29.828283331294315,
+     "mj_per_token": 455.5135628425197,
+     "tokens": 127,
+     "seconds": 4.257703958000093,
+     "j_per_iter": 0.7713362997466667
+    },
+    {
+     "tok_s": 29.835622164354547,
+     "mj_per_token": 468.7378557637795,
+     "tokens": 127,
+     "seconds": 4.256656667000243,
+     "j_per_iter": 0.79372943576
+    }
+   ],
+   "j_per_iter": 0.7825328677533334,
+   "accept_rate": 0.6933333333333334,
+   "rows_per_step": 2.0,
+   "first_diff_vs_plain": [
+    null
+   ]
+  },
+  {
+   "level": 1,
+   "arm": "mtp-k2",
+   "tok_s": 37.86264172822781,
+   "mj_per_token": 405.46778905511815,
+   "reps": [
+    {
+     "tok_s": 37.97832977435377,
+     "mj_per_token": 409.02918596062995,
+     "tokens": 127,
+     "seconds": 3.34401225000056,
+     "j_per_iter": 0.9444855748545455
+    },
+    {
+     "tok_s": 37.74695368210185,
+     "mj_per_token": 401.90639214960635,
+     "tokens": 127,
+     "seconds": 3.3645099170007597,
+     "j_per_iter": 0.9280383964181819
+    }
+   ],
+   "j_per_iter": 0.9362619856363636,
+   "accept_rate": 0.6545454545454545,
+   "rows_per_step": 3.0,
+   "first_diff_vs_plain": [
+    null
+   ]
+  },
+  {
+   "level": 1,
+   "arm": "mtp-auto",
+   "tok_s": 19.970669445012806,
+   "mj_per_token": 458.8030460196851,
+   "reps": [
+    {
+     "tok_s": 19.927552754323845,
+     "mj_per_token": 458.73884036220477,
+     "tokens": 127,
+     "seconds": 6.373085624999476,
+     "j_per_iter": 0.4937273959830509
+    },
+    {
+     "tok_s": 20.013786135701768,
+     "mj_per_token": 458.86725167716537,
+     "tokens": 127,
+     "seconds": 6.345625916999779,
+     "j_per_iter": 0.49386560138135593
+    }
+   ],
+   "j_per_iter": 0.49379649868220343,
+   "accept_rate": 0.6428571428571429,
+   "rows_per_step": 1.11864406779661,
+   "first_diff_vs_plain": [
+    null
+   ]
+  },
+  {
+   "level": 2,
+   "arm": "plain",
+   "tok_s": 42.028278055422675,
+   "mj_per_token": 379.3818439055118,
+   "reps": [
+    {
+     "tok_s": 42.09098745788096,
+     "mj_per_token": 390.5583811023622,
+     "tokens": 254,
+     "seconds": 6.034545999999864,
+     "j_per_iter": 0.3905583811023622
+    },
+    {
+     "tok_s": 41.96556865296439,
+     "mj_per_token": 368.2053067086614,
+     "tokens": 254,
+     "seconds": 6.052580917000341,
+     "j_per_iter": 0.3682053067086614
+    }
+   ],
+   "j_per_iter": 0.3793818439055118,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null,
+    null
+   ]
+  },
+  {
+   "level": 2,
+   "arm": "mtp-k1",
+   "tok_s": 45.28584332224246,
+   "mj_per_token": 319.1438449330709,
+   "reps": [
+    {
+     "tok_s": 45.16258787229396,
+     "mj_per_token": 317.05672172047247,
+     "tokens": 254,
+     "seconds": 5.62412412499998,
+     "j_per_iter": 0.5711518249432624
+    },
+    {
+     "tok_s": 45.40909877219096,
+     "mj_per_token": 321.2309681456693,
+     "tokens": 254,
+     "seconds": 5.593592624999474,
+     "j_per_iter": 0.578671389425532
+    }
+   ],
+   "j_per_iter": 0.5749116071843972,
+   "accept_rate": 0.8014184397163121,
+   "rows_per_step": 3.76,
+   "first_diff_vs_plain": [
+    null,
+    null
+   ]
+  },
+  {
+   "level": 2,
+   "arm": "mtp-k2",
+   "tok_s": 57.88267886218675,
+   "mj_per_token": 236.0059026377953,
+   "reps": [
+    {
+     "tok_s": 57.94042931177368,
+     "mj_per_token": 237.96982766929136,
+     "tokens": 254,
+     "seconds": 4.383812875000331,
+     "j_per_iter": 0.5925915316470589
+    },
+    {
+     "tok_s": 57.82492841259982,
+     "mj_per_token": 234.0419776062992,
+     "tokens": 254,
+     "seconds": 4.392569208000168,
+     "j_per_iter": 0.5828104148235295
+    }
+   ],
+   "j_per_iter": 0.5877009732352942,
+   "accept_rate": 0.7450980392156863,
+   "rows_per_step": 5.5636363636363635,
+   "first_diff_vs_plain": [
+    null,
+    null
+   ]
+  },
+  {
+   "level": 2,
+   "arm": "mtp-auto",
+   "tok_s": 40.477225074424396,
+   "mj_per_token": 279.11623338188974,
+   "reps": [
+    {
+     "tok_s": 40.42290796431959,
+     "mj_per_token": 282.58114155511817,
+     "tokens": 254,
+     "seconds": 6.28356574999998,
+     "j_per_iter": 0.5437546208712122
+    },
+    {
+     "tok_s": 40.531542184529194,
+     "mj_per_token": 275.6513252086614,
+     "tokens": 254,
+     "seconds": 6.266724291999708,
+     "j_per_iter": 0.5304199742651515
+    }
+   ],
+   "j_per_iter": 0.5370872975681819,
+   "accept_rate": 0.6815642458100558,
+   "rows_per_step": 3.3440860215053765,
+   "first_diff_vs_plain": [
+    null,
+    null
+   ]
+  },
+  {
+   "level": 4,
+   "arm": "plain",
+   "tok_s": 60.383465597861466,
+   "mj_per_token": 303.8885870551181,
+   "reps": [
+    {
+     "tok_s": 60.48961430978991,
+     "mj_per_token": 303.5283269291338,
+     "tokens": 508,
+     "seconds": 8.398135875000662,
+     "j_per_iter": 0.30352832692913384
+    },
+    {
+     "tok_s": 60.277316885933026,
+     "mj_per_token": 304.24884718110235,
+     "tokens": 508,
+     "seconds": 8.427714209000442,
+     "j_per_iter": 0.30424884718110234
+    }
+   ],
+   "j_per_iter": 0.3038885870551181,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "level": 4,
+   "arm": "mtp-k1",
+   "tok_s": 77.3815276879341,
+   "mj_per_token": 161.10038431791338,
+   "reps": [
+    {
+     "tok_s": 77.30576132496354,
+     "mj_per_token": 160.18430232480316,
+     "tokens": 508,
+     "seconds": 6.571308415999738,
+     "j_per_iter": 0.28753931300706714
+    },
+    {
+     "tok_s": 77.45729405090466,
+     "mj_per_token": 162.0164663110236,
+     "tokens": 508,
+     "seconds": 6.5584527090004485,
+     "j_per_iter": 0.29082814447349825
+    }
+   ],
+   "j_per_iter": 0.2891837287402827,
+   "accept_rate": 0.7950530035335689,
+   "rows_per_step": 7.546666666666667,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    19,
+    108
+   ]
+  },
+  {
+   "level": 4,
+   "arm": "mtp-k2",
+   "tok_s": 65.88643148332464,
+   "mj_per_token": 198.52934088779529,
+   "reps": [
+    {
+     "tok_s": 65.99972658469787,
+     "mj_per_token": 201.17600810433075,
+     "tokens": 508,
+     "seconds": 7.697001583000201,
+     "j_per_iter": 0.4709558162073733
+    },
+    {
+     "tok_s": 65.77313638195142,
+     "mj_per_token": 195.88267367125985,
+     "tokens": 508,
+     "seconds": 7.7235179580002296,
+     "j_per_iter": 0.4585640471198157
+    }
+   ],
+   "j_per_iter": 0.4647599316635945,
+   "accept_rate": 0.6797235023041475,
+   "rows_per_step": 10.672131147540984,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    19,
+    108
+   ]
+  },
+  {
+   "level": 4,
+   "arm": "mtp-auto",
+   "tok_s": 68.23371461841126,
+   "mj_per_token": 180.93550932480315,
+   "reps": [
+    {
+     "tok_s": 68.22583936629117,
+     "mj_per_token": 180.8895428051181,
+     "tokens": 508,
+     "seconds": 7.445859292000023,
+     "j_per_iter": 0.33537185308394163
+    },
+    {
+     "tok_s": 68.24158987053133,
+     "mj_per_token": 180.9814758444882,
+     "tokens": 508,
+     "seconds": 7.44414074999986,
+     "j_per_iter": 0.3355422982810219
+    }
+   ],
+   "j_per_iter": 0.33545707568248173,
+   "accept_rate": 0.7484276729559748,
+   "rows_per_step": 7.4,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    19,
+    108
+   ]
+  },
+  {
+   "level": 8,
+   "arm": "plain",
+   "tok_s": 110.31836732694501,
+   "mj_per_token": 147.521768984252,
+   "reps": [
+    {
+     "tok_s": 110.32126062850908,
+     "mj_per_token": 147.34552755905514,
+     "tokens": 1016,
+     "seconds": 9.2094669170001,
+     "j_per_iter": 0.1473455275590551
+    },
+    {
+     "tok_s": 110.31547402538095,
+     "mj_per_token": 147.6980104094488,
+     "tokens": 1016,
+     "seconds": 9.20994999999948,
+     "j_per_iter": 0.14769801040944883
+    }
+   ],
+   "j_per_iter": 0.14752176898425196,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "level": 8,
+   "arm": "mtp-k1",
+   "tok_s": 92.75604446077088,
+   "mj_per_token": 133.67666606446852,
+   "reps": [
+    {
+     "tok_s": 92.140889607796,
+     "mj_per_token": 129.73235417716538,
+     "tokens": 1016,
+     "seconds": 11.026592041000185,
+     "j_per_iter": 0.23003153899476442
+    },
+    {
+     "tok_s": 93.37119931374576,
+     "mj_per_token": 137.62097795177164,
+     "tokens": 1016,
+     "seconds": 10.881299666999439,
+     "j_per_iter": 0.24401904642059338
+    }
+   ],
+   "j_per_iter": 0.23702529270767891,
+   "accept_rate": 0.774869109947644,
+   "rows_per_step": 14.883116883116884,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    19,
+    108,
+    null,
+    105,
+    null,
+    null
+   ]
+  },
+  {
+   "level": 8,
+   "arm": "mtp-k2",
+   "tok_s": 78.13737412090777,
+   "mj_per_token": 193.87555526328742,
+   "reps": [
+    {
+     "tok_s": 79.07084416348995,
+     "mj_per_token": 192.8282157687008,
+     "tokens": 1016,
+     "seconds": 12.849236791999829,
+     "j_per_iter": 0.45141351894239634
+    },
+    {
+     "tok_s": 77.20390407832556,
+     "mj_per_token": 194.92289475787405,
+     "tokens": 1016,
+     "seconds": 13.159956250000505,
+     "j_per_iter": 0.4563171914147466
+    }
+   ],
+   "j_per_iter": 0.45386535517857146,
+   "accept_rate": 0.6785714285714286,
+   "rows_per_step": 20.34375,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    19,
+    108,
+    108,
+    100,
+    null,
+    45
+   ]
+  },
+  {
+   "level": 8,
+   "arm": "mtp-auto",
+   "tok_s": 76.2886949453954,
+   "mj_per_token": 163.18938008267716,
+   "reps": [
+    {
+     "tok_s": 76.05887655559482,
+     "mj_per_token": 165.90047788681102,
+     "tokens": 1016,
+     "seconds": 13.35807266699976,
+     "j_per_iter": 0.2283941538387534
+    },
+    {
+     "tok_s": 76.518513335196,
+     "mj_per_token": 160.4782822785433,
+     "tokens": 1016,
+     "seconds": 13.277832458000375,
+     "j_per_iter": 0.22092945094173444
+    }
+   ],
+   "j_per_iter": 0.22466180239024391,
+   "accept_rate": 0.768595041322314,
+   "rows_per_step": 10.485714285714286,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    19,
+    108,
+    null,
+    105,
+    null,
+    null
+   ]
+  }
+ ],
+ "notes": "Batched MTP speculative decoding (spec_decode.SpecBatch) vs the plain engine, B requests decoding together.\n\nPer level B: B chat prompts (PROMPTS cycled; different lengths), 128 new tokens each, EOS ignored, greedy.\n- plain: Engine(overlap=True, max_running=B), all B requests added at once.\n- mtp-k0 .. mtp-k3: SpecBatch with a fixed k. mtp-auto: a per-request DraftPolicy in energy mode, with the cost\n  table measured per batch size (--batch-cost, written by --calibrate from the mtp-k0..k3 arms: GPU joules per\n  request-iteration in the decode window), or else the one-request calibration scaled by batch_energy_cost.\nMeasured over the decode window only (from the step after which every request has its first token to the last\ntoken): tok/s = tokens in the window / window seconds; GPU mJ/token over the same window (IOReport GPU rail).\nEach arm: one warm-up, then --reps runs; medians. Token agreement: each arm's output vs the plain engine's, first\ndiffering position per request.\n\n    python tools/mlx_spec_batch.py --model <mlx 9B dir> --levels 1,2,4,8 --out results/mlx/spec_batch_9b/r1.json\n",
+ "time": "2026-11-17T22:16:02"
+}

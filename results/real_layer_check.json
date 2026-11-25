@@ -1,0 +1,26 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "reference": "transformers float32 (eager), 1 real layer + embedding + final norm",
+ "results": {
+  "layer0": {
+   "layer": 0,
+   "type": "sliding_attention",
+   "tokens": 276,
+   "max_abs_ref": 313.14288330078125,
+   "millijoule_fp32_max_abs_diff": 0.00028705596923828125,
+   "mlx_lm_fp32_max_abs_diff": 1.5571422576904297,
+   "millijoule_fp32_rel_rms": 5.576593480327574e-07,
+   "mlx_lm_fp32_rel_rms": 0.0028166898991912603
+  },
+  "layer1": {
+   "layer": 1,
+   "type": "full_attention",
+   "tokens": 276,
+   "max_abs_ref": 349.92578125,
+   "millijoule_fp32_max_abs_diff": 0.0002899169921875,
+   "mlx_lm_fp32_max_abs_diff": 6.787342071533203,
+   "millijoule_fp32_rel_rms": 5.747343152506801e-07,
+   "mlx_lm_fp32_rel_rms": 0.003717743791639805
+  }
+ }
+}

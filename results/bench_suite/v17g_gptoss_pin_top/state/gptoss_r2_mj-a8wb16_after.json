@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T10:36:07",
+ "top_cpu": [
+  "48334 mediaanalysisd 16.7",
+  "54007 top 6.0",
+  "0 kernel_task 4.6",
+  "2267 claude 4.2",
+  "37483 aned 2.8",
+  "397 dasd 1.5",
+  "828 node 1.4",
+  "1079 openshell-driver 0.6"
+ ],
+ "swap": "total = 6144.00M  used = 4828.75M  free = 1315.25M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 1.11 1.16 1.38 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4828.75
+}

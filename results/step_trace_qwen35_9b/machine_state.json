@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T06:27:00",
+ "top_cpu": [
+  "0 kernel_task 19.1",
+  "713 com.apple.Driver 17.6",
+  "34905 python3.11 16.2",
+  "608 loginwindow 7.2",
+  "36612 top 4.7",
+  "694 mDNSResponder 1.9",
+  "604 WindowServer 1.6",
+  "1400 node 1.4"
+ ],
+ "swap": "total = 5120.00M  used = 3421.25M  free = 1698.75M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 73%",
+ "loadavg": "{ 4.35 5.00 3.96 }"
+}

@@ -1,0 +1,111 @@
+round 0 mb150 06:50:14 total = 6144.00M  used = 4966.88M  free = 1177.12M  (encrypted)
+mb150 pp512 rep 0: 397.76 tok/s, 44 mJ/token GPU
+mb150 pp512 rep 1: 396.86 tok/s, 45 mJ/token GPU
+mb150 pp512 rep 2: 401.12 tok/s, 45 mJ/token GPU
+mb150 pp2048 rep 0: 435.25 tok/s, 47 mJ/token GPU
+mb150 pp2048 rep 1: 431.63 tok/s, 47 mJ/token GPU
+mb150 pp2048 rep 2: 432.23 tok/s, 47 mJ/token GPU
+mb150 tg128@d0 rep 0: 37.60 tok/s, ttft 0.19 s, 190 mJ/token GPU
+mb150 tg128@d0 rep 1: 37.55 tok/s, ttft 0.20 s, 185 mJ/token GPU
+mb150 tg128@d0 rep 2: 37.02 tok/s, ttft 0.21 s, 184 mJ/token GPU
+mb150 tg128@d2048 rep 0: 33.09 tok/s, ttft 4.74 s, 285 mJ/token GPU
+mb150 tg128@d2048 rep 1: 32.90 tok/s, ttft 4.75 s, 288 mJ/token GPU
+mb150 tg128@d2048 rep 2: 33.25 tok/s, ttft 4.77 s, 291 mJ/token GPU
+round 0 mbinf 06:52:33 total = 7168.00M  used = 5523.06M  free = 1644.94M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 199, in main
+    row = one(run, mx, test, a.seed0 + r)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 134, in one
+    run(ids, 1, lambda: t.__setitem__("first", time.perf_counter()), lambda: None)
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 83, in run
+    eng = Engine(model=model, num_blocks=(len(ids) + new) // 16 + 16, max_running=1, max_batch_tokens=a.chunk,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 346, in __init__
+    self.runner = MlxRunner(self.model, block_size, num_blocks, paged_decode, num_state_slots or 0)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 140, in __init__
+    self.pool = model.new_kv_pool(num_blocks * block_size)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/gpt_oss.py", line 609, in new_kv_pool
+    mx.eval(pool)
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+round 0 mbinf_gate 06:52:43 total = 7168.00M  used = 6483.75M  free = 684.25M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 199, in main
+    row = one(run, mx, test, a.seed0 + r)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 134, in one
+    run(ids, 1, lambda: t.__setitem__("first", time.perf_counter()), lambda: None)
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 83, in run
+    eng = Engine(model=model, num_blocks=(len(ids) + new) // 16 + 16, max_running=1, max_batch_tokens=a.chunk,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 346, in __init__
+    self.runner = MlxRunner(self.model, block_size, num_blocks, paged_decode, num_state_slots or 0)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 140, in __init__
+    self.pool = model.new_kv_pool(num_blocks * block_size)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/gpt_oss.py", line 609, in new_kv_pool
+    mx.eval(pool)
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+round 1 mb150 06:52:53 total = 8192.00M  used = 6651.56M  free = 1540.44M  (encrypted)
+mb150 pp512 rep 0: 400.23 tok/s, 46 mJ/token GPU
+mb150 pp512 rep 1: 392.49 tok/s, 46 mJ/token GPU
+mb150 pp512 rep 2: 396.59 tok/s, 45 mJ/token GPU
+mb150 pp2048 rep 0: 439.25 tok/s, 47 mJ/token GPU
+mb150 pp2048 rep 1: 440.11 tok/s, 48 mJ/token GPU
+mb150 pp2048 rep 2: 441.40 tok/s, 48 mJ/token GPU
+mb150 tg128@d0 rep 0: 37.21 tok/s, ttft 0.21 s, 185 mJ/token GPU
+mb150 tg128@d0 rep 1: 37.68 tok/s, ttft 0.21 s, 189 mJ/token GPU
+mb150 tg128@d0 rep 2: 37.74 tok/s, ttft 0.21 s, 194 mJ/token GPU
+mb150 tg128@d2048 rep 0: 33.10 tok/s, ttft 4.74 s, 292 mJ/token GPU
+mb150 tg128@d2048 rep 1: 33.56 tok/s, ttft 4.84 s, 290 mJ/token GPU
+mb150 tg128@d2048 rep 2: 32.48 tok/s, ttft 4.76 s, 298 mJ/token GPU
+round 1 mbinf 06:55:09 total = 6144.00M  used = 4500.00M  free = 1644.00M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 199, in main
+    row = one(run, mx, test, a.seed0 + r)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 134, in one
+    run(ids, 1, lambda: t.__setitem__("first", time.perf_counter()), lambda: None)
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 83, in run
+    eng = Engine(model=model, num_blocks=(len(ids) + new) // 16 + 16, max_running=1, max_batch_tokens=a.chunk,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 346, in __init__
+    self.runner = MlxRunner(self.model, block_size, num_blocks, paged_decode, num_state_slots or 0)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 140, in __init__
+    self.pool = model.new_kv_pool(num_blocks * block_size)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/gpt_oss.py", line 609, in new_kv_pool
+    mx.eval(pool)
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+round 1 mbinf_gate 06:55:21 total = 6144.00M  used = 4668.38M  free = 1475.62M  (encrypted)
+Traceback (most recent call last):
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 218, in <module>
+    main()
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 199, in main
+    row = one(run, mx, test, a.seed0 + r)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 134, in one
+    run(ids, 1, lambda: t.__setitem__("first", time.perf_counter()), lambda: None)
+  File "~/Documents/Projects/MilliJoule/tools/mlx_bench_worker.py", line 83, in run
+    eng = Engine(model=model, num_blocks=(len(ids) + new) // 16 + 16, max_running=1, max_batch_tokens=a.chunk,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 346, in __init__
+    self.runner = MlxRunner(self.model, block_size, num_blocks, paged_decode, num_state_slots or 0)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/runner.py", line 140, in __init__
+    self.pool = model.new_kv_pool(num_blocks * block_size)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/MilliJoule/tools/../python/millijoule/backends/mlx/gpt_oss.py", line 609, in new_kv_pool
+    mx.eval(pool)
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+done 06:55:32

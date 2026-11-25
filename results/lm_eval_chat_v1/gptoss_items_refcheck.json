@@ -1,0 +1,4438 @@
+{
+ "model": "openai/gpt-oss-20b (released MXFP4 experts, bf16 rest)",
+ "snapshot": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "layers": 24,
+ "reference": "MilliJoule float32 activations on the released weights",
+ "tokens": 8033,
+ "prompt_date": "2026-11-16",
+ "sequences": 24,
+ "results": {
+  "mj_precise": {
+   "top1": 0.9741068094111789,
+   "positions": 8033,
+   "mean_kl": 0.007531272550156824,
+   "p99_kl": 0.13953402022378736,
+   "max_kl": 1.0917308138543138
+  },
+  "mj_precise_pack": {
+   "top1": 0.9756006473297647,
+   "positions": 8033,
+   "mean_kl": 0.007715889476173147,
+   "p99_kl": 0.08922308932803624,
+   "max_kl": 1.4329932570218973
+  },
+  "mlxlm_bf16": {
+   "top1": 0.9681314577368355,
+   "positions": 8033,
+   "mean_kl": 0.013133530616694901,
+   "p99_kl": 0.23274499734239748,
+   "max_kl": 2.413665390212275
+  },
+  "mlxlm_fp32": {
+   "top1": 0.9899165940495456,
+   "positions": 8033,
+   "mean_kl": 0.0021206345019203266,
+   "p99_kl": 0.05912735617970367,
+   "max_kl": 0.6839105563726785
+  },
+  "mj_precise_greedy_path": {
+   "top1": 0.9773434582347815,
+   "positions": 8033
+  }
+ },
+ "per_sequence": [
+  {
+   "name": "mj:1:ok:3.0",
+   "n": 176,
+   "reply_start": 107,
+   "configs": {
+    "ref": {
+     "first_diff": 123,
+     "first_diff_pick": ":",
+     "first_diff_given": " =",
+     "probes": {
+      "174": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -6.879305143246177e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.916488851045866
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.999852384065886
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.344164098238249
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -14.814226354097624
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 123,
+     "first_diff_pick": ":",
+     "first_diff_given": " =",
+     "probes": {
+      "174": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -7.833927090750832e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.750007833927091
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.875007833927091
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.312507833927091
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -14.687507833927091
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 123,
+     "first_diff_pick": ":",
+     "first_diff_given": " =",
+     "probes": {
+      "174": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -7.604219185721973e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.812507604219185
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.875007604219185
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.312507604219185
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -14.687507604219185
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 123,
+     "first_diff_pick": ":",
+     "first_diff_given": " =",
+     "probes": {
+      "174": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -7.800363912204678e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.812507800363912
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.875007800363912
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.312507800363912
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -14.625007800363912
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 123,
+     "first_diff_pick": ":",
+     "first_diff_given": " =",
+     "probes": {
+      "174": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -7.096580217874901e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.845232430747698
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.968362275413226
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.394868317893694
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -14.797869149497698
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 123,
+     "first_diff_pick": ":",
+     "first_diff_given": " =",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:8:ok:45.0",
+   "n": 569,
+   "reply_start": 182,
+   "configs": {
+    "ref": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "567": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.3025828142134126
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.602618290897983
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.6085291643110686
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.308714940067905
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.406411244389194
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "567": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.3184821979129252
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.568482197912925
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.568482197912925
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.1934821979129255
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.3184821979129255
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "567": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.3549915665420527
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.4799915665420527
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.479991566542053
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.104991566542052
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.229991566542052
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "567": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.23424283773674634
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.8592428377367463
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.8592428377367463
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.359242837736747
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.484242837736747
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 268,
+     "first_diff_pick": " towards",
+     "first_diff_given": " back",
+     "probes": {
+      "567": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.2992565716867977
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.6259758557444148
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.6006596173410945
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.34310842410379
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.399977930939728
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:25:ok:2.0",
+   "n": 345,
+   "reply_start": 144,
+   "configs": {
+    "ref": {
+     "first_diff": 173,
+     "first_diff_pick": " So",
+     "first_diff_given": " Total",
+     "probes": {
+      "343": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -1.7800091676888885e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -13.864671579813855
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.398705355143445
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -16.188985697245496
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -16.473650804972547
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 273,
+     "first_diff_pick": ".",
+     "first_diff_given": ".\n\n",
+     "probes": {
+      "343": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -1.61124384658522e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.000001611243846
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.437501611243846
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -16.312501611243846
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -16.562501611243846
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 273,
+     "first_diff_pick": ".",
+     "first_diff_given": ".\n\n",
+     "probes": {
+      "343": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -1.5802824741215205e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.000001580282474
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.500001580282474
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -16.312501580282476
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -16.562501580282476
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 147,
+     "first_diff_pick": "Compute",
+     "first_diff_given": "We",
+     "probes": {
+      "343": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -2.16210956304504e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -13.625002162109563
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.250002162109563
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -16.000002162109563
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -16.375002162109563
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 273,
+     "first_diff_pick": ".",
+     "first_diff_given": ".\n\n",
+     "probes": {
+      "343": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -1.4494800188965736e-06
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.092292327775917
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.581150550737343
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -16.4192595671558
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -16.636225242509806
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 273,
+     "first_diff_pick": ".",
+     "first_diff_given": ".\n\n",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:47:ok:800.0",
+   "n": 340,
+   "reply_start": 127,
+   "configs": {
+    "ref": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "338": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -8.278948113505685e-06
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -11.740566903215692
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -16.170971566301628
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.535975152117057
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -16.953564339739128
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "338": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -1.1940711179778858e-05
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -11.375011940711179
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -15.750011940711179
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.25001194071118
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -16.50001194071118
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "338": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -1.3568484189386903e-05
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -11.250013568484189
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -15.500013568484189
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.12501356848419
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -16.25001356848419
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 131,
+     "first_diff_pick": " have",
+     "first_diff_given": " need",
+     "probes": {
+      "338": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -1.3619097112218757e-05
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -11.250013619097112
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -15.125013619097112
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.37501361909711
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -16.50001361909711
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 166,
+     "first_diff_pick": " cost",
+     "first_diff_given": " twice",
+     "probes": {
+      "338": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -1.33568031534389e-05
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -11.263410573600028
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -15.672464376090263
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.087007527945733
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -16.37963486254046
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:84:ok:15.0",
+   "n": 525,
+   "reply_start": 104,
+   "configs": {
+    "ref": {
+     "first_diff": 116,
+     "first_diff_pick": "?",
+     "first_diff_given": ".",
+     "probes": {
+      "523": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -0.11939313677872077
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -2.3387687471302834
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.495732095518955
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -6.479157235899814
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -7.079909112730869
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "523": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -0.16350125654621128
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -2.038501256546211
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.413501256546211
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -6.163501256546211
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -6.726001256546211
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "523": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -0.18020525948498556
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.9302052594849854
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.3052052594849854
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -6.1802052594849854
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -6.6802052594849854
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 226,
+     "first_diff_pick": " For",
+     "first_diff_given": " All",
+     "probes": {
+      "523": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -0.11913808109790748
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -2.3691380810979075
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.4941380810979075
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -6.2441380810979075
+       },
+       {
+        "id": 1709,
+        "text": "22",
+        "logprob": -6.6816380810979075
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "523": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -0.11855791865387211
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -2.327187526808169
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.807215679273989
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -6.609946239576724
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -7.066196430311587
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:243:wrong:1.0",
+   "n": 277,
+   "reply_start": 137,
+   "configs": {
+    "ref": {
+     "first_diff": 166,
+     "first_diff_pick": ".",
+     "first_diff_given": ",",
+     "probes": {
+      "275": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.126955141783829e-05
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -11.211682581196925
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.358552240620753
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.964465402852198
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -13.426097177754542
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 152,
+     "first_diff_pick": "=",
+     "first_diff_given": " =",
+     "probes": {
+      "275": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.879412375593634e-05
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -11.250038794123755
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.375038794123755
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -13.062538794123755
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -13.562538794123755
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 152,
+     "first_diff_pick": "=",
+     "first_diff_given": " =",
+     "probes": {
+      "275": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.735208750284672e-05
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -11.250037352087503
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.500037352087503
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -13.125037352087503
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -13.562537352087503
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "275": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.5529678130795946e-05
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -11.00004552967813
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.37504552967813
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.93754552967813
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -13.43754552967813
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 152,
+     "first_diff_pick": "=",
+     "first_diff_given": " =",
+     "probes": {
+      "275": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.102018696323927e-05
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -11.21922971037251
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.373427403243603
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -13.002282154830517
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -13.460853588851514
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:337:ok:1.0",
+   "n": 176,
+   "reply_start": 117,
+   "configs": {
+    "ref": {
+     "first_diff": 153,
+     "first_diff_pick": "<|end|>",
+     "first_diff_given": " Output",
+     "probes": {
+      "174": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.323256255142123e-05
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -10.97733052504302
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -12.379856426837454
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.494855244281302
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -12.709398586871634
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "174": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.696174752095656e-05
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -10.875046961747522
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.375046961747522
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -12.375046961747522
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -12.625046961747522
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "174": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.950805803164436e-05
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.125039508058032
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.500039508058032
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -12.500039508058032
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -12.750039508058032
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "174": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.570258413354739e-05
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.125035702584134
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -12.562535702584134
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.812535702584134
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -13.062535702584134
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "174": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.252591802084546e-05
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -11.283731561562552
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -12.769042116066947
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -12.848202806374564
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -12.997743707558646
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:452:wrong:1.0",
+   "n": 301,
+   "reply_start": 121,
+   "configs": {
+    "ref": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "299": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.5068059990533826
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.4462019035943983
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.243008239043617
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.664393050444984
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -5.525189025176429
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "299": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.4898779145559171
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.4898779145559171
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.239877914555917
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.614877914555917
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -5.614877914555917
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 195,
+     "first_diff_pick": ",",
+     "first_diff_given": "  \n",
+     "probes": {
+      "299": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.5364351940315633
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.4114351940315633
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.1614351940315633
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.661435194031563
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -5.536435194031563
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "299": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.6036701626259833
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.2286701626259833
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.228670162625983
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.728670162625983
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.728670162625983
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "299": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.4996899958115462
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.512711464927757
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.148486077354515
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.6350011225205305
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -5.489460885093773
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:694:wrong:40.0",
+   "n": 331,
+   "reply_start": 132,
+   "configs": {
+    "ref": {
+     "first_diff": 226,
+     "first_diff_pick": " more",
+     "first_diff_given": " regular",
+     "probes": {
+      "329": [
+       {
+        "id": 1723,
+        "text": "40",
+        "logprob": -2.3368092077195082e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -11.334984305592076
+       },
+       {
+        "id": 1130,
+        "text": "30",
+        "logprob": -12.29626322099735
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.49343347856571
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -13.523565772266881
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 226,
+     "first_diff_pick": " more",
+     "first_diff_given": " regular",
+     "probes": {
+      "329": [
+       {
+        "id": 1723,
+        "text": "40",
+        "logprob": -2.8348952086590987e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -11.125028348952087
+       },
+       {
+        "id": 1130,
+        "text": "30",
+        "logprob": -12.250028348952087
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.125028348952087
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -13.500028348952087
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 226,
+     "first_diff_pick": " more",
+     "first_diff_given": " regular",
+     "probes": {
+      "329": [
+       {
+        "id": 1723,
+        "text": "40",
+        "logprob": -3.0419117358212888e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -11.000030419117358
+       },
+       {
+        "id": 1130,
+        "text": "30",
+        "logprob": -12.250030419117358
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.125030419117358
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -13.500030419117358
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 191,
+     "first_diff_pick": " regular",
+     "first_diff_given": " chairs",
+     "probes": {
+      "329": [
+       {
+        "id": 1723,
+        "text": "40",
+        "logprob": -2.6319060206892918e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -11.250026319060208
+       },
+       {
+        "id": 1130,
+        "text": "30",
+        "logprob": -12.125026319060208
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.250026319060208
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -13.500026319060208
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "329": [
+       {
+        "id": 1723,
+        "text": "40",
+        "logprob": -2.9785742049464285e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -11.044791443456893
+       },
+       {
+        "id": 1130,
+        "text": "30",
+        "logprob": -12.21396563779283
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -13.112981064428572
+       },
+       {
+        "id": 4689,
+        "text": "42",
+        "logprob": -13.466428024877791
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 226,
+     "first_diff_pick": " more",
+     "first_diff_given": " regular",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:931:wrong:1.0",
+   "n": 453,
+   "reply_start": 127,
+   "configs": {
+    "ref": {
+     "first_diff": 140,
+     "first_diff_pick": " Given",
+     "first_diff_given": " Sum",
+     "probes": {
+      "451": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.6695848780578578
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.8613649683898891
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.441263802618405
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.493929513067624
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.742518075079342
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 140,
+     "first_diff_pick": " Given",
+     "first_diff_given": " Sum",
+     "probes": {
+      "451": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.7570614086306737
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.7570614086306737
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.5070614086306735
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.6320614086306735
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.8820614086306735
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 140,
+     "first_diff_pick": " Given",
+     "first_diff_given": " Sum",
+     "probes": {
+      "451": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.651351944067362
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.901351944067362
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.401351944067362
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.401351944067362
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.651351944067362
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 237,
+     "first_diff_pick": "J",
+     "first_diff_given": "P",
+     "probes": {
+      "451": [
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.6373502721854986
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.8873502721854986
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.6373502721854987
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.512350272185499
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.637350272185499
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 237,
+     "first_diff_pick": "J",
+     "first_diff_given": "P",
+     "probes": {
+      "451": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.6587138692254335
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.8474841634148866
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.7571254292840273
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.533544115197113
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.808019212853363
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 140,
+     "first_diff_pick": " Given",
+     "first_diff_given": " Sum",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:1167:wrong:1.0",
+   "n": 221,
+   "reply_start": 106,
+   "configs": {
+    "ref": {
+     "first_diff": 191,
+     "first_diff_pick": " his",
+     "first_diff_given": " Jack",
+     "probes": {
+      "219": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -0.7386781308215411
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.7649919125598224
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -3.7773305508654866
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.9811784359973226
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.765381011680916
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 191,
+     "first_diff_pick": " his",
+     "first_diff_given": " Jack",
+     "probes": {
+      "219": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.6971689920644439
+       },
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -0.8221689920644439
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.697168992064444
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -3.822168992064444
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.822168992064444
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 109,
+     "first_diff_pick": "We",
+     "first_diff_given": "Compute",
+     "probes": {
+      "219": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -0.7543837381674813
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.7543837381674813
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.754383738167481
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -3.879383738167481
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.879383738167482
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 112,
+     "first_diff_pick": " had",
+     "first_diff_given": " starts",
+     "probes": {
+      "219": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -0.7815966261140305
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.7815966261140305
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.4065966261140304
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -3.5315966261140304
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.65659662611403
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 161,
+     "first_diff_pick": "times",
+     "first_diff_given": ")",
+     "probes": {
+      "219": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -0.6351846871759901
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.9078897653009901
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -3.5688680825617323
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -3.810456675091029
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.944161814251185
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 161,
+     "first_diff_pick": "times",
+     "first_diff_given": ")",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "mj:1182:wrong:1.0",
+   "n": 323,
+   "reply_start": 116,
+   "configs": {
+    "ref": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "321": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.29434495680804296
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.877556855611754
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.7280245374965197
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.382521684102965
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -5.293099458150817
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {
+      "321": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.283093202657343
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.908093202657343
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.783093202657343
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.408093202657343
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.283093202657343
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 128,
+     "first_diff_pick": ":",
+     "first_diff_given": " per",
+     "probes": {
+      "321": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.28371212114324973
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.9087121211432496
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.7837121211432496
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.40871212114325
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.28371212114325
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 120,
+     "first_diff_pick": " need",
+     "first_diff_given": " have",
+     "probes": {
+      "321": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.2790999148276795
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -2.0290999148276794
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.6540999148276794
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.27909991482768
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -5.02909991482768
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 265,
+     "first_diff_pick": "If",
+     "first_diff_given": "The",
+     "probes": {
+      "321": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.3240157475274624
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.7261420597833217
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.743460785369259
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.468808304290158
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.360209595183712
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": null,
+     "first_diff_pick": null,
+     "first_diff_given": null,
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:1:ok:3.0",
+   "n": 203,
+   "reply_start": 107,
+   "configs": {
+    "ref": {
+     "first_diff": 161,
+     "first_diff_pick": ".",
+     "first_diff_given": " and",
+     "probes": {
+      "201": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -3.0747933560760096e-06
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.137560104517478
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -14.608589386133689
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.731106971888083
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -15.110385154871482
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 161,
+     "first_diff_pick": ".",
+     "first_diff_given": " and",
+     "probes": {
+      "201": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.39905076290917e-06
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.500002399050762
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.687502399050762
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -15.062502399050762
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -15.437502399050762
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 161,
+     "first_diff_pick": ".",
+     "first_diff_given": " and",
+     "probes": {
+      "201": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.7604861859998125e-06
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.250002760486186
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -14.687502760486186
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.750002760486186
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -15.187502760486186
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 161,
+     "first_diff_pick": ".",
+     "first_diff_given": " and",
+     "probes": {
+      "201": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -3.18876708552569e-06
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.250003188767085
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.375003188767085
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -14.875003188767085
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -15.187503188767085
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 161,
+     "first_diff_pick": ".",
+     "first_diff_given": " and",
+     "probes": {
+      "201": [
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.7219931532861315e-06
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -14.341241697518056
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.605842451302236
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -14.935057501045888
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -15.287978986946767
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 161,
+     "first_diff_pick": ".",
+     "first_diff_given": " and",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:8:ok:45.0",
+   "n": 518,
+   "reply_start": 182,
+   "configs": {
+    "ref": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "516": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.5980290195937452
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.1340969822402296
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.6206787846083937
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.768381955384761
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -4.889914395570308
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "516": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.5055712392329753
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.2555712392329754
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.7555712392329754
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.880571239232975
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.130571239232975
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "516": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.6140226234868869
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.1140226234868869
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.614022623486887
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.739022623486887
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -4.864022623486887
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {
+      "516": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.49781996969630216
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.2478199696963022
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.872819969696302
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.872819969696302
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -4.997819969696302
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 265,
+     "first_diff_pick": " drove",
+     "first_diff_given": " returned",
+     "probes": {
+      "516": [
+       {
+        "id": 2548,
+        "text": "45",
+        "logprob": -0.4711883933364384
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.3020008475600713
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.8239487082778445
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.05980571816554
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -5.155472603541517
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 203,
+     "first_diff_pick": " ",
+     "first_diff_given": " first",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:25:ok:2.0",
+   "n": 360,
+   "reply_start": 144,
+   "configs": {
+    "ref": {
+     "first_diff": 147,
+     "first_diff_pick": "We",
+     "first_diff_given": "Compute",
+     "probes": {
+      "358": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -0.025645595892830116
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.862895351752205
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -6.400857311591072
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.142360073431893
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -8.219481808051034
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 147,
+     "first_diff_pick": "We",
+     "first_diff_given": "Compute",
+     "probes": {
+      "358": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -0.022295307559433306
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.022295307559434
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -6.522295307559434
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.022295307559434
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -8.272295307559434
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 147,
+     "first_diff_pick": "We",
+     "first_diff_given": "Compute",
+     "probes": {
+      "358": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -0.021882275476279144
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -4.021882275476279
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -6.646882275476279
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.14688227547628
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -8.27188227547628
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 171,
+     "first_diff_pick": ",",
+     "first_diff_given": ".",
+     "probes": {
+      "358": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -0.025125277979188475
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.9001252779791886
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -6.525125277979188
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.025125277979189
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -8.150125277979189
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 147,
+     "first_diff_pick": "We",
+     "first_diff_given": "Compute",
+     "probes": {
+      "358": [
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -0.024874222318257855
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -3.899685394803609
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -6.514307510892476
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.068735611478415
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -8.178936493436423
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 147,
+     "first_diff_pick": "We",
+     "first_diff_given": "Compute",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:47:ok:800.0",
+   "n": 358,
+   "reply_start": 127,
+   "configs": {
+    "ref": {
+     "first_diff": 137,
+     "first_diff_pick": " cost",
+     "first_diff_given": ":",
+     "probes": {
+      "356": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -2.9267712498196842e-06
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -12.789757794324961
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -17.115922039930428
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -17.61707026380738
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -18.043831891004647
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 137,
+     "first_diff_pick": " cost",
+     "first_diff_given": ":",
+     "probes": {
+      "356": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -3.4705847838118525e-06
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -12.625003470584783
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.875003470584783
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -17.375003470584783
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -17.625003470584783
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 137,
+     "first_diff_pick": " cost",
+     "first_diff_given": ":",
+     "probes": {
+      "356": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -2.700752775910365e-06
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -12.875002700752775
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -17.250002700752777
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -17.500002700752777
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -17.875002700752777
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 131,
+     "first_diff_pick": " have",
+     "first_diff_given": " need",
+     "probes": {
+      "356": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -4.42269989922313e-06
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -12.375004422699899
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.8750044226999
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -17.2500044226999
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -17.2500044226999
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 137,
+     "first_diff_pick": " cost",
+     "first_diff_given": ":",
+     "probes": {
+      "356": [
+       {
+        "id": 6685,
+        "text": "800",
+        "logprob": -3.375009429356217e-06
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -12.646428622201812
+       },
+       {
+        "id": 20811,
+        "text": "808",
+        "logprob": -16.995856799081697
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -17.52628091712369
+       },
+       {
+        "id": 1179,
+        "text": "200",
+        "logprob": -17.915856875375642
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 137,
+     "first_diff_pick": " cost",
+     "first_diff_given": ":",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:84:ok:15.0",
+   "n": 361,
+   "reply_start": 104,
+   "configs": {
+    "ref": {
+     "first_diff": 134,
+     "first_diff_pick": " lost",
+     "first_diff_given": " they",
+     "probes": {
+      "359": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -8.629549650649106e-07
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.894959359048714
+       },
+       {
+        "id": 27369,
+        "text": "015",
+        "logprob": -15.904566674112191
+       },
+       {
+        "id": 17385,
+        "text": "155",
+        "logprob": -16.519641785501353
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -16.555362610696665
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "359": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -1.4563425767731994e-06
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.125001456342577
+       },
+       {
+        "id": 27369,
+        "text": "015",
+        "logprob": -15.375001456342577
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -15.875001456342577
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -16.250001456342577
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "359": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -9.78896728395758e-07
+       },
+       {
+        "id": 27369,
+        "text": "015",
+        "logprob": -15.750000978896729
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.750000978896729
+       },
+       {
+        "id": 17385,
+        "text": "155",
+        "logprob": -16.31250097889673
+       },
+       {
+        "id": 1422,
+        "text": "17",
+        "logprob": -16.50000097889673
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "359": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -1.3996139009773902e-06
+       },
+       {
+        "id": 27369,
+        "text": "015",
+        "logprob": -15.3750013996139
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.3750013996139
+       },
+       {
+        "id": 1422,
+        "text": "17",
+        "logprob": -16.1250013996139
+       },
+       {
+        "id": 17385,
+        "text": "155",
+        "logprob": -16.2500013996139
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {
+      "359": [
+       {
+        "id": 1055,
+        "text": "15",
+        "logprob": -8.629664416524569e-07
+       },
+       {
+        "id": 27369,
+        "text": "015",
+        "logprob": -15.817112831960582
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.913704781423473
+       },
+       {
+        "id": 17385,
+        "text": "155",
+        "logprob": -16.51048079002943
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -16.5962246941432
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 107,
+     "first_diff_pick": "We",
+     "first_diff_given": "Let",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:243:ok:250.0",
+   "n": 297,
+   "reply_start": 137,
+   "configs": {
+    "ref": {
+     "first_diff": 166,
+     "first_diff_pick": ".",
+     "first_diff_given": ",",
+     "probes": {
+      "295": [
+       {
+        "id": 6911,
+        "text": "250",
+        "logprob": -1.3801286179966544e-05
+       },
+       {
+        "id": 24995,
+        "text": "251",
+        "logprob": -12.237753364274461
+       },
+       {
+        "id": 1161,
+        "text": "25",
+        "logprob": -13.085382911393602
+       },
+       {
+        "id": 18542,
+        "text": "260",
+        "logprob": -13.642939063737352
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.380594703385789
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 152,
+     "first_diff_pick": "=",
+     "first_diff_given": " =",
+     "probes": {
+      "295": [
+       {
+        "id": 6911,
+        "text": "250",
+        "logprob": -1.4207193782037874e-05
+       },
+       {
+        "id": 24995,
+        "text": "251",
+        "logprob": -12.250014207193782
+       },
+       {
+        "id": 1161,
+        "text": "25",
+        "logprob": -13.125014207193782
+       },
+       {
+        "id": 18542,
+        "text": "260",
+        "logprob": -13.500014207193782
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.375014207193782
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 152,
+     "first_diff_pick": "=",
+     "first_diff_given": " =",
+     "probes": {
+      "295": [
+       {
+        "id": 6911,
+        "text": "250",
+        "logprob": -1.3929606279417275e-05
+       },
+       {
+        "id": 24995,
+        "text": "251",
+        "logprob": -12.250013929606279
+       },
+       {
+        "id": 1161,
+        "text": "25",
+        "logprob": -13.125013929606279
+       },
+       {
+        "id": 18542,
+        "text": "260",
+        "logprob": -13.500013929606279
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.500013929606279
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 180,
+     "first_diff_pick": " ",
+     "first_diff_given": " <",
+     "probes": {
+      "295": [
+       {
+        "id": 6911,
+        "text": "250",
+        "logprob": -1.450532792919489e-05
+       },
+       {
+        "id": 24995,
+        "text": "251",
+        "logprob": -12.250014505327929
+       },
+       {
+        "id": 1161,
+        "text": "25",
+        "logprob": -13.125014505327929
+       },
+       {
+        "id": 18542,
+        "text": "260",
+        "logprob": -13.625014505327929
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.125014505327929
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 152,
+     "first_diff_pick": "=",
+     "first_diff_given": " =",
+     "probes": {
+      "295": [
+       {
+        "id": 6911,
+        "text": "250",
+        "logprob": -1.4129029998474745e-05
+       },
+       {
+        "id": 24995,
+        "text": "251",
+        "logprob": -12.23834306274582
+       },
+       {
+        "id": 1161,
+        "text": "25",
+        "logprob": -13.151360335695038
+       },
+       {
+        "id": 18542,
+        "text": "260",
+        "logprob": -13.521755996095429
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -14.389820876466523
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 180,
+     "first_diff_pick": " ",
+     "first_diff_given": " <",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:337:ok:1.0",
+   "n": 238,
+   "reply_start": 117,
+   "configs": {
+    "ref": {
+     "first_diff": 200,
+     "first_diff_pick": "6",
+     "first_diff_given": " \\",
+     "probes": {
+      "236": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.000643425630401809
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.514240914033723
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -9.329067879365754
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -9.3902975851763
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -9.584221535371613
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 153,
+     "first_diff_pick": " Output",
+     "first_diff_given": "<|end|>",
+     "probes": {
+      "236": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.0006221954229018616
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.625622195422903
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -9.375622195422903
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -9.375622195422903
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -9.500622195422903
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 153,
+     "first_diff_pick": " Output",
+     "first_diff_given": "<|end|>",
+     "probes": {
+      "236": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.00061504983770634
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.625615049837707
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -9.375615049837707
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -9.375615049837707
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -9.500615049837707
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 153,
+     "first_diff_pick": " Output",
+     "first_diff_given": "<|end|>",
+     "probes": {
+      "236": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.0007560935648227406
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.500756093564823
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -9.125756093564823
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -9.250756093564823
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -9.375756093564823
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 153,
+     "first_diff_pick": " Output",
+     "first_diff_given": "<|end|>",
+     "probes": {
+      "236": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.0006040270966855502
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -8.655434959713872
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -9.367995613400396
+       },
+       {
+        "id": 19,
+        "text": "4",
+        "logprob": -9.450364464108404
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -9.610665672604497
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 153,
+     "first_diff_pick": " Output",
+     "first_diff_given": "<|end|>",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:452:wrong:1.0",
+   "n": 303,
+   "reply_start": 121,
+   "configs": {
+    "ref": {
+     "first_diff": 125,
+     "first_diff_pick": " distance",
+     "first_diff_given": " distances",
+     "probes": {
+      "301": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.49033636088925164
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.4764451407964783
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.304825725513275
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.52943128581601
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.592608394580658
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 125,
+     "first_diff_pick": " distance",
+     "first_diff_given": " distances",
+     "probes": {
+      "301": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.49871056374994344
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.4987105637499434
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.2487105637499436
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.498710563749944
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.498710563749944
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 125,
+     "first_diff_pick": " distance",
+     "first_diff_given": " distances",
+     "probes": {
+      "301": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.48110795238642745
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.4811079523864275
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.3561079523864272
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.481107952386427
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.606107952386427
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 125,
+     "first_diff_pick": " distance",
+     "first_diff_given": " distances",
+     "probes": {
+      "301": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.5469395466035977
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.2969395466035976
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.4219395466035976
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.546939546603598
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.546939546603598
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 125,
+     "first_diff_pick": " distance",
+     "first_diff_given": " distances",
+     "probes": {
+      "301": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.5241730925636576
+       },
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -1.3700707671242045
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -2.3296826598243996
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -4.563256573398618
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.46016247244647
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 125,
+     "first_diff_pick": " distance",
+     "first_diff_given": " distances",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:694:ok:9.0",
+   "n": 314,
+   "reply_start": 132,
+   "configs": {
+    "ref": {
+     "first_diff": 167,
+     "first_diff_pick": " regular",
+     "first_diff_given": " adults",
+     "probes": {
+      "312": [
+       {
+        "id": 24,
+        "text": "9",
+        "logprob": -6.930580941130909e-07
+       },
+       {
+        "id": 3114,
+        "text": "09",
+        "logprob": -15.475561835025868
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.872453428958973
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -16.543521620487294
+       },
+       {
+        "id": 24141,
+        "text": "009",
+        "logprob": -17.08673260376366
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 167,
+     "first_diff_pick": " regular",
+     "first_diff_given": " adults",
+     "probes": {
+      "312": [
+       {
+        "id": 24,
+        "text": "9",
+        "logprob": -6.134050931027146e-07
+       },
+       {
+        "id": 3114,
+        "text": "09",
+        "logprob": -15.625000613405094
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.937500613405094
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -16.687500613405092
+       },
+       {
+        "id": 24141,
+        "text": "009",
+        "logprob": -17.250000613405092
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 167,
+     "first_diff_pick": " regular",
+     "first_diff_given": " adults",
+     "probes": {
+      "312": [
+       {
+        "id": 24,
+        "text": "9",
+        "logprob": -7.023432576010572e-07
+       },
+       {
+        "id": 3114,
+        "text": "09",
+        "logprob": -15.250000702343257
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.875000702343257
+       },
+       {
+        "id": 24141,
+        "text": "009",
+        "logprob": -16.812500702343257
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -16.937500702343257
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 167,
+     "first_diff_pick": " regular",
+     "first_diff_given": " adults",
+     "probes": {
+      "312": [
+       {
+        "id": 24,
+        "text": "9",
+        "logprob": -8.187594332447825e-07
+       },
+       {
+        "id": 3114,
+        "text": "09",
+        "logprob": -15.125000818759434
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.687500818759434
+       },
+       {
+        "id": 24141,
+        "text": "009",
+        "logprob": -16.625000818759432
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -16.875000818759432
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 167,
+     "first_diff_pick": " regular",
+     "first_diff_given": " adults",
+     "probes": {
+      "312": [
+       {
+        "id": 24,
+        "text": "9",
+        "logprob": -7.390186749628162e-07
+       },
+       {
+        "id": 3114,
+        "text": "09",
+        "logprob": -15.289971136967894
+       },
+       {
+        "id": 220,
+        "text": " ",
+        "logprob": -15.625239157597777
+       },
+       {
+        "id": 24141,
+        "text": "009",
+        "logprob": -16.89562394611096
+       },
+       {
+        "id": 23,
+        "text": "8",
+        "logprob": -16.997318053166623
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 167,
+     "first_diff_pick": " regular",
+     "first_diff_given": " adults",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:931:ok:50.0",
+   "n": 526,
+   "reply_start": 127,
+   "configs": {
+    "ref": {
+     "first_diff": 132,
+     "first_diff_pick": " ages",
+     "first_diff_given": " variables",
+     "probes": {
+      "524": [
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.34126729094831515
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.3238913449033933
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.270512286065503
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.361109438775464
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.80125874602644
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 132,
+     "first_diff_pick": " ages",
+     "first_diff_given": " variables",
+     "probes": {
+      "524": [
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.5510492290849576
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.9260492290849576
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.051049229084958
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.176049229084958
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.801049229084958
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 132,
+     "first_diff_pick": " ages",
+     "first_diff_given": " variables",
+     "probes": {
+      "524": [
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.5052519057695932
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.0052519057695932
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -4.880251905769593
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.130251905769593
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.630251905769593
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 132,
+     "first_diff_pick": " ages",
+     "first_diff_given": " variables",
+     "probes": {
+      "524": [
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.3782573804680692
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.2532573804680691
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -5.003257380468069
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.128257380468069
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.628257380468069
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 132,
+     "first_diff_pick": " ages",
+     "first_diff_given": " variables",
+     "probes": {
+      "524": [
+       {
+        "id": 1434,
+        "text": "50",
+        "logprob": -0.3835643741834399
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -1.2337993595350025
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.96295776102426
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -5.289728543494963
+       },
+       {
+        "id": 20,
+        "text": "5",
+        "logprob": -5.79021491739633
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 132,
+     "first_diff_pick": " ages",
+     "first_diff_given": " variables",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:1167:ok:120.0",
+   "n": 201,
+   "reply_start": 106,
+   "configs": {
+    "ref": {
+     "first_diff": 109,
+     "first_diff_pick": "Compute",
+     "first_diff_given": "We",
+     "probes": {
+      "199": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -1.5443129370395338e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -12.572561448378394
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.780092423720191
+       },
+       {
+        "id": 899,
+        "text": "12",
+        "logprob": -12.998975938124488
+       },
+       {
+        "id": 14503,
+        "text": "121",
+        "logprob": -13.60377806977732
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 109,
+     "first_diff_pick": "Compute",
+     "first_diff_given": "We",
+     "probes": {
+      "199": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -1.5904742361756688e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -12.500015904742362
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.750015904742362
+       },
+       {
+        "id": 899,
+        "text": "12",
+        "logprob": -13.000015904742362
+       },
+       {
+        "id": 14503,
+        "text": "121",
+        "logprob": -13.562515904742362
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 119,
+     "first_diff_pick": " him",
+     "first_diff_given": " ",
+     "probes": {
+      "199": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -1.554944227542229e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -12.625015549442276
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.875015549442276
+       },
+       {
+        "id": 899,
+        "text": "12",
+        "logprob": -12.875015549442276
+       },
+       {
+        "id": 14503,
+        "text": "121",
+        "logprob": -13.375015549442276
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 109,
+     "first_diff_pick": "Compute",
+     "first_diff_given": "We",
+     "probes": {
+      "199": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -1.272744802572991e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -12.500012727448025
+       },
+       {
+        "id": 899,
+        "text": "12",
+        "logprob": -13.000012727448025
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -13.500012727448025
+       },
+       {
+        "id": 14503,
+        "text": "121",
+        "logprob": -13.750012727448025
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 109,
+     "first_diff_pick": "Compute",
+     "first_diff_given": "We",
+     "probes": {
+      "199": [
+       {
+        "id": 6106,
+        "text": "120",
+        "logprob": -1.565932705751528e-05
+       },
+       {
+        "id": 455,
+        "text": "20",
+        "logprob": -12.536409778589753
+       },
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -12.782408161158113
+       },
+       {
+        "id": 899,
+        "text": "12",
+        "logprob": -12.985508365625886
+       },
+       {
+        "id": 14503,
+        "text": "121",
+        "logprob": -13.612402362818269
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 109,
+     "first_diff_pick": "Compute",
+     "first_diff_given": "We",
+     "probes": {}
+    }
+   }
+  },
+  {
+   "name": "llama:1182:wrong:1.0",
+   "n": 317,
+   "reply_start": 116,
+   "configs": {
+    "ref": {
+     "first_diff": 162,
+     "first_diff_pick": " Lik",
+     "first_diff_given": " Probably",
+     "probes": {
+      "315": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.27013512587403044
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.971547326801765
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.7870647523388743
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.448876580952155
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.17481156325196
+       }
+      ]
+     }
+    },
+    "mj_precise": {
+     "first_diff": 162,
+     "first_diff_pick": " Lik",
+     "first_diff_given": " Probably",
+     "probes": {
+      "315": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.2503522590798263
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -2.1253522590798264
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.7503522590798264
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.375352259079826
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.125352259079826
+       }
+      ]
+     }
+    },
+    "mj_precise_pack": {
+     "first_diff": 162,
+     "first_diff_pick": " Lik",
+     "first_diff_given": " Probably",
+     "probes": {
+      "315": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.2680466257012588
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -2.018046625701259
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.768046625701259
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.268046625701259
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.143046625701259
+       }
+      ]
+     }
+    },
+    "mlxlm_bf16": {
+     "first_diff": 162,
+     "first_diff_pick": " Lik",
+     "first_diff_given": " Probably",
+     "probes": {
+      "315": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.31121168121188064
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.8112116812118806
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.686211681211881
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.561211681211881
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.186211681211881
+       }
+      ]
+     }
+    },
+    "mlxlm_fp32": {
+     "first_diff": 162,
+     "first_diff_pick": " Lik",
+     "first_diff_given": " Probably",
+     "probes": {
+      "315": [
+       {
+        "id": 16,
+        "text": "1",
+        "logprob": -0.283809284425701
+       },
+       {
+        "id": 7521,
+        "text": "180",
+        "logprob": -1.8908096353778494
+       },
+       {
+        "id": 18,
+        "text": "3",
+        "logprob": -2.793607334352459
+       },
+       {
+        "id": 15,
+        "text": "0",
+        "logprob": -4.471635441041912
+       },
+       {
+        "id": 17,
+        "text": "2",
+        "logprob": -5.231858829713787
+       }
+      ]
+     }
+    },
+    "mj_precise_greedy_path": {
+     "first_diff": 162,
+     "first_diff_pick": " Lik",
+     "first_diff_given": " Probably",
+     "probes": {}
+    }
+   }
+  }
+ ],
+ "note": "teacher-forced over the given sequences (results/lm_eval_chat_v1/gptoss_items_seqs.json); mj_precise_greedy_path = the engine's greedy output (low-bit candidates + fp32 rescore)"
+}

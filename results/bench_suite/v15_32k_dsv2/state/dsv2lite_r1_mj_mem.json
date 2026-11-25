@@ -1,0 +1,11 @@
+{
+ "engine": "mj",
+ "peak_footprint_gb": 12.712907816,
+ "peak_resident_gb": 0.360759296,
+ "samples": 359,
+ "per_pid_gb": {
+  "39511": 12.712907816
+ },
+ "swapins_gb": 2.001174528,
+ "swapouts_gb": 1.905016832
+}

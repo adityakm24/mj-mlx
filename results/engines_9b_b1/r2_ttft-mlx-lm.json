@@ -1,0 +1,18 @@
+{
+ "engine": "mlx-lm 0.32.2",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "experts": null,
+ "slots": null,
+ "model_note": "",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 2.9806718749459833,
+   "ttft_min_s": 2.9489952500443906,
+   "ttft_max_s": 3.079549959045835,
+   "prefill_tok_s": 171.77335227792514
+  }
+ ]
+}

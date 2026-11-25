@@ -1,0 +1,33 @@
+{
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "experts": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss20b-experts",
+ "prompt": "Explain, in a short paragraph, why the sky looks blue during the day and red at sunset, and then list three everyday examples of light scattering.",
+ "rows": [
+  {
+   "slots": 24,
+   "speculate": false,
+   "page_cache": false,
+   "prefetch": true,
+   "prefetch_issued": 579,
+   "prefetch_used": 528,
+   "spec_used": 0,
+   "spec_wasted": 0,
+   "resident_gb": 9.236832512,
+   "expert_budget_gb": 7.615807488,
+   "load_s": 6.856895249977242,
+   "prompt_tokens": 512,
+   "new_tokens": 128,
+   "ttft_s": 3.836252999957651,
+   "decode_tok_s": 11.821916191132443,
+   "decode_hit_rate": 0.9865485564304461,
+   "decode_gb_read": 5.5785024,
+   "gpu_w": 4.213945967125716,
+   "gpu_j_per_token": 0.476690135609375,
+   "gpu_active_pct": 82.05501925855252,
+   "mlx_peak_gb": 11.117971712,
+   "text": ""
+  }
+ ],
+ "process_peak_rss_gb": 7.902806016,
+ "note": "greedy, batch 1, lean trunk (embed + bf16 lm_head on disk, 4-bit candidate head + fp32 rescore), experts streamed from the repacked files with F_NOCACHE; energy = Mac GPU rail"
+}

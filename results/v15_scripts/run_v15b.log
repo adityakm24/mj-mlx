@@ -1,0 +1,23 @@
+stopped local.service-a
+stopped local.service-b
+stopped sh.brew.openshell
+stopped local.dev-backend
+== L 21:53:36 swap 1497.12M
+  dsv2 16k s64 exit 1
+  dsv2 16k s16 exit 0
+  dsv2 16k s1024 exit 1
+  dsv2 4k s0 exit 0
+  dsv2 4k s64 exit 0
+  dsv2 4k mlx-lm exit 0
+  gptoss 16k exit 137
+  kernel lines     1670 -> results/accuracy_long_v1/kernel_log_excerpts.txt
+== S olmoe 22:06:50 swap 1563.88M
+  S olmoe exit 0
+  kernel lines        1 -> results/bench_suite/v15_olmoe/kernel_log_excerpts.txt
+== S dsv2lite 23:10:52 swap 1227.56M
+  S dsv2lite exit 0
+  kernel lines        5 -> results/bench_suite/v15_dsv2lite/kernel_log_excerpts.txt
+== S gptoss 00:01:15 swap 1395.81M
+  S gptoss exit 0
+  kernel lines        1 -> results/bench_suite/v15_gptoss/kernel_log_excerpts.txt
+v15b stopped by hand after the gpt-oss suite 01:11:14

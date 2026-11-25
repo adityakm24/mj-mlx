@@ -1,0 +1,27 @@
+mj pp2048 rep 0: 432.23 tok/s, 48 mJ/token GPU
+mj pp2048 rep 1: 145.87 tok/s, 49 mJ/token GPU
+mj pp2048 rep 2: 428.71 tok/s, 48 mJ/token GPU
+mj tg128@d0 rep 0: 34.95 tok/s, ttft 0.18 s, 311 mJ/token GPU
+mj tg128@d0 rep 1: 36.13 tok/s, ttft 0.18 s, 305 mJ/token GPU
+mj tg128@d0 rep 2: 35.25 tok/s, ttft 0.29 s, 310 mJ/token GPU
+mj tg128@d2048 rep 0: 35.68 tok/s, ttft 4.78 s, 331 mJ/token GPU
+mj tg128@d2048 rep 1: 35.22 tok/s, ttft 4.82 s, 330 mJ/token GPU
+mj tg128@d2048 rep 2: 35.67 tok/s, ttft 4.86 s, 316 mJ/token GPU
+      127.97 real         7.70 user        13.19 sys
+         11307597824  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              883984  page reclaims
+               33506  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               65762  voluntary context switches
+              138920  involuntary context switches
+        203713781442  instructions retired
+         67330334265  cycles elapsed
+          4006177040  peak memory footprint

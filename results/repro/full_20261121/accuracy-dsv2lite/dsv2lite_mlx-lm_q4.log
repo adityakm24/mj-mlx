@@ -1,0 +1,11 @@
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (302411 > 16384). Running this sequence through the model will result in indexing errors
+chunk 1/80: ppl 4.7199
+chunk 11/80: ppl 10.9757
+chunk 21/80: ppl 9.5173
+chunk 31/80: ppl 7.9959
+chunk 41/80: ppl 8.3971
+chunk 51/80: ppl 8.3099
+chunk 61/80: ppl 8.6698
+chunk 71/80: ppl 9.1475
+{"engine": "mlx-lm", "mj_kw": {}, "ctx": 512, "chunks": 80, "tokens_scored": 20400, "text_tokens": 302411, "add_bos": true, "ppl": 9.076992374081557, "ppl_se": 0.18296767612304918, "load_s": 2.7139871249964926, "eval_s": 84.89770408400364, "ref": null}

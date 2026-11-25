@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T18:23:39",
+ "top_cpu": [
+  "0 kernel_task 21.1",
+  "54704 top 4.5",
+  "652 Finder 2.3",
+  "819 node 2.3",
+  "1212 openshell-driver 1.8",
+  "406 bluetoothd 1.5",
+  "837 openshell-gatewa 1.2",
+  "1143 openshell-driver 0.9"
+ ],
+ "swap": "total = 7168.00M  used = 5073.31M  free = 2094.69M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 1.48 2.43 3.15 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 5073.31
+}

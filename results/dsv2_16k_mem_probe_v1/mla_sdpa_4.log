@@ -1,0 +1,6 @@
+mj tg128@d2048 rep 0: 52.60 tok/s, ttft 3.68 s, 196 mJ/token GPU
+mj tg128@d2048 rep 1: 52.70 tok/s, ttft 3.69 s, 198 mJ/token GPU
+mj tg128@d8192 rep 0: 33.92 tok/s, ttft 19.76 s, 337 mJ/token GPU
+mj tg128@d8192 rep 1: 33.77 tok/s, ttft 19.92 s, 327 mJ/token GPU
+mj tg128@d16384 rep 0: 22.49 tok/s, ttft 53.13 s, 494 mJ/token GPU
+mj tg128@d16384 rep 1: 22.56 tok/s, ttft 52.84 s, 518 mJ/token GPU

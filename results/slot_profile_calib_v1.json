@@ -1,0 +1,80 @@
+{
+ "trace": "~/.cache/millijoule/qwen36-route-trace",
+ "tokens": 8192,
+ "held_out_tokens": 4096,
+ "slots": 96,
+ "layers": 40,
+ "uniform_misses": 164999,
+ "rows": [
+  {
+   "calib_tokens": 64,
+   "misses": 182449,
+   "vs_uniform": 0.10575821671646501,
+   "slot_range": [
+    56,
+    144
+   ],
+   "total": 3504
+  },
+  {
+   "calib_tokens": 128,
+   "misses": 160121,
+   "vs_uniform": -0.029563815538276028,
+   "slot_range": [
+    60,
+    136
+   ],
+   "total": 3840
+  },
+  {
+   "calib_tokens": 256,
+   "misses": 155652,
+   "vs_uniform": -0.05664882817471617,
+   "slot_range": [
+    60,
+    160
+   ],
+   "total": 3840
+  },
+  {
+   "calib_tokens": 512,
+   "misses": 154486,
+   "vs_uniform": -0.06371553766992533,
+   "slot_range": [
+    72,
+    172
+   ],
+   "total": 3840
+  },
+  {
+   "calib_tokens": 1024,
+   "misses": 154489,
+   "vs_uniform": -0.06369735574155,
+   "slot_range": [
+    72,
+    156
+   ],
+   "total": 3840
+  },
+  {
+   "calib_tokens": 2048,
+   "misses": 154205,
+   "vs_uniform": -0.06541857829441389,
+   "slot_range": [
+    68,
+    172
+   ],
+   "total": 3840
+  },
+  {
+   "calib_tokens": 4096,
+   "misses": 153639,
+   "vs_uniform": -0.0688489021145583,
+   "slot_range": [
+    72,
+    160
+   ],
+   "total": 3840
+  }
+ ]
+}

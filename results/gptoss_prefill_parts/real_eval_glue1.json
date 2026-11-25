@@ -1,0 +1,30 @@
+{
+ "model": "openai/gpt-oss-20b (released MXFP4 experts, bf16 rest)",
+ "snapshot": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "layers": 24,
+ "reference": "MilliJoule float32 activations on the released weights",
+ "tokens": 1296,
+ "prompt_date": "2026-11-16",
+ "sequences": 8,
+ "results": {
+  "mj_precise": {
+   "top1": 0.9591049382716049,
+   "positions": 1296,
+   "mean_kl": 0.012022518740934195,
+   "p99_kl": 0.15164643899425856,
+   "max_kl": 1.042637345272412
+  },
+  "mj_precise_attn8": {
+   "top1": 0.941358024691358,
+   "positions": 1296,
+   "mean_kl": 0.029032863592213073,
+   "p99_kl": 0.7577344713916644,
+   "max_kl": 1.0141791244775606
+  },
+  "mj_precise_greedy_path": {
+   "top1": 0.9753086419753086,
+   "positions": 1296
+  }
+ },
+ "note": "teacher-forced over chat-template-formatted conversations written for this test; mj_precise_greedy_path = the engine's greedy output (low-bit candidates + fp32 rescore)"
+}

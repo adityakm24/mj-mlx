@@ -1,0 +1,285 @@
+{
+ "j_per_iter": [
+  0.46316566415748034,
+  0.7375715875805029,
+  0.9120496352306547,
+  1.2027912065976887
+ ],
+ "s_per_iter": [
+  0.04762002772047271,
+  0.05701574084848417,
+  0.06131267708116928,
+  0.0768714861153862
+ ],
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "mtp": "~/.cache/millijoule/Qwen3.5-9B-mtp/mtp.safetensors",
+ "draft_vocab": "~/.cache/millijoule/Qwen3.5-9B-mtp/vocab65536.npy",
+ "rows": [
+  {
+   "prompt": "chat",
+   "k": 0,
+   "rep": 0,
+   "j_per_iter": 0.4953164955275591,
+   "s_per_iter": 0.047983593503936495,
+   "ms_per_token": 47.9835935039365,
+   "mj_per_token": 495.316495527559,
+   "accept_rate": 0.0,
+   "gpu_w": 10.31601557675439
+  },
+  {
+   "prompt": "chat",
+   "k": 0,
+   "rep": 1,
+   "j_per_iter": 0.4976765395905512,
+   "s_per_iter": 0.04753532119685036,
+   "ms_per_token": 47.53532119685036,
+   "mj_per_token": 497.6765395905512,
+   "accept_rate": 0.0,
+   "gpu_w": 10.46720633149704
+  },
+  {
+   "prompt": "chat",
+   "k": 0,
+   "rep": 2,
+   "j_per_iter": 0.4986221601889764,
+   "s_per_iter": 0.04724065059055171,
+   "ms_per_token": 47.24065059055171,
+   "mj_per_token": 498.6221601889764,
+   "accept_rate": 0.0,
+   "gpu_w": 10.555499563979383
+  },
+  {
+   "prompt": "chat",
+   "k": 1,
+   "rep": 0,
+   "j_per_iter": 0.7877691285151516,
+   "s_per_iter": 0.056856762621211226,
+   "ms_per_token": 29.54760892125938,
+   "mj_per_token": 409.3918305669292,
+   "accept_rate": 0.9242424242424242,
+   "gpu_w": 13.869207325029768
+  },
+  {
+   "prompt": "chat",
+   "k": 1,
+   "rep": 1,
+   "j_per_iter": 0.7780579931060607,
+   "s_per_iter": 0.056787764515151495,
+   "ms_per_token": 29.511751637795268,
+   "mj_per_token": 404.34509877952763,
+   "accept_rate": 0.9242424242424242,
+   "gpu_w": 13.692361836015577
+  },
+  {
+   "prompt": "chat",
+   "k": 1,
+   "rep": 2,
+   "j_per_iter": 0.7890719304242425,
+   "s_per_iter": 0.05717471907575711,
+   "ms_per_token": 29.712846133858022,
+   "mj_per_token": 410.0688772283465,
+   "accept_rate": 0.9242424242424242,
+   "gpu_w": 13.800079630070561
+  },
+  {
+   "prompt": "chat",
+   "k": 2,
+   "rep": 0,
+   "j_per_iter": 0.9024803904166667,
+   "s_per_iter": 0.061358266499998614,
+   "ms_per_token": 23.19052592125932,
+   "mj_per_token": 341.09495070866143,
+   "accept_rate": 0.8229166666666666,
+   "gpu_w": 14.708996119979087
+  },
+  {
+   "prompt": "chat",
+   "k": 2,
+   "rep": 1,
+   "j_per_iter": 0.9204586096041667,
+   "s_per_iter": 0.060656856770833656,
+   "ms_per_token": 22.925426181102484,
+   "mj_per_token": 347.8898681968504,
+   "accept_rate": 0.8229166666666666,
+   "gpu_w": 15.190386952059354
+  },
+  {
+   "prompt": "chat",
+   "k": 2,
+   "rep": 2,
+   "j_per_iter": 0.9394631333958334,
+   "s_per_iter": 0.0607602578124992,
+   "ms_per_token": 22.964506889763477,
+   "mj_per_token": 355.0726803385827,
+   "accept_rate": 0.8229166666666666,
+   "gpu_w": 15.459379877163443
+  },
+  {
+   "prompt": "chat",
+   "k": 3,
+   "rep": 0,
+   "j_per_iter": 1.2147738745897436,
+   "s_per_iter": 0.07653642307691837,
+   "ms_per_token": 23.5033110236206,
+   "mj_per_token": 373.04079613385824,
+   "accept_rate": 0.7521367521367521,
+   "gpu_w": 15.877644844791988
+  },
+  {
+   "prompt": "chat",
+   "k": 3,
+   "rep": 1,
+   "j_per_iter": 1.170898395025641,
+   "s_per_iter": 0.07685599466666505,
+   "ms_per_token": 23.601447181101864,
+   "mj_per_token": 359.56722366929137,
+   "accept_rate": 0.7521367521367521,
+   "gpu_w": 15.234967627635287
+  },
+  {
+   "prompt": "chat",
+   "k": 3,
+   "rep": 2,
+   "j_per_iter": 1.178257271846154,
+   "s_per_iter": 0.07688697756410735,
+   "ms_per_token": 23.6109616141747,
+   "mj_per_token": 361.8270362362205,
+   "accept_rate": 0.7521367521367521,
+   "gpu_w": 15.321794238410305
+  },
+  {
+   "prompt": "random",
+   "k": 0,
+   "rep": 0,
+   "j_per_iter": 0.4310148327874016,
+   "s_per_iter": 0.04768042158267722,
+   "ms_per_token": 47.68042158267722,
+   "mj_per_token": 431.0148327874016,
+   "accept_rate": 0.0,
+   "gpu_w": 9.039114350903523
+  },
+  {
+   "prompt": "random",
+   "k": 0,
+   "rep": 1,
+   "j_per_iter": 0.43006468182677166,
+   "s_per_iter": 0.04798617125984277,
+   "ms_per_token": 47.98617125984278,
+   "mj_per_token": 430.0646818267717,
+   "accept_rate": 0.0,
+   "gpu_w": 8.96108281633375
+  },
+  {
+   "prompt": "random",
+   "k": 0,
+   "rep": 2,
+   "j_per_iter": 0.4263224874330709,
+   "s_per_iter": 0.047559633858268203,
+   "ms_per_token": 47.55963385826821,
+   "mj_per_token": 426.3224874330709,
+   "accept_rate": 0.0,
+   "gpu_w": 8.956725615663707
+  },
+  {
+   "prompt": "random",
+   "k": 1,
+   "rep": 0,
+   "j_per_iter": 0.6557338278131869,
+   "s_per_iter": 0.05880038278021877,
+   "ms_per_token": 42.132557740156756,
+   "mj_per_token": 469.85652229133865,
+   "accept_rate": 0.3956043956043956,
+   "gpu_w": 11.151128205216759
+  },
+  {
+   "prompt": "random",
+   "k": 1,
+   "rep": 1,
+   "j_per_iter": 0.6970851820549451,
+   "s_per_iter": 0.057623944142858236,
+   "ms_per_token": 41.28959777165433,
+   "mj_per_token": 499.4862328110237,
+   "accept_rate": 0.3956043956043956,
+   "gpu_w": 12.08850379539479
+  },
+  {
+   "prompt": "random",
+   "k": 1,
+   "rep": 2,
+   "j_per_iter": 0.6855224552747253,
+   "s_per_iter": 0.05650423626373565,
+   "ms_per_token": 40.48728740157436,
+   "mj_per_token": 491.2011293700788,
+   "accept_rate": 0.3956043956043956,
+   "gpu_w": 12.123781901940987
+  },
+  {
+   "prompt": "random",
+   "k": 2,
+   "rep": 0,
+   "j_per_iter": 0.9036406608571428,
+   "s_per_iter": 0.06212745022077927,
+   "ms_per_token": 37.66782414960633,
+   "mj_per_token": 547.8766211496063,
+   "accept_rate": 0.3246753246753247,
+   "gpu_w": 14.541635204707292
+  },
+  {
+   "prompt": "random",
+   "k": 2,
+   "rep": 1,
+   "j_per_iter": 0.9024535174805195,
+   "s_per_iter": 0.06223116612986873,
+   "ms_per_token": 37.7307070236212,
+   "mj_per_token": 547.156857055118,
+   "accept_rate": 0.3246753246753247,
+   "gpu_w": 14.501422435814899
+  },
+  {
+   "prompt": "random",
+   "k": 2,
+   "rep": 2,
+   "j_per_iter": 0.9616478485714286,
+   "s_per_iter": 0.06126708766233995,
+   "ms_per_token": 37.146187007875405,
+   "mj_per_token": 583.0463333858268,
+   "accept_rate": 0.3246753246753247,
+   "gpu_w": 15.683521461964999
+  },
+  {
+   "prompt": "random",
+   "k": 3,
+   "rep": 0,
+   "j_per_iter": 1.190808538605634,
+   "s_per_iter": 0.07762327992957863,
+   "ms_per_token": 43.39569192913451,
+   "mj_per_token": 665.7276081968504,
+   "accept_rate": 0.26291079812206575,
+   "gpu_w": 15.342265153055399
+  },
+  {
+   "prompt": "random",
+   "k": 3,
+   "rep": 1,
+   "j_per_iter": 1.215087914971831,
+   "s_per_iter": 0.07706826702816907,
+   "ms_per_token": 43.085409125984285,
+   "mj_per_token": 679.3011178188978,
+   "accept_rate": 0.26291079812206575,
+   "gpu_w": 15.761877211819893
+  },
+  {
+   "prompt": "random",
+   "k": 3,
+   "rep": 2,
+   "j_per_iter": 1.2734132248450705,
+   "s_per_iter": 0.07551924412675849,
+   "ms_per_token": 42.21941994488073,
+   "mj_per_token": 711.9081808188976,
+   "accept_rate": 0.26291079812206575,
+   "gpu_w": 16.851007668374216
+  }
+ ],
+ "notes": "Cost table for spec_decode.DraftPolicy(mode=\"energy\"): GPU joules and seconds per speculative iteration for each\nfixed draft count k = 0 .. k_max, on this Mac.\n\nEach k runs tools/mlx_engine_compare.py's mj-mtp path (one warm-up, then --reps runs of 128 tokens) on each prompt\n(chat and random: the iteration cost barely depends on acceptance, both are kept so it is checked). j_per_iter is\nthe median over runs of (GPU-rail energy first token to last token) / iterations; s_per_iter likewise.\n\n    python tools/mlx_spec_calibrate.py --model <mlx 9B dir> --out ~/.cache/millijoule/Qwen3.5-9B-mtp/spec_cost.json\n",
+ "time": "2026-11-17T20:24:06"
+}

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-20T15:53:10",
+ "top_cpu": [
+  "8347 spotlightknowled 92.9",
+  "1422 claude 24.7",
+  "0 kernel_task 10.1",
+  "12937 SiriNCService 8.7",
+  "1321 Claude Helper (R 5.6",
+  "12940 top 4.4",
+  "484 mDNSResponder 3.8",
+  "626 WindowManager 3.5"
+ ],
+ "swap": "total = 3072.00M  used = 1652.31M  free = 1419.69M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 86%",
+ "loadavg": "{ 1.76 1.91 2.07 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1652.31
+}

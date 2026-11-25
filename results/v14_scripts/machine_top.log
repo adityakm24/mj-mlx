@@ -1,0 +1,2628 @@
+== 14:36:12
+ 1620 331504  13.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1316 607600   8.2 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+10944   8320   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+40982   1568   3.1 caffeinate
+ 7924   5792   2.2 /usr/libexec/PerfPowerServices
+ 1243 186272   2.0 /Applications/Claude.app/Contents/MacOS/Claude
+40980   2432   1.9 /bin/zsh
+35636  77472   1.4 (openshell-driver)
+== 14:37:12
+10944   8448   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 349152   1.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  14144   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+41055  13904   0.1 ugrep
+  657  21840   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+41181    416   0.0 head
+41180   1008   0.0 sort
+== 14:38:12
+10944   6144   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+41206 515392   0.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416   9536   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 101504   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  691   5152   0.1 /usr/libexec/rapportd
+  657   7360   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1712   0.1 /usr/libexec/clocksyncd
+41301    912   0.0 head
+== 14:39:12
+41206 588448   7.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6176   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  538   3504   0.5 /usr/libexec/searchpartyd
+  416  11552   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  19824   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.1 /usr/libexec/clocksyncd
+41402    976   0.0 head
+41401   1088   0.0 sort
+== 14:40:12
+10944   6272   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+41206 585888   1.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  10960   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 152640   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  28944   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.1 /usr/libexec/clocksyncd
+41505   1040   0.0 head
+41504   1088   0.0 sort
+== 14:41:12
+10944   6256   3.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  95808   1.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  78016   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  416  11152   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+41055   1200   0.1 ugrep
+  657  14256   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1712   0.1 /usr/libexec/clocksyncd
+41607   1040   0.0 head
+== 14:42:12
+10944   6704   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  49584   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+41206 452928   0.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416   9696   0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 9790   6576   0.1 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+ 1303  13168   0.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  657   7040   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1584   0.1 /usr/libexec/clocksyncd
+== 14:43:12
+10944   7872   3.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+41206 517840   0.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  421   6416   0.3 /usr/libexec/runningboardd
+  416  12112   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+31634  11184   0.1 cloudphotod
+29102  31616   0.1 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+ 1620  48160   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  19056   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 14:44:12
+41206 761760   9.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6400   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  11872   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 139232   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  19584   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1680   0.1 /usr/libexec/clocksyncd
+41929    960   0.0 head
+41928   1088   0.0 sort
+== 14:45:12
+ 1316 180768  15.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+41206 722912   7.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6992   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+42029   1440   0.6 ps
+41826   4624   0.6 /System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService
+40994   1712   0.4 zsh
+42031   1040   0.3 head
+42030    976   0.3 sort
+== 14:46:12
+ 5650 459552  65.6 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+40416  20032  25.0 /usr/libexec/textcomposerd
+  567  19584  14.5 /usr/libexec/aned
+31645   6880  10.4 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+ 1316  34576   5.2 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  581   9808   4.6 /usr/libexec/modelmanagerd
+  421   7904   3.6 /usr/libexec/runningboardd
+10944   5744   3.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 14:47:12
+ 1316 116976   4.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+42191 1835904   4.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5632   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243  58592   0.6 /Applications/Claude.app/Contents/MacOS/Claude
+42253  15264   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  416  12208   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 128944   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  16608   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 14:48:12
+42191 1906368   7.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5488   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 128016   2.8 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  12240   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 156976   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 109696   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  19888   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.1 /usr/libexec/clocksyncd
+== 14:49:12
+ 1316 176976  12.7 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+10944   5968   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243  99632   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+ 1620 127632   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  12112   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  17312   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+41055    528   0.1 ugrep
+  724   6560   0.1 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+== 14:50:12
+42191 1896144   4.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6000   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 142592   1.8 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  12352   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 132352   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  20128   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1872   0.1 /usr/libexec/clocksyncd
+42574   1040   0.0 head
+== 14:51:12
+  581   5968   4.6 /usr/libexec/modelmanagerd
+10944   5936   3.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  931   9248   3.3 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+28267   3712   1.3 /usr/libexec/audioanalyticsd
+42191 2076896   1.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1316 131312   0.7 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+34815   2432   0.4 /usr/sbin/systemsoundserverd
+  550   3792   0.3 /usr/sbin/coreaudiod
+== 14:52:12
+10944   6224   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 126064   3.0 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+42191 1920640   2.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  12272   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 122528   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 109984   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  18624   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1808   0.1 /usr/libexec/clocksyncd
+== 14:53:12
+42191 2005568   6.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6016   3.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 131680   3.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  12832   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 148336   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 103232   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  29024   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1904   0.1 /usr/libexec/clocksyncd
+== 14:54:12
+ 1316 507168  69.8 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+10944   6016   3.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+42191 2116384   1.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  532  36128   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  12800   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 152400   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  26512   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1936   0.1 /usr/libexec/clocksyncd
+== 14:55:12
+10944   6000   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 341040   2.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+42191 2023696   1.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+37019   3072   0.3 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+  416  11888   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 155840   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 105984   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  26576   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 14:56:13
+42191 1815456   6.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  27376   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 134864   3.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1243  67248   1.1 /Applications/Claude.app/Contents/MacOS/Claude
+  532  35840   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  421   5584   0.6 /usr/libexec/runningboardd
+ 1620  45360   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416   6960   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 14:57:13
+10944  16640   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 145488   1.8 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+42191 1928864   1.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  13552   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 145168   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  84352   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  21216   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1936   0.1 /usr/libexec/clocksyncd
+== 14:58:13
+10944  15296   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 136288   3.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1620 121840   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+43387  15712   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  416  13312   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  372   8784   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+43427   1008   0.1 sleep
+41055    528   0.1 ugrep
+== 14:59:13
+43472 2307936   8.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  13680   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 147648   0.9 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+43537   1008   0.3 sleep
+40993   1600   0.3 zsh
+  416  12480   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 120288   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  20656   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:00:13
+10944  34736   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+43472 2303056   3.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1316 146400   0.5 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  716  53568   0.4 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+  416  13456   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 146928   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  20272   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1952   0.1 /usr/libexec/clocksyncd
+== 15:01:13
+10944  17472   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+43472 2322352   1.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1316 168592   0.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  13696   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  532  36864   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1620 197328   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  20576   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1920   0.1 /usr/libexec/clocksyncd
+== 15:02:13
+10944  16144   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+43472 2300320   1.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1316 154304   0.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  479   9680   0.3 /usr/libexec/airportd
+  416  13600   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 178352   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  36240   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  657  20048   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:03:13
+28360   8448  89.2 /usr/libexec/duetexpertd
+43472 2243040   6.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  12256   4.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  716  20144   2.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+ 1316 153632   1.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+29102  15232   1.3 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+ 8652   3200   0.9 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  532  34944   0.7 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:04:13
+10944  11696   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+43472 2361088   1.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1316 134032   0.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  12992   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 159728   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  514   2464   0.2 /usr/sbin/WirelessRadioManagerd
+  657  19552   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36112   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:05:13
+43472 2414976   6.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  11440   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479  13360   1.2 /usr/libexec/airportd
+ 1316 149808   0.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  532  37392   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  12272   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 154576   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  20496   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:06:13
+  716 123136  76.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+43472 2258640   7.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  11216   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 143008   0.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1620  76336   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  397  10496   0.5 /usr/libexec/dasd
+  416   8224   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+25883   8272   0.1 /usr/libexec/spotlightknowledged.updater
+== 15:07:13
+43472 2241664   7.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  10848   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 194288   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  491   4336   0.7 /usr/sbin/mDNSResponder
+ 1316 145776   0.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+34818   2016   0.3 /usr/libexec/PowerUIAgent
+  416   9824   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  356   3152   0.2 /usr/libexec/configd
+== 15:08:13
+ 3375 100064  36.9 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+25883  13904  19.2 /usr/libexec/spotlightknowledged.updater
+31645   7056  14.3 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+30832   9920   9.9 /usr/libexec/textunderstandingd
+43472 2239152   9.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  581   8560   5.0 /usr/libexec/modelmanagerd
+10944  10448   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  648   6144   4.1 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+== 15:09:13
+43472 2302752   7.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  11488   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 118224   0.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  12768   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 176144   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  85200   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657   7648   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1696   0.1 /usr/libexec/clocksyncd
+== 15:10:13
+10944  10976   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243 119264   3.0 /Applications/Claude.app/Contents/MacOS/Claude
+  479  12560   1.4 /usr/libexec/airportd
+  532  36768   1.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1620 174384   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1316 126976   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  15712   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+44738  15392   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 15:11:13
+44793 2403344  14.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   9984   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 201984   1.5 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1620 160000   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  13648   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 116320   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  27776   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1968   0.1 /usr/libexec/clocksyncd
+== 15:12:13
+  716  78752 132.7 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+44793 2388448  48.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+25883   9152  11.6 /usr/libexec/spotlightknowledged.updater
+10944   9872   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  397  11344   2.4 /usr/libexec/dasd
+  628   2352   1.1 /usr/sbin/cfprefsd
+    1  11136   0.6 /sbin/launchd
+ 1316 130032   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 15:13:13
+44793 2287008  10.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6336   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243  92576   1.0 /Applications/Claude.app/Contents/MacOS/Claude
+ 1316  66640   0.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  12240   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 100272   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1303  22208   0.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  724   7168   0.1 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+== 15:14:13
+44793 2568976  20.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   8192   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+45206  15264   2.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  416  11552   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  466   1728   0.2 /usr/libexec/clocksyncd
+  345   2288   0.2 /usr/libexec/UserEventAgent
+ 1316 117328   0.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  657  15824   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:15:13
+10944   8656   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 114224   0.8 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1620  85712   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  11488   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657   8944   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36720   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1712   0.1 /usr/libexec/clocksyncd
+45318    976   0.0 head
+== 15:16:13
+10944   7152   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  532  36496   1.0 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1620 141392   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+44793 2441792   0.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  12032   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  479  11184   0.2 /usr/libexec/airportd
+43927   2368   0.1 /usr/libexec/trustd
+  657  20112   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:17:13
+10944   7296   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+44793 2583312   2.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  479  10528   0.3 /usr/libexec/airportd
+  416  11696   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  18528   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+13760   4128   0.1 /usr/libexec/trustd
+  763   3408   0.1 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  532  36352   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:18:13
+10944  12128   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+44793 2345152   3.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+33521   3968   1.8 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+  479   9200   0.7 /usr/libexec/airportd
+  657  15344   0.4 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  416   7760   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  763   3264   0.2 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  532  35488   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:19:13
+45642  54032  35.7 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+44793 2406048   6.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  10752   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416   7296   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  21056   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1616   0.1 /usr/libexec/clocksyncd
+45753    912   0.0 head
+45752    144   0.0 sort
+== 15:20:13
+45642  15456  28.5 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+44793 2410272  17.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  10512   4.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  11648   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620  32976   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657   6160   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+45856   1008   0.1 sleep
+40993   1600   0.1 zsh
+== 15:21:13
+45642  69872 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+ 1620 323456   6.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+10944   9840   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  491   7440   2.2 /usr/sbin/mDNSResponder
+ 1316 607456   1.9 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  14432   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  532  36128   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+40993   1600   0.4 zsh
+== 15:22:13
+45642   3264  40.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+46221 10082736  39.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  658  10496   6.3 /System/Library/CoreServices/MenuBarAgent.app/Contents/MacOS/MenuBarAgent
+10944   8288   4.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  638  11296   3.0 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+  416  10768   2.8 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  420   9040   2.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  388   4096   1.4 /System/Library/CoreServices/launchservicesd
+== 15:23:13
+45642  29072  32.9 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  605  16816  13.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+ 1620 240464   5.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+10944   7936   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1303  13616   2.2 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+ 1316 583120   2.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+46399  16288   1.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+46333  14944   1.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 15:24:14
+45642  65712  97.4 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+46221 10031904  36.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6144   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 256016   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  12496   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  25088   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.2 /usr/libexec/clocksyncd
+44351    368   0.1 ugrep
+== 15:25:14
+45642  24256  93.7 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+46701  15248  20.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+46221 9969328   9.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  10896   6.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  605  10384   2.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  372   8080   0.9 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+    1  15376   0.7 /sbin/launchd
+46215  11984   0.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 15:26:14
+45642  66176  99.9 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   7424   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  393   7488   3.1 /usr/libexec/locationd
+46826   3776   2.2 top
+ 1620 153248   0.6 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  12256   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+46825  16288   0.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 7924   4944   0.3 /usr/libexec/PerfPowerServices
+== 15:27:14
+45642  67312  38.1 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   7136   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+46838 10140544   3.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  532  36000   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  13088   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 159104   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  466   1952   0.2 /usr/libexec/clocksyncd
+  657  19984   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:28:14
+45642  67792 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   6928   5.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+46838 10079824   3.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  12256   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  532  36016   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1872   0.2 /usr/libexec/clocksyncd
+46964   9568   0.1 /System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd
+44351    368   0.1 ugrep
+== 15:29:14
+45642  27536  31.8 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   6896   4.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+46838 10166720   4.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  11360   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  17456   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1696   0.1 /usr/libexec/clocksyncd
+47165   1040   0.0 head
+47164   1088   0.0 sort
+== 15:30:14
+45642  57776 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   6912   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  12496   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 168320   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+13760   5776   0.2 /usr/libexec/trustd
+  657  20304   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1936   0.2 /usr/libexec/clocksyncd
+44351    368   0.1 ugrep
+== 15:31:14
+45642  49856  40.2 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+47299 10120160  26.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6992   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  16560   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620  99200   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  14944   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1776   0.1 /usr/libexec/clocksyncd
+47394    960   0.0 head
+== 15:32:14
+45642  62464 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+47299 10245840  34.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   7008   6.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  13184   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+44351    368   0.1 ugrep
+ 1620 202816   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  19680   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.1 /usr/libexec/clocksyncd
+== 15:33:14
+45642  41264  27.9 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+24164  17680   7.8 /usr/libexec/mobileassetd
+10944   6704   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+47299 10298608   4.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  12240   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  605   8992   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  532  36208   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 8652   6240   0.1 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+== 15:34:14
+45642  74448 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   6528   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 163968   1.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  12752   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  466   1968   0.3 /usr/libexec/clocksyncd
+44351    368   0.2 ugrep
+ 1243 109296   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+  657  25376   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:35:14
+45642  36624  24.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   5888   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416   9856   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+47795 11901392   0.2 llama-bench
+  627   1600   0.2 /usr/sbin/distnoted
+  400   1216   0.2 /usr/sbin/distnoted
+ 9784    768   0.1 /usr/sbin/distnoted
+  657  16768   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:36:14
+45642  53808  32.3 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   5952   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+47906 11718224   2.5 llama-bench
+  416  11648   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  466   1712   0.2 /usr/libexec/clocksyncd
+  400   1216   0.2 /usr/sbin/distnoted
+ 1312   2768   0.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  657  24720   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 15:37:14
+48114   8864  48.9 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+45642  56528  16.4 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+48104  18032  15.0 /System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService
+48113   2816   7.5 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+48086 3390176   5.8 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   5952   5.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  421   5632   1.9 /usr/libexec/runningboardd
+ 1620 211248   1.6 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 15:38:14
+33340  64288  64.0 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+45642  23904  21.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  567   9696  12.9 /usr/libexec/aned
+10944   6784   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+48086 2938128   3.5 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  342   8864   2.4 /usr/libexec/logd
+  532  35072   2.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  11680   1.0 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:39:14
+48086 2994192 137.2 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+45642  36464  43.7 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944  18832   4.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  356   3312   2.4 /usr/libexec/configd
+  416  11136   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+48073  13648   0.3 ollama
+48270   4320   0.2 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+48077  21632   0.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+== 15:40:14
+45642  23248  31.9 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+48086 3126992   9.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   7120   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+48077  60528   3.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1620  68208   1.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  10992   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+48073  16560   0.2 ollama
+13760   4688   0.2 /usr/libexec/trustd
+== 15:41:14
+45642  66368 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8128   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  532  36096   1.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  13600   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 165744   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+13760   8656   0.4 /usr/libexec/trustd
+ 1312   3296   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1243  81936   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+== 15:42:14
+45642  22304  26.3 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944  10960   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  63024   1.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1312   2992   0.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+48664  21312   0.5 ~/.lmstudio/.internal/utils/node
+48321   3888   0.5 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+33340   7664   0.4 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  416  13568   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:43:14
+45642  19008  30.1 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8208   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  491   5280   3.4 /usr/sbin/mDNSResponder
+ 1620  68816   2.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+48728 3456688   1.1 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+13760   5952   0.4 /usr/libexec/trustd
+  532  35568   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  14160   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:44:14
+45642  24752  30.8 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8176   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  10000   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+48728 3543440   0.1 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+13760   4544   0.1 /usr/libexec/trustd
+  657   7104   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  627   1584   0.1 /usr/sbin/distnoted
+  466   1632   0.1 /usr/libexec/clocksyncd
+== 15:45:14
+48728 3382704 163.3 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+45642  11968  28.6 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8912   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+48654  55648   0.8 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  491   2496   0.6 /usr/sbin/mDNSResponder
+  409   3152   0.5 /usr/sbin/bluetoothd
+ 1303   6816   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+ 1243  25984   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+== 15:46:14
+45642  41504  31.3 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+49460 11295312   7.2 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+10944   9040   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+49472 449088   1.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  479   9056   0.6 /usr/libexec/airportd
+  657  16576   0.5 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+48654  97744   0.4 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+40994   1632   0.4 zsh
+== 15:47:14
+45642  21936  27.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8992   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 137840   1.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+49762   1392   1.4 ps
+40994   1632   1.0 zsh
+  657  19952   1.0 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  479   9328   0.8 /usr/libexec/airportd
+ 1303  12912   0.6 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+== 15:48:14
+49460 11172160  92.6 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+45642  22256  31.3 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   9424   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243  76832   1.2 /Applications/Claude.app/Contents/MacOS/Claude
+49472  35408   0.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+48654  64512   0.6 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  532  35312   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  10240   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 15:49:15
+45642  18688  34.2 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   9184   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+50077  15248   3.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 1620  62368   1.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+40994   1632   1.0 zsh
+ 1243  46832   0.7 /Applications/Claude.app/Contents/MacOS/Claude
+49460 11219232   0.5 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+  532  35872   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:50:15
+45642  66736  70.9 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+50194 5839056   8.9 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   9648   5.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   8160   0.6 /usr/libexec/trustd
+  416  15120   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 157424   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  36160   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1984   0.3 /usr/libexec/clocksyncd
+== 15:51:15
+45642  26720  30.6 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8544   4.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  532  35136   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416   6736   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+50194 3321824   0.2 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+13760   6576   0.2 /usr/libexec/trustd
+ 1620  27552   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1303  10240   0.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+== 15:52:15
+50194 3397072 134.7 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+45642  21216  32.7 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944  10064   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  532  35968   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+50465   3888   0.4 /usr/libexec/feedbackd
+50403  18000   0.4 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+  416  15936   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+13760   6544   0.3 /usr/libexec/trustd
+== 15:53:15
+45642  29344  43.3 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8592   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+50361   2560   3.4 /usr/libexec/wifip2pd
+  532  35184   0.7 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1243  32480   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+  416  13984   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1303  10848   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+50194 3275136   0.2 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+== 15:54:15
+45642  66608 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+  931  73104  15.8 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+10944  13872   5.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+50557  26016   3.0 /System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd
+  342  14528   0.9 /usr/libexec/logd
+ 1620 156784   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  13216   0.7 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  532  35984   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:55:15
+45642  37040  31.9 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   7712   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+50871   1008   0.3 sleep
+40993   1600   0.3 zsh
+  416   9232   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+50827 8465088   0.2 llama-bench
+  532  36032   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+49275   2832   0.1 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+== 15:56:15
+45642  42944  28.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   7760   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+50954 11391408   2.5 llama-bench
+50980   4960   0.4 /usr/libexec/powerdatad
+  416  13328   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+25883  10944   0.3 /usr/libexec/spotlightknowledged.updater
+  532  36208   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  419   2944   0.2 /usr/sbin/cfprefsd
+== 15:57:15
+45642  59408 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8496   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  352   2944   4.2 /usr/sbin/systemstats
+ 1620 100016   2.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  55040   0.6 /Applications/Claude.app/Contents/MacOS/Claude
+  416   9040   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  379   1216   0.5 /usr/sbin/syslogd
+  532  35856   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:58:15
+45642  57744  81.4 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   8416   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 154496   1.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  11664   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243  98960   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+48664  13184   0.2 ~/.lmstudio/.internal/utils/node
+  657  21072   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  35776   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 15:59:15
+45642  63968 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+51095 10249712  10.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   8432   6.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  12080   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+51327   1008   0.4 sleep
+46342   1536   0.1 /bin/zsh
+ 1620 161344   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  25904   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:00:15
+45642  45120  88.1 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+51095 10218960  10.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   8384   5.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  12064   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 130256   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  77408   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  20656   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  35632   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 16:01:15
+51584  14432  72.8 /usr/libexec/fairplaydeviceidentityd
+45642  16176  32.1 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+51535 9986288  30.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   8336   5.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+24164   5968   4.9 /usr/libexec/mobileassetd
+  393   3696   1.5 /usr/libexec/locationd
+51582  13968   1.4 /usr/libexec/promotedcontentd
+  657  11344   1.4 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:02:15
+45642  37568  73.4 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   7792   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+51535 10119136   2.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1620 125648   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+51691   1008   0.6 sleep
+51639   8576   0.6 /System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd
+46342   1536   0.6 /bin/zsh
+  650   3184   0.6 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+== 16:03:15
+45642  63984 100.0 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+10944   7760   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+48654  31024   2.5 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+ 1620 163552   1.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  36896   0.9 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  14480   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 112304   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  657  30512   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:04:15
+45642  16256  27.7 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+51535 10083392   5.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1620 108192   5.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+10944   7760   5.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+51908   1664   2.9 /usr/libexec/feedbackd
+  479   9776   2.3 /usr/libexec/airportd
+  657  22352   2.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  673   7552   1.3 /usr/sbin/usernoted
+== 16:05:15
+52029  11152 105.9 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+45642  13968  27.1 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+52020 10042832  24.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+52038   6336  11.1 /System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/intelligencecontextd
+10944   7744   5.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  648   3264   4.5 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+    1   5760   2.0 /sbin/launchd
+  467   3360   1.6 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+== 16:06:15
+52020 9980496  29.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  18480  21.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+50809   2208   9.4 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+ 1316 238896   8.0 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+28674  87872   6.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+10944   7936   5.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  53920   2.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+49241   2480   2.0 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+== 16:07:15
+52603  16672  95.0 /System/Library/PrivateFrameworks/ReplicatorCore.framework/Support/replicatord
+52601  15056  44.4 /System/Applications/Messages.app/Contents/PlugIns/Messages Assistant Extension.appex/Contents/MacOS/Messages Assistant Extension
+52604   8464  33.0 /System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced
+52605   1744  22.2 /usr/libexec/sysmond
+49241  27968  20.0 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+  931   8864  20.0 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+52600   9552  16.6 /System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent
+31645   5776  16.6 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+== 16:08:15
+10944   8512   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 9790   3776   1.3 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+ 1620 130864   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+52020 10009888   0.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+52786   1008   0.4 sleep
+46342   1536   0.4 /bin/zsh
+ 1243  74720   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+  650   2464   0.3 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+== 16:09:15
+10944   6656   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 308496   3.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+52989   1008   0.9 sleep
+40994   1632   0.4 zsh
+46342   1536   0.3 /bin/zsh
+ 1243 109952   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  416   9072   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1316 326752   0.2 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 16:10:15
+10944   6720   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 339472   1.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 284960   0.8 /Applications/Claude.app/Contents/MacOS/Claude
+53198   1008   0.7 sleep
+  416  17152   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+46342   1536   0.3 /bin/zsh
+ 1316 642960   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  532  36160   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 16:11:16
+10944   6048   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+53327 10006800   3.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1620 292336   2.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1316 339168   1.5 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+40993   1600   0.6 zsh
+ 1243 132032   0.6 /Applications/Claude.app/Contents/MacOS/Claude
+53416   1008   0.3 sleep
+53408   1008   0.3 sleep
+== 16:12:16
+ 1620 293472   7.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+10944   6144   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243 128336   1.1 /Applications/Claude.app/Contents/MacOS/Claude
+53566   1008   0.7 sleep
+  532  36048   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  11568   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1316 416960   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  479   9792   0.3 /usr/libexec/airportd
+== 16:13:16
+10944   5984   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 195152   1.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 115040   0.9 /Applications/Claude.app/Contents/MacOS/Claude
+  532  36640   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+53729   1008   0.5 sleep
+46342   1520   0.4 /bin/zsh
+  416   9360   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1316 307376   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+== 16:14:16
+53327 10087280  18.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5968   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+52732   4128   1.8 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+  532  36016   0.7 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  691   5792   0.4 /usr/libexec/rapportd
+  479   8624   0.3 /usr/libexec/airportd
+  416  10688   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 198576   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 16:15:16
+54088 107904   4.9 llama-bench
+10944   5856   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479   7088   1.6 /usr/libexec/airportd
+  532  34544   0.8 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416   8000   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 166160   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1316 327728   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1243  78608   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+== 16:16:16
+10944   6016   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+54254 11860816   2.6 llama-bench
+  416  13472   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  532  36256   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+54274   1008   0.1 sleep
+ 1620 234128   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 129728   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  19392   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:17:16
+ 1620 294240  14.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+10944   9312   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1316 585344   3.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+54272  15472   3.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 1243 159264   2.2 /Applications/Claude.app/Contents/MacOS/Claude
+  372   8256   1.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+53922   8720   1.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  605  24368   1.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+== 16:18:16
+10944   8832   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 252496   2.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+54717   1008   0.5 sleep
+  421   5984   0.4 /usr/libexec/runningboardd
+54583 3914928   0.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  416  11920   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 119072   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+  605  19824   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+== 16:19:16
+54583 3981344 129.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+54748  10928  25.1 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged
+54770  16208  20.7 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+50907  21728  12.6 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  372   8368   5.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+10944   9392   5.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  605  14976   2.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+ 7924   4848   0.9 /usr/libexec/PerfPowerServices
+== 16:20:16
+55040 118432  98.2 /System/Library/Frameworks/CoreGraphics.framework/Versions/A/XPCServices/CGPDFService.xpc/Contents/MacOS/CGPDFService
+10944   8560   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+55039  13088   2.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+54990   4256   1.3 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+  421   6736   0.5 /usr/libexec/runningboardd
+  416   8112   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+55050   1008   0.3 sleep
+54583 4004240   0.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+== 16:21:16
+55179   9536  36.8 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+55175  18224   7.5 /usr/libexec/transparencyd
+  707  21728   7.0 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  724  11520   6.6 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+55166   5184   5.5 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+10944  18496   5.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   6656   5.3 /usr/libexec/trustd
+    1  13808   3.1 /sbin/launchd
+== 16:22:16
+55398 437856   6.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  16368   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+54658   2528   2.5 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+55369 2885040   1.6 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+  650   3088   1.2 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+55298  84768   0.7 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+55305  16032   0.4 ~/.lmstudio/.internal/utils/node
+49241   3008   0.4 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+== 16:23:16
+10944   9712   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+55617  23936   3.9 /usr/libexec/fairplaydeviceidentityd
+55575  20400   2.9 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+ 8652   7376   1.5 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+40994   1632   0.4 zsh
+55632   1008   0.3 sleep
+55369 2823280   0.3 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+  416   5680   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 16:24:16
+55805  43616  69.5 /System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService
+55774  29200  33.0 /System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced
+10944   8976   5.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  410   3056   1.7 /usr/sbin/notifyd
+  628   2816   1.2 /usr/sbin/cfprefsd
+  342  11136   1.0 /usr/libexec/logd
+55369 2822912   0.8 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+  416   7424   0.7 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 16:25:16
+10944   6416   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  32416   0.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+55305  17088   0.5 ~/.lmstudio/.internal/utils/node
+  532  35712   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  10112   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+55369 2928544   0.2 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+56002   1008   0.1 sleep
+55609   2608   0.1 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent
+== 16:26:16
+  716 194176  37.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+50799  34176   5.8 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+10944   6416   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 7924   7824   0.8 /usr/libexec/PerfPowerServices
+ 1620 137328   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  420  37968   0.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+56134   1008   0.4 sleep
+40993   1600   0.4 zsh
+== 16:27:16
+10944   6080   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+56166 11450016   2.6 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+  420  35280   0.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+56178 106272   0.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  532  36176   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+55298  78560   0.3 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  416  12688   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+56288   1008   0.1 sleep
+== 16:28:16
+56166 11230256  47.9 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+10944  10944   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+55788   5824   3.4 /System/Library/PrivateFrameworks/ReplicatorCore.framework/Support/replicatord
+  691   6944   1.8 /usr/libexec/rapportd
+  707   9888   0.9 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+56178  27760   0.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  714   5696   0.6 /usr/libexec/sharingd
+55298  74288   0.5 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+== 16:29:16
+56166 11338016 160.9 ~/.lmstudio/extensions/backends/llama.cpp-mac-arm64-apple-metal-advsimd-2.80.1/llama-server
+10944  10144   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+55298  75056   0.6 /Applications/LM Studio.app/Contents/MacOS/LM Studio
+  650   4688   0.5 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+55305  19344   0.3 ~/.lmstudio/.internal/utils/node
+  421   6928   0.3 /usr/libexec/runningboardd
+  416  12080   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+55593   1936   0.2 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+== 16:30:16
+10944  10896   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  70720   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+56759   1024   0.4 sleep
+ 1303  31072   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  416  13760   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+46342   1520   0.2 /bin/zsh
+ 1243  92576   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  24848   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:31:16
+56854 11426272   6.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   7744   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+56853  61184   1.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 1620  89904   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  13936   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  20672   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1888   0.1 /usr/libexec/clocksyncd
+  420  34432   0.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 16:32:16
+10944  10192   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+50799  28096   0.4 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+56854 11344864   0.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+55735   2688   0.3 /System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService
+  416  11744   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+57050   1008   0.2 sleep
+ 7924   5424   0.2 /usr/libexec/PerfPowerServices
+ 1620 111952   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 16:33:17
+ 3375  99792  23.6 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+25883   9200  22.5 /usr/libexec/spotlightknowledged.updater
+31645   6480   9.5 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+55188   9184   8.2 /usr/libexec/textunderstandingd
+10944   8384   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  628   2304   3.5 /usr/sbin/cfprefsd
+57194   7264   2.9 /System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService
+  581   8048   2.5 /usr/libexec/modelmanagerd
+== 16:34:17
+10944   7024   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+40994   1632   0.9 zsh
+ 1620 110768   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1303  23968   0.4 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+57309   1008   0.3 sleep
+ 1316 100864   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  416  14400   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+55305  10816   0.1 ~/.lmstudio/.internal/utils/node
+== 16:35:17
+10944   6928   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+55736  30096   0.3 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+25883  18640   0.3 /usr/libexec/spotlightknowledged.updater
+  416  11408   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+57396 11730912   0.2 llama-bench
+  657  12224   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  628   2272   0.1 /usr/sbin/cfprefsd
+  466   1648   0.1 /usr/libexec/clocksyncd
+== 16:36:17
+10944   6992   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+57505 11331488   2.7 llama-bench
+  416  11360   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657   8512   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1776   0.1 /usr/libexec/clocksyncd
+  420  31696   0.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+57535   1040   0.0 head
+57534    960   0.0 sort
+== 16:37:17
+10944   7152   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 124784   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  421   5232   0.4 /usr/libexec/runningboardd
+  416  10384   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+    1  10608   0.3 /sbin/launchd
+57675   1008   0.2 sleep
+57649 9995712   0.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  564   2656   0.2 /usr/libexec/gamepolicyd
+== 16:38:17
+10944  26560   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+40994   1632   0.4 zsh
+  416  11248   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+57648  10768   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+57436   9424   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  605  42144   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+57781    992   0.1 sleep
+ 1620 101824   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 16:39:17
+57649 10243728  33.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  26528   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  13184   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+57885   1008   0.1 sleep
+ 1243 113680   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  17792   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.1 /usr/libexec/clocksyncd
+57889   1040   0.0 head
+== 16:40:17
+57649 10279312  10.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  14272   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  372   8704   0.9 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+57983  15344   0.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  605  30384   0.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+57436  11184   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  532  36016   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  12992   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 16:41:17
+10944  14032   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 315904   2.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+58084  21040   1.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 1243 180640   1.6 /Applications/Claude.app/Contents/MacOS/Claude
+  605  48464   1.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+ 1316 493456   0.9 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  372  10176   0.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+40994   1632   0.4 zsh
+== 16:42:17
+58276  29440  61.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+58287   9280  55.5 /System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod
+58288   5680  23.5 /usr/libexec/ospredictiond
+  479   9392  12.8 /usr/libexec/airportd
+25883   8080   9.5 /usr/libexec/spotlightknowledged.updater
+ 1620 102288   9.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1316 149760   9.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+ 1243  91472   7.2 /Applications/Claude.app/Contents/MacOS/Claude
+== 16:43:17
+10944   5584   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+58276  83200   0.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+50403   5520   0.8 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+  416  11072   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+58417   1008   0.1 sleep
+ 1243  33712   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  14944   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1616   0.1 /usr/libexec/clocksyncd
+== 16:44:17
+10944   5616   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  12624   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+58276  98976   0.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+58523   1008   0.1 sleep
+ 1243  77856   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  17712   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1760   0.1 /usr/libexec/clocksyncd
+58527    656   0.0 head
+== 16:45:17
+10944   5616   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 176544   1.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 101136   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  416  12416   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+58628   1008   0.2 sleep
+58455  15312   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+58257   9024   0.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  372   7824   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+== 16:46:17
+10944   5664   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  13632   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+58728 10812464   0.2 llama-bench
+ 1620 183728   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  19904   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+58750    176   0.0 head
+58749   1088   0.0 sort
+== 16:47:17
+10944   5808   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 180784   1.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+58859   1008   0.3 sleep
+  416  13920   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+58760  16960   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 7924   6464   0.2 /usr/libexec/PerfPowerServices
+ 1243 126576   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+  532  36336   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 16:48:17
+10944   7936   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  49040   2.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  35616   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1243  42256   0.5 /Applications/Claude.app/Contents/MacOS/Claude
+  479   8288   0.4 /usr/libexec/airportd
+58938 11570608   0.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  416   9792   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  491   4736   0.2 /usr/sbin/mDNSResponder
+== 16:49:17
+58938 11786000 191.7 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+  420  26400   5.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   8512   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479   7088   1.2 /usr/libexec/airportd
+ 1620  48096   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  34992   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416   9440   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  523   3088   0.3 /usr/libexec/symptomsd
+== 16:50:17
+59279  18080  67.3 /usr/libexec/replayd
+58938 11588944  18.9 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   9248   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  25936   4.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  652   2896   1.2 /usr/libexec/containermanagerd
+  416  12512   1.0 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  10304   0.9 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+ 1620  32800   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 16:51:17
+58938 11786640 187.9 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+59428   9504  73.2 /usr/libexec/mobileassetd
+59431  10064  33.0 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+    1  12688  12.5 /sbin/launchd
+59433   6176  11.3 /System/Library/CoreServices/ManagedClient.app/Contents/MacOS/ManagedClient
+59432   8080  11.3 /usr/libexec/mdmclient
+59430   8768  10.7 /System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/A/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/Contents/MacOS/com.apple.MobileAsset.DownloadService.Builtin
+  387   6960   7.0 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+== 16:52:17
+59569 2694176  50.8 ~/.venvs/vllm-mlx/bin/python3.11
+  502   7504  44.9 /usr/libexec/syspolicyd
+  420  38512   5.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   9536   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+59579 340752   2.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  416  19584   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  657  20624   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  342  14352   0.2 /usr/libexec/logd
+== 16:53:17
+59804   7456  21.2 /usr/libexec/assessmentagent
+  420  32544   7.8 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   9552   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  54640   1.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  589   2608   1.3 /usr/libexec/audiomxd
+59569 2180752   1.2 ~/.venvs/vllm-mlx/bin/python3.11
+  628   3120   1.2 /usr/sbin/cfprefsd
+    1  13744   1.2 /sbin/launchd
+== 16:54:17
+10944   9552   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 160512   1.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+59569 2212816   1.0 ~/.venvs/vllm-mlx/bin/python3.11
+  416  14528   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243  70416   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  19616   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.1 /usr/libexec/clocksyncd
+59916   1040   0.0 head
+== 16:55:17
+59569 2213056  48.1 ~/.venvs/vllm-mlx/bin/python3.11
+  420  37312   6.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   9488   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 160272   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  13072   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+59579  52352   0.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  657  18512   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.1 /usr/libexec/clocksyncd
+== 16:56:17
+  420  37216   8.7 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   9280   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 163392   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 111344   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  416  13872   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+60140   1008   0.1 sleep
+  724   2592   0.1 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  657  21216   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 16:57:18
+  479  12320  16.9 /usr/libexec/airportd
+  420  35024   8.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   8944   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  763   4608   3.0 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+60094 2579760   1.0 ~/.venvs/vllm-mlx/bin/python3.11
+ 1620 111088   0.6 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  11792   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  532  36128   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 16:58:18
+  657  30544  13.0 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  420  37184   9.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  416  13536   4.9 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+10944   9120   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  393  12528   1.2 /usr/libexec/locationd
+ 1243 126400   1.0 /Applications/Claude.app/Contents/MacOS/Claude
+ 1620 160608   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  466   1968   0.2 /usr/libexec/clocksyncd
+== 16:59:18
+  420  37680   6.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   8880   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 157744   2.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  393  11472   1.5 /usr/libexec/locationd
+40993   1600   0.4 zsh
+ 1243 145824   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+  416  13344   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+60465   1008   0.3 sleep
+== 17:00:18
+60506 11432208  56.0 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   9024   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  27712   1.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  416  16576   0.7 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  638  11744   0.4 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+  388   5424   0.4 /System/Library/CoreServices/launchservicesd
+  347   2448   0.4 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+ 1243  33776   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+== 17:01:18
+60506 12030944 111.3 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   8928   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  25584   0.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  420  18768   0.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  692   1584   0.6 /System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension
+ 1243  23760   0.5 /Applications/Claude.app/Contents/MacOS/Claude
+  416  10720   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+58925   8320   0.2 ollama
+== 17:02:18
+60506 12178800 101.5 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944  13280   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  347   4496   3.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+  420  26480   1.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243  36432   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+ 1620  31472   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  724   2400   0.3 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  416  11824   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 17:03:18
+60506 12189232  80.7 /opt/homebrew/Cellar/ollama/0.40.16/libexec/lib/ollama/llama-server
+10944   9472   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  28000   1.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243  42592   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  416  13264   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620  25808   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+60505  12752   0.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+58925  12608   0.1 ollama
+== 17:04:18
+10944  10912   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  32976   1.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+36023   8704   0.3 /System/Applications/Notes.app/Contents/MacOS/Notes
+  416  17600   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  388   6112   0.3 /System/Library/CoreServices/launchservicesd
+61168  29184   0.2 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app/Contents/MacOS/AXVisualSupportAgent
+61150 10755888   0.1 llama-bench
+  657  10800   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 17:05:18
+10944   9824   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+61290   9616   2.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  420  35472   1.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  397  11616   0.5 /usr/libexec/dasd
+ 1243 123024   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+  605  10896   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  416  16656   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  342  10672   0.3 /usr/libexec/logd
+== 17:06:18
+10944   9824   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38864   2.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 172288   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 132192   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  416  17024   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 9790  21072   0.1 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+  657  18816   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  628   3376   0.1 /usr/sbin/cfprefsd
+== 17:07:18
+    1   9408  16.8 /sbin/launchd
+10944   9584   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38240   1.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  416  14192   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 103088   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+ 1620 160096   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  17904   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1792   0.1 /usr/libexec/clocksyncd
+== 17:08:18
+    1  12656  37.9 /sbin/launchd
+61368 2252816  10.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   9472   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38416   1.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 162000   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  14368   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 125248   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  20096   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 17:09:18
+    1  13744  47.8 /sbin/launchd
+10944   9472   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38736   0.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 174080   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  15200   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 138352   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+  657  25648   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+== 17:10:18
+    1  17856  50.4 /sbin/launchd
+10944   9472   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  39248   0.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243 292896   0.5 /Applications/Claude.app/Contents/MacOS/Claude
+  416  15552   0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 369264   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+59094   1584   0.1 ugrep
+13742   6304   0.1 /usr/libexec/trustd
+== 17:11:18
+    1  18528  31.9 /sbin/launchd
+10944   9504   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+61983 285104   1.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  532  36672   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  16912   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+40994   1632   0.3 zsh
+59094   1600   0.1 ugrep
+13742   7312   0.1 /usr/libexec/trustd
+== 17:12:18
+    1  19008  16.0 /sbin/launchd
+61983 300912   9.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   9632   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  16928   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 377584   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 297840   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  26240   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+== 17:13:18
+62313 200912  71.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+    1  19104  16.1 /sbin/launchd
+10944   9632   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  16928   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  372  11360   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  605  29712   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+62214  17072   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  657  26992   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 17:14:18
+  716 260528  99.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+    1  19136  24.2 /sbin/launchd
+59675  21280  12.7 /usr/libexec/spotlightknowledged.updater
+  397  12848   8.3 /usr/libexec/dasd
+10944   9632   3.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  628   4112   2.6 /usr/sbin/cfprefsd
+  419   5296   0.9 /usr/sbin/cfprefsd
+  410   3568   0.7 /usr/sbin/notifyd
+== 17:15:18
+62313 567488  52.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+    1  19104   9.6 /sbin/launchd
+10944   9632   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  16960   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+59094   1600   0.1 ugrep
+ 1243 296864   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  27024   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+== 17:16:18
+    1  19120   9.7 /sbin/launchd
+10944   9632   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+62642 4498496   3.7 llama-bench
+  416  17184   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  420  39664   0.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+62651   1008   0.1 sleep
+40993   1600   0.1 zsh
+13742   7568   0.1 /usr/libexec/trustd
+== 17:17:18
+    1  19264  17.4 /sbin/launchd
+10944   9744   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+40993   1600   0.7 zsh
+62765   1008   0.5 sleep
+ 1620 379408   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  37328   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416  17264   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 298032   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+== 17:18:18
+    1  20368  20.4 /sbin/launchd
+62794 769008  19.8 ~/.venvs/vllm-mlx/bin/python3.11
+62796 312848  12.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  37744   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+60543  17360   1.4 /usr/libexec/remindd
+  416  21984   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 230864   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  420  40752   0.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 17:19:18
+    1  20512  16.2 /sbin/launchd
+10944  37696   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 371408   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  22016   0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 250880   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  420  40768   0.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  29360   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+== 17:20:18
+    1  20528  12.8 /sbin/launchd
+10944  36544   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 371744   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  22016   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1303  37648   0.2 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+ 1243 251712   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+  420  41040   0.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  29328   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 17:21:19
+    1  19808   8.2 /sbin/launchd
+10944  22768   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  532  37376   1.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+40994   1632   0.9 zsh
+ 1620 353664   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  416  19680   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  342  32624   0.3 /usr/libexec/logd
+ 1243 243312   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+== 17:22:19
+    1  20688   5.3 /sbin/launchd
+10944  27648   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+63175 773344   3.1 ~/.venvs/vllm-mlx/bin/python3.11
+ 1243 253392   0.5 /Applications/Claude.app/Contents/MacOS/Claude
+ 1303  42624   0.3 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+  416  24544   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1620 354320   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+63184 322880   0.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+== 17:23:19
+    1  20640   8.3 /sbin/launchd
+10944  27648   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+63469  16768   1.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  397  12720   1.1 /usr/libexec/dasd
+  372  12112   0.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+60906   7312   0.4 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+  605  27920   0.4 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+ 1243 255328   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+== 17:24:19
+    1  20672   4.6 /sbin/launchd
+10944  27648   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+60906   7344   0.4 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+  416  24624   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 1243 255776   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+  657  39360   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2208   0.1 /usr/libexec/clocksyncd
+63637   1040   0.0 head
+== 17:25:19
+    1  20704   4.7 /sbin/launchd
+10944  27616   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  416  24560   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+63696  16816   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 1243 255376   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+63686 564608   0.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  657  39312   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  40256   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 17:26:19
+10944  41744   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  21104   3.3 /sbin/launchd
+40994   1632   0.7 zsh
+  532  40048   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  412   5120   0.2 /usr/libexec/corebrightnessd
+  657  53152   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2208   0.1 /usr/libexec/clocksyncd
+63876   1040   0.0 head
+== 17:27:19
+10944  41760   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  21120   1.8 /sbin/launchd
+40994   1632   0.3 zsh
+  532  40048   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1620 354992   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 306992   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  53152   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2208   0.1 /usr/libexec/clocksyncd
+== 17:28:19
+64114  76000  85.3 /System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService
+64096  51776  12.9 /System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced
+64020 293232  10.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  479  32032   7.4 /usr/libexec/airportd
+10944  42240   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  763  10832   2.9 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+    1  20880   2.8 /sbin/launchd
+  410   3840   2.2 /usr/sbin/notifyd
+== 17:29:19
+10944  42272   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479  33648   2.4 /usr/libexec/airportd
+    1  20880   2.0 /sbin/launchd
+  532  39200   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+60813  15120   0.4 /usr/libexec/routined
+64082  17104   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  372  13936   0.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  342  43424   0.2 /usr/libexec/logd
+== 17:30:19
+10944  42272   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  20928   1.2 /sbin/launchd
+  532  39216   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1620 319888   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  479  33520   0.3 /usr/libexec/airportd
+ 1243 315840   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  52656   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2176   0.1 /usr/libexec/clocksyncd
+== 17:31:19
+10944  42272   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  20912   1.2 /sbin/launchd
+40994   1632   0.7 zsh
+  479  33360   0.5 /usr/libexec/airportd
+  532  39296   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1620 370864   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  400   1632   0.2 /usr/sbin/distnoted
+62995   2624   0.1 ugrep
+== 17:32:19
+64569 141648   7.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  479   5888   4.5 /usr/libexec/airportd
+10944   5760   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+64393   7424   2.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 8652  10640   2.0 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  532  31856   1.9 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  393   4368   1.0 /usr/libexec/locationd
+    1   1936   0.9 /sbin/launchd
+== 17:33:19
+64569 138496   5.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5760   5.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  15504   5.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620  30288   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  49472   0.6 /Applications/Claude.app/Contents/MacOS/Claude
+  416   5440   0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+    1   3600   0.4 /sbin/launchd
+  724   1136   0.3 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+== 17:34:19
+64569 310880   9.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5792   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  20864   2.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243  49072   0.6 /Applications/Claude.app/Contents/MacOS/Claude
+    1   2592   0.5 /sbin/launchd
+40994   1600   0.4 zsh
+  657   7520   0.3 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1600   0.3 /usr/libexec/clocksyncd
+== 17:35:20
+64569 155936   9.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5712   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  15216   1.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+40994   1616   0.3 zsh
+ 1620  32432   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  47920   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  532  31232   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1568   0.3 /usr/libexec/clocksyncd
+== 17:36:20
+64569 103888   7.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5632   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  10384   1.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+40994    816   0.4 zsh
+ 1243  36752   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+  657   6656   0.3 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1280   0.3 /usr/libexec/clocksyncd
+    1   1072   0.3 /sbin/launchd
+== 17:37:20
+64569 304832  24.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5344   4.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  13472   1.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620  15840   0.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  23536   0.6 /Applications/Claude.app/Contents/MacOS/Claude
+40994   1568   0.5 zsh
+ 9790    368   0.2 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+  532  30160   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 17:38:20
+59675   7776  43.2 /usr/libexec/spotlightknowledged.updater
+65313   5936  38.7 /usr/libexec/corecaptured
+  416  24400  32.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+65315   6688  11.1 /usr/libexec/mdmclient
+  648   4176   9.1 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+61258  14656   9.0 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  692  12112   8.3 /System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension
+  421   9040   8.3 /usr/libexec/runningboardd
+== 17:39:20
+64569  99904   6.3 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5936   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 7924   2496   2.9 /usr/libexec/PerfPowerServices
+60471    976   0.9 /usr/libexec/transparencyd
+  724   1456   0.9 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+ 1243  33808   0.4 /Applications/Claude.app/Contents/MacOS/Claude
+  657   5760   0.4 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1552   0.4 /usr/libexec/clocksyncd
+== 17:40:20
+64569 188944   4.5 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   6912   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  491   6576   1.3 /usr/sbin/mDNSResponder
+49669   5072   0.8 /usr/libexec/networkserviceproxy
+65518   2992   0.7 /usr/libexec/corecaptured
+ 1620  10208   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  31840   0.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  479   7216   0.5 /usr/libexec/airportd
+== 17:41:20
+10944   5552   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  28672   3.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+64569  96912   3.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+ 9790   4048   2.7 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+65633   9440   1.9 /System/Library/PrivateFrameworks/IDSBlastDoorSupport.framework/Versions/A/XPCServices/IDSBlastDoorService.xpc/Contents/MacOS/IDSBlastDoorService
+60635   6016   1.5 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+  707   7648   1.3 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+13760   3088   1.2 /usr/libexec/trustd
+== 17:42:21
+64569 175952  15.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  11904   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  372   9472   2.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+ 7924    400   0.7 /usr/libexec/PerfPowerServices
+ 1012   8736   0.7 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport
+ 1620  11712   0.6 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+40994    864   0.4 zsh
+  466   1520   0.4 /usr/libexec/clocksyncd
+== 17:43:21
+64569  99936   9.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5904   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479   4560   0.8 /usr/libexec/airportd
+ 7924   1120   0.4 /usr/libexec/PerfPowerServices
+  707   9856   0.4 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  657   2432   0.3 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  31968   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  416   4160   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 17:44:21
+64569  90384  27.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420   5520   9.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  532  26288   6.6 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+10944   5104   5.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657   1968   3.9 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1216   3.3 /usr/libexec/clocksyncd
+ 1243   3248   2.9 /Applications/Claude.app/Contents/MacOS/Claude
+65957    624   2.8 head
+== 17:45:25
+65976 696288  37.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5312   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657   8608   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1744   0.1 /usr/libexec/clocksyncd
+66073   1040   0.0 head
+66072    800   0.0 sort
+66071   1456   0.0 ps
+66069   1008   0.0 sleep
+== 17:46:25
+10944   5312   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+66191 4682720   2.3 llama-perplexity
+  466   1968   0.1 /usr/libexec/clocksyncd
+66206    896   0.0 head
+66205   1056   0.0 sort
+66204   1440   0.0 ps
+66202   1008   0.0 sleep
+66194  20528   0.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 17:47:25
+10944   5456   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 366384   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+40994   1632   0.3 zsh
+62995    944   0.1 ugrep
+  724   8816   0.1 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  657  46512   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  37120   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   2016   0.1 /usr/libexec/clocksyncd
+== 17:48:25
+66425 1461264  27.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5280   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657  23696   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1712   0.1 /usr/libexec/clocksyncd
+66475   1040   0.0 head
+66474   1040   0.0 sort
+66473   1456   0.0 ps
+66471   1008   0.0 sleep
+== 17:49:25
+66425 1273696  14.2 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5280   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657   5056   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1584   0.1 /usr/libexec/clocksyncd
+66628    528   0.0 head
+66627    928   0.0 sort
+66626   1456   0.0 ps
+66624   1008   0.0 sleep
+== 17:50:25
+66638 2937664  21.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5312   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657  18896   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1968   0.1 /usr/libexec/clocksyncd
+66734   1040   0.0 head
+66733    960   0.0 sort
+66732   1456   0.0 ps
+66730   1008   0.0 sleep
+== 17:51:25
+  716 187824 163.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+10944   5312   2.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+59675   8128   0.4 /usr/libexec/spotlightknowledged.updater
+66795 11052896   0.2 llama-perplexity
+66842    656   0.0 head
+66841    176   0.0 sort
+66840   1456   0.0 ps
+66838    992   0.0 sleep
+== 17:52:25
+10944   5456   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  397  11872   1.1 /usr/libexec/dasd
+66795 11051168   0.5 llama-perplexity
+  410   2960   0.3 /usr/sbin/notifyd
+40994   1632   0.2 zsh
+ 1620 195568   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  22432   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  632   2736   0.1 /usr/libexec/UserEventAgent
+== 17:53:25
+  931  72816  18.0 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+10944   5456   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  567  26848   1.5 /usr/libexec/aned
+67089  34832   0.8 /System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd
+ 1620 324528   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  648   6064   0.5 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+  421   8688   0.3 /usr/libexec/runningboardd
+  657  22448   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 17:54:25
+67119 1667440   8.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5120   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  33904   1.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  466   1536   0.7 /usr/libexec/clocksyncd
+ 1243  46576   0.5 /Applications/Claude.app/Contents/MacOS/Claude
+  657   3968   0.5 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  420  10624   0.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  532  29264   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 17:55:25
+67119 1735392  10.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   5152   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  24144   0.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  420   8272   0.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657   3040   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1616   0.1 /usr/libexec/clocksyncd
+  416   4240   0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+67343   1040   0.0 head
+== 17:56:25
+67119 1518768  27.7 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420  16880   7.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   5104   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657   7072   2.0 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+ 1620  23472   1.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  479   3264   1.3 /usr/libexec/airportd
+  763   1584   1.0 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  514    992   0.6 /usr/sbin/WirelessRadioManagerd
+== 17:57:25
+67465 1346400  20.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420  19536   8.6 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   5072   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  605   1200   1.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+ 8652    848   1.4 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+ 1620  21136   1.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  372   2656   0.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+ 1303  10960   0.7 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+== 17:58:25
+67465 1152384  21.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420  25888   5.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   5136   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  29504   1.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657   3312   0.3 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  416   8832   0.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+40993   1600   0.2 zsh
+  681   2096   0.2 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+== 17:59:25
+67705 1103936   6.0 llama-perplexity
+  420  25712   4.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   5296   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  43648   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+61386   1616   0.1 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+60634   1344   0.1 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter
+  657   8960   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1648   0.1 /usr/libexec/clocksyncd
+== 18:00:25
+67705 1427488 282.0 llama-perplexity
+  420  35808   3.7 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   5312   3.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  95232   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+65179   1936   0.2 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+66578    656   0.1 ugrep
+  657  15264   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1824   0.1 /usr/libexec/clocksyncd
+== 18:01:25
+  724   6080   5.0 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  420  37344   4.8 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944   5312   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+61052   3888   3.0 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+60639   3040   2.5 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent
+  652   2816   2.3 /usr/libexec/containermanagerd
+ 1620 309632   1.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+61263   1616   0.6 /System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent
+== 18:02:26
+68131 7510464  14.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420  36832   5.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944  30352   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 227232   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  15904   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.1 /usr/libexec/clocksyncd
+  342  10000   0.1 /usr/libexec/logd
+68179   1040   0.0 head
+== 18:03:26
+68131 7541552  15.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420  30080   8.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944  16576   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 172784   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  15648   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.1 /usr/libexec/clocksyncd
+  416  11232   0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+68288   1040   0.0 head
+== 18:04:26
+68131 7520928  90.4 ~/Documents/Projects/mj-mlx/.venv/bin/python
+  420  38656   6.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944  16576   3.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 181264   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  20192   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+  416  13360   0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+68391   1040   0.0 head
+== 18:05:26
+  420  39104   5.7 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944  16576   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 181312   1.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+66578    688   0.1 ugrep
+ 1243 154976   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  20240   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2016   0.1 /usr/libexec/clocksyncd
+  416  13456   0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+== 18:06:26
+62832  20368  75.8 /usr/libexec/duetexpertd
+62029  13488  16.6 /System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf
+68131 7546128  11.8 ~/Documents/Projects/mj-mlx/.venv/bin/python
+68598  10208   7.5 /usr/libexec/biomesyncd
+10944  30480   4.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  648   4880   1.2 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+  627   2096   1.0 /usr/sbin/distnoted
+  420  39504   0.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 18:07:26
+10944  28064   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  39456   1.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 179200   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+66578    688   0.1 ugrep
+  657  20464   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+68714   1040   0.0 head
+68713   1088   0.0 sort
+== 18:08:26
+68731 3508272  20.1 llama-bench
+10944  16016   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38224   0.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+61038   6464   0.8 /usr/libexec/searchpartyuseragent
+  345   3936   0.4 /usr/libexec/UserEventAgent
+ 1620 176928   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  20800   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1984   0.2 /usr/libexec/clocksyncd
+== 18:09:26
+68731 3261872  64.0 llama-bench
+10944  25696   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  39568   2.8 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243 141968   1.4 /Applications/Claude.app/Contents/MacOS/Claude
+  388   5008   1.0 /System/Library/CoreServices/launchservicesd
+  532  36768   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  479  11408   0.4 /usr/libexec/airportd
+  391   2784   0.4 /usr/sbin/securityd
+== 18:10:26
+68731 2955552  89.5 llama-bench
+  792  30112   7.4 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+10944  23968   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  770  32272   3.1 /System/Applications/Weather.app/Contents/PlugIns/WeatherWidget.appex/Contents/MacOS/WeatherWidget
+  421  11888   3.1 /usr/libexec/runningboardd
+  416  20416   2.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  710  12512   0.6 /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod
+  657  28352   0.4 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:11:26
+69092 3296080  20.5 llama-bench
+10944  24128   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  40304   0.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  532  36688   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1968   0.2 /usr/libexec/clocksyncd
+13742   7088   0.1 /usr/libexec/trustd
+ 1243 152384   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  28800   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:12:26
+69092 3061968  70.7 llama-bench
+69277  16672  20.5 /System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd
+10944  24080   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  689   9808   0.7 /usr/libexec/nsurlsessiond
+  628   3280   0.6 /usr/sbin/cfprefsd
+    1  17552   0.6 /sbin/launchd
+59373   5936   0.4 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+  651   9056   0.4 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+== 18:13:26
+69092 2341536  76.6 llama-bench
+10944  24480   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38352   0.6 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+32377   1952   0.3 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha
+  657  29296   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.1 /usr/libexec/clocksyncd
+69449    160   0.0 head
+69448    992   0.0 sort
+== 18:14:26
+69092 2459632  66.8 llama-bench
+10944  24192   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243 121600   2.7 /Applications/Claude.app/Contents/MacOS/Claude
+  420  38640   0.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 164256   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+13742   6896   0.1 /usr/libexec/trustd
+  657  28464   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  37072   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 18:15:26
+69092 2630656  80.0 llama-bench
+10944  23920   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38576   0.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+60814   7568   0.1 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+  657  28320   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1792   0.1 /usr/libexec/clocksyncd
+69658    544   0.0 head
+69657    144   0.0 sort
+== 18:16:26
+69092 2828880  88.8 llama-bench
+10944  16112   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38848   0.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+69554  15440   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  657  25264   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  605  13136   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  532  36832   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  479  11152   0.1 /usr/libexec/airportd
+== 18:17:26
+69092 2304816  77.7 llama-bench
+10944  34112   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  39440   0.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 138912   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  36992   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  479  11536   0.2 /usr/libexec/airportd
+59675  13712   0.1 /usr/libexec/spotlightknowledged.updater
+  657  27488   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:18:26
+69092 2872336 111.3 llama-bench
+10944  32880   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+69554  13168   0.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+  372  10752   0.4 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  605  13856   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  479  11296   0.3 /usr/libexec/airportd
+  657  21376   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36608   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 18:19:26
+69092 1755376  53.7 llama-bench
+  716 123056  25.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+70263   6832  10.3 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+70264   7360   9.9 /System/Library/CoreServices/osanalyticshelper
+70265   6368   6.9 /usr/libexec/rtcreportingd
+ 9790  20160   5.1 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+10944  21344   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+70249  18128   3.7 /System/Library/PrivateFrameworks/MediaStream.framework/Versions/A/Support/mstreamd
+== 18:20:27
+69092 2416128  79.4 llama-bench
+10944  21968   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479  12320   0.9 /usr/libexec/airportd
+  532  36720   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  657  21024   0.4 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  763   4720   0.3 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  466   1792   0.1 /usr/libexec/clocksyncd
+    1  16480   0.1 /sbin/launchd
+== 18:21:27
+70524  16704  91.2 /usr/libexec/mobileassetd
+10944  19680   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  342  14704   2.7 /usr/libexec/logd
+ 7924   6688   1.0 /usr/libexec/PerfPowerServices
+70528   9824   0.4 /usr/libexec/mobileactivationd
+  421  12032   0.4 /usr/libexec/runningboardd
+70530   6752   0.3 /usr/libexec/securityd_system
+70525  12240   0.3 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+== 18:22:27
+70558 3209696  18.2 llama-bench
+10944  19904   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+70608   7648   0.3 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+40993   1600   0.2 zsh
+  657  20880   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1856   0.2 /usr/libexec/clocksyncd
+70746   1008   0.1 sleep
+28267   2816   0.1 /usr/libexec/audioanalyticsd
+== 18:23:27
+70558 3114000 226.5 llama-bench
+10944  15744   3.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620  49328   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  10048   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1600   0.1 /usr/libexec/clocksyncd
+70945    144   0.0 head
+70944    752   0.0 sort
+70943   1376   0.0 ps
+== 18:24:27
+71053 7869856  10.9 llama-bench
+10944  16320   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243 110496   1.0 /Applications/Claude.app/Contents/MacOS/Claude
+70820  27792   0.4 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+40994   1632   0.4 zsh
+  657  20160   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1712   0.1 /usr/libexec/clocksyncd
+71057   1040   0.0 head
+== 18:25:27
+71053 3510624  19.5 llama-bench
+10944  15888   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  387   7824   0.5 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+  657  20304   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.2 /usr/libexec/clocksyncd
+  421  15696   0.2 /usr/libexec/runningboardd
+    1  17376   0.2 /sbin/launchd
+ 1620 145056   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 18:26:27
+71053 2997744  89.7 llama-bench
+10944  18720   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  550   9712   0.8 /usr/sbin/coreaudiod
+71325   7472   0.6 /usr/libexec/AirPlayXPCHelper
+  348   4336   0.4 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+13742   7024   0.1 /usr/libexec/trustd
+  657  20560   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.1 /usr/libexec/clocksyncd
+== 18:27:27
+71053 2045536  19.0 llama-bench
+10944  21968   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  18096   1.2 /sbin/launchd
+ 9790  21984   0.6 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+  707  15328   0.6 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  532  36816   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+40994   1632   0.4 zsh
+ 7924   9104   0.2 /usr/libexec/PerfPowerServices
+== 18:28:27
+71053 2798768 148.7 llama-bench
+  372  10080   6.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+10944  18304   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  419   4384   3.4 /usr/sbin/cfprefsd
+ 1243  67456   1.2 /Applications/Claude.app/Contents/MacOS/Claude
+  605  43840   0.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+71029  13088   0.7 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+71418  15312   0.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 18:29:27
+71053 3344544 224.1 llama-bench
+ 1620  93616   6.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+10944  14656   3.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1243  92336   0.9 /Applications/Claude.app/Contents/MacOS/Claude
+  657  21200   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1600   0.1 /usr/libexec/clocksyncd
+71784    176   0.0 head
+71783    208   0.0 sort
+== 18:30:27
+71894 11721376  11.5 llama-bench
+10944  15056   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 153344   0.4 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+13742   7632   0.1 /usr/libexec/trustd
+  657  25632   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1968   0.1 /usr/libexec/clocksyncd
+71908   1040   0.0 head
+71907   1088   0.0 sort
+== 18:31:27
+71894 2796864  20.7 llama-bench
+10944  15904   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  40160   2.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 155536   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  466   1984   0.2 /usr/libexec/clocksyncd
+ 8652  15712   0.1 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+ 1243 116912   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  26672   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:32:28
+71894 2649392  73.4 llama-bench
+10944  17968   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38416   1.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 136720   0.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  36464   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+72226  16480   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+40994   1632   0.1 zsh
+  657  22672   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:33:28
+71894 2344768  85.2 llama-bench
+10944  21536   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38816   1.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  22928   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1744   0.1 /usr/libexec/clocksyncd
+72400   1040   0.0 head
+72399   1088   0.0 sort
+72398   1376   0.0 ps
+== 18:34:28
+72418 2940768  19.2 llama-bench
+10944  18784   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38384   1.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  707  14000   0.3 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  532  36656   0.3 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+13742   7312   0.2 /usr/libexec/trustd
+ 1243  97904   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+  657  22480   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:35:28
+72418 3137936  67.7 llama-bench
+72647  18208  11.7 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+  421  15424   4.6 /usr/libexec/runningboardd
+  417   9408   4.4 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+    1  18336   4.0 /sbin/launchd
+10944  19344   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  651  10960   3.3 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+  420  38832   3.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 18:36:28
+72418 2974608  84.8 llama-bench
+10944  18992   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  36624   1.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  19872   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1744   0.1 /usr/libexec/clocksyncd
+72768    160   0.0 head
+72767    976   0.0 sort
+72766   1344   0.0 ps
+== 18:37:28
+72418 2417648  77.3 llama-bench
+10944  17872   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38592   1.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  27664   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.1 /usr/libexec/clocksyncd
+72941   1040   0.0 head
+72940   1088   0.0 sort
+72939   1376   0.0 ps
+== 18:38:28
+72418 2237248  67.0 llama-bench
+10944  16816   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+72824 154144   3.3 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  420  37920   1.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+72825  29200   0.4 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+ 1620 119200   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  567   5888   0.2 /usr/libexec/aned
+ 9790  21184   0.1 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+== 18:39:28
+72418 2720304 109.8 llama-bench
+10944  15056   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  32176   1.9 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1620 128864   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  18160   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+71220   6480   0.1 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+  466   1744   0.1 /usr/libexec/clocksyncd
+73164   1040   0.0 head
+== 18:40:28
+72418 2277344  77.9 llama-bench
+10944  18832   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  37088   1.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+44451   4992   1.0 /usr/libexec/dmd
+  532  36528   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 7924   6000   0.2 /usr/libexec/PerfPowerServices
+36023  14480   0.1 /System/Applications/Notes.app/Contents/MacOS/Notes
+ 1620 122624   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 18:41:28
+72418 2970496 123.1 llama-bench
+10944  19280   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 123888   2.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  420  38752   0.8 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  20688   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1760   0.1 /usr/libexec/clocksyncd
+73445    992   0.0 head
+73444   1088   0.0 sort
+== 18:42:28
+  716  67072  62.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+73576  23840  55.4 /usr/libexec/ReportMemoryException
+72418 2203216  53.9 llama-bench
+73666   8144  26.5 /System/Library/CoreServices/osanalyticshelper
+73644  41568  25.1 /usr/libexec/searchpartyuseragent
+73506  53664  16.7 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+  538  14096  11.1 /usr/libexec/searchpartyd
+73516  11952   6.5 /usr/libexec/spotlightknowledged.updater
+== 18:43:28
+72418 1932832  86.7 llama-bench
+10944  20256   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  393  12240   3.4 /usr/libexec/locationd
+  532  36912   1.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+13760   8912   0.6 /usr/libexec/trustd
+ 7924   6464   0.2 /usr/libexec/PerfPowerServices
+  657  26288   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  420  35360   0.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+== 18:44:28
+73913  15248  21.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+73895 11429408  11.2 llama-bench
+10944  18544   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  16480   1.9 /sbin/launchd
+  372  11680   1.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  628   3008   0.7 /usr/sbin/cfprefsd
+  384   6256   0.6 /usr/libexec/opendirectoryd
+73346  15856   0.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 18:45:28
+74032  16848  43.9 /System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd
+73895 3213872  18.8 llama-bench
+10944  18032   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  689   8992   2.8 /usr/libexec/nsurlsessiond
+  628   3152   1.9 /usr/sbin/cfprefsd
+    1  17296   1.8 /sbin/launchd
+  651  10176   1.7 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+74021  12800   1.4 /usr/libexec/wifip2pd
+== 18:46:28
+73895 3386880 209.3 llama-bench
+74195  21760  62.4 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+74166  21088  10.2 /usr/libexec/mobileassetd
+74210  10496  10.0 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+74174  13168   8.4 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+74208   8000   6.7 /System/Library/PrivateFrameworks/DeviceConfiguration.framework/Versions/A/DeviceConfigurationAgent
+74212   4512   5.5 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+74209   6768   5.5 /System/Library/PrivateFrameworks/DeviceConfiguration.framework/Versions/A/deviceconfigurationd
+== 18:47:28
+74376 10115136  28.4 llama-bench
+10944  15520   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+74273   8544   0.4 /System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app/Contents/MacOS/IMTransferAgent
+ 1243  97216   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  16112   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1744   0.1 /usr/libexec/clocksyncd
+  420  34400   0.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  347   4192   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+== 18:48:28
+74376 2983296  74.4 llama-bench
+74566  16448   9.6 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+10944  18576   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 105664   1.0 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+    1  17696   0.5 /sbin/launchd
+40994   1632   0.4 zsh
+74565   1008   0.1 sleep
+ 1243  93984   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+== 18:49:29
+74376 2715216 104.6 llama-bench
+10944  19008   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657  20544   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36224   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+74695   1008   0.1 sleep
+74677  15328   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+40993   1600   0.1 zsh
+13760   6112   0.1 /usr/libexec/trustd
+== 18:50:29
+74376 2185920  78.9 llama-bench
+10944  19104   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38928   0.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+74844   1008   0.1 sleep
+40993   1600   0.1 zsh
+ 1243 162912   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  23760   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1760   0.1 /usr/libexec/clocksyncd
+== 18:51:29
+74376 4009232 257.5 llama-bench
+10944  13824   3.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+74952   1008   0.3 sleep
+40993   1600   0.3 zsh
+ 1620 136256   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  34832   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+74233  10448   0.1 /System/Library/PrivateFrameworks/ReplicatorCore.framework/Support/replicatord
+ 1243  82672   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+== 18:52:29
+  716 253936 210.9 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+10944  14800   2.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479   9904   1.0 /usr/libexec/airportd
+  657  19728   0.5 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  35760   0.5 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+74303  20304   0.3 /usr/libexec/spotlightknowledged.updater
+ 1620 169888   0.3 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 109392   0.2 /Applications/Claude.app/Contents/MacOS/Claude
+== 18:53:29
+10944  14816   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+40994   1632   0.3 zsh
+ 1243 145968   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  23424   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2016   0.1 /usr/libexec/clocksyncd
+  420  41792   0.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+75173    672   0.0 head
+75172   1088   0.0 sort
+== 18:54:29
+75102 7677120  14.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  14624   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 211456   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  19824   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1792   0.1 /usr/libexec/clocksyncd
+  420  38080   0.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+75276    160   0.0 head
+75275   1088   0.0 sort
+== 18:55:29
+75386  18160  88.8 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+75361  50272  44.0 /usr/libexec/duetexpertd
+  681  11200  22.3 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+75102 7645344  12.0 ~/Documents/Projects/mj-mlx/.venv/bin/python
+    1  17984   7.3 /sbin/launchd
+75385   5248   6.6 /System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner
+  627   2304   6.2 /usr/sbin/distnoted
+  400   1584   5.7 /usr/sbin/distnoted
+== 18:56:29
+75102 7689952  14.9 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  14624   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  393   9520   1.1 /usr/libexec/locationd
+ 1620 214176   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  30640   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36240   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1840   0.1 /usr/libexec/clocksyncd
+75500    912   0.0 head
+== 18:57:29
+75102 7693888  40.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  13536   3.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   4768   0.1 /usr/libexec/trustd
+  657  31008   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   2000   0.1 /usr/libexec/clocksyncd
+75606    960   0.0 head
+75605   1088   0.0 sort
+75604   1360   0.0 ps
+== 18:58:29
+10944  16032   3.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+75749  22736   1.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 1620 362688   0.9 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 193184   0.5 /Applications/Claude.app/Contents/MacOS/Claude
+  372  12816   0.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+74720   2480   0.1 ugrep
+ 1316 629792   0.1 /Applications/Claude.app/Contents/Frameworks/Claude Helper (Renderer).app/Contents/MacOS/Claude Helper (Renderer)
+  657  31232   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 18:59:29
+75874 10343296  25.6 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944  10512   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   1344   0.6 /usr/libexec/trustd
+ 1620 164432   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243  57264   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657   6464   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  32640   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1552   0.1 /usr/libexec/clocksyncd
+== 19:00:29
+75874 10426368  17.1 ~/Documents/Projects/mj-mlx/.venv/bin/python
+10944   8832   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 224544   0.5 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  532  33504   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  479   7152   0.2 /usr/libexec/airportd
+ 1243  35472   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657   5712   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1552   0.1 /usr/libexec/clocksyncd
+== 19:01:29
+76127 8283456  23.5 llama-perplexity
+10944   8880   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479   8816   0.5 /usr/libexec/airportd
+  532  35792   0.4 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+34815    496   0.3 /usr/sbin/systemsoundserverd
+  657  15888   0.2 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1728   0.2 /usr/libexec/clocksyncd
+ 1620 133776   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+== 19:02:29
+76127 4005936 119.8 llama-perplexity
+10944  10320   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  479  10352   0.4 /usr/libexec/airportd
+36023   8400   0.1 /System/Applications/Notes.app/Contents/MacOS/Notes
+ 1620 131184   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  657  18064   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36560   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  523   4048   0.1 /usr/libexec/symptomsd
+== 19:03:29
+76127 2796288 104.0 llama-perplexity
+10944  20672   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  400   1392   0.3 /usr/sbin/distnoted
+  756   5424   0.1 /System/Library/CoreServices/UIKitSystem.app/Contents/MacOS/UIKitSystem
+  627   2160   0.1 /usr/sbin/distnoted
+  605  17072   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  532  36864   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  491   7376   0.1 /usr/sbin/mDNSResponder
+== 19:04:29
+76127 2829008 104.3 llama-perplexity
+10944  17904   4.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657  21744   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1664   0.1 /usr/libexec/clocksyncd
+  400   1392   0.1 /usr/sbin/distnoted
+76567    560   0.0 head
+76566   1040   0.0 sort
+76565   1360   0.0 ps
+== 19:05:29
+76127 2854896 116.8 llama-perplexity
+10944  17584   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657  20992   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  37088   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1664   0.1 /usr/libexec/clocksyncd
+  400   1392   0.1 /usr/sbin/distnoted
+76682    144   0.0 head
+76681   1088   0.0 sort
+== 19:06:29
+76127 2573840 100.7 llama-perplexity
+76802  22976  79.8 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+74166  11696  54.0 /usr/libexec/mobileassetd
+76817  35424  17.1 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent
+74124  19344  13.5 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+  372  13728  11.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+15402   4896   6.9 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+10944  16640   5.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+== 19:07:29
+76127 2906032 119.3 llama-perplexity
+76933   9152   9.3 /System/Library/ExtensionKit/Extensions/RepackagingWorker.appex/Contents/MacOS/RepackagingWorker
+  420  38224   4.5 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944  16656   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  397  11888   2.9 /usr/libexec/dasd
+    1  18464   2.2 /sbin/launchd
+  743  10880   2.1 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+  421  13312   1.4 /usr/libexec/runningboardd
+== 19:08:29
+76127 2600224  37.0 llama-perplexity
+  420  38096   6.0 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+10944  16656   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+76817  31376   0.2 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent
+74124  16352   0.2 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+ 1620 245328   0.2 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1208   1472   0.1 /System/Library/CoreServices/SubmitDiagInfo
+  657  20768   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 19:09:29
+76127 2791088 106.0 llama-perplexity
+10944  16656   4.0 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  38192   3.4 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  657  20768   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1776   0.1 /usr/libexec/clocksyncd
+77150    944   0.0 head
+77149   1120   0.0 sort
+77148   1376   0.0 ps
+== 19:10:30
+76127 2428608 108.6 llama-perplexity
+10944  18224   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+77281  16688   2.4 /System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd
+  420  39440   1.2 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243 118912   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+74333   7088   0.1 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+  657  21152   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  628   3408   0.1 /usr/sbin/cfprefsd
+== 19:11:30
+76127 2757104  54.0 llama-perplexity
+10944  18416   3.8 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  33248   1.3 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+76890  15344   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+ 1243  96400   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  17104   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  605  14512   0.1 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  532  36912   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+== 19:12:30
+76127 3379104 106.5 llama-perplexity
+10944  18096   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  420  37488   1.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1243  90544   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  25904   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36768   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1760   0.1 /usr/libexec/clocksyncd
+77565    160   0.0 head
+== 19:13:30
+76127 3161776 122.3 llama-perplexity
+77718   8784   9.7 /usr/libexec/nfcd
+77727   4032   6.2 /System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/Versions/A/XPCServices/NFStorageServer.xpc/Contents/MacOS/NFStorageServer
+10944  18176   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+    1  17472   2.4 /sbin/launchd
+  419   2992   1.2 /usr/sbin/cfprefsd
+  420  33328   1.1 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+ 1117   3648   0.4 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+== 19:14:30
+74174  14464  96.2 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+76127 2901648  95.7 llama-perplexity
+77842  36816  78.5 /usr/libexec/mobileassetd
+  581  11136  76.6 /usr/libexec/modelmanagerd
+77870   8448  19.0 /System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/Versions/A/ScreenTimeSettingsAgent
+77841   7792  16.0 /usr/libexec/assetsubscriptiond
+77860   1696   8.0 /sbin/mount_apfs
+  384   7360   7.6 /usr/libexec/opendirectoryd
+== 19:15:30
+76127 2912080  52.5 llama-perplexity
+78050   7696  16.4 /usr/libexec/secinitd
+78032  29504   8.1 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+    1  19200   4.8 /sbin/launchd
+78049  22320   4.5 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri
+  416  25200   4.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+10944  20160   3.9 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  550  10144   3.6 /usr/sbin/coreaudiod
+== 19:16:30
+  716 175504 293.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+76127 2693248 120.2 llama-perplexity
+10944  23872   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+78040   7504   3.3 /System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl
+  743  13872   2.1 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+  691   9168   1.0 /usr/libexec/rapportd
+77900  26288   0.5 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+78194   1008   0.3 sleep
+== 19:17:30
+76127 2332080 102.9 llama-perplexity
+78422  25296  81.6 /System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService
+  372  11808  22.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+10944  97024   5.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  628   4016   2.7 /usr/sbin/cfprefsd
+  421  12816   1.7 /usr/libexec/runningboardd
+  342  18272   1.1 /usr/libexec/logd
+  648   8144   1.0 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+== 19:18:30
+76127 2256896 104.3 llama-perplexity
+78561  38944  18.5 /usr/libexec/routined
+78620  13184  16.8 /System/Library/PrivateFrameworks/CommunicationTrust.framework/Support/communicationtrustd
+78619  16048  16.4 /System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd
+13760  10672  13.7 /usr/libexec/trustd
+78618  15728   5.7 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+10944  57152   4.7 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  651  12176   2.8 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+== 19:19:31
+76127 2206032  14.8 llama-perplexity
+10944  51680   4.3 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   9392   0.3 /usr/libexec/trustd
+ 1620 133360   0.1 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 131328   0.1 /Applications/Claude.app/Contents/MacOS/Claude
+  657  38512   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  532  36560   0.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  466   1776   0.1 /usr/libexec/clocksyncd
+== 19:20:31
+76127 2635376 123.0 llama-perplexity
+10944  34656   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 1620 278080   1.8 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+ 1243 156096   0.3 /Applications/Claude.app/Contents/MacOS/Claude
+78619   9088   0.1 /System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd
+13760   5888   0.1 /usr/libexec/trustd
+  743   8032   0.1 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+  657  26288   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 19:21:31
+76127 3660128  99.9 llama-perplexity
+10944  31696   4.1 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   6368   0.2 /usr/libexec/trustd
+ 7924   5232   0.2 /usr/libexec/PerfPowerServices
+  466   1728   0.2 /usr/libexec/clocksyncd
+  838   2576   0.1 com.apple.Passwords.MenuBarExtra
+  812   2640   0.1 /usr/libexec/appleaccountd
+  657  22912   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+== 19:22:31
+76127 3358112 115.5 llama-perplexity
+10944  31536   4.6 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+77842  30272   4.2 /usr/libexec/mobileassetd
+13742   6848   2.2 /usr/libexec/trustd
+79181  11504   1.4 /usr/libexec/assetsubscriptiond
+79185   7920   0.5 /usr/libexec/neagent
+  532  36560   0.2 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+    1  18480   0.2 /sbin/launchd
+== 19:23:31
+76127 3362064  46.7 llama-perplexity
+10944  36448   4.4 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+  657  23744   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1744   0.1 /usr/libexec/clocksyncd
+79380    912   0.0 head
+79379    944   0.0 sort
+79378   1376   0.0 ps
+79376   6720   0.0 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+== 19:24:31
+  605  69024 207.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+76127 1209440  36.5 llama-perplexity
+  372  10848  15.5 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  648   5856   6.8 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+10944  34576   5.2 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+79517  15136   4.7 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+  479  10848   1.3 /usr/libexec/airportd
+    1  18800   0.7 /sbin/launchd
+== 19:25:31
+76127 3478720 128.7 llama-perplexity
+10944  38080   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+36023  11168   0.8 /System/Applications/Notes.app/Contents/MacOS/Notes
+ 1620 140464   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+  388   5968   0.6 /System/Library/CoreServices/launchservicesd
+78224  16576   0.4 /usr/libexec/knowledge-agent
+79648  23936   0.3 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+  605  43136   0.3 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+== 19:26:31
+76127 3367216 114.9 llama-perplexity
+10944  32560   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+13760   8528   0.1 /usr/libexec/trustd
+  657  25456   0.1 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  466   1744   0.1 /usr/libexec/clocksyncd
+79756   1040   0.0 head
+79755   1088   0.0 sort
+79754   1344   0.0 ps
+== 19:27:31
+79778  31152  58.4 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+79947  20112   9.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared
+10944  33152   4.5 /System/Library/CoreServices/MacInCallService.app/Contents/MacOS/MacInCallService
+ 2964   5264   3.4 /usr/libexec/spotlightknowledged.importer
+ 1243 175104   1.7 /Applications/Claude.app/Contents/MacOS/Claude
+ 1620 345424   0.7 ~/Library/Application Support/Claude/claude-code/2.1.326/c4434d650cb3/claude.app/Contents/MacOS/claude
+    1  18864   0.5 /sbin/launchd
+79926  22752   0.4 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared

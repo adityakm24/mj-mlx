@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-20T14:58:20",
+ "top_cpu": [
+  "5150 top 4.4",
+  "0 kernel_task 2.5",
+  "342 UserEventAgent 0.5",
+  "482 airportd 0.5",
+  "457 analyticsd 0.5",
+  "369 mds 0.5",
+  "399 PerfPowerService 0.4",
+  "579 mds_stores 0.4"
+ ],
+ "swap": "total = 2048.00M  used = 1125.12M  free = 922.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 1.35 1.40 1.96 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1125.12
+}

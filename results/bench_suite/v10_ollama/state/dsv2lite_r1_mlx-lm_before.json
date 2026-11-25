@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T15:18:44",
+ "top_cpu": [
+  "701 corespotlightd 213.1",
+  "18950 spotlightknowled 155.7",
+  "24309 IMDPersistenceAg 56.9",
+  "7946 duetexpertd 49.4",
+  "0 kernel_task 22.9",
+  "28116 siriusergroundin 16.7",
+  "707 imagent 15.1",
+  "369 mds 15.1"
+ ],
+ "swap": "total = 5120.00M  used = 4345.50M  free = 774.50M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 1.84 1.48 1.57 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4345.5
+}

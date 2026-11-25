@@ -1,0 +1,51 @@
+{
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/qwen36-bench-8L",
+ "experts": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/qwen36-bench-8L-experts",
+ "prompt": "Explain, in a short paragraph, why the sky looks blue during the day and red at sunset, and then list three everyday examples of light scattering.",
+ "rows": [
+  {
+   "slots": 128,
+   "page_cache": false,
+   "prefetch": true,
+   "prefetch_issued": 1780,
+   "prefetch_used": 1363,
+   "resident_gb": 2.678995968,
+   "expert_budget_gb": 1.811939328,
+   "load_s": 0.6827339169685729,
+   "prompt_tokens": 97,
+   "new_tokens": 64,
+   "ttft_s": 1.4934039580402896,
+   "decode_tok_s": 15.117990970264318,
+   "decode_hit_rate": 0.7529761904761905,
+   "decode_gb_read": 4.912054272,
+   "gpu_w": 1.2589410749602783,
+   "gpu_j_per_token": 0.10992447684375001,
+   "gpu_active_pct": 85.96297038057212,
+   "mlx_peak_gb": 3.696126976,
+   "text": ""
+  },
+  {
+   "slots": 256,
+   "page_cache": false,
+   "prefetch": true,
+   "prefetch_issued": 1713,
+   "prefetch_used": 1702,
+   "resident_gb": 4.490935296,
+   "expert_budget_gb": 3.623878656,
+   "load_s": 0.4940924579859711,
+   "prompt_tokens": 97,
+   "new_tokens": 64,
+   "ttft_s": 1.149944124976173,
+   "decode_tok_s": 27.241777582450354,
+   "decode_hit_rate": 0.9957837301587301,
+   "decode_gb_read": 0.063700992,
+   "gpu_w": 1.9719382897147737,
+   "gpu_j_per_token": 0.10656199175,
+   "gpu_active_pct": 83.4149415047332,
+   "mlx_peak_gb": 5.520735276,
+   "text": ""
+  }
+ ],
+ "process_peak_rss_gb": 5.194334208,
+ "note": "greedy, batch 1, lean trunk (embed + bf16 lm_head on disk, 4-bit candidate head + fp32 rescore), experts streamed from the repacked files with F_NOCACHE; energy = Mac GPU rail"
+}

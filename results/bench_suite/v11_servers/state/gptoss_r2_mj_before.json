@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T18:30:55",
+ "top_cpu": [
+  "647 Dock 7.0",
+  "55196 top 5.3",
+  "0 kernel_task 3.0",
+  "648 ControlCenter 2.9",
+  "666 useractivityd 2.2",
+  "413 WindowServer 2.1",
+  "699 sharingd 1.5",
+  "819 node 1.5"
+ ],
+ "swap": "total = 6144.00M  used = 4827.81M  free = 1316.19M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 1.88 2.50 2.95 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4827.81
+}

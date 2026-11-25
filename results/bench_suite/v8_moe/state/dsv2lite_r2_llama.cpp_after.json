@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T10:12:46",
+ "top_cpu": [
+  "0 kernel_task 18.8",
+  "520 com.apple.Driver 17.0",
+  "921 WeatherWidget 12.9",
+  "64287 python3.11 5.3",
+  "1174 Claude Helper (R 4.5",
+  "480 airportd 4.5",
+  "65520 top 3.4",
+  "819 node 2.3"
+ ],
+ "swap": "total = 7168.00M  used = 6025.12M  free = 1142.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 79%",
+ "loadavg": "{ 2.91 2.90 2.42 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 6017.12
+}

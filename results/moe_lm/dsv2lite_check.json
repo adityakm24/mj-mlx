@@ -1,0 +1,40 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216",
+ "placement": "resident",
+ "load_s": 2.7250337500008754,
+ "prompts": [
+  {
+   "prompt": "Explain how a refrigerator works, step by step, for a curious ten-year-old.",
+   "first_divergence": null,
+   "ours_text": " Sure, let's break down how a refrigerator works in a simple way:\n\n1. **Refrigerant**: Inside your refrigerator, there's a special fluid called \"refrigerant\" which is under high pressure. This fluid can change from a liquid to a gas and back again, which is key",
+   "mlxlm_text": " Sure, let's break down how a refrigerator works in a simple way:\n\n1. **Refrigerant**: Inside your refrigerator, there's a special fluid called \"refrigerant\" which is under high pressure. This fluid can change from a liquid to a gas and back again, which is key",
+   "top1_agree": 1.0,
+   "mean_kl": 0.0002467350048741562,
+   "max_kl": 0.006034962405076984,
+   "ours_s": 1.2704865409978083,
+   "mlxlm_s": 2.1764089170028456
+  },
+  {
+   "prompt": "Write a short Python function that returns the n-th Fibonacci number, then explain its running time.",
+   "first_divergence": null,
+   "ours_text": " Here's a simple Python function to compute the n-th Fibonacci number:\n\n```python\ndef fib(n):\n    if n <= 0:\n        return \"Input should be positive integer\"\n    elif n == 1:\n        return 0\n    elif n == ",
+   "mlxlm_text": " Here's a simple Python function to compute the n-th Fibonacci number:\n\n```python\ndef fib(n):\n    if n <= 0:\n        return \"Input should be positive integer\"\n    elif n == 1:\n        return 0\n    elif n == ",
+   "top1_agree": 1.0,
+   "mean_kl": 0.0011243958647496875,
+   "max_kl": 0.04906211226108505,
+   "ours_s": 1.2471256670032744,
+   "mlxlm_s": 1.1152421660008258
+  },
+  {
+   "prompt": "What are three differences between a comet and an asteroid?",
+   "first_divergence": null,
+   "ours_text": " 1. Origin and composition: Comets originate from the outer regions of the solar system, often from the Kuiper Belt or the Oort Cloud, which are distant regions beyond the orbit of Neptune. Asteroids, on the other hand, are believed to be remnants of the early solar system that never migrated close to",
+   "mlxlm_text": " 1. Origin and composition: Comets originate from the outer regions of the solar system, often from the Kuiper Belt or the Oort Cloud, which are distant regions beyond the orbit of Neptune. Asteroids, on the other hand, are believed to be remnants of the early solar system that never migrated close to",
+   "top1_agree": 1.0,
+   "mean_kl": 0.0009531227563399326,
+   "max_kl": 0.020230637507752603,
+   "ours_s": 1.198889125000278,
+   "mlxlm_s": 1.0750627919987892
+  }
+ ]
+}

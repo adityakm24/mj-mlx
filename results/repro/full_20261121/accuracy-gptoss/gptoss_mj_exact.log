@@ -1,0 +1,9 @@
+chunk 1/80: ppl 199.8359
+chunk 11/80: ppl 371.8585
+chunk 21/80: ppl 301.2986
+chunk 31/80: ppl 181.8374
+chunk 41/80: ppl 176.4964
+chunk 51/80: ppl 175.8259
+chunk 61/80: ppl 172.2389
+chunk 71/80: ppl 176.6893
+{"engine": "mj", "mj_kw": {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "lean": true, "attn_pack": true}, "ctx": 512, "chunks": 80, "tokens_scored": 20400, "text_tokens": 287070, "add_bos": false, "ppl": 181.15815561256414, "ppl_se": 3.975411362339405, "load_s": 5.118251416999556, "eval_s": 176.4701830000049, "ref": null}

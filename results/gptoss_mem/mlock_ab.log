@@ -1,0 +1,46 @@
+loaded; mlock 0: 0.00 GB pinned, system wired 6.97 GB
+nolock pp512 rep 0 (warm-up): 64.9 tok/s, page-ins 7904 MB, peak 12.94 GB, swap 4382 MB
+nolock pp512 rep 1: 52.1 tok/s, page-ins 5915 MB, peak 12.94 GB, swap 4672 MB
+nolock pp512 rep 2: 57.3 tok/s, page-ins 4567 MB, peak 12.94 GB, swap 4937 MB
+nolock pp2048 rep 0 (warm-up): 252.9 tok/s, page-ins 5573 MB, peak 13.97 GB, swap 5171 MB
+nolock pp2048 rep 1: 267.1 tok/s, page-ins 4986 MB, peak 14.06 GB, swap 5376 MB
+nolock pp2048 rep 2: 260.0 tok/s, page-ins 4867 MB, peak 14.06 GB, swap 5480 MB
+nolock tg128@d0 rep 0 (warm-up): 12.6 tok/s, page-ins 3783 MB, peak 11.50 GB, swap 5624 MB
+nolock tg128@d0 rep 1: 27.9 tok/s, page-ins 84 MB, peak 11.50 GB, swap 5528 MB
+nolock tg128@d0 rep 2: 27.7 tok/s, page-ins 109 MB, peak 11.50 GB, swap 5450 MB
+nolock exit 0
+loaded; mlock 1: 10.15 GB pinned, system wired 14.11 GB
+mlock pp512 rep 0 (warm-up): 235.8 tok/s, page-ins 393 MB, peak 12.94 GB, swap 7018 MB
+mlock pp512 rep 1: 326.1 tok/s, page-ins 101 MB, peak 12.94 GB, swap 7140 MB
+mlock pp512 rep 2: 383.2 tok/s, page-ins 106 MB, peak 12.94 GB, swap 7125 MB
+mlock pp2048 rep 0 (warm-up): 340.8 tok/s, page-ins 1355 MB, peak 14.06 GB, swap 6477 MB
+mlock pp2048 rep 1: 401.5 tok/s, page-ins 456 MB, peak 13.97 GB, swap 6586 MB
+mlock pp2048 rep 2: 326.0 tok/s, page-ins 595 MB, peak 14.06 GB, swap 6377 MB
+mlock tg128@d0 rep 0 (warm-up): 28.5 tok/s, page-ins 179 MB, peak 11.50 GB, swap 5993 MB
+mlock tg128@d0 rep 1: 27.9 tok/s, page-ins 58 MB, peak 11.50 GB, swap 5849 MB
+mlock tg128@d0 rep 2: 28.0 tok/s, page-ins 23 MB, peak 11.50 GB, swap 5833 MB
+mlock exit 0
+loaded; mlock 0: 0.00 GB pinned, system wired 6.56 GB
+nolock pp512 rep 0 (warm-up): 111.8 tok/s, page-ins 4130 MB, peak 12.94 GB, swap 5906 MB
+nolock pp512 rep 1: 100.8 tok/s, page-ins 2757 MB, peak 12.94 GB, swap 5996 MB
+nolock pp512 rep 2: 103.4 tok/s, page-ins 2699 MB, peak 12.94 GB, swap 6114 MB
+nolock pp2048 rep 0 (warm-up): 290.2 tok/s, page-ins 4130 MB, peak 14.06 GB, swap 6217 MB
+nolock pp2048 rep 1: 307.7 tok/s, page-ins 4278 MB, peak 14.06 GB, swap 6304 MB
+nolock pp2048 rep 2: 311.2 tok/s, page-ins 4176 MB, peak 14.06 GB, swap 6397 MB
+nolock tg128@d0 rep 0 (warm-up): 28.3 tok/s, page-ins 1553 MB, peak 11.50 GB, swap 6349 MB
+nolock tg128@d0 rep 1: 30.0 tok/s, page-ins 64 MB, peak 11.50 GB, swap 6341 MB
+nolock tg128@d0 rep 2: 30.5 tok/s, page-ins 31 MB, peak 11.50 GB, swap 6309 MB
+nolock exit 0
+loaded; mlock 1: 10.15 GB pinned, system wired 14.08 GB
+mlock pp512 rep 0 (warm-up): 331.2 tok/s, page-ins 72 MB, peak 12.94 GB, swap 7274 MB
+mlock pp512 rep 1: 389.9 tok/s, page-ins 47 MB, peak 12.94 GB, swap 7146 MB
+mlock pp512 rep 2: 390.0 tok/s, page-ins 40 MB, peak 12.92 GB, swap 7077 MB
+mlock pp2048 rep 0 (warm-up): 376.1 tok/s, page-ins 531 MB, peak 14.06 GB, swap 7286 MB
+mlock pp2048 rep 1: 382.6 tok/s, page-ins 557 MB, peak 14.06 GB, swap 7411 MB
+mlock pp2048 rep 2: 395.5 tok/s, page-ins 495 MB, peak 14.06 GB, swap 7470 MB
+mlock tg128@d0 rep 0 (warm-up): 29.5 tok/s, page-ins 356 MB, peak 11.50 GB, swap 6974 MB
+mlock tg128@d0 rep 1: 30.5 tok/s, page-ins 59 MB, peak 11.50 GB, swap 6806 MB
+mlock tg128@d0 rep 2: 30.2 tok/s, page-ins 28 MB, peak 11.50 GB, swap 6742 MB
+mlock exit 0
+
+[exited with code 0]

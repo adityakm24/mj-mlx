@@ -1,0 +1,84 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "reference": "mlx-lm float32 activations, same weights",
+ "prompt_date": "2026-11-16",
+ "sequences": [
+  59,
+  40,
+  75
+ ],
+ "results": {
+  "mj_fp32": {
+   "rel_rms": 2.7354539437883452e-06,
+   "max_abs": 0.00013184547424316406,
+   "top1_vs_mlxlm_fp32": 1.0,
+   "mean_kl": 3.446358029229755e-11,
+   "max_kl": 5.05748171601282e-10,
+   "positions": 174
+  },
+  "mj_bf16": {
+   "rel_rms": 0.0074669406487871065,
+   "max_abs": 0.39400672912597656,
+   "top1_vs_mlxlm_fp32": 0.9942528735632183,
+   "mean_kl": 0.00026150949931920945,
+   "max_kl": 0.004430823529733214,
+   "positions": 174
+  },
+  "mlxlm_bf16": {
+   "rel_rms": 0.011522043238120505,
+   "max_abs": 1.007483720779419,
+   "top1_vs_mlxlm_fp32": 0.9885057471264368,
+   "mean_kl": 0.0006176192291792043,
+   "max_kl": 0.03177254562168008,
+   "positions": 174
+  },
+  "mj_bf16_chunk1_qmm_small": {
+   "rel_rms": 0.006242345590132866,
+   "max_abs": 0.3376502990722656,
+   "top1_vs_mlxlm_fp32": 0.9885057471264368,
+   "mean_kl": 0.00018408963772877183,
+   "max_kl": 0.0015050465243638222,
+   "positions": 174
+  },
+  "mj_bf16_chunk1_mx_qmm": {
+   "rel_rms": 0.006242345590132866,
+   "max_abs": 0.3376502990722656,
+   "top1_vs_mlxlm_fp32": 0.9885057471264368,
+   "mean_kl": 0.00018408963772877183,
+   "max_kl": 0.0015050465243638222,
+   "positions": 174
+  },
+  "mj_bf16_chunk2_qmm_small": {
+   "rel_rms": 0.007018425340773996,
+   "max_abs": 0.4966707890853286,
+   "top1_vs_mlxlm_fp32": 0.9827586206896551,
+   "mean_kl": 0.0006897151122461392,
+   "max_kl": 0.028481012241466104,
+   "positions": 174
+  },
+  "mj_bf16_chunk2_mx_qmm": {
+   "rel_rms": 0.007018425340773996,
+   "max_abs": 0.4966707890853286,
+   "top1_vs_mlxlm_fp32": 0.9827586206896551,
+   "mean_kl": 0.0006897151122461392,
+   "max_kl": 0.028481012241466104,
+   "positions": 174
+  },
+  "mj_bf16_chunk3_qmm_small": {
+   "rel_rms": 0.007015745904529863,
+   "max_abs": 0.4966707890853286,
+   "top1_vs_mlxlm_fp32": 0.9827586206896551,
+   "mean_kl": 0.0006897147889355826,
+   "max_kl": 0.028481012241466104,
+   "positions": 174
+  },
+  "mj_bf16_chunk3_mx_qmm": {
+   "rel_rms": 0.007015745904529863,
+   "max_abs": 0.4966707890853286,
+   "top1_vs_mlxlm_fp32": 0.9827586206896551,
+   "mean_kl": 0.0006897147889355826,
+   "max_kl": 0.028481012241466104,
+   "positions": 174
+  }
+ }
+}

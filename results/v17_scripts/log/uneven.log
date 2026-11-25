@@ -1,0 +1,162 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_slot_profile.py --trace ~/.cache/millijoule/qwen36-route-trace --store ~/.cache/millijoule/qwen36-35b-experts-stream
+avg 64: per-layer 48-124, total 2560 of 2560
+avg 96: per-layer 72-168, total 3840 of 3840
+avg 128: per-layer 96-220, total 5120 of 5120
+wrote ~/.cache/millijoule/qwen36-35b-experts-stream/slot_profile.json
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_bench_suite.py --models q35b --engines mj,mj-u96 --tests pp2048,tg128@d0,tg128@d2048 --reps 5 --rounds 3 --out results/bench_suite/v17_q35b_uneven
+== q35b_r1_mj 04:10:13 swap 3803 MB
+  q35b_r1_mj pp2048 rep 0: 276.19 tok/s, 36 mJ/token GPU
+  q35b_r1_mj pp2048 rep 1: 273.28 tok/s, 36 mJ/token GPU
+  q35b_r1_mj pp2048 rep 2: 274.74 tok/s, 36 mJ/token GPU
+  q35b_r1_mj pp2048 rep 3: 273.94 tok/s, 36 mJ/token GPU
+  q35b_r1_mj pp2048 rep 4: 273.39 tok/s, 37 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 0: 20.74 tok/s, ttft 0.32 s, 206 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 1: 22.77 tok/s, ttft 0.32 s, 202 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 2: 26.38 tok/s, ttft 0.22 s, 202 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 3: 27.73 tok/s, ttft 0.24 s, 202 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 4: 23.38 tok/s, ttft 0.26 s, 202 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 0: 22.97 tok/s, ttft 7.65 s, 223 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 1: 20.15 tok/s, ttft 7.56 s, 228 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 2: 20.68 tok/s, ttft 7.53 s, 229 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 3: 20.11 tok/s, ttft 7.71 s, 230 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 4: 19.21 tok/s, ttft 7.60 s, 230 mJ/token GPU
+== q35b_r1_mj-u96 04:16:22 swap 3872 MB
+  q35b_r1_mj-u96 pp2048 rep 0: 274.34 tok/s, 36 mJ/token GPU
+  q35b_r1_mj-u96 pp2048 rep 1: 270.23 tok/s, 36 mJ/token GPU
+  q35b_r1_mj-u96 pp2048 rep 2: 274.46 tok/s, 36 mJ/token GPU
+  q35b_r1_mj-u96 pp2048 rep 3: 273.40 tok/s, 36 mJ/token GPU
+  q35b_r1_mj-u96 pp2048 rep 4: 274.74 tok/s, 36 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d0 rep 0: 23.12 tok/s, ttft 0.30 s, 202 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d0 rep 1: 24.69 tok/s, ttft 0.31 s, 203 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d0 rep 2: 26.86 tok/s, ttft 0.23 s, 201 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d0 rep 3: 27.68 tok/s, ttft 0.24 s, 201 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d0 rep 4: 26.52 tok/s, ttft 0.25 s, 202 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d2048 rep 0: 22.87 tok/s, ttft 7.53 s, 223 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d2048 rep 1: 22.54 tok/s, ttft 7.46 s, 225 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d2048 rep 2: 21.67 tok/s, ttft 7.47 s, 226 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d2048 rep 3: 22.96 tok/s, ttft 7.68 s, 225 mJ/token GPU
+  q35b_r1_mj-u96 tg128@d2048 rep 4: 20.61 tok/s, ttft 7.60 s, 226 mJ/token GPU
+== q35b_r2_mj-u96 04:22:24 swap 3976 MB
+  q35b_r2_mj-u96 pp2048 rep 0: 264.68 tok/s, 36 mJ/token GPU
+  q35b_r2_mj-u96 pp2048 rep 1: 277.08 tok/s, 36 mJ/token GPU
+  q35b_r2_mj-u96 pp2048 rep 2: 278.95 tok/s, 36 mJ/token GPU
+  q35b_r2_mj-u96 pp2048 rep 3: 276.45 tok/s, 36 mJ/token GPU
+  q35b_r2_mj-u96 pp2048 rep 4: 276.98 tok/s, 36 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d0 rep 0: 25.77 tok/s, ttft 0.26 s, 199 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d0 rep 1: 22.51 tok/s, ttft 0.28 s, 204 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d0 rep 2: 22.04 tok/s, ttft 0.29 s, 204 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d0 rep 3: 24.83 tok/s, ttft 0.23 s, 201 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d0 rep 4: 21.14 tok/s, ttft 0.28 s, 205 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d2048 rep 0: 22.40 tok/s, ttft 7.61 s, 221 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d2048 rep 1: 22.51 tok/s, ttft 7.58 s, 224 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d2048 rep 2: 18.22 tok/s, ttft 7.93 s, 227 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d2048 rep 3: 19.63 tok/s, ttft 7.57 s, 229 mJ/token GPU
+  q35b_r2_mj-u96 tg128@d2048 rep 4: 23.69 tok/s, ttft 7.49 s, 226 mJ/token GPU
+== q35b_r2_mj 04:28:28 swap 4155 MB
+  q35b_r2_mj pp2048 rep 0: 275.30 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 1: 277.11 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 2: 281.18 tok/s, 35 mJ/token GPU
+  q35b_r2_mj pp2048 rep 3: 279.36 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 4: 276.74 tok/s, 36 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 0: 22.30 tok/s, ttft 0.26 s, 201 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 1: 20.48 tok/s, ttft 0.28 s, 203 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 2: 21.22 tok/s, ttft 0.28 s, 202 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 3: 22.38 tok/s, ttft 0.23 s, 198 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 4: 19.38 tok/s, ttft 0.28 s, 206 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 0: 20.47 tok/s, ttft 7.56 s, 223 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 1: 21.50 tok/s, ttft 7.52 s, 224 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 2: 19.36 tok/s, ttft 7.69 s, 227 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 3: 20.16 tok/s, ttft 7.60 s, 228 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 4: 20.06 tok/s, ttft 7.61 s, 225 mJ/token GPU
+== q35b_r3_mj 04:34:35 swap 4095 MB
+  q35b_r3_mj pp2048 rep 0: 279.72 tok/s, 36 mJ/token GPU
+  q35b_r3_mj pp2048 rep 1: 273.23 tok/s, 36 mJ/token GPU
+  q35b_r3_mj pp2048 rep 2: 276.63 tok/s, 36 mJ/token GPU
+  q35b_r3_mj pp2048 rep 3: 272.49 tok/s, 35 mJ/token GPU
+  q35b_r3_mj pp2048 rep 4: 282.04 tok/s, 36 mJ/token GPU
+  q35b_r3_mj tg128@d0 rep 0: 22.06 tok/s, ttft 0.31 s, 205 mJ/token GPU
+  q35b_r3_mj tg128@d0 rep 1: 24.45 tok/s, ttft 0.23 s, 204 mJ/token GPU
+  q35b_r3_mj tg128@d0 rep 2: 21.03 tok/s, ttft 0.24 s, 209 mJ/token GPU
+  q35b_r3_mj tg128@d0 rep 3: 27.98 tok/s, ttft 0.28 s, 202 mJ/token GPU
+  q35b_r3_mj tg128@d0 rep 4: 21.15 tok/s, ttft 0.17 s, 207 mJ/token GPU
+  q35b_r3_mj tg128@d2048 rep 0: 22.00 tok/s, ttft 7.60 s, 227 mJ/token GPU
+  q35b_r3_mj tg128@d2048 rep 1: 21.54 tok/s, ttft 7.66 s, 230 mJ/token GPU
+  q35b_r3_mj tg128@d2048 rep 2: 20.27 tok/s, ttft 7.52 s, 231 mJ/token GPU
+  q35b_r3_mj tg128@d2048 rep 3: 20.23 tok/s, ttft 7.69 s, 232 mJ/token GPU
+  q35b_r3_mj tg128@d2048 rep 4: 19.83 tok/s, ttft 7.53 s, 236 mJ/token GPU
+== q35b_r3_mj-u96 04:40:41 swap 4230 MB
+  q35b_r3_mj-u96 pp2048 rep 0: 280.40 tok/s, 36 mJ/token GPU
+  q35b_r3_mj-u96 pp2048 rep 1: 276.47 tok/s, 36 mJ/token GPU
+  q35b_r3_mj-u96 pp2048 rep 2: 275.85 tok/s, 36 mJ/token GPU
+  q35b_r3_mj-u96 pp2048 rep 3: 276.54 tok/s, 36 mJ/token GPU
+  q35b_r3_mj-u96 pp2048 rep 4: 283.79 tok/s, 36 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d0 rep 0: 23.79 tok/s, ttft 0.32 s, 203 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d0 rep 1: 27.57 tok/s, ttft 0.25 s, 200 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d0 rep 2: 22.75 tok/s, ttft 0.24 s, 205 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d0 rep 3: 28.18 tok/s, ttft 0.29 s, 200 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d0 rep 4: 24.71 tok/s, ttft 0.18 s, 203 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d2048 rep 0: 24.39 tok/s, ttft 7.59 s, 219 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d2048 rep 1: 23.63 tok/s, ttft 7.58 s, 224 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d2048 rep 2: 20.94 tok/s, ttft 7.57 s, 225 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d2048 rep 3: 20.74 tok/s, ttft 7.58 s, 227 mJ/token GPU
+  q35b_r3_mj-u96 tg128@d2048 rep 4: 20.66 tok/s, ttft 7.63 s, 227 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## Qwen3.6-35B-A3B (20.4 GB, bigger than RAM)
+
+Weights: ours: mlx-community 4-bit g64, experts streamed from the SSD (96 slots/layer, C++ streamer; 128 ran out of Metal memory in v1); llama.cpp: Q4_K_M, experts on the CPU (-ncmoe 40)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle | machine, steady state |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mj | pp2048 | 276.36 +- 3.04 | 274.68-278.03 | 1.1% | 15 | 36 | 72 | - |
+| mj-u96 | pp2048 | 275.62 +- 4.34 | 273.22-278.02 | 1.6% | 15 | 36 | 75 | - |
+| mj | tg128@d0 | 22.90 +- 2.64 | 21.44-24.35 | 11.5% | 15 | 203 | 818 | - |
+| mj-u96 | tg128@d0 | 24.81 +- 2.24 | 23.58-26.05 | 9.0% | 15 | 202 | 798 | - |
+| mj | tg128@d2048 | 20.57 +- 1.02 | 20.01-21.13 | 5.0% | 15 | 228 | 966 | - |
+| mj-u96 | tg128@d2048 | 21.83 +- 1.68 | 20.90-22.76 | 7.7% | 15 | 225 | 935 | - |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_mj-u96 | mj-u96 | 11.60 | 7.87 | 0.33 | 0.45 |
+| r1_mj | mj | 11.53 | 6.91 | 0.39 | 0.51 |
+| r2_mj-u96 | mj-u96 | 11.45 | 7.88 | 0.27 | 0.47 |
+| r2_mj | mj | 11.42 | 7.87 | 0.21 | 0.17 |
+| r3_mj-u96 | mj-u96 | 11.55 | 7.88 | 0.10 | 0.01 |
+| r3_mj | mj | 11.58 | 7.87 | 0.34 | 0.48 |
+
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_bench_suite.py --summary-only --models q35b --out results/bench_suite/v17_q35b_uneven
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## Qwen3.6-35B-A3B (20.4 GB, bigger than RAM)
+
+Weights: ours: mlx-community 4-bit g64, experts streamed from the SSD (96 slots/layer, C++ streamer; 128 ran out of Metal memory in v1); llama.cpp: Q4_K_M, experts on the CPU (-ncmoe 40)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle | machine, steady state |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mj | pp2048 | 276.36 +- 3.04 | 274.68-278.03 | 1.1% | 15 | 36 | 72 | - |
+| mj-u96 | pp2048 | 275.62 +- 4.34 | 273.22-278.02 | 1.6% | 15 | 36 | 75 | - |
+| mj | tg128@d0 | 22.90 +- 2.64 | 21.44-24.35 | 11.5% | 15 | 203 | 818 | - |
+| mj-u96 | tg128@d0 | 24.81 +- 2.24 | 23.58-26.05 | 9.0% | 15 | 202 | 798 | - |
+| mj | tg128@d2048 | 20.57 +- 1.02 | 20.01-21.13 | 5.0% | 15 | 228 | 966 | - |
+| mj-u96 | tg128@d2048 | 21.83 +- 1.68 | 20.90-22.76 | 7.7% | 15 | 225 | 935 | - |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_mj-u96 | mj-u96 | 11.60 | 7.87 | 0.33 | 0.45 |
+| r1_mj | mj | 11.53 | 6.91 | 0.39 | 0.51 |
+| r2_mj-u96 | mj-u96 | 11.45 | 7.88 | 0.27 | 0.47 |
+| r2_mj | mj | 11.42 | 7.87 | 0.21 | 0.17 |
+| r3_mj-u96 | mj-u96 | 11.55 | 7.88 | 0.10 | 0.01 |
+| r3_mj | mj | 11.58 | 7.87 | 0.34 | 0.48 |
+

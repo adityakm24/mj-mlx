@@ -1,0 +1,64 @@
+[
+ {
+  "engine": "llama.cpp",
+  "test": "pp512",
+  "samples_ts": [
+   1268.96,
+   1265.8
+  ],
+  "avg_ts": 1267.379932,
+  "stddev_ts": 2.229061,
+  "n_prompt": 512,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-Q4_K_M.gguf -fa 1 -ngl 99 -r 2 -o json -p 512 -n 0 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 3.647352250001859,
+   "gpu_j": 22.36209832,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 1536,
+  "peak_footprint_gb": 0.186699712,
+  "peak_resident_gb": 4.33774592,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d0",
+  "samples_ts": [
+   115.769,
+   115.813
+  ],
+  "avg_ts": 115.79106,
+  "stddev_ts": 0.031531,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/huggingface/hub/models--allenai--OLMoE-1B-7B-0125-Instruct-GGUF/snapshots/2ac1d27317927518c9ef7bd99f91f3f1e4ee288d/OLMoE-1B-7B-0125-Instruct-Q4_K_M.gguf -fa 1 -ngl 99 -r 2 -o json -p 0 -n 128 -d 0",
+  "energy_window_incl_load": {
+   "seconds": 2.5218616670026677,
+   "gpu_j": 26.385031354000002,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 257,
+  "peak_footprint_gb": 0.143921016,
+  "peak_resident_gb": 4.360749056,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ }
+]

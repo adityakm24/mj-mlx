@@ -1,0 +1,8 @@
+py: slots 96 overlap False GPU_STREAM 0: decode 60.7 ms/token (16.47 tok/s), median 50.0; IO thread per token: route wait 0.0 ms, read wait 0.0 ms, misses/token 0.0, hits/token 0.0
+cpp: slots 96 overlap True GPU_STREAM 1: decode 56.9 ms/token (17.58 tok/s), median 51.5; IO thread per token: route wait 41.5 ms, read wait 14.6 ms, misses/token 12.3, hits/token 302.7
+cpp: slots 96 overlap True GPU_STREAM 1: decode 58.8 ms/token (17.00 tok/s), median 55.6; IO thread per token: route wait 42.7 ms, read wait 15.4 ms, misses/token 12.3, hits/token 302.7
+py: slots 96 overlap False GPU_STREAM 0: decode 61.9 ms/token (16.15 tok/s), median 51.2; IO thread per token: route wait 0.0 ms, read wait 0.0 ms, misses/token 0.0, hits/token 0.0
+py: slots 128 overlap False GPU_STREAM 0: decode 53.9 ms/token (18.55 tok/s), median 48.7; IO thread per token: route wait 0.0 ms, read wait 0.0 ms, misses/token 0.0, hits/token 0.0
+cpp: slots 128 overlap True GPU_STREAM 1: decode 51.6 ms/token (19.39 tok/s), median 42.3; IO thread per token: route wait 40.6 ms, read wait 10.4 ms, misses/token 9.1, hits/token 305.8
+cpp: slots 128 overlap True GPU_STREAM 1: decode 47.5 ms/token (21.07 tok/s), median 42.1; IO thread per token: route wait 35.7 ms, read wait 11.1 ms, misses/token 9.1, hits/token 305.8
+py: slots 128 overlap False GPU_STREAM 0: decode 50.8 ms/token (19.67 tok/s), median 45.3; IO thread per token: route wait 0.0 ms, read wait 0.0 ms, misses/token 0.0, hits/token 0.0

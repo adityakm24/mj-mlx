@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T10:40:56",
+ "top_cpu": [
+  "54337 mobileassetd 85.0",
+  "54022 deleted 56.9",
+  "46537 modelcatalogd 56.7",
+  "372 mds 45.2",
+  "43366 cloudd 43.9",
+  "53852 triald_system 32.0",
+  "0 kernel_task 19.5",
+  "46544 triald 19.1"
+ ],
+ "swap": "total = 6144.00M  used = 4664.56M  free = 1479.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 81%",
+ "loadavg": "{ 1.35 1.30 1.38 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4664.56
+}

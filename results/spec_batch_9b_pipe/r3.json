@@ -1,0 +1,376 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "round": 3,
+ "new": 128,
+ "rows": [
+  {
+   "level": 1,
+   "arm": "mtp-k1",
+   "tok_s": 29.768647835432304,
+   "mj_per_token": 452.107402472441,
+   "reps": [
+    {
+     "tok_s": 29.808729762311845,
+     "mj_per_token": 450.3118998425197,
+     "tokens": 127,
+     "seconds": 4.260496874998353,
+     "j_per_iter": 0.7625281504,
+     "s_per_iter": 0.05680662499997804
+    },
+    {
+     "tok_s": 29.728565908552767,
+     "mj_per_token": 453.9029051023622,
+     "tokens": 127,
+     "seconds": 4.2719854160022805,
+     "j_per_iter": 0.7686089193066666,
+     "s_per_iter": 0.05695980554669707
+    }
+   ],
+   "j_per_iter": 0.7655685348533333,
+   "s_per_iter": 0.056883215273337555,
+   "accept_rate": 0.6933333333333334,
+   "rows_per_step": 2.0,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 1,
+   "arm": "mtp-auto",
+   "tok_s": 38.85248239315379,
+   "mj_per_token": 447.40340420472444,
+   "reps": [
+    {
+     "tok_s": 39.06379814559296,
+     "mj_per_token": 455.42277525196846,
+     "tokens": 127,
+     "seconds": 3.251091957998142,
+     "j_per_iter": 1.0516125901272728,
+     "s_per_iter": 0.05911076287269349
+    },
+    {
+     "tok_s": 38.64116664071463,
+     "mj_per_token": 439.38403315748036,
+     "tokens": 127,
+     "seconds": 3.2866502500000934,
+     "j_per_iter": 1.0145776765636365,
+     "s_per_iter": 0.05975727727272897
+    }
+   ],
+   "j_per_iter": 1.0330951333454546,
+   "s_per_iter": 0.05943402007271123,
+   "accept_rate": 0.6545454545454545,
+   "rows_per_step": 3.0,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 1,
+   "arm": "plain",
+   "tok_s": 21.72123526401097,
+   "mj_per_token": 491.96090633070867,
+   "reps": [
+    {
+     "tok_s": 21.69031793735595,
+     "mj_per_token": 493.4957597480315,
+     "tokens": 127,
+     "seconds": 5.8551470000020345,
+     "j_per_iter": 0.4934957597480315,
+     "s_per_iter": 0.04610351968505539
+    },
+    {
+     "tok_s": 21.75215259066599,
+     "mj_per_token": 490.42605291338583,
+     "tokens": 127,
+     "seconds": 5.838502624999819,
+     "j_per_iter": 0.49042605291338587,
+     "s_per_iter": 0.0459724616141718
+    }
+   ],
+   "j_per_iter": 0.49196090633070866,
+   "s_per_iter": 0.0460379906496136,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null
+   ]
+  },
+  {
+   "level": 2,
+   "arm": "mtp-k1",
+   "tok_s": 46.664271626726915,
+   "mj_per_token": 358.04590604921265,
+   "reps": [
+    {
+     "tok_s": 46.898416755117964,
+     "mj_per_token": 363.7214744960631,
+     "tokens": 254,
+     "seconds": 5.415961082999274,
+     "j_per_iter": 0.6552145710780143,
+     "s_per_iter": 0.03841107151063315
+    },
+    {
+     "tok_s": 46.430126498335866,
+     "mj_per_token": 352.3703376023622,
+     "tokens": 254,
+     "seconds": 5.470585999999457,
+     "j_per_iter": 0.6347664237659575,
+     "s_per_iter": 0.038798482269499696
+    }
+   ],
+   "j_per_iter": 0.6449904974219859,
+   "s_per_iter": 0.038604776890066424,
+   "accept_rate": 0.8014184397163121,
+   "rows_per_step": 3.76,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 2,
+   "arm": "mtp-auto",
+   "tok_s": 59.46776392130025,
+   "mj_per_token": 235.76789776771656,
+   "reps": [
+    {
+     "tok_s": 59.558603335518725,
+     "mj_per_token": 231.1587690472441,
+     "tokens": 254,
+     "seconds": 4.264707124999404,
+     "j_per_iter": 0.6313368530967742,
+     "s_per_iter": 0.04585706586020865
+    },
+    {
+     "tok_s": 59.376924507081775,
+     "mj_per_token": 240.37702648818902,
+     "tokens": 254,
+     "seconds": 4.277756082999986,
+     "j_per_iter": 0.6565135992258065,
+     "s_per_iter": 0.04599737723655899
+    }
+   ],
+   "j_per_iter": 0.6439252261612904,
+   "s_per_iter": 0.045927221548383815,
+   "accept_rate": 0.6822033898305084,
+   "rows_per_step": 6.092592592592593,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 2,
+   "arm": "plain",
+   "tok_s": 41.869491879038335,
+   "mj_per_token": 363.09741530708664,
+   "reps": [
+    {
+     "tok_s": 41.854409605580145,
+     "mj_per_token": 364.3376450393701,
+     "tokens": 254,
+     "seconds": 6.068655666000268,
+     "j_per_iter": 0.3643376450393701,
+     "s_per_iter": 0.02389234514173334
+    },
+    {
+     "tok_s": 41.88457415249652,
+     "mj_per_token": 361.85718557480317,
+     "tokens": 254,
+     "seconds": 6.064285125001334,
+     "j_per_iter": 0.3618571855748032,
+     "s_per_iter": 0.023875138287406825
+    }
+   ],
+   "j_per_iter": 0.3630974153070866,
+   "s_per_iter": 0.023883741714570084,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null,
+    null
+   ]
+  },
+  {
+   "level": 4,
+   "arm": "mtp-k1",
+   "tok_s": 77.43301076651647,
+   "mj_per_token": 160.47202306200785,
+   "reps": [
+    {
+     "tok_s": 77.52208538135962,
+     "mj_per_token": 161.34797572637794,
+     "tokens": 508,
+     "seconds": 6.552971291999711,
+     "j_per_iter": 0.28962816844169614,
+     "s_per_iter": 0.023155375590104985
+    },
+    {
+     "tok_s": 77.34393615167333,
+     "mj_per_token": 159.5960703976378,
+     "tokens": 508,
+     "seconds": 6.5680649999994785,
+     "j_per_iter": 0.28648340551943463,
+     "s_per_iter": 0.02320871024734798
+    }
+   ],
+   "j_per_iter": 0.2880557869805654,
+   "s_per_iter": 0.023182042918726484,
+   "accept_rate": 0.7950530035335689,
+   "rows_per_step": 7.546666666666667,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 4,
+   "arm": "mtp-auto",
+   "tok_s": 67.55311817881197,
+   "mj_per_token": 191.40304843307086,
+   "reps": [
+    {
+     "tok_s": 67.53559361761145,
+     "mj_per_token": 191.69086137598424,
+     "tokens": 508,
+     "seconds": 7.521959499998047,
+     "j_per_iter": 0.3674677644490566,
+     "s_per_iter": 0.028384752830181312
+    },
+    {
+     "tok_s": 67.57064274001249,
+     "mj_per_token": 191.1152354901575,
+     "tokens": 508,
+     "seconds": 7.518057834000501,
+     "j_per_iter": 0.36636430048679247,
+     "s_per_iter": 0.028370029562266044
+    }
+   ],
+   "j_per_iter": 0.36691603246792454,
+   "s_per_iter": 0.028377391196223678,
+   "accept_rate": 0.7225433526011561,
+   "rows_per_step": 8.146666666666667,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 4,
+   "arm": "plain",
+   "tok_s": 60.32505652387844,
+   "mj_per_token": 299.6460953700787,
+   "reps": [
+    {
+     "tok_s": 60.330609361706394,
+     "mj_per_token": 299.50251710236216,
+     "tokens": 508,
+     "seconds": 8.420269666999957,
+     "j_per_iter": 0.2995025171023622,
+     "s_per_iter": 0.016575333990157395
+    },
+    {
+     "tok_s": 60.31950368605048,
+     "mj_per_token": 299.78967363779526,
+     "tokens": 508,
+     "seconds": 8.421819958002743,
+     "j_per_iter": 0.2997896736377953,
+     "s_per_iter": 0.016578385744099887
+    }
+   ],
+   "j_per_iter": 0.29964609537007875,
+   "s_per_iter": 0.01657685986712864,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "level": 8,
+   "arm": "mtp-k1",
+   "tok_s": 92.82696388665173,
+   "mj_per_token": 134.77031414124014,
+   "reps": [
+    {
+     "tok_s": 92.80793714262715,
+     "mj_per_token": 133.8544520344488,
+     "tokens": 1016,
+     "seconds": 10.947339540998655,
+     "j_per_iter": 0.23734052926178012,
+     "s_per_iter": 0.019105304609072695
+    },
+    {
+     "tok_s": 92.8459906306763,
+     "mj_per_token": 135.6861762480315,
+     "tokens": 1016,
+     "seconds": 10.942852708001737,
+     "j_per_iter": 0.2405884032600349,
+     "s_per_iter": 0.019097474184994308
+    }
+   ],
+   "j_per_iter": 0.2389644662609075,
+   "s_per_iter": 0.0191013893970335,
+   "accept_rate": 0.774869109947644,
+   "rows_per_step": 14.883116883116884,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 8,
+   "arm": "mtp-auto",
+   "tok_s": 83.45814013948544,
+   "mj_per_token": 154.8227630979331,
+   "reps": [
+    {
+     "tok_s": 83.52296696166796,
+     "mj_per_token": 155.37258932874016,
+     "tokens": 1016,
+     "seconds": 12.164318833001744,
+     "j_per_iter": 0.18882601765311005,
+     "s_per_iter": 0.01455062061363845
+    },
+    {
+     "tok_s": 83.39331331730291,
+     "mj_per_token": 154.272936867126,
+     "tokens": 1016,
+     "seconds": 12.183230999999068,
+     "j_per_iter": 0.1874895979150718,
+     "s_per_iter": 0.014573242822965392
+    }
+   ],
+   "j_per_iter": 0.1881578077840909,
+   "s_per_iter": 0.014561931718301922,
+   "accept_rate": 0.7418032786885246,
+   "rows_per_step": 9.908256880733944,
+   "first_diff_vs_plain": null
+  },
+  {
+   "level": 8,
+   "arm": "plain",
+   "tok_s": 109.07173590254726,
+   "mj_per_token": 147.91818511811022,
+   "reps": [
+    {
+     "tok_s": 109.04983000826186,
+     "mj_per_token": 147.61729228346456,
+     "tokens": 1016,
+     "seconds": 9.316841666997789,
+     "j_per_iter": 0.14761729228346457,
+     "s_per_iter": 0.009170119750982076
+    },
+    {
+     "tok_s": 109.09364179683267,
+     "mj_per_token": 148.2190779527559,
+     "tokens": 1016,
+     "seconds": 9.31310004199986,
+     "j_per_iter": 0.1482190779527559,
+     "s_per_iter": 0.00916643704921246
+    }
+   ],
+   "j_per_iter": 0.14791818511811022,
+   "s_per_iter": 0.009168278400097268,
+   "accept_rate": null,
+   "rows_per_step": null,
+   "first_diff_vs_plain": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "notes": "Batched MTP speculative decoding (spec_decode.SpecBatch) vs the plain engine, B requests decoding together.\n\nPer level B: B chat prompts (PROMPTS cycled; different lengths), 128 new tokens each, EOS ignored, greedy.\n- plain: Engine(overlap=True, max_running=B), all B requests added at once.\n- mtp-k0 .. mtp-k3: SpecBatch with a fixed k. mtp-auto: a per-request DraftPolicy in energy mode, with the cost\n  table measured per batch size (--batch-cost, written by --calibrate from the mtp-k0..k3 arms: GPU joules per\n  request-iteration in the decode window), or else the one-request calibration scaled by batch_energy_cost.\nMeasured over the decode window only (from the step after which every request has its first token to the last\ntoken): tok/s = tokens in the window / window seconds; GPU mJ/token over the same window (IOReport GPU rail).\nEach arm: one warm-up, then --reps runs; medians. Token agreement: each arm's output vs the plain engine's, first\ndiffering position per request.\n\n    python tools/mlx_spec_batch.py --model <mlx 9B dir> --levels 1,2,4,8 --out results/mlx/spec_batch_9b/r1.json\n",
+ "time": "2026-11-18T02:16:04"
+}

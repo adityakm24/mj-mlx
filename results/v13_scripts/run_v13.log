@@ -1,0 +1,16 @@
+== B suite v13 gpt-oss 09:39:01
+B exit 0 10:18:40
+kernel lines     3073 -> results/bench_suite/v13_gptoss/kernel_log_excerpts.txt
+== C soak mj-x 10:19:45
+C exit 0 11:25:21
+kernel lines        3 -> results/gptoss_soak_v1/kernel_log_excerpts.txt
+== D long context 11:26:28
+D1 exit 0 11:36:18
+D2 exit 0 12:10:26
+kernel lines     4105 -> results/bench_suite/v13_long_gptoss/kernel_log_excerpts_d.txt
+all done 12:10:32
+started local.service-a
+started local.service-b
+started sh.brew.openshell
+started local.dev-backend
+cleanup done 12:10:32

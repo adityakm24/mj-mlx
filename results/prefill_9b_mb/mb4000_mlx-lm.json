@@ -1,0 +1,25 @@
+{
+ "engine": "mlx-lm 0.32.2",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "experts": null,
+ "slots": null,
+ "model_note": "",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 2.3621450410028046,
+   "ttft_min_s": 2.362078249996557,
+   "ttft_max_s": 2.362339957999211,
+   "prefill_tok_s": 216.75214312099988
+  },
+  {
+   "prompt_tokens": 2048,
+   "ttft_s": 9.271291332999681,
+   "ttft_min_s": 9.268919417001598,
+   "ttft_max_s": 9.274300500001118,
+   "prefill_tok_s": 220.89695237064453
+  }
+ ]
+}

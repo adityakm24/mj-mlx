@@ -1,0 +1,61 @@
+{
+ "arm": "mj-overlap",
+ "engine": "mj-overlap",
+ "round": 2,
+ "weights": "mlx-community/Qwen3.5-9B-MLX-4bit",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "url": null,
+ "model_id": null,
+ "prompt": "256 ids from RandomState(0).randint(0, 200000)",
+ "prompt_len": 256,
+ "spec": null,
+ "new_tokens": 128,
+ "metric_notes": "Single-request decode, any engine on this Mac, measured the same way: one 256-token prompt, 128 new tokens.\n\nPer run, after one unmeasured warm-up run:\n- decode_ms_per_token: (time of last token - time of first token) / (tokens - 1). The prompt's prefill is excluded.\n- gpu_mj_per_token: IOReport GPU-rail energy over the same first-to-last-token window / (tokens - 1). This is\n  whole-GPU energy including idle, so other apps count too; Mac-only.\n- decode_gap_median_ms / _max_ms: median and max time between token arrivals (a chunk of several tokens counts once).\n- --diff (openai only): decode ms and mJ per token = (128-token request - 32-token request) / token difference,\n  unstreamed. Used for LM Studio, whose MLX stream holds back early tokens: streaming timing understated its\n  ms/token (42-44 streamed vs 54.4 by difference, 2026-11-17).\n- ttft_s: request start to first token (includes the prefill of the 256 prompt tokens).\n\nEngines:\n- mj, mj-overlap, mlx-lm: in-process, on the MLX checkpoint, with the exact token ids.\n- mj-mtp: in-process, speculative decoding with the checkpoint's MTP head (spec_decode.py; --mtp, --k,\n  --draft-vocab). Greedy output is bit-identical to mj's (checked by tools/mlx_spec_decode.py).\n\nPrompts (--prompt): random = 256 ids from RandomState(0) (the default; hard for any draft model: the context is\nnoise), chat = the checkpoint's chat template around CHAT_PROMPT (thinking off), the same ids for every engine.\n- llama-server: llama.cpp's HTTP server, /completion with the exact token ids, ignore_eos, streamed.\n- openai: any OpenAI-compatible server (LM Studio) on /v1/completions. It takes text, so the prompt is the\n  checkpoint tokenizer's decode of the same ids. EOS cannot be ignored, so a run that stops early is recorded\n  with its real token count and flagged short. Tokens are the server's usage count (a streamed chunk may carry\n  several tokens); the window still runs first chunk to last chunk, so a multi-token first chunk slightly\n  understates ms/token. LM Studio reuses a cached prompt across requests, so its ttft_s is not a prefill time.\n",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "runs": [
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 49.79972309509923,
+   "gpu_mj_per_token": 437.17761360629925,
+   "decode_gap_median_ms": 49.624750041402876,
+   "decode_gap_max_ms": 54.42404199857265,
+   "gpu_w": 8.774121507582919,
+   "gpu_active_pct": 99.95807487114392,
+   "ttft_s": 1.2360346668865532,
+   "window_s": 6.324564833077602,
+   "gpu_j": 55.521556928,
+   "chunks": 128,
+   "rep": 0
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 49.373679134378754,
+   "gpu_mj_per_token": 435.0243429291339,
+   "decode_gap_median_ms": 49.34000002685934,
+   "decode_gap_max_ms": 52.148542017675936,
+   "gpu_w": 8.808413856655182,
+   "gpu_active_pct": 99.95505297020084,
+   "ttft_s": 1.2459965839516371,
+   "window_s": 6.2704572500661016,
+   "gpu_j": 55.248091552000005,
+   "chunks": 128,
+   "rep": 1
+  },
+  {
+   "tokens": 128,
+   "decode_ms_per_token": 49.076699803025996,
+   "gpu_mj_per_token": 433.13784907086614,
+   "decode_gap_median_ms": 49.2611670633778,
+   "decode_gap_max_ms": 51.33433302398771,
+   "gpu_w": 8.823276229419559,
+   "gpu_active_pct": 99.95220260907537,
+   "ttft_s": 1.2434909580042586,
+   "window_s": 6.232740874984302,
+   "gpu_j": 55.008506832,
+   "chunks": 128,
+   "rep": 2
+  }
+ ],
+ "engine_name": "mj-overlap"
+}

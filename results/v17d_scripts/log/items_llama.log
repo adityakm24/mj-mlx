@@ -1,0 +1,3 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_lm_eval.py --engine llama-server --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --tasks gsm8k --chat --every 4 --effort low --idx 243,337,452,694,931,1167,1182,1,8,25,47,84 --full-text --out results/lm_eval_chat_v1/gptoss_llama_items_full.json
+gsm8k: 0.8333 +- 0.1076 (n 12)

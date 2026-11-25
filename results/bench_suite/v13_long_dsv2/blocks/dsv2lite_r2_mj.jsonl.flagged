@@ -1,0 +1,1 @@
+block failed (exit 1): RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).

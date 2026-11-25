@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T00:06:20",
+ "top_cpu": [
+  "4122 PerfPowerService 52.6",
+  "693 identityservices 11.1",
+  "640 usernotification 6.5",
+  "0 kernel_task 5.8",
+  "4126 top 4.9",
+  "773 NotificationCent 3.9",
+  "384 apsd 3.5",
+  "513 symptomsd 2.9"
+ ],
+ "swap": "total = 5120.00M  used = 3783.50M  free = 1336.50M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 2.00 1.67 2.43 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3783.5
+}

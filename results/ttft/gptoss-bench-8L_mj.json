@@ -1,0 +1,30 @@
+{
+ "engine": "millijoule mlx runner",
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-8L",
+ "model_note": "",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 128,
+   "ttft_s": 0.1633010829682462,
+   "ttft_min_s": 0.16126787499524653,
+   "ttft_max_s": 0.16616037499625236,
+   "prefill_tok_s": 783.8282372254049
+  },
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 0.5063197080162354,
+   "ttft_min_s": 0.5027099589933641,
+   "ttft_max_s": 0.5072399170021527,
+   "prefill_tok_s": 1011.2187850755801
+  },
+  {
+   "prompt_tokens": 2048,
+   "ttft_s": 2.0162614170112647,
+   "ttft_min_s": 1.895778792037163,
+   "ttft_max_s": 2.023191374959424,
+   "prefill_tok_s": 1015.7413035437547
+  }
+ ]
+}

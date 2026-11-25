@@ -1,0 +1,21 @@
+{
+ "start": "2026-11-21T14:26:33",
+ "args": {
+  "models": "olmoe",
+  "engines": "mj,mlx-lm,llama.cpp,vllm-mlx",
+  "tests": "pp512,pp2048,tg128@d0,tg128@d2048",
+  "reps": 1,
+  "llama_reps": 0,
+  "rounds": 1,
+  "round0": 1,
+  "cooldown": 30,
+  "summary_only": false,
+  "out": "results/repro/quick_smoke_20261121/olmoe-decode"
+ },
+ "git": "1b7919b452647da0ab2d4dbfe1b2f76ad9fe7143",
+ "llama_bench": "d_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/1.0.0/libexec/libggml-cpu-apple_m4.so\nversion: 1.0.0 (build 12359, commit b1b770d90)\nbuilt with AppleClang 21.0.0.21000401 for Darwin arm64",
+ "mlx": "0.32.4 0.32.2",
+ "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t27.3\nBuildVersion:\t\t26C5047e",
+ "chip": "Apple M4",
+ "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23461987)\t80%; AC attached; not charging present: true"
+}

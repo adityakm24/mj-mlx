@@ -1,0 +1,12 @@
+{
+ "engine": "ollama-gguf",
+ "peak_footprint_gb": 1.587211376,
+ "peak_resident_gb": 11.034443776,
+ "samples": 352,
+ "per_pid_gb": {
+  "15818": 0.015631128,
+  "15829": 1.571678552
+ },
+ "swapins_gb": 1.37027584,
+ "swapouts_gb": 1.96149248
+}

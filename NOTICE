@@ -1,0 +1,69 @@
+mj-mlx
+Copyright 2026 the MilliJoule authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE). It includes code adapted from the
+third-party projects below. Each adapted file keeps its original copyright and licence notice in its header and states
+what was changed.
+
+-------------------------------------------------------------------------------------------------------------------
+mlx-lm (https://github.com/ml-explore/mlx-lm)
+Copyright © 2023 Apple Inc. (as in mlx-lm's LICENSE; gpt_oss.py's header names 2023-2025, the years of the files used)
+MIT License
+
+  src/mj_mlx/gpt_oss.py adapts mlx_lm/models/gpt_oss.py, switch_layers.py, activations.py and
+  rope_utils.py. Changes: paged KV through MilliJoule block tables, flat varlen token batches, YaRN RoPE honouring
+  `truncate`, fused gate/up expert projection, float32 "precise" residual and router, low-bit lm_head candidates
+  with float32 rescoring.
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+  documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+  the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+  the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+  OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-------------------------------------------------------------------------------------------------------------------
+MLX (https://github.com/ml-explore/mlx)
+Copyright © 2023 Apple Inc.
+MIT License (same terms as above)
+
+  src/mj_mlx/qmv_rows.py generates a Metal kernel that mirrors the arithmetic of MLX's qmv_fast
+  kernel (4-bit, group size 64) for 2-4 rows. src/mj_mlx/qmm_small.py builds its kernel at run time
+  against the steel BlockMMA / BlockLoader / QuantizedBlockLoader headers of the user's installed MLX; those headers
+  are read from the MLX installation and are not copied into this repository.
+
+-------------------------------------------------------------------------------------------------------------------
+Hugging Face transformers (https://github.com/huggingface/transformers)
+Copyright The Qwen team, Alibaba Group and the HuggingFace Inc. team, and the respective model authors
+Apache License, Version 2.0
+
+  src/mj_mlx/qwen3_5_moe.py and gated_delta.py are written from
+  models/qwen3_5_moe/modeling_qwen3_5_moe.py. Changes: MLX reimplementation for flat varlen steps with paged KV and
+  per-request recurrent-state slots, folded zero-centered RMSNorm weights, fused projections, a Metal
+  gated-delta-rule kernel, vectorized causal conv, optional float32 residual and router.
+
+  src/mj_mlx/moe_lm.py is written from the modeling files of mixtral, qwen2_moe, qwen3_moe, olmoe,
+  deepseek_v2, deepseek_v3 and glm4_moe. Changes: one configurable MLX model over one flat varlen step with paged KV;
+  MLA attention as single-head attention over the latent cache (weight absorption); routers in float32.
+
+-------------------------------------------------------------------------------------------------------------------
+Evaluation data (not code; used by tools/mlx_lm_eval.py and tools/mlx_accuracy_ppl.py)
+
+  results/accuracy/mmlu_subset.jsonl: 1,140 questions and dev examples from MMLU (Hendrycks et al.), via the Hugging
+  Face dataset cais/mmlu. MIT License. Changes: a seeded subset of 20 test questions per subject with 5 dev shots each.
+
+  results/accuracy/gsm8k_subset.jsonl: 250 problems and 5 training examples from GSM8K (Cobbe et al., OpenAI), via the
+  Hugging Face dataset openai/gsm8k. MIT License. Changes: a seeded subset.
+
+  results/accuracy/wiki.test.raw: the WikiText-2 raw test split (Merity et al.), via Salesforce/wikitext. Creative
+  Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0). Changes: rows joined into one text.
+
+-------------------------------------------------------------------------------------------------------------------
+Planned sources (not yet included): SGLang (Apache-2.0: keep its LICENSE and NOTICE, state changes), FlashInfer
+(Apache-2.0), CUTLASS (BSD-3-Clause).

@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T00:17:25",
+ "top_cpu": [
+  "17255 top 5.0",
+  "572 opendirectoryd 3.1",
+  "0 kernel_task 2.9",
+  "17254 ReportMemoryExce 2.5",
+  "1400 node 1.4",
+  "581 locationd 1.1",
+  "674 airportd 0.9",
+  "713 com.apple.Driver 0.8"
+ ],
+ "swap": "total = 5120.00M  used = 3779.94M  free = 1340.06M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 85%",
+ "loadavg": "{ 2.60 2.24 2.21 }"
+}

@@ -1,0 +1,13 @@
+start 06:00:16
+state: total = 5120.00M  used = 4367.25M  free = 752.75M  (encrypted) | System-wide memory free percentage: 85% | top: mds_stores 8.6; ReportMemoryExce 8.2; kernel_task 6.9
+r1 mb150 {"pair": "r1", "state_layout": "per_slot", "slots": 96, "speculate": true, "attn_bits": null, "attn_pack": false, "page_cache": false, "prefetch": true, "prefetch_issued": 2387, "prefetch_used": 1989, "spec_used": 1134, "spec_wasted": 1386, "resident_gb": 8.188, "expert_budget_gb": 6.795, "map_experts": null, "wired_mb": 12124, "load_s": 5.571, "prompt_tokens": 512, "new_tokens": 64, "ttft_s": 6.5
+r1 mb40 {"pair": "r1", "state_layout": "per_slot", "slots": 96, "speculate": true, "attn_bits": null, "attn_pack": false, "page_cache": false, "prefetch": true, "prefetch_issued": 2387, "prefetch_used": 1989, "spec_used": 1134, "spec_wasted": 1386, "resident_gb": 8.188, "expert_budget_gb": 6.795, "map_experts": null, "wired_mb": 12124, "load_s": 0.795, "prompt_tokens": 512, "new_tokens": 64, "ttft_s": 5.4
+r1 llama 512 0 16.19
+r1 llama 0 64 3.19
+state: total = 5120.00M  used = 4005.81M  free = 1114.19M  (encrypted) | System-wide memory free percentage: 75% | top: kernel_task 30.7; WindowServer 20.5; dasd 19.8
+r2 llama 512 0 13.85
+r2 llama 0 64 2.66
+r2 mb40 {"pair": "r2", "state_layout": "per_slot", "slots": 96, "speculate": true, "attn_bits": null, "attn_pack": false, "page_cache": false, "prefetch": true, "prefetch_issued": 2387, "prefetch_used": 1989, "spec_used": 1134, "spec_wasted": 1386, "resident_gb": 8.188, "expert_budget_gb": 6.795, "map_experts": null, "wired_mb": 12124, "load_s": 0.966, "prompt_tokens": 512, "new_tokens": 64, "ttft_s": 6.2
+r2 mb150 {"pair": "r2", "state_layout": "per_slot", "slots": 96, "speculate": true, "attn_bits": null, "attn_pack": false, "page_cache": false, "prefetch": true, "prefetch_issued": 2387, "prefetch_used": 1989, "spec_used": 1134, "spec_wasted": 1386, "resident_gb": 8.188, "expert_budget_gb": 6.795, "map_experts": null, "wired_mb": 12124, "load_s": 0.7, "prompt_tokens": 512, "new_tokens": 64, "ttft_s": 5.639
+state: total = 5120.00M  used = 4261.00M  free = 859.00M  (encrypted) | System-wide memory free percentage: 78% | top: WindowServer 20.6; kernel_task 5.9; top 5.2
+done 06:07:24

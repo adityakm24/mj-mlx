@@ -1,0 +1,180 @@
+{
+ "experiment": "batch-1 decode, overlap scheduling vs plain loop vs mlx-lm vs hand-pipelined prototype",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "model_note": "released checkpoint mlx-community/Qwen3.5-9B-MLX-4bit (qwen3_5, dense)",
+ "prompt": "256 token ids from np.random.RandomState(0).randint(0, 200000, 256)",
+ "prompt_len": 256,
+ "new_tokens": 128,
+ "metric": "ms_per_token = median wall time of one decode step (one new token) within a run. Engine arms: 3 runs per process after one unmeasured warm-up run, each a fresh engine on the same loaded model; mlx-lm: median over generate_step yields after the first; mj arms: median Engine.step() after the prefill step. Prototype (scratchpad pipe_proto.py, bypasses the scheduler, fixed block table): sync, pipelined, sync, pipelined after one warm-up, median of steps 3+",
+ "order": "r1: mlx-lm, mj_plain, mj_overlap, prototype; r2: prototype, mj_overlap, mj_plain, mlx-lm; one process per arm",
+ "energy": "not measured in this run (direct timing only); see the mlx_bench --overlap ABAB",
+ "tokens_note": "prototype sync vs pipelined gave identical tokens; mj overlap vs plain token identity is covered by tests/mlx/test_overlap.py, not checked in this timing run",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "mlx": "0.32.4",
+ "date": "2026-11-17",
+ "code_commit": "ffbd867",
+ "raw_log": "== r1 mlx-lm\nmlx-lm   decode ms/token: [np.float64(47.63), np.float64(49.14), np.float64(47.34)]  -> 21.0 tok/s\n== r1 mj\nmj       decode ms/token: [np.float64(54.04), np.float64(54.62), np.float64(54.24)]  -> 18.4 tok/s\n== r1 mj-overlap\nmj-overlap decode ms/token: [np.float64(47.82), np.float64(47.78), np.float64(47.78)]  -> 20.9 tok/s\n== r1 proto\nsync 54.05 / 54.30 ms/token; pipelined 47.77 / 47.88 ms/token; same tokens True\n== r2 proto\nsync 54.61 / 54.44 ms/token; pipelined 47.59 / 47.71 ms/token; same tokens True\n== r2 mj-overlap\nmj-overlap decode ms/token: [np.float64(47.7), np.float64(47.79), np.float64(47.57)]  -> 21.0 tok/s\n== r2 mj\nmj       decode ms/token: [np.float64(56.37), np.float64(53.72), np.float64(54.13)]  -> 18.5 tok/s\n== r2 mlx-lm\nmlx-lm   decode ms/token: [np.float64(46.84), np.float64(46.14), np.float64(49.27)]  -> 21.3 tok/s\n\n[exited with code 0]\n",
+ "runs": [
+  {
+   "round": 1,
+   "arm": "mlx-lm",
+   "rep": 0,
+   "ms_per_token": 47.63
+  },
+  {
+   "round": 1,
+   "arm": "mlx-lm",
+   "rep": 1,
+   "ms_per_token": 49.14
+  },
+  {
+   "round": 1,
+   "arm": "mlx-lm",
+   "rep": 2,
+   "ms_per_token": 47.34
+  },
+  {
+   "round": 1,
+   "arm": "mj_plain",
+   "rep": 0,
+   "ms_per_token": 54.04
+  },
+  {
+   "round": 1,
+   "arm": "mj_plain",
+   "rep": 1,
+   "ms_per_token": 54.62
+  },
+  {
+   "round": 1,
+   "arm": "mj_plain",
+   "rep": 2,
+   "ms_per_token": 54.24
+  },
+  {
+   "round": 1,
+   "arm": "mj_overlap",
+   "rep": 0,
+   "ms_per_token": 47.82
+  },
+  {
+   "round": 1,
+   "arm": "mj_overlap",
+   "rep": 1,
+   "ms_per_token": 47.78
+  },
+  {
+   "round": 1,
+   "arm": "mj_overlap",
+   "rep": 2,
+   "ms_per_token": 47.78
+  },
+  {
+   "round": 1,
+   "arm": "prototype_sync",
+   "rep": 0,
+   "ms_per_token": 54.05
+  },
+  {
+   "round": 1,
+   "arm": "prototype_sync",
+   "rep": 1,
+   "ms_per_token": 54.3
+  },
+  {
+   "round": 1,
+   "arm": "prototype_pipelined",
+   "rep": 0,
+   "ms_per_token": 47.77,
+   "same_tokens_all_proto_runs": true
+  },
+  {
+   "round": 1,
+   "arm": "prototype_pipelined",
+   "rep": 1,
+   "ms_per_token": 47.88,
+   "same_tokens_all_proto_runs": true
+  },
+  {
+   "round": 2,
+   "arm": "prototype_sync",
+   "rep": 0,
+   "ms_per_token": 54.61
+  },
+  {
+   "round": 2,
+   "arm": "prototype_sync",
+   "rep": 1,
+   "ms_per_token": 54.44
+  },
+  {
+   "round": 2,
+   "arm": "prototype_pipelined",
+   "rep": 0,
+   "ms_per_token": 47.59,
+   "same_tokens_all_proto_runs": true
+  },
+  {
+   "round": 2,
+   "arm": "prototype_pipelined",
+   "rep": 1,
+   "ms_per_token": 47.71,
+   "same_tokens_all_proto_runs": true
+  },
+  {
+   "round": 2,
+   "arm": "mj_overlap",
+   "rep": 0,
+   "ms_per_token": 47.7
+  },
+  {
+   "round": 2,
+   "arm": "mj_overlap",
+   "rep": 1,
+   "ms_per_token": 47.79
+  },
+  {
+   "round": 2,
+   "arm": "mj_overlap",
+   "rep": 2,
+   "ms_per_token": 47.57
+  },
+  {
+   "round": 2,
+   "arm": "mj_plain",
+   "rep": 0,
+   "ms_per_token": 56.37
+  },
+  {
+   "round": 2,
+   "arm": "mj_plain",
+   "rep": 1,
+   "ms_per_token": 53.72
+  },
+  {
+   "round": 2,
+   "arm": "mj_plain",
+   "rep": 2,
+   "ms_per_token": 54.13
+  },
+  {
+   "round": 2,
+   "arm": "mlx-lm",
+   "rep": 0,
+   "ms_per_token": 46.84
+  },
+  {
+   "round": 2,
+   "arm": "mlx-lm",
+   "rep": 1,
+   "ms_per_token": 46.14
+  },
+  {
+   "round": 2,
+   "arm": "mlx-lm",
+   "rep": 2,
+   "ms_per_token": 49.27
+  }
+ ]
+}

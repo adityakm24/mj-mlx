@@ -1,0 +1,86 @@
+== q30b_r1_mj 10:41:29 swap 3539 MB
+  q30b_r1_mj pp512 rep 0: 202.25 tok/s, 16 mJ/token GPU
+  q30b_r1_mj pp512 rep 1: 207.99 tok/s, 18 mJ/token GPU
+  q30b_r1_mj pp512 rep 2: 199.08 tok/s, 19 mJ/token GPU
+  q30b_r1_mj pp512 rep 3: 195.16 tok/s, 16 mJ/token GPU
+  q30b_r1_mj pp512 rep 4: 178.68 tok/s, 17 mJ/token GPU
+  q30b_r1_mj pp2048 rep 0: 291.56 tok/s, 38 mJ/token GPU
+  q30b_r1_mj pp2048 rep 1: 293.02 tok/s, 38 mJ/token GPU
+  q30b_r1_mj pp2048 rep 2: 293.92 tok/s, 38 mJ/token GPU
+  q30b_r1_mj pp2048 rep 3: 285.99 tok/s, 39 mJ/token GPU
+  q30b_r1_mj pp2048 rep 4: 286.26 tok/s, 39 mJ/token GPU
+  q30b_r1_mj tg128@d0 rep 0: 34.71 tok/s, ttft 0.24 s, 212 mJ/token GPU
+  q30b_r1_mj tg128@d0 rep 1: 22.76 tok/s, ttft 0.19 s, 220 mJ/token GPU
+  q30b_r1_mj tg128@d0 rep 2: 22.84 tok/s, ttft 0.34 s, 225 mJ/token GPU
+  q30b_r1_mj tg128@d0 rep 3: 25.28 tok/s, ttft 0.33 s, 217 mJ/token GPU
+  q30b_r1_mj tg128@d0 rep 4: 25.46 tok/s, ttft 0.31 s, 216 mJ/token GPU
+  q30b_r1_mj tg128@d2048 rep 0: 28.63 tok/s, ttft 7.23 s, 296 mJ/token GPU
+  q30b_r1_mj tg128@d2048 rep 1: 28.67 tok/s, ttft 7.19 s, 298 mJ/token GPU
+  q30b_r1_mj tg128@d2048 rep 2: 28.44 tok/s, ttft 7.15 s, 300 mJ/token GPU
+  q30b_r1_mj tg128@d2048 rep 3: 28.60 tok/s, ttft 7.31 s, 302 mJ/token GPU
+  q30b_r1_mj tg128@d2048 rep 4: 28.43 tok/s, ttft 7.36 s, 304 mJ/token GPU
+  FLAGGED: swap grew 641 MB
+== q30b_r1_llama.cpp 10:46:25 swap 4149 MB
+llama.cpp pp512: 15.57 +- 0.40 tok/s
+llama.cpp pp2048: 13.35 +- 0.31 tok/s
+llama.cpp tg128@d0: 2.71 +- 0.45 tok/s
+llama.cpp tg128@d2048: 3.57 +- 0.59 tok/s
+== q30b_r2_llama.cpp 11:10:40 swap 3845 MB
+llama.cpp pp512: 14.41 +- 1.02 tok/s
+llama.cpp pp2048: 13.21 +- 0.33 tok/s
+llama.cpp tg128@d0: 2.66 +- 0.26 tok/s
+llama.cpp tg128@d2048: 3.69 +- 0.65 tok/s
+  FLAGGED: swap grew 706 MB
+== q30b_r2_mj 11:35:12 swap 4422 MB
+  q30b_r2_mj pp512 rep 0: 192.70 tok/s, 18 mJ/token GPU
+  q30b_r2_mj pp512 rep 1: 177.46 tok/s, 17 mJ/token GPU
+  q30b_r2_mj pp512 rep 2: 187.17 tok/s, 19 mJ/token GPU
+  q30b_r2_mj pp512 rep 3: 194.62 tok/s, 17 mJ/token GPU
+  q30b_r2_mj pp512 rep 4: 188.72 tok/s, 19 mJ/token GPU
+  q30b_r2_mj pp2048 rep 0: 292.50 tok/s, 39 mJ/token GPU
+  q30b_r2_mj pp2048 rep 1: 288.90 tok/s, 39 mJ/token GPU
+  q30b_r2_mj pp2048 rep 2: 294.33 tok/s, 40 mJ/token GPU
+  q30b_r2_mj pp2048 rep 3: 295.65 tok/s, 39 mJ/token GPU
+  q30b_r2_mj pp2048 rep 4: 287.40 tok/s, 39 mJ/token GPU
+  q30b_r2_mj tg128@d0 rep 0: 25.91 tok/s, ttft 0.34 s, 232 mJ/token GPU
+  q30b_r2_mj tg128@d0 rep 1: 30.97 tok/s, ttft 0.32 s, 226 mJ/token GPU
+  q30b_r2_mj tg128@d0 rep 2: 23.33 tok/s, ttft 0.23 s, 217 mJ/token GPU
+  q30b_r2_mj tg128@d0 rep 3: 34.28 tok/s, ttft 0.25 s, 217 mJ/token GPU
+  q30b_r2_mj tg128@d0 rep 4: 24.05 tok/s, ttft 0.14 s, 230 mJ/token GPU
+  q30b_r2_mj tg128@d2048 rep 0: 27.79 tok/s, ttft 7.26 s, 307 mJ/token GPU
+  q30b_r2_mj tg128@d2048 rep 1: 28.25 tok/s, ttft 7.21 s, 310 mJ/token GPU
+  q30b_r2_mj tg128@d2048 rep 2: 27.23 tok/s, ttft 7.20 s, 313 mJ/token GPU
+  q30b_r2_mj tg128@d2048 rep 3: 19.14 tok/s, ttft 7.03 s, 325 mJ/token GPU
+  q30b_r2_mj tg128@d2048 rep 4: 28.80 tok/s, ttft 7.30 s, 313 mJ/token GPU
+# Benchmark suite summary
+
+Protocol: results/mlx/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## Qwen3-30B-A3B (17.2 GB 4-bit, bigger than RAM; general MoE model)
+
+Weights: ours: mlx-community 4-bit g64, experts placed by memory (streamed from the SSD, 64 slots/layer); llama.cpp: Qwen Q4_K_M, experts on the CPU (-ncmoe 48)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token |
+| --- | --- | --- | --- | --- | --- | --- |
+| llama.cpp | pp512 | 15.57 +- 0.40 | 14.58-16.57 | 2.6% | 3 | - |
+| mj | pp512 | 188.13 +- 6.68 | 179.83-196.43 | 3.5% | 5 | 18 |
+| llama.cpp | pp2048 | 13.35 +- 0.31 | 12.56-14.13 | 2.4% | 3 | - |
+| mj | pp2048 | 291.75 +- 3.52 | 287.38-296.13 | 1.2% | 5 | 39 |
+| llama.cpp | tg128@d0 | 2.71 +- 0.45 | 1.60-3.81 | 16.5% | 3 | - |
+| mj | tg128@d0 | 27.71 +- 4.73 | 21.82-33.60 | 17.1% | 5 | 224 |
+| llama.cpp | tg128@d2048 | 3.57 +- 0.59 | 2.11-5.03 | 16.4% | 3 | - |
+| mj | tg128@d2048 | 26.24 +- 4.01 | 21.25-31.23 | 15.3% | 5 | 314 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama.cpp | pp512 | 14.41 +- 1.02 (13.24-15.10) | 3 |
+| mj | pp512 | 196.63 +- 11.08 (178.68-207.99) | 5 |
+| llama.cpp | pp2048 | 13.21 +- 0.33 (12.87-13.53) | 3 |
+| mj | pp2048 | 290.15 +- 3.77 (285.99-293.92) | 5 |
+| llama.cpp | tg128@d0 | 2.66 +- 0.26 (2.44-2.95) | 3 |
+| mj | tg128@d0 | 26.21 +- 4.92 (22.76-34.71) | 5 |
+| llama.cpp | tg128@d2048 | 3.69 +- 0.65 (2.94-4.09) | 3 |
+| mj | tg128@d2048 | 28.55 +- 0.11 (28.43-28.67) | 5 |
+

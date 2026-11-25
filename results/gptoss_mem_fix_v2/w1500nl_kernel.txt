@@ -1,0 +1,20 @@
+2026-11-21 09:32:57.555 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) aslmanager [414] due to idle-exit (9)
+2026-11-21 09:32:57.556 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 414 [aslmanager] (idle-exit 0 27648s rf:- type:daemon) 1328KB - memorystatus_available_pages: 49941 compressor_size:50986
+2026-11-21 09:32:58.557 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) mdworker [2862] due to idle-exit (9)
+2026-11-21 09:32:58.561 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 2862 [mdworker] (idle-exit 0 27628s rf:- type:daemon) 3280KB - memorystatus_available_pages: 58880 compressor_size:52299
+2026-11-21 09:32:59.562 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) PasswordBreachAgent [2871] due to idle-exit (9)
+2026-11-21 09:32:59.568 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 2871 [PasswordBreachAgent] (idle-exit 0 27627s rf:- type:daemon) 3424KB - memorystatus_available_pages: 69970 compressor_size:52020
+2026-11-21 09:33:00.822 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) com.apple.audio.SandboxHelper [3081] due to idle-exit (9)
+2026-11-21 09:33:00.829 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 3081 [com.apple.audio.SandboxHelper] (idle-exit 0 27558s rf:- type:daemon) 2880KB - memorystatus_available_pages: 69221 compressor_size:51951
+2026-11-21 09:33:07.307 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) SetStoreUpdateService [3203] due to idle-exit (9)
+2026-11-21 09:33:07.309 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 3203 [SetStoreUpdateService] (idle-exit 0 27537s rf:- type:daemon) 2848KB - memorystatus_available_pages: 50441 compressor_size:50510
+2026-11-21 09:33:08.851 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) MTLCompilerService [720] due to idle-exit (9)
+2026-11-21 09:33:08.854 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 720 [MTLCompilerService] (idle-exit 0 27537s rf:- type:daemon) 15504KB - memorystatus_available_pages: 56612 compressor_size:58145
+2026-11-21 09:33:09.855 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) assessmentagent [3216] due to idle-exit (9)
+2026-11-21 09:33:09.860 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 3216 [assessmentagent] (idle-exit 0 27538s rf:high type:daemon) 3152KB - memorystatus_available_pages: 71357 compressor_size:50661
+2026-11-21 09:33:17.270 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) betaenrollmentd [3992] due to idle-exit (9)
+2026-11-21 09:33:17.273 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 3992 [betaenrollmentd] (idle-exit 0 27343s rf:- type:daemon) 2320KB - memorystatus_available_pages: 49414 compressor_size:50427
+2026-11-21 09:33:18.679 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) betaenrollmentagent [3991] due to idle-exit (9)
+2026-11-21 09:33:18.683 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 3991 [betaenrollmentagent] (idle-exit 0 27344s rf:- type:daemon) 5008KB - memorystatus_available_pages: 47548 compressor_size:53361
+2026-11-21 09:33:19.684 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing (idle) spindump_agent [4289] due to idle-exit (9)
+2026-11-21 09:33:19.687 Df kernel[0:86c] [com.apple.xnu:memorystatus] memorystatus: killing_idle_process pid 4289 [spindump_agent] (idle-exit 0 27248s rf:- type:daemon) 1904KB - memorystatus_available_pages: 59141 compressor_size:53810

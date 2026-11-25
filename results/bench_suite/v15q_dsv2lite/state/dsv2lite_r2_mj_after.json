@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-22T03:03:05",
+ "top_cpu": [
+  "372 mds 46.0",
+  "35357 ospredictiond 25.5",
+  "36247 siriactionsd 16.1",
+  "36249 bird 15.4",
+  "605 mds_stores 13.9",
+  "0 kernel_task 10.1",
+  "1 launchd 9.3",
+  "32290 cloudd 8.4"
+ ],
+ "swap": "total = 3072.00M  used = 2282.56M  free = 789.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 84%",
+ "loadavg": "{ 2.51 1.60 1.89 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2282.56
+}

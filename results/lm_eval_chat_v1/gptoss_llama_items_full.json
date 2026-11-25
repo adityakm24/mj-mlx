@@ -1,0 +1,104 @@
+{
+ "engine": "llama-server",
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "mj_kw": {},
+ "load_s": 0.002282916000694968,
+ "tasks": {
+  "gsm8k": {
+   "n": 12,
+   "acc": 0.8333333333333334,
+   "se": 0.1075828707279838,
+   "seconds": 76.60966870899938,
+   "rows": [
+    {
+     "idx": 1,
+     "pred": 3.0,
+     "gold": 3.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We need total bolts: blue 2, white half of that: 1. So total 3 bolts. End with '#### <number>' meaning '#### 3'.<|end|><|start|>assistant<|channel|>final<|message|>A robe requires 2 bolts of blue fiber and half as many bolts of white fiber.  \nHalf of 2 bolts is 1 bolt.  \nSo the total number of bolts needed is \\(2 + 1 = 3\\).\n\n#### 3"
+    },
+    {
+     "idx": 8,
+     "pred": 45.0,
+     "gold": 45.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Compute distances. First 3h at 60 =>180. Then 4h: first 2h standstill =>0. Next 0.5h at30 =>15. Remaining time: 4-2-0.5=1.5h at80 =>120. Total distance traveled after return attempt: 15+120=135. He started 180 away, then returned? Actually he turned around after 3h, so he was 180 away from home. Then he drives back? He tries to get home in 4h, but he drives 135 back towards home. So remaining distance =180-135=45 miles.<|end|><|start|>assistant<|channel|>final<|message|>John\u2019s first leg:  \n\\(3\\text{ h}\\times 60\\text{ mph}=180\\text{ miles}\\) away from home.\n\nDuring the next 4\u202fh he drives back toward home:\n\n* 2\u202fh of stand\u2011still traffic\u2003\u2192\u20030 miles  \n* 0.5\u202fh at 30\u202fmph\u2003\u2192\u2003\\(0.5\\times30=15\\) miles  \n* Remaining time \\(=4-2-0.5=1.5\\)\u202fh at 80\u202fmph\u2003\u2192\u2003\\(1.5\\times80=120\\) miles  \n\nTotal distance he covers back toward home: \\(15+120=135\\) miles.\n\nHe was 180\u202fmiles from home, so after those 4\u202fh he is\n\n\\(180-135=45\\) miles from home.\n\n**Answer: 45 miles.**  \n#### 45"
+    },
+    {
+     "idx": 25,
+     "pred": 2.0,
+     "gold": 2.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Compute cost: chicken 12, milk 5*3=15, apples 4*1.5=6. Total before pizza: 12+15+6=33. Total paid 50, so pizza cost 17. Each box 8.5, number = 17/8.5=2. So answer 2.<|end|><|start|>assistant<|channel|>final<|message|>Marie\u2019s total cost before pizza is  \n\n- Chicken: \\(12\\)  \n- Milk: \\(5 \\times 3 = 15\\)  \n- Apples: \\(4 \\times 1.50 = 6\\)\n\nAdding these gives \\(12 + 15 + 6 = 33\\).\n\nShe paid \\(50\\) in total, so the pizza cost \\(50 - 33 = 17\\).\n\nEach box of pizza costs \\(8.50\\), so the number of boxes is  \n\n\\[\n\\frac{17}{8.50} = 2.\n\\]\n\nThus Marie ordered **2 boxes of pizza**.  \n\n#### 2"
+    },
+    {
+     "idx": 47,
+     "pred": 800.0,
+     "gold": 800.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We need total spent. Blue ties: cost $40 each, spent $200, so number of blue ties = 200/40 = 5. John buys twice as many red ties: red ties = 10. Red ties cost 50% more than blue ties: blue cost 40, 50% more => 40 * 1.5 = 60. So red ties cost $60 each. Total cost for red ties = 10 * 60 = 600. Total spent = 200 + 600 = 800. End with '#### <number>' where number is answer. So '#### 800'.<|end|><|start|>assistant<|channel|>final<|message|>John bought 5 blue ties at \\$40 each, spending \\$200.  \nHe bought twice as many red ties, so 10 red ties.  \nRed ties cost 50\u202f% more than blue ties: \\$40\u202f\u00d7\u202f1.5 = \\$60 each.  \nCost for red ties = 10\u202f\u00d7\u202f\\$60 = \\$600.  \n\nTotal spent = \\$200 + \\$600 = **\\$800**.  \n\n#### 800"
+    },
+    {
+     "idx": 84,
+     "pred": 15.0,
+     "gold": 15.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Let W wins, L losses, D draws? But only wins and losses? 22 games total. They won 8 more than they lost: W = L + 8. Also W + L = 22. Solve: (L+8)+L=22 => 2L+8=22 => 2L=14 => L=7. W=15. End with '#### 15'.<|end|><|start|>assistant<|channel|>final<|message|>Let \\(W\\) be the number of wins and \\(L\\) the number of losses.  \nThe team played 22 games, so\n\n\\[\nW + L = 22.\n\\]\n\nThey won 8 more games than they lost:\n\n\\[\nW = L + 8.\n\\]\n\nSubstitute \\(W\\) from the second equation into the first:\n\n\\[\n(L + 8) + L = 22 \\;\\Longrightarrow\\; 2L + 8 = 22 \\;\\Longrightarrow\\; 2L = 14 \\;\\Longrightarrow\\; L = 7.\n\\]\n\nThen\n\n\\[\nW = L + 8 = 7 + 8 = 15.\n\\]\n\nSo the team won **15** games.  \n\n#### 15"
+    },
+    {
+     "idx": 243,
+     "pred": 250.0,
+     "gold": 250.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We compute total minutes used: 15 per day *30 =450. plus 300 extra =750. Plan 1000, left 250. Output \"250\" and end with \"#### <number>\"? They want end reply with '#### <number>'. So output: 250 then newline then \"#### 250\".<|end|><|start|>assistant<|channel|>final<|message|>Jason uses 15 minutes per day for 30 days, which is \\(15 \\times 30 = 450\\) minutes.  \nAdding the 300 extra minutes gives \\(450 + 300 = 750\\) minutes used.  \nWith a 1000\u2011minute plan, he has \\(1000 - 750 = 250\\) minutes remaining.\n\n**Answer:** 250 minutes\n\n#### 250"
+    },
+    {
+     "idx": 337,
+     "pred": 1.0,
+     "gold": 1.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>Compute: Luke=2. Thomas=3*2=6. John=half of Thomas=3. Difference John-Luke=3-2=1.<|end|><|start|>assistant<|channel|>final<|message|>Luke ate 2 hot dogs.  \nThomas ate three times as many, so \\(3 \\times 2 = 6\\) hot dogs.  \nJohn ate half of Thomas\u2019s amount, so \\( \\frac{6}{2} = 3\\) hot dogs.  \n\nJohn ate \\(3 - 2 = 1\\) more hot dog than Luke.  \n\n#### 1"
+    },
+    {
+     "idx": 452,
+     "pred": 1.0,
+     "gold": 50.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>Compute distances: 60*2=120 miles, 30*1=30 miles total 150 miles. Time total 3 hours. Average speed = 150/3=50 mph.<|end|><|start|>assistant<|channel|>final<|message|>The car travels  \n- \\(60 \\text{ mph} \\times 2 \\text{ h} = 120\\) miles  \n- \\(30 \\text{ mph} \\times 1 \\text{ h} = 30\\) miles  \n\nTotal distance \\(= 120 + 30 = 150\\) miles.  \nTotal time \\(= 2 + 1 = 3\\) hours.  \n\nAverage speed \\(= \\dfrac{\\text{total distance}}{\\text{total time}} = \\dfrac{150}{3} = 50\\) mph.  \n\n**Answer: 50 mph**  \n#### 1"
+    },
+    {
+     "idx": 694,
+     "pred": 9.0,
+     "gold": 9.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We have 5 times as many regular chairs as high chairs. High chairs =8. So regular chairs =5*8=40. Total chairs needed = adults+babies=42+15=57. She has 8 high +40 regular =48 chairs. Needs 57, so missing 9 chairs. Output \"9\" with ending \"#### <number>\"? They want \"#### <number>\" at end. So \"#### 9\".<|end|><|start|>assistant<|channel|>final<|message|>The restaurant needs a total of \\(42 + 15 = 57\\) chairs.  \nWith 8 high chairs, the number of regular chairs required is \\(5 \\times 8 = 40\\).  \nThus, Mia currently has \\(8 + 40 = 48\\) chairs.  \nShe still needs \\(57 - 48 = 9\\) more chairs.\n\n#### 9"
+    },
+    {
+     "idx": 931,
+     "pred": 50.0,
+     "gold": 50.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We have variables: P=Peter, Pa=Paul, J=Jean. Given: P+Pa+J=100. Paul is 10 years older than John: Pa = J + 10. Peter's age equals sum of Paul and John's age: P = Pa + J. Solve. Substitute: P = (J+10)+J = 2J+10. Sum: (2J+10)+(J+10)+J =100 => 4J+20=100 =>4J=80 => J=20. Then Pa=30. P=2*20+10=50. Answer 50.<|end|><|start|>assistant<|channel|>final<|message|>Let  \n\n- \\(P\\) = Peter\u2019s age  \n- \\(Pa\\) = Paul\u2019s age  \n- \\(J\\) = Jean\u2019s age  \n\nGiven  \n\n1. \\(P + Pa + J = 100\\)  \n2. \\(Pa = J + 10\\)  (Paul is 10 years older than Jean)  \n3. \\(P = Pa + J\\)  (Peter\u2019s age equals the sum of Paul\u2019s and Jean\u2019s ages)\n\nSubstitute (2) into (3):\n\n\\[\nP = (J+10) + J = 2J + 10\n\\]\n\nNow substitute \\(P\\) and \\(Pa\\) into the total\u2011age equation:\n\n\\[\n(2J + 10) + (J + 10) + J = 100\n\\]\n\n\\[\n4J + 20 = 100 \\quad\\Longrightarrow\\quad 4J = 80 \\quad\\Longrightarrow\\quad J = 20\n\\]\n\nThen  \n\n\\[\nPa = J + 10 = 30\n\\]\n\n\\[\nP = 2J + 10 = 2(20) + 10 = 50\n\\]\n\nSo Peter is **50 years old**.  \n\n#### 50"
+    },
+    {
+     "idx": 1167,
+     "pred": 120.0,
+     "gold": 120.0,
+     "ok": true,
+     "text": "<|channel|>analysis<|message|>We compute: Jack starts 100. Sophia gives 1/5 of her 100 = 20. So Jack has 120. End with '#### 120'.<|end|><|start|>assistant<|channel|>final<|message|>Jack starts with \\$100.  \nSophia gives him \\( \\frac{1}{5} \\times 100 = 20 \\) dollars.  \nSo Jack\u2019s total is \\(100 + 20 = 120\\) dollars.\n\n#### 120"
+    },
+    {
+     "idx": 1182,
+     "pred": 1.0,
+     "gold": 1800.0,
+     "ok": false,
+     "text": "<|channel|>analysis<|message|>We have total money 27000. Price per 100 books is 500, so price per book = 5. So 27000/5=5400 books. Distributed between 3 schools equally? Probably equal distribution: 5400/3=1800 books per school.<|end|><|start|>assistant<|channel|>final<|message|>Bob has a total of \\$27\u202f000 to spend.  \nThe price of 100 books is \\$500, so the price of one book is  \n\n\\[\n\\frac{500}{100}=5 \\text{ dollars per book}.\n\\]\n\nWith \\$27\u202f000 he can buy  \n\n\\[\n\\frac{27\\,000}{5}=5\\,400 \\text{ books}.\n\\]\n\nIf the books are distributed evenly among the three schools, each school receives  \n\n\\[\n\\frac{5\\,400}{3}=1\\,800 \\text{ books}.\n\\]\n\nSo Bob can buy **1\u202f800 books per school**.  \n\n#### 1"
+    }
+   ]
+  }
+ },
+ "chat": true,
+ "chat_new": 1024,
+ "effort": "low",
+ "every": 4
+}

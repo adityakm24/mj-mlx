@@ -1,0 +1,20 @@
+{
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-2L",
+ "prompts": 8,
+ "prompt_len": 512,
+ "results": {
+  "8-bit": {
+   "top1_miss_rate": 0.034912109375,
+   "top4_miss_rate": 0.0,
+   "top16_miss_rate": 0.0,
+   "rows": 4096
+  },
+  "4-bit": {
+   "top1_miss_rate": 0.220947265625,
+   "top4_miss_rate": 0.011962890625,
+   "top16_miss_rate": 0.0,
+   "rows": 4096
+  }
+ },
+ "note": "miss = exact (bf16 weights, fp32 math) argmax not in the low-bit head's top-k; random-token prompts on random weights, teacher-forced"
+}

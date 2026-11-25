@@ -1,0 +1,51 @@
+{
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "experts": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss20b-experts",
+ "prompt": "Explain, in a short paragraph, why the sky looks blue during the day and red at sunset, and then list three everyday examples of light scattering.",
+ "rows": [
+  {
+   "slots": 8,
+   "page_cache": true,
+   "prefetch": true,
+   "prefetch_issued": 2068,
+   "prefetch_used": 1835,
+   "resident_gb": 4.160659712,
+   "expert_budget_gb": 2.538602496,
+   "load_s": 1.122583540971391,
+   "prompt_tokens": 97,
+   "new_tokens": 64,
+   "ttft_s": 4.314858250028919,
+   "decode_tok_s": 3.8453080584466037,
+   "decode_hit_rate": 0.9041005291005291,
+   "decode_gb_read": 35.0044416,
+   "gpu_w": 1.4336184297399128,
+   "gpu_j_per_token": 0.4618800263125,
+   "gpu_active_pct": 79.53196253080237,
+   "mlx_peak_gb": 6.041946368,
+   "text": "<|channel|>analysis<|message|>We need to explain why sky looks blue during day and red at sunset. Then list three everyday examples of light scattering. Provide short paragraph. Then list three examples. Should be concise. Use simple language. Provide examples: fog, rainbows, halos, etc. But everyday examples: the blue of the"
+  },
+  {
+   "slots": 16,
+   "page_cache": true,
+   "prefetch": true,
+   "prefetch_issued": 631,
+   "prefetch_used": 557,
+   "resident_gb": 6.698746112,
+   "expert_budget_gb": 5.077204992,
+   "load_s": 4.714213917031884,
+   "prompt_tokens": 97,
+   "new_tokens": 64,
+   "ttft_s": 3.8188053750200197,
+   "decode_tok_s": 6.876951409158395,
+   "decode_hit_rate": 0.9596560846560847,
+   "decode_gb_read": 11.5668,
+   "gpu_w": 3.031757726447809,
+   "gpu_j_per_token": 0.614313466140625,
+   "gpu_active_pct": 86.74750294023109,
+   "mlx_peak_gb": 8.580156248,
+   "text": "<|channel|>analysis<|message|>We need to explain why sky looks blue during day and red at sunset. Then list three everyday examples of light scattering. Provide short paragraph. Then list three examples. Should be concise. Use simple language. Provide examples: fog, rainbows, halos, etc. But everyday examples: the blue of the"
+  }
+ ],
+ "process_peak_rss_gb": 5.68270848,
+ "note": "greedy, batch 1, lean trunk (embed + bf16 lm_head on disk, 4-bit candidate head + fp32 rescore), experts streamed from the repacked files with F_NOCACHE; energy = Mac GPU rail"
+}

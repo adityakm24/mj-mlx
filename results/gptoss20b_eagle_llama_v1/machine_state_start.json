@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T00:30:01",
+ "top_cpu": [
+  "18172 siriactionsd 93.1",
+  "15526 mediaanalysisd 90.3",
+  "608 loginwindow 11.5",
+  "18355 top 5.7",
+  "0 kernel_task 5.0",
+  "1302 Finder 3.9",
+  "604 WindowServer 3.6",
+  "530 logd 2.4"
+ ],
+ "swap": "total = 5120.00M  used = 3864.25M  free = 1255.75M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 2.99 2.16 2.06 }"
+}

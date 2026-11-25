@@ -1,0 +1,764 @@
+{
+ "olmoe": {
+  "model": "OLMoE-1B-7B-0125-Instruct (general MoE model)",
+  "weights": "ours / mlx-lm: mlx-community 4-bit g64 (float16 scales; run in float16); llama.cpp / Ollama (its GGUF runner; its MLX runner rejects OlmoeForCausalLM): allenai Q4_K_M; LM Studio (its MLX engine) and vllm-mlx: the mlx-community 4-bit",
+  "results": {
+   "mj|pp2048": {
+    "engine": "mj",
+    "test": "pp2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 1274.0060341142196,
+     "sd": 0.0,
+     "median": 1274.0060341142196,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1274.0060341142196,
+     "max": 1274.0060341142196
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.015236545868164064,
+     "sd": 0.0,
+     "median": 0.015236545868164064,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.015236545868164064,
+     "max": 0.015236545868164064
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.015236545868164064,
+     "sd": 0.0,
+     "median": 0.015236545868164064,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.015236545868164064,
+     "max": 0.015236545868164064
+    },
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mj|pp512": {
+    "engine": "mj",
+    "test": "pp512",
+    "tok_s": {
+     "n": 1,
+     "mean": 1253.0316268173049,
+     "sd": 0.0,
+     "median": 1253.0316268173049,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1253.0316268173049,
+     "max": 1253.0316268173049
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.014428320552734375,
+     "sd": 0.0,
+     "median": 0.014428320552734375,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.014428320552734375,
+     "max": 0.014428320552734375
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.014428320552734375,
+     "sd": 0.0,
+     "median": 0.014428320552734375,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.014428320552734375,
+     "max": 0.014428320552734375
+    },
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mj|tg128@d0": {
+    "engine": "mj",
+    "test": "tg128@d0",
+    "tok_s": {
+     "n": 1,
+     "mean": 122.18710138524145,
+     "sd": 0.0,
+     "median": 122.18710138524145,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 122.18710138524145,
+     "max": 122.18710138524145
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.07110323090625001,
+     "sd": 0.0,
+     "median": 0.07110323090625001,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.07110323090625001,
+     "max": 0.07110323090625001
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.07110323090625001,
+     "sd": 0.0,
+     "median": 0.07110323090625001,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.07110323090625001,
+     "max": 0.07110323090625001
+    },
+    "ttft_s": {
+     "n": 1,
+     "mean": 0.0260422080027638,
+     "sd": 0.0,
+     "median": 0.0260422080027638,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.0260422080027638,
+     "max": 0.0260422080027638
+    },
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mj|tg128@d2048": {
+    "engine": "mj",
+    "test": "tg128@d2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 97.82034805225044,
+     "sd": 0.0,
+     "median": 97.82034805225044,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 97.82034805225044,
+     "max": 97.82034805225044
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.0895201845,
+     "sd": 0.0,
+     "median": 0.0895201845,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.0895201845,
+     "max": 0.0895201845
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.0895201845,
+     "sd": 0.0,
+     "median": 0.0895201845,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.0895201845,
+     "max": 0.0895201845
+    },
+    "ttft_s": {
+     "n": 1,
+     "mean": 1.6351027089986019,
+     "sd": 0.0,
+     "median": 1.6351027089986019,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1.6351027089986019,
+     "max": 1.6351027089986019
+    },
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mlx-lm|pp2048": {
+    "engine": "mlx-lm",
+    "test": "pp2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 1354.8968268276742,
+     "sd": 0.0,
+     "median": 1354.8968268276742,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1354.8968268276742,
+     "max": 1354.8968268276742
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.014397963939941407,
+     "sd": 0.0,
+     "median": 0.014397963939941407,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.014397963939941407,
+     "max": 0.014397963939941407
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.014397963939941407,
+     "sd": 0.0,
+     "median": 0.014397963939941407,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.014397963939941407,
+     "max": 0.014397963939941407
+    },
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mlx-lm|pp512": {
+    "engine": "mlx-lm",
+    "test": "pp512",
+    "tok_s": {
+     "n": 1,
+     "mean": 1272.713318531276,
+     "sd": 0.0,
+     "median": 1272.713318531276,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1272.713318531276,
+     "max": 1272.713318531276
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.013437130054687501,
+     "sd": 0.0,
+     "median": 0.013437130054687501,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.013437130054687501,
+     "max": 0.013437130054687501
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.013437130054687501,
+     "sd": 0.0,
+     "median": 0.013437130054687501,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.013437130054687501,
+     "max": 0.013437130054687501
+    },
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mlx-lm|tg128@d0": {
+    "engine": "mlx-lm",
+    "test": "tg128@d0",
+    "tok_s": {
+     "n": 1,
+     "mean": 138.92315735384926,
+     "sd": 0.0,
+     "median": 138.92315735384926,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 138.92315735384926,
+     "max": 138.92315735384926
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.0661895950234375,
+     "sd": 0.0,
+     "median": 0.0661895950234375,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.0661895950234375,
+     "max": 0.0661895950234375
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.0661895950234375,
+     "sd": 0.0,
+     "median": 0.0661895950234375,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.0661895950234375,
+     "max": 0.0661895950234375
+    },
+    "ttft_s": {
+     "n": 1,
+     "mean": 0.07205058299587108,
+     "sd": 0.0,
+     "median": 0.07205058299587108,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.07205058299587108,
+     "max": 0.07205058299587108
+    },
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "mlx-lm|tg128@d2048": {
+    "engine": "mlx-lm",
+    "test": "tg128@d2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 94.71911048483356,
+     "sd": 0.0,
+     "median": 94.71911048483356,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 94.71911048483356,
+     "max": 94.71911048483356
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.08807215631250001,
+     "sd": 0.0,
+     "median": 0.08807215631250001,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.08807215631250001,
+     "max": 0.08807215631250001
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.08807215631250001,
+     "sd": 0.0,
+     "median": 0.08807215631250001,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.08807215631250001,
+     "max": 0.08807215631250001
+    },
+    "ttft_s": {
+     "n": 1,
+     "mean": 1.5173990829935065,
+     "sd": 0.0,
+     "median": 1.5173990829935065,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1.5173990829935065,
+     "max": 1.5173990829935065
+    },
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "llama.cpp|pp2048": {
+    "engine": "llama.cpp",
+    "test": "pp2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 1206.35,
+     "sd": 0.0,
+     "median": 1206.35,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1206.35,
+     "max": 1206.35
+    },
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "llama.cpp|pp512": {
+    "engine": "llama.cpp",
+    "test": "pp512",
+    "tok_s": {
+     "n": 1,
+     "mean": 1267.8,
+     "sd": 0.0,
+     "median": 1267.8,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1267.8,
+     "max": 1267.8
+    },
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "llama.cpp|tg128@d0": {
+    "engine": "llama.cpp",
+    "test": "tg128@d0",
+    "tok_s": {
+     "n": 1,
+     "mean": 115.788,
+     "sd": 0.0,
+     "median": 115.788,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 115.788,
+     "max": 115.788
+    },
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "llama.cpp|tg128@d2048": {
+    "engine": "llama.cpp",
+    "test": "tg128@d2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 89.5535,
+     "sd": 0.0,
+     "median": 89.5535,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 89.5535,
+     "max": 89.5535
+    },
+    "j_per_token_gpu": null,
+    "j_per_token_soc": null,
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "vllm-mlx|pp2048": {
+    "engine": "vllm-mlx",
+    "test": "pp2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 1263.6240598245092,
+     "sd": 0.0,
+     "median": 1263.6240598245092,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1263.6240598245092,
+     "max": 1263.6240598245092
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.014702182552180304,
+     "sd": 0.0,
+     "median": 0.014702182552180304,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.014702182552180304,
+     "max": 0.014702182552180304
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.014651930951660157,
+     "sd": 0.0,
+     "median": 0.014651930951660157,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.014651930951660157,
+     "max": 0.014651930951660157
+    },
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "vllm-mlx|pp512": {
+    "engine": "vllm-mlx",
+    "test": "pp512",
+    "tok_s": {
+     "n": 1,
+     "mean": 1033.4281064607546,
+     "sd": 0.0,
+     "median": 1033.4281064607546,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1033.4281064607546,
+     "max": 1033.4281064607546
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.015023070235294119,
+     "sd": 0.0,
+     "median": 0.015023070235294119,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.015023070235294119,
+     "max": 0.015023070235294119
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.0149643863671875,
+     "sd": 0.0,
+     "median": 0.0149643863671875,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.0149643863671875,
+     "max": 0.0149643863671875
+    },
+    "ttft_s": null,
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "vllm-mlx|tg128@d0": {
+    "engine": "vllm-mlx",
+    "test": "tg128@d0",
+    "tok_s": {
+     "n": 1,
+     "mean": 139.48946231316435,
+     "sd": 0.0,
+     "median": 139.48946231316435,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 139.48946231316435,
+     "max": 139.48946231316435
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.067839675875,
+     "sd": 0.0,
+     "median": 0.067839675875,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.067839675875,
+     "max": 0.067839675875
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.067839675875,
+     "sd": 0.0,
+     "median": 0.067839675875,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.067839675875,
+     "max": 0.067839675875
+    },
+    "ttft_s": {
+     "n": 1,
+     "mean": 0.16538537500309758,
+     "sd": 0.0,
+     "median": 0.16538537500309758,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.16538537500309758,
+     "max": 0.16538537500309758
+    },
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   },
+   "vllm-mlx|tg128@d2048": {
+    "engine": "vllm-mlx",
+    "test": "tg128@d2048",
+    "tok_s": {
+     "n": 1,
+     "mean": 99.82147490706383,
+     "sd": 0.0,
+     "median": 99.82147490706383,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 99.82147490706383,
+     "max": 99.82147490706383
+    },
+    "j_per_token_gpu": {
+     "n": 1,
+     "mean": 0.08591487443750001,
+     "sd": 0.0,
+     "median": 0.08591487443750001,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.08591487443750001,
+     "max": 0.08591487443750001
+    },
+    "j_per_token_soc": {
+     "n": 1,
+     "mean": 0.08591487443750001,
+     "sd": 0.0,
+     "median": 0.08591487443750001,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 0.08591487443750001,
+     "max": 0.08591487443750001
+    },
+    "ttft_s": {
+     "n": 1,
+     "mean": 1.6400612500001444,
+     "sd": 0.0,
+     "median": 1.6400612500001444,
+     "ci95": [
+      NaN,
+      NaN
+     ],
+     "cv": 0.0,
+     "min": 1.6400612500001444,
+     "max": 1.6400612500001444
+    },
+    "short": 0,
+    "no_rate": 0,
+    "excluded_flagged": 0,
+    "flagged_tok_s": null
+   }
+  },
+  "mj_vs_mlxlm_greedy": {
+   "tg128@d0 seed 100": {
+    "identical": true,
+    "first_diff": null,
+    "n": 129
+   },
+   "tg128@d2048 seed 100": {
+    "identical": true,
+    "first_diff": null,
+    "n": 129
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "engine": "lmstudio-mlx",
+ "peak_footprint_gb": 0.0,
+ "peak_resident_gb": 0.0,
+ "samples": 263,
+ "per_pid_gb": {},
+ "swapins_gb": 0.00671744,
+ "swapouts_gb": 0.0
+}

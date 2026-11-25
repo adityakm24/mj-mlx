@@ -1,0 +1,15 @@
+{
+ "engine": "mlx-lm",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216",
+ "mj_kw": {},
+ "ctx": 512,
+ "chunks": 80,
+ "tokens_scored": 20400,
+ "text_tokens": 302411,
+ "add_bos": true,
+ "ppl": 9.076992374081557,
+ "ppl_se": 0.18296767612304918,
+ "load_s": 2.7243533750006463,
+ "eval_s": 91.43598224999732,
+ "ref": null
+}

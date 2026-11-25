@@ -1,0 +1,20 @@
+repacking experts into ~/.cache/millijoule/allenai--OLMoE-1B-7B-0125-Instruct-experts (once)
+layer 0: 64 experts x 12.58 MB
+layer 1: 64 experts x 12.58 MB
+layer 2: 64 experts x 12.58 MB
+layer 3: 64 experts x 12.58 MB
+layer 4: 64 experts x 12.58 MB
+layer 5: 64 experts x 12.58 MB
+layer 6: 64 experts x 12.58 MB
+layer 7: 64 experts x 12.58 MB
+layer 8: 64 experts x 12.58 MB
+layer 9: 64 experts x 12.58 MB
+layer 10: 64 experts x 12.58 MB
+layer 11: 64 experts x 12.58 MB
+layer 12: 64 experts x 12.58 MB
+layer 13: 64 experts x 12.58 MB
+layer 14: 64 experts x 12.58 MB
+layer 15: 64 experts x 12.58 MB
+writing part-major expert maps into ~/.cache/millijoule/allenai--OLMoE-1B-7B-0125-Instruct-experts-mapped (once)
+chunk 1/3: ppl 8.7524
+{"engine": "mj", "mj_kw": {}, "ctx": 512, "chunks": 3, "tokens_scored": 765, "text_tokens": 285831, "add_bos": false, "ppl": 8.858802742680053, "ppl_se": 1.006264340738913, "load_s": 21.41882083300152, "eval_s": 34.29641954100225, "ref": null}

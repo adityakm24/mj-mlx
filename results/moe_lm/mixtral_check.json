@@ -1,0 +1,27 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Mixtral-8x7B-Instruct-v0.1-4bit/snapshots/4e8f70450ccdfa3a4b9a4133eaa0d88e43882383",
+ "placement": "stream",
+ "load_s": 0.9120216250012163,
+ "prompts": [
+  {
+   "prompt": "Explain how a refrigerator works, step by step, for a curious ten-year-old.",
+   "ours_text": "Sure, I'd be happy to explain how a refrigerator works!\n\n1. **Compressor:** It all starts with the compressor,",
+   "ours_s": 53.17555245800031,
+   "new_tokens": 32
+  },
+  {
+   "prompt": "Write a short Python function that returns the n-th Fibonacci number, then explain its running time.",
+   "ours_text": "Here is a simple Python function that returns the n-th Fibonacci number using recursion:\n\n```python\ndef fibonacci(",
+   "ours_s": 54.052900916998624,
+   "new_tokens": 32
+  },
+  {
+   "prompt": "What are three differences between a comet and an asteroid?",
+   "ours_text": "1. Composition: Asteroids are made up of rock and metal, while comets are composed of ice, dust, and rocky material.",
+   "ours_s": 53.660331540995685,
+   "new_tokens": 32
+  }
+ ],
+ "new": 32,
+ "note": "new (generated tokens per prompt) added afterwards from the command line (--new 32); the tool did not record it then"
+}

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T00:10:46",
+ "top_cpu": [
+  "4286 searchpartyusera 14.5",
+  "1174 Claude Helper (R 6.1",
+  "693 identityservices 5.9",
+  "4330 top 4.4",
+  "0 kernel_task 4.0",
+  "534 searchpartyd 3.1",
+  "961 findmydevice-use 2.1",
+  "819 node 1.5"
+ ],
+ "swap": "total = 4096.00M  used = 3484.62M  free = 611.38M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 86%",
+ "loadavg": "{ 1.76 1.54 2.15 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3484.62
+}

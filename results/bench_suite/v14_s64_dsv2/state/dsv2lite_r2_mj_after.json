@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T20:48:40",
+ "top_cpu": [
+  "75361 duetexpertd 59.9",
+  "83891 managedcorespotl 39.9",
+  "83876 textcomposerd 31.5",
+  "1620 claude 31.1",
+  "0 kernel_task 21.4",
+  "83867 siriinferenced 20.6",
+  "83894 ReportMemoryExce 13.2",
+  "83868 hybridsearchd 10.6"
+ ],
+ "swap": "total = 3072.00M  used = 2440.12M  free = 631.88M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 78%",
+ "loadavg": "{ 3.22 1.42 1.17 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2432.12
+}

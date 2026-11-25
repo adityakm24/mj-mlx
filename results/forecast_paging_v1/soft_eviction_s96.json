@@ -1,0 +1,77 @@
+{
+ "trace": "~/.cache/millijoule/qwen36-route-trace",
+ "layers": 40,
+ "results": {
+  "96/count/0.98": {
+   "slots": 96,
+   "kind": "count",
+   "decay": 0.98,
+   "misses": 270748,
+   "miss_rate": 0.10328216552734375
+  },
+  "96/count/0.99": {
+   "slots": 96,
+   "kind": "count",
+   "decay": 0.99,
+   "misses": 279921,
+   "miss_rate": 0.10678138732910156
+  },
+  "96/near:16:0.5/0.98": {
+   "slots": 96,
+   "kind": "near:16:0.5",
+   "decay": 0.98,
+   "misses": 269757,
+   "miss_rate": 0.10290412902832032
+  },
+  "96/near:16:0.5/0.99": {
+   "slots": 96,
+   "kind": "near:16:0.5",
+   "decay": 0.99,
+   "misses": 283540,
+   "miss_rate": 0.10816192626953125
+  },
+  "96/near:12:0.5/0.98": {
+   "slots": 96,
+   "kind": "near:12:0.5",
+   "decay": 0.98,
+   "misses": 266723,
+   "miss_rate": 0.10174674987792968
+  },
+  "96/near:12:0.5/0.99": {
+   "slots": 96,
+   "kind": "near:12:0.5",
+   "decay": 0.99,
+   "misses": 277874,
+   "miss_rate": 0.10600051879882813
+  },
+  "96/near:16:0.25/0.98": {
+   "slots": 96,
+   "kind": "near:16:0.25",
+   "decay": 0.98,
+   "misses": 265876,
+   "miss_rate": 0.10142364501953124
+  },
+  "96/near:16:0.25/0.99": {
+   "slots": 96,
+   "kind": "near:16:0.25",
+   "decay": 0.99,
+   "misses": 277568,
+   "miss_rate": 0.1058837890625
+  },
+  "96/both:1:4/0.98": {
+   "slots": 96,
+   "kind": "both:1:4",
+   "decay": 0.98,
+   "misses": 271449,
+   "miss_rate": 0.10354957580566407
+  },
+  "96/both:1:4/0.99": {
+   "slots": 96,
+   "kind": "both:1:4",
+   "decay": 0.99,
+   "misses": 282160,
+   "miss_rate": 0.107635498046875
+  }
+ },
+ "notes": "Router-score eviction, offline (checklist 6.1 follow-up): can the router's own scores for experts it did NOT pick\npredict what will be needed soon, better than recency or use counts?\n\nPer layer, a cache of S expert slots, demand misses only (as tools/mlx_expert_cache_sim.py). Every policy here is causal\n(uses only tokens already seen), exact (routing unchanged) and free at run time (the router logits are computed anyway).\nScore per expert, decayed per token (score *= decay), plus a per-token contribution; evict the lowest score among\nresidents the current token does not route to.\n  count          1 for each routed expert (= LFU with decay, the earlier study's best: 10.3-10.7% at 96 slots)\n  prob:<temp>    softmax(logits / temp) over all experts\n  near:<n>:<w>   1 for routed experts, w for the next n - k experts by logit (near misses)\n  both:<temp>:<a>   routed count + a * softmax(logits / temp)\nReference points at 96 slots: LRU 11.08%, horizon oracle 16 / 64 tokens 8.70% / 6.23%, optimum 5.22%.\n\n    VECLIB_MAXIMUM_THREADS=1 python soft_eviction_sim.py --slots 96 --out out.json\n"
+}

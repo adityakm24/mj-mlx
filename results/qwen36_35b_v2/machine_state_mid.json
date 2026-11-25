@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-18T06:03:38",
+ "top_cpu": [
+  "0 kernel_task 30.7",
+  "604 WindowServer 20.5",
+  "585 dasd 19.8",
+  "1089 corespotlightd 18.5",
+  "926 secd 14.0",
+  "572 opendirectoryd 11.2",
+  "674 airportd 11.2",
+  "608 loginwindow 10.4"
+ ],
+ "swap": "total = 5120.00M  used = 4005.81M  free = 1114.19M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 75%",
+ "loadavg": "{ 2.62 1.80 1.44 }"
+}

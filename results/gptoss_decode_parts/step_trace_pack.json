@@ -1,0 +1,84 @@
+{
+ "args": {
+  "attn_bits": null,
+  "new": 129,
+  "reps": 3,
+  "wired_mb": 3000,
+  "out": "results/mlx/gptoss_decode_parts/step_trace_pack.json"
+ },
+ "reps": [
+  {
+   "rep": 0,
+   "warmup": true,
+   "ms_per_token": 734.4404046172031,
+   "tok_s": 1.3615808630806594,
+   "pagein_mb": 32531.08736,
+   "swap_mb": 8806.31,
+   "parts_ms": {
+    "engine_step": 734.427,
+    "resolve": 0.253,
+    "embed": 0.246,
+    "head_wait": 730.096,
+    "head_rows": 2.742,
+    "submit": 0.084,
+    "build": 0.768,
+    "out_wait": 0.239
+   }
+  },
+  {
+   "rep": 1,
+   "warmup": false,
+   "ms_per_token": 52.26425129683321,
+   "tok_s": 19.133537268534294,
+   "pagein_mb": 795.820032,
+   "swap_mb": 5929.94,
+   "parts_ms": {
+    "engine_step": 52.263,
+    "resolve": 0.405,
+    "embed": 0.206,
+    "head_wait": 47.817,
+    "head_rows": 2.869,
+    "submit": 0.062,
+    "build": 0.726,
+    "out_wait": 0.178
+   }
+  },
+  {
+   "rep": 2,
+   "warmup": false,
+   "ms_per_token": 59.16986328122675,
+   "tok_s": 16.90049536276818,
+   "pagein_mb": 2421.899264,
+   "swap_mb": 6063.0,
+   "parts_ms": {
+    "engine_step": 59.168,
+    "resolve": 0.333,
+    "embed": 0.182,
+    "head_wait": 54.92,
+    "head_rows": 2.835,
+    "submit": 0.063,
+    "build": 0.69,
+    "out_wait": 0.145
+   }
+  },
+  {
+   "rep": 3,
+   "warmup": false,
+   "ms_per_token": 45.513441406228594,
+   "tok_s": 21.971531246660426,
+   "pagein_mb": 301.613056,
+   "swap_mb": 5851.69,
+   "parts_ms": {
+    "engine_step": 45.512,
+    "resolve": 0.475,
+    "embed": 0.189,
+    "head_wait": 41.561,
+    "head_rows": 2.284,
+    "submit": 0.067,
+    "build": 0.719,
+    "out_wait": 0.216
+   }
+  }
+ ],
+ "notes": "gpt-oss-20b lean decode: where the host time of one token goes (Engine, overlap mode, batch 1).\n\nTimed by wrapping, per decode step (no repo code changed):\n  resolve    runner._resolve_inputs: lean mode reads the previous step's token on the host (waits for that step's\n             GPU work to finish), then substitutes it\n  embed      embed_rows.take: the embedding row read on the CPU (page cache) and copied into a new mx.array\n  build      the rest of model.hidden: building the 24-layer lazy graph in Python (no GPU work)\n  head_wait  greedy_from up to the candidate ids on the host: np.array(cand) evaluates the whole step\n             (layers + 4-bit head + top-16) and waits for it\n  head_rows  head_rows.take of the 16 rescore rows (CPU) and the rescore graph\n  submit     the final async_eval\n  out_wait   Engine's np.array(toks) for the step (the rescore + argmax finishing)\nPer-token wall time is printed next to the sum.\n\n    .venv/bin/python tools/mlx_gptoss_step_trace.py --out results/mlx/gptoss_decode_parts/step_trace.json\n"
+}

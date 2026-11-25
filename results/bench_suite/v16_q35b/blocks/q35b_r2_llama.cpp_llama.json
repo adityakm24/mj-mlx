@@ -1,0 +1,130 @@
+[
+ {
+  "engine": "llama.cpp",
+  "test": "pp512",
+  "samples_ts": [
+   16.4903,
+   15.9136,
+   14.7606
+  ],
+  "avg_ts": 15.721502,
+  "stddev_ts": 0.880704,
+  "n_prompt": 512,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/millijoule/gguf/Qwen3.6-35B-A3B-Q4_K_M.gguf -fa 1 -ngl 99 -r 3 -o json -p 512 -n 0 -d 0 -ncmoe 40",
+  "energy_window_incl_load": {
+   "seconds": 208.9390038749998,
+   "gpu_j": 29.102621102,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 2048,
+  "peak_footprint_gb": 19.889649208,
+  "peak_resident_gb": 10.459201536,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "pp2048",
+  "samples_ts": [
+   12.4133,
+   13.1091,
+   12.4131
+  ],
+  "avg_ts": 12.645141,
+  "stddev_ts": 0.401765,
+  "n_prompt": 2048,
+  "n_gen": 0,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/millijoule/gguf/Qwen3.6-35B-A3B-Q4_K_M.gguf -fa 1 -ngl 99 -r 3 -o json -p 2048 -n 0 -d 0 -ncmoe 40",
+  "energy_window_incl_load": {
+   "seconds": 722.8874816669995,
+   "gpu_j": 127.98782990900001,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 8192,
+  "peak_footprint_gb": 19.920483848,
+  "peak_resident_gb": 9.796026368,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d0",
+  "samples_ts": [
+   3.7118,
+   3.79918,
+   4.07949
+  ],
+  "avg_ts": 3.86349,
+  "stddev_ts": 0.192096,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 0,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/millijoule/gguf/Qwen3.6-35B-A3B-Q4_K_M.gguf -fa 1 -ngl 99 -r 3 -o json -p 0 -n 128 -d 0 -ncmoe 40",
+  "energy_window_incl_load": {
+   "seconds": 179.89755304199934,
+   "gpu_j": 31.087724787000003,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": 385,
+  "peak_footprint_gb": 19.767719384,
+  "peak_resident_gb": 10.84768256,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ },
+ {
+  "engine": "llama.cpp",
+  "test": "tg128@d2048",
+  "samples_ts": [
+   2.86721,
+   3.61358,
+   3.81224
+  ],
+  "avg_ts": 3.431011,
+  "stddev_ts": 0.498269,
+  "n_prompt": 0,
+  "n_gen": 128,
+  "n_depth": 2048,
+  "build_commit": "b1b770d90",
+  "build_number": 12359,
+  "n_batch": 2048,
+  "n_ubatch": 512,
+  "flash_attn": 1,
+  "cmd": "llama-bench -m ~/.cache/millijoule/gguf/Qwen3.6-35B-A3B-Q4_K_M.gguf -fa 1 -ngl 99 -r 3 -o json -p 0 -n 128 -d 2048 -ncmoe 40",
+  "energy_window_incl_load": {
+   "seconds": 355.8072609580013,
+   "gpu_j": 64.965237035,
+   "cpu_j": 0.0,
+   "ane_j": 0.0,
+   "dram_j": 0.0
+  },
+  "tokens_in_window": null,
+  "peak_footprint_gb": 20.031420056,
+  "peak_resident_gb": 11.223089152,
+  "j_per_token_gpu": null,
+  "j_per_token_soc": null
+ }
+]

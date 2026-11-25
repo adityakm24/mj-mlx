@@ -1,0 +1,80 @@
+{
+ "engine": "mlx-lm 0.32.2",
+ "label": "ABAB round 2",
+ "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-8L",
+ "model_note": "random weights, gpt-oss-20b dims, 8 of 24 layers, MXFP4 experts, bf16 rest",
+ "machine": "macOS-27.3-arm64-arm-64bit",
+ "chip": "Apple M4 16 GB",
+ "mlx": "0.32.4",
+ "energy_boundary": "IOReport 'GPU Energy' rail (SoC energy model), whole GPU incl. idle; Mac-only",
+ "idle_gpu_w": 1.0618766879714912,
+ "load_s": 4.462720791052561,
+ "args": {
+  "engine": "mlx-lm",
+  "model": "/private/tmp/claude-501/-Users-user--claude-spares-spare-imcB0w/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/gptoss-bench-8L",
+  "levels": "1,8,32,64",
+  "prompt_min": 64,
+  "prompt_max": 320,
+  "out_len": 128,
+  "per_level": 4,
+  "seed": 0,
+  "prefill_step": 2048,
+  "prefill_batch": 8,
+  "max_batch_tokens": 2048,
+  "no_paged": false,
+  "lm_head_bits": 8,
+  "plain": false,
+  "label": "ABAB round 2",
+  "out": "results/mlx/abab_r2_a_mlx_lm.json"
+ },
+ "rows": [
+  {
+   "level": 1,
+   "requests": 4,
+   "total_tokens": 512,
+   "wall_s": 15.227254541008733,
+   "window_s": 15.033209290995728,
+   "window_tokens": 511,
+   "tok_s": 33.99141128874378,
+   "gpu_w": 11.339349474373552,
+   "gpu_j_per_token": 0.3335945476947163,
+   "gpu_j_per_token_above_idle": 0.3023549890029261
+  },
+  {
+   "level": 8,
+   "requests": 32,
+   "total_tokens": 4096,
+   "wall_s": 45.791928541031666,
+   "window_s": 44.03359466698021,
+   "window_tokens": 4088,
+   "tok_s": 92.83820753034043,
+   "gpu_w": 14.066589368695713,
+   "gpu_j_per_token": 0.1515172442778865,
+   "gpu_j_per_token_above_idle": 0.1400793167670127
+  },
+  {
+   "level": 32,
+   "requests": 128,
+   "total_tokens": 16384,
+   "wall_s": 97.67190679098712,
+   "window_s": 88.4825028750347,
+   "window_tokens": 16160,
+   "tok_s": 182.63497838463087,
+   "gpu_w": 16.98248963620776,
+   "gpu_j_per_token": 0.09298596460773514,
+   "gpu_j_per_token_above_idle": 0.0871717624359301
+  },
+  {
+   "level": 64,
+   "requests": 256,
+   "total_tokens": 32768,
+   "wall_s": 113.53443045797758,
+   "window_s": 98.30249970802106,
+   "window_tokens": 31808,
+   "tok_s": 323.5726466211581,
+   "gpu_w": 16.929370074952516,
+   "gpu_j_per_token": 0.052320152063946176,
+   "gpu_j_per_token_above_idle": 0.04903842630912752
+  }
+ ]
+}

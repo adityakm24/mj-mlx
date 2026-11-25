@@ -1,0 +1,5 @@
+2048 hidden states in 112 s
+exact argmax done
+2-bit: 181 MB, 1-row matmul 2.21 ms (min 2.13); misses top-1 329/2048, top-4 62/2048, top-16 15/2048, top-32 7/2048, top-64 2/2048
+3-bit: 253 MB, 1-row matmul 2.72 ms (min 2.66); misses top-1 148/2048, top-4 19/2048, top-16 0/2048, top-32 0/2048, top-64 0/2048
+4-bit: 326 MB, 1-row matmul 3.36 ms (min 3.30); misses top-1 73/2048, top-4 1/2048, top-16 0/2048, top-32 0/2048, top-64 0/2048

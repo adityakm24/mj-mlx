@@ -1,0 +1,17 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_first_token_margin.py --model ~/.cache/huggingface/hub/models--mlx-community--DeepSeek-V2-Lite-Chat-4bit-mlx/snapshots/a33a8ad64477b9ca7a65b6dc1d8c06c997f87216 --out results/chat_check_v1/dsv2lite_first_token_margins.json
+[transformers] `tokenizer_class` is `LlamaTokenizer` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+~/Documents/Projects/mj-mlx/tools/mlx_first_token_margin.py:51: UserWarning: mlx.core was imported before mj_mlx without MLX_MAX_MB_PER_BUFFER set: memory-mapped expert models decode ~1.6x slower. Set MLX_MAX_MB_PER_BUFFER=150 before importing mlx.
+  from mj_mlx import load_model
+prompt 0: top1 same; margin mj 1.906 mlx-lm 1.906; max |dlogprob| over mlx-lm top 20 0.031
+prompt 1: top1 same; margin mj 0.812 mlx-lm 0.812; max |dlogprob| over mlx-lm top 20 0.031
+prompt 2: top1 same; margin mj 4.344 mlx-lm 4.344; max |dlogprob| over mlx-lm top 20 0.062
+prompt 3: top1 same; margin mj 0.719 mlx-lm 0.281; max |dlogprob| over mlx-lm top 20 0.635
+prompt 4: top1 same; margin mj 3.188 mlx-lm 3.250; max |dlogprob| over mlx-lm top 20 0.365
+prompt 5: top1 same; margin mj 1.562 mlx-lm 1.562; max |dlogprob| over mlx-lm top 20 0.058
+prompt 6: top1 same; margin mj 2.000 mlx-lm 2.031; max |dlogprob| over mlx-lm top 20 0.043
+prompt 7: top1 same; margin mj 4.500 mlx-lm 4.469; max |dlogprob| over mlx-lm top 20 0.077
+prompt 8: top1 same; margin mj 0.062 mlx-lm 0.031; max |dlogprob| over mlx-lm top 20 0.045
+prompt 9: top1 DIFFERS; margin mj 0.000 mlx-lm 0.094; max |dlogprob| over mlx-lm top 20 0.167
+prompt 10: top1 same; margin mj 0.438 mlx-lm 0.406; max |dlogprob| over mlx-lm top 20 0.048
+prompt 11: top1 same; margin mj 1.594 mlx-lm 1.594; max |dlogprob| over mlx-lm top 20 0.028

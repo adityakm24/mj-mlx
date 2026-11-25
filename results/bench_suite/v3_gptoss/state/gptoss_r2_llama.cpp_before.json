@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T00:00:11",
+ "top_cpu": [
+  "474 mobileassetd 70.1",
+  "369 mds 54.3",
+  "3888 assetsubscriptio 19.5",
+  "0 kernel_task 10.8",
+  "3873 ScreenTimeSettin 5.7",
+  "3891 top 5.7",
+  "540 mds_stores 5.7",
+  "797 appleaccountd 3.1"
+ ],
+ "swap": "total = 4096.00M  used = 2912.56M  free = 1183.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 1.46 1.41 2.85 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2912.56
+}

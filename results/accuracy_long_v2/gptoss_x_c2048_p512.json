@@ -1,0 +1,20 @@
+{
+ "engine": "mj",
+ "model": "~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee",
+ "mj_kw": {
+  "map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped",
+  "lean": true,
+  "attn_pack": true
+ },
+ "ctx": 2048,
+ "chunks": 4,
+ "tokens_scored": 4092,
+ "prefill_chunk": 512,
+ "text_tokens": 287070,
+ "add_bos": false,
+ "ppl": 1415.4409873148452,
+ "ppl_se": 73.45847583318505,
+ "load_s": 4.994694708992029,
+ "eval_s": 55.51311037498817,
+ "ref": null
+}

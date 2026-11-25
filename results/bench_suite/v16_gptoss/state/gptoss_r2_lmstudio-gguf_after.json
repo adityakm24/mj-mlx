@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-23T03:33:00",
+ "top_cpu": [
+  "17614 siriactionsd 119.1",
+  "1 launchd 13.1",
+  "421 loginwindow 10.2",
+  "0 kernel_task 6.1",
+  "17648 top 5.9",
+  "662 ControlCenter 3.3",
+  "6933 claude 2.8",
+  "828 node 1.9"
+ ],
+ "swap": "total = 7168.00M  used = 5792.19M  free = 1375.81M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 82%",
+ "loadavg": "{ 2.06 1.77 1.65 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 5792.19
+}

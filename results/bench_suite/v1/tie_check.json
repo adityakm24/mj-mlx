@@ -1,0 +1,90 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "cases": [
+  {
+   "mlx_lm_dtype": "bfloat16",
+   "test": "tg128@d0",
+   "seed": 101,
+   "prompt_len": 1,
+   "top3": [
+    279,
+    314,
+    11
+   ],
+   "top3_logits": [
+    12.25,
+    12.1875,
+    10.625
+   ],
+   "ours_token": 314,
+   "ours_logit": 12.1875,
+   "mlx_lm_token": 279,
+   "mlx_lm_logit": 12.25,
+   "gap": 0.0625
+  },
+  {
+   "mlx_lm_dtype": "bfloat16",
+   "test": "tg128@d2048",
+   "seed": 201,
+   "prompt_len": 2048,
+   "top3": [
+    220,
+    248046,
+    197
+   ],
+   "top3_logits": [
+    6.6875,
+    6.6875,
+    6.0
+   ],
+   "ours_token": 248046,
+   "ours_logit": 6.6875,
+   "mlx_lm_token": 220,
+   "mlx_lm_logit": 6.6875,
+   "gap": 0.0
+  },
+  {
+   "mlx_lm_dtype": "float32",
+   "test": "tg128@d0",
+   "seed": 101,
+   "prompt_len": 1,
+   "top3": [
+    314,
+    279,
+    11
+   ],
+   "top3_logits": [
+    12.273807525634766,
+    12.186397552490234,
+    10.711341857910156
+   ],
+   "ours_token": 314,
+   "ours_logit": 12.273807525634766,
+   "mlx_lm_token": 279,
+   "mlx_lm_logit": 12.186397552490234,
+   "gap": 0.08740997314453125
+  },
+  {
+   "mlx_lm_dtype": "float32",
+   "test": "tg128@d2048",
+   "seed": 201,
+   "prompt_len": 2048,
+   "top3": [
+    248046,
+    220,
+    197
+   ],
+   "top3_logits": [
+    6.719672679901123,
+    6.692593574523926,
+    6.012704372406006
+   ],
+   "ours_token": 248046,
+   "ours_logit": 6.719672679901123,
+   "mlx_lm_token": 220,
+   "mlx_lm_logit": 6.692593574523926,
+   "gap": 0.027079105377197266
+  }
+ ],
+ "notes": "Token-0 divergences, ours vs mlx-lm (bench_suite v1, Qwen3.5-9B): mlx-lm's last-position logits in bf16 and in\nfloat32 for the two decode prompts whose first generated token differed; which token each engine chose.\n\n    .venv/bin/python results/mlx/bench_suite/v1/tie_check.py   # writes tie_check.json next to this file\n"
+}

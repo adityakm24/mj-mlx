@@ -1,0 +1,48 @@
+         12961 function calls (12797 primitive calls) in 1.444 seconds
+
+   Ordered by: cumulative time
+   List reduced from 388 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.444    1.444 ~/Documents/Projects/mj-mlx/tools/mlx_cold_profile.py:82(<lambda>)
+        1    0.000    0.000    1.359    1.359 ~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py:133(run)
+        2    0.000    0.000    1.107    0.554 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:449(step)
+        2    0.000    0.000    1.107    0.554 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:466(_step_overlap)
+        2    0.004    0.002    1.107    0.554 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:490(_step_overlap_deferred)
+        1    0.000    0.000    0.739    0.739 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:238(launch_deferred)
+        1    0.726    0.726    0.726    0.726 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:309(arm)
+        1    0.000    0.000    0.365    0.365 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:323(finish)
+        3    0.363    0.121    0.363    0.121 {built-in method numpy.array}
+        1    0.000    0.000    0.252    0.252 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:372(__init__)
+        1    0.187    0.187    0.187    0.187 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:361(_set_wired_limit)
+        1    0.001    0.001    0.085    0.085 ~/Documents/Projects/mj-mlx/tools/mlx_bench_worker.py:43(ids_for)
+        1    0.000    0.000    0.082    0.082 ~/Documents/Projects/mj-mlx/.venv/lib/python3.11/site-packages/numpy/__init__.py:704(__getattr__)
+     23/1    0.000    0.000    0.082    0.082 <frozen importlib._bootstrap>:1165(_find_and_load)
+     23/1    0.000    0.000    0.082    0.082 <frozen importlib._bootstrap>:1120(_find_and_load_unlocked)
+     23/1    0.000    0.000    0.082    0.082 <frozen importlib._bootstrap>:666(_load_unlocked)
+      8/1    0.000    0.000    0.082    0.082 <frozen importlib._bootstrap_external>:934(exec_module)
+     59/3    0.000    0.000    0.081    0.027 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+      8/1    0.000    0.000    0.080    0.080 {built-in method builtins.exec}
+        1    0.000    0.000    0.080    0.080 ~/Documents/Projects/mj-mlx/.venv/lib/python3.11/site-packages/numpy/random/__init__.py:1(<module>)
+        3    0.000    0.000    0.080    0.027 <frozen importlib._bootstrap>:1207(_handle_fromlist)
+        2    0.000    0.000    0.080    0.040 {built-in method builtins.__import__}
+        1    0.000    0.000    0.065    0.065 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/runner.py:152(__init__)
+        1    0.011    0.011    0.065    0.065 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:607(new_kv_pool)
+       23    0.000    0.000    0.054    0.002 <frozen importlib._bootstrap>:566(module_from_spec)
+        9    0.000    0.000    0.054    0.006 <frozen importlib._bootstrap_external>:1231(create_module)
+        9    0.054    0.006    0.054    0.006 {built-in method _imp.create_dynamic}
+        1    0.053    0.053    0.053    0.053 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/gpt_oss.py:610(<listcomp>)
+      9/6    0.000    0.000    0.033    0.006 <frozen importlib._bootstrap_external>:1239(exec_module)
+      9/6    0.002    0.000    0.033    0.006 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.020    0.020 ~/Documents/Projects/mj-mlx/.venv/lib/python3.11/site-packages/numpy/random/_pickle.py:1(<module>)
+        1    0.000    0.000    0.020    0.020 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/secrets.py:1(<module>)
+        1    0.000    0.000    0.016    0.016 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/hmac.py:1(<module>)
+        6    0.000    0.000    0.014    0.002 <frozen importlib._bootstrap>:778(exec_module)
+        6    0.014    0.002    0.014    0.002 {built-in method _imp.exec_builtin}
+        2    0.000    0.000    0.010    0.005 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/expert_stream.py:461(read)
+        2    0.000    0.000    0.010    0.005 ~/Documents/Projects/mj-mlx/tools/../src/mj_mlx/expert_stream.py:442(_read)
+        8    0.000    0.000    0.009    0.001 <frozen importlib._bootstrap_external>:1007(get_code)
+      198    0.000    0.000    0.008    0.000 ~/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/threading.py:295(wait)
+       10    0.000    0.000    0.008    0.001 <frozen importlib._bootstrap_external>:1127(get_data)
+
+

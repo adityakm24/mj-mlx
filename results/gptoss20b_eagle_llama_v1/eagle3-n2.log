@@ -1,0 +1,46 @@
+0.00.182.511 I srv  llama_server: initializing ...
+0.00.182.517 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.183.407 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.185.013 I srv    load_model: loading model '~/.cache/huggingface/hub/models--ggml-org--gpt-oss-20b-GGUF/snapshots/41e8a94d15d62070b36cf4553a0250717ecf46b8/gpt-oss-20b-MXFP4.gguf'
+0.00.460.914 E llama_init_from_model: failed to initialize the context: eagle3 requires ctx_other to be set (this warning is normal during memory fitting)
+0.00.477.693 W operator(): failed to measure the memory of the extra model, fitting without it: failed to create llama_context from model
+0.00.477.725 W common_fit_params: failed to fit params to free device memory: n_gpu_layers already set by user to 99, abort
+0.00.587.189 W load: setting token '<|message|>' (200008) attribute to USER_DEFINED (16), old attributes: 8
+0.00.587.364 W load: setting token '<|channel|>' (200005) attribute to USER_DEFINED (16), old attributes: 8
+0.00.587.643 W load: setting token '<|start|>' (200006) attribute to USER_DEFINED (16), old attributes: 8
+0.00.587.887 W load: setting token '<|constrain|>' (200003) attribute to USER_DEFINED (16), old attributes: 8
+0.00.588.002 W load: special_eog_ids contains both '<|return|>' and '<|call|>', or '<|calls|>' and '<|flush|>' tokens, removing '<|end|>' token from EOG list
+0.03.996.625 I cmn          init: llama threadpool init, n_threads = 4
+0.04.073.862 I common_speculative_init_result: loading draft model '~/.cache/millijoule/eagle3/EAGLE3-gpt-oss-20b-Q5_K_M.gguf'
+0.04.187.825 W load: setting token '<|message|>' (200008) attribute to USER_DEFINED (16), old attributes: 8
+0.04.187.978 W load: setting token '<|channel|>' (200005) attribute to USER_DEFINED (16), old attributes: 8
+0.04.188.225 W load: setting token '<|start|>' (200006) attribute to USER_DEFINED (16), old attributes: 8
+0.04.188.429 W load: setting token '<|constrain|>' (200003) attribute to USER_DEFINED (16), old attributes: 8
+0.04.188.541 W load: special_eog_ids contains both '<|return|>' and '<|call|>', or '<|calls|>' and '<|flush|>' tokens, removing '<|end|>' token from EOG list
+0.04.445.934 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 4096, kv_unified = 'true'
+0.04.545.996 E ggml_metal_synchronize: error: command buffer 1 failed with status 5
+0.04.546.033 E error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+0.04.643.221 I srv  server_run_i: model loaded
+0.04.646.641 I srv  server_on_li: listening on http://127.0.0.1:8080
+0.08.092.963 I slot get_availabl: id  0 | task -1 | selected slot by LRU, n_tokens = 0, t_last = -1
+0.08.094.620 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.08.484.441 E ggml_metal_synchronize: error: command buffer 1 failed with status 5
+0.08.484.623 E error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+0.08.515.783 E ggml_metal_synchronize: error: command buffer 1 failed with status 5
+0.08.515.796 E error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+0.08.516.452 E ggml_metal_synchronize: error: command buffer 1 failed with status 5
+0.08.516.455 E error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+0.08.516.735 E ggml_metal_graph_compute: backend is in error state from a previous command buffer failure - recreate the backend to recover
+0.08.516.735 E graph_compute: ggml_backend_sched_graph_compute_async failed with error -1
+0.08.516.735 E process_ubatch: failed to compute graph, compute status: -1
+0.08.516.737 E spec      process: llama_process(ctx_dft) failed rc=-3 (n_tokens=82, offset=0)
+0.08.516.761 E srv        decode: failed to process speculative batch
+0.08.543.756 E srv  update_slots: decode() failed: failed to process speculative batch
+0.08.543.764 E srv    send_error: task id = 0, error: decode() failed: failed to process speculative batch
+0.08.543.770 I slot      release: id  0 | task 0 | stop processing: n_tokens = 82, truncated = 0
+0.08.543.778 W srv          stop: cancel task, id_task = 0
+0.08.819.616 I srv    operator(): operator(): cleaning up before exit...
+0.08.821.629 E ggml_metal_synchronize: error: command buffer 1 failed with status 5
+0.08.821.638 E error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+0.08.821.946 E ggml_metal_synchronize: error: command buffer 1 failed with status 5
+0.08.821.947 E error: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)

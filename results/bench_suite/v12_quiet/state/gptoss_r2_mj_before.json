@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-20T16:13:34",
+ "top_cpu": [
+  "8347 spotlightknowled 94.1",
+  "16375 top 5.2",
+  "650 ControlCenter 3.5",
+  "417 loginwindow 3.1",
+  "0 kernel_task 2.0",
+  "737 duetexpertd 1.7",
+  "413 WindowServer 1.0",
+  "394 dasd 0.4"
+ ],
+ "swap": "total = 3072.00M  used = 1484.94M  free = 1587.06M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 86%",
+ "loadavg": "{ 1.76 2.58 2.60 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 1484.94
+}

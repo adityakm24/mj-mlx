@@ -1,0 +1,30 @@
+sequences: [2048, 2048, 2048, 2048] tokens: 8192
+layer 1/24 done (4s)
+layer 2/24 done (7s)
+layer 3/24 done (10s)
+layer 4/24 done (13s)
+layer 5/24 done (16s)
+layer 6/24 done (19s)
+layer 7/24 done (23s)
+layer 8/24 done (26s)
+layer 9/24 done (29s)
+layer 10/24 done (32s)
+layer 11/24 done (36s)
+layer 12/24 done (39s)
+layer 13/24 done (42s)
+layer 14/24 done (45s)
+layer 15/24 done (49s)
+layer 16/24 done (52s)
+layer 17/24 done (55s)
+layer 18/24 done (59s)
+layer 19/24 done (62s)
+layer 20/24 done (65s)
+layer 21/24 done (69s)
+layer 22/24 done (72s)
+layer 23/24 done (75s)
+layer 24/24 done (78s)
+mj_precise {'top1': 0.9261974584555229, 'positions': 4092, 'mean_kl': 0.018121055577408764, 'p99_kl': 0.33871185996345204, 'max_kl': 1.7333859821289308, 'ppl': 1406.661041740274, 'ppl_se': 72.7404221513277}
+mlxlm_fp32 {'top1': 0.8949169110459433, 'positions': 4092, 'mean_kl': 0.032799321396303545, 'p99_kl': 0.5998807069549346, 'max_kl': 4.340167072015088, 'ppl': 1282.0707240395138, 'ppl_se': 65.70976680127991}
+mj_precise_greedy_path {'top1': 0.9303519061583577, 'positions': 4092}
+ref {'ppl': 1402.9188007905202, 'ppl_se': 72.48635926852522, 'positions': 4092}
+wrote results/accuracy_long_v2/gptoss_f32ref_c2048.json

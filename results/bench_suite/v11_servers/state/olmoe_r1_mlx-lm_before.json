@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T16:32:18",
+ "top_cpu": [
+  "2143 TGOnDeviceInfere 55.3",
+  "1174 Claude Helper (R 45.7",
+  "36043 aned 15.3",
+  "43066 coreduetd 13.2",
+  "43095 modelcatalogd 12.8",
+  "657 usernoted 6.3",
+  "43618 top 4.7",
+  "0 kernel_task 4.2"
+ ],
+ "swap": "total = 5120.00M  used = 3570.25M  free = 1549.75M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 72%",
+ "loadavg": "{ 1.07 1.43 1.95 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3570.25
+}

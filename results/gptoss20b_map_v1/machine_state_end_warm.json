@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T16:53:26",
+ "top_cpu": [
+  "42062 node 42.8",
+  "44622 top 7.4",
+  "0 kernel_task 6.0",
+  "50414 claude 3.9",
+  "41173 claude 3.0",
+  "45091 Claude Helper (R 1.3",
+  "1431 Finder 1.2",
+  "90343 claude 0.7"
+ ],
+ "swap": "total = 10240.00M  used = 9424.50M  free = 815.50M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 1.52 1.68 2.02 }"
+}

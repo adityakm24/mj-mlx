@@ -1,0 +1,25 @@
+{
+ "engine": "millijoule mlx runner",
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "experts": null,
+ "slots": null,
+ "model_note": "",
+ "reps": 3,
+ "max_batch_tokens": 2048,
+ "rows": [
+  {
+   "prompt_tokens": 512,
+   "ttft_s": 2.23587891599891,
+   "ttft_min_s": 2.235381624999718,
+   "ttft_max_s": 2.2363455000013346,
+   "prefill_tok_s": 228.99272243070322
+  },
+  {
+   "prompt_tokens": 2048,
+   "ttft_s": 9.111644500000693,
+   "ttft_min_s": 8.968568707998202,
+   "ttft_max_s": 9.50564070800101,
+   "prefill_tok_s": 224.7673293223681
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+rep 0: prefill(pre,a)  185.5  decode(a,b)   63.1  (a2,b2)   62.9  (a3,b3)   62.9  a->a3   0.18  b->b3   0.00
+rep 1: prefill(pre,a)  184.4  decode(a,b)   65.0  (a2,b2)   65.0  (a3,b3)   65.0  a->a3   0.00  b->b3   0.00
+rep 2: prefill(pre,a)  173.1  decode(a,b)   60.4  (a2,b2)   60.4  (a3,b3)   60.3  a->a3   0.15  b->b3   0.00
+rep 3: prefill(pre,a)  169.2  decode(a,b)   56.6  (a2,b2)   56.6  (a3,b3)   56.6  a->a3   0.00  b->b3   0.00
+rep 4: prefill(pre,a)  167.9  decode(a,b)   54.4  (a2,b2)   54.4  (a3,b3)   54.4  a->a3   0.00  b->b3   0.00
+rep 5: prefill(pre,a)  167.3  decode(a,b)   54.4  (a2,b2)   54.4  (a3,b3)   54.4  a->a3   0.00  b->b3   0.00
+rep 6: prefill(pre,a)  166.9  decode(a,b)   54.3  (a2,b2)   54.3  (a3,b3)   54.3  a->a3   0.00  b->b3   0.00
+rep 7: prefill(pre,a)  166.5  decode(a,b)   54.5  (a2,b2)   54.5  (a3,b3)   54.4  a->a3   0.15  b->b3   0.00
+rep 8: prefill(pre,a)  166.4  decode(a,b)   55.8  (a2,b2)   55.7  (a3,b3)   55.7  a->a3   0.15  b->b3   0.00
+rep 9: prefill(pre,a)  166.6  decode(a,b)   54.9  (a2,b2)   54.9  (a3,b3)   54.9  a->a3   0.00  b->b3   0.00
+rep 10: prefill(pre,a)  166.3  decode(a,b)   55.1  (a2,b2)   55.0  (a3,b3)   55.0  a->a3   0.15  b->b3   0.00
+rep 11: prefill(pre,a)  166.4  decode(a,b)   55.2  (a2,b2)   55.0  (a3,b3)   55.0  a->a3   0.16  b->b3   0.00

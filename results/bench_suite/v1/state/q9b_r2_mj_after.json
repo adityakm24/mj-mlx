@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-18T11:14:33",
+ "top_cpu": [
+  "55289 top 6.0",
+  "42990 claude 3.2",
+  "0 kernel_task 2.5",
+  "1454 python3.14 1.9",
+  "1400 node 1.6",
+  "32656 MacInCallService 0.9",
+  "694 mDNSResponder 0.8",
+  "2476 claude 0.6"
+ ],
+ "swap": "total = 5120.00M  used = 3796.81M  free = 1323.19M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 76%",
+ "loadavg": "{ 1.10 1.29 1.28 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 3796.81
+}

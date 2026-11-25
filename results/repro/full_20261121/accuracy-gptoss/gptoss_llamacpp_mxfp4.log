@@ -1,0 +1,16 @@
+0.01.665.819 W load: setting token '<|message|>' (200008) attribute to USER_DEFINED (16), old attributes: 8
+0.01.666.014 W load: setting token '<|channel|>' (200005) attribute to USER_DEFINED (16), old attributes: 8
+0.01.666.297 W load: setting token '<|start|>' (200006) attribute to USER_DEFINED (16), old attributes: 8
+0.01.666.542 W load: setting token '<|constrain|>' (200003) attribute to USER_DEFINED (16), old attributes: 8
+0.01.666.662 W load: special_eog_ids contains both '<|return|>' and '<|call|>', or '<|calls|>' and '<|flush|>' tokens, removing '<|end|>' token from EOG list
+0.01.686.913 W llama_model_loader: tensor overrides to CPU are used with mmap enabled - consider using --load-mode none for better performance
+0.23.347.363 I cmn          init: llama threadpool init, n_threads = 4
+0.23.596.528 I 
+0.23.596.568 I system_info: n_threads = 4 (n_threads_batch = 4) / 10 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+0.23.596.756 I perplexity: tokenizing the input ..
+0.24.256.054 I perplexity: tokenization took 659.284 ms
+0.24.257.671 I perplexity: calculating perplexity over 80 chunks, n_ctx=512, batch_size=2048, n_seq=4
+0.29.816.304 I perplexity: 5.56 seconds per pass - ETA 1.85 minutes
+[1]180.4123,[2]188.5525,[3]318.8113,[4]304.4720,[5]269.0299,[6]281.9125,[7]297.5643,[8]342.2301,[9]352.7178,[10]359.6502,[11]339.9789,[12]311.4053,[13]320.7503,[14]314.5543,[15]304.1467,[16]293.1965,[17]304.9291,[18]304.0125,[19]305.3577,[20]300.4822,[21]285.2773,[22]270.6724,[23]226.2101,[24]218.6552,[25]203.2359,[26]203.0099,[27]196.2387,[28]189.8198,[29]189.1008,[30]180.1285,[31]173.7303,[32]170.9992,[33]164.2020,[34]158.7667,[35]161.1230,[36]157.1233,[37]158.4754,[38]160.3585,[39]161.8866,[40]162.3403,[41]166.6075,[42]164.6880,[43]164.5911,[44]162.2161,[45]164.0153,[46]162.1816,[47]165.0854,[48]163.5978,[49]166.6757,[50]167.8989,[51]166.8809,[52]165.1265,[53]168.3424,[54]167.4621,[55]167.1569,[56]166.7042,[57]164.3699,[58]163.9725,[59]162.4674,[60]162.3354,[61]163.1359,[62]165.0007,[63]165.6641,[64]167.1683,[65]166.1759,[66]167.0720,[67]167.4656,[68]167.7722,[69]166.8145,[70]166.3081,[71]168.8159,[72]169.7897,[73]170.5833,[74]172.2527,[75]173.0760,[76]173.7265,[77]173.5627,[78]173.7943,[79]172.7493,[80]172.8318,
+2.16.405.080 I Final estimate: PPL = 172.8318 +/- 3.77617
+

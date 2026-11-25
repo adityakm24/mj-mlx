@@ -1,0 +1,19 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python ~/Documents/Projects/mj-mlx-wt-load/tools/mlx_prep_cache_check.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_bits": 8, "lean": true, "wired_mb": 1000} --cache ~/.cache/millijoule/prep --out results/load_profile_v1/gptoss_prepcache_tokens_a8wb.json
+Traceback (most recent call last):
+  File "~/Documents/Projects/mj-mlx-wt-load/tools/mlx_prep_cache_check.py", line 74, in <module>
+    main()
+  File "~/Documents/Projects/mj-mlx-wt-load/tools/mlx_prep_cache_check.py", line 56, in main
+    return once(a)
+           ^^^^^^^
+  File "~/Documents/Projects/mj-mlx-wt-load/tools/mlx_prep_cache_check.py", line 32, in once
+    model = load_model(path, **json.loads(a.mj_kw))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/Documents/Projects/mj-mlx-wt-load/tools/../src/mj_mlx/runner.py", line 139, in load_model
+    return GptOss(path, dtype=dtype, dense_experts=dense_experts, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: GptOss.__init__() got an unexpected keyword argument 'wired_mb'
+
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python ~/Documents/Projects/mj-mlx-wt-load/tools/mlx_prep_cache_check.py --model ~/.cache/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee --mj-kw {"map_experts": "~/.cache/millijoule/gptoss20b-experts-mapped", "attn_pack": true, "lean": true} --cache ~/.cache/millijoule/prep --out results/load_profile_v1/gptoss_prepcache_tokens_x-nomlock.json
+identical [96, 96, 96]

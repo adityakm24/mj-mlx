@@ -1,0 +1,8128 @@
+{
+ "model": "~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-9B-MLX-4bit/snapshots/938d8919941c6e7efd3c7150eff7fe9d12afa631",
+ "prompt": "Explain how a refrigerator works, step by step, for a curious ten-year-old.",
+ "prompt_tokens": 30,
+ "split_mode": "async",
+ "method": "xctrace Metal System Trace, metal-gpu-intervals (GPU start / end per command buffer; Metal gives no per-dispatch times). normal: the engine's decode step at MLX defaults. split: mx.async_eval at every matmul's input and output, MLX_MAX_OPS_PER_BUFFER / MB unlimited, so each op group is exactly one command buffer, mapped to its group in submission order",
+ "untraced_normal_step_us": [
+  37516.208,
+  46921.25,
+  47431.084,
+  47018.209,
+  46902.541
+ ],
+ "traced_normal_step_us": [
+  41119.833,
+  47258.208,
+  47640.209,
+  50323.542,
+  47529.292
+ ],
+ "split_step_wall_us": [
+  56385.292,
+  55263.791,
+  53335.125
+ ],
+ "gpu_us_per_step_by_category": {
+  "attention": 568.0416666666652,
+  "conv+gated-delta": 1472.6103333333322,
+  "in_proj": 10097.209666666666,
+  "lm_head+sampling": 5695.041333333332,
+  "mlp_down": 9848.818333333329,
+  "mlp_up_gate_act": 19936.762333333332,
+  "norms+misc": 529.4460000000057,
+  "out_proj": 3705.153666666676,
+  "unmatched": 15.0
+ },
+ "weight_bytes_by_category": {
+  "norms+misc": 0,
+  "in_proj": 871759872,
+  "conv+gated-delta": 0,
+  "out_proj": 254803968,
+  "mlp_up_gate_act": 1811939328,
+  "mlp_down": 905969664,
+  "attention": 47185920,
+  "lm_head+sampling": 572129280
+ },
+ "resident_weight_bytes": 4463788032,
+ "overlap": true,
+ "normal_segment": {
+  "steps": 5,
+  "gpu_span_us": 250316.584,
+  "gpu_busy_us": 250250.794,
+  "gpu_busy_pct": 99.97371728275102,
+  "idle_us": 65.79,
+  "idle_gaps_over_50us": 0,
+  "command_buffers": 115,
+  "host_wall_us": 233878.208,
+  "intervals": [
+   [
+    0.0,
+    23.584
+   ],
+   [
+    25.292,
+    3977.75
+   ],
+   [
+    3979.542,
+    8791.459
+   ],
+   [
+    8792.875,
+    11777.667
+   ],
+   [
+    11779.25,
+    15249.834
+   ],
+   [
+    15250.417,
+    17571.542
+   ],
+   [
+    17572.125,
+    19389.959
+   ],
+   [
+    19390.584,
+    21920.209
+   ],
+   [
+    21920.917,
+    24293.375
+   ],
+   [
+    24293.959,
+    26128.209
+   ],
+   [
+    26128.792,
+    28566.5
+   ],
+   [
+    28567.125,
+    30965.917
+   ],
+   [
+    30966.542,
+    32665.667
+   ],
+   [
+    32666.209,
+    35129.334
+   ],
+   [
+    35129.875,
+    37487.667
+   ],
+   [
+    37488.084,
+    39011.959
+   ],
+   [
+    39012.334,
+    41568.084
+   ],
+   [
+    41568.584,
+    43776.084
+   ],
+   [
+    43776.584,
+    45453.417
+   ],
+   [
+    45453.834,
+    46823.667
+   ],
+   [
+    46824.167,
+    49068.0
+   ],
+   [
+    49068.375,
+    54634.0
+   ],
+   [
+    54634.417,
+    54752.417
+   ],
+   [
+    54752.834,
+    54758.209
+   ],
+   [
+    54758.834,
+    56400.375
+   ],
+   [
+    56400.834,
+    58878.834
+   ],
+   [
+    58881.917,
+    60376.792
+   ],
+   [
+    60377.334,
+    62843.042
+   ],
+   [
+    62843.584,
+    65103.084
+   ],
+   [
+    65103.5,
+    66891.792
+   ],
+   [
+    66892.209,
+    69331.834
+   ],
+   [
+    69332.25,
+    71695.167
+   ],
+   [
+    71695.542,
+    73564.75
+   ],
+   [
+    73565.167,
+    75927.584
+   ],
+   [
+    75928.0,
+    78232.042
+   ],
+   [
+    78232.75,
+    79903.917
+   ],
+   [
+    79904.375,
+    82540.459
+   ],
+   [
+    82540.875,
+    84920.0
+   ],
+   [
+    84920.375,
+    86510.667
+   ],
+   [
+    86511.084,
+    89138.667
+   ],
+   [
+    89139.167,
+    91389.584
+   ],
+   [
+    91390.084,
+    93070.0
+   ],
+   [
+    93070.417,
+    94431.709
+   ],
+   [
+    94432.209,
+    96667.625
+   ],
+   [
+    96668.042,
+    102228.917
+   ],
+   [
+    102229.334,
+    102341.625
+   ],
+   [
+    102342.167,
+    102347.459
+   ],
+   [
+    102350.584,
+    104005.167
+   ],
+   [
+    104005.667,
+    106490.042
+   ],
+   [
+    106490.459,
+    107976.292
+   ],
+   [
+    107976.709,
+    110428.084
+   ],
+   [
+    110428.584,
+    112647.167
+   ],
+   [
+    112647.584,
+    114412.292
+   ],
+   [
+    114412.709,
+    116805.167
+   ],
+   [
+    116805.584,
+    119092.375
+   ],
+   [
+    119092.792,
+    120856.167
+   ],
+   [
+    120856.584,
+    123234.917
+   ],
+   [
+    123235.334,
+    125586.834
+   ],
+   [
+    125587.417,
+    127286.75
+   ],
+   [
+    127287.167,
+    129771.792
+   ],
+   [
+    129772.209,
+    132421.084
+   ],
+   [
+    132421.584,
+    134309.917
+   ],
+   [
+    134310.334,
+    137644.0
+   ],
+   [
+    137644.542,
+    140570.125
+   ],
+   [
+    140570.584,
+    142588.834
+   ],
+   [
+    142589.25,
+    144268.709
+   ],
+   [
+    144269.167,
+    146498.792
+   ],
+   [
+    146499.167,
+    152065.75
+   ],
+   [
+    152066.25,
+    152179.209
+   ],
+   [
+    152179.625,
+    152185.084
+   ],
+   [
+    152185.75,
+    153855.5
+   ],
+   [
+    153855.917,
+    156359.959
+   ],
+   [
+    156360.375,
+    157874.917
+   ],
+   [
+    157875.334,
+    160330.0
+   ],
+   [
+    160330.417,
+    162583.75
+   ],
+   [
+    162584.125,
+    164369.667
+   ],
+   [
+    164370.042,
+    166856.0
+   ],
+   [
+    166856.459,
+    169138.75
+   ],
+   [
+    169139.292,
+    170981.417
+   ],
+   [
+    170981.834,
+    173509.834
+   ],
+   [
+    173510.375,
+    175999.625
+   ],
+   [
+    176000.25,
+    177827.375
+   ],
+   [
+    177827.792,
+    180356.875
+   ],
+   [
+    180357.25,
+    182773.209
+   ],
+   [
+    182773.625,
+    184361.584
+   ],
+   [
+    184362.0,
+    186993.542
+   ],
+   [
+    186994.0,
+    189277.25
+   ],
+   [
+    189277.75,
+    190974.625
+   ],
+   [
+    190975.042,
+    192343.459
+   ],
+   [
+    192343.959,
+    194578.0
+   ],
+   [
+    194578.542,
+    200087.209
+   ],
+   [
+    200087.625,
+    200200.334
+   ],
+   [
+    200200.75,
+    200206.125
+   ],
+   [
+    200209.25,
+    201843.334
+   ],
+   [
+    201843.834,
+    204329.709
+   ],
+   [
+    204330.125,
+    205812.584
+   ],
+   [
+    205813.0,
+    208286.125
+   ],
+   [
+    208286.542,
+    210567.625
+   ],
+   [
+    210568.042,
+    212368.875
+   ],
+   [
+    212369.292,
+    214814.875
+   ],
+   [
+    214815.25,
+    217137.084
+   ],
+   [
+    217137.542,
+    218983.167
+   ],
+   [
+    218983.584,
+    221357.292
+   ],
+   [
+    221357.709,
+    223666.042
+   ],
+   [
+    223666.667,
+    225413.25
+   ],
+   [
+    225413.709,
+    227854.875
+   ],
+   [
+    227855.292,
+    230156.959
+   ],
+   [
+    230157.375,
+    231682.417
+   ],
+   [
+    231682.834,
+    234593.209
+   ],
+   [
+    234593.709,
+    237275.834
+   ],
+   [
+    237276.375,
+    239437.834
+   ],
+   [
+    239438.25,
+    241142.667
+   ],
+   [
+    241143.167,
+    243996.084
+   ],
+   [
+    243996.5,
+    250202.709
+   ],
+   [
+    250203.125,
+    250316.584
+   ]
+  ]
+ },
+ "normal_steps": [
+  {
+   "wall_us": 41119.833,
+   "gpu_span_us": 41568.084,
+   "gpu_busy_us": 41554.794,
+   "gpu_busy_pct": 99.9680283556009,
+   "command_buffers": 17,
+   "intervals": [
+    [
+     0.0,
+     23.584
+    ],
+    [
+     25.292,
+     3977.75
+    ],
+    [
+     3979.542,
+     8791.459
+    ],
+    [
+     8792.875,
+     11777.667
+    ],
+    [
+     11779.25,
+     15249.834
+    ],
+    [
+     15250.417,
+     17571.542
+    ],
+    [
+     17572.125,
+     19389.959
+    ],
+    [
+     19390.584,
+     21920.209
+    ],
+    [
+     21920.917,
+     24293.375
+    ],
+    [
+     24293.959,
+     26128.209
+    ],
+    [
+     26128.792,
+     28566.5
+    ],
+    [
+     28567.125,
+     30965.917
+    ],
+    [
+     30966.542,
+     32665.667
+    ],
+    [
+     32666.209,
+     35129.334
+    ],
+    [
+     35129.875,
+     37487.667
+    ],
+    [
+     37488.084,
+     39011.959
+    ],
+    [
+     39012.334,
+     41568.084
+    ]
+   ]
+  },
+  {
+   "wall_us": 47258.208,
+   "gpu_span_us": 47570.083,
+   "gpu_busy_us": 47557.375,
+   "gpu_busy_pct": 99.97328573086577,
+   "command_buffers": 23,
+   "intervals": [
+    [
+     0.0,
+     2207.5
+    ],
+    [
+     2208.0,
+     3884.833
+    ],
+    [
+     3885.25,
+     5255.083
+    ],
+    [
+     5255.583,
+     7499.416
+    ],
+    [
+     7499.791,
+     13065.416
+    ],
+    [
+     13065.833,
+     13183.833
+    ],
+    [
+     13184.25,
+     13189.625
+    ],
+    [
+     13190.25,
+     14831.791
+    ],
+    [
+     14832.25,
+     17310.25
+    ],
+    [
+     17313.333,
+     18808.208
+    ],
+    [
+     18808.75,
+     21274.458
+    ],
+    [
+     21275.0,
+     23534.5
+    ],
+    [
+     23534.916,
+     25323.208
+    ],
+    [
+     25323.625,
+     27763.25
+    ],
+    [
+     27763.666,
+     30126.583
+    ],
+    [
+     30126.958,
+     31996.166
+    ],
+    [
+     31996.583,
+     34359.0
+    ],
+    [
+     34359.416,
+     36663.458
+    ],
+    [
+     36664.166,
+     38335.333
+    ],
+    [
+     38335.791,
+     40971.875
+    ],
+    [
+     40972.291,
+     43351.416
+    ],
+    [
+     43351.791,
+     44942.083
+    ],
+    [
+     44942.5,
+     47570.083
+    ]
+   ]
+  },
+  {
+   "wall_us": 47640.209,
+   "gpu_span_us": 48504.833,
+   "gpu_busy_us": 48492.245,
+   "gpu_busy_pct": 99.97404794693345,
+   "command_buffers": 23,
+   "intervals": [
+    [
+     0.0,
+     2250.417
+    ],
+    [
+     2250.917,
+     3930.833
+    ],
+    [
+     3931.25,
+     5292.542
+    ],
+    [
+     5293.042,
+     7528.458
+    ],
+    [
+     7528.875,
+     13089.75
+    ],
+    [
+     13090.167,
+     13202.458
+    ],
+    [
+     13203.0,
+     13208.292
+    ],
+    [
+     13211.417,
+     14866.0
+    ],
+    [
+     14866.5,
+     17350.875
+    ],
+    [
+     17351.292,
+     18837.125
+    ],
+    [
+     18837.542,
+     21288.917
+    ],
+    [
+     21289.417,
+     23508.0
+    ],
+    [
+     23508.417,
+     25273.125
+    ],
+    [
+     25273.542,
+     27666.0
+    ],
+    [
+     27666.417,
+     29953.208
+    ],
+    [
+     29953.625,
+     31717.0
+    ],
+    [
+     31717.417,
+     34095.75
+    ],
+    [
+     34096.167,
+     36447.667
+    ],
+    [
+     36448.25,
+     38147.583
+    ],
+    [
+     38148.0,
+     40632.625
+    ],
+    [
+     40633.042,
+     43281.917
+    ],
+    [
+     43282.417,
+     45170.75
+    ],
+    [
+     45171.167,
+     48504.833
+    ]
+   ]
+  },
+  {
+   "wall_us": 50323.542,
+   "gpu_span_us": 49349.0,
+   "gpu_busy_us": 49339.085,
+   "gpu_busy_pct": 99.9799084074652,
+   "command_buffers": 23,
+   "intervals": [
+    [
+     0.0,
+     2925.583
+    ],
+    [
+     2926.042,
+     4944.292
+    ],
+    [
+     4944.708,
+     6624.167
+    ],
+    [
+     6624.625,
+     8854.25
+    ],
+    [
+     8854.625,
+     14421.208
+    ],
+    [
+     14421.708,
+     14534.667
+    ],
+    [
+     14535.083,
+     14540.542
+    ],
+    [
+     14541.208,
+     16210.958
+    ],
+    [
+     16211.375,
+     18715.417
+    ],
+    [
+     18715.833,
+     20230.375
+    ],
+    [
+     20230.792,
+     22685.458
+    ],
+    [
+     22685.875,
+     24939.208
+    ],
+    [
+     24939.583,
+     26725.125
+    ],
+    [
+     26725.5,
+     29211.458
+    ],
+    [
+     29211.917,
+     31494.208
+    ],
+    [
+     31494.75,
+     33336.875
+    ],
+    [
+     33337.292,
+     35865.292
+    ],
+    [
+     35865.833,
+     38355.083
+    ],
+    [
+     38355.708,
+     40182.833
+    ],
+    [
+     40183.25,
+     42712.333
+    ],
+    [
+     42712.708,
+     45128.667
+    ],
+    [
+     45129.083,
+     46717.042
+    ],
+    [
+     46717.458,
+     49349.0
+    ]
+   ]
+  },
+  {
+   "wall_us": 47529.292,
+   "gpu_span_us": 47599.209,
+   "gpu_busy_us": 47586.709,
+   "gpu_busy_pct": 99.97373905940327,
+   "command_buffers": 23,
+   "intervals": [
+    [
+     0.0,
+     2283.25
+    ],
+    [
+     2283.75,
+     3980.625
+    ],
+    [
+     3981.042,
+     5349.459
+    ],
+    [
+     5349.959,
+     7584.0
+    ],
+    [
+     7584.542,
+     13093.209
+    ],
+    [
+     13093.625,
+     13206.334
+    ],
+    [
+     13206.75,
+     13212.125
+    ],
+    [
+     13215.25,
+     14849.334
+    ],
+    [
+     14849.834,
+     17335.709
+    ],
+    [
+     17336.125,
+     18818.584
+    ],
+    [
+     18819.0,
+     21292.125
+    ],
+    [
+     21292.542,
+     23573.625
+    ],
+    [
+     23574.042,
+     25374.875
+    ],
+    [
+     25375.292,
+     27820.875
+    ],
+    [
+     27821.25,
+     30143.084
+    ],
+    [
+     30143.542,
+     31989.167
+    ],
+    [
+     31989.584,
+     34363.292
+    ],
+    [
+     34363.709,
+     36672.042
+    ],
+    [
+     36672.667,
+     38419.25
+    ],
+    [
+     38419.709,
+     40860.875
+    ],
+    [
+     40861.292,
+     43162.959
+    ],
+    [
+     43163.375,
+     44688.417
+    ],
+    [
+     44688.834,
+     47599.209
+    ]
+   ]
+  }
+ ],
+ "split_steps": [
+  {
+   "step_total_us": 53675.375,
+   "wall_us": 56385.292,
+   "gpu_busy_us": 53096.132,
+   "command_buffers": 262,
+   "op_groups": 267,
+   "mapping_cost_per_buffer": 0.6371908184159535,
+   "merged_buffers": 5,
+   "unmatched_buffers": 0,
+   "kernels": [
+    {
+     "layer": 0,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 0.0,
+     "gpu_end_us": 39.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40.625,
+     "gpu_end_us": 1375.542,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 0,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 1376.958,
+     "gpu_end_us": 1536.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 1537.833,
+     "gpu_end_us": 1815.917,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 0,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 1817.125,
+     "gpu_end_us": 1838.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 1840.167,
+     "gpu_end_us": 2966.833,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 0,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 2968.25,
+     "gpu_end_us": 2977.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 2978.75,
+     "gpu_end_us": 3517.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 1,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3518.333,
+     "gpu_end_us": 3540.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3541.375,
+     "gpu_end_us": 4084.875,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 1,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 4086.125,
+     "gpu_end_us": 4219.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 4220.625,
+     "gpu_end_us": 4426.667,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 1,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 4428.0,
+     "gpu_end_us": 4449.417,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 4450.667,
+     "gpu_end_us": 5345.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 1,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 5346.125,
+     "gpu_end_us": 5349.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 5350.208,
+     "gpu_end_us": 5681.792,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 2,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5682.458,
+     "gpu_end_us": 5691.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5692.333,
+     "gpu_end_us": 6032.125,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 2,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 6032.792,
+     "gpu_end_us": 6099.917,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 6100.5,
+     "gpu_end_us": 6250.417,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 2,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 6251.042,
+     "gpu_end_us": 6260.417,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 6261.042,
+     "gpu_end_us": 6927.417,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 2,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 6928.042,
+     "gpu_end_us": 6931.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 6932.125,
+     "gpu_end_us": 7271.792,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 3,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7272.417,
+     "gpu_end_us": 7281.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7281.917,
+     "gpu_end_us": 7557.583,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 3,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7558.208,
+     "gpu_end_us": 7591.375,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 3,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 7592.042,
+     "gpu_end_us": 7708.417,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 3,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 7709.042,
+     "gpu_end_us": 7717.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 7718.417,
+     "gpu_end_us": 8385.083,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 3,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 8385.708,
+     "gpu_end_us": 8389.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 8390.208,
+     "gpu_end_us": 8727.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 4,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8727.667,
+     "gpu_end_us": 8737.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8737.667,
+     "gpu_end_us": 9087.208,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 4,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9087.917,
+     "gpu_end_us": 9155.167,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9155.792,
+     "gpu_end_us": 9293.125,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 4,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 9293.75,
+     "gpu_end_us": 9302.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 9303.5,
+     "gpu_end_us": 9982.958,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 4,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 9983.625,
+     "gpu_end_us": 9987.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 9987.667,
+     "gpu_end_us": 10332.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 5,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10332.667,
+     "gpu_end_us": 10341.417,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10342.042,
+     "gpu_end_us": 10686.208,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 5,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10686.833,
+     "gpu_end_us": 10753.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10753.667,
+     "gpu_end_us": 10896.583,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 5,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 10897.375,
+     "gpu_end_us": 10906.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 10907.083,
+     "gpu_end_us": 11564.292,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 5,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 11564.958,
+     "gpu_end_us": 11568.417,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 11569.542,
+     "gpu_end_us": 11912.333,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 6,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11912.958,
+     "gpu_end_us": 11921.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11922.458,
+     "gpu_end_us": 12260.042,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 6,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12260.667,
+     "gpu_end_us": 12328.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12328.625,
+     "gpu_end_us": 12466.333,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 6,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 12466.958,
+     "gpu_end_us": 12475.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 12476.5,
+     "gpu_end_us": 13121.083,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 6,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 13121.792,
+     "gpu_end_us": 13125.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 13125.917,
+     "gpu_end_us": 13465.458,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 7,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13466.125,
+     "gpu_end_us": 13474.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13475.5,
+     "gpu_end_us": 13554.792,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 7,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13754.042,
+     "gpu_end_us": 13785.125,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 7,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 13785.667,
+     "gpu_end_us": 13902.917,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 7,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 13903.5,
+     "gpu_end_us": 13911.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 13911.875,
+     "gpu_end_us": 14578.042,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 7,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 14578.667,
+     "gpu_end_us": 14581.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 14582.333,
+     "gpu_end_us": 14919.792,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 8,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 14920.375,
+     "gpu_end_us": 14928.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 14929.0,
+     "gpu_end_us": 15275.25,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 8,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15275.917,
+     "gpu_end_us": 15350.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15351.5,
+     "gpu_end_us": 15481.208,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 8,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 15481.833,
+     "gpu_end_us": 15490.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 15491.0,
+     "gpu_end_us": 16156.792,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 8,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 16157.417,
+     "gpu_end_us": 16160.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 16161.208,
+     "gpu_end_us": 16469.417,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 9,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16470.042,
+     "gpu_end_us": 16478.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16478.625,
+     "gpu_end_us": 16788.708,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 9,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16789.292,
+     "gpu_end_us": 16860.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16861.333,
+     "gpu_end_us": 16980.25,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 9,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 16980.833,
+     "gpu_end_us": 16989.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 16989.625,
+     "gpu_end_us": 17649.125,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 9,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 17649.667,
+     "gpu_end_us": 17652.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 17653.458,
+     "gpu_end_us": 17969.417,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 10,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17969.958,
+     "gpu_end_us": 17977.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17978.458,
+     "gpu_end_us": 18302.667,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 10,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18303.292,
+     "gpu_end_us": 18376.167,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18376.625,
+     "gpu_end_us": 18503.0,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 10,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 18503.667,
+     "gpu_end_us": 18511.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 18512.25,
+     "gpu_end_us": 19147.667,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 10,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 19148.25,
+     "gpu_end_us": 19151.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 19152.083,
+     "gpu_end_us": 19461.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 11,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19461.583,
+     "gpu_end_us": 19469.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19470.333,
+     "gpu_end_us": 19529.667,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 11,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19534.333,
+     "gpu_end_us": 19751.792,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 11,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19752.375,
+     "gpu_end_us": 19783.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19783.542,
+     "gpu_end_us": 19886.167,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 11,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 19886.792,
+     "gpu_end_us": 19898.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 19899.125,
+     "gpu_end_us": 20552.375,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 11,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 20552.917,
+     "gpu_end_us": 20556.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 20556.667,
+     "gpu_end_us": 20870.083,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 12,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20870.667,
+     "gpu_end_us": 20878.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20879.125,
+     "gpu_end_us": 21193.833,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 12,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21194.417,
+     "gpu_end_us": 21250.667,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21251.208,
+     "gpu_end_us": 21396.708,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 12,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 21397.25,
+     "gpu_end_us": 21405.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 21405.917,
+     "gpu_end_us": 22054.167,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 12,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 22054.625,
+     "gpu_end_us": 22057.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 22057.542,
+     "gpu_end_us": 22374.083,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 13,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22374.583,
+     "gpu_end_us": 22380.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22381.0,
+     "gpu_end_us": 22690.0,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 13,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22690.417,
+     "gpu_end_us": 22739.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22739.583,
+     "gpu_end_us": 22880.333,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 13,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 22880.792,
+     "gpu_end_us": 22886.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 22887.167,
+     "gpu_end_us": 23530.625,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 13,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 23531.125,
+     "gpu_end_us": 23534.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 23534.458,
+     "gpu_end_us": 23845.917,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 14,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 23846.375,
+     "gpu_end_us": 23852.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 23852.75,
+     "gpu_end_us": 24177.875,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 14,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24178.333,
+     "gpu_end_us": 24225.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24226.208,
+     "gpu_end_us": 24361.25,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 14,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 24361.792,
+     "gpu_end_us": 24367.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 24368.0,
+     "gpu_end_us": 24982.042,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 14,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 24982.542,
+     "gpu_end_us": 24985.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 24985.625,
+     "gpu_end_us": 25296.375,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 15,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25296.875,
+     "gpu_end_us": 25303.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25303.417,
+     "gpu_end_us": 25375.625,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 15,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25582.583,
+     "gpu_end_us": 25606.125,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 15,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 25606.542,
+     "gpu_end_us": 25720.167,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 15,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 25720.583,
+     "gpu_end_us": 25726.417,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 25726.917,
+     "gpu_end_us": 26332.375,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 15,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 26332.833,
+     "gpu_end_us": 26335.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 26335.75,
+     "gpu_end_us": 26641.583,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 16,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26642.083,
+     "gpu_end_us": 26648.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26648.417,
+     "gpu_end_us": 26952.417,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 16,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26952.958,
+     "gpu_end_us": 27002.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 27002.458,
+     "gpu_end_us": 27131.75,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 16,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 27132.208,
+     "gpu_end_us": 27138.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 27138.542,
+     "gpu_end_us": 27744.875,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 16,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 27745.292,
+     "gpu_end_us": 27747.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 27748.042,
+     "gpu_end_us": 28051.667,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 17,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28052.125,
+     "gpu_end_us": 28058.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28058.417,
+     "gpu_end_us": 28369.042,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 17,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28369.458,
+     "gpu_end_us": 28417.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28417.75,
+     "gpu_end_us": 28547.875,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 17,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 28548.375,
+     "gpu_end_us": 28554.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 28554.75,
+     "gpu_end_us": 29137.792,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 17,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 29138.208,
+     "gpu_end_us": 29140.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 29141.042,
+     "gpu_end_us": 29444.958,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 18,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29445.375,
+     "gpu_end_us": 29451.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29451.875,
+     "gpu_end_us": 29749.125,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 18,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29749.542,
+     "gpu_end_us": 29796.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29796.667,
+     "gpu_end_us": 29922.0,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 18,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 29922.458,
+     "gpu_end_us": 29927.917,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 29928.375,
+     "gpu_end_us": 30498.708,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 18,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 30499.167,
+     "gpu_end_us": 30501.542,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 30502.0,
+     "gpu_end_us": 30785.917,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 19,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30786.333,
+     "gpu_end_us": 30792.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30792.542,
+     "gpu_end_us": 31030.542,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 19,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 31031.0,
+     "gpu_end_us": 31053.25,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 19,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 31053.667,
+     "gpu_end_us": 31151.875,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 19,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 31152.375,
+     "gpu_end_us": 31158.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 31158.792,
+     "gpu_end_us": 31720.542,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 19,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 31720.958,
+     "gpu_end_us": 31723.167,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 31723.583,
+     "gpu_end_us": 32008.042,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 20,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32008.458,
+     "gpu_end_us": 32014.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32014.792,
+     "gpu_end_us": 32300.667,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 20,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32301.083,
+     "gpu_end_us": 32349.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32349.625,
+     "gpu_end_us": 32474.042,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 20,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 32474.458,
+     "gpu_end_us": 32480.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 32480.708,
+     "gpu_end_us": 33046.417,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 20,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 33046.917,
+     "gpu_end_us": 33049.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 33049.667,
+     "gpu_end_us": 33335.458,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 21,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33335.875,
+     "gpu_end_us": 33341.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33342.25,
+     "gpu_end_us": 33633.292,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 21,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33633.75,
+     "gpu_end_us": 33680.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33680.875,
+     "gpu_end_us": 33800.25,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 21,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 33800.667,
+     "gpu_end_us": 33806.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 33807.125,
+     "gpu_end_us": 34378.25,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 21,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 34378.708,
+     "gpu_end_us": 34380.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 34381.375,
+     "gpu_end_us": 34663.917,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 22,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34664.375,
+     "gpu_end_us": 34670.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34670.583,
+     "gpu_end_us": 34957.625,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 22,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34958.042,
+     "gpu_end_us": 35006.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 35006.583,
+     "gpu_end_us": 35135.75,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 22,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 35136.25,
+     "gpu_end_us": 35142.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 35142.708,
+     "gpu_end_us": 35712.417,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 22,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 35712.917,
+     "gpu_end_us": 35715.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 35715.708,
+     "gpu_end_us": 35999.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 23,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 35999.417,
+     "gpu_end_us": 36005.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36005.667,
+     "gpu_end_us": 36056.042,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 23,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36065.75,
+     "gpu_end_us": 36255.167,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 23,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36255.667,
+     "gpu_end_us": 36277.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36278.083,
+     "gpu_end_us": 36375.917,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 23,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 36376.417,
+     "gpu_end_us": 36382.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 36382.75,
+     "gpu_end_us": 36945.5,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 23,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 36945.958,
+     "gpu_end_us": 36948.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 36948.792,
+     "gpu_end_us": 37232.917,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 24,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37233.333,
+     "gpu_end_us": 37239.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37239.75,
+     "gpu_end_us": 37527.792,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 24,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37528.208,
+     "gpu_end_us": 37573.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37573.958,
+     "gpu_end_us": 37700.125,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 24,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 37700.583,
+     "gpu_end_us": 37706.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 37706.958,
+     "gpu_end_us": 38286.667,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 24,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 38287.083,
+     "gpu_end_us": 38289.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 38289.75,
+     "gpu_end_us": 38569.292,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 25,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38569.708,
+     "gpu_end_us": 38578.542,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38578.958,
+     "gpu_end_us": 38863.0,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 25,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38863.417,
+     "gpu_end_us": 38917.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38917.667,
+     "gpu_end_us": 39034.292,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 25,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 39034.708,
+     "gpu_end_us": 39040.542,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 39040.958,
+     "gpu_end_us": 39597.667,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 25,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 39601.0,
+     "gpu_end_us": 39604.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 39604.5,
+     "gpu_end_us": 39887.625,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 26,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39888.0,
+     "gpu_end_us": 39893.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39894.167,
+     "gpu_end_us": 40179.167,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 26,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40179.542,
+     "gpu_end_us": 40224.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40224.583,
+     "gpu_end_us": 40356.083,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 26,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 40356.625,
+     "gpu_end_us": 40362.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 40363.0,
+     "gpu_end_us": 40920.875,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 26,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 40921.375,
+     "gpu_end_us": 40926.417,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 40926.833,
+     "gpu_end_us": 41212.375,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 27,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41212.875,
+     "gpu_end_us": 41218.667,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41219.167,
+     "gpu_end_us": 41269.542,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 27,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41282.875,
+     "gpu_end_us": 41473.542,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 27,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41474.0,
+     "gpu_end_us": 41496.292,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41497.0,
+     "gpu_end_us": 41593.792,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 27,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 41594.292,
+     "gpu_end_us": 41600.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 41600.75,
+     "gpu_end_us": 42164.792,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 27,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 42165.208,
+     "gpu_end_us": 42167.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 42168.167,
+     "gpu_end_us": 42453.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 28,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42453.417,
+     "gpu_end_us": 42459.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42459.958,
+     "gpu_end_us": 42748.0,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 28,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42748.5,
+     "gpu_end_us": 42796.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42797.25,
+     "gpu_end_us": 42920.167,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 28,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 42920.667,
+     "gpu_end_us": 42926.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 42927.167,
+     "gpu_end_us": 43492.667,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 28,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 43493.083,
+     "gpu_end_us": 43495.542,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 43496.0,
+     "gpu_end_us": 43781.208,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 29,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43781.625,
+     "gpu_end_us": 43787.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43788.292,
+     "gpu_end_us": 44080.625,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 29,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44081.042,
+     "gpu_end_us": 44138.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44138.708,
+     "gpu_end_us": 44278.292,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 29,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 44278.708,
+     "gpu_end_us": 44284.792,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 44285.208,
+     "gpu_end_us": 44858.833,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 29,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 44859.25,
+     "gpu_end_us": 44861.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 44862.292,
+     "gpu_end_us": 45146.125,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 30,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 45146.542,
+     "gpu_end_us": 45152.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 45153.0,
+     "gpu_end_us": 45437.5,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 30,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 45437.875,
+     "gpu_end_us": 45492.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 45492.417,
+     "gpu_end_us": 45625.417,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 30,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 45625.875,
+     "gpu_end_us": 45635.042,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 45635.542,
+     "gpu_end_us": 46287.042,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 30,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 46287.458,
+     "gpu_end_us": 46290.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 46290.667,
+     "gpu_end_us": 46588.417,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 31,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 46588.875,
+     "gpu_end_us": 46597.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 46597.917,
+     "gpu_end_us": 46836.583,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 31,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 46836.958,
+     "gpu_end_us": 46860.0,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 31,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 46860.875,
+     "gpu_end_us": 46963.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 31,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 46964.0,
+     "gpu_end_us": 46975.667,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 46976.083,
+     "gpu_end_us": 47537.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 31,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 47537.75,
+     "gpu_end_us": 47540.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 47541.25,
+     "gpu_end_us": 47830.708,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 32,
+     "category": "norms+misc",
+     "name": "before head",
+     "merged_groups": 1,
+     "gpu_start_us": 47831.125,
+     "gpu_end_us": 47838.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 32,
+     "category": "lm_head+sampling",
+     "name": "head",
+     "merged_groups": 1,
+     "gpu_start_us": 47838.667,
+     "gpu_end_us": 53531.5,
+     "weight_bytes": 572129280
+    },
+    {
+     "layer": 32,
+     "category": "lm_head+sampling",
+     "name": "tail (head, sampling, state writes)",
+     "merged_groups": 1,
+     "gpu_start_us": 53531.917,
+     "gpu_end_us": 53675.375,
+     "weight_bytes": 0
+    }
+   ]
+  },
+  {
+   "step_total_us": 52970.458,
+   "wall_us": 55263.791,
+   "gpu_busy_us": 52219.459,
+   "command_buffers": 262,
+   "op_groups": 267,
+   "mapping_cost_per_buffer": 0.6490187123786336,
+   "merged_buffers": 7,
+   "unmatched_buffers": 2,
+   "kernels": [
+    {
+     "layer": 0,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 0.0,
+     "gpu_end_us": 37.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39.0,
+     "gpu_end_us": 1111.291,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 0,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 1112.708,
+     "gpu_end_us": 1267.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 1268.875,
+     "gpu_end_us": 1516.541,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 0,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 1517.875,
+     "gpu_end_us": 1540.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 1541.5,
+     "gpu_end_us": 2626.416,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 0,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 2627.833,
+     "gpu_end_us": 2636.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 2638.0,
+     "gpu_end_us": 3173.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 1,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3174.625,
+     "gpu_end_us": 3196.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3198.125,
+     "gpu_end_us": 3727.166,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 1,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3728.541,
+     "gpu_end_us": 3864.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3865.458,
+     "gpu_end_us": 4081.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 1,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 4083.083,
+     "gpu_end_us": 4105.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 4106.791,
+     "gpu_end_us": 5037.708,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 1,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 5038.333,
+     "gpu_end_us": 5042.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 5042.625,
+     "gpu_end_us": 5423.333,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 2,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5423.916,
+     "gpu_end_us": 5433.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5433.791,
+     "gpu_end_us": 5774.416,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 2,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5775.0,
+     "gpu_end_us": 5838.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5838.791,
+     "gpu_end_us": 5984.666,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 2,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 5985.25,
+     "gpu_end_us": 5994.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 5994.666,
+     "gpu_end_us": 6630.708,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 2,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 6631.291,
+     "gpu_end_us": 6634.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 6635.333,
+     "gpu_end_us": 6958.833,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 3,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 6959.458,
+     "gpu_end_us": 6968.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 6968.833,
+     "gpu_end_us": 7025.833,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 3,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7049.25,
+     "gpu_end_us": 7263.166,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 3,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7263.791,
+     "gpu_end_us": 7297.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7297.875,
+     "gpu_end_us": 7405.791,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 3,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 7406.375,
+     "gpu_end_us": 7415.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 7415.625,
+     "gpu_end_us": 8036.083,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 3,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 8036.666,
+     "gpu_end_us": 8040.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 8041.0,
+     "gpu_end_us": 8347.041,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 4,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8347.625,
+     "gpu_end_us": 8356.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8357.041,
+     "gpu_end_us": 8667.166,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 4,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8667.75,
+     "gpu_end_us": 8730.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8731.125,
+     "gpu_end_us": 8867.75,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 4,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 8868.333,
+     "gpu_end_us": 8877.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 8877.833,
+     "gpu_end_us": 9481.791,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 4,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 9482.416,
+     "gpu_end_us": 9485.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 9486.5,
+     "gpu_end_us": 9797.166,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 5,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9797.791,
+     "gpu_end_us": 9806.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9807.166,
+     "gpu_end_us": 10110.75,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 5,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10111.333,
+     "gpu_end_us": 10173.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10173.958,
+     "gpu_end_us": 10308.333,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 5,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 10308.958,
+     "gpu_end_us": 10317.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 10318.25,
+     "gpu_end_us": 10915.166,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 5,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 10915.75,
+     "gpu_end_us": 10919.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 10919.833,
+     "gpu_end_us": 11224.958,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 6,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11225.541,
+     "gpu_end_us": 11234.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11234.916,
+     "gpu_end_us": 11542.5,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 6,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11543.125,
+     "gpu_end_us": 11616.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11617.541,
+     "gpu_end_us": 11738.333,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 6,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 11738.916,
+     "gpu_end_us": 11747.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 11748.541,
+     "gpu_end_us": 12351.458,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 6,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 12352.041,
+     "gpu_end_us": 12355.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 12356.083,
+     "gpu_end_us": 12662.541,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 7,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12663.125,
+     "gpu_end_us": 12671.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12672.458,
+     "gpu_end_us": 12739.041,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 7,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12932.833,
+     "gpu_end_us": 12963.291,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 7,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 12963.791,
+     "gpu_end_us": 13071.833,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 7,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 13072.375,
+     "gpu_end_us": 13080.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 13080.833,
+     "gpu_end_us": 13681.166,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 7,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 13681.791,
+     "gpu_end_us": 13684.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 13685.5,
+     "gpu_end_us": 13983.458,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 8,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13984.0,
+     "gpu_end_us": 13991.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13992.333,
+     "gpu_end_us": 14295.375,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 8,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 14295.916,
+     "gpu_end_us": 14350.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 14351.416,
+     "gpu_end_us": 14490.583,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 8,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 14491.125,
+     "gpu_end_us": 14499.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 14499.791,
+     "gpu_end_us": 15092.958,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 8,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 15093.541,
+     "gpu_end_us": 15096.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 15097.208,
+     "gpu_end_us": 15397.5,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 9,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15398.041,
+     "gpu_end_us": 15405.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15406.458,
+     "gpu_end_us": 15708.125,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 9,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15708.666,
+     "gpu_end_us": 15767.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15768.458,
+     "gpu_end_us": 15902.0,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 9,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 15902.625,
+     "gpu_end_us": 15910.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 15911.166,
+     "gpu_end_us": 16511.083,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 9,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 16511.625,
+     "gpu_end_us": 16514.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 16515.458,
+     "gpu_end_us": 16820.75,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 10,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16821.291,
+     "gpu_end_us": 16829.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16829.791,
+     "gpu_end_us": 17135.875,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 10,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17136.458,
+     "gpu_end_us": 17191.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17191.916,
+     "gpu_end_us": 17336.291,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 10,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 17336.875,
+     "gpu_end_us": 17344.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 17345.166,
+     "gpu_end_us": 17946.25,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 10,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 17946.875,
+     "gpu_end_us": 17950.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 17950.583,
+     "gpu_end_us": 18251.666,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 11,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18252.291,
+     "gpu_end_us": 18261.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18261.541,
+     "gpu_end_us": 18546.458,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 11,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18547.041,
+     "gpu_end_us": 18578.791,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 11,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 18579.291,
+     "gpu_end_us": 18699.958,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 11,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 18700.5,
+     "gpu_end_us": 18708.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 18709.083,
+     "gpu_end_us": 19345.291,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 11,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 19345.916,
+     "gpu_end_us": 19349.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 19349.791,
+     "gpu_end_us": 19661.375,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 12,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19662.0,
+     "gpu_end_us": 19670.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19670.708,
+     "gpu_end_us": 19976.375,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 12,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19976.958,
+     "gpu_end_us": 20033.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20034.083,
+     "gpu_end_us": 20167.625,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 12,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 20168.166,
+     "gpu_end_us": 20176.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 20176.666,
+     "gpu_end_us": 20774.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 12,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 20774.875,
+     "gpu_end_us": 20778.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 20778.791,
+     "gpu_end_us": 21073.125,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 13,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21073.666,
+     "gpu_end_us": 21081.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21082.5,
+     "gpu_end_us": 21384.5,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 13,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21384.916,
+     "gpu_end_us": 21435.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21435.416,
+     "gpu_end_us": 21562.541,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 13,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 21563.0,
+     "gpu_end_us": 21568.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 21569.166,
+     "gpu_end_us": 22159.833,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 13,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 22160.333,
+     "gpu_end_us": 22162.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 22163.041,
+     "gpu_end_us": 22459.875,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 14,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22460.333,
+     "gpu_end_us": 22466.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22466.541,
+     "gpu_end_us": 22768.333,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 14,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22768.75,
+     "gpu_end_us": 22818.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22818.625,
+     "gpu_end_us": 22946.166,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 14,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 22946.583,
+     "gpu_end_us": 22952.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 22952.833,
+     "gpu_end_us": 23552.291,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 14,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 23552.708,
+     "gpu_end_us": 23555.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 23555.416,
+     "gpu_end_us": 23849.291,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 15,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 23849.75,
+     "gpu_end_us": 23855.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 23856.166,
+     "gpu_end_us": 23908.5,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 15,
+     "category": "in_proj",
+     "name": "kv_wt + before o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 23914.041,
+     "gpu_end_us": 24111.333,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": null,
+     "category": "unmatched",
+     "name": "unmatched",
+     "merged_groups": 0,
+     "gpu_start_us": 24111.833,
+     "gpu_end_us": 24134.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24134.833,
+     "gpu_end_us": 24238.041,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 15,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 24238.5,
+     "gpu_end_us": 24244.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 24244.833,
+     "gpu_end_us": 24833.708,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 15,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 24834.166,
+     "gpu_end_us": 24836.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 24836.875,
+     "gpu_end_us": 25133.166,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 16,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25133.583,
+     "gpu_end_us": 25139.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25139.791,
+     "gpu_end_us": 25436.416,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 16,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25436.833,
+     "gpu_end_us": 25483.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25483.833,
+     "gpu_end_us": 25615.625,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 16,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 25616.125,
+     "gpu_end_us": 25622.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 25622.458,
+     "gpu_end_us": 26208.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 16,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 26208.75,
+     "gpu_end_us": 26211.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 26211.583,
+     "gpu_end_us": 26507.5,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 17,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26507.916,
+     "gpu_end_us": 26513.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26514.208,
+     "gpu_end_us": 26812.208,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 17,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26812.625,
+     "gpu_end_us": 26860.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26860.458,
+     "gpu_end_us": 26990.416,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 17,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 26990.833,
+     "gpu_end_us": 26996.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 26997.0,
+     "gpu_end_us": 27582.583,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 17,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 27583.083,
+     "gpu_end_us": 27585.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 27585.875,
+     "gpu_end_us": 27887.0,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 18,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 27887.458,
+     "gpu_end_us": 27893.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 27893.625,
+     "gpu_end_us": 28190.375,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 18,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28190.833,
+     "gpu_end_us": 28237.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28238.166,
+     "gpu_end_us": 28366.041,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 18,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 28366.458,
+     "gpu_end_us": 28372.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 28372.458,
+     "gpu_end_us": 28965.041,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 18,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 28965.458,
+     "gpu_end_us": 28967.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 28968.041,
+     "gpu_end_us": 29268.708,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 19,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29269.166,
+     "gpu_end_us": 29274.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29275.375,
+     "gpu_end_us": 29340.125,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 19,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29523.875,
+     "gpu_end_us": 29546.875,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 19,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 29547.25,
+     "gpu_end_us": 29648.416,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 19,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 29648.875,
+     "gpu_end_us": 29654.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 29655.041,
+     "gpu_end_us": 30245.458,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 19,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 30245.875,
+     "gpu_end_us": 30248.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 30248.666,
+     "gpu_end_us": 30546.625,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 20,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30547.083,
+     "gpu_end_us": 30552.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30553.333,
+     "gpu_end_us": 30852.541,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 20,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30853.083,
+     "gpu_end_us": 30900.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30900.916,
+     "gpu_end_us": 31031.875,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 20,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 31032.291,
+     "gpu_end_us": 31038.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 31038.958,
+     "gpu_end_us": 31643.416,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 20,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 31643.833,
+     "gpu_end_us": 31646.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 31646.708,
+     "gpu_end_us": 31947.208,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 21,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 31947.75,
+     "gpu_end_us": 31953.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 31954.083,
+     "gpu_end_us": 32263.041,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 21,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32263.458,
+     "gpu_end_us": 32313.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32313.541,
+     "gpu_end_us": 32441.916,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 21,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 32442.375,
+     "gpu_end_us": 32448.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 32448.541,
+     "gpu_end_us": 33045.416,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 21,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 33045.916,
+     "gpu_end_us": 33048.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 33048.708,
+     "gpu_end_us": 33349.291,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 22,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33349.708,
+     "gpu_end_us": 33355.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33356.041,
+     "gpu_end_us": 33659.791,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 22,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33660.25,
+     "gpu_end_us": 33707.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33708.125,
+     "gpu_end_us": 33846.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 22,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 33846.958,
+     "gpu_end_us": 33852.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 33853.416,
+     "gpu_end_us": 34456.5,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 22,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 34457.0,
+     "gpu_end_us": 34459.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 34459.833,
+     "gpu_end_us": 34763.416,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 23,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34763.833,
+     "gpu_end_us": 34769.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34770.125,
+     "gpu_end_us": 35025.541,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 23,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 35026.041,
+     "gpu_end_us": 35049.458,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 23,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 35049.833,
+     "gpu_end_us": 35154.583,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 23,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 35155.0,
+     "gpu_end_us": 35160.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 35161.166,
+     "gpu_end_us": 35771.583,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 23,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 35772.0,
+     "gpu_end_us": 35774.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 35775.0,
+     "gpu_end_us": 36077.791,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 24,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36078.208,
+     "gpu_end_us": 36084.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36084.625,
+     "gpu_end_us": 36390.083,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 24,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36390.5,
+     "gpu_end_us": 36438.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36438.458,
+     "gpu_end_us": 36571.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 24,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 36571.958,
+     "gpu_end_us": 36577.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 36578.125,
+     "gpu_end_us": 37194.833,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 24,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 37195.25,
+     "gpu_end_us": 37197.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 37198.041,
+     "gpu_end_us": 37499.083,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 25,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37499.541,
+     "gpu_end_us": 37505.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37505.916,
+     "gpu_end_us": 37805.541,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 25,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37806.041,
+     "gpu_end_us": 37856.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37857.458,
+     "gpu_end_us": 37993.166,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 25,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 37993.583,
+     "gpu_end_us": 37999.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 37999.833,
+     "gpu_end_us": 38588.125,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 25,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 38588.541,
+     "gpu_end_us": 38590.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 38591.291,
+     "gpu_end_us": 38904.875,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 26,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38905.291,
+     "gpu_end_us": 38911.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38911.666,
+     "gpu_end_us": 39234.583,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 26,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39235.0,
+     "gpu_end_us": 39285.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39285.458,
+     "gpu_end_us": 39424.666,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 26,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 39425.25,
+     "gpu_end_us": 39431.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 39431.5,
+     "gpu_end_us": 40036.75,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 26,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 40037.166,
+     "gpu_end_us": 40039.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 40039.791,
+     "gpu_end_us": 40342.416,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 27,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40342.916,
+     "gpu_end_us": 40349.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40349.625,
+     "gpu_end_us": 40412.208,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 27,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40599.208,
+     "gpu_end_us": 40622.083,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 27,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 40622.541,
+     "gpu_end_us": 40731.541,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 27,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 40732.041,
+     "gpu_end_us": 40738.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 40738.958,
+     "gpu_end_us": 41325.041,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 27,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 41325.458,
+     "gpu_end_us": 41328.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 41328.5,
+     "gpu_end_us": 41620.333,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 28,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41620.75,
+     "gpu_end_us": 41626.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41627.333,
+     "gpu_end_us": 41921.583,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 28,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41922.0,
+     "gpu_end_us": 41971.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41971.416,
+     "gpu_end_us": 42098.666,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 28,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 42099.083,
+     "gpu_end_us": 42104.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 42105.375,
+     "gpu_end_us": 42697.625,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 28,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 42698.083,
+     "gpu_end_us": 42700.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 42700.875,
+     "gpu_end_us": 42993.125,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 29,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42993.541,
+     "gpu_end_us": 42999.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42999.958,
+     "gpu_end_us": 43309.5,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 29,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43310.0,
+     "gpu_end_us": 43356.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43357.25,
+     "gpu_end_us": 43490.875,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 29,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 43491.375,
+     "gpu_end_us": 43497.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 43498.0,
+     "gpu_end_us": 44080.666,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 29,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 44081.125,
+     "gpu_end_us": 44083.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 44084.208,
+     "gpu_end_us": 44404.125,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 30,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44404.541,
+     "gpu_end_us": 44410.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44411.458,
+     "gpu_end_us": 44725.5,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 30,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44725.916,
+     "gpu_end_us": 44785.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44785.583,
+     "gpu_end_us": 44966.375,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 30,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 44966.791,
+     "gpu_end_us": 44972.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 44973.166,
+     "gpu_end_us": 45589.125,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 30,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 45589.583,
+     "gpu_end_us": 45592.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 45592.583,
+     "gpu_end_us": 45919.375,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 31,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 45919.833,
+     "gpu_end_us": 45925.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 45926.041,
+     "gpu_end_us": 45985.291,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 31,
+     "category": "in_proj",
+     "name": "kv_wt + before o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 46002.041,
+     "gpu_end_us": 46218.0,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": null,
+     "category": "unmatched",
+     "name": "unmatched",
+     "merged_groups": 0,
+     "gpu_start_us": 46218.458,
+     "gpu_end_us": 46240.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 46241.375,
+     "gpu_end_us": 46352.583,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 31,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 46353.0,
+     "gpu_end_us": 46358.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 46359.208,
+     "gpu_end_us": 46998.25,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 31,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 46998.666,
+     "gpu_end_us": 47001.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 47001.75,
+     "gpu_end_us": 47334.916,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 32,
+     "category": "norms+misc",
+     "name": "before head",
+     "merged_groups": 1,
+     "gpu_start_us": 47335.375,
+     "gpu_end_us": 47342.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 32,
+     "category": "lm_head+sampling",
+     "name": "head",
+     "merged_groups": 1,
+     "gpu_start_us": 47343.125,
+     "gpu_end_us": 52828.625,
+     "weight_bytes": 572129280
+    },
+    {
+     "layer": 32,
+     "category": "lm_head+sampling",
+     "name": "tail (head, sampling, state writes)",
+     "merged_groups": 1,
+     "gpu_start_us": 52829.166,
+     "gpu_end_us": 52970.458,
+     "weight_bytes": 0
+    }
+   ]
+  },
+  {
+   "step_total_us": 50777.791,
+   "wall_us": 53335.125,
+   "gpu_busy_us": 50288.659,
+   "command_buffers": 263,
+   "op_groups": 267,
+   "mapping_cost_per_buffer": 0.653402119322698,
+   "merged_buffers": 4,
+   "unmatched_buffers": 0,
+   "kernels": [
+    {
+     "layer": 0,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 0.0,
+     "gpu_end_us": 37.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38.916,
+     "gpu_end_us": 1115.0,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 0,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 1116.583,
+     "gpu_end_us": 1274.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 1276.291,
+     "gpu_end_us": 1587.0,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 0,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 1588.291,
+     "gpu_end_us": 1610.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 1612.208,
+     "gpu_end_us": 2832.416,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 0,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 2833.875,
+     "gpu_end_us": 2842.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 0,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 2844.166,
+     "gpu_end_us": 3399.208,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 1,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3400.75,
+     "gpu_end_us": 3422.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3424.375,
+     "gpu_end_us": 3939.708,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 1,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 3940.666,
+     "gpu_end_us": 4018.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 4018.708,
+     "gpu_end_us": 4189.416,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 1,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 4190.125,
+     "gpu_end_us": 4199.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 4200.208,
+     "gpu_end_us": 4950.791,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 1,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 4951.416,
+     "gpu_end_us": 4954.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 1,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 4955.625,
+     "gpu_end_us": 5297.5,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 2,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5298.333,
+     "gpu_end_us": 5307.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5308.0,
+     "gpu_end_us": 5644.125,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 2,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5644.875,
+     "gpu_end_us": 5723.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 5724.333,
+     "gpu_end_us": 5850.125,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 2,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 5850.791,
+     "gpu_end_us": 5860.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 5860.75,
+     "gpu_end_us": 6459.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 2,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 6460.0,
+     "gpu_end_us": 6463.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 2,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 6464.166,
+     "gpu_end_us": 6767.5,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 3,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 6768.166,
+     "gpu_end_us": 6777.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 6777.666,
+     "gpu_end_us": 6834.708,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 3,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 7023.583,
+     "gpu_end_us": 7057.791,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 3,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 7058.416,
+     "gpu_end_us": 7160.0,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 3,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 7160.666,
+     "gpu_end_us": 7169.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 7170.25,
+     "gpu_end_us": 7742.0,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 3,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 7742.583,
+     "gpu_end_us": 7746.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 3,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 7746.708,
+     "gpu_end_us": 8037.291,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 4,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8037.916,
+     "gpu_end_us": 8046.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8047.416,
+     "gpu_end_us": 8347.041,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 4,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8347.583,
+     "gpu_end_us": 8409.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 8409.541,
+     "gpu_end_us": 8538.708,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 4,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 8539.333,
+     "gpu_end_us": 8548.25,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 8548.791,
+     "gpu_end_us": 9128.125,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 4,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 9131.375,
+     "gpu_end_us": 9135.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 4,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 9136.333,
+     "gpu_end_us": 9424.833,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 5,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9425.5,
+     "gpu_end_us": 9434.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9435.125,
+     "gpu_end_us": 9731.583,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 5,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9732.166,
+     "gpu_end_us": 9794.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 9795.083,
+     "gpu_end_us": 9919.041,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 5,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 9919.791,
+     "gpu_end_us": 9928.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 9929.375,
+     "gpu_end_us": 10512.708,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 5,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 10516.041,
+     "gpu_end_us": 10520.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 5,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 10521.375,
+     "gpu_end_us": 10807.958,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 6,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10808.541,
+     "gpu_end_us": 10817.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 10818.0,
+     "gpu_end_us": 11113.416,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 6,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11114.0,
+     "gpu_end_us": 11175.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 11176.0,
+     "gpu_end_us": 11300.041,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 6,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 11300.666,
+     "gpu_end_us": 11309.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 11309.916,
+     "gpu_end_us": 11883.875,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 6,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 11884.583,
+     "gpu_end_us": 11888.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 6,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 11888.708,
+     "gpu_end_us": 12189.041,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 7,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12189.583,
+     "gpu_end_us": 12197.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12198.166,
+     "gpu_end_us": 12433.458,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 7,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 12435.25,
+     "gpu_end_us": 12465.5,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 7,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 12536.291,
+     "gpu_end_us": 12639.916,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 7,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 12640.541,
+     "gpu_end_us": 12648.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 12649.166,
+     "gpu_end_us": 13221.375,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 7,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 13221.958,
+     "gpu_end_us": 13225.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 7,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 13226.166,
+     "gpu_end_us": 13514.125,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 8,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13514.75,
+     "gpu_end_us": 13522.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13523.375,
+     "gpu_end_us": 13810.666,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 8,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13811.291,
+     "gpu_end_us": 13867.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 13868.458,
+     "gpu_end_us": 14003.958,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 8,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 14004.541,
+     "gpu_end_us": 14012.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 14013.333,
+     "gpu_end_us": 14587.958,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 8,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 14588.541,
+     "gpu_end_us": 14594.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 8,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 14595.375,
+     "gpu_end_us": 14884.875,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 9,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 14885.375,
+     "gpu_end_us": 14893.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 14893.75,
+     "gpu_end_us": 15181.041,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 9,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15181.583,
+     "gpu_end_us": 15257.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 15257.958,
+     "gpu_end_us": 15370.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 9,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 15373.75,
+     "gpu_end_us": 15382.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 15382.791,
+     "gpu_end_us": 15952.75,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 9,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 15955.916,
+     "gpu_end_us": 15959.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 9,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 15960.25,
+     "gpu_end_us": 16248.291,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 10,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16248.875,
+     "gpu_end_us": 16257.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16257.541,
+     "gpu_end_us": 16562.625,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 10,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16563.166,
+     "gpu_end_us": 16618.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 16619.458,
+     "gpu_end_us": 16762.083,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 10,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 16762.625,
+     "gpu_end_us": 16770.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 16771.25,
+     "gpu_end_us": 17352.416,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 10,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 17353.0,
+     "gpu_end_us": 17359.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 10,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 17360.25,
+     "gpu_end_us": 17650.708,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 11,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17651.25,
+     "gpu_end_us": 17659.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17659.875,
+     "gpu_end_us": 17713.916,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 11,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17724.166,
+     "gpu_end_us": 17913.041,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 11,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17913.625,
+     "gpu_end_us": 17944.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 17945.208,
+     "gpu_end_us": 18048.625,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 11,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 18049.166,
+     "gpu_end_us": 18057.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 18058.0,
+     "gpu_end_us": 18625.791,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 11,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 18626.375,
+     "gpu_end_us": 18629.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 11,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 18630.416,
+     "gpu_end_us": 18913.625,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 12,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18914.125,
+     "gpu_end_us": 18922.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 18922.625,
+     "gpu_end_us": 19213.458,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 12,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19214.041,
+     "gpu_end_us": 19271.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 19271.958,
+     "gpu_end_us": 19398.0,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 12,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 19398.5,
+     "gpu_end_us": 19406.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 19406.958,
+     "gpu_end_us": 19975.541,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 12,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 19976.083,
+     "gpu_end_us": 19979.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 12,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 19979.875,
+     "gpu_end_us": 20263.958,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 13,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20264.458,
+     "gpu_end_us": 20275.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20276.166,
+     "gpu_end_us": 20562.833,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 13,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20563.208,
+     "gpu_end_us": 20610.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 20611.041,
+     "gpu_end_us": 20732.333,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 13,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 20732.75,
+     "gpu_end_us": 20738.875,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 20739.291,
+     "gpu_end_us": 21309.041,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 13,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 21309.458,
+     "gpu_end_us": 21314.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 13,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 21314.875,
+     "gpu_end_us": 21599.166,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 14,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21599.583,
+     "gpu_end_us": 21605.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21605.791,
+     "gpu_end_us": 21892.208,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 14,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21892.625,
+     "gpu_end_us": 21941.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 21941.5,
+     "gpu_end_us": 22072.041,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 14,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 22072.458,
+     "gpu_end_us": 22078.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 22078.708,
+     "gpu_end_us": 22646.458,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 14,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 22646.875,
+     "gpu_end_us": 22652.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 14,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 22652.625,
+     "gpu_end_us": 22937.291,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 15,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22937.708,
+     "gpu_end_us": 22943.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 22943.916,
+     "gpu_end_us": 23176.416,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 15,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 23176.958,
+     "gpu_end_us": 23199.708,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 15,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 23200.125,
+     "gpu_end_us": 23298.083,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 15,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 23298.583,
+     "gpu_end_us": 23304.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 23305.041,
+     "gpu_end_us": 23875.291,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 15,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 23878.375,
+     "gpu_end_us": 23881.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 15,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 23881.625,
+     "gpu_end_us": 24167.791,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 16,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24168.25,
+     "gpu_end_us": 24174.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24174.458,
+     "gpu_end_us": 24459.583,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 16,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24460.0,
+     "gpu_end_us": 24508.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 24508.625,
+     "gpu_end_us": 24639.291,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 16,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 24639.791,
+     "gpu_end_us": 24645.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 24646.458,
+     "gpu_end_us": 25206.666,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 16,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 25209.791,
+     "gpu_end_us": 25212.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 16,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 25212.875,
+     "gpu_end_us": 25500.291,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 17,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25500.666,
+     "gpu_end_us": 25506.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25506.75,
+     "gpu_end_us": 25791.541,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 17,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25791.958,
+     "gpu_end_us": 25840.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 25840.458,
+     "gpu_end_us": 25965.625,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 17,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 25966.0,
+     "gpu_end_us": 25971.75,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 25972.125,
+     "gpu_end_us": 26561.958,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 17,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 26562.375,
+     "gpu_end_us": 26564.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 17,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 26565.0,
+     "gpu_end_us": 26850.833,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 18,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26851.208,
+     "gpu_end_us": 26857.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 26857.541,
+     "gpu_end_us": 27140.791,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 18,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 27141.291,
+     "gpu_end_us": 27190.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 27190.583,
+     "gpu_end_us": 27320.416,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 18,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 27320.833,
+     "gpu_end_us": 27326.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 27326.958,
+     "gpu_end_us": 27895.083,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 18,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 27895.541,
+     "gpu_end_us": 27898.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 18,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 27898.666,
+     "gpu_end_us": 28191.5,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 19,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28191.958,
+     "gpu_end_us": 28197.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28198.125,
+     "gpu_end_us": 28248.0,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 19,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28251.041,
+     "gpu_end_us": 28442.291,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 19,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28442.666,
+     "gpu_end_us": 28465.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 28466.166,
+     "gpu_end_us": 28563.833,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 19,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 28564.291,
+     "gpu_end_us": 28570.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 28570.916,
+     "gpu_end_us": 29128.583,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 19,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 29129.0,
+     "gpu_end_us": 29135.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 19,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 29136.166,
+     "gpu_end_us": 29419.666,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 20,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29420.041,
+     "gpu_end_us": 29425.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29426.166,
+     "gpu_end_us": 29712.958,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 20,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29713.333,
+     "gpu_end_us": 29764.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 29764.666,
+     "gpu_end_us": 29895.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 20,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 29895.916,
+     "gpu_end_us": 29901.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 29902.333,
+     "gpu_end_us": 30468.583,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 20,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 30469.0,
+     "gpu_end_us": 30474.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 20,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 30474.666,
+     "gpu_end_us": 30760.416,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 21,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30760.791,
+     "gpu_end_us": 30766.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 30767.083,
+     "gpu_end_us": 31057.25,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 21,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 31057.625,
+     "gpu_end_us": 31102.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 31103.25,
+     "gpu_end_us": 31229.291,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 21,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 31229.708,
+     "gpu_end_us": 31236.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 31236.5,
+     "gpu_end_us": 31800.083,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 21,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 31800.541,
+     "gpu_end_us": 31805.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 21,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 31805.708,
+     "gpu_end_us": 32088.083,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 22,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32088.458,
+     "gpu_end_us": 32094.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32094.666,
+     "gpu_end_us": 32381.916,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 22,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32382.375,
+     "gpu_end_us": 32431.5,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 32432.0,
+     "gpu_end_us": 32558.291,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 22,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 32558.833,
+     "gpu_end_us": 32564.833,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 32565.208,
+     "gpu_end_us": 33131.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 22,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 33134.416,
+     "gpu_end_us": 33137.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 22,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 33137.583,
+     "gpu_end_us": 33419.958,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 23,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33420.375,
+     "gpu_end_us": 33426.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33426.916,
+     "gpu_end_us": 33477.083,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 23,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33490.291,
+     "gpu_end_us": 33678.375,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 23,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33678.833,
+     "gpu_end_us": 33701.416,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 33701.833,
+     "gpu_end_us": 33801.666,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 23,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 33802.083,
+     "gpu_end_us": 33810.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 33810.708,
+     "gpu_end_us": 34372.333,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 23,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 34372.75,
+     "gpu_end_us": 34377.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 23,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 34378.375,
+     "gpu_end_us": 34664.208,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 24,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34664.625,
+     "gpu_end_us": 34670.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34671.125,
+     "gpu_end_us": 34957.416,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 24,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 34957.875,
+     "gpu_end_us": 35007.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 35007.458,
+     "gpu_end_us": 35123.541,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 24,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 35124.041,
+     "gpu_end_us": 35129.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 35130.166,
+     "gpu_end_us": 35718.541,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 24,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 35719.041,
+     "gpu_end_us": 35721.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 24,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 35721.791,
+     "gpu_end_us": 36005.833,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 25,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36006.416,
+     "gpu_end_us": 36012.583,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36013.041,
+     "gpu_end_us": 36293.666,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 25,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36296.75,
+     "gpu_end_us": 36345.625,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 36346.041,
+     "gpu_end_us": 36473.333,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 25,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 36473.708,
+     "gpu_end_us": 36479.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 36479.791,
+     "gpu_end_us": 37035.916,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 25,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 37039.0,
+     "gpu_end_us": 37041.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 25,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 37042.125,
+     "gpu_end_us": 37323.708,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 26,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37324.208,
+     "gpu_end_us": 37330.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37330.541,
+     "gpu_end_us": 37617.291,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 26,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37617.75,
+     "gpu_end_us": 37666.375,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 37666.833,
+     "gpu_end_us": 37792.75,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 26,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 37793.25,
+     "gpu_end_us": 37799.041,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 37799.5,
+     "gpu_end_us": 38362.916,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 26,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 38366.125,
+     "gpu_end_us": 38368.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 26,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 38369.583,
+     "gpu_end_us": 38650.833,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 27,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38651.333,
+     "gpu_end_us": 38657.666,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38658.25,
+     "gpu_end_us": 38891.458,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 27,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 38891.833,
+     "gpu_end_us": 38914.166,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 27,
+     "category": "attention",
+     "name": "before o_wt + o_wt",
+     "merged_groups": 2,
+     "gpu_start_us": 38914.583,
+     "gpu_end_us": 39010.958,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 27,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 39014.166,
+     "gpu_end_us": 39020.541,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 39021.041,
+     "gpu_end_us": 39585.875,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 27,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 39588.958,
+     "gpu_end_us": 39591.791,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 27,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 39592.5,
+     "gpu_end_us": 39872.541,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 28,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39872.958,
+     "gpu_end_us": 39879.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 39879.666,
+     "gpu_end_us": 40161.083,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 28,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40163.291,
+     "gpu_end_us": 40213.083,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 40213.541,
+     "gpu_end_us": 40342.5,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 28,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 40342.916,
+     "gpu_end_us": 40349.0,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 40349.375,
+     "gpu_end_us": 40923.125,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 28,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 40926.208,
+     "gpu_end_us": 40928.916,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 28,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 40929.375,
+     "gpu_end_us": 41217.25,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 29,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41217.666,
+     "gpu_end_us": 41224.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41224.5,
+     "gpu_end_us": 41523.375,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 29,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41523.791,
+     "gpu_end_us": 41575.208,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 41575.625,
+     "gpu_end_us": 41707.25,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 29,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 41707.666,
+     "gpu_end_us": 41716.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 41716.916,
+     "gpu_end_us": 42272.666,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 29,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 42273.125,
+     "gpu_end_us": 42278.291,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 29,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 42278.833,
+     "gpu_end_us": 42558.666,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 30,
+     "category": "norms+misc",
+     "name": "before in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42559.166,
+     "gpu_end_us": 42565.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "in_proj",
+     "name": "in_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42565.833,
+     "gpu_end_us": 42847.5,
+     "weight_bytes": 28459008
+    },
+    {
+     "layer": 30,
+     "category": "conv+gated-delta",
+     "name": "before out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42850.583,
+     "gpu_end_us": 42900.458,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "out_proj",
+     "name": "out_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 42900.958,
+     "gpu_end_us": 43028.833,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 30,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 43031.916,
+     "gpu_end_us": 43038.333,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 43038.833,
+     "gpu_end_us": 43599.458,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 30,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 43599.875,
+     "gpu_end_us": 43604.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 30,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 43605.375,
+     "gpu_end_us": 43884.333,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 31,
+     "category": "norms+misc",
+     "name": "before q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43884.791,
+     "gpu_end_us": 43893.708,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "in_proj",
+     "name": "q_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43894.208,
+     "gpu_end_us": 43942.75,
+     "weight_bytes": 18874368
+    },
+    {
+     "layer": 31,
+     "category": "in_proj",
+     "name": "kv_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 43961.458,
+     "gpu_end_us": 44153.708,
+     "weight_bytes": 4718592
+    },
+    {
+     "layer": 31,
+     "category": "attention",
+     "name": "before o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44154.208,
+     "gpu_end_us": 44181.958,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "out_proj",
+     "name": "o_wt",
+     "merged_groups": 1,
+     "gpu_start_us": 44182.375,
+     "gpu_end_us": 44278.416,
+     "weight_bytes": 9437184
+    },
+    {
+     "layer": 31,
+     "category": "norms+misc",
+     "name": "before mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 44278.833,
+     "gpu_end_us": 44285.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "mlp_up_gate_act",
+     "name": "mlp_gu",
+     "merged_groups": 1,
+     "gpu_start_us": 44285.666,
+     "gpu_end_us": 44847.208,
+     "weight_bytes": 56623104
+    },
+    {
+     "layer": 31,
+     "category": "mlp_up_gate_act",
+     "name": "before mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 44847.625,
+     "gpu_end_us": 44853.166,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 31,
+     "category": "mlp_down",
+     "name": "mlp_d",
+     "merged_groups": 1,
+     "gpu_start_us": 44853.666,
+     "gpu_end_us": 45144.166,
+     "weight_bytes": 28311552
+    },
+    {
+     "layer": 32,
+     "category": "norms+misc",
+     "name": "before head",
+     "merged_groups": 1,
+     "gpu_start_us": 45144.583,
+     "gpu_end_us": 45152.125,
+     "weight_bytes": 0
+    },
+    {
+     "layer": 32,
+     "category": "lm_head+sampling",
+     "name": "head",
+     "merged_groups": 1,
+     "gpu_start_us": 45152.625,
+     "gpu_end_us": 50629.708,
+     "weight_bytes": 572129280
+    },
+    {
+     "layer": 32,
+     "category": "lm_head+sampling",
+     "name": "tail (head, sampling, state writes)",
+     "merged_groups": 1,
+     "gpu_start_us": 50632.833,
+     "gpu_end_us": 50777.791,
+     "weight_bytes": 0
+    }
+   ]
+  }
+ ],
+ "traces": "/private/tmp/claude-501/-Users-user-Documents-Projects-MilliJoule/ae1ca8d8-c94f-4eb0-b984-6492edd379c3/scratchpad/traces/r3_paired",
+ "time": "2026-11-20T09:37:56",
+ "notes": "Where one decode step's GPU time goes, op group by op group, and where the GPU waits (one request, greedy).\n\nTwo kinds of step, each recorded in its own process under Instruments' Metal System Trace (xctrace, ships with\nXcode):\n- normal: the engine's own decode step, untouched, at MLX's defaults (engine overlap on unless --no-overlap). Its GPU\n  command buffers (each covers several ops; Metal does not report per-dispatch times) and the idle gaps between\n  them are the real timeline (normal_segment, normal_steps).\n- split (default --split-mode async): the same step with mx.async_eval at every matmul's input and output, plus\n  a one-element marker op, and MLX_MAX_OPS_PER_BUFFER / MLX_MAX_MB_PER_BUFFER unlimited. Each op group is then its\n  own command buffer (MLX still merges a few back-to-back ones), submitted without waiting, so the GPU stays fed.\n  Groups: norms+misc, in_proj, attention (full layers) or conv+gated-delta (DeltaNet layers), out_proj,\n  mlp_up_gate_act, mlp_down, lm_head+sampling (after the last layer's MLP: head, sampling, state writes); MoE\n  layers add router, expert_gather and shared_expert. Buffers are matched to groups by a sequence alignment that\n  allows merges (match(); fit cost per buffer reported). Gaps in split steps are real waits where the step itself\n  syncs (e.g. routing readback in streamed MoE), plus the split's own small per-buffer cost.\n  --split-mode sync (mx.eval per group) is kept for comparison only: the GPU drops its clocks between syncs and\n  durations come out about 3x (RESULTS 1t).\nAlso runs the same normal steps once without xctrace (untraced wall time), so tracing distortion is visible.\n\n    .venv/bin/python tools/mlx_step_trace.py --model <mlx 9B dir> --out results/mlx/step_trace_qwen35_9b/r1.json\n"
+}

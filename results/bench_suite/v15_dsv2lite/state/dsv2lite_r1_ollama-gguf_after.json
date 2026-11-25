@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-21T23:24:28",
+ "top_cpu": [
+  "99581 ScreenTimeAgent 69.3",
+  "0 kernel_task 26.3",
+  "650 accountsd 8.7",
+  "1 launchd 7.8",
+  "384 opendirectoryd 7.5",
+  "397 dasd 5.2",
+  "79143 cloudd 4.8",
+  "10944 MacInCallService 4.5"
+ ],
+ "swap": "total = 6144.00M  used = 2136.75M  free = 4007.25M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 86%",
+ "loadavg": "{ 3.37 2.12 1.51 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 2136.62
+}

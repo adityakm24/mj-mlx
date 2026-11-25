@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T15:29:07",
+ "top_cpu": [
+  "0 kernel_task 27.7",
+  "28585 spotlightknowled 19.1",
+  "30572 top 4.1",
+  "28166 signpost_reporte 3.6",
+  "1143 openshell-driver 1.9",
+  "652 Finder 1.4",
+  "819 node 1.4",
+  "463 analyticsd 0.9"
+ ],
+ "swap": "total = 10240.00M  used = 5103.31M  free = 5136.69M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 3.27 2.84 2.31 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 5103.38
+}

@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-20T09:34:31",
+ "top_cpu": [
+  "54768 spotlightknowled 97.8",
+  "55727 mediaanalysisd 84.4",
+  "413 WindowServer 16.3",
+  "621 cfprefsd 12.2",
+  "0 kernel_task 11.2",
+  "409 corebrightnessd 6.5",
+  "65657 top 5.8",
+  "58595 VTEncoderXPCServ 5.7"
+ ],
+ "swap": "total = 3072.00M  used = 2714.56M  free = 357.44M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 64%",
+ "loadavg": "{ 4.00 4.49 4.25 }"
+}

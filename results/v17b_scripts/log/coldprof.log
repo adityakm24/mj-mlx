@@ -1,0 +1,18 @@
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_profile.py --variant gptoss:mj-a8w --label mj-a8w --out results/cold_profile_v1/gptoss.jsonl
+{"prewarm_untimed": 3.300423665998096, "import": 0.27359295899805147, "load": 9.001716250000754, "first_request": 0.9316129590006312, "to_first_token_from_import": 10.309507667003345} 10.1523456
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_profile.py --variant gptoss:mj-a8wb --label mj-a8wb --out results/cold_profile_v1/gptoss.jsonl
+{"prewarm_untimed": 0.7231337500015798, "import": 0.052583333002985455, "load": 2.2928059579971887, "first_request": 1.4166747079980269, "to_first_token_from_import": 3.8111819999976433} 0.4230144
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_profile.py --variant gptoss:mj-a8w --label mj-a8w --out results/cold_profile_v1/gptoss.jsonl
+{"prewarm_untimed": 0.72461212500275, "import": 0.1430761249976058, "load": 3.691605874999368, "first_request": 1.1209812500019325, "to_first_token_from_import": 5.020020624997414} 10.1523456
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_profile.py --variant gptoss:mj-a8wb --label mj-a8wb --out results/cold_profile_v1/gptoss.jsonl
+{"prewarm_untimed": 0.7460232080011338, "import": 0.12364837499990244, "load": 2.559884915997827, "first_request": 1.347493833000044, "to_first_token_from_import": 4.092458583996631} 1.6920576
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_profile.py --variant gptoss:mj-a8w --label mj-a8w-prof --cprofile --out results/cold_profile_v1/gptoss.jsonl
+{"prewarm_untimed": 0.7279667920010979, "import": 0.13270708299751277, "load": 3.5098472499994386, "first_request": 1.5627306250025867, "to_first_token_from_import": 5.355552207998699} 10.1523456
+
+$ ~/Documents/Projects/mj-mlx/.venv/bin/python tools/mlx_cold_profile.py --variant gptoss:mj-a8wb --label mj-a8wb-prof --cprofile --out results/cold_profile_v1/gptoss.jsonl
+{"prewarm_untimed": 0.7311829169993871, "import": 0.1516758750003646, "load": 2.830622166999092, "first_request": 1.444260291998944, "to_first_token_from_import": 4.503027416001714} 1.1280384

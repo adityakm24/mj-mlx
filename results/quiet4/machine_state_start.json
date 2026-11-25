@@ -1,0 +1,16 @@
+{
+ "time": "2026-11-17T23:10:15",
+ "top_cpu": [
+  "604 WindowServer 19.2",
+  "1475 Claude Helper (R 9.3",
+  "1393 Claude Helper 7.5",
+  "12929 top 5.9",
+  "0 kernel_task 5.9",
+  "2476 claude 3.6",
+  "585 dasd 3.0",
+  "572 opendirectoryd 2.5"
+ ],
+ "swap": "total = 4096.00M  used = 2594.00M  free = 1502.00M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 83%",
+ "loadavg": "{ 2.04 1.57 1.42 }"
+}

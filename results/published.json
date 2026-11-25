@@ -1,0 +1,101 @@
+{
+  "about": "Every number the README and docs publish, with the run that produced it. tools/reproduce.py re-runs each claim with the same tool and settings into a new folder and compares the new numbers with the published ones. 'published' is the source run's own output file, never a hand-typed number; 'relations' are the sentences the README makes from it (faster: the 95% intervals do not overlap; tie: they overlap).",
+  "claims": [
+    {
+      "id": "q36-vs-llamacpp",
+      "source": "RESULTS 1zb",
+      "where": "README.md, What it does well: Qwen3.6-35B-A3B row",
+      "kind": "suite",
+      "suite": {"models": "q35b", "engines": "mj,llama.cpp", "tests": "pp512,pp2048,tg128@d0,tg128@d2048", "reps": 5, "rounds": 2},
+      "published": "results/bench_suite/v4_q35b/summary.json",
+      "relations": [
+        {"model": "q35b", "test": "tg128@d0", "faster": "mj", "than": ["llama.cpp"]},
+        {"model": "q35b", "test": "tg128@d2048", "faster": "mj", "than": ["llama.cpp"]},
+        {"model": "q35b", "test": "pp512", "faster": "mj", "than": ["llama.cpp"]},
+        {"model": "q35b", "test": "pp2048", "faster": "mj", "than": ["llama.cpp"]}
+      ]
+    },
+    {
+      "id": "gptoss-decode",
+      "source": "RESULTS 1zh",
+      "where": "README.md, What it does well: gpt-oss-20b row",
+      "kind": "suite",
+      "suite": {"models": "gptoss", "engines": "mj-a8,llama.cpp,ollama-gguf,lmstudio-gguf", "tests": "pp512,pp2048,tg128@d0,tg128@d2048", "reps": 5, "rounds": 2},
+      "published": "results/bench_suite/v12_quiet/summary.json",
+      "relations": [
+        {"model": "gptoss", "test": "tg128@d0", "faster": "mj-a8", "than": ["llama.cpp", "lmstudio-gguf", "ollama-gguf"]},
+        {"model": "gptoss", "test": "tg128@d2048", "faster": "mj-a8", "than": ["llama.cpp", "lmstudio-gguf", "ollama-gguf"]}
+      ]
+    },
+    {
+      "id": "dsv2lite-decode",
+      "source": "RESULTS 1zh",
+      "where": "README.md, What it does well: DeepSeek-V2-Lite row; Where it is behind: short-context decode",
+      "kind": "suite",
+      "suite": {"models": "dsv2lite", "engines": "mj,llama.cpp,ollama-gguf,vllm-mlx", "tests": "pp512,pp2048,tg128@d0,tg128@d2048", "reps": 5, "rounds": 2},
+      "published": "results/bench_suite/v12_quiet/summary.json",
+      "relations": [
+        {"model": "dsv2lite", "test": "tg128@d2048", "faster": "mj", "than": ["vllm-mlx", "llama.cpp", "ollama-gguf"]},
+        {"model": "dsv2lite", "test": "tg128@d0", "faster": "vllm-mlx", "than": ["mj"]}
+      ]
+    },
+    {
+      "id": "olmoe-decode",
+      "source": "RESULTS 1zh",
+      "where": "README.md, What it does well: OLMoE row; Where it is behind: short-context decode, prefill",
+      "kind": "suite",
+      "suite": {"models": "olmoe", "engines": "mj,mlx-lm,llama.cpp,vllm-mlx", "tests": "pp512,pp2048,tg128@d0,tg128@d2048", "reps": 5, "rounds": 2},
+      "published": "results/bench_suite/v12_quiet/summary.json",
+      "relations": [
+        {"model": "olmoe", "test": "tg128@d2048", "tie": ["mj", "vllm-mlx"]},
+        {"model": "olmoe", "test": "tg128@d2048", "faster": "mj", "than": ["mlx-lm", "llama.cpp"]},
+        {"model": "olmoe", "test": "pp2048", "faster": "mlx-lm", "than": ["mj"]},
+        {"model": "olmoe", "test": "pp512", "faster": "llama.cpp", "than": ["mj"]}
+      ]
+    },
+    {
+      "id": "accuracy-olmoe",
+      "source": "RESULTS 1ze",
+      "where": "README.md, accuracy paragraph; docs/models.md",
+      "kind": "ppl",
+      "runs": [
+        {"name": "olmoe_mj_bf16", "published": "results/accuracy/olmoe_mj_bf16.json", "save_ref": "ref_olmoe_bf16"},
+        {"name": "olmoe_mj_q4_kld", "published": "results/accuracy/olmoe_mj_q4_kld.json", "ref": "ref_olmoe_bf16"},
+        {"name": "olmoe_mlx-lm_q4_kld", "published": "results/accuracy/olmoe_mlx-lm_q4_kld.json", "ref": "ref_olmoe_bf16"},
+        {"name": "olmoe_llamacpp_q4km", "published": "results/accuracy/olmoe_llamacpp_q4km.log", "llama": {"model": "olmoe", "args": ["-c", "512", "--chunks", "80"]}}
+      ]
+    },
+    {
+      "id": "accuracy-dsv2lite",
+      "source": "RESULTS 1ze",
+      "where": "README.md, accuracy paragraph",
+      "kind": "ppl",
+      "runs": [
+        {"name": "dsv2lite_mj_q4", "published": "results/accuracy/dsv2lite_mj_q4.json"},
+        {"name": "dsv2lite_mlx-lm_q4", "published": "results/accuracy/dsv2lite_mlx-lm_q4.json"},
+        {"name": "dsv2lite_llamacpp_q4km", "published": "results/accuracy/dsv2lite_llamacpp_q4km.log", "llama": {"model": "dsv2lite", "args": ["-c", "512", "--chunks", "80"]}}
+      ]
+    },
+    {
+      "id": "accuracy-q30b",
+      "source": "RESULTS 1ze",
+      "where": "README.md, accuracy paragraph",
+      "kind": "ppl",
+      "runs": [
+        {"name": "q30b_mj_q4", "published": "results/accuracy/q30b_mj_q4.json"},
+        {"name": "q30b_llamacpp_q4km", "published": "results/accuracy/q30b_llamacpp_q4km.log", "llama": {"model": "q30b", "args": ["-c", "512", "--chunks", "40", "-ncmoe", "48"]}}
+      ]
+    },
+    {
+      "id": "accuracy-gptoss",
+      "source": "RESULTS 1ze",
+      "where": "README.md, accuracy paragraph; checklist 0.1b",
+      "kind": "ppl",
+      "runs": [
+        {"name": "gptoss_mj_exact", "published": "results/accuracy/gptoss_mj_exact.json"},
+        {"name": "gptoss_mj_a8", "published": "results/accuracy/gptoss_mj_a8.json"},
+        {"name": "gptoss_llamacpp_mxfp4", "published": "results/accuracy/gptoss_llamacpp_mxfp4.log", "llama": {"model": "gptoss", "args": ["-c", "512", "--chunks", "80"]}}
+      ]
+    }
+  ]
+}

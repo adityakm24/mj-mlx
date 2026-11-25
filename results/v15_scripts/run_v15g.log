@@ -1,0 +1,40 @@
+== D 04:41:53 swap 2759.56M
+  gptoss_x_c2048 exit 0 04:42:31 ppl 1406.661
+  gptoss_x_c2048_p512 exit 0 04:43:36 ppl 1415.441
+  gptoss_x_c8192 exit 0 04:44:39 ppl 11069.317
+  gptoss_x_c8192_p512 exit 0 04:46:23 ppl 10930.796
+  gptoss_x_c16384 exit 0 04:47:37 ppl 8179.231
+  gptoss_x_c16384_p512 exit 0 04:49:48 ppl 8439.858
+  gptoss_a8_c16384_p512 exit 0 04:51:25 ppl 7985.314
+  dsv2_c16384_p2048 exit 0 04:53:10 ppl 6.604
+  llama.cpp c2048 exit 0 04:53:54 Final estimate: PPL = 1183.9583
+  llama.cpp c8192 exit 0 04:55:31 Final estimate: PPL = 6437.7276
+  llama.cpp c16384 exit 0 04:57:08 Final estimate: PPL = 4260.6189
+== H olmoe 04:57:08 swap 7982.62M
+  H olmoe exit 0
+== H dsv2lite 04:58:40 swap 2114.50M
+  H dsv2lite exit 0
+== H gptoss 04:59:56 swap 2307.00M
+  H gptoss exit 0
+== E olmoe:mj 05:00:46 swap 2113.00M
+  E olmoe:mj exit 0
+== E olmoe:mlx-lm 05:18:15 swap 2425.19M
+  E olmoe:mlx-lm exit 0
+== E olmoe:llama-server 05:36:07 swap 2211.56M
+  E olmoe:llama-server exit 0
+== E dsv2lite:mj 05:54:33 swap 2720.81M
+  E dsv2lite:mj exit 0
+== E dsv2lite:mlx-lm 06:36:52 swap 1869.75M
+  E dsv2lite:mlx-lm exit 0
+== E dsv2lite:llama-server 07:15:48 swap 2413.12M
+  E dsv2lite:llama-server exit 1
+== E gptoss:mj 07:16:18 swap 2441.19M
+  E gptoss:mj exit 0
+== E gptoss:llama-server 08:45:47 swap 2418.81M
+  E gptoss:llama-server exit 0
+all done 09:49:37
+started local.service-a
+started local.service-b
+started sh.brew.openshell
+started local.dev-backend
+cleanup done 09:49:37

@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-20T14:22:59",
+ "top_cpu": [
+  "755 siriactionsd 96.7",
+  "413 WindowServer 24.6",
+  "855 TGOnDeviceInfere 18.1",
+  "0 kernel_task 11.8",
+  "1306 Claude Helper 10.8",
+  "2247 stickersd 7.7",
+  "2386 top 6.7",
+  "1321 Claude Helper (R 5.1"
+ ],
+ "swap": "total = 0.00M  used = 0.00M  free = 0.00M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 56%",
+ "loadavg": "{ 3.34 11.29 7.83 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 0.0
+}

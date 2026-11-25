@@ -1,0 +1,18 @@
+{
+ "time": "2026-11-19T10:45:53",
+ "top_cpu": [
+  "68390 STExtractionServ 19.6",
+  "70137 top 5.6",
+  "1342 claude 3.9",
+  "520 com.apple.Driver 3.6",
+  "0 kernel_task 3.1",
+  "43025 claude 2.9",
+  "67031 nsurlsessiond 2.6",
+  "48258 sysmond 1.7"
+ ],
+ "swap": "total = 5120.00M  used = 4180.62M  free = 939.38M  (encrypted)",
+ "memory_pressure": "System-wide memory free percentage: 79%",
+ "loadavg": "{ 1.54 2.21 2.33 }",
+ "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+ "swap_used_mb": 4180.62
+}

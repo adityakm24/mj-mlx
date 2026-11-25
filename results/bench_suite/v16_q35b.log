@@ -1,0 +1,217 @@
+== q35b_r1_mj 00:11:00 swap 3394 MB
+  q35b_r1_mj pp512 rep 0: 166.85 tok/s, 32 mJ/token GPU
+  q35b_r1_mj pp512 rep 1: 170.07 tok/s, 33 mJ/token GPU
+  q35b_r1_mj pp512 rep 2: 166.97 tok/s, 30 mJ/token GPU
+  q35b_r1_mj pp512 rep 3: 170.58 tok/s, 32 mJ/token GPU
+  q35b_r1_mj pp512 rep 4: 175.40 tok/s, 31 mJ/token GPU
+  q35b_r1_mj pp2048 rep 0: 275.14 tok/s, 37 mJ/token GPU
+  q35b_r1_mj pp2048 rep 1: 275.54 tok/s, 37 mJ/token GPU
+  q35b_r1_mj pp2048 rep 2: 270.58 tok/s, 37 mJ/token GPU
+  q35b_r1_mj pp2048 rep 3: 276.95 tok/s, 38 mJ/token GPU
+  q35b_r1_mj pp2048 rep 4: 274.22 tok/s, 37 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 0: 19.79 tok/s, ttft 0.32 s, 219 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 1: 22.76 tok/s, ttft 0.32 s, 214 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 2: 26.48 tok/s, ttft 0.24 s, 209 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 3: 27.95 tok/s, ttft 0.24 s, 209 mJ/token GPU
+  q35b_r1_mj tg128@d0 rep 4: 23.65 tok/s, ttft 0.28 s, 209 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 0: 23.68 tok/s, ttft 7.62 s, 230 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 1: 20.65 tok/s, ttft 7.45 s, 239 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 2: 20.69 tok/s, ttft 7.49 s, 240 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 3: 20.30 tok/s, ttft 7.72 s, 241 mJ/token GPU
+  q35b_r1_mj tg128@d2048 rep 4: 19.38 tok/s, ttft 7.56 s, 242 mJ/token GPU
+== q35b_r1_llama.cpp 00:18:24 swap 2968 MB
+llama.cpp pp512: 16.90 +- 0.19 tok/s
+llama.cpp pp2048: 13.70 +- 1.41 tok/s
+llama.cpp tg128@d0: 4.46 +- 1.26 tok/s
+llama.cpp tg128@d2048: 4.61 +- 1.30 tok/s
+  FLAGGED: swap grew 834 MB
+== q35b_r1_llama-server 00:41:13 swap 3714 MB
+  llama-server: up
+  q35b_r1_llama-server pp512 rep 0: 16.62 tok/s, 14 mJ/token GPU
+  q35b_r1_llama-server pp512 rep 1: 15.94 tok/s, 15 mJ/token GPU
+  q35b_r1_llama-server pp512 rep 2: 14.83 tok/s, 15 mJ/token GPU
+  q35b_r1_llama-server pp512 rep 3: 15.53 tok/s, 15 mJ/token GPU
+  q35b_r1_llama-server pp512 rep 4: 16.07 tok/s, 15 mJ/token GPU
+  q35b_r1_llama-server pp2048 rep 0: 16.17 tok/s, 16 mJ/token GPU
+  q35b_r1_llama-server pp2048 rep 1: 15.44 tok/s, 16 mJ/token GPU
+  q35b_r1_llama-server pp2048 rep 2: 15.13 tok/s, 16 mJ/token GPU
+  q35b_r1_llama-server pp2048 rep 3: 14.55 tok/s, 16 mJ/token GPU
+  q35b_r1_llama-server pp2048 rep 4: 11.71 tok/s, 26 mJ/token GPU
+  q35b_r1_llama-server tg128@d0 rep 0: 3.31 tok/s, ttft 7.14 s, 128 mJ/token GPU
+  q35b_r1_llama-server tg128@d0 rep 1: 2.22 tok/s, ttft 9.69 s, 141 mJ/token GPU
+  q35b_r1_llama-server tg128@d0 rep 2: 3.14 tok/s, ttft 6.84 s, 123 mJ/token GPU
+  q35b_r1_llama-server tg128@d0 rep 3: 3.17 tok/s, ttft 7.75 s, 134 mJ/token GPU
+  q35b_r1_llama-server tg128@d0 rep 4: 3.91 tok/s, ttft 6.55 s, 115 mJ/token GPU
+  q35b_r1_llama-server tg128@d2048 rep 0: 3.36 tok/s, ttft 149.07 s, 88 mJ/token GPU
+  q35b_r1_llama-server tg128@d2048 rep 1: 2.33 tok/s, ttft 173.70 s, 112 mJ/token GPU
+  q35b_r1_llama-server tg128@d2048 rep 2: 2.64 tok/s, ttft 143.84 s, 83 mJ/token GPU
+  q35b_r1_llama-server tg128@d2048 rep 3: 2.75 tok/s, ttft 160.52 s, 83 mJ/token GPU
+  q35b_r1_llama-server tg128@d2048 rep 4: 2.95 tok/s, ttft 153.50 s, 83 mJ/token GPU
+  FLAGGED: swap grew 11898 MB
+== q35b_r2_llama-server 01:29:44 swap 3794 MB
+  llama-server: up
+python(12246) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  q35b_r2_llama-server pp512 rep 0: 15.66 tok/s, 15 mJ/token GPU
+  q35b_r2_llama-server pp512 rep 1: 16.04 tok/s, 15 mJ/token GPU
+  q35b_r2_llama-server pp512 rep 2: 15.99 tok/s, 14 mJ/token GPU
+  q35b_r2_llama-server pp512 rep 3: 15.93 tok/s, 14 mJ/token GPU
+  q35b_r2_llama-server pp512 rep 4: 16.09 tok/s, 15 mJ/token GPU
+  q35b_r2_llama-server pp2048 rep 0: 15.40 tok/s, 16 mJ/token GPU
+  q35b_r2_llama-server pp2048 rep 1: 15.29 tok/s, 16 mJ/token GPU
+  q35b_r2_llama-server pp2048 rep 2: 14.43 tok/s, 16 mJ/token GPU
+  q35b_r2_llama-server pp2048 rep 3: 12.92 tok/s, 16 mJ/token GPU
+  q35b_r2_llama-server pp2048 rep 4: 13.86 tok/s, 16 mJ/token GPU
+  q35b_r2_llama-server tg128@d0 rep 0: 4.27 tok/s, ttft 6.14 s, 82 mJ/token GPU
+  q35b_r2_llama-server tg128@d0 rep 1: 5.66 tok/s, ttft 2.90 s, 83 mJ/token GPU
+  q35b_r2_llama-server tg128@d0 rep 2: 5.05 tok/s, ttft 3.89 s, 84 mJ/token GPU
+  q35b_r2_llama-server tg128@d0 rep 3: 5.23 tok/s, ttft 3.90 s, 83 mJ/token GPU
+  q35b_r2_llama-server tg128@d0 rep 4: 5.54 tok/s, ttft 4.77 s, 84 mJ/token GPU
+  q35b_r2_llama-server tg128@d2048 rep 0: 3.62 tok/s, ttft 126.50 s, 85 mJ/token GPU
+  q35b_r2_llama-server tg128@d2048 rep 1: 3.86 tok/s, ttft 132.12 s, 83 mJ/token GPU
+  q35b_r2_llama-server tg128@d2048 rep 2: 2.64 tok/s, ttft 145.63 s, 82 mJ/token GPU
+  q35b_r2_llama-server tg128@d2048 rep 3: 3.65 tok/s, ttft 149.89 s, 82 mJ/token GPU
+  q35b_r2_llama-server tg128@d2048 rep 4: 2.82 tok/s, ttft 151.45 s, 82 mJ/token GPU
+python(12248) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12253) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12254) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  FLAGGED: swap grew 11438 MB
+python(12270) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12276) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12277) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+== q35b_r2_llama.cpp 02:13:52 swap 3656 MB
+python(12278) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+llama.cpp pp512: 15.72 +- 0.88 tok/s
+python(12629) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+llama.cpp pp2048: 12.65 +- 0.40 tok/s
+python(13545) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+llama.cpp tg128@d0: 3.86 +- 0.19 tok/s
+python(13864) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+llama.cpp tg128@d2048: 3.43 +- 0.50 tok/s
+python(14264) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14270) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14271) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  FLAGGED: swap grew 943 MB
+python(14286) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14292) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14293) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+== q35b_r2_mj 02:39:13 swap 4465 MB
+python(14294) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14295) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14521) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  q35b_r2_mj pp512 rep 0: 168.56 tok/s, 31 mJ/token GPU
+  q35b_r2_mj pp512 rep 1: 174.28 tok/s, 31 mJ/token GPU
+  q35b_r2_mj pp512 rep 2: 173.82 tok/s, 29 mJ/token GPU
+  q35b_r2_mj pp512 rep 3: 172.57 tok/s, 31 mJ/token GPU
+  q35b_r2_mj pp512 rep 4: 172.43 tok/s, 30 mJ/token GPU
+  q35b_r2_mj pp2048 rep 0: 277.17 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 1: 276.49 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 2: 278.54 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 3: 276.64 tok/s, 36 mJ/token GPU
+  q35b_r2_mj pp2048 rep 4: 274.78 tok/s, 35 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 0: 22.19 tok/s, ttft 0.26 s, 205 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 1: 20.42 tok/s, ttft 0.28 s, 205 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 2: 21.17 tok/s, ttft 0.28 s, 202 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 3: 22.54 tok/s, ttft 0.24 s, 203 mJ/token GPU
+  q35b_r2_mj tg128@d0 rep 4: 19.35 tok/s, ttft 0.27 s, 209 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 0: 20.44 tok/s, ttft 7.56 s, 225 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 1: 21.45 tok/s, ttft 7.52 s, 225 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 2: 19.29 tok/s, ttft 7.72 s, 229 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 3: 19.75 tok/s, ttft 7.79 s, 226 mJ/token GPU
+  q35b_r2_mj tg128@d2048 rep 4: 20.50 tok/s, ttft 7.55 s, 227 mJ/token GPU
+python(14522) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14527) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(14528) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## Qwen3.6-35B-A3B (20.4 GB, bigger than RAM)
+
+Weights: ours: mlx-community 4-bit g64, experts streamed from the SSD (96 slots/layer, C++ streamer; 128 ran out of Metal memory in v1); llama.cpp: Q4_K_M, experts on the CPU (-ncmoe 40)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| llama-server | pp512 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | pp512 | every block flagged (see below) | | | 0 | - | - |
+| mj | pp512 | 171.15 +- 3.03 | 168.99-173.32 | 1.8% | 10 | 31 | 71 |
+| llama-server | pp2048 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | pp2048 | every block flagged (see below) | | | 0 | - | - |
+| mj | pp2048 | 275.60 +- 2.18 | 274.05-277.16 | 0.8% | 10 | 37 | 76 |
+| llama-server | tg128@d0 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | tg128@d0 | every block flagged (see below) | | | 0 | - | - |
+| mj | tg128@d0 | 22.63 +- 2.79 | 20.63-24.63 | 12.3% | 10 | 208 | 772 |
+| llama-server | tg128@d2048 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | tg128@d2048 | every block flagged (see below) | | | 0 | - | - |
+| mj | tg128@d2048 | 20.62 +- 1.26 | 19.72-21.51 | 6.1% | 10 | 232 | 941 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama-server | pp512 | 15.87 +- 0.46 (14.83-16.62) | 10 |
+| llama.cpp | pp512 | 16.31 +- 0.86 (14.76-17.07) | 6 |
+| llama-server | pp2048 | 14.49 +- 1.34 (11.71-16.17) | 10 |
+| llama.cpp | pp2048 | 13.17 +- 1.09 (12.41-15.22) | 6 |
+| llama-server | tg128@d0 | 4.15 +- 1.19 (2.22-5.66) | 10 |
+| llama.cpp | tg128@d0 | 4.16 +- 0.87 (3.45-5.86) | 6 |
+| llama-server | tg128@d2048 | 3.06 +- 0.52 (2.33-3.86) | 10 |
+| llama.cpp | tg128@d2048 | 4.02 +- 1.09 (2.87-5.38) | 6 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_llama-server | llama-server | 24.50 | 4.96 | 977.61 | 983.69 |
+| r1_mj | mj | 11.52 | 7.87 | 1.58 | 1.19 |
+| r2_llama-server | llama-server | 24.50 | 4.71 | 882.98 | 887.08 |
+| r2_mj | mj | 11.51 | 7.87 | 0.76 | 0.09 |
+| r1_llama.cpp | llama.cpp | 20.04 | 12.07 | - | - |
+| r2_llama.cpp | llama.cpp | 20.03 | 11.22 | - | - |
+
+# Benchmark suite summary
+
+Protocol: results/BENCH_PROTOCOL.md. tok/s: mean +- sd [95% CI], CV, n (timed reps, flagged blocks excluded). Energy: IOReport GPU rail over the test window, estimated (SoC rails); none for llama-bench (its window includes model load).
+
+## Qwen3.6-35B-A3B (20.4 GB, bigger than RAM)
+
+Weights: ours: mlx-community 4-bit g64, experts streamed from the SSD (96 slots/layer, C++ streamer; 128 ran out of Metal memory in v1); llama.cpp: Q4_K_M, experts on the CPU (-ncmoe 40)
+
+| engine | test | tok/s | 95% CI | CV | n | GPU mJ/token | machine mJ/token above idle |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| llama-server | pp512 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | pp512 | every block flagged (see below) | | | 0 | - | - |
+| mj | pp512 | 171.15 +- 3.03 | 168.99-173.32 | 1.8% | 10 | 31 | 71 |
+| llama-server | pp2048 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | pp2048 | every block flagged (see below) | | | 0 | - | - |
+| mj | pp2048 | 275.60 +- 2.18 | 274.05-277.16 | 0.8% | 10 | 37 | 76 |
+| llama-server | tg128@d0 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | tg128@d0 | every block flagged (see below) | | | 0 | - | - |
+| mj | tg128@d0 | 22.63 +- 2.79 | 20.63-24.63 | 12.3% | 10 | 208 | 772 |
+| llama-server | tg128@d2048 | every block flagged (see below) | | | 0 | - | - |
+| llama.cpp | tg128@d2048 | every block flagged (see below) | | | 0 | - | - |
+| mj | tg128@d2048 | 20.62 +- 1.26 | 19.72-21.51 | 6.1% | 10 | 232 | 941 |
+
+Flagged blocks (excluded above; reason in blocks/*.flagged):
+
+| engine | test | tok/s (flagged reps) | n |
+| --- | --- | --- | --- |
+| llama-server | pp512 | 15.87 +- 0.46 (14.83-16.62) | 10 |
+| llama.cpp | pp512 | 16.31 +- 0.86 (14.76-17.07) | 6 |
+| llama-server | pp2048 | 14.49 +- 1.34 (11.71-16.17) | 10 |
+| llama.cpp | pp2048 | 13.17 +- 1.09 (12.41-15.22) | 6 |
+| llama-server | tg128@d0 | 4.15 +- 1.19 (2.22-5.66) | 10 |
+| llama.cpp | tg128@d0 | 4.16 +- 0.87 (3.45-5.86) | 6 |
+| llama-server | tg128@d2048 | 3.06 +- 0.52 (2.33-3.86) | 10 |
+| llama.cpp | tg128@d2048 | 4.02 +- 1.09 (2.87-5.38) | 6 |
+
+Peak memory per block, GB (footprint: macOS's figure, GPU buffers included, mapped files not; resident: pages in RAM, mapped weight files included); swap-ins / -outs over the block:
+
+| block | engine | peak footprint | peak resident | swap-in GB | swap-out GB |
+| --- | --- | --- | --- | --- | --- |
+| r1_llama-server | llama-server | 24.50 | 4.96 | 977.61 | 983.69 |
+| r1_mj | mj | 11.52 | 7.87 | 1.58 | 1.19 |
+| r2_llama-server | llama-server | 24.50 | 4.71 | 882.98 | 887.08 |
+| r2_mj | mj | 11.51 | 7.87 | 0.76 | 0.09 |
+| r1_llama.cpp | llama.cpp | 20.04 | 12.07 | - | - |
+| r2_llama.cpp | llama.cpp | 20.03 | 11.22 | - | - |
+
