@@ -75,7 +75,7 @@ git clone https://github.com/adityakm24/mj-mlx.git && cd mj-mlx
 ```
 
 ```bash
-python3.11 -m venv .venv && .venv/bin/pip install "maturin>=1.7,<2" transformers huggingface_hub
+python3.11 -m venv .venv && .venv/bin/pip install "maturin>=1.7,<2" transformers huggingface_hub jinja2
 ```
 
 ```bash
